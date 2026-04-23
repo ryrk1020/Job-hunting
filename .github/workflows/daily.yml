@@ -1,0 +1,61 @@
+name: daily-scrape
+
+on:
+  schedule:
+    # 06:00 UTC == 01:00 US Central. Change to taste.
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
+          USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
+        run: python -m scraper.main --config config.yaml --out output
+
+      - name: Commit latest output
+        run: |
+          git config user.name "job-hunter-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add output
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: daily job scrape $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "no changes"
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+  publish:
+    needs: scrape
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

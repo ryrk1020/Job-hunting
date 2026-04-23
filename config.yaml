@@ -1,0 +1,246 @@
+# Job Hunter config
+# Tune keywords, locations, and company boards here.
+
+# Keyword groups. A job matches if any group's tokens all appear
+# in the title OR description (case-insensitive). Add / remove freely.
+keywords:
+  data:
+    - ["data", "engineer"]
+    - ["data", "analyst"]
+    - ["analytics", "engineer"]
+    - ["etl"]
+    - ["bi", "developer"]
+    - ["business", "intelligence"]
+    - ["snowflake"]
+    - ["databricks"]
+    - ["sql", "developer"]
+    - ["data", "scientist"]
+    - ["machine", "learning"]
+    - ["ml", "engineer"]
+    - ["big", "data"]
+  marketing:
+    - ["marketing"]
+    - ["growth", "marketing"]
+    - ["digital", "marketing"]
+    - ["product", "marketing"]
+    - ["marketing", "analyst"]
+    - ["marketing", "analytics"]
+    - ["brand", "manager"]
+    - ["seo"]
+    - ["campaign", "manager"]
+    - ["crm"]
+  # "Vibecoding" - AI-assisted / LLM / GenAI engineering roles.
+  vibecoding:
+    - ["ai", "engineer"]
+    - ["llm", "engineer"]
+    - ["genai"]
+    - ["generative", "ai"]
+    - ["prompt", "engineer"]
+    - ["applied", "ai"]
+    - ["forward", "deployed"]
+    - ["ai", "developer"]
+    - ["ai", "product"]
+    - ["ml", "platform"]
+    - ["rag"]
+    - ["agent", "engineer"]
+    - ["copilot"]
+  junior:
+    - ["associate"]
+    - ["junior"]
+    - ["entry", "level"]
+    - ["new", "grad"]
+
+# Location preferences. Jobs matching the "preferred" list get a score boost.
+# Jobs matching the "allowed" list are kept. "remote" is always allowed.
+locations:
+  preferred:
+    - frisco
+    - dallas
+    - fort worth
+    - plano
+    - irving
+    - arlington
+    - richardson
+    - addison
+    - las colinas
+    - mckinney
+    - allen
+    - denton
+  allowed_states:
+    - texas
+    - tx
+  allow_remote: true
+
+# Anything containing these tokens will be excluded.
+exclude:
+  companies:
+    - cognizant
+  # Small / early-stage startups we don't want in the feed.
+  # Add company names (case-insensitive substring match) to skip them.
+  companies_early_stage:
+    - stealth
+    - seed stage
+  titles:
+    - "senior staff"
+    - "principal"
+    - "director"
+    - "vp "
+    - "head of"
+
+# Freshness — only keep jobs posted within this many days.
+max_age_days: 7
+
+# Minimum unique jobs we want per run. The runner will widen
+# searches (drop location filter) until we hit this floor.
+min_jobs_target: 50
+
+# Sources to enable.
+sources:
+  remotive: true
+  remoteok: true
+  themuse: true
+  adzuna: true          # needs ADZUNA_APP_ID + ADZUNA_APP_KEY env vars
+  usajobs: true         # needs USAJOBS_EMAIL + USAJOBS_API_KEY env vars (free)
+  indeed_rss: true
+  linkedin: true
+  greenhouse: true
+  lever: true
+  ashby: true
+  smartrecruiters: true
+  workable: true
+  workday: true
+  ycombinator: false    # default off — firehose of small startups
+
+# Indeed RSS queries (location-qualified). Expand as needed.
+indeed_rss_queries:
+  - { q: "data engineer",     l: "Dallas, TX" }
+  - { q: "data analyst",      l: "Dallas, TX" }
+  - { q: "analytics engineer",l: "Dallas, TX" }
+  - { q: "ai engineer",       l: "Dallas, TX" }
+  - { q: "machine learning",  l: "Dallas, TX" }
+  - { q: "data engineer",     l: "Frisco, TX" }
+  - { q: "data analyst",      l: "Frisco, TX" }
+  - { q: "data engineer",     l: "Fort Worth, TX" }
+  - { q: "data engineer",     l: "Plano, TX" }
+  - { q: "marketing analyst", l: "Dallas, TX" }
+  - { q: "marketing",         l: "Frisco, TX" }
+  - { q: "marketing",         l: "Fort Worth, TX" }
+  - { q: "ai engineer",       l: "Texas" }
+  - { q: "llm engineer",      l: "Texas" }
+  - { q: "genai",             l: "Texas" }
+  - { q: "data engineer",     l: "Texas" }
+  - { q: "marketing",         l: "Texas" }
+
+# LinkedIn queries (public guest search endpoint).
+linkedin_queries:
+  - { q: "data engineer",      l: "Dallas, Texas, United States" }
+  - { q: "data analyst",       l: "Dallas, Texas, United States" }
+  - { q: "analytics engineer", l: "Dallas, Texas, United States" }
+  - { q: "ai engineer",        l: "Dallas, Texas, United States" }
+  - { q: "llm engineer",       l: "Dallas, Texas, United States" }
+  - { q: "data engineer",      l: "Frisco, Texas, United States" }
+  - { q: "data engineer",      l: "Fort Worth, Texas, United States" }
+  - { q: "data engineer",      l: "Plano, Texas, United States" }
+  - { q: "marketing",          l: "Dallas, Texas, United States" }
+  - { q: "marketing analyst",  l: "Dallas, Texas, United States" }
+  - { q: "data engineer",      l: "Texas, United States" }
+  - { q: "ai engineer",        l: "Texas, United States" }
+
+# Greenhouse boards (company slug as seen in boards.greenhouse.io/<slug>).
+# These are established, H1B/OPT-friendly employers that publish directly
+# to Greenhouse.
+greenhouse_boards:
+  - airbnb
+  - stripe
+  - databricks
+  - discord
+  - robinhood
+  - doordash
+  - instacart
+  - plaid
+  - twilio
+  - pinterest
+  - coinbase
+  - figma
+  - notion
+  - anthropic
+  - openai
+  - reddit
+  - affirm
+  - gusto
+  - rippling
+  - brex
+  - benchling
+  - asana
+  - box
+  - dropbox
+  - cloudflare
+  - samsara
+  - snowflake
+  - elastic
+  - hashicorp
+  - gitlab
+  - mongodb
+  - chime
+  - flexport
+  - fivetran
+  - mixpanel
+  - datadog
+  - lyft
+  - opendoor
+
+# Lever boards (api.lever.co/v0/postings/<slug>).
+lever_boards:
+  - netflix
+  - ramp
+  - attentive
+  - kraken
+  - checkr
+  - scaleai
+
+# Ashby boards (api.ashbyhq.com/posting-api/job-board/<slug>).
+ashby_boards:
+  - ramp
+  - openai
+  - vercel
+  - mercury
+  - deel
+
+# SmartRecruiters boards (api.smartrecruiters.com/v1/companies/<slug>/postings).
+smartrecruiters_boards:
+  - Bosch
+  - Publicis
+  - Visa
+  - Ubisoft
+  - Verisure
+  - McDonalds
+
+# Workable accounts (apply.workable.com/<slug>).
+workable_boards:
+  - sonatype
+  - orum
+  - vidyard
+
+# Workday tenants — large TX-heavy employers.
+# You can find the {tenant, host, site} by visiting a company's careers page and
+# inspecting the jobs URL, e.g. att.wd1.myworkdayjobs.com/External -> tenant=att, site=External.
+workday_tenants:
+  - { tenant: "att",      host: "wd1",   site: "ATTEXT" }
+  - { tenant: "usaa",     host: "wd1",   site: "USAAJOBSWEBSITE" }
+  - { tenant: "jpmc",     host: "wd1",   site: "jpmc" }
+  - { tenant: "capitalone", host: "wd1", site: "capitalone" }
+  - { tenant: "fidelity", host: "wd1",   site: "professional" }
+  - { tenant: "charlesschwab", host: "wd1", site: "External" }
+  - { tenant: "dell",     host: "wd1",   site: "External" }
+  - { tenant: "pepsico",  host: "wd3",   site: "PepsiCoJobs" }
+  - { tenant: "mckesson", host: "wd1",   site: "External_Career_Site" }
+  - { tenant: "texasinstruments", host: "wd5", site: "External" }
+  - { tenant: "7-11",     host: "wd1",   site: "7ElevenCareers" }
+
+# Workday search queries (run against every tenant).
+workday_queries:
+  - "data engineer"
+  - "data analyst"
+  - "marketing"
+  - "ai engineer"
+  - "machine learning"
