@@ -161,10 +161,13 @@ function jobCard(j) {
       <div class="job-main">
         <h3><a href="${j.url}" target="_blank" rel="noopener">${safe(j.title)}</a></h3>
         <div class="meta">
-          <span>🏢 ${safe(j.company)}</span>
-          <span>📍 ${safe(j.location)}</span>
-          <span>📅 ${posted || "—"}</span>
-          <span>🔗 ${safe(j.source)}</span>
+          <span class="meta-company">${safe(j.company)}</span>
+          <span class="meta-sep">·</span>
+          <span>${safe(j.location)}</span>
+          <span class="meta-sep">·</span>
+          <span>${posted || "—"}</span>
+          <span class="meta-sep">·</span>
+          <span class="meta-source">${safe(j.source)}</span>
         </div>
         <div class="tags">${tagHtml}</div>
       </div>
