@@ -1,56 +1,56 @@
 # Latest Jobs (50)
 
-_Generated 2026-04-24 08:10 UTC_
+_Generated 2026-04-24 11:35 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 100 | 2026-04-22 | linkedin | JPMorganChase | Software Engineer [Multiple Positions Available] | Plano, TX | [apply](https://www.linkedin.com/jobs/view/software-engineer-multiple-positions-available-at-jpmorganchase-4405204914) |
-| 2 | 160 |  | ashby | openai | Product & Solutions Lead, Safety and Security | San Francisco | [apply](https://jobs.ashbyhq.com/openai/c664cc09-d996-450c-8683-ad591ac27c11) |
-| 3 | 155 |  | ashby | openai | Research Scientist / Research Engineer — Early Career Cohort | San Francisco | [apply](https://jobs.ashbyhq.com/openai/4476b271-4987-4bd4-aa1e-0e68ea683b10) |
-| 4 | 155 |  | ashby | openai | Enterprise Security Engineer | San Francisco | [apply](https://jobs.ashbyhq.com/openai/4fb47557-86d2-47c3-9c6a-909aeb561329) |
-| 5 | 155 |  | ashby | openai | Fullstack Engineer, Intelligence Systems | San Francisco | [apply](https://jobs.ashbyhq.com/openai/52c72cb9-7c44-4cba-b440-e05262a38491) |
-| 6 | 155 |  | ashby | openai | Content Integrity Analyst | San Francisco | [apply](https://jobs.ashbyhq.com/openai/77b85828-3d4f-4958-b5cf-4787ca04975a) |
-| 7 | 155 |  | ashby | openai | Data Center Infrastructure Engineering Program Manager (Network and Whitespace) | San Francisco | [apply](https://jobs.ashbyhq.com/openai/0ed12b35-0115-4ad3-81f5-ea1bb05c9f6b) |
-| 8 | 150 |  | ashby | openai | Research Engineer, Applied AI Engineering | San Francisco | [apply](https://jobs.ashbyhq.com/openai/d44c9f70-4aef-45a4-a36a-54fb65663ccb) |
-| 9 | 150 |  | ashby | openai | Software Engineer, Reliability  | San Francisco | [apply](https://jobs.ashbyhq.com/openai/1faee5e7-3b2f-4d8c-9a6f-ff0f2a4a42a7) |
-| 10 | 150 |  | ashby | openai | Machine Learning Engineer, Integrity | San Francisco | [apply](https://jobs.ashbyhq.com/openai/ecf1abec-898c-4acb-a984-42858836a1ff) |
-| 11 | 150 |  | ashby | openai | Security Engineer, Application Security | Seattle | [apply](https://jobs.ashbyhq.com/openai/1e110226-448a-4c0b-b0e4-d0f5df579fbf) |
-| 12 | 150 |  | ashby | openai | Engineering Manager, Multimodal (API) | San Francisco | [apply](https://jobs.ashbyhq.com/openai/1d7f4747-54a3-4141-a39a-c6e7700e969b) |
-| 13 | 150 |  | ashby | openai | Software Engineer, Research - Human Data | San Francisco | [apply](https://jobs.ashbyhq.com/openai/4d6a5951-9838-434c-830a-22cb938ea228) |
-| 14 | 150 |  | ashby | openai | Software Engineer, GPU Infrastructure - HPC | San Francisco | [apply](https://jobs.ashbyhq.com/openai/f58cb1eb-9642-4a4d-a14d-d7a57d583a11) |
-| 15 | 150 |  | ashby | openai | Product Designer, Growth | San Francisco | [apply](https://jobs.ashbyhq.com/openai/ef88aaa6-f7e1-4afe-ab69-a13f2aa94eae) |
-| 16 | 150 |  | ashby | openai | Product Manufacturing Engineer | San Francisco | [apply](https://jobs.ashbyhq.com/openai/cb9280db-df39-4c88-b411-5fdf149a6e52) |
-| 17 | 150 |  | ashby | openai | Software Engineer, Fleet Hardware Health | San Francisco | [apply](https://jobs.ashbyhq.com/openai/57551641-208c-48d9-bfb8-9a298d7e7510) |
-| 18 | 150 |  | ashby | openai | Security Engineer, Agent Security | San Francisco | [apply](https://jobs.ashbyhq.com/openai/e9bea775-7eb6-438a-ab96-27d5f941e69d) |
-| 19 | 150 |  | ashby | openai | Linux Kernels Software Engineer | San Francisco | [apply](https://jobs.ashbyhq.com/openai/e5691162-4e45-4dc6-a6bf-64f60ebf1ac4) |
-| 20 | 150 |  | ashby | openai | Software Engineer, Infrastructure Reliability | San Francisco | [apply](https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8) |
-| 21 | 150 |  | ashby | openai | Commissioning and Quality Program Manager - Stargate | San Francisco | [apply](https://jobs.ashbyhq.com/openai/2b4aa186-a90c-4e6c-a544-5f2cc8558525) |
-| 22 | 150 |  | ashby | openai | Software Engineer, Hardware | San Francisco | [apply](https://jobs.ashbyhq.com/openai/778e3a4f-c318-4a79-a745-00e722e5ee47) |
-| 23 | 150 |  | ashby | openai | RTL & Codesign Engineer | San Francisco | [apply](https://jobs.ashbyhq.com/openai/31b998a9-f62a-439e-89e4-b51aea6311f7) |
-| 24 | 150 |  | ashby | openai | RTL & Co-design Engineer (junior) | San Francisco | [apply](https://jobs.ashbyhq.com/openai/77b815de-b7c5-4b87-8582-e8c752aea849) |
-| 25 | 150 |  | ashby | openai | Technical Program Manager – Adversarial Model Research | San Francisco | [apply](https://jobs.ashbyhq.com/openai/65913e57-80e0-4a1a-bbc3-265ae8a1a41b) |
-| 26 | 150 |  | ashby | openai | GTM Onboarding Program Manager | San Francisco | [apply](https://jobs.ashbyhq.com/openai/6d392f6b-c668-4f54-92ef-26c5f198394a) |
-| 27 | 150 |  | ashby | openai | Operations Manager, Data Aquisition | San Francisco | [apply](https://jobs.ashbyhq.com/openai/156244c1-4c21-45f1-8cf4-96f49c59a8fc) |
-| 28 | 150 |  | ashby | openai | Full Stack Software Engineer, ChatGPT Engineering | San Francisco | [apply](https://jobs.ashbyhq.com/openai/1b7c5f3f-9fa6-4492-bc47-2cf5aeaade21) |
-| 29 | 150 |  | ashby | openai | Engineering Manager, Distillation & Dectection Platform | San Francisco | [apply](https://jobs.ashbyhq.com/openai/6fbb72e6-1d69-4863-aaf3-3c5830e49e8a) |
-| 30 | 150 |  | ashby | openai | Program Manager - Industrial Compute Ecosystem | San Francisco | [apply](https://jobs.ashbyhq.com/openai/f19db7e1-ba36-4efa-a620-d7c7fd85b67b) |
-| 31 | 150 |  | ashby | openai | Data Scientist, B2B  | San Francisco | [apply](https://jobs.ashbyhq.com/openai/681f9b48-0ebb-451d-ab79-103b4379db27) |
-| 32 | 150 |  | ashby | openai | Technical Deployment Lead, Forward Deployed Engineering (FDE)- Platform | San Francisco | [apply](https://jobs.ashbyhq.com/openai/e6df42d0-6789-459e-b77b-62d7c5fd78da) |
-| 33 | 150 |  | ashby | openai | Engineering Manager, Online Data Systems | San Francisco | [apply](https://jobs.ashbyhq.com/openai/cb050c48-2e42-4dc0-8860-e6b3e5e6baff) |
-| 34 | 150 |  | ashby | openai | Engineering Manager, Financial Data Quality | San Francisco | [apply](https://jobs.ashbyhq.com/openai/7676e558-7700-4fb9-aedd-e311c5e8d021) |
-| 35 | 150 |  | ashby | openai | PCB Layout Engineer and Librarian | San Francisco | [apply](https://jobs.ashbyhq.com/openai/49d67b25-476e-440b-b20e-51aa85a995fa) |
-| 36 | 150 |  | ashby | openai | IC Agentic Engineering Manager - Stargate | San Francisco | [apply](https://jobs.ashbyhq.com/openai/4509797c-7e8b-4bfd-a68e-fb3fd90d2433) |
-| 37 | 145 |  | ashby | openai | Training: ML Framework Engineer | San Francisco | [apply](https://jobs.ashbyhq.com/openai/d8794980-1d3f-4d82-8b48-811449b6c492) |
-| 38 | 145 |  | ashby | openai | Distributed Training Engineer, Sora | San Francisco | [apply](https://jobs.ashbyhq.com/openai/2f1c59a8-570b-4192-9b5b-422f1a632cb6) |
-| 39 | 145 |  | ashby | openai | Software Engineer, Fleet Management | San Francisco | [apply](https://jobs.ashbyhq.com/openai/7809102e-e82a-4678-bf7c-221de8acc0d6) |
-| 40 | 145 |  | ashby | openai | Software Engineer, Fleet Infrastructure | San Francisco | [apply](https://jobs.ashbyhq.com/openai/a58add97-1968-4d5c-b504-ab62bea12df3) |
-| 41 | 145 |  | ashby | openai | Product Designer, ChatGPT | San Francisco | [apply](https://jobs.ashbyhq.com/openai/09d97355-0437-4054-8604-73920c0beb1a) |
-| 42 | 145 |  | ashby | openai | Researcher, Alignment | San Francisco | [apply](https://jobs.ashbyhq.com/openai/941bad28-7abe-43c7-b20a-2bc7e5b3c6e8) |
-| 43 | 145 |  | ashby | openai | Security Engineer, Detection and Response - EMEA | London, UK | [apply](https://jobs.ashbyhq.com/openai/2d8b30c7-afa3-42ca-b315-ead35e8457ab) |
-| 44 | 145 |  | ashby | openai | Software Engineer, Frontier Clusters Infrastructure | San Francisco | [apply](https://jobs.ashbyhq.com/openai/770d5c3f-4e72-4b49-aec4-d444e8ad7a64) |
-| 45 | 145 |  | ashby | openai | Research Engineer / Research Scientist, Post-Training | San Francisco | [apply](https://jobs.ashbyhq.com/openai/1c516e9f-c97d-4a40-8529-9871dac615a5) |
-| 46 | 145 |  | ashby | openai | Content Designer | San Francisco | [apply](https://jobs.ashbyhq.com/openai/472db8e3-37ee-4c62-be3e-a1266869694a) |
-| 47 | 145 |  | ashby | openai | Software Engineer, Backend (Cooperative AI) | San Francisco | [apply](https://jobs.ashbyhq.com/openai/bd190cad-99ec-4fe7-8f8f-de96b5aa5969) |
-| 48 | 145 |  | ashby | openai | Software Engineer, Privacy | Dublin, Ireland | [apply](https://jobs.ashbyhq.com/openai/fb5862cc-244c-410b-b287-47df89ad1e43) |
-| 49 | 145 |  | ashby | openai | Security Engineer, Detection and Response | San Francisco | [apply](https://jobs.ashbyhq.com/openai/f956b77c-3cc5-4fdd-9463-2a6e5047e57c) |
-| 50 | 145 |  | ashby | openai | Product Engineer, Marketing Innovation | San Francisco | [apply](https://jobs.ashbyhq.com/openai/eaf9207e-84c9-4fa2-bd57-6877b7eb7f79) |
+| 1 | 120 | 2026-04-24 | linkedin | Ardurra | Data Engineer - Cloud Automation (Azure) | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-cloud-automation-azure-at-ardurra-4403715278) |
+| 2 | 105 | 2026-04-24 | linkedin | Mindrift | Freelance Data Scraping Engineer (Python) | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/freelance-data-scraping-engineer-python-at-mindrift-4406157789) |
+| 3 | 80 | 2026-04-23 | linkedin | Odyssey Information Services | Business Intelligence Developer, EPIC | Dallas-Fort Worth Metroplex | [apply](https://www.linkedin.com/jobs/view/business-intelligence-developer-epic-at-odyssey-information-services-4402712697) |
+| 4 | 80 | 2026-04-23 | linkedin | TalentAlly | Data Engineer | Richardson, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-talentally-4405694552) |
+| 5 | 70 | 2026-04-20 | linkedin | Apex Systems | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-apex-systems-4404321635) |
+| 6 | 170 | 2026-04-24 | greenhouse | fivetran | Manager, Customer Delivery | Remote, United Kingdom, EMEA | [apply](https://www.fivetran.com/careers/job?gh_jid=7675370003) |
+| 7 | 170 | 2026-04-24 | greenhouse | fivetran | Manager, Customer Delivery | Remote, Ireland, EMEA | [apply](https://www.fivetran.com/careers/job?gh_jid=7660886003) |
+| 8 | 155 | 2026-04-23 | remoteok | Sumo Logic | Account Executive III | Melbourne | [apply](https://remoteOK.com/remote-jobs/remote-account-executive-iii-sumo-logic-1131287) |
+| 9 | 150 | 2026-04-24 | greenhouse | gitlab | Enterprise Account Executive - DACH | Remote, Germany | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8522195002) |
+| 10 | 150 |  | ashby | deel | Data Scientist | Spain | [apply](https://jobs.ashbyhq.com/deel/1c99ec8f-2c6a-44a6-9651-8375b0c4374e) |
+| 11 | 145 |  | ashby | openai | Research Engineer/Research Scientist, RL/Reasoning | San Francisco | [apply](https://jobs.ashbyhq.com/openai/7e198d81-34e0-48b6-b64e-a501a75f9d53) |
+| 12 | 145 |  | ashby | openai | Developer Experience Engineer | San Francisco | [apply](https://jobs.ashbyhq.com/openai/bc40de6b-6dbc-49ce-9fc4-d9728baa1ec6) |
+| 13 | 145 |  | ashby | openai | Software Engineer, Codex Ecosystem & Enterprise | London, UK | [apply](https://jobs.ashbyhq.com/openai/c1c8b058-2f0d-4192-8a9e-c21d0f24952c) |
+| 14 | 145 |  | ashby | openai | Software Engineer, Core Services | San Francisco | [apply](https://jobs.ashbyhq.com/openai/21bfde35-ffec-42d2-a2c6-8a03dad789d5) |
+| 15 | 145 |  | ashby | openai | Software Engineer, Quality & Developer Tools, Consumer Devices | San Francisco | [apply](https://jobs.ashbyhq.com/openai/1ba666a4-0be2-4bd0-ad51-39ed7164c241) |
+| 16 | 145 |  | ashby | openai | Simulation Environments Engineer | San Francisco | [apply](https://jobs.ashbyhq.com/openai/39cd0dd8-520d-4932-80bf-7495a1d1d11b) |
+| 17 | 145 |  | ashby | openai | Full Stack Software Engineer, Growth | San Francisco | [apply](https://jobs.ashbyhq.com/openai/77bc0b3a-35c1-4ecf-99c7-1b3b19d959ca) |
+| 18 | 145 |  | ashby | openai | Software Engineer, Research Developer Productivity | San Francisco | [apply](https://jobs.ashbyhq.com/openai/e6d5ca02-f30b-4ac5-a69d-c947efb430f9) |
+| 19 | 145 |  | ashby | openai | Software Engineer, Data Infrastructure - Research | San Francisco | [apply](https://jobs.ashbyhq.com/openai/b7a2e30f-c5f6-4710-b53e-64d64bcce189) |
+| 20 | 145 |  | ashby | openai | Backend Software Engineer (Evals)  | San Francisco | [apply](https://jobs.ashbyhq.com/openai/3d064454-c0c3-4225-bc2c-6d8c0f8735b2) |
+| 21 | 145 |  | ashby | openai | Data Scientist, Codex | San Francisco | [apply](https://jobs.ashbyhq.com/openai/994bf78e-55ec-4c02-9326-6f90c08bcebe) |
+| 22 | 145 |  | ashby | openai | Data Scientist, Platform and B2B Products | San Francisco | [apply](https://jobs.ashbyhq.com/openai/f1567543-4de1-468e-9054-bc5fd21a55e2) |
+| 23 | 145 |  | ashby | openai | Data Scientist, Financial Engineering  | San Francisco | [apply](https://jobs.ashbyhq.com/openai/898a87fb-4cb8-450e-9840-ee5dc710a57d) |
+| 24 | 145 |  | ashby | openai | Backend Software Engineer, Growth | San Francisco | [apply](https://jobs.ashbyhq.com/openai/dd2025b9-4d18-4ad7-a78c-7a643419ecc5) |
+| 25 | 145 |  | ashby | openai | Site Reliability Engineer, Frontier Systems Infrastructure | San Francisco | [apply](https://jobs.ashbyhq.com/openai/ad2cf782-15a4-48c7-9133-1788e3f33bbb) |
+| 26 | 145 |  | ashby | openai | Software Engineer, Productivity | San Francisco | [apply](https://jobs.ashbyhq.com/openai/c02b35b2-af37-4740-a702-2ed3b5dc3cf1) |
+| 27 | 145 |  | ashby | openai | Networking Operating System Firmware Engineer  | San Francisco | [apply](https://jobs.ashbyhq.com/openai/582b878e-61bf-4be2-8b30-623434baf726) |
+| 28 | 145 |  | ashby | openai | Physical Design Engineer  | San Francisco | [apply](https://jobs.ashbyhq.com/openai/5a265d2b-683f-4cea-9b69-8e137e704ab3) |
+| 29 | 145 |  | ashby | openai | AI Deployment Engineer- Codex | San Francisco | [apply](https://jobs.ashbyhq.com/openai/ca7e4019-bf93-42fd-8f15-fac59c6e237c) |
+| 30 | 145 |  | ashby | openai | Simulation Realism Engineer | San Francisco | [apply](https://jobs.ashbyhq.com/openai/e2e59dcf-1017-45c5-8e6e-509a5812959b) |
+| 31 | 145 |  | ashby | openai | System Software Engineer, Consumer Devices | San Francisco | [apply](https://jobs.ashbyhq.com/openai/20f525b7-f958-4c95-a055-f914ab3adb95) |
+| 32 | 145 |  | ashby | openai | Release Engineer, Consumer Devices | San Francisco | [apply](https://jobs.ashbyhq.com/openai/63f7f0b3-ba2c-437b-87ba-ec476729f071) |
+| 33 | 145 |  | ashby | openai | Camera ISP Software Engineer, Consumer Devices | San Francisco | [apply](https://jobs.ashbyhq.com/openai/10c30695-c831-44e3-b6b9-cb31e2643791) |
+| 34 | 145 |  | ashby | openai | Software Engineer, Cooperative AI | San Francisco | [apply](https://jobs.ashbyhq.com/openai/7613aca3-9dd8-41cd-b114-06ef4de967a9) |
+| 35 | 145 |  | ashby | openai | Software Engineer, Codex Ecosystem & Enterprise | San Francisco | [apply](https://jobs.ashbyhq.com/openai/89f58eb2-519f-4a36-8be0-2e594724e1bc) |
+| 36 | 145 |  | ashby | openai | Software Engineer, Codex Cloud | San Francisco | [apply](https://jobs.ashbyhq.com/openai/130a5389-83e1-493f-9205-542d3ff53afb) |
+| 37 | 145 |  | ashby | openai | ML Research Engineer - Hardware Codesign | San Francisco | [apply](https://jobs.ashbyhq.com/openai/5931abef-191b-417e-89f1-1d06f00e908c) |
+| 38 | 145 |  | ashby | openai | iOS Engineer, Applied Foundations | San Francisco | [apply](https://jobs.ashbyhq.com/openai/775240dd-6d36-401a-acca-128df0459610) |
+| 39 | 145 |  | ashby | openai | Android Engineer, Applied Foundations  | San Francisco | [apply](https://jobs.ashbyhq.com/openai/6202038a-323b-43ce-ae10-534acba4145c) |
+| 40 | 145 |  | ashby | openai | Software Engineer - Sensing, Consumer Devices | San Francisco | [apply](https://jobs.ashbyhq.com/openai/f6dfb6c0-44af-4512-af8c-967b8bb12867) |
+| 41 | 145 |  | ashby | openai | Frontend Engineer, ChatGPT Engineering | San Francisco | [apply](https://jobs.ashbyhq.com/openai/5bde9af5-df78-460e-ae9c-5c49ac778640) |
+| 42 | 145 |  | ashby | openai | Full Stack Software Engineer, ChatGPT Partnerships | San Francisco | [apply](https://jobs.ashbyhq.com/openai/50626871-6bbf-4d8f-a534-176f929f1f37) |
+| 43 | 145 |  | ashby | openai | iOS Engineer, Monetization | San Francisco | [apply](https://jobs.ashbyhq.com/openai/c9fd2911-586b-45b2-80ea-2078ce6dafff) |
+| 44 | 145 |  | ashby | openai | Android Engineer, Monetization | Seattle | [apply](https://jobs.ashbyhq.com/openai/7daff2af-1686-43fe-85c0-ca912c8747ac) |
+| 45 | 145 |  | ashby | openai | Operating Systems Engineer / Consumer Devices | San Francisco | [apply](https://jobs.ashbyhq.com/openai/efed424b-e025-400f-8ac3-73e962b85751) |
+| 46 | 145 |  | ashby | openai | Frontend Software Engineer, Codex App | San Francisco | [apply](https://jobs.ashbyhq.com/openai/5f6685ad-2fba-4e60-8982-fa142b33e194) |
+| 47 | 145 |  | ashby | openai | Researcher, Frontier Cybersecurity Risks | San Francisco | [apply](https://jobs.ashbyhq.com/openai/97a7eeae-9625-4d00-874f-e50131f98369) |
+| 48 | 145 |  | ashby | openai | Researcher, Automated Red Teaming | San Francisco | [apply](https://jobs.ashbyhq.com/openai/bf7d2623-7846-410c-87f8-c628915ec16c) |
+| 49 | 145 |  | ashby | openai | Software Engineer, Marketing Innovation | San Francisco | [apply](https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3) |
+| 50 | 145 |  | ashby | openai | iOS Engineer, ChatGPT Mobile Infrastructure | San Francisco | [apply](https://jobs.ashbyhq.com/openai/d66ae477-8742-4c4c-85a2-6f92a7dc67f2) |
