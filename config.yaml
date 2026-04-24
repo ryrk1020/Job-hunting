@@ -1,6 +1,6 @@
 # Job Hunter config
 # Tune keywords, locations, and company boards here.
-# Manual rerun marker: 2026-04-24T12:10Z — clean-slate rebuild
+# Manual rerun marker: 2026-04-24T12:20Z — part-time/intern filter
 
 # Keyword groups. A job matches if any group's tokens all appear
 # in the title OR description (case-insensitive). Add / remove freely.
@@ -177,6 +177,40 @@ exclude:
     - "vp "
     - "head of"
     - "chief"
+  # Employment-type filter. We only want full-time or contract/contract-to-
+  # hire roles — no part-time, no internships, no co-ops, no seasonal.
+  # Matched (case-insensitive) against company + title + description.
+  employment:
+    - "part-time"
+    - "part time"
+    - "parttime"
+    - "(part time)"
+    - "(part-time)"
+    - "internship"
+    - "intern role"
+    - "intern program"
+    - "intern position"
+    - "intern opportunity"
+    - "summer intern"
+    - "summer 2025 intern"
+    - "summer 2026 intern"
+    - "graduate intern"
+    - "student intern"
+    - "phd intern"
+    - "ms intern"
+    - "bs intern"
+    - "research intern"
+    - "engineering intern"
+    - "software intern"
+    - "data intern"
+    - "co-op"
+    - "coop student"
+    - "apprentice"
+    - "apprenticeship"
+    - "work study"
+    - "work-study"
+    - "seasonal"
+
   # Work-authorization / citizenship gates that exclude F-1/OPT candidates.
   # Matched (case-insensitive) against company + title + description.
   # Add or remove as real postings surface false positives.

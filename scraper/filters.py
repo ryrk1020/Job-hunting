@@ -102,6 +102,12 @@ def excluded(job: Job, rules: dict) -> bool:
     for term in rules.get("work_auth", []) or []:
         if term.lower() in blob:
             return True
+    # Employment-type gate — drop part-time, intern, co-op, apprentice,
+    # seasonal. Full-time and contract roles are kept (they're not on
+    # the exclusion list).
+    for term in rules.get("employment", []) or []:
+        if term.lower() in blob:
+            return True
     return False
 
 
