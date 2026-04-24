@@ -165,17 +165,33 @@ exclude:
     - stealth
     - seed stage
   titles:
-    - "senior staff"
+    - "senior"
+    - "sr."
+    - "sr "
+    - "staff"
     - "principal"
+    - "lead "
+    - "architect"
     - "director"
     - "vp "
     - "head of"
+    - "chief"
 
 # Freshness — only keep jobs posted within this many days.
 max_age_days: 7
 
-# Minimum unique jobs we want per run. The runner will widen
-# searches (drop location filter) until we hit this floor.
+# Candidate's actual years of experience. Postings whose description
+# demands more than this many years are dropped. Set to your real YoE.
+candidate_experience_years: 2
+
+# Hard cap on years of experience a posting may demand. Any "X+ years"
+# text in the description with X greater than this is excluded.
+# Default = candidate_experience_years + 2 (a reasonable stretch).
+max_experience_years: 4
+
+# Target jobs per run. Acts as BOTH a floor (search widens to reach it)
+# AND a ceiling (output is truncated to exactly this many — highest
+# scored, preferred-location first).
 min_jobs_target: 50
 
 # Sources to enable.

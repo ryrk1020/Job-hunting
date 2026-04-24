@@ -130,6 +130,11 @@ def run(cfg_path: Path, out_dir: Path) -> int:
     # Final sort: preferred_location desc, then score desc.
     rows.sort(key=lambda r: (r.get("preferred_location", False), r.get("score", 0)), reverse=True)
 
+    # Hard cap at target — user wants exactly N jobs/day, not a firehose.
+    if len(rows) > target:
+        log.info("capping %d -> %d (target)", len(rows), target)
+        rows = rows[:target]
+
     day = today_str()
     paths = write_all(rows, out_dir, day)
 

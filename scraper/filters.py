@@ -2,12 +2,56 @@
 from __future__ import annotations
 
 import logging
+import re
 from datetime import datetime, timedelta, timezone
 from typing import Iterable
 
 from .sources.base import Job
 
 log = logging.getLogger(__name__)
+
+_WORD_NUM = {
+    "one": 1, "two": 2, "three": 3, "four": 4, "five": 5,
+    "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10,
+    "eleven": 11, "twelve": 12, "fifteen": 15, "twenty": 20,
+}
+
+# Matches "8+ years", "8-10 years", "8 yrs", "eight years", "minimum of 8 years".
+_YOE_PATTERNS = [
+    re.compile(
+        r"(\d{1,2})\s*(?:\+|-\s*\d{1,2}|\s*or\s*more|\s*plus)?\s*(?:\+)?\s*"
+        r"(?:years?|yrs?)\b[^.]{0,40}?(?:experience|exp|industry|working|professional)",
+        re.IGNORECASE,
+    ),
+    re.compile(
+        r"(?:minimum|min\.?|at\s*least|requires?|must\s*have)\s*(?:of\s*)?(\d{1,2})\s*(?:\+)?\s*(?:years?|yrs?)",
+        re.IGNORECASE,
+    ),
+    re.compile(
+        r"\b(" + "|".join(_WORD_NUM.keys()) + r")\b\s*(?:\+|or\s*more)?\s*(?:years?|yrs?)\b"
+        r"[^.]{0,40}?(?:experience|exp|industry|working|professional)",
+        re.IGNORECASE,
+    ),
+]
+
+
+def _required_years(text: str) -> int:
+    """Return the highest required years-of-experience mentioned, or 0."""
+    if not text:
+        return 0
+    high = 0
+    for pat in _YOE_PATTERNS:
+        for m in pat.finditer(text):
+            tok = m.group(1).lower()
+            n = _WORD_NUM.get(tok)
+            if n is None:
+                try:
+                    n = int(tok)
+                except ValueError:
+                    continue
+            if n > high:
+                high = n
+    return high
 
 
 def _contains_all(haystack: str, tokens: Iterable[str]) -> bool:
@@ -87,7 +131,12 @@ def score(job: Job, matched_groups: list[str], is_preferred_loc: bool) -> int:
     if "product" in matched_groups:
         s += 5
     if "junior" in matched_groups:
-        s += 10
+        s += 25
+    blob = f"{job.title}\n{job.description}".lower()
+    for tok in (" i ", " ii ", "associate", "entry", "new grad", "graduate", "junior"):
+        if tok in blob:
+            s += 5
+            break
     if job.posted_at is not None:
         age_h = (datetime.now(timezone.utc) - job.posted_at).total_seconds() / 3600
         if age_h < 24:
@@ -108,6 +157,8 @@ def apply_all(
     locs = cfg.get("locations", {})
     exc = cfg.get("exclude", {})
     max_age = int(cfg.get("max_age_days", 7))
+    cand_yoe = int(cfg.get("candidate_experience_years", 2))
+    max_yoe = int(cfg.get("max_experience_years", cand_yoe + 2))
 
     seen: dict[str, dict] = {}
     kept = 0
@@ -115,6 +166,7 @@ def apply_all(
     dropped_kw = 0
     dropped_exc = 0
     dropped_old = 0
+    dropped_yoe = 0
 
     for j in jobs:
         if excluded(j, exc):
@@ -127,6 +179,10 @@ def apply_all(
         if not hits:
             dropped_kw += 1
             continue
+        req_yoe = _required_years(f"{j.title}\n{j.description}")
+        if req_yoe > max_yoe:
+            dropped_yoe += 1
+            continue
         allowed, preferred = location_ok(j, locs)
         if require_location and not allowed:
             dropped_loc += 1
@@ -134,6 +190,7 @@ def apply_all(
         row = j.to_dict()
         row["matched_groups"] = hits
         row["preferred_location"] = preferred
+        row["required_years"] = req_yoe
         row["score"] = score(j, hits, preferred)
         row["_fp"] = j.fingerprint()
         fp = j.fingerprint()
@@ -143,8 +200,8 @@ def apply_all(
             kept += 1
 
     log.info(
-        "filter: kept=%d unique=%d dropped(exc=%d,kw=%d,loc=%d,old=%d)",
-        kept, len(seen), dropped_exc, dropped_kw, dropped_loc, dropped_old,
+        "filter: kept=%d unique=%d dropped(exc=%d,kw=%d,loc=%d,old=%d,yoe=%d)",
+        kept, len(seen), dropped_exc, dropped_kw, dropped_loc, dropped_old, dropped_yoe,
     )
     out = list(seen.values())
     out.sort(key=lambda r: r["score"], reverse=True)
