@@ -114,27 +114,13 @@ def write_all(rows: list[dict], out_dir: Path, day: str) -> dict:
     write_csv(rows, paths["csv"])
     write_markdown(rows, paths["md"])
 
-    # Same-day re-runs: merge with any existing archive for today so we
-    # never lose jobs from earlier runs of the same date.
+    # Same-day re-runs overwrite: rows are already capped at min_jobs_target
+    # by main.py, so the archive is always exactly that many top-scored jobs.
+    # Cross-day dedup via seen.json means a rerun's fresh picks never
+    # duplicate prior days' postings.
     archive = out_dir / "archive" / f"{day}.json"
-    if archive.exists():
-        try:
-            prior = json.loads(archive.read_text(encoding="utf-8")).get("jobs", [])
-            existing_urls = {j.get("url") for j in prior if j.get("url")}
-            merged = list(prior)
-            for r in _strip_internal(rows):
-                if r.get("url") and r["url"] not in existing_urls:
-                    merged.append(r)
-            merged.sort(key=lambda r: (r.get("preferred_location", False),
-                                       r.get("score", 0)), reverse=True)
-            with archive.open("w", encoding="utf-8") as f:
-                json.dump({"generated_at": datetime.now(timezone.utc).isoformat(),
-                           "count": len(merged), "jobs": merged}, f, indent=2,
-                          ensure_ascii=False)
-        except (json.JSONDecodeError, OSError):
-            write_json(rows, archive)
-    else:
-        write_json(rows, archive)
+    archive.parent.mkdir(parents=True, exist_ok=True)
+    write_json(rows, archive)
 
     copy_web_assets(out_dir)
     write_manifest(out_dir)

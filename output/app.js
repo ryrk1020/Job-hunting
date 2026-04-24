@@ -1,34 +1,69 @@
-// Job Hunter dashboard — calendar SPA.
-// Reads manifest.json + archive/<date>.json. Per-job status persists in localStorage.
+// Job Hunter dashboard — calendar SPA with theme toggle, refresh,
+// Excel export, and unmarked-only default filter.
 
 const STATUSES = ["accept", "applied", "inprogress", "reject"];
-const STATUS_LABEL = { accept: "Accept", applied: "Applied", inprogress: "In Progress", reject: "Reject" };
+const STATUS_LABEL = { accept: "Accept", applied: "Applied", inprogress: "In Prog", reject: "Reject" };
 const STATUS_KEY = "jobhunter.status.v1";
+const THEME_KEY  = "jobhunter.theme";
+const REPO_SLUG  = detectRepoSlug();
 
 const state = {
-  manifest: null,           // {days: [{date, count}], generated_at}
-  byDate: new Map(),        // date -> jobs cache
-  selected: null,           // selected date string YYYY-MM-DD
-  view: { y: null, m: null }, // calendar month being viewed
-  jobs: [],                 // currently loaded jobs
-  filters: { q: "", group: "", status: "", loc: "" },
-  status: loadStatus(),     // url -> status string
+  manifest: null,
+  byDate: new Map(),
+  selected: null,
+  view: { y: null, m: null },
+  jobs: [],
+  filters: { q: "", group: "", status: "unmarked", loc: "" },
+  status: loadStatus(),
 };
 
-// ───── Status persistence ────────────────────────────────────────────
+// ───── Utility ───────────────────────────────────────────────────────
+function detectRepoSlug() {
+  // e.g. https://ryrk1020.github.io/Job-hunting/ -> ryrk1020/Job-hunting
+  try {
+    const h = location.hostname;
+    const m = h.match(/^([^.]+)\.github\.io$/);
+    if (m) {
+      const user = m[1];
+      const seg = location.pathname.split("/").filter(Boolean)[0] || user + ".github.io";
+      return `${user}/${seg}`;
+    }
+  } catch {}
+  return null;
+}
+function safe(s) { return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }
+function todayISO() { return new Date().toISOString().slice(0, 10); }
+function isoFromYMD(y, m, d) { return `${y}-${String(m + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`; }
+
+function toast(msg, ms = 2200) {
+  let el = document.querySelector(".toast");
+  if (!el) { el = document.createElement("div"); el.className = "toast"; document.body.appendChild(el); }
+  el.textContent = msg;
+  requestAnimationFrame(() => el.classList.add("show"));
+  clearTimeout(toast._t);
+  toast._t = setTimeout(() => el.classList.remove("show"), ms);
+}
+
+// ───── Theme ─────────────────────────────────────────────────────────
+function applyTheme(theme) {
+  document.documentElement.setAttribute("data-theme", theme);
+  localStorage.setItem(THEME_KEY, theme);
+}
+function initTheme() {
+  const saved = localStorage.getItem(THEME_KEY);
+  const prefersDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+  applyTheme(saved || (prefersDark ? "dark" : "light"));
+}
+
+// ───── Status persistence ───────────────────────────────────────────
 function loadStatus() {
   try { return JSON.parse(localStorage.getItem(STATUS_KEY) || "{}"); }
   catch { return {}; }
 }
-function saveStatus() {
-  localStorage.setItem(STATUS_KEY, JSON.stringify(state.status));
-}
+function saveStatus() { localStorage.setItem(STATUS_KEY, JSON.stringify(state.status)); }
 function setJobStatus(url, status) {
-  if (state.status[url] === status) {
-    delete state.status[url];   // toggle off
-  } else {
-    state.status[url] = status;
-  }
+  if (state.status[url] === status) delete state.status[url];
+  else state.status[url] = status;
   saveStatus();
   refreshKpis();
   renderJobs();
@@ -37,13 +72,6 @@ function setJobStatus(url, status) {
 // ───── Calendar ──────────────────────────────────────────────────────
 const MONTHS = ["January","February","March","April","May","June",
                 "July","August","September","October","November","December"];
-function todayISO() {
-  const d = new Date();
-  return d.toISOString().slice(0, 10);
-}
-function isoFromYMD(y, m, d) {
-  return `${y}-${String(m + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
-}
 
 function renderCalendar() {
   const { y, m } = state.view;
@@ -66,50 +94,27 @@ function renderCalendar() {
     const cnt = counts.get(iso) || 0;
     const cell = document.createElement("div");
     cell.className = "cell";
-    if (cnt > 0) {
-      cell.classList.add("has-jobs");
-      cell.dataset.count = cnt;
-    }
+    if (cnt > 0) { cell.classList.add("has-jobs"); cell.dataset.count = cnt; }
     if (iso === today) cell.classList.add("today");
     if (iso === state.selected) cell.classList.add("selected");
     cell.textContent = d;
     cell.dataset.date = iso;
-    if (cnt > 0) {
-      cell.addEventListener("click", () => selectDate(iso));
-    }
+    if (cnt > 0) cell.addEventListener("click", () => selectDate(iso));
     grid.appendChild(cell);
   }
 }
 
-document.getElementById("cal-prev").onclick = () => {
-  const v = state.view;
-  v.m--; if (v.m < 0) { v.m = 11; v.y--; }
-  renderCalendar();
-};
-document.getElementById("cal-next").onclick = () => {
-  const v = state.view;
-  v.m++; if (v.m > 11) { v.m = 0; v.y++; }
-  renderCalendar();
-};
-document.getElementById("today-btn").onclick = () => {
-  const today = todayISO();
-  const days = (state.manifest?.days || []).map(d => d.date);
-  const target = days.includes(today) ? today : (days[0] || today);
-  const [y, m] = target.split("-").map(Number);
-  state.view.y = y; state.view.m = m - 1;
-  selectDate(target);
-};
-
 // ───── Data loading ──────────────────────────────────────────────────
-async function loadManifest() {
-  const r = await fetch("manifest.json", { cache: "no-store" });
+async function loadManifest({ fresh = false } = {}) {
+  const url = fresh ? `manifest.json?t=${Date.now()}` : "manifest.json";
+  const r = await fetch(url, { cache: "no-store" });
   if (!r.ok) throw new Error("manifest.json not found");
   state.manifest = await r.json();
 }
-
-async function loadDay(date) {
-  if (state.byDate.has(date)) return state.byDate.get(date);
-  const r = await fetch(`archive/${date}.json`, { cache: "no-store" });
+async function loadDay(date, { fresh = false } = {}) {
+  if (!fresh && state.byDate.has(date)) return state.byDate.get(date);
+  const url = fresh ? `archive/${date}.json?t=${Date.now()}` : `archive/${date}.json`;
+  const r = await fetch(url, { cache: "no-store" });
   if (!r.ok) return { jobs: [], count: 0 };
   const data = await r.json();
   state.byDate.set(date, data);
@@ -119,11 +124,20 @@ async function loadDay(date) {
 async function selectDate(date) {
   state.selected = date;
   renderCalendar();
-  document.getElementById("subtitle").textContent = `Viewing ${date}`;
+  updateSubtitle();
   const data = await loadDay(date);
   state.jobs = data.jobs || [];
   renderJobs();
   refreshKpis();
+}
+
+function updateSubtitle() {
+  const el = document.getElementById("subtitle");
+  if (!state.selected) { el.textContent = "No day selected"; return; }
+  const gen = state.manifest?.generated_at
+    ? new Date(state.manifest.generated_at).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })
+    : null;
+  el.textContent = `Viewing ${state.selected}${gen ? ` · updated ${gen}` : ""}`;
 }
 
 // ───── Jobs rendering ────────────────────────────────────────────────
@@ -138,8 +152,9 @@ function applyFilters(jobs) {
     if (group && !(j.matched_groups || []).includes(group)) return false;
     if (loc === "preferred" && !j.preferred_location) return false;
     if (loc === "remote" && !((j.location || "").toLowerCase().includes("remote") || j.remote)) return false;
-    const cur = state.status[j.url] || "new";
-    if (status && cur !== status) return false;
+    const cur = state.status[j.url] || "";
+    if (status === "unmarked" && cur) return false;
+    if (status && status !== "unmarked" && cur !== status) return false;
     return true;
   });
 }
@@ -149,7 +164,6 @@ function jobCard(j) {
   if (j.preferred_location) tags.push("preferred");
   if ((j.location || "").toLowerCase().includes("remote") || j.remote) tags.push("remote");
   const cur = state.status[j.url] || "";
-  const safe = (s) => (s || "").replace(/</g, "&lt;");
   const posted = (j.posted_at || "").slice(0, 10);
   const tagHtml = tags.map(t => `<span class="tag ${t}">${t}</span>`).join("");
   const statusBtns = STATUSES.map(s => `
@@ -172,7 +186,7 @@ function jobCard(j) {
         <div class="tags">${tagHtml}</div>
       </div>
       <div class="actions">
-        <a class="apply" href="${j.url}" target="_blank" rel="noopener">Apply ↗</a>
+        <a class="apply" href="${j.url}" target="_blank" rel="noopener">Apply</a>
         <div class="status-row">${statusBtns}</div>
       </div>
     </article>
@@ -181,19 +195,19 @@ function jobCard(j) {
 
 function renderJobs() {
   const filtered = applyFilters(state.jobs);
-  document.getElementById("count").textContent = `${filtered.length} of ${state.jobs.length} jobs`;
+  document.getElementById("count").textContent = `${filtered.length} of ${state.jobs.length}`;
   const host = document.getElementById("jobs");
   if (!state.selected) {
     host.innerHTML = `<div class="empty-state"><h3>Pick a day</h3><p>Click a highlighted day on the calendar to load that day's jobs.</p></div>`;
     return;
   }
   if (filtered.length === 0) {
-    host.innerHTML = `<div class="empty-state"><h3>No matches</h3><p>Try clearing filters or pick a different day.</p></div>`;
+    host.innerHTML = `<div class="empty-state"><h3>No matches</h3><p>Try clearing filters, or pick a different day on the calendar.</p></div>`;
     return;
   }
   host.innerHTML = filtered.map(jobCard).join("");
   host.querySelectorAll(".status-row button").forEach(btn => {
-    btn.addEventListener("click", e => {
+    btn.addEventListener("click", () => {
       const url = decodeURIComponent(btn.dataset.url);
       setJobStatus(url, btn.dataset.act);
     });
@@ -206,9 +220,7 @@ function refreshKpis() {
   const todayCount = (state.manifest?.days || []).find(d => d.date === today)?.count || 0;
   const total = (state.manifest?.days || []).reduce((s, d) => s + d.count, 0);
   const counts = { accept: 0, applied: 0, inprogress: 0, reject: 0 };
-  for (const v of Object.values(state.status)) {
-    if (counts[v] !== undefined) counts[v]++;
-  }
+  for (const v of Object.values(state.status)) if (counts[v] !== undefined) counts[v]++;
   document.getElementById("kpi-today").textContent = todayCount;
   document.getElementById("kpi-total").textContent = total;
   document.getElementById("kpi-accept").textContent = counts.accept;
@@ -217,21 +229,108 @@ function refreshKpis() {
   document.getElementById("kpi-reject").textContent = counts.reject;
 }
 
-// ───── Filters wiring ────────────────────────────────────────────────
-["q", "group", "status", "loc"].forEach(id => {
-  document.getElementById(id).addEventListener("input", e => {
-    state.filters[id] = e.target.value;
+// ───── Excel export ──────────────────────────────────────────────────
+function exportExcel() {
+  if (typeof XLSX === "undefined") { toast("Export library still loading — try again in a second"); return; }
+  const filtered = applyFilters(state.jobs);
+  if (filtered.length === 0) { toast("Nothing to export for this view"); return; }
+  const rows = filtered.map(j => ({
+    Score: j.score || 0,
+    Title: j.title || "",
+    Company: j.company || "",
+    Location: j.location || "",
+    Remote: ((j.location || "").toLowerCase().includes("remote") || j.remote) ? "Yes" : "No",
+    Posted: (j.posted_at || "").slice(0, 10),
+    Source: j.source || "",
+    Groups: (j.matched_groups || []).join(", "),
+    Preferred: j.preferred_location ? "Yes" : "No",
+    Status: state.status[j.url] || "",
+    URL: j.url || "",
+  }));
+  const ws = XLSX.utils.json_to_sheet(rows);
+  ws["!cols"] = [
+    { wch: 6 }, { wch: 42 }, { wch: 22 }, { wch: 24 }, { wch: 7 },
+    { wch: 11 }, { wch: 14 }, { wch: 22 }, { wch: 9 }, { wch: 11 }, { wch: 50 },
+  ];
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, "Jobs");
+  XLSX.writeFile(wb, `job-hunter-${state.selected || todayISO()}.xlsx`);
+  toast(`Exported ${rows.length} job${rows.length === 1 ? "" : "s"}`);
+}
+
+// ───── Refresh ───────────────────────────────────────────────────────
+async function refreshData() {
+  const btn = document.getElementById("refresh-btn");
+  btn.classList.add("spinning");
+  try {
+    state.byDate.clear();
+    await loadManifest({ fresh: true });
+    const target = state.selected || state.manifest?.days?.[0]?.date;
+    if (target) {
+      const data = await loadDay(target, { fresh: true });
+      state.jobs = data.jobs || [];
+    }
+    renderCalendar();
     renderJobs();
-  });
-});
+    refreshKpis();
+    updateSubtitle();
+    toast("Data refreshed");
+  } catch (e) {
+    toast("Refresh failed — check network");
+  } finally {
+    setTimeout(() => btn.classList.remove("spinning"), 400);
+  }
+}
 
 // ───── Boot ──────────────────────────────────────────────────────────
+initTheme();
+
+document.getElementById("cal-prev").onclick = () => {
+  const v = state.view; v.m--; if (v.m < 0) { v.m = 11; v.y--; } renderCalendar();
+};
+document.getElementById("cal-next").onclick = () => {
+  const v = state.view; v.m++; if (v.m > 11) { v.m = 0; v.y++; } renderCalendar();
+};
+document.getElementById("today-btn").onclick = () => {
+  const today = todayISO();
+  const days = (state.manifest?.days || []).map(d => d.date);
+  const target = days.includes(today) ? today : (days[0] || today);
+  const [y, m] = target.split("-").map(Number);
+  state.view.y = y; state.view.m = m - 1;
+  if (days.includes(target)) selectDate(target); else renderCalendar();
+};
+document.getElementById("theme-btn").onclick = () => {
+  const cur = document.documentElement.getAttribute("data-theme") || "light";
+  applyTheme(cur === "dark" ? "light" : "dark");
+};
+document.getElementById("refresh-btn").onclick = refreshData;
+document.getElementById("export-btn").onclick = exportExcel;
+
+const rerun = document.getElementById("rerun-btn");
+if (REPO_SLUG) {
+  rerun.href = `https://github.com/${REPO_SLUG}/actions/workflows/daily.yml`;
+  rerun.title = "Open GitHub Actions — click \"Run workflow\" to scrape now";
+} else {
+  rerun.style.display = "none";
+}
+
+["q", "group", "status", "loc"].forEach(id => {
+  const el = document.getElementById(id);
+  if (id === "status") el.value = state.filters.status;
+  el.addEventListener("input", e => { state.filters[id] = e.target.value; renderJobs(); });
+});
+
 (async () => {
   try {
     await loadManifest();
-  } catch (e) {
+  } catch {
     document.getElementById("subtitle").textContent =
-      "manifest.json missing — run the scraper at least once.";
+      "No data yet — click the ⚡ icon to trigger the first scrape.";
+    const now = new Date();
+    state.view.y = now.getFullYear();
+    state.view.m = now.getMonth();
+    renderCalendar();
+    refreshKpis();
     return;
   }
   const days = state.manifest.days || [];
@@ -245,7 +344,7 @@ function refreshKpis() {
     const now = new Date();
     state.view.y = now.getFullYear();
     state.view.m = now.getMonth();
-    document.getElementById("subtitle").textContent = "No archives yet.";
+    document.getElementById("subtitle").textContent = "No archives yet — click the ⚡ icon to run the scraper.";
     renderCalendar();
   }
   refreshKpis();

@@ -98,10 +98,11 @@ def excluded(job: Job, rules: dict) -> bool:
     return False
 
 
-def fresh(job: Job, max_age_days: int) -> bool:
+def fresh(job: Job, max_age_days: int, strict: bool = False) -> bool:
     if job.posted_at is None:
-        # Unknown date — keep (many ATS feeds don't expose one).
-        return True
+        # Unknown date — many ATS feeds don't expose one. Under strict
+        # mode we drop these so only provably-recent jobs make the cut.
+        return not strict
     cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
     return job.posted_at >= cutoff
 
@@ -157,6 +158,7 @@ def apply_all(
     locs = cfg.get("locations", {})
     exc = cfg.get("exclude", {})
     max_age = int(cfg.get("max_age_days", 7))
+    strict_fresh = bool(cfg.get("strict_freshness", False))
     cand_yoe = int(cfg.get("candidate_experience_years", 2))
     max_yoe = int(cfg.get("max_experience_years", cand_yoe + 2))
 
@@ -172,7 +174,7 @@ def apply_all(
         if excluded(j, exc):
             dropped_exc += 1
             continue
-        if not fresh(j, max_age):
+        if not fresh(j, max_age, strict=strict_fresh):
             dropped_old += 1
             continue
         hits = matches_keywords(j, kw)
