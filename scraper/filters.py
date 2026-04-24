@@ -95,6 +95,13 @@ def excluded(job: Job, rules: dict) -> bool:
     for term in rules.get("titles", []):
         if term.lower() in title_low:
             return True
+    # Work-authorization gate — citizenship, clearance, no-sponsorship.
+    # Checked against company + title + description so phrases like the
+    # user-reported "US CITIZEN OR GREEN CARD only" in the title and
+    # "unable to sponsor" buried in the description both get caught.
+    for term in rules.get("work_auth", []) or []:
+        if term.lower() in blob:
+            return True
     return False
 
 
