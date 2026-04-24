@@ -29,7 +29,14 @@ Add more companies in `config.yaml` — every board template is a single slug.
 
 ## Filters (configured in `config.yaml`)
 
-- **Keywords**: `data`, `marketing`, `vibecoding` (AI/LLM/GenAI/agent/copilot/RAG), `junior`.
+- **Keywords**: `data`, `vibecoding` (AI/LLM/GenAI/agent/copilot/RAG),
+  `fullstack` (full stack / frontend / backend / mobile / React / Angular /
+  Vue / Node / Next), `software` (Python / Java / Go / C++ / C# / .NET /
+  TypeScript / Ruby / etc.), `qa` (QA / SDET / tester / automation),
+  `cloud` (DevOps / SRE / AWS / Azure / GCP / Kubernetes / Terraform),
+  `security`, `analyst` (business / systems / product / financial),
+  `product` (PM / TPM / Scrum), and `junior` (associate / entry-level / new
+  grad).
 - **Locations (preferred)**: Frisco, Dallas, Fort Worth, Plano, Irving, Arlington,
   Richardson, Addison, Las Colinas, McKinney, Allen, Denton. Remote allowed.
   Anything in Texas kept but ranked lower than the DFW preferred list.

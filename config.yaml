@@ -13,26 +13,19 @@ keywords:
     - ["business", "intelligence"]
     - ["snowflake"]
     - ["databricks"]
-    - ["sql", "developer"]
+    - ["sql"]
     - ["data", "scientist"]
     - ["machine", "learning"]
     - ["ml", "engineer"]
     - ["big", "data"]
-  marketing:
-    - ["marketing"]
-    - ["growth", "marketing"]
-    - ["digital", "marketing"]
-    - ["product", "marketing"]
-    - ["marketing", "analyst"]
-    - ["marketing", "analytics"]
-    - ["brand", "manager"]
-    - ["seo"]
-    - ["campaign", "manager"]
-    - ["crm"]
-  # "Vibecoding" - AI-assisted / LLM / GenAI engineering roles.
+    - ["data", "warehouse"]
+    - ["power", "bi"]
+    - ["tableau"]
+    - ["informatica"]
+  # "Vibecoding" — AI-assisted / LLM / GenAI engineering roles.
   vibecoding:
     - ["ai", "engineer"]
-    - ["llm", "engineer"]
+    - ["llm"]
     - ["genai"]
     - ["generative", "ai"]
     - ["prompt", "engineer"]
@@ -44,11 +37,102 @@ keywords:
     - ["rag"]
     - ["agent", "engineer"]
     - ["copilot"]
+  # Any full-stack / frontend / backend / mobile engineering role.
+  fullstack:
+    - ["full", "stack"]
+    - ["fullstack"]
+    - ["frontend"]
+    - ["front", "end"]
+    - ["backend"]
+    - ["back", "end"]
+    - ["web", "developer"]
+    - ["ui", "developer"]
+    - ["ux", "engineer"]
+    - ["react"]
+    - ["angular"]
+    - ["vue"]
+    - ["node"]
+    - ["next.js"]
+    - ["mobile", "developer"]
+    - ["ios", "developer"]
+    - ["android", "developer"]
+  # Generic software engineering (languages + titles).
+  software:
+    - ["software", "engineer"]
+    - ["software", "developer"]
+    - ["application", "developer"]
+    - ["application", "engineer"]
+    - ["python"]
+    - ["java", "developer"]
+    - ["golang"]
+    - ["c++"]
+    - ["c#"]
+    - [".net"]
+    - ["typescript"]
+    - ["javascript"]
+    - ["ruby"]
+    - ["php"]
+    - ["scala"]
+    - ["rust"]
+    - ["embedded"]
+    - ["firmware"]
+    - ["platform", "engineer"]
+    - ["systems", "engineer"]
+    - ["api", "developer"]
+  # QA / test / SDET.
+  qa:
+    - ["qa", "engineer"]
+    - ["quality", "engineer"]
+    - ["quality", "assurance"]
+    - ["test", "engineer"]
+    - ["tester"]
+    - ["sdet"]
+    - ["automation", "engineer"]
+    - ["selenium"]
+    - ["cypress"]
+    - ["playwright"]
+  # Cloud / DevOps / SRE / infra.
+  cloud:
+    - ["devops"]
+    - ["sre"]
+    - ["site", "reliability"]
+    - ["cloud", "engineer"]
+    - ["aws", "engineer"]
+    - ["azure", "engineer"]
+    - ["gcp"]
+    - ["kubernetes"]
+    - ["terraform"]
+    - ["infrastructure", "engineer"]
+    - ["platform", "engineer"]
+  # Security / networking.
+  security:
+    - ["security", "engineer"]
+    - ["cybersecurity"]
+    - ["infosec"]
+    - ["application", "security"]
+    - ["network", "engineer"]
+  # Generic analyst roles (business, product, systems).
+  analyst:
+    - ["business", "analyst"]
+    - ["systems", "analyst"]
+    - ["product", "analyst"]
+    - ["financial", "analyst"]
+    - ["reporting", "analyst"]
+    - ["operations", "analyst"]
+  # Project / product / scrum management on tech teams.
+  product:
+    - ["product", "manager"]
+    - ["technical", "program"]
+    - ["scrum", "master"]
+    - ["project", "manager"]
+  # Junior / entry-level hints get a score boost.
   junior:
     - ["associate"]
     - ["junior"]
     - ["entry", "level"]
     - ["new", "grad"]
+    - ["i "]
+    - ["ii "]
 
 # Location preferences. Jobs matching the "preferred" list get a score boost.
 # Jobs matching the "allowed" list are kept. "remote" is always allowed.
@@ -113,38 +197,63 @@ sources:
 
 # Indeed RSS queries (location-qualified). Expand as needed.
 indeed_rss_queries:
-  - { q: "data engineer",     l: "Dallas, TX" }
-  - { q: "data analyst",      l: "Dallas, TX" }
-  - { q: "analytics engineer",l: "Dallas, TX" }
-  - { q: "ai engineer",       l: "Dallas, TX" }
-  - { q: "machine learning",  l: "Dallas, TX" }
-  - { q: "data engineer",     l: "Frisco, TX" }
-  - { q: "data analyst",      l: "Frisco, TX" }
-  - { q: "data engineer",     l: "Fort Worth, TX" }
-  - { q: "data engineer",     l: "Plano, TX" }
-  - { q: "marketing analyst", l: "Dallas, TX" }
-  - { q: "marketing",         l: "Frisco, TX" }
-  - { q: "marketing",         l: "Fort Worth, TX" }
-  - { q: "ai engineer",       l: "Texas" }
-  - { q: "llm engineer",      l: "Texas" }
-  - { q: "genai",             l: "Texas" }
-  - { q: "data engineer",     l: "Texas" }
-  - { q: "marketing",         l: "Texas" }
+  - { q: "data engineer",        l: "Dallas, TX" }
+  - { q: "data analyst",         l: "Dallas, TX" }
+  - { q: "analytics engineer",   l: "Dallas, TX" }
+  - { q: "software engineer",    l: "Dallas, TX" }
+  - { q: "software developer",   l: "Dallas, TX" }
+  - { q: "full stack",           l: "Dallas, TX" }
+  - { q: "frontend engineer",    l: "Dallas, TX" }
+  - { q: "backend engineer",     l: "Dallas, TX" }
+  - { q: "qa engineer",          l: "Dallas, TX" }
+  - { q: "test engineer",        l: "Dallas, TX" }
+  - { q: "business analyst",     l: "Dallas, TX" }
+  - { q: "devops",               l: "Dallas, TX" }
+  - { q: "cloud engineer",       l: "Dallas, TX" }
+  - { q: "ai engineer",          l: "Dallas, TX" }
+  - { q: "machine learning",     l: "Dallas, TX" }
+  - { q: "data engineer",        l: "Frisco, TX" }
+  - { q: "software engineer",    l: "Frisco, TX" }
+  - { q: "full stack",           l: "Frisco, TX" }
+  - { q: "data engineer",        l: "Fort Worth, TX" }
+  - { q: "software engineer",    l: "Fort Worth, TX" }
+  - { q: "data engineer",        l: "Plano, TX" }
+  - { q: "software engineer",    l: "Plano, TX" }
+  - { q: "full stack",           l: "Plano, TX" }
+  - { q: "software engineer",    l: "Irving, TX" }
+  - { q: "software engineer",    l: "Texas" }
+  - { q: "full stack developer", l: "Texas" }
+  - { q: "ai engineer",          l: "Texas" }
+  - { q: "llm engineer",         l: "Texas" }
+  - { q: "genai",                l: "Texas" }
+  - { q: "data engineer",        l: "Texas" }
+  - { q: "qa automation",        l: "Texas" }
+  - { q: "business analyst",     l: "Texas" }
 
 # LinkedIn queries (public guest search endpoint).
 linkedin_queries:
-  - { q: "data engineer",      l: "Dallas, Texas, United States" }
-  - { q: "data analyst",       l: "Dallas, Texas, United States" }
-  - { q: "analytics engineer", l: "Dallas, Texas, United States" }
-  - { q: "ai engineer",        l: "Dallas, Texas, United States" }
-  - { q: "llm engineer",       l: "Dallas, Texas, United States" }
-  - { q: "data engineer",      l: "Frisco, Texas, United States" }
-  - { q: "data engineer",      l: "Fort Worth, Texas, United States" }
-  - { q: "data engineer",      l: "Plano, Texas, United States" }
-  - { q: "marketing",          l: "Dallas, Texas, United States" }
-  - { q: "marketing analyst",  l: "Dallas, Texas, United States" }
-  - { q: "data engineer",      l: "Texas, United States" }
-  - { q: "ai engineer",        l: "Texas, United States" }
+  - { q: "data engineer",       l: "Dallas, Texas, United States" }
+  - { q: "data analyst",        l: "Dallas, Texas, United States" }
+  - { q: "analytics engineer",  l: "Dallas, Texas, United States" }
+  - { q: "software engineer",   l: "Dallas, Texas, United States" }
+  - { q: "full stack developer",l: "Dallas, Texas, United States" }
+  - { q: "frontend engineer",   l: "Dallas, Texas, United States" }
+  - { q: "backend engineer",    l: "Dallas, Texas, United States" }
+  - { q: "qa engineer",         l: "Dallas, Texas, United States" }
+  - { q: "sdet",                l: "Dallas, Texas, United States" }
+  - { q: "devops engineer",     l: "Dallas, Texas, United States" }
+  - { q: "business analyst",    l: "Dallas, Texas, United States" }
+  - { q: "ai engineer",         l: "Dallas, Texas, United States" }
+  - { q: "llm engineer",        l: "Dallas, Texas, United States" }
+  - { q: "data engineer",       l: "Frisco, Texas, United States" }
+  - { q: "software engineer",   l: "Frisco, Texas, United States" }
+  - { q: "data engineer",       l: "Fort Worth, Texas, United States" }
+  - { q: "software engineer",   l: "Fort Worth, Texas, United States" }
+  - { q: "data engineer",       l: "Plano, Texas, United States" }
+  - { q: "software engineer",   l: "Plano, Texas, United States" }
+  - { q: "software engineer",   l: "Texas, United States" }
+  - { q: "full stack",          l: "Texas, United States" }
+  - { q: "ai engineer",         l: "Texas, United States" }
 
 # Greenhouse boards (company slug as seen in boards.greenhouse.io/<slug>).
 # These are established, H1B/OPT-friendly employers that publish directly
@@ -241,6 +350,10 @@ workday_tenants:
 workday_queries:
   - "data engineer"
   - "data analyst"
-  - "marketing"
+  - "software engineer"
+  - "full stack"
+  - "qa engineer"
+  - "business analyst"
+  - "devops"
   - "ai engineer"
   - "machine learning"

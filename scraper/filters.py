@@ -72,8 +72,20 @@ def score(job: Job, matched_groups: list[str], is_preferred_loc: bool) -> int:
         s += 20
     if "vibecoding" in matched_groups:
         s += 25
-    if "marketing" in matched_groups:
+    if "fullstack" in matched_groups:
+        s += 20
+    if "software" in matched_groups:
         s += 15
+    if "qa" in matched_groups:
+        s += 15
+    if "cloud" in matched_groups:
+        s += 15
+    if "security" in matched_groups:
+        s += 10
+    if "analyst" in matched_groups:
+        s += 10
+    if "product" in matched_groups:
+        s += 5
     if "junior" in matched_groups:
         s += 10
     if job.posted_at is not None:

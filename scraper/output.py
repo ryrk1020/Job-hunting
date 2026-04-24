@@ -111,8 +111,14 @@ HTML_TEMPLATE = """<!doctype html>
   .tag {{ display: inline-block; padding: 1px 7px; border-radius: 10px;
            background: #334155; color: var(--ink); font-size: 11px; margin-right: 4px; }}
   .tag.data {{ background: #1e3a8a; }}
-  .tag.marketing {{ background: #5b21b6; }}
   .tag.vibecoding {{ background: #065f46; color: #d1fae5; }}
+  .tag.fullstack {{ background: #0e7490; color: #cffafe; }}
+  .tag.software {{ background: #3730a3; color: #e0e7ff; }}
+  .tag.qa {{ background: #9f1239; color: #ffe4e6; }}
+  .tag.cloud {{ background: #1e40af; color: #dbeafe; }}
+  .tag.security {{ background: #7f1d1d; color: #fee2e2; }}
+  .tag.analyst {{ background: #6b21a8; color: #f3e8ff; }}
+  .tag.product {{ background: #854d0e; color: #fef9c3; }}
   .tag.junior {{ background: #7c2d12; }}
   .tag.preferred {{ background: #14532d; color: #bbf7d0; }}
   .source {{ color: var(--muted); font-size: 11px; }}
@@ -128,8 +134,14 @@ HTML_TEMPLATE = """<!doctype html>
   <select id="group">
     <option value="">All groups</option>
     <option value="data">Data</option>
-    <option value="marketing">Marketing</option>
     <option value="vibecoding">Vibecoding / AI</option>
+    <option value="fullstack">Full stack / Frontend / Backend</option>
+    <option value="software">Software</option>
+    <option value="qa">QA / Test</option>
+    <option value="cloud">Cloud / DevOps</option>
+    <option value="security">Security</option>
+    <option value="analyst">Analyst</option>
+    <option value="product">Product / PM</option>
   </select>
   <select id="loc">
     <option value="">All locations</option>
