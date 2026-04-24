@@ -1,5 +1,6 @@
 # Job Hunter config
 # Tune keywords, locations, and company boards here.
+# Manual rerun marker: 2026-04-24T12:10Z — clean-slate rebuild
 
 # Keyword groups. A job matches if any group's tokens all appear
 # in the title OR description (case-insensitive). Add / remove freely.
