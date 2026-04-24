@@ -12,6 +12,7 @@ from pathlib import Path
 
 import yaml
 
+from .dedup import SeenStore, commit_seen, filter_unseen, today_str
 from .filters import apply_all
 from .output import write_all
 from .sources.base import HttpClient
@@ -108,30 +109,43 @@ def run(cfg_path: Path, out_dir: Path) -> int:
     rows = apply_all(jobs, cfg, require_location=True)
     target = int(cfg.get("min_jobs_target", 50))
 
-    # If below target, widen once by dropping the location filter
-    # (still keeps keyword + freshness + exclude rules).
+    # Cross-day dedup: drop anything we've already surfaced on a prior day.
+    store = SeenStore(out_dir / "seen.json")
+    before = len(rows)
+    rows = filter_unseen(rows, store)
+    log.info("cross-day dedup: %d -> %d (store has %s)", before, len(rows), store.stats())
+
+    # If below target, widen once by dropping the location filter,
+    # then dedup again.
     if len(rows) < target:
         log.info("only %d jobs after strict filter, widening (drop location)", len(rows))
         widened = apply_all(jobs, cfg, require_location=False)
-        # Merge: preserve strict-match ranking at top.
-        seen = {r["url"] for r in rows if r.get("url")}
+        widened = filter_unseen(widened, store)
+        seen_urls = {r.get("url") for r in rows if r.get("url")}
         for r in widened:
-            if r.get("url") and r["url"] not in seen:
+            if r.get("url") and r["url"] not in seen_urls:
                 rows.append(r)
-                seen.add(r["url"])
+                seen_urls.add(r["url"])
 
     # Final sort: preferred_location desc, then score desc.
     rows.sort(key=lambda r: (r.get("preferred_location", False), r.get("score", 0)), reverse=True)
 
-    paths = write_all(rows, out_dir)
+    day = today_str()
+    paths = write_all(rows, out_dir, day)
+
+    # Commit everything we just emitted to the seen store so tomorrow's
+    # run won't re-surface them.
+    commit_seen(rows, store, day)
+
     log.info("wrote %d jobs to %s", len(rows), out_dir)
-    print(f"\n✓ {len(rows)} jobs written")
+    print(f"\n✓ {len(rows)} new jobs for {day}")
     for k, v in paths.items():
-        print(f"  {k:5}: {v}")
+        print(f"  {k:9}: {v}")
     if len(rows) < target:
         print(
-            f"\n⚠ target was {target} — consider adding ADZUNA_APP_ID/ADZUNA_APP_KEY "
-            "and USAJOBS_* env vars, or enable ycombinator in config for more volume."
+            f"\n⚠ target was {target} — once cross-day dedup kicks in this is "
+            "expected on slow news days. Add ADZUNA / USAJOBS env vars or more "
+            "company boards in config.yaml to increase the funnel."
         )
     return 0 if rows else 1
 

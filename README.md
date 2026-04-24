@@ -50,6 +50,25 @@ Add more companies in `config.yaml` — every board template is a single slug.
 - **Auto-widen**: if the strict filter returns fewer than `min_jobs_target`
   (default 50), the runner appends a location-agnostic pass so you still hit
   the daily floor.
+- **Cross-day dedup**: every job ever surfaced is recorded in `output/seen.json`
+  (committed by the daily workflow). Once a posting appears on day X it will
+  never appear on day X+1 — every day's archive is the *new* jobs only.
+
+## Dashboard (Calendar SPA)
+
+`output/index.html` is a single-page dashboard backed by `manifest.json` and
+`archive/<date>.json`. Features:
+
+- **Calendar** — month view, days with jobs are highlighted with the count.
+  Click any day to load that day's unique jobs. "Jump to today" button.
+- **Per-job status** — four buttons (Accept / Applied / In Progress / Reject)
+  on every job card. Status persists in browser `localStorage` so it survives
+  reloads and follows you across sessions on the same machine.
+- **KPIs** — today's count, all-time count, and your own accept/applied/in-progress/reject totals.
+- **Filters** — text search across company/title/location/source/source, group
+  (data, vibecoding, fullstack, software, qa, cloud, security, analyst, product),
+  status, and location (preferred DFW / Remote).
+- **One-click apply** — every card has a direct "Apply ↗" link to the source.
 
 ## Quick start
 
@@ -69,8 +88,10 @@ Outputs:
 - `output/jobs.json` — canonical, machine-readable
 - `output/jobs.csv` — open in Excel / Sheets
 - `output/jobs.md` — paste into Notion / GitHub
-- `output/index.html` — interactive dashboard with text filter and tag filters
-- `output/archive/YYYY-MM-DD.json` — dated snapshot per run
+- `output/index.html` + `app.js` + `styles.css` — calendar SPA dashboard
+- `output/manifest.json` — list of available days for the calendar
+- `output/seen.json` — cross-day dedup store (committed daily)
+- `output/archive/YYYY-MM-DD.json` — that day's unique new jobs
 
 ## Optional free API keys (recommended, boosts volume)
 
@@ -82,12 +103,20 @@ Set them in your shell, a `.env` you source, or GitHub Actions secrets.
 ## Daily automation
 
 `.github/workflows/daily.yml` runs the scraper every day at 06:00 UTC, commits
-the latest `output/` back to the repo, and publishes the HTML dashboard to
-GitHub Pages.
+the latest `output/` (including `seen.json` so cross-day dedup survives) back
+to the repo, and publishes the calendar dashboard to GitHub Pages.
 
-To enable Pages: **Repo Settings → Pages → Source: GitHub Actions**. Then
-every morning the dashboard at `https://<you>.github.io/Job-hunting/` reflects
-the latest scrape automatically.
+**To enable Pages** (one-time):
+
+1. Repo **Settings → Pages → Source: GitHub Actions**.
+2. **Actions → daily-scrape → Run workflow** to do a first run immediately
+   (otherwise wait for tomorrow 06:00 UTC).
+3. Open `https://<your-username>.github.io/Job-hunting/` and you'll see the
+   calendar with today's jobs loaded.
+
+Each subsequent day the workflow appends a new `archive/<date>.json`,
+refreshes `manifest.json` for the calendar, and updates `seen.json` so
+duplicates are dropped.
 
 To add secrets: **Repo Settings → Secrets and variables → Actions → New
 repository secret** for any of `ADZUNA_APP_ID`, `ADZUNA_APP_KEY`,

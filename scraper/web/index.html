@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Job Hunter — Calendar Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">JH</span>
+      <div>
+        <h1>Job Hunter</h1>
+        <p id="subtitle">Loading…</p>
+      </div>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><span class="kpi-label">Today</span><span id="kpi-today">—</span></div>
+      <div class="kpi"><span class="kpi-label">All-time</span><span id="kpi-total">—</span></div>
+      <div class="kpi accept"><span class="kpi-label">Accepted</span><span id="kpi-accept">—</span></div>
+      <div class="kpi applied"><span class="kpi-label">Applied</span><span id="kpi-applied">—</span></div>
+      <div class="kpi inprogress"><span class="kpi-label">In progress</span><span id="kpi-inprogress">—</span></div>
+      <div class="kpi reject"><span class="kpi-label">Rejected</span><span id="kpi-reject">—</span></div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="calendar-pane">
+      <div class="cal-head">
+        <button id="cal-prev" aria-label="Previous month">‹</button>
+        <h2 id="cal-title">—</h2>
+        <button id="cal-next" aria-label="Next month">›</button>
+      </div>
+      <div class="cal-dow">
+        <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+      </div>
+      <div id="calendar" class="cal-grid"></div>
+      <button id="today-btn" class="ghost">Jump to today</button>
+      <div class="legend">
+        <span class="dot has-jobs"></span>has jobs
+        <span class="dot today"></span>today
+        <span class="dot selected"></span>selected
+      </div>
+    </aside>
+
+    <section class="jobs-pane">
+      <div class="controls">
+        <input id="q" placeholder="Search company, title, location, source…" autofocus />
+        <select id="group">
+          <option value="">All groups</option>
+          <option value="data">Data</option>
+          <option value="vibecoding">Vibecoding / AI</option>
+          <option value="fullstack">Full stack</option>
+          <option value="software">Software</option>
+          <option value="qa">QA / Test</option>
+          <option value="cloud">Cloud / DevOps</option>
+          <option value="security">Security</option>
+          <option value="analyst">Analyst</option>
+          <option value="product">Product / PM</option>
+        </select>
+        <select id="status">
+          <option value="">All statuses</option>
+          <option value="new">New (no status)</option>
+          <option value="accept">Accepted</option>
+          <option value="applied">Applied</option>
+          <option value="inprogress">In progress</option>
+          <option value="reject">Rejected</option>
+        </select>
+        <select id="loc">
+          <option value="">All locations</option>
+          <option value="preferred">Preferred (DFW)</option>
+          <option value="remote">Remote</option>
+        </select>
+        <span id="count" class="count">0 jobs</span>
+      </div>
+
+      <div id="jobs" class="jobs"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

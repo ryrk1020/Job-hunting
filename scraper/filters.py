@@ -135,6 +135,7 @@ def apply_all(
         row["matched_groups"] = hits
         row["preferred_location"] = preferred
         row["score"] = score(j, hits, preferred)
+        row["_fp"] = j.fingerprint()
         fp = j.fingerprint()
         prev = seen.get(fp)
         if prev is None or row["score"] > prev["score"]:
