@@ -5,17 +5,30 @@ on:
     # 06:00 UTC == 01:00 US Central. Change to taste.
     - cron: "0 6 * * *"
   workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "scraper/**"
+      - "config.yaml"
+      - ".github/workflows/daily.yml"
 
 permissions:
   contents: write
   pages: write
   id-token: write
 
+concurrency:
+  group: daily-scrape-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - uses: actions/setup-python@v5
         with:
@@ -23,7 +36,9 @@ jobs:
           cache: "pip"
 
       - name: Install deps
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Run scraper
         env:
@@ -33,17 +48,35 @@ jobs:
           USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
         run: python -m scraper.main --config config.yaml --out output
 
+      - name: Verify dashboard assets exist
+        run: |
+          test -f output/index.html
+          test -f output/app.js
+          test -f output/styles.css
+          test -f output/manifest.json
+          echo "output/ contents:"
+          ls -la output/
+          echo "archive:"
+          ls -la output/archive/ || true
+
       - name: Commit latest output
+        continue-on-error: true
         run: |
           git config user.name "job-hunter-bot"
           git config user.email "bot@users.noreply.github.com"
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
           git add output
           if ! git diff --cached --quiet; then
             git commit -m "chore: daily job scrape $(date -u +%Y-%m-%d)"
-            git push
+            git push origin "HEAD:${GITHUB_REF_NAME}"
           else
             echo "no changes"
           fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
