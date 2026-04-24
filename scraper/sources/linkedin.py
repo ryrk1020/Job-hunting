@@ -9,9 +9,15 @@ Endpoint:
   ?keywords=<q>&location=<loc>&f_TPR=r86400&start=<offset>
     f_TPR=r86400  -> past 24h
     f_TPR=r604800 -> past 7d
+
+After the card list is built we fetch each job's detail page in
+parallel and extract its full description. Without that step, downstream
+filters (YoE, work_auth) have empty text to work with and citizenship /
+experience requirements hidden in the body sneak through.
 """
 from __future__ import annotations
 
+import concurrent.futures
 import logging
 import re
 from typing import Iterable
@@ -22,6 +28,7 @@ from .base import HttpClient, Job, parse_when, strip_html
 log = logging.getLogger(__name__)
 
 BASE = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
+JOB_VIEW = "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/"
 
 # Each card is a <li> containing anchor w/ tracking link, company, location, list-date.
 _LI_CARD_RE = re.compile(r"<li[^>]*>(.*?)</li>", re.DOTALL | re.IGNORECASE)
@@ -40,6 +47,12 @@ _LOC_RE = re.compile(
 )
 _TIME_RE = re.compile(
     r'<time[^>]*datetime="([^"]+)"', re.IGNORECASE,
+)
+_JOB_ID_RE = re.compile(r"/jobs/view/[^/]*?(\d{8,})(?:[/?#]|$)")
+_DESC_RE = re.compile(
+    r'<div[^>]*class="[^"]*(?:show-more-less-html__markup|description__text)[^"]*"[^>]*>'
+    r"(.*?)</div>",
+    re.DOTALL | re.IGNORECASE,
 )
 
 
@@ -69,6 +82,56 @@ def _parse_cards(html: str) -> list[dict]:
             }
         )
     return out
+
+
+def _job_id(url: str) -> str | None:
+    m = _JOB_ID_RE.search(url or "")
+    return m.group(1) if m else None
+
+
+def _fetch_description(http: HttpClient, url: str) -> str:
+    """Fetch the LinkedIn job detail page and extract the full description.
+
+    LinkedIn exposes a logged-out HTML snippet of the full JD at
+    /jobs-guest/jobs/api/jobPosting/<id>. Falling back to the canonical
+    /jobs/view/<id> URL if the id can't be parsed out.
+    """
+    jid = _job_id(url)
+    detail_url = f"{JOB_VIEW}{jid}" if jid else url
+    try:
+        html = http.get_text(
+            detail_url,
+            headers={
+                "Accept": "text/html,application/xhtml+xml",
+                "Accept-Language": "en-US,en;q=0.9",
+            },
+        )
+    except Exception:
+        return ""
+    m = _DESC_RE.search(html)
+    return strip_html(m.group(1)) if m else ""
+
+
+def _enrich_descriptions(http: HttpClient, jobs: list[Job], max_workers: int = 10) -> int:
+    """Fill in Job.description for each URL via a bounded thread pool.
+
+    Returns the number of jobs that got a non-empty description back.
+    """
+    if not jobs:
+        return 0
+    filled = 0
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as ex:
+        futures = {ex.submit(_fetch_description, http, j.url): j for j in jobs}
+        for f in concurrent.futures.as_completed(futures):
+            j = futures[f]
+            try:
+                desc = f.result(timeout=15) or ""
+            except Exception:
+                desc = ""
+            if desc:
+                j.description = desc
+                filled += 1
+    return filled
 
 
 def fetch(http: HttpClient, queries: Iterable[dict], max_pages: int = 3) -> list[Job]:
@@ -118,5 +181,6 @@ def fetch(http: HttpClient, queries: Iterable[dict], max_pages: int = 3) -> list
                 )
             if new_this_page == 0:
                 break
-    log.info("linkedin: %d jobs", len(jobs))
+    filled = _enrich_descriptions(http, jobs)
+    log.info("linkedin: %d jobs (%d with description)", len(jobs), filled)
     return jobs

@@ -16,20 +16,49 @@ _WORD_NUM = {
     "eleven": 11, "twelve": 12, "fifteen": 15, "twenty": 20,
 }
 
-# Matches "8+ years", "8-10 years", "8 yrs", "eight years", "minimum of 8 years".
+# Years-of-experience detection. The goal is to capture the LOWER-bound
+# (minimum required) number from phrasings like:
+#   "5+ years", "5-8 years", "5 to 8 years", "at least 5 years",
+#   "minimum 5 years", "5 or more years", "8 yrs of professional exp",
+#   "eight years of engineering experience", "must have 5 years".
+_RANGE_SUFFIX = (
+    r"(?:\s*(?:\+|\-\s*\d{1,2}|to\s+\d{1,2}|or\s*more|or\s*above|plus))?"
+)
+_EXP_CONTEXT = (
+    r"(?:experience|exp\.?|industry|working|professional|hands\-?on|"
+    r"background|software|development|engineering|programming|"
+    r"coding|relevant|similar)"
+)
+
 _YOE_PATTERNS = [
+    # "5+ years", "5-8 years", "5 years" followed within 80 chars by an
+    # experience-context word.
     re.compile(
-        r"(\d{1,2})\s*(?:\+|-\s*\d{1,2}|\s*or\s*more|\s*plus)?\s*(?:\+)?\s*"
-        r"(?:years?|yrs?)\b[^.]{0,40}?(?:experience|exp|industry|working|professional)",
+        r"(\d{1,2})" + _RANGE_SUFFIX + r"\s*(?:years?|yrs?)"
+        r"\b[^.]{0,80}?" + _EXP_CONTEXT,
         re.IGNORECASE,
     ),
+    # Leading keyword: "minimum / at least / requires / must have / needs
+    # / bringing / has / with N years".
     re.compile(
-        r"(?:minimum|min\.?|at\s*least|requires?|must\s*have)\s*(?:of\s*)?(\d{1,2})\s*(?:\+)?\s*(?:years?|yrs?)",
+        r"(?:minimum|min\.?|at\s*least|requires?|require|must\s*have|"
+        r"must\s*possess|needs?|need|bring(?:ing)?|having|has|with)\s*"
+        r"(?:of\s*)?(\d{1,2})" + _RANGE_SUFFIX + r"\s*(?:years?|yrs?)",
         re.IGNORECASE,
     ),
+    # Standalone "N+ years" anywhere — the + is strong enough on its own.
+    re.compile(r"\b(\d{1,2})\s*\+\s*(?:years?|yrs?)\b", re.IGNORECASE),
+    # Trailing keyword: "N years minimum / required".
     re.compile(
-        r"\b(" + "|".join(_WORD_NUM.keys()) + r")\b\s*(?:\+|or\s*more)?\s*(?:years?|yrs?)\b"
-        r"[^.]{0,40}?(?:experience|exp|industry|working|professional)",
+        r"(\d{1,2})\s*(?:years?|yrs?)\s*(?:of\s*)?"
+        r"(?:minimum|required|experience\s+minimum|industry\s+experience)",
+        re.IGNORECASE,
+    ),
+    # Word form near experience context.
+    re.compile(
+        r"\b(" + "|".join(_WORD_NUM.keys()) + r")\b\s*"
+        r"(?:\+|or\s*more|plus)?\s*(?:years?|yrs?)\b"
+        r"[^.]{0,80}?" + _EXP_CONTEXT,
         re.IGNORECASE,
     ),
 ]
@@ -174,6 +203,13 @@ def apply_all(
     strict_fresh = bool(cfg.get("strict_freshness", False))
     cand_yoe = int(cfg.get("candidate_experience_years", 2))
     max_yoe = int(cfg.get("max_experience_years", cand_yoe + 2))
+    # Strict experience mode: drop any posting whose description we can't
+    # actually scan (LinkedIn/Workday etc. return empty descriptions on
+    # their public list endpoints). Combined with an empty description,
+    # the YoE regex has no text to match and a "5+ years" requirement can
+    # slip through silently.
+    strict_exp = bool(cfg.get("strict_experience_filter", False))
+    min_desc_chars = int(cfg.get("min_description_chars", 80))
 
     seen: dict[str, dict] = {}
     kept = 0
@@ -182,6 +218,7 @@ def apply_all(
     dropped_exc = 0
     dropped_old = 0
     dropped_yoe = 0
+    dropped_nodesc = 0
 
     for j in jobs:
         if excluded(j, exc):
@@ -193,6 +230,14 @@ def apply_all(
         hits = matches_keywords(j, kw)
         if not hits:
             dropped_kw += 1
+            continue
+        # Under strict mode, we must actually be able to read the posting's
+        # full text before trusting it. Short/empty descriptions come from
+        # list-only endpoints (LinkedIn, Workday, Workable, SmartRecruiters)
+        # where a "5+ years" requirement hides until the user clicks Apply.
+        desc_len = len(j.description or "")
+        if strict_exp and desc_len < min_desc_chars:
+            dropped_nodesc += 1
             continue
         req_yoe = _required_years(f"{j.title}\n{j.description}")
         if req_yoe > max_yoe:
@@ -215,8 +260,9 @@ def apply_all(
             kept += 1
 
     log.info(
-        "filter: kept=%d unique=%d dropped(exc=%d,kw=%d,loc=%d,old=%d,yoe=%d)",
-        kept, len(seen), dropped_exc, dropped_kw, dropped_loc, dropped_old, dropped_yoe,
+        "filter: kept=%d unique=%d dropped(exc=%d,kw=%d,loc=%d,old=%d,yoe=%d,nodesc=%d)",
+        kept, len(seen), dropped_exc, dropped_kw, dropped_loc, dropped_old,
+        dropped_yoe, dropped_nodesc,
     )
     out = list(seen.values())
     out.sort(key=lambda r: r["score"], reverse=True)

@@ -1,6 +1,6 @@
 # Job Hunter config
 # Tune keywords, locations, and company boards here.
-# Manual rerun marker: 2026-04-24T12:20Z — part-time/intern filter
+# Manual rerun marker: 2026-04-24T12:45Z — strict exp + linkedin desc fetch
 
 # Keyword groups. A job matches if any group's tokens all appear
 # in the title OR description (case-insensitive). Add / remove freely.
@@ -286,6 +286,14 @@ candidate_experience_years: 2
 # Hard cap on years of experience a posting may demand. Any "X+ years"
 # text in the description with X greater than this is excluded.
 max_experience_years: 4
+
+# Strict-experience mode. When true, any posting whose full description
+# we can't actually read (shorter than min_description_chars) is dropped
+# — because a '5+ years' requirement hides in the body that list-only
+# endpoints like LinkedIn / Workday / Workable / SmartRecruiters don't
+# return. LinkedIn descriptions are fetched on a best-effort basis.
+strict_experience_filter: true
+min_description_chars: 120
 
 # Target jobs per run. Acts as BOTH a floor (search widens to reach it)
 # AND a ceiling (output is truncated to exactly this many — highest
