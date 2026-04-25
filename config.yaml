@@ -469,8 +469,7 @@ locations:
 
 # Anything containing these tokens will be excluded.
 exclude:
-  companies:
-    - cognizant
+  companies: []
   # Small / early-stage startups we don't want in the feed.
   # Add company names (case-insensitive substring match) to skip them.
   companies_early_stage:
@@ -666,6 +665,34 @@ indeed_rss_queries:
   - { q: "data engineer",        l: "Texas" }
   - { q: "qa automation",        l: "Texas" }
   - { q: "business analyst",     l: "Texas" }
+  # Service-MNC targeted queries — by company name. These surface roles
+  # at consulting / IT-services firms that don't always hit our ATS
+  # adapters. Reasonable interview loops, friendly to OPT/H1B.
+  - { q: "data engineer accenture",       l: "United States" }
+  - { q: "software engineer accenture",   l: "United States" }
+  - { q: "data engineer deloitte",        l: "United States" }
+  - { q: "software engineer deloitte",    l: "United States" }
+  - { q: "data engineer infosys",         l: "United States" }
+  - { q: "software engineer infosys",     l: "United States" }
+  - { q: "data engineer cognizant",       l: "United States" }
+  - { q: "software engineer cognizant",   l: "United States" }
+  - { q: "data engineer capgemini",       l: "United States" }
+  - { q: "software engineer wipro",       l: "United States" }
+  - { q: "data engineer hcl",             l: "United States" }
+  - { q: "software engineer tcs",         l: "United States" }
+  - { q: "data engineer tech mahindra",   l: "United States" }
+  - { q: "data engineer ntt data",        l: "United States" }
+  - { q: "software engineer dxc",         l: "United States" }
+  - { q: "data engineer mphasis",         l: "United States" }
+  - { q: "data engineer ltimindtree",     l: "United States" }
+  - { q: "software engineer ibm",         l: "United States" }
+  # Contract / staffing keyword queries — short-term gigs.
+  - { q: "data engineer contract",        l: "Texas" }
+  - { q: "software engineer contract",    l: "Texas" }
+  - { q: "full stack contract",           l: "Texas" }
+  - { q: "qa contract",                   l: "Texas" }
+  - { q: "data engineer w2 contract",     l: "United States" }
+  - { q: "data engineer corp to corp",    l: "United States" }
 
 # LinkedIn queries (public guest search endpoint).
 linkedin_queries:
@@ -691,10 +718,37 @@ linkedin_queries:
   - { q: "software engineer",   l: "Texas, United States" }
   - { q: "full stack",          l: "Texas, United States" }
   - { q: "ai engineer",         l: "Texas, United States" }
+  # Service-MNC targeted (by company name in keyword) — broader US net
+  # since these firms hire across many cities, not just DFW.
+  - { q: "accenture data engineer",       l: "United States" }
+  - { q: "accenture software engineer",   l: "United States" }
+  - { q: "deloitte data engineer",        l: "United States" }
+  - { q: "deloitte software engineer",    l: "United States" }
+  - { q: "infosys data engineer",         l: "United States" }
+  - { q: "infosys software engineer",     l: "United States" }
+  - { q: "cognizant data engineer",       l: "United States" }
+  - { q: "cognizant software engineer",   l: "United States" }
+  - { q: "capgemini data engineer",       l: "United States" }
+  - { q: "wipro data engineer",           l: "United States" }
+  - { q: "hcl software engineer",         l: "United States" }
+  - { q: "tcs data engineer",             l: "United States" }
+  - { q: "tech mahindra data engineer",   l: "United States" }
+  - { q: "ntt data engineer",             l: "United States" }
+  - { q: "dxc software engineer",         l: "United States" }
+  - { q: "mphasis data engineer",         l: "United States" }
+  - { q: "ltimindtree data engineer",     l: "United States" }
+  - { q: "ibm data engineer",             l: "United States" }
+  - { q: "ibm software engineer",         l: "United States" }
+  # Contract gigs (smaller product / staffing).
+  - { q: "data engineer contract",        l: "Texas, United States" }
+  - { q: "software engineer contract",    l: "Texas, United States" }
+  - { q: "data engineer w2",              l: "United States" }
+  - { q: "data engineer c2c",             l: "United States" }
 
 # Greenhouse boards (company slug as seen in boards.greenhouse.io/<slug>).
-# These are established, H1B/OPT-friendly employers that publish directly
-# to Greenhouse.
+# Tier A — top product (the user has explicitly asked NOT to over-index
+# on these because their interview loops are brutal). Kept because some
+# do have entry-level openings, but mostly used as a baseline.
 greenhouse_boards:
   - airbnb
   - stripe
@@ -734,6 +788,35 @@ greenhouse_boards:
   - datadog
   - lyft
   - opendoor
+  # Tier B — smaller / mid-stage product cos with friendlier loops and
+  # frequent contract-to-hire posts. These tend to take OPT and H1B more
+  # readily than top product cos.
+  - duolingo
+  - mux
+  - vimeo
+  - launchdarkly
+  - amplitude
+  - braze
+  - klaviyo
+  - coda
+  - carta
+  - hex
+  - glean
+  - clari
+  - greenhouse
+  - lattice
+  - vouch
+  - guideline
+  - alma
+  - handshake
+  - airtable
+  - retool
+  - clickup
+  - miro
+  - calendly
+  - loom
+  - sentry
+  - fastly
 
 # Lever boards (api.lever.co/v0/postings/<slug>).
 lever_boards:
@@ -743,6 +826,14 @@ lever_boards:
   - kraken
   - checkr
   - scaleai
+  # Mid-stage product + AI tooling — generally less brutal interviews
+  # than top product cos, often hire on contract/OPT.
+  - huggingface
+  - 1password
+  - palantir
+  - addepar
+  - benevity
+  - netlify
 
 # Ashby boards (api.ashbyhq.com/posting-api/job-board/<slug>).
 ashby_boards:
@@ -751,6 +842,16 @@ ashby_boards:
   - vercel
   - mercury
   - deel
+  # Smaller AI / dev-tools shops, contract-friendly.
+  - linear
+  - replit
+  - pulumi
+  - supabase
+  - posthog
+  - baseten
+  - modal
+  - clerk
+  - cohere
 
 # SmartRecruiters boards (api.smartrecruiters.com/v1/companies/<slug>/postings).
 smartrecruiters_boards:
@@ -770,7 +871,9 @@ workable_boards:
 # Workday tenants — large TX-heavy employers.
 # You can find the {tenant, host, site} by visiting a company's careers page and
 # inspecting the jobs URL, e.g. att.wd1.myworkdayjobs.com/External -> tenant=att, site=External.
+# Tenants whose endpoint 404s just log a warning and contribute 0 jobs.
 workday_tenants:
+  # Large product / enterprise (existing, kept).
   - { tenant: "att",      host: "wd1",   site: "ATTEXT" }
   - { tenant: "usaa",     host: "wd1",   site: "USAAJOBSWEBSITE" }
   - { tenant: "jpmc",     host: "wd1",   site: "jpmc" }
@@ -782,6 +885,29 @@ workday_tenants:
   - { tenant: "mckesson", host: "wd1",   site: "External_Career_Site" }
   - { tenant: "texasinstruments", host: "wd5", site: "External" }
   - { tenant: "7-11",     host: "wd1",   site: "7ElevenCareers" }
+  # Service-based MNCs (consulting / IT services). These are H1B/OPT
+  # friendly, hire heavily for entry-mid level, and have far more
+  # forgiving interview loops than top product. Tenant slugs are best-
+  # guess based on common Workday URL patterns; if a tenant 404s the
+  # source just skips it with a warning.
+  - { tenant: "accenture",      host: "wd3", site: "AccentureCareers" }
+  - { tenant: "nttdata",        host: "wd3", site: "NTTDATA_External_Career_Site" }
+  - { tenant: "pwc",            host: "wd3", site: "Global_Experienced_Careers" }
+  - { tenant: "ey",             host: "wd3", site: "EY_GTH_Careers" }
+  - { tenant: "kpmg",           host: "wd5", site: "KPMG_US_Careers" }
+  - { tenant: "dxctechnology",  host: "wd1", site: "DXCExperienced" }
+  - { tenant: "capgemini",      host: "wd3", site: "Capgemini" }
+  - { tenant: "ibm",            host: "wd1", site: "IBM" }
+  - { tenant: "infosys",        host: "wd5", site: "External" }
+  - { tenant: "ltimindtree",    host: "wd5", site: "LTIMindtree_External_Career_Site" }
+  # More TX-heavy enterprises that tend to hire mid-level engineers.
+  - { tenant: "americanairlines", host: "wd1", site: "AAcareers" }
+  - { tenant: "southwest",      host: "wd1", site: "SWA" }
+  - { tenant: "exxonmobil",     host: "wd5", site: "ExxonMobil" }
+  - { tenant: "anywhere",       host: "wd1", site: "Anywhere_Real_Estate" }
+  - { tenant: "kellyservices",  host: "wd1", site: "KellyServices" }
+  - { tenant: "rht",            host: "wd5", site: "External" }   # Robert Half
+  - { tenant: "tek",            host: "wd1", site: "External" }   # TEKsystems
 
 # Workday search queries (run against every tenant).
 workday_queries:
