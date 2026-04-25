@@ -43,10 +43,11 @@
   <section class="kpi-strip" aria-label="Key metrics">
     <div class="kpi"><span class="kpi-label">Today</span><span id="kpi-today" class="kpi-value">—</span></div>
     <div class="kpi"><span class="kpi-label">All-time</span><span id="kpi-total" class="kpi-value">—</span></div>
-    <div class="kpi kpi-accept"><span class="kpi-label">Accepted</span><span id="kpi-accept" class="kpi-value">—</span></div>
+    <div class="kpi kpi-accept"><span class="kpi-label">Interested</span><span id="kpi-accept" class="kpi-value">—</span></div>
     <div class="kpi kpi-applied"><span class="kpi-label">Applied</span><span id="kpi-applied" class="kpi-value">—</span></div>
-    <div class="kpi kpi-inprogress"><span class="kpi-label">In progress</span><span id="kpi-inprogress" class="kpi-value">—</span></div>
-    <div class="kpi kpi-reject"><span class="kpi-label">Rejected</span><span id="kpi-reject" class="kpi-value">—</span></div>
+    <div class="kpi kpi-inprogress"><span class="kpi-label">Interview</span><span id="kpi-inprogress" class="kpi-value">—</span></div>
+    <div class="kpi kpi-offer"><span class="kpi-label">Offer</span><span id="kpi-offer" class="kpi-value">—</span></div>
+    <div class="kpi kpi-reject"><span class="kpi-label">Closed</span><span id="kpi-reject" class="kpi-value">—</span></div>
   </section>
 
   <main class="layout">
@@ -76,7 +77,19 @@
     <section class="jobs-pane" aria-label="Jobs">
       <div class="pane-title">
         <span>Jobs</span>
-        <span id="count" class="count">0 jobs</span>
+        <div class="pane-title-right">
+          <div class="view-toggle" role="tablist" aria-label="View mode">
+            <button data-view-toggle="list" class="active" role="tab" title="List view">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg>
+              <span>List</span>
+            </button>
+            <button data-view-toggle="board" role="tab" title="Pipeline board">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="5" height="16" rx="1"/><rect x="10" y="4" width="5" height="11" rx="1"/><rect x="17" y="4" width="4" height="7" rx="1"/></svg>
+              <span>Board</span>
+            </button>
+          </div>
+          <span id="count" class="count">0 jobs</span>
+        </div>
       </div>
       <div class="controls">
         <div class="search-wrap">
@@ -103,15 +116,36 @@
         <select id="status" aria-label="Status">
           <option value="unmarked" selected>Unmarked only</option>
           <option value="">All statuses</option>
-          <option value="accept">Accepted</option>
+          <option value="interested">Interested</option>
           <option value="applied">Applied</option>
-          <option value="inprogress">In progress</option>
-          <option value="reject">Rejected</option>
+          <option value="interview">Interview</option>
+          <option value="offer">Offer</option>
+          <option value="closed">Closed</option>
+        </select>
+        <select id="sort" aria-label="Sort">
+          <option value="score">Sort: Score</option>
+          <option value="posted">Sort: Posted date</option>
+          <option value="company">Sort: Company A→Z</option>
+          <option value="title">Sort: Title A→Z</option>
         </select>
       </div>
       <div id="jobs" class="jobs"></div>
     </section>
   </main>
+
+  <!-- Detail drawer (slide-in) -->
+  <aside id="detail-drawer" class="drawer" hidden aria-label="Job details">
+    <div class="drawer-scrim" data-close="1"></div>
+    <div class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+      <div class="drawer-head">
+        <h2 id="drawer-title">Job details</h2>
+        <button class="icon-btn" data-close="1" aria-label="Close drawer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+      <div id="drawer-body" class="drawer-body"></div>
+    </div>
+  </aside>
 
   <!-- Settings modal -->
   <div id="settings-modal" class="modal" hidden>

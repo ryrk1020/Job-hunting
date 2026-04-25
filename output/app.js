@@ -1,15 +1,35 @@
-// Job Hunter dashboard — calendar SPA.
+// Job Hunter dashboard v2 — calendar SPA + Kanban board + detail drawer.
 // Share the Pages URL with anyone; no auth, no tokens, no setup.
-// Marks and UI prefs live in each viewer's localStorage.
-// Carry-forward runs purely in the browser: when you view today, jobs
-// from prior days that you haven't closed out are merged in.
+// Marks (status, notes, salary, contact, dates) live in each viewer's localStorage.
+// Carry-forward runs purely in the browser: when you view today, jobs from
+// prior days that you haven't closed out are merged in.
 
-const STATUSES = ["accept", "applied", "inprogress", "reject"];
-const STATUS_LABEL = { accept: "Accept", applied: "Applied", inprogress: "In Prog", reject: "Reject" };
-const STATUS_KEY  = "jobhunter.status.v1";
-const THEME_KEY   = "jobhunter.theme";
-const CARRY_KEY   = "jobhunter.carry";         // "1" = on (default), "0" = off
-const CARRY_MAX_DAYS = 14;                      // how far back to scan for carryover
+// ───── Pipeline definition ──────────────────────────────────────────
+// Five canonical stages. Each one accepts legacy single-word values
+// from v1 storage so existing marks keep working without migration.
+const PIPELINE = [
+  { key: "interested", label: "Interested", color: "success",     compat: ["accept"] },
+  { key: "applied",    label: "Applied",    color: "primary",     compat: [] },
+  { key: "interview",  label: "Interview",  color: "warning",     compat: ["inprogress"] },
+  { key: "offer",      label: "Offer",      color: "purple",      compat: [] },
+  { key: "closed",     label: "Closed",     color: "destructive", compat: ["reject"] },
+];
+const PIPELINE_KEYS = PIPELINE.map(p => p.key);
+const SUB_STAGES = [
+  { key: "",          label: "—" },
+  { key: "phone",     label: "Phone screen" },
+  { key: "technical", label: "Technical / take-home" },
+  { key: "onsite",    label: "Onsite / final round" },
+];
+const STALE_DAYS = 14;
+const STALE_STAGES = new Set(["applied", "interview", "offer"]);
+
+const STATUS_KEY = "jobhunter.status.v1";   // schema kept stable for backward-compat
+const THEME_KEY  = "jobhunter.theme";
+const CARRY_KEY  = "jobhunter.carry";       // "1" = on (default), "0" = off
+const VIEW_KEY   = "jobhunter.view";        // "list" | "board"
+const SORT_KEY   = "jobhunter.sort";        // "score" | "posted" | "company" | "title"
+const CARRY_MAX_DAYS = 14;
 
 const REPO_SLUG = detectRepoSlug();
 
@@ -18,10 +38,13 @@ const state = {
   byDate: new Map(),
   selected: null,
   view: { y: null, m: null },
-  jobs: [],                         // what's rendered (fresh + carryover)
+  jobs: [],
   filters: { q: "", group: "", status: "unmarked", loc: "" },
   status: loadStatus(),
   carryEnabled: localStorage.getItem(CARRY_KEY) !== "0",
+  viewMode: localStorage.getItem(VIEW_KEY) || "list",
+  sortBy:   localStorage.getItem(SORT_KEY) || "score",
+  drawerUrl: null,
 };
 
 // ───── Utility ───────────────────────────────────────────────────────
@@ -39,6 +62,7 @@ function detectRepoSlug() {
 }
 function safe(s) { return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }
 function todayISO() { return new Date().toISOString().slice(0, 10); }
+function nowISO()   { return new Date().toISOString(); }
 function isoFromYMD(y, m, d) { return `${y}-${String(m + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`; }
 
 function toast(msg, ms = 2200) {
@@ -48,6 +72,21 @@ function toast(msg, ms = 2200) {
   requestAnimationFrame(() => el.classList.add("show"));
   clearTimeout(toast._t);
   toast._t = setTimeout(() => el.classList.remove("show"), ms);
+}
+
+function fmtDate(iso) {
+  if (!iso) return "—";
+  try { return new Date(iso).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" }); }
+  catch { return iso.slice(0, 10); }
+}
+function fmtAgo(iso) {
+  if (!iso) return "";
+  const days = Math.round((Date.now() - new Date(iso).getTime()) / 86400000);
+  if (days <= 0) return "today";
+  if (days === 1) return "1d ago";
+  if (days < 30) return `${days}d ago`;
+  const months = Math.round(days / 30);
+  return `${months}mo ago`;
 }
 
 // ───── Theme ─────────────────────────────────────────────────────────
@@ -62,21 +101,67 @@ function initTheme() {
 }
 
 // ───── Status store ──────────────────────────────────────────────────
+// Storage: localStorage[STATUS_KEY] = { url: rawMark }, where rawMark is either
+//   - a string  (v1 legacy): "accept" | "applied" | "inprogress" | "reject"
+//   - an object (v2):        { s, sub, n, c, $, x, ad, u }
+//        s   stage key (canonical, see PIPELINE)
+//        sub sub-stage when s === "interview"
+//        n   notes
+//        c   contact
+//        $   salary (note: dollar sign, kept short for storage)
+//        x   next step text
+//        ad  ISO datetime first marked Applied
+//        u   ISO datetime last updated
+// Reading via getMark() always returns the v2 shape (or null), with legacy
+// strings auto-mapped to canonical stage keys via PIPELINE.compat.
 function loadStatus() {
   try { return JSON.parse(localStorage.getItem(STATUS_KEY) || "{}"); }
   catch { return {}; }
 }
 function saveStatus() { localStorage.setItem(STATUS_KEY, JSON.stringify(state.status)); }
 
-async function setJobStatus(url, status) {
-  if (state.status[url] === status) delete state.status[url];
-  else state.status[url] = status;
+function legacyToCanonical(raw) {
+  for (const col of PIPELINE) {
+    if (col.key === raw) return col.key;
+    if (col.compat.includes(raw)) return col.key;
+  }
+  return raw || "";
+}
+function getMark(url) {
+  const raw = state.status[url];
+  if (!raw) return null;
+  if (typeof raw === "string") return { s: legacyToCanonical(raw) };
+  return { ...raw, s: legacyToCanonical(raw.s || "") };
+}
+function getStage(url) { return getMark(url)?.s || ""; }
+
+function patchMark(url, patch) {
+  const cur = getMark(url) || {};
+  const next = { ...cur, ...patch, u: nowISO() };
+  if (patch.s === "applied" && !cur.ad) next.ad = next.u;
+  // Empty mark? remove entry to keep storage tidy.
+  const empty = !next.s && !next.n && !next.c && !next.$ && !next.x && !next.sub;
+  if (empty) delete state.status[url];
+  else state.status[url] = next;
   saveStatus();
-  refreshKpis();
-  // A mark can change what's "unmarked" for carryover, so re-select the
-  // day to recompute — but only if we're on the latest day (where
-  // carryover is in effect) AND the filter is hiding it now.
-  renderJobs();
+}
+function clearMark(url) {
+  delete state.status[url];
+  saveStatus();
+}
+function toggleStage(url, stage) {
+  const cur = getMark(url);
+  if (cur && cur.s === stage) {
+    // Toggling off the stage but keep notes/contact/etc if present.
+    const { s, sub, ...rest } = cur;
+    if (Object.keys(rest).filter(k => rest[k] !== undefined && rest[k] !== "" && k !== "u" && k !== "ad").length === 0) {
+      clearMark(url);
+    } else {
+      patchMark(url, { s: "", sub: "" });
+    }
+  } else {
+    patchMark(url, { s: stage });
+  }
 }
 
 // ───── Calendar ──────────────────────────────────────────────────────
@@ -137,13 +222,6 @@ function latestDay() {
   return days[0]?.date || null;
 }
 
-/**
- * Build the job list for a given date. For the latest day we also pull
- * any unmarked / still-in-progress jobs forward from the previous
- * CARRY_MAX_DAYS of archives, so the user can keep working through a
- * backlog. Each carried row gets a carryover:true flag and a
- * carried_from:<origin-date> field for the badge.
- */
 async function buildJobsForDate(date) {
   const data = await loadDay(date);
   const fresh = (data.jobs || []).map(j => ({ ...j }));
@@ -151,9 +229,7 @@ async function buildJobsForDate(date) {
   if (!isLatest || !state.carryEnabled) return fresh;
 
   const days = state.manifest?.days || [];
-  const priors = days
-    .filter(d => d.date < date)
-    .slice(0, CARRY_MAX_DAYS);
+  const priors = days.filter(d => d.date < date).slice(0, CARRY_MAX_DAYS);
 
   const seen = new Set(fresh.map(j => j.url).filter(Boolean));
   const carryLoads = await Promise.all(priors.map(d => loadDay(d.date)));
@@ -163,8 +239,9 @@ async function buildJobsForDate(date) {
     const origin = priors[i].date;
     for (const j of (d.jobs || [])) {
       if (!j.url || seen.has(j.url)) continue;
-      const st = state.status[j.url];
-      if (st === "applied" || st === "reject") continue;
+      const stage = getStage(j.url);
+      // Drop carryover anything already Applied (user has acted) or Closed.
+      if (stage === "applied" || stage === "closed") continue;
       carried.push({ ...j, carryover: true, carried_from: j.carried_from || origin });
       seen.add(j.url);
     }
@@ -192,7 +269,32 @@ function updateSubtitle() {
   el.textContent = `Viewing ${state.selected}${gen ? ` · updated ${gen}` : ""}${carryTxt}`;
 }
 
-// ───── Jobs rendering ────────────────────────────────────────────────
+// ───── Sort ──────────────────────────────────────────────────────────
+function sortJobs(jobs, by) {
+  const arr = [...jobs];
+  switch (by) {
+    case "posted":
+      return arr.sort((a, b) => {
+        const ta = new Date(a.posted_at || 0).getTime();
+        const tb = new Date(b.posted_at || 0).getTime();
+        return tb - ta;
+      });
+    case "company":
+      return arr.sort((a, b) => (a.company || "").localeCompare(b.company || ""));
+    case "title":
+      return arr.sort((a, b) => (a.title || "").localeCompare(b.title || ""));
+    case "score":
+    default:
+      return arr.sort((a, b) => {
+        const pa = a.preferred_location ? 1 : 0;
+        const pb = b.preferred_location ? 1 : 0;
+        if (pa !== pb) return pb - pa;
+        return (b.score || 0) - (a.score || 0);
+      });
+  }
+}
+
+// ───── Filtering ─────────────────────────────────────────────────────
 function applyFilters(jobs) {
   const { q, group, status, loc } = state.filters;
   const ql = q.toLowerCase();
@@ -204,31 +306,55 @@ function applyFilters(jobs) {
     if (group && !(j.matched_groups || []).includes(group)) return false;
     if (loc === "preferred" && !j.preferred_location) return false;
     if (loc === "remote" && !((j.location || "").toLowerCase().includes("remote") || j.remote)) return false;
-    const cur = state.status[j.url] || "";
+    const cur = getStage(j.url);
     if (status === "unmarked" && cur) return false;
     if (status && status !== "unmarked" && cur !== status) return false;
     return true;
   });
 }
 
+// ───── Stale detection ───────────────────────────────────────────────
+function isStale(mark) {
+  if (!mark || !STALE_STAGES.has(mark.s)) return false;
+  if (!mark.u) return false;
+  const days = (Date.now() - new Date(mark.u).getTime()) / 86400000;
+  return days >= STALE_DAYS;
+}
+
+// ───── Card rendering ────────────────────────────────────────────────
 function jobCard(j) {
   const tags = [...(j.matched_groups || [])];
   if (j.preferred_location) tags.push("preferred");
   if ((j.location || "").toLowerCase().includes("remote") || j.remote) tags.push("remote");
-  const cur = state.status[j.url] || "";
+  const mark = getMark(j.url);
+  const cur = mark?.s || "";
   const posted = (j.posted_at || "").slice(0, 10);
-  const tagHtml = tags.map(t => `<span class="tag ${t}">${t}</span>`).join("");
-  const statusBtns = STATUSES.map(s => `
-    <button data-act="${s}" data-url="${encodeURIComponent(j.url)}" class="${cur === s ? "active " + s : ""}">${STATUS_LABEL[s]}</button>
+  const tagHtml = tags.map(t => `<span class="tag ${t}">${safe(t)}</span>`).join("");
+  const quickStages = ["interested", "applied", "interview", "closed"];
+  const stageBtns = quickStages.map(s => `
+    <button data-act="${s}" data-url="${encodeURIComponent(j.url)}" class="${cur === s ? "active " + s : ""}" title="Mark as ${s}">${labelFor(s)}</button>
   `).join("");
   const carryBadge = j.carryover
-    ? `<span class="carry-badge" title="Carried over from ${safe(j.carried_from || "a previous day")}">carried over</span>`
+    ? `<span class="carry-badge" title="Carried over from ${safe(j.carried_from || "a previous day")}">carried</span>`
+    : "";
+  const noteIcon = mark?.n
+    ? `<span class="note-icon" title="Has notes">
+         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 13h6"/><path d="M9 17h4"/></svg>
+       </span>`
+    : "";
+  const offerBadge = cur === "offer" ? `<span class="offer-badge" title="Offer received">offer</span>` : "";
+  const stale = isStale(mark);
+  const staleBadge = stale
+    ? `<span class="stale-badge" title="No update in ${STALE_DAYS}+ days">stale ${fmtAgo(mark.u)}</span>`
     : "";
   return `
-    <article class="job ${cur ? "status-" + cur : ""} ${j.carryover ? "is-carryover" : ""}">
+    <article class="job stage-${cur || "none"} ${j.carryover ? "is-carryover" : ""} ${stale ? "is-stale" : ""}" data-url="${encodeURIComponent(j.url)}">
       <div class="score-pill">${j.score || 0}<small>score</small></div>
       <div class="job-main">
-        <h3><a href="${j.url}" target="_blank" rel="noopener">${safe(j.title)}</a>${carryBadge}</h3>
+        <h3>
+          <a href="${j.url}" target="_blank" rel="noopener">${safe(j.title)}</a>
+          ${noteIcon}${offerBadge}${carryBadge}${staleBadge}
+        </h3>
         <div class="meta">
           <span class="meta-company">${safe(j.company)}</span>
           <span class="meta-sep">·</span>
@@ -242,30 +368,281 @@ function jobCard(j) {
       </div>
       <div class="actions">
         <a class="apply" href="${j.url}" target="_blank" rel="noopener">Apply</a>
-        <div class="status-row">${statusBtns}</div>
+        <div class="status-row">${stageBtns}</div>
+        <button class="details-btn" data-details="${encodeURIComponent(j.url)}">Details</button>
       </div>
     </article>
+  `;
+}
+function labelFor(stageKey) {
+  switch (stageKey) {
+    case "interested": return "Interest";
+    case "applied":    return "Applied";
+    case "interview":  return "Intvw";
+    case "offer":      return "Offer";
+    case "closed":     return "Reject";
+  }
+  return stageKey;
+}
+
+// Compact card variant for the board view (no quick-status row, no Apply
+// button — they live on the detail drawer to keep columns scannable).
+function boardCard(j) {
+  const mark = getMark(j.url);
+  const tags = [...(j.matched_groups || [])];
+  if (j.preferred_location) tags.push("preferred");
+  if ((j.location || "").toLowerCase().includes("remote") || j.remote) tags.push("remote");
+  const tagHtml = tags.slice(0, 3).map(t => `<span class="tag ${t}">${safe(t)}</span>`).join("");
+  const stale = isStale(mark);
+  const staleBadge = stale ? `<span class="stale-badge mini" title="No update in ${STALE_DAYS}+ days">stale</span>` : "";
+  const noteIcon = mark?.n
+    ? `<svg class="board-note-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" title="Has notes"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>`
+    : "";
+  const subTxt = (mark?.s === "interview" && mark.sub)
+    ? `<div class="board-sub">${safe(SUB_STAGES.find(s => s.key === mark.sub)?.label || mark.sub)}</div>`
+    : "";
+  const nextTxt = mark?.x ? `<div class="board-next" title="Next step">→ ${safe(mark.x)}</div>` : "";
+  return `
+    <div class="board-card ${stale ? "is-stale" : ""}" data-details="${encodeURIComponent(j.url)}">
+      <div class="board-card-head">
+        <span class="board-score">${j.score || 0}</span>
+        ${noteIcon}
+        ${staleBadge}
+      </div>
+      <div class="board-title">${safe(j.title)}</div>
+      <div class="board-company">${safe(j.company)}</div>
+      <div class="board-meta">${safe(j.location)} · ${safe(j.source)}</div>
+      ${subTxt}${nextTxt}
+      <div class="board-tags">${tagHtml}</div>
+    </div>
   `;
 }
 
 function renderJobs() {
   const filtered = applyFilters(state.jobs);
-  document.getElementById("count").textContent = `${filtered.length} of ${state.jobs.length}`;
+  const sorted = sortJobs(filtered, state.sortBy);
+  document.getElementById("count").textContent = `${sorted.length} of ${state.jobs.length}`;
   const host = document.getElementById("jobs");
+  host.classList.toggle("view-board", state.viewMode === "board");
+  host.classList.toggle("view-list",  state.viewMode === "list");
+
   if (!state.selected) {
     host.innerHTML = `<div class="empty-state"><h3>Pick a day</h3><p>Click a highlighted day on the calendar to load that day's jobs.</p></div>`;
     return;
   }
-  if (filtered.length === 0) {
+  if (sorted.length === 0) {
     host.innerHTML = `<div class="empty-state"><h3>No matches</h3><p>Try clearing filters, or pick a different day on the calendar.</p></div>`;
     return;
   }
-  host.innerHTML = filtered.map(jobCard).join("");
+
+  if (state.viewMode === "board") renderBoard(host, sorted);
+  else renderList(host, sorted);
+
+  attachCardHandlers(host);
+}
+
+function renderList(host, jobs) {
+  host.innerHTML = jobs.map(jobCard).join("");
+}
+
+function renderBoard(host, jobs) {
+  // Stable bucketing — Unmarked first, then the 5 pipeline stages.
+  const buckets = new Map();
+  buckets.set("",          { label: "Unmarked", color: "muted",       items: [] });
+  for (const col of PIPELINE) buckets.set(col.key, { label: col.label, color: col.color, items: [] });
+
+  for (const j of jobs) {
+    const stage = getStage(j.url);
+    const target = buckets.has(stage) ? stage : "";
+    buckets.get(target).items.push(j);
+  }
+
+  const cols = [...buckets.entries()].map(([key, col]) => `
+    <div class="board-col stage-col-${key || "none"}">
+      <div class="board-col-head">
+        <span class="board-col-label dot-${col.color}">${col.label}</span>
+        <span class="board-col-count">${col.items.length}</span>
+      </div>
+      <div class="board-col-body">
+        ${col.items.length === 0
+          ? `<div class="board-empty">—</div>`
+          : col.items.map(boardCard).join("")}
+      </div>
+    </div>
+  `).join("");
+  host.innerHTML = `<div class="board-grid">${cols}</div>`;
+}
+
+function attachCardHandlers(host) {
   host.querySelectorAll(".status-row button").forEach(btn => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
       const url = decodeURIComponent(btn.dataset.url);
-      setJobStatus(url, btn.dataset.act);
+      toggleStage(url, btn.dataset.act);
+      refreshKpis();
+      renderJobs();
     });
+  });
+  host.querySelectorAll("[data-details]").forEach(el => {
+    el.addEventListener("click", (e) => {
+      // Don't intercept clicks on the Apply <a> tag inside cards.
+      if (e.target.closest("a")) return;
+      e.preventDefault();
+      const url = decodeURIComponent(el.dataset.details);
+      openDrawer(url);
+    });
+  });
+}
+
+// ───── Detail drawer ─────────────────────────────────────────────────
+function findJob(url) { return state.jobs.find(j => j.url === url); }
+
+function openDrawer(url) {
+  const j = findJob(url);
+  if (!j) { toast("Job not found in current view"); return; }
+  state.drawerUrl = url;
+  const drawer = document.getElementById("detail-drawer");
+  drawer.hidden = false;
+  document.body.style.overflow = "hidden";
+  renderDrawer();
+}
+function closeDrawer() {
+  document.getElementById("detail-drawer").hidden = true;
+  document.body.style.overflow = "";
+  state.drawerUrl = null;
+}
+function renderDrawer() {
+  if (!state.drawerUrl) return;
+  const j = findJob(state.drawerUrl);
+  if (!j) { closeDrawer(); return; }
+  const mark = getMark(j.url) || {};
+  const stage = mark.s || "";
+  const sub = mark.sub || "";
+
+  const stageOpts = [`<option value="">— Unmarked —</option>`]
+    .concat(PIPELINE.map(c => `<option value="${c.key}" ${stage === c.key ? "selected" : ""}>${c.label}</option>`))
+    .join("");
+  const subOpts = SUB_STAGES.map(s => `<option value="${s.key}" ${sub === s.key ? "selected" : ""}>${s.label}</option>`).join("");
+  const stale = isStale(mark);
+
+  document.getElementById("drawer-body").innerHTML = `
+    <div class="drawer-head-meta">
+      <div class="drawer-score-pill">${j.score || 0}<small>score</small></div>
+      <div class="drawer-head-text">
+        <h3>${safe(j.title)}</h3>
+        <div class="drawer-sub">
+          <span>${safe(j.company)}</span>
+          <span class="meta-sep">·</span>
+          <span>${safe(j.location)}</span>
+          <span class="meta-sep">·</span>
+          <span>${(j.posted_at || "").slice(0, 10) || "—"}</span>
+          <span class="meta-sep">·</span>
+          <span class="meta-source">${safe(j.source)}</span>
+        </div>
+        <div class="drawer-actions">
+          <a class="btn btn-primary" href="${j.url}" target="_blank" rel="noopener">Open posting ↗</a>
+          ${stale ? `<span class="stale-badge">stale ${fmtAgo(mark.u)}</span>` : ""}
+        </div>
+      </div>
+    </div>
+
+    <section class="drawer-section">
+      <h4>Stage</h4>
+      <div class="drawer-grid-2">
+        <label class="drawer-field">
+          <span>Pipeline</span>
+          <select id="d-stage">${stageOpts}</select>
+        </label>
+        <label class="drawer-field" id="d-sub-wrap" ${stage !== "interview" ? "hidden" : ""}>
+          <span>Interview round</span>
+          <select id="d-sub">${subOpts}</select>
+        </label>
+      </div>
+    </section>
+
+    <section class="drawer-section">
+      <h4>Tracking</h4>
+      <div class="drawer-grid-2">
+        <label class="drawer-field">
+          <span>Salary range</span>
+          <input id="d-salary" type="text" placeholder="e.g. 120-140k base + equity" value="${safe(mark["$"] || "")}" />
+        </label>
+        <label class="drawer-field">
+          <span>Recruiter / contact</span>
+          <input id="d-contact" type="text" placeholder="name@company.com or LinkedIn" value="${safe(mark.c || "")}" />
+        </label>
+      </div>
+      <label class="drawer-field">
+        <span>Next step</span>
+        <input id="d-next" type="text" placeholder="e.g. Phone screen Apr 30 with Sarah" value="${safe(mark.x || "")}" />
+      </label>
+      <label class="drawer-field">
+        <span>Notes</span>
+        <textarea id="d-notes" rows="6" placeholder="Interview prep, questions to ask, why this role excites you, prep links…">${safe(mark.n || "")}</textarea>
+      </label>
+    </section>
+
+    <section class="drawer-section">
+      <h4>History</h4>
+      <ul class="drawer-history">
+        <li><span>Applied</span><span>${mark.ad ? fmtDate(mark.ad) : "—"}</span></li>
+        <li><span>Last updated</span><span>${mark.u ? `${fmtDate(mark.u)} (${fmtAgo(mark.u)})` : "—"}</span></li>
+        <li><span>Posted</span><span>${j.posted_at ? fmtDate(j.posted_at) : "—"}</span></li>
+        ${j.carryover ? `<li><span>Carried from</span><span>${safe(j.carried_from || "—")}</span></li>` : ""}
+      </ul>
+    </section>
+
+    <section class="drawer-section">
+      <h4>Tags</h4>
+      <div class="tags">
+        ${(j.matched_groups || []).map(t => `<span class="tag ${t}">${safe(t)}</span>`).join("") || `<span class="settings-help">No tags</span>`}
+        ${j.preferred_location ? `<span class="tag preferred">preferred</span>` : ""}
+        ${((j.location || "").toLowerCase().includes("remote") || j.remote) ? `<span class="tag remote">remote</span>` : ""}
+      </div>
+    </section>
+
+    <div class="drawer-footer">
+      <button id="d-clear" class="btn btn-ghost btn-danger">Clear all marks for this job</button>
+    </div>
+  `;
+
+  const stageSel = document.getElementById("d-stage");
+  const subSel = document.getElementById("d-sub");
+  const subWrap = document.getElementById("d-sub-wrap");
+  const salary = document.getElementById("d-salary");
+  const contact = document.getElementById("d-contact");
+  const next = document.getElementById("d-next");
+  const notes = document.getElementById("d-notes");
+
+  const persist = () => {
+    const s = stageSel.value;
+    patchMark(j.url, {
+      s,
+      sub: s === "interview" ? subSel.value : "",
+      "$": salary.value.trim(),
+      c: contact.value.trim(),
+      x: next.value.trim(),
+      n: notes.value,
+    });
+    refreshKpis();
+    renderJobs();
+  };
+
+  stageSel.addEventListener("change", () => {
+    subWrap.hidden = stageSel.value !== "interview";
+    persist();
+  });
+  subSel.addEventListener("change", persist);
+  [salary, contact, next, notes].forEach(el => {
+    el.addEventListener("blur", persist);
+  });
+  document.getElementById("d-clear").addEventListener("click", () => {
+    if (!confirm("Clear status, notes, salary, contact and dates for this job?")) return;
+    clearMark(j.url);
+    refreshKpis();
+    renderJobs();
+    closeDrawer();
+    toast("Job marks cleared");
   });
 }
 
@@ -274,14 +651,19 @@ function refreshKpis() {
   const today = todayISO();
   const todayCount = (state.manifest?.days || []).find(d => d.date === today)?.count || 0;
   const total = (state.manifest?.days || []).reduce((s, d) => s + d.count, 0);
-  const counts = { accept: 0, applied: 0, inprogress: 0, reject: 0 };
-  for (const v of Object.values(state.status)) if (counts[v] !== undefined) counts[v]++;
+  const counts = { interested: 0, applied: 0, interview: 0, offer: 0, closed: 0 };
+  for (const url of Object.keys(state.status)) {
+    const stage = getStage(url);
+    if (counts[stage] !== undefined) counts[stage]++;
+  }
   document.getElementById("kpi-today").textContent = todayCount;
   document.getElementById("kpi-total").textContent = total;
-  document.getElementById("kpi-accept").textContent = counts.accept;
-  document.getElementById("kpi-applied").textContent = counts.applied;
-  document.getElementById("kpi-inprogress").textContent = counts.inprogress;
-  document.getElementById("kpi-reject").textContent = counts.reject;
+  document.getElementById("kpi-accept").textContent     = counts.interested;
+  document.getElementById("kpi-applied").textContent    = counts.applied;
+  document.getElementById("kpi-inprogress").textContent = counts.interview;
+  document.getElementById("kpi-reject").textContent     = counts.closed;
+  const offerKpi = document.getElementById("kpi-offer");
+  if (offerKpi) offerKpi.textContent = counts.offer;
   const mc = document.getElementById("marks-count");
   if (mc) mc.textContent = String(Object.keys(state.status).length);
 }
@@ -289,27 +671,38 @@ function refreshKpis() {
 // ───── Excel export ──────────────────────────────────────────────────
 function exportExcel() {
   if (typeof XLSX === "undefined") { toast("Export library still loading — try again in a second"); return; }
-  const filtered = applyFilters(state.jobs);
+  const filtered = sortJobs(applyFilters(state.jobs), state.sortBy);
   if (filtered.length === 0) { toast("Nothing to export for this view"); return; }
-  const rows = filtered.map(j => ({
-    Score: j.score || 0,
-    Title: j.title || "",
-    Company: j.company || "",
-    Location: j.location || "",
-    Remote: ((j.location || "").toLowerCase().includes("remote") || j.remote) ? "Yes" : "No",
-    Posted: (j.posted_at || "").slice(0, 10),
-    Source: j.source || "",
-    Groups: (j.matched_groups || []).join(", "),
-    Preferred: j.preferred_location ? "Yes" : "No",
-    Status: state.status[j.url] || "",
-    Carryover: j.carryover ? (j.carried_from || "yes") : "",
-    URL: j.url || "",
-  }));
+  const rows = filtered.map(j => {
+    const m = getMark(j.url) || {};
+    return {
+      Score: j.score || 0,
+      Title: j.title || "",
+      Company: j.company || "",
+      Location: j.location || "",
+      Remote: ((j.location || "").toLowerCase().includes("remote") || j.remote) ? "Yes" : "No",
+      Posted: (j.posted_at || "").slice(0, 10),
+      Source: j.source || "",
+      Groups: (j.matched_groups || []).join(", "),
+      Preferred: j.preferred_location ? "Yes" : "No",
+      Stage: m.s || "",
+      Round: m.sub || "",
+      Salary: m["$"] || "",
+      Contact: m.c || "",
+      "Next step": m.x || "",
+      Notes: m.n || "",
+      "Applied at": m.ad ? m.ad.slice(0, 10) : "",
+      "Last updated": m.u ? m.u.slice(0, 10) : "",
+      Carryover: j.carryover ? (j.carried_from || "yes") : "",
+      URL: j.url || "",
+    };
+  });
   const ws = XLSX.utils.json_to_sheet(rows);
   ws["!cols"] = [
     { wch: 6 }, { wch: 42 }, { wch: 22 }, { wch: 24 }, { wch: 7 },
     { wch: 11 }, { wch: 14 }, { wch: 22 }, { wch: 9 }, { wch: 11 },
-    { wch: 12 }, { wch: 50 },
+    { wch: 13 }, { wch: 22 }, { wch: 24 }, { wch: 28 }, { wch: 50 },
+    { wch: 12 }, { wch: 12 }, { wch: 12 }, { wch: 50 },
   ];
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, "Jobs");
@@ -320,7 +713,8 @@ function exportExcel() {
 // ───── Marks export / import / clear ─────────────────────────────────
 function exportMarks() {
   const payload = {
-    exported_at: new Date().toISOString(),
+    exported_at: nowISO(),
+    schema: "v2",
     statuses: state.status,
   };
   const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
@@ -407,6 +801,21 @@ function updateLastRun() {
     : "Last run: —";
 }
 
+// ───── View toggle + Sort ────────────────────────────────────────────
+function setViewMode(mode) {
+  state.viewMode = mode;
+  localStorage.setItem(VIEW_KEY, mode);
+  document.querySelectorAll("[data-view-toggle]").forEach(b => {
+    b.classList.toggle("active", b.dataset.viewToggle === mode);
+  });
+  renderJobs();
+}
+function setSortBy(by) {
+  state.sortBy = by;
+  localStorage.setItem(SORT_KEY, by);
+  renderJobs();
+}
+
 // ───── Boot ──────────────────────────────────────────────────────────
 initTheme();
 
@@ -435,7 +844,11 @@ document.getElementById("settings-modal").addEventListener("click", e => {
   if (e.target.dataset.close === "1") closeSettings();
 });
 document.addEventListener("keydown", e => {
-  if (e.key === "Escape" && !document.getElementById("settings-modal").hidden) closeSettings();
+  if (e.key !== "Escape") return;
+  const drawer = document.getElementById("detail-drawer");
+  const settings = document.getElementById("settings-modal");
+  if (!drawer.hidden) closeDrawer();
+  else if (!settings.hidden) closeSettings();
 });
 document.getElementById("carry-toggle").addEventListener("change", async (e) => {
   state.carryEnabled = e.target.checked;
@@ -450,6 +863,24 @@ document.getElementById("export-marks").onclick = exportMarks;
 document.getElementById("import-marks").onclick = triggerImport;
 document.getElementById("import-file").addEventListener("change", importMarks);
 document.getElementById("purge-local").onclick = purgeLocal;
+
+// View toggle (List ↔ Board)
+document.querySelectorAll("[data-view-toggle]").forEach(btn => {
+  btn.addEventListener("click", () => setViewMode(btn.dataset.viewToggle));
+});
+setViewMode(state.viewMode);
+
+// Sort selector
+const sortSel = document.getElementById("sort");
+if (sortSel) {
+  sortSel.value = state.sortBy;
+  sortSel.addEventListener("change", e => setSortBy(e.target.value));
+}
+
+// Detail drawer close handlers
+document.getElementById("detail-drawer").addEventListener("click", e => {
+  if (e.target.dataset.close === "1") closeDrawer();
+});
 
 const rerun = document.getElementById("rerun-link");
 if (REPO_SLUG) rerun.href = `https://github.com/${REPO_SLUG}/actions/workflows/daily.yml`;
