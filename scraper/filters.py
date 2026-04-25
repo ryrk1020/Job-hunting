@@ -99,17 +99,67 @@ def matches_keywords(job: Job, groups: dict) -> list[str]:
     return hits
 
 
+def _has_token(haystack: str, token: str) -> bool:
+    """Word-boundary match for short tokens (≤3 chars) to avoid noise
+    like 'ca' inside 'casablanca' or 'or' inside 'corporate'. Longer
+    tokens fall back to substring match — locations like 'United States'
+    don't have collisions worth worrying about.
+    """
+    t = token.strip().lower()
+    if not t:
+        return False
+    if len(t) <= 3 or t.isalpha() and len(t) <= 4:
+        return re.search(r"(?<![a-z])" + re.escape(t) + r"(?![a-z])", haystack) is not None
+    return t in haystack
+
+
 def location_ok(job: Job, locs: dict) -> tuple[bool, bool]:
-    """Return (allowed, preferred). Remote is allowed if configured."""
+    """Return (allowed, preferred).
+
+    Order matters here:
+      1. If we find a positive US signal (state, US city/preferred, "USA",
+         "United States", "Remote, US", etc.) the row is allowed — even
+         if a foreign-country token also collides ("Vienna VA", "Paris
+         TX", "New Mexico", "Naples FL", "Indianapolis IN" all match
+         both lists; US wins so we keep them).
+      2. Otherwise, a foreign-country / region token kills it.
+      3. If neither US nor foreign matches and the row is plain Remote,
+         remote_must_be_us decides — true (default) drops bare Remote
+         since we can't prove it's US.
+    """
     low = (job.location or "").lower()
-    remote_ok = bool(locs.get("allow_remote", True))
-    if job.remote or "remote" in low:
-        return remote_ok, False
-    preferred = [p.lower() for p in locs.get("preferred", [])]
-    allowed_states = [s.lower() for s in locs.get("allowed_states", [])]
-    is_preferred = any(p in low for p in preferred)
-    is_allowed = is_preferred or any(s in low for s in allowed_states)
-    return is_allowed, is_preferred
+
+    preferred  = [p.lower() for p in locs.get("preferred", [])]
+    states     = [s.lower() for s in locs.get("allowed_states", [])]
+    us_signals = [s.lower() for s in locs.get("us_signals", [])]
+    is_preferred = any(_has_token(low, p) for p in preferred)
+    in_us = (
+        is_preferred
+        or any(_has_token(low, s) for s in states)
+        or any(_has_token(low, s) for s in us_signals)
+    )
+
+    is_remote = bool(job.remote) or "remote" in low
+
+    # 1) US-positive — keep, even if a foreign name collides (Vienna VA).
+    if in_us:
+        if is_remote and not bool(locs.get("allow_remote", True)):
+            return False, is_preferred
+        return True, is_preferred
+
+    # 2) Not US-positive: foreign mention kills it.
+    for c in locs.get("exclude_countries", []) or []:
+        if _has_token(low, c):
+            return False, False
+
+    # 3) Bare Remote with no country evidence either way.
+    if is_remote and bool(locs.get("allow_remote", True)):
+        if bool(locs.get("remote_must_be_us", True)):
+            return False, False
+        return True, False
+
+    # 4) No US signal, no foreign signal, not remote — drop.
+    return False, False
 
 
 def excluded(job: Job, rules: dict) -> bool:

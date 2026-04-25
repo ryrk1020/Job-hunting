@@ -1,6 +1,6 @@
 # Job Hunter config
 # Tune keywords, locations, and company boards here.
-# Manual rerun marker: 2026-04-25T00:30Z — client-side carry-forward
+# Manual rerun marker: 2026-04-25T01:00Z — US-only location filter
 
 # Keyword groups. A job matches if any group's tokens all appear
 # in the title OR description (case-insensitive). Add / remove freely.
@@ -135,8 +135,10 @@ keywords:
     - ["i "]
     - ["ii "]
 
-# Location preferences. Jobs matching the "preferred" list get a score boost.
-# Jobs matching the "allowed" list are kept. "remote" is always allowed.
+# Location preferences. Jobs matching "preferred" get a score boost. Jobs
+# in "allowed_states" are kept. Remote jobs are kept ONLY if they say
+# they're US-based (when remote_must_be_us is true). Anything matching
+# exclude_countries is dropped outright.
 locations:
   preferred:
     - frisco
@@ -151,10 +153,319 @@ locations:
     - mckinney
     - allen
     - denton
+  # All 50 states + DC. The 2-letter codes are matched as whole words so
+  # they don't false-positive ("ca" inside "casablanca", "or" inside
+  # words, etc.).
   allowed_states:
+    - alabama
+    - alaska
+    - arizona
+    - arkansas
+    - california
+    - colorado
+    - connecticut
+    - delaware
+    - florida
+    - georgia
+    - hawaii
+    - idaho
+    - illinois
+    - indiana
+    - iowa
+    - kansas
+    - kentucky
+    - louisiana
+    - maine
+    - maryland
+    - massachusetts
+    - michigan
+    - minnesota
+    - mississippi
+    - missouri
+    - montana
+    - nebraska
+    - nevada
+    - new hampshire
+    - new jersey
+    - new mexico
+    - new york
+    - north carolina
+    - north dakota
+    - ohio
+    - oklahoma
+    - oregon
+    - pennsylvania
+    - rhode island
+    - south carolina
+    - south dakota
+    - tennessee
     - texas
+    - utah
+    - vermont
+    - virginia
+    - washington
+    - west virginia
+    - wisconsin
+    - wyoming
+    - district of columbia
+    # Two-letter postal codes (matched as whole words)
+    - al
+    - ak
+    - az
+    - ar
+    - ca
+    - co
+    - ct
+    - de
+    - fl
+    - ga
+    - hi
+    - id
+    - il
+    - in
+    - ia
+    - ks
+    - ky
+    - la
+    - me
+    - md
+    - ma
+    - mi
+    - mn
+    - ms
+    - mo
+    - mt
+    - ne
+    - nv
+    - nh
+    - nj
+    - nm
+    - ny
+    - nc
+    - nd
+    - oh
+    - ok
+    - or
+    - pa
+    - ri
+    - sc
+    - sd
+    - tn
     - tx
+    - ut
+    - vt
+    - va
+    - wa
+    - wv
+    - wi
+    - wy
+    - dc
+
+  # Tokens that positively signal a US-based posting (used when checking
+  # remote rows that don't name a state). Whole-word matched, case-
+  # insensitive.
+  us_signals:
+    - united states
+    - usa
+    - u.s.
+    - u.s.a.
+    - us only
+    - us-based
+    - us based
+    - americas
+    - north america
+    - nationwide
+    - "remote, us"
+    - "remote (us)"
+    - "remote - us"
+    - "us remote"
+
+  # Drop the row if its location names ANY of these — covers India,
+  # UK, EU, Canada, APAC, etc. Substring match (case-insensitive),
+  # except the very short tokens which are matched as whole words.
+  exclude_countries:
+    # India
+    - india
+    - bengaluru
+    - bangalore
+    - hyderabad
+    - mumbai
+    - delhi
+    - new delhi
+    - pune
+    - chennai
+    - kolkata
+    - gurgaon
+    - gurugram
+    - noida
+    - ahmedabad
+    - kochi
+    - jaipur
+    # UK / Ireland
+    - united kingdom
+    - uk
+    - u.k.
+    - england
+    - scotland
+    - wales
+    - northern ireland
+    - london
+    - manchester
+    - birmingham
+    - edinburgh
+    - glasgow
+    - bristol
+    - leeds
+    - cambridge
+    - oxford
+    - ireland
+    - dublin
+    # Canada
+    - canada
+    - toronto
+    - vancouver
+    - montreal
+    - ottawa
+    - calgary
+    - quebec
+    - ontario
+    - british columbia
+    - alberta
+    # EU / Europe
+    - europe
+    - eu
+    - emea
+    - germany
+    - berlin
+    - munich
+    - hamburg
+    - france
+    - paris
+    - lyon
+    - spain
+    - madrid
+    - barcelona
+    - portugal
+    - lisbon
+    - italy
+    - milan
+    - rome
+    - netherlands
+    - amsterdam
+    - belgium
+    - brussels
+    - poland
+    - warsaw
+    - krakow
+    - czech republic
+    - prague
+    - romania
+    - bucharest
+    - sweden
+    - stockholm
+    - norway
+    - oslo
+    - denmark
+    - copenhagen
+    - finland
+    - helsinki
+    - switzerland
+    - zurich
+    - geneva
+    - austria
+    - vienna
+    - greece
+    - athens
+    # APAC / others
+    - apac
+    - asia pacific
+    - australia
+    - sydney
+    - melbourne
+    - brisbane
+    - new zealand
+    - auckland
+    - singapore
+    - japan
+    - tokyo
+    - osaka
+    - china
+    - shanghai
+    - beijing
+    - hong kong
+    - taiwan
+    - taipei
+    - korea
+    - seoul
+    - thailand
+    - bangkok
+    - vietnam
+    - hanoi
+    - ho chi minh
+    - philippines
+    - manila
+    - malaysia
+    - kuala lumpur
+    - indonesia
+    - jakarta
+    - pakistan
+    - karachi
+    - lahore
+    - bangladesh
+    - dhaka
+    - sri lanka
+    - colombo
+    # LATAM / MENA / Africa
+    - latam
+    - latin america
+    - brazil
+    - são paulo
+    - sao paulo
+    - rio de janeiro
+    - mexico
+    - mexico city
+    - guadalajara
+    - argentina
+    - buenos aires
+    - chile
+    - santiago
+    - colombia
+    - bogota
+    - peru
+    - lima
+    - mena
+    - middle east
+    - dubai
+    - uae
+    - united arab emirates
+    - abu dhabi
+    - saudi arabia
+    - riyadh
+    - qatar
+    - doha
+    - egypt
+    - cairo
+    - israel
+    - tel aviv
+    - turkey
+    - istanbul
+    - south africa
+    - johannesburg
+    - cape town
+    - nigeria
+    - lagos
+    - kenya
+    - nairobi
+    # Generic non-US remote scopes
+    - worldwide
+    - anywhere
+    - global
+    - international
+
   allow_remote: true
+  # When true, a remote job is dropped unless its location ALSO contains
+  # a US state, US city, or US-positive signal (above).
+  remote_must_be_us: true
 
 # Anything containing these tokens will be excluded.
 exclude:
