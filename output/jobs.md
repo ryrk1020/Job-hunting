@@ -1,256 +1,256 @@
 # Latest Jobs (250)
 
-_Generated 2026-04-25 07:03 UTC_
+_Generated 2026-04-25 09:14 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 185 | 2026-04-24 | greenhouse | gitlab | IT Enterprise Applications Engineer, Zuora/NetSuite | Remote, Bangalore | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8465346002) |
-| 2 | 180 | 2026-04-24 | greenhouse | twilio | Engineer, Identity & Access | Remote - India | [apply](https://job-boards.greenhouse.io/twilio/jobs/7657991) |
-| 3 | 180 | 2026-04-24 | greenhouse | twilio | Software Engineer | Remote - Ireland | [apply](https://job-boards.greenhouse.io/twilio/jobs/7747550) |
-| 4 | 180 | 2026-04-24 | greenhouse | gitlab | Backend Engineer, Analytics Instrumentation (Golang) | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8481922002) |
-| 5 | 180 | 2026-04-24 | greenhouse | gitlab | Engineering Manager, AST: Composition Analysis | Remote | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8455737002) |
-| 6 | 180 | 2026-04-24 | greenhouse | gitlab | Engineering Manager, Continuous Delivery | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8482744002) |
-| 7 | 180 | 2026-04-24 | greenhouse | gitlab | Engineering Manager, Infrastructure Platforms | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8489179002) |
-| 8 | 180 | 2026-04-24 | greenhouse | gitlab | Engineering Manager, SSCS: AI Governance   | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8477935002) |
-| 9 | 180 | 2026-04-24 | greenhouse | gitlab | Engineering Manager, SSCS: Supply Chain | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8478405002) |
-| 10 | 180 | 2026-04-24 | greenhouse | gitlab | Intermediate Backend Engineer, Database Automation (Ruby) | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8481029002) |
-| 11 | 180 | 2026-04-24 | greenhouse | gitlab | Intermediate Backend Engineer, Gitlab Delivery: Upgrades | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8463951002) |
-| 12 | 180 | 2026-04-24 | greenhouse | gitlab | Intermediate Backend Engineer, SRM: Security Platform Management | Remote | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8443325002) |
-| 13 | 180 | 2026-04-24 | greenhouse | gitlab | Manager, Application Security (APAC) | Remote, Australia; Remote, India; Remote, Japan; Remote, Singapore; Remote, South Korea | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8505878002) |
-| 14 | 180 | 2026-04-24 | greenhouse | gitlab | Strategic Account Executive, Digital Natives - India | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8435065002) |
-| 15 | 180 | 2026-04-24 | greenhouse | fivetran | Order Management Analyst | Remote, India, APAC | [apply](https://www.fivetran.com/careers/job?gh_jid=7676570003) |
-| 16 | 175 | 2026-04-24 | greenhouse | stripe | Machine Learning Engineer, Support Experience | Toronto, Canada | [apply](https://stripe.com/jobs/search?gh_jid=7813942) |
-| 17 | 175 | 2026-04-24 | greenhouse | gitlab | Backend Engineer, Knowledge Graph (Rust) | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8481958002) |
-| 18 | 175 | 2026-04-24 | greenhouse | gitlab | Intermediate Backend Engineer (C), Tenant Scale: Git  | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8497793002) |
-| 19 | 175 | 2026-04-24 | greenhouse | gitlab | Intermediate Backend Engineer, SSCS: AI Governance | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8480551002) |
-| 20 | 175 | 2026-04-24 | greenhouse | gitlab | Intermediate Backend Engineer,  SSCS: Supply Chain | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8480565002) |
-| 21 | 175 | 2026-04-24 | greenhouse | gitlab | Intermediate Site Reliability Engineer, Cloud Cost Utilization | Remote, United Kingdom | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8515080002) |
-| 22 | 175 | 2026-04-24 | greenhouse | gitlab | Intermediate Site Reliability Engineer, Environment Automation | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8464417002) |
-| 23 | 175 | 2026-04-24 | greenhouse | gitlab | Intermediate Vulnerability Researcher, AST: Vulnerability Research | Remote | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8443302002) |
-| 24 | 175 | 2026-04-24 | greenhouse | gitlab | New Business Account Executive - DACH | Remote, Germany | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8439830002) |
-| 25 | 175 | 2026-04-24 | greenhouse | gitlab | New Business Account Executive - Korea | Remote, South Korea | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8430621002) |
-| 26 | 175 | 2026-04-24 | greenhouse | gitlab | New Business Account Executive - Netherlands | Remote, Netherlands | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8498354002) |
-| 27 | 175 | 2026-04-24 | greenhouse | gitlab | New Business Account Executive, Thailand and Philippines | Remote, Singapore | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8435078002) |
-| 28 | 175 | 2026-04-24 | greenhouse | fivetran | Billing AR Analyst | Remote, India, APAC | [apply](https://www.fivetran.com/careers/job?gh_jid=7695860003) |
-| 29 | 175 | 2026-04-24 | greenhouse | fivetran | Software Engineer II - Oracle Databases | Novi Sad, South Bačka, Serbia, EMEA | [apply](https://www.fivetran.com/careers/job?gh_jid=7695532003) |
-| 30 | 175 | 2026-04-23 | greenhouse | datadog | Manager I, Developer Advocacy | Canada, Remote | [apply](https://careers.datadoghq.com/detail/7440560/?gh_jid=7440560) |
-| 31 | 170 | 2026-04-24 | greenhouse | robinhood | Salesforce Applications Developer | Toronto, Canada | [apply](https://boards.greenhouse.io/robinhood/jobs/7729315?t=gh_src=&gh_jid=7729315) |
-| 32 | 170 | 2026-04-24 | greenhouse | twilio | Applications Engineer 2 | Remote - India | [apply](https://job-boards.greenhouse.io/twilio/jobs/7781652) |
-| 33 | 170 | 2026-04-25 | greenhouse | coinbase | Analytics Engineer | Remote - Ireland | [apply](https://www.coinbase.com/careers/positions/7843710?gh_jid=7843710) |
-| 34 | 170 | 2026-04-25 | greenhouse | coinbase | Analytics Engineer | Remote - UK | [apply](https://www.coinbase.com/careers/positions/7843707?gh_jid=7843707) |
-| 35 | 170 | 2026-04-23 | greenhouse | samsara | GRC Analyst, Third-Party Risk Management | Bengaluru - BLR1 | [apply](https://www.samsara.com/company/careers/roles/7669236?gh_jid=7669236) |
-| 36 | 170 | 2026-04-24 | greenhouse | fivetran | Account Executive, Enterprise - Strategic Expansion | Remote, Japan, APAC | [apply](https://www.fivetran.com/careers/job?gh_jid=7636518003) |
-| 37 | 170 | 2026-04-24 | greenhouse | fivetran | Manager, Customer Delivery | Remote, United Kingdom, EMEA | [apply](https://www.fivetran.com/careers/job?gh_jid=7675370003) |
-| 38 | 170 | 2026-04-24 | greenhouse | fivetran | Manager, Customer Delivery | Remote, Ireland, EMEA | [apply](https://www.fivetran.com/careers/job?gh_jid=7660886003) |
-| 39 | 170 | 2026-04-24 | greenhouse | fivetran | Product Manager - Integrations  | Toronto, Ontario, Canada | [apply](https://www.fivetran.com/careers/job?gh_jid=7559164003) |
-| 40 | 170 | 2026-04-24 | greenhouse | fivetran | Technical Product Owner | Bengaluru, Karnataka, India, APAC | [apply](https://www.fivetran.com/careers/job?gh_jid=7597520003) |
-| 41 | 170 | 2026-04-23 | greenhouse | datadog | Engineering Manager - Security Incident Response (EMEA) | Portugal, Remote | [apply](https://careers.datadoghq.com/detail/7766179/?gh_jid=7766179) |
-| 42 | 170 | 2026-04-23 | greenhouse | datadog | Engineering Manager - Security Incident Response (EMEA) | France, Remote; Ireland, Remote; Spain, Remote; United Kingdom, Remote | [apply](https://careers.datadoghq.com/detail/7766177/?gh_jid=7766177) |
-| 43 | 165 | 2026-04-21 | remotive | Dry Ground AI | AI Engineer | Brazil, Colombia, Philippines | [apply](https://remotive.com/remote-jobs/ai-ml/ai-engineer-2089958) |
-| 44 | 165 | 2026-04-24 | greenhouse | stripe | Backend Engineer, Developer Experience & Product Platform  | SEA, SF | [apply](https://stripe.com/jobs/search?gh_jid=7476555) |
-| 45 | 165 | 2026-04-24 | greenhouse | stripe | Data Analyst | Mexico City  | [apply](https://stripe.com/jobs/search?gh_jid=6282403) |
-| 46 | 165 | 2026-04-24 | greenhouse | stripe | Frontend Platform Engineer, JavaScript Infrastructure | Canada | [apply](https://stripe.com/jobs/search?gh_jid=7743307) |
-| 47 | 165 | 2026-04-24 | greenhouse | stripe | F&S COE Analyst | Bengaluru | [apply](https://stripe.com/jobs/search?gh_jid=7597624) |
-| 48 | 165 | 2026-04-24 | greenhouse | stripe | Operations Associate, GTM Accelerate | Dublin | [apply](https://stripe.com/jobs/search?gh_jid=7520686) |
-| 49 | 165 | 2026-04-24 | greenhouse | stripe | Operations Associate, GTM Accelerate (Bangalore) | Bengaluru | [apply](https://stripe.com/jobs/search?gh_jid=7780256) |
-| 50 | 165 | 2026-04-24 | greenhouse | twilio | Cloud Software Engineer | Remote - Ireland | [apply](https://job-boards.greenhouse.io/twilio/jobs/7484699) |
-| 51 | 165 | 2026-04-24 | greenhouse | anthropic | Procurement Business Partner, EMEA Operations | Dublin, IE | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5198262008) |
-| 52 | 165 | 2026-04-23 | greenhouse | affirm | Machine Learning Engineer II (Fraud)  | Remote Canada | [apply](https://job-boards.greenhouse.io/affirm/jobs/7695818003) |
-| 53 | 165 | 2026-04-24 | greenhouse | gitlab | Business Development Representative, German Speaking | Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, United Kingdom | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8472287002) |
-| 54 | 165 | 2026-04-24 | greenhouse | gitlab | Business Development Representative - Nordics | Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, United Kingdom | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8472427002) |
-| 55 | 165 | 2026-04-24 | greenhouse | gitlab | Commercial Account Executive, Indonesia | Remote, Singapore | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8496033002) |
-| 56 | 165 | 2026-04-24 | greenhouse | gitlab | Commercial Account Executive - Named, Canada | Remote, Canada | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8489184002) |
-| 57 | 165 | 2026-04-24 | greenhouse | gitlab | Customer Success Engineer | Remote | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8498481002) |
-| 58 | 165 | 2026-04-24 | greenhouse | gitlab | Customer Success Engineer, EMEA | Remote, Germany; Remote, Ireland; Remote, United Kingdom | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8476852002) |
-| 59 | 165 | 2026-04-24 | greenhouse | gitlab | Customer Success Engineer - Japan | Remote, Japan | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8497728002) |
-| 60 | 165 | 2026-04-24 | greenhouse | gitlab | Customer Success Manager, DACH | Remote, Germany | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8452256002) |
-| 61 | 165 | 2026-04-24 | greenhouse | gitlab | Customer Success Manager, Japan | Remote, Japan | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8478618002) |
-| 62 | 165 | 2026-04-24 | greenhouse | gitlab | Engagement Manager - EMEA | Remote | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8467462002) |
-| 63 | 165 | 2026-04-24 | greenhouse | gitlab | Engagement Manager, META | Remote | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8455203002) |
-| 64 | 165 | 2026-04-24 | greenhouse | gitlab | Engineering Manager, Gitlab Delivery: Upgrades | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8463917002) |
-| 65 | 165 | 2026-04-24 | greenhouse | gitlab | Major Account Executive, Alps (French Speaker) | Remote, Switzerland | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8460203002) |
-| 66 | 165 | 2026-04-24 | greenhouse | gitlab | Major Account Executive, Germany | Remote, Germany | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8432922002) |
-| 67 | 165 | 2026-04-24 | greenhouse | gitlab | Manager, Customer Success Engineer, EMEA | Remote, France; Remote, Germany; Remote, Netherlands; Remote, Spain | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8396314002) |
-| 68 | 165 | 2026-04-24 | greenhouse | gitlab | Manager, Customer Success Managers, SEMA | Remote, France; Remote, Spain | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8471923002) |
-| 69 | 165 | 2026-04-24 | greenhouse | gitlab | Presales Consultant - Japan | Remote, Japan | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8349098002) |
-| 70 | 165 | 2026-04-24 | greenhouse | gitlab | Professional Services Engineer, EMEA | Remote, France; Remote, Germany; Remote, United Kingdom | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8438042002) |
-| 71 | 165 | 2026-04-24 | greenhouse | gitlab | Professional Services Engineer - META | Remote, United Arab Emirates | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8499907002) |
-| 72 | 165 | 2026-04-24 | greenhouse | gitlab | Program Manager - Dubai | Remote, United Arab Emirates | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8481645002) |
-| 73 | 165 | 2026-04-24 | greenhouse | gitlab | Program Manager - London | Remote, United Kingdom | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8481626002) |
-| 74 | 165 | 2026-04-24 | greenhouse | gitlab | Sales Development Representative, French Speaking  | Remote, France; Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, United Kingdom | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8422506002) |
-| 75 | 165 | 2026-04-24 | greenhouse | gitlab | Strategic Account Executive - Public Sector  | Remote, United Kingdom | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8504443002) |
-| 76 | 165 | 2026-04-24 | greenhouse | fivetran | Account Executive, Commercial - German Speaking | Remote, United Kingdom, EMEA | [apply](https://www.fivetran.com/careers/job?gh_jid=7639211003) |
-| 77 | 165 | 2026-04-24 | greenhouse | fivetran | Technology Partner Sales Manager | Remote, Singapore, APAC | [apply](https://www.fivetran.com/careers/job?gh_jid=7672120003) |
-| 78 | 165 | 2026-04-24 | greenhouse | mixpanel | Sales System Engineer | San Francisco, US (Hybrid) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/7851836) |
-| 79 | 160 | 2026-04-24 | greenhouse | stripe | Bridge - Operations Associate  | Bengaluru | [apply](https://stripe.com/jobs/search?gh_jid=7179634) |
-| 80 | 160 | 2026-04-24 | greenhouse | stripe | Bridge Operations Associate  | Bengaluru  | [apply](https://stripe.com/jobs/search?gh_jid=7748617) |
-| 81 | 160 | 2026-04-24 | greenhouse | stripe | Engineering Manager, Data Transformation | N/A | [apply](https://stripe.com/jobs/search?gh_jid=7688358) |
-| 82 | 160 | 2026-04-24 | greenhouse | stripe | Full Stack Engineer, Web Presence and Platform | N/A | [apply](https://stripe.com/jobs/search?gh_jid=7436086) |
-| 83 | 160 | 2026-04-24 | greenhouse | stripe | Risk Operations Associate  | Bengaluru | [apply](https://stripe.com/jobs/search?gh_jid=5423044) |
-| 84 | 160 | 2026-04-24 | greenhouse | stripe | Technical Account Manager, Risk | Dublin, Ireland | [apply](https://stripe.com/jobs/search?gh_jid=7564690) |
-| 85 | 160 | 2026-04-24 | greenhouse | robinhood | Engineering Manager, Observability | Toronto, Canada | [apply](https://boards.greenhouse.io/robinhood/jobs/7684757?t=gh_src=&gh_jid=7684757) |
-| 86 | 160 | 2026-04-22 | greenhouse | affirm | Product Manager II, Consumer Experiences | Remote Canada | [apply](https://job-boards.greenhouse.io/affirm/jobs/7622736003) |
-| 87 | 160 | 2026-04-22 | greenhouse | affirm | Product Manager II, Consumer Experiences | Remote US | [apply](https://job-boards.greenhouse.io/affirm/jobs/7622734003) |
-| 88 | 160 | 2026-04-23 | greenhouse | elastic |  Software Engineer II - Engineering Productivity - Platform | Spain | [apply](https://jobs.elastic.co/jobs?gh_jid=7687038&gh_jid=7687038) |
-| 89 | 160 | 2026-04-24 | greenhouse | flexport | Area Manager | San Bernardino Warehouse | [apply](https://boards.greenhouse.io/flexport/jobs/7852872?gh_jid=7852872) |
-| 90 | 160 | 2026-04-23 | greenhouse | datadog | AI Research Engineer - Datadog AI Research (DAIR) | Paris, France | [apply](https://careers.datadoghq.com/detail/7194969/?gh_jid=7194969) |
-| 91 | 160 | 2026-04-23 | greenhouse | datadog | Engineering Manager - Security Incident Response (EMEA) | Paris, France | [apply](https://careers.datadoghq.com/detail/7339331/?gh_jid=7339331) |
-| 92 | 160 | 2026-04-23 | greenhouse | datadog | Front Desk Associate - Dublin | Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/7804736/?gh_jid=7804736) |
-| 93 | 160 | 2026-04-23 | greenhouse | datadog | Manager I, Engineering - AI Platform - Training & Serving | Paris, France | [apply](https://careers.datadoghq.com/detail/7529852/?gh_jid=7529852) |
-| 94 | 160 | 2026-04-23 | greenhouse | datadog | Manager I, Engineering - APM Backend | Paris, France | [apply](https://careers.datadoghq.com/detail/7814972/?gh_jid=7814972) |
-| 95 | 160 | 2026-04-23 | greenhouse | datadog | Manager I, Engineering - Code Coverage | Madrid, Spain | [apply](https://careers.datadoghq.com/detail/7742739/?gh_jid=7742739) |
-| 96 | 160 | 2026-04-23 | greenhouse | datadog | Manager I, Engineering - Dataviz Explorations | Paris, France | [apply](https://careers.datadoghq.com/detail/7672619/?gh_jid=7672619) |
-| 97 | 160 | 2026-04-23 | greenhouse | datadog | Manager I, Engineering - Resource Graph | Paris, France | [apply](https://careers.datadoghq.com/detail/7573784/?gh_jid=7573784) |
-| 98 | 160 | 2026-04-23 | greenhouse | datadog | Product Designer II, CCM | Paris, France | [apply](https://careers.datadoghq.com/detail/7559797/?gh_jid=7559797) |
-| 99 | 155 | 2026-04-23 | remoteok | Amigo | Applied AI Engineer Europe | Amsterdam | [apply](https://remoteOK.com/remote-jobs/remote-applied-ai-engineer-europe-amigo-1131296) |
-| 100 | 155 | 2026-04-22 | remoteok | Onit, Inc. | Solution Engineer I | Pune, Maharashtra | [apply](https://remoteOK.com/remote-jobs/remote-solution-engineer-i-onit-inc-1131270) |
-| 101 | 155 | 2026-04-24 | greenhouse | stripe | Data - Regulatory Reporting, Luxembourg |  Luxembourg | [apply](https://stripe.com/jobs/search?gh_jid=7587256) |
-| 102 | 155 | 2026-04-24 | greenhouse | stripe | Design Engineer, Presence | US, Canada | [apply](https://stripe.com/jobs/search?gh_jid=7144975) |
-| 103 | 155 | 2026-04-24 | greenhouse | stripe | Full Stack Engineer, Collaboration | Dublin | [apply](https://stripe.com/jobs/search?gh_jid=7532806) |
-| 104 | 155 | 2026-04-24 | greenhouse | stripe | Product Support Specialist | Singapore | [apply](https://stripe.com/jobs/search?gh_jid=7524531) |
-| 105 | 155 | 2026-04-24 | greenhouse | stripe | Software Engineer, Machine Learning Infrastructure | N/A | [apply](https://stripe.com/jobs/search?gh_jid=7376835) |
-| 106 | 155 | 2026-04-24 | greenhouse | twilio | Digital Sales Representative | Remote - Ireland | [apply](https://job-boards.greenhouse.io/twilio/jobs/7668479) |
-| 107 | 155 | 2026-04-24 | greenhouse | twilio | Onboarding Operations Specialist 1 | Remote - Colombia | [apply](https://job-boards.greenhouse.io/twilio/jobs/7761269) |
-| 108 | 155 | 2026-04-24 | greenhouse | twilio | Technical Administrator 2 | Remote - India | [apply](https://job-boards.greenhouse.io/twilio/jobs/7807739) |
-| 109 | 155 | 2026-04-21 | greenhouse | mongodb | Associate Technical Services Engineer II | Dublin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7721092) |
-| 110 | 155 | 2026-04-24 | greenhouse | mongodb | Software Engineer (Internal Query Engine Testing Tools), Query | Dublin; Ireland | [apply](https://www.mongodb.com/careers/job/?gh_jid=7571255) |
-| 111 | 155 | 2026-04-21 | greenhouse | mongodb | Technical Services Engineer | Vancouver | [apply](https://www.mongodb.com/careers/job/?gh_jid=7566221) |
-| 112 | 155 | 2026-04-24 | greenhouse | fivetran | Account Executive, Commercial - German Speaking | Dublin, Dublin, Ireland | [apply](https://www.fivetran.com/careers/job?gh_jid=7664246003) |
-| 113 | 155 | 2026-04-24 | greenhouse | fivetran | Business Development Representative, Enterprise - Spanish Speaker | London, England, United Kingdom | [apply](https://www.fivetran.com/careers/job?gh_jid=7705030003) |
-| 114 | 155 | 2026-04-24 | greenhouse | fivetran | System Support Specialist I | Bengaluru, Karnataka, India | [apply](https://www.fivetran.com/careers/job?gh_jid=7668148003) |
-| 115 | 155 | 2026-04-25 | greenhouse | mixpanel | Software Engineer, Backend | San Francisco (Hybrid) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/7850958) |
-| 116 | 155 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Engineer - Mexico | Mexico, Remote | [apply](https://careers.datadoghq.com/detail/7843358/?gh_jid=7843358) |
-| 117 | 155 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Engineer - Poland | Poland, Remote | [apply](https://careers.datadoghq.com/detail/7610352/?gh_jid=7610352) |
-| 118 | 155 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Engineer - UK | United Kingdom, Remote | [apply](https://careers.datadoghq.com/detail/7487353/?gh_jid=7487353) |
-| 119 | 155 | 2026-04-23 | greenhouse | datadog | GTM Strategy and Operations Analyst - EMEA | Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/7636353/?gh_jid=7636353) |
-| 120 | 155 | 2026-04-23 | greenhouse | datadog | Product Manager II – Real User Monitoring (RUM) | Paris, France | [apply](https://careers.datadoghq.com/detail/7694469/?gh_jid=7694469) |
-| 121 | 150 | 2026-04-20 | remoteok | Superhuman | Software Engineer Android | Berlin | [apply](https://remoteOK.com/remote-jobs/remote-software-engineer-android-superhuman-1131226) |
-| 122 | 150 | 2026-04-22 | greenhouse | figma | Enterprise Support Specialist, Japanese Speaking (Tokyo, Japan) | Tokyo, Japan | [apply](https://boards.greenhouse.io/figma/jobs/5978411004?gh_jid=5978411004) |
-| 123 | 150 | 2026-04-23 | greenhouse | anthropic | Programme Manager, Partner Delivery | London, UK | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5197601008) |
-| 124 | 150 | 2026-04-24 | greenhouse | brex | Data Engineer | São Paulo, São Paulo, Brazil | [apply](https://www.brex.com/careers/8523806002?gh_jid=8523806002) |
-| 125 | 150 | 2026-04-21 | greenhouse | elastic | Recruiting Sourcer | Bangalore, India | [apply](https://jobs.elastic.co/jobs?gh_jid=7819544&gh_jid=7819544) |
-| 126 | 150 | 2026-04-24 | greenhouse | gitlab | Account Executive - Italy | Remote | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8503792002) |
-| 127 | 150 | 2026-04-24 | greenhouse | gitlab | Commercial Account Executive - DACH | Remote, Germany | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8446714002) |
-| 128 | 150 | 2026-04-24 | greenhouse | gitlab | Commercial Account Executive - Key Accounts, Nordics | Remote, Sweden | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8368613002) |
-| 129 | 150 | 2026-04-24 | greenhouse | gitlab | Commercial Account Executive - Mid Market, Greece | Remote, EMEA; Remote, Europe-North/Central; Remote, France; Remote, Germany; Remote, United Kingdom | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8448368002) |
-| 130 | 150 | 2026-04-24 | greenhouse | gitlab | Contract Recruiter, Sales (APAC) | Remote, APAC | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8486224002) |
-| 131 | 150 | 2026-04-24 | greenhouse | gitlab | Ecosystem Sales Manager, Alps  | Remote, Germany | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8418604002) |
-| 132 | 150 | 2026-04-24 | greenhouse | gitlab | Ecosystem Sales Manager - Italy | Remote | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8456500002) |
-| 133 | 150 | 2026-04-24 | greenhouse | gitlab | Ecosystem Sales Manager, MEA  | Remote, United Arab Emirates | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8360326002) |
-| 134 | 150 | 2026-04-24 | greenhouse | gitlab | Ecosystem Sales Manager, Scale - Singapore | Remote, Singapore | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8494601002) |
-| 135 | 150 | 2026-04-24 | greenhouse | gitlab | Enterprise Account Executive - DACH | Remote, Germany | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8522195002) |
-| 136 | 150 | 2026-04-24 | greenhouse | gitlab | Strategic Account Executive, South Africa | Remote, United Arab Emirates | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8458263002) |
-| 137 | 150 | 2026-04-24 | greenhouse | gitlab | Strategic Account Executive - UAE | Remote, United Arab Emirates | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8452328002) |
-| 138 | 150 | 2026-04-21 | greenhouse | mongodb | Associate TSE I | Tel Aviv | [apply](https://www.mongodb.com/careers/job/?gh_jid=7678384) |
-| 139 | 150 | 2026-04-21 | greenhouse | mongodb | Cloud Operations Engineer | Dublin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7453323) |
-| 140 | 150 | 2026-04-21 | greenhouse | mongodb | Consulting Engineer | Tel Aviv | [apply](https://www.mongodb.com/careers/job/?gh_jid=7746692) |
-| 141 | 150 | 2026-04-21 | greenhouse | mongodb | Software Engineer, Networking & Observability | Alberta; British Columbia; Manitoba; Nova Scotia; Ontario; Quebec | [apply](https://www.mongodb.com/careers/job/?gh_jid=7672662) |
-| 142 | 150 | 2026-04-23 | greenhouse | flexport | Area Manager | Atlanta Warehouse | [apply](https://boards.greenhouse.io/flexport/jobs/7819243?gh_jid=7819243) |
-| 143 | 150 | 2026-04-23 | greenhouse | flexport | Area Manager- New Grad | Atlanta Warehouse | [apply](https://boards.greenhouse.io/flexport/jobs/7839297?gh_jid=7839297) |
-| 144 | 150 | 2026-04-23 | greenhouse | datadog | Customer Success Associate | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/5486716/?gh_jid=5486716) |
-| 145 | 150 | 2026-04-23 | greenhouse | datadog | Customer Success Associate (Commercial Accounts) | Sydney, Australia | [apply](https://careers.datadoghq.com/detail/7548129/?gh_jid=7548129) |
-| 146 | 150 | 2026-04-23 | greenhouse | datadog | Customer Success Associate (Commercial Accounts) - Singapore (ASEAN Market) | Singapore, Singapore | [apply](https://careers.datadoghq.com/detail/7813304/?gh_jid=7813304) |
-| 147 | 150 | 2026-04-23 | greenhouse | datadog | Open Source Program Developer | Portugal, Remote | [apply](https://careers.datadoghq.com/detail/7760903/?gh_jid=7760903) |
-| 148 | 150 | 2026-04-23 | greenhouse | datadog | Open Source Program Developer | Denmark, Remote; France, Remote; Germany, Remote; Ireland, Remote; Poland, Remote; Spain, Remote; Sweden, Remote; Switzerland, Remote; The Netherlands, Remote; United Kingdom, Remote | [apply](https://careers.datadoghq.com/detail/7721661/?gh_jid=7721661) |
-| 149 | 150 | 2026-04-23 | greenhouse | datadog | Technical Support Engineer 1 - 2 | Seoul, South Korea | [apply](https://careers.datadoghq.com/detail/6882229/?gh_jid=6882229) |
-| 150 | 145 | 2026-04-24 | remoteok | Envision Horizons LLC | Full Stack Developer | Remote | [apply](https://remoteOK.com/remote-jobs/remote-full-stack-developer-envision-horizons-llc-1131303) |
-| 151 | 145 | 2026-04-24 | greenhouse | stripe | Android Engineer, Terminal | Toronto | [apply](https://stripe.com/jobs/search?gh_jid=7543559) |
-| 152 | 145 | 2026-04-24 | greenhouse | stripe | Android Engineer, Terminal OS Platform | San Francisco, Seattle | [apply](https://stripe.com/jobs/search?gh_jid=7557403) |
-| 153 | 145 | 2026-04-24 | greenhouse | stripe | Payments Analyst | Bengaluru, India | [apply](https://stripe.com/jobs/search?gh_jid=5584791) |
-| 154 | 145 | 2026-04-24 | greenhouse | twilio | Software Engineer | Remote - Estonia | [apply](https://job-boards.greenhouse.io/twilio/jobs/7647708) |
-| 155 | 145 | 2026-04-24 | greenhouse | coinbase | Compliance Associate | Hybrid - Luxembourg | [apply](https://www.coinbase.com/careers/positions/7705401?gh_jid=7705401) |
-| 156 | 145 | 2026-04-22 | greenhouse | affirm | Manager, Software Engineering (Fraud) | Remote US | [apply](https://job-boards.greenhouse.io/affirm/jobs/7646757003) |
-| 157 | 145 | 2026-04-22 | greenhouse | dropbox | Infrastructure Software Engineer | Remote - Poland | [apply](https://jobs.dropbox.com/listing/6330377?gh_jid=6330377) |
-| 158 | 145 | 2026-04-23 | greenhouse | samsara | Manager, Technical Account Management | Remote - Canada | [apply](https://www.samsara.com/company/careers/roles/7525295?gh_jid=7525295) |
-| 159 | 145 | 2026-04-23 | greenhouse | samsara | Marketing Operations Manager | Remote - Canada | [apply](https://www.samsara.com/company/careers/roles/7681215?gh_jid=7681215) |
-| 160 | 145 | 2026-04-25 | greenhouse | samsara | Mid-Market Account Executive - France | Remote - France | [apply](https://www.samsara.com/company/careers/roles/7571463?gh_jid=7571463) |
-| 161 | 145 | 2026-04-21 | greenhouse | elastic | Strategic Account Executive - Mexico | Mexico | [apply](https://jobs.elastic.co/jobs?gh_jid=7833952&gh_jid=7833952) |
-| 162 | 145 | 2026-04-24 | greenhouse | gitlab | Stock Administrator | Remote, India | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8502364002) |
-| 163 | 145 | 2026-04-24 | greenhouse | gitlab | Strategic Account Executive - Germany | Remote, Germany | [apply](https://job-boards.greenhouse.io/gitlab/jobs/8477068002) |
-| 164 | 145 | 2026-04-24 | greenhouse | mongodb | Associate Commercial Growth Account Executive | Toronto | [apply](https://www.mongodb.com/careers/job/?gh_jid=7592487) |
-| 165 | 145 | 2026-04-23 | greenhouse | datadog | AI Research Scientist – Datadog AI Research (DAIR) | Paris, France | [apply](https://careers.datadoghq.com/detail/6652564/?gh_jid=6652564) |
-| 166 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Account Executive | Sydney, Australia | [apply](https://careers.datadoghq.com/detail/7463765/?gh_jid=7463765) |
-| 167 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Account Executive | Bangalore, India | [apply](https://careers.datadoghq.com/detail/6512321/?gh_jid=6512321) |
-| 168 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Account Executive | Seoul, South Korea | [apply](https://careers.datadoghq.com/detail/6512326/?gh_jid=6512326) |
-| 169 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Account Executive | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/5798241/?gh_jid=5798241) |
-| 170 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Account Executive - Africa | Amsterdam, The Netherlands | [apply](https://careers.datadoghq.com/detail/7716209/?gh_jid=7716209) |
-| 171 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Account Executive - CEE | Amsterdam, The Netherlands | [apply](https://careers.datadoghq.com/detail/7777384/?gh_jid=7777384) |
-| 172 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Account Executive (DACH) | Amsterdam, The Netherlands; Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/5283132/?gh_jid=5283132) |
-| 173 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Account Executive (France) | Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/7824375/?gh_jid=7824375) |
-| 174 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Account Executive (Indonesia Market) | Singapore, Singapore | [apply](https://careers.datadoghq.com/detail/7463727/?gh_jid=7463727) |
-| 175 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Account Executive - Israel | Tel Aviv, Israel | [apply](https://careers.datadoghq.com/detail/7736489/?gh_jid=7736489) |
-| 176 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Account Executive (Malaysia Market) | Singapore, Singapore | [apply](https://careers.datadoghq.com/detail/7463736/?gh_jid=7463736) |
-| 177 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Account Executive - Sao Paulo (Portuguese Speaking) | Sao Paulo, Brazil | [apply](https://careers.datadoghq.com/detail/7792997/?gh_jid=7792997) |
-| 178 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Account Executive (Saudi Arabia) | Riyadh, Saudi Arabia | [apply](https://careers.datadoghq.com/detail/7576831/?gh_jid=7576831) |
-| 179 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Account Executive UKI/Nordics | Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/6427176/?gh_jid=6427176) |
-| 180 | 145 | 2026-04-23 | greenhouse | datadog | Commercial & Mid Market Sales Engineer | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/7481124/?gh_jid=7481124) |
-| 181 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Sales Engineer  | Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/7746158/?gh_jid=7746158) |
-| 182 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Sales Engineer (Sao Paulo) | Sao Paulo, Brazil | [apply](https://careers.datadoghq.com/detail/7731622/?gh_jid=7731622) |
-| 183 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Sales Engineer (Tel Aviv) | Tel Aviv, Israel | [apply](https://careers.datadoghq.com/detail/7594608/?gh_jid=7594608) |
-| 184 | 145 | 2026-04-23 | greenhouse | datadog | Commercial Sales Engineer (Turkish-speaking) | Amsterdam, The Netherlands; Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/7701556/?gh_jid=7701556) |
-| 185 | 145 | 2026-04-23 | greenhouse | datadog | Customer Success Manager - Spanish  | Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/7658144/?gh_jid=7658144) |
-| 186 | 145 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Engineer | Osaka, Japan | [apply](https://careers.datadoghq.com/detail/6430289/?gh_jid=6430289) |
-| 187 | 145 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Engineer | Brisbane, Australia | [apply](https://careers.datadoghq.com/detail/7721005/?gh_jid=7721005) |
-| 188 | 145 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Engineer | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/7811662/?gh_jid=7811662) |
-| 189 | 145 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Engineer (Bahasa Indonesia speaking) | Singapore, Singapore | [apply](https://careers.datadoghq.com/detail/6832925/?gh_jid=6832925) |
-| 190 | 145 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Engineer (Bahasa Indonesia speaking) | Jakarta, Indonesia | [apply](https://careers.datadoghq.com/detail/6831903/?gh_jid=6831903) |
-| 191 | 145 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Engineer - Brazil | Sao Paulo, Brazil | [apply](https://careers.datadoghq.com/detail/7255532/?gh_jid=7255532) |
-| 192 | 145 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Engineer - Paris | Paris, France | [apply](https://careers.datadoghq.com/detail/7661700/?gh_jid=7661700) |
-| 193 | 145 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Engineer (Saudi Arabia) | Riyadh, Saudi Arabia | [apply](https://careers.datadoghq.com/detail/7777514/?gh_jid=7777514) |
-| 194 | 145 | 2026-04-23 | greenhouse | datadog | Manager 1, Technical Support Engineering | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/7343626/?gh_jid=7343626) |
-| 195 | 145 | 2026-04-23 | greenhouse | datadog | Manager 2, Premier Support Engineering - Amsterdam | Amsterdam, The Netherlands | [apply](https://careers.datadoghq.com/detail/7496237/?gh_jid=7496237) |
-| 196 | 145 | 2026-04-23 | greenhouse | datadog | Manager, Commercial & Mid-Market Sales Engineering | Bangalore, India | [apply](https://careers.datadoghq.com/detail/7684983/?gh_jid=7684983) |
-| 197 | 145 | 2026-04-23 | greenhouse | datadog | Manager, Commercial & Mid-Market Sales Engineering (ASEAN) | Singapore, Singapore | [apply](https://careers.datadoghq.com/detail/7685824/?gh_jid=7685824) |
-| 198 | 145 | 2026-04-23 | greenhouse | datadog | Manager, Commercial Sales Engineering | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/7791332/?gh_jid=7791332) |
-| 199 | 145 | 2026-04-23 | greenhouse | datadog | Manager, Commercial Sales Engineering (Sao Paulo) | Sao Paulo, Brazil | [apply](https://careers.datadoghq.com/detail/7641414/?gh_jid=7641414) |
-| 200 | 145 | 2026-04-23 | greenhouse | datadog | Manager I, Engineering - OrgStore Blueprint | Madrid, Spain | [apply](https://careers.datadoghq.com/detail/7586019/?gh_jid=7586019) |
-| 201 | 145 | 2026-04-23 | greenhouse | datadog | Manager I, IT Support (Paris) | Paris, France | [apply](https://careers.datadoghq.com/detail/7756975/?gh_jid=7756975) |
-| 202 | 145 | 2026-04-23 | greenhouse | datadog | Manager, Sales Development | Bangalore, India | [apply](https://careers.datadoghq.com/detail/7789198/?gh_jid=7789198) |
-| 203 | 145 | 2026-04-23 | greenhouse | datadog | Manager, Sales Development | Seoul, South Korea | [apply](https://careers.datadoghq.com/detail/7660508/?gh_jid=7660508) |
-| 204 | 145 | 2026-04-23 | greenhouse | datadog | Mid Market Account Executive | Bangalore, India | [apply](https://careers.datadoghq.com/detail/7785319/?gh_jid=7785319) |
-| 205 | 145 | 2026-04-23 | greenhouse | datadog | Mid Market Account Executive | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/6522009/?gh_jid=6522009) |
-| 206 | 145 | 2026-04-23 | greenhouse | datadog | Mid Market Account Executive (Brazil) | Sao Paulo, Brazil | [apply](https://careers.datadoghq.com/detail/7773458/?gh_jid=7773458) |
-| 207 | 145 | 2026-04-23 | greenhouse | datadog | Mid-Market Account Executive (DACH) | Amsterdam, The Netherlands; Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/7476847/?gh_jid=7476847) |
-| 208 | 145 | 2026-04-23 | greenhouse | datadog | Mid Market Account Executive - France | Amsterdam, The Netherlands; Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/7746735/?gh_jid=7746735) |
-| 209 | 145 | 2026-04-23 | greenhouse | datadog | Mid-Market Sales (CEE / Nordics) | Amsterdam, The Netherlands | [apply](https://careers.datadoghq.com/detail/7530418/?gh_jid=7530418) |
-| 210 | 145 | 2026-04-23 | greenhouse | datadog | Technical Solutions Field Enablement Manager, APJ | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/7493027/?gh_jid=7493027) |
-| 211 | 145 | 2026-04-23 | greenhouse | datadog | Technical Solutions Field Enablement Manager, APJ | Singapore, Singapore | [apply](https://careers.datadoghq.com/detail/7760411/?gh_jid=7760411) |
-| 212 | 145 | 2026-04-24 | greenhouse | datadog | Technical Support Engineer 2 | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/6759702/?gh_jid=6759702) |
-| 213 | 145 | 2026-04-23 | greenhouse | datadog | Technical Support Engineer 2 | Seoul, South Korea | [apply](https://careers.datadoghq.com/detail/7477573/?gh_jid=7477573) |
-| 214 | 145 | 2026-04-23 | greenhouse | datadog | Technical Support Engineer 2, Premier - EMEA | Amsterdam, The Netherlands; Dublin, Ireland; Paris, France | [apply](https://careers.datadoghq.com/detail/7496253/?gh_jid=7496253) |
-| 215 | 145 | 2026-04-21 | greenhouse | lyft | Data Scientist, Safety | Toronto, Canada | [apply](https://app.careerpuck.com/job-board/lyft/job/8509122002?gh_jid=8509122002) |
-| 216 | 140 | 2026-04-24 | greenhouse | stripe | Implementation Consultant (German speaking) | Berlin, Germany  | [apply](https://stripe.com/jobs/search?gh_jid=7649097) |
-| 217 | 140 | 2026-04-24 | greenhouse | stripe | Machine Learning Engineer, Supportability | Toronto | [apply](https://stripe.com/jobs/search?gh_jid=7384709) |
-| 218 | 140 | 2026-04-20 | greenhouse | databricks | AI Engineer - FDE (Forward Deployed Engineer) | Singapore | [apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8503080002) |
-| 219 | 140 | 2026-04-24 | greenhouse | twilio | Payroll Analyst II | Mexico City, Mexico | [apply](https://job-boards.greenhouse.io/twilio/jobs/7826394) |
-| 220 | 140 | 2026-04-24 | greenhouse | twilio | Phone Numbers Operations Specialist 1 | Remote - Colombia | [apply](https://job-boards.greenhouse.io/twilio/jobs/7722119) |
-| 221 | 140 | 2026-04-24 | greenhouse | twilio | Regulatory and Inventory Operations Engineer (Fluent Japanese Speaker) | Remote - Estonia | [apply](https://job-boards.greenhouse.io/twilio/jobs/7833997) |
-| 222 | 140 | 2026-04-24 | greenhouse | twilio | Salesforce Technical Administrator | Remote - Canada | [apply](https://job-boards.greenhouse.io/twilio/jobs/7781657) |
-| 223 | 140 | 2026-04-24 | greenhouse | twilio | Software Engineer  | Remote - Spain | [apply](https://job-boards.greenhouse.io/twilio/jobs/7846633) |
-| 224 | 140 | 2026-04-24 | greenhouse | twilio | Technical Support Engineer 2 (Email Infra) | Remote - India | [apply](https://job-boards.greenhouse.io/twilio/jobs/7349692) |
-| 225 | 140 | 2026-04-23 | greenhouse | affirm | Revenue Operations Analyst II | Remote US | [apply](https://job-boards.greenhouse.io/affirm/jobs/7686481003) |
-| 226 | 140 | 2026-04-23 | greenhouse | affirm | Revenue Operations Analyst II | Remote Canada | [apply](https://job-boards.greenhouse.io/affirm/jobs/7686483003) |
-| 227 | 140 | 2026-04-23 | greenhouse | samsara | Procurement Analyst II | Remote - Mexico | [apply](https://www.samsara.com/company/careers/roles/7741106?gh_jid=7741106) |
-| 228 | 140 | 2026-04-21 | greenhouse | mongodb | Software Engineer, Atlas Growth | Dublin; Ireland | [apply](https://www.mongodb.com/careers/job/?gh_jid=7411027) |
-| 229 | 140 | 2026-04-21 | greenhouse | mongodb | Software Engineer, Code Generation | British Columbia; Calgary | [apply](https://www.mongodb.com/careers/job/?gh_jid=7311708) |
-| 230 | 140 | 2026-04-21 | greenhouse | mongodb | Technical Writer | Dublin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7743754) |
-| 231 | 140 | 2026-04-23 | greenhouse | datadog | Manager II, Engineering - AI Platform Training, Serving and Storage | Paris, France | [apply](https://careers.datadoghq.com/detail/7520030/?gh_jid=7520030) |
-| 232 | 140 | 2026-04-23 | greenhouse | datadog | Real Estate Associate Project Manager | Amsterdam, The Netherlands; London, United Kingdom; Paris, France | [apply](https://careers.datadoghq.com/detail/7732564/?gh_jid=7732564) |
-| 233 | 140 | 2026-04-23 | greenhouse | datadog | Sales Development Representative (Benelux) | Amsterdam, The Netherlands | [apply](https://careers.datadoghq.com/detail/7180254/?gh_jid=7180254) |
-| 234 | 140 | 2026-04-23 | greenhouse | datadog | Software Engineer - Early Career | Lisbon, Portugal | [apply](https://careers.datadoghq.com/detail/7646452/?gh_jid=7646452) |
-| 235 | 140 | 2026-04-23 | greenhouse | datadog | Strategic Account Executive (Benelux) | Amsterdam, The Netherlands | [apply](https://careers.datadoghq.com/detail/5581254/?gh_jid=5581254) |
-| 236 | 140 | 2026-04-23 | greenhouse | datadog | Technical Account Manager 2 - São Paulo | Sao Paulo, Brazil | [apply](https://careers.datadoghq.com/detail/7834545/?gh_jid=7834545) |
-| 237 | 135 | 2026-04-23 | remoteok | Cayuse | Technical Program Manager â Platform Migration | Remote | [apply](https://remoteOK.com/remote-jobs/remote-technical-program-manager-platform-migration-cayuse-1131282) |
-| 238 | 135 | 2026-04-21 | remoteok | Patreon | Software Engineer Identity & Access | Remote | [apply](https://remoteOK.com/remote-jobs/remote-software-engineer-identity-access-patreon-1131240) |
-| 239 | 135 | 2026-04-24 | greenhouse | stripe | Collections Program Manager | US-NYC | [apply](https://stripe.com/jobs/search?gh_jid=7815794) |
-| 240 | 135 | 2026-04-24 | greenhouse | stripe | Engineering Manager, Privy | NYC-Privy | [apply](https://stripe.com/jobs/search?gh_jid=7729216) |
-| 241 | 135 | 2026-04-24 | greenhouse | stripe | Operations Associate, GTM Onboarding Specialist | Mexico | [apply](https://stripe.com/jobs/search?gh_jid=7393071) |
-| 242 | 135 | 2026-04-24 | greenhouse | stripe | Risk Operations Associate, Verifications (CDMX) | Mexico City | [apply](https://stripe.com/jobs/search?gh_jid=7815282) |
-| 243 | 135 | 2026-04-24 | greenhouse | stripe | Social Media Customer Support Associate  | Mexico | [apply](https://stripe.com/jobs/search?gh_jid=6898905) |
-| 244 | 135 | 2026-04-23 | greenhouse | samsara | Sales Manager, Mid-Market | Remote - Canada | [apply](https://www.samsara.com/company/careers/roles/7560138?gh_jid=7560138) |
-| 245 | 135 | 2026-04-23 | greenhouse | mixpanel | Account Executive | Tel Aviv, Israel (Hybrid) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/7513918) |
-| 246 | 135 | 2026-04-23 | greenhouse | mixpanel | Solutions Engineer (pre-sales) | San Francisco, US (Hybrid) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/7800289) |
-| 247 | 135 | 2026-04-23 | greenhouse | datadog | Technical Account Manager 2 (Thai Speaking) | Thailand, Remote | [apply](https://careers.datadoghq.com/detail/7708309/?gh_jid=7708309) |
-| 248 | 135 | 2026-04-22 | greenhouse | lyft | Data Analyst, Global Growth Strategy  | Toronto, Canada | [apply](https://app.careerpuck.com/job-board/lyft/job/8461143002?gh_jid=8461143002) |
-| 249 | 130 | 2026-04-22 | remoteok | Vonage | Healthcare Account Executive | Remote | [apply](https://remoteOK.com/remote-jobs/remote-healthcare-account-executive-vonage-1131272) |
-| 250 | 130 | 2026-04-20 | remoteok | SuperPlane | Product Engineer | Remote | [apply](https://remoteOK.com/remote-jobs/remote-product-engineer-superplane-1131228) |
+| 1 | 165 | 2026-04-24 | remoteok | Pivotal Health | Data Engineer | Los Angeles  | [apply](https://remoteOK.com/remote-jobs/remote-data-engineer-pivotal-health-1131305) |
+| 2 | 130 | 2026-04-19 | remoteok | Criptoro | Data Analyst | Remote | [apply](https://remoteOK.com/remote-jobs/remote-data-analyst-criptoro-1131219) |
+| 3 | 130 | 2026-04-24 | greenhouse | stripe | Full Stack Engineer, Expansion | United Kingdom  | [apply](https://stripe.com/jobs/search?gh_jid=7531158) |
+| 4 | 130 | 2026-04-24 | greenhouse | stripe | Operations Associate, Financial Crimes Bridge KYB | Mexico City | [apply](https://stripe.com/jobs/search?gh_jid=7456083) |
+| 5 | 130 | 2026-04-24 | greenhouse | stripe | Operations Associate, Financial Crimes EDD/PEP | Mexico City  | [apply](https://stripe.com/jobs/search?gh_jid=7202953) |
+| 6 | 130 | 2026-04-24 | greenhouse | stripe | Processing Cost Accountant | Bangalore | [apply](https://stripe.com/jobs/search?gh_jid=7649036) |
+| 7 | 130 | 2026-04-24 | greenhouse | stripe | Product Support Specialist | Chicago | [apply](https://stripe.com/jobs/search?gh_jid=7572741) |
+| 8 | 130 | 2026-04-24 | greenhouse | stripe | Risk Operations Associate (CDMX) - User Policy Operations | Mexico City | [apply](https://stripe.com/jobs/search?gh_jid=7664549) |
+| 9 | 130 | 2026-04-24 | greenhouse | stripe | Software Engineer | San Francisco | [apply](https://stripe.com/jobs/search?gh_jid=7788088) |
+| 10 | 130 | 2026-04-24 | greenhouse | stripe | Tech Operations Associate, New Grad (Mexico) | Mexico City, Mexico | [apply](https://stripe.com/jobs/search?gh_jid=7718947) |
+| 11 | 130 | 2026-04-24 | greenhouse | twilio | Technical Support Engineer | Remote - Ireland | [apply](https://job-boards.greenhouse.io/twilio/jobs/7761378) |
+| 12 | 130 | 2026-04-22 | greenhouse | pinterest | Software Engineer II | Dublin, IE | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7767046) |
+| 13 | 130 | 2026-04-23 | greenhouse | anthropic | Product Support Specialist (Singapore) | Singapore | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5186852008) |
+| 14 | 130 | 2026-04-23 | greenhouse | anthropic | Product Support Specialist (Singapore - Weekend Coverage) | Singapore | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5186965008) |
+| 15 | 130 | 2026-04-23 | greenhouse | anthropic | Research Engineer, Machine Learning (RL Velocity) | London, UK | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5198074008) |
+| 16 | 130 | 2026-04-22 | greenhouse | affirm | Analyst II, Credit Risk Analytics | Remote US | [apply](https://job-boards.greenhouse.io/affirm/jobs/7666190003) |
+| 17 | 130 | 2026-04-22 | greenhouse | affirm | Analyst II, International Credit Risk | Remote US | [apply](https://job-boards.greenhouse.io/affirm/jobs/7590561003) |
+| 18 | 130 | 2026-04-23 | greenhouse | brex | Support Specialist | Vancouver, British Columbia, Canada | [apply](https://www.brex.com/careers/8493078002?gh_jid=8493078002) |
+| 19 | 130 | 2026-04-23 | greenhouse | samsara | Deal Support Quality & Strategy Manager | Remote - Mexico | [apply](https://www.samsara.com/company/careers/roles/7619927?gh_jid=7619927) |
+| 20 | 130 | 2026-04-23 | greenhouse | samsara | Deal Support Quality & Strategy Manager | Remote - Canada | [apply](https://www.samsara.com/company/careers/roles/7836027?gh_jid=7836027) |
+| 21 | 130 | 2026-04-23 | greenhouse | samsara | Renewals Account Executive - Enterprise - Mexico  | Remote - Mexico | [apply](https://www.samsara.com/company/careers/roles/7675041?gh_jid=7675041) |
+| 22 | 130 | 2026-04-23 | greenhouse | samsara | Renewals Account Executive - Mid-Market - Mexico | Remote - Mexico | [apply](https://www.samsara.com/company/careers/roles/7637225?gh_jid=7637225) |
+| 23 | 130 | 2026-04-24 | greenhouse | mixpanel | AP & Employee Expense Specialist | San Francisco, US (Remote) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/7843253) |
+| 24 | 130 | 2026-04-24 | greenhouse | mixpanel | AP & Employee Expense Specialist | Chicago, US (Remote) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/7848903) |
+| 25 | 130 | 2026-04-24 | greenhouse | mixpanel | AP & Employee Expense Specialist | Austin, US (Remote) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/7848896) |
+| 26 | 130 | 2026-04-23 | greenhouse | mixpanel | Inside Sales Representative - India  | Bengaluru, India (Hybrid) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/7678906) |
+| 27 | 130 | 2026-04-23 | greenhouse | datadog | Enterprise Account Executive | Thailand, Remote | [apply](https://careers.datadoghq.com/detail/7297389/?gh_jid=7297389) |
+| 28 | 130 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Engineer - Nordics | Copenhagen, Denmark; Stockholm, Sweden | [apply](https://careers.datadoghq.com/detail/7101976/?gh_jid=7101976) |
+| 29 | 130 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Executive | Mexico, Remote | [apply](https://careers.datadoghq.com/detail/5505818/?gh_jid=5505818) |
+| 30 | 130 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Executive | Canada, Remote | [apply](https://careers.datadoghq.com/detail/4828332/?gh_jid=4828332) |
+| 31 | 130 | 2026-04-23 | greenhouse | datadog | Marketing Operations Manager (LATAM) | Sao Paulo, Brazil | [apply](https://careers.datadoghq.com/detail/7689485/?gh_jid=7689485) |
+| 32 | 130 | 2026-04-23 | greenhouse | datadog | Recruiter II, Business Recruiting | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/7650367/?gh_jid=7650367) |
+| 33 | 125 | 2026-04-20 | remoteok | Spotify | Product Manager Data Platform | Toronto | [apply](https://remoteOK.com/remote-jobs/remote-product-manager-data-platform-spotify-1131225) |
+| 34 | 125 | 2026-04-24 | greenhouse | stripe | Data Scientist | Toronto | [apply](https://stripe.com/jobs/search?gh_jid=5895430) |
+| 35 | 125 | 2026-04-24 | greenhouse | stripe | Deal Pricing | US-Remote | [apply](https://stripe.com/jobs/search?gh_jid=7685049) |
+| 36 | 125 | 2026-04-24 | greenhouse | stripe | Short-form Video & Social, Community Comms | SF, NYC | [apply](https://stripe.com/jobs/search?gh_jid=7373865) |
+| 37 | 125 | 2026-04-24 | greenhouse | twilio | Business Systems Analyst 2 | Remote - India | [apply](https://job-boards.greenhouse.io/twilio/jobs/7254399) |
+| 38 | 125 | 2026-04-20 | greenhouse | coinbase | Manager of Compliance Testing and Assurance | Hybrid - Luxembourg | [apply](https://www.coinbase.com/careers/positions/7286062?gh_jid=7286062) |
+| 39 | 125 | 2026-04-24 | greenhouse | brex |  Account Executive, E-Commerce  | Vancouver, British Columbia, Canada | [apply](https://www.brex.com/careers/8379353002?gh_jid=8379353002) |
+| 40 | 125 | 2026-04-21 | greenhouse | mongodb | Associate Commercial Growth Account Executive | Austin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7617760) |
+| 41 | 125 | 2026-04-21 | greenhouse | mongodb | Enterprise Account Executive, Growth | Zurich | [apply](https://www.mongodb.com/careers/job/?gh_jid=7217805) |
+| 42 | 125 | 2026-04-21 | greenhouse | mongodb | Turkish Speaking Enterprise Account Executive | Dubai | [apply](https://www.mongodb.com/careers/job/?gh_jid=7113254) |
+| 43 | 125 | 2026-04-23 | greenhouse | datadog | Enterprise Customer Success Manager | Singapore, Singapore | [apply](https://careers.datadoghq.com/detail/7794029/?gh_jid=7794029) |
+| 44 | 125 | 2026-04-23 | greenhouse | datadog | Enterprise Customer Success Manager | Jakarta, Indonesia | [apply](https://careers.datadoghq.com/detail/7794297/?gh_jid=7794297) |
+| 45 | 125 | 2026-04-23 | greenhouse | datadog | Enterprise Customer Success Manager | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/7435209/?gh_jid=7435209) |
+| 46 | 125 | 2026-04-23 | greenhouse | datadog | Manager, Commercial Sales | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/7463769/?gh_jid=7463769) |
+| 47 | 125 | 2026-04-23 | greenhouse | datadog | Manager, Commercial Sales | Bangalore, India | [apply](https://careers.datadoghq.com/detail/7463785/?gh_jid=7463785) |
+| 48 | 125 | 2026-04-23 | greenhouse | datadog | Manager, Commercial Sales - Mexico City | Mexico City, Mexico | [apply](https://careers.datadoghq.com/detail/7785250/?gh_jid=7785250) |
+| 49 | 125 | 2026-04-23 | greenhouse | datadog | Manager, Mid Market - Brazil | Sao Paulo, Brazil | [apply](https://careers.datadoghq.com/detail/7800409/?gh_jid=7800409) |
+| 50 | 125 | 2026-04-23 | greenhouse | datadog | Manager, Mid Market Sales | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/7276497/?gh_jid=7276497) |
+| 51 | 125 | 2026-04-23 | greenhouse | datadog | Manager, Mid Market Sales | Bangalore, India | [apply](https://careers.datadoghq.com/detail/7785321/?gh_jid=7785321) |
+| 52 | 125 | 2026-04-23 | greenhouse | datadog | Manager, Mid-Market Sales (Nordics, CEE, Baltics) | Amsterdam, The Netherlands; Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/7478179/?gh_jid=7478179) |
+| 53 | 125 | 2026-04-23 | greenhouse | datadog | Partner Manager - Commercial Cloud Alliances (South EMEA) | Amsterdam, The Netherlands; Dublin, Ireland; London, United Kingdom | [apply](https://careers.datadoghq.com/detail/7747038/?gh_jid=7747038) |
+| 54 | 125 | 2026-04-23 | greenhouse | datadog | Technical Account Manager 2 - Tel Aviv | Tel Aviv, Israel | [apply](https://careers.datadoghq.com/detail/7705493/?gh_jid=7705493) |
+| 55 | 125 | 2026-04-20 | greenhouse | lyft | Data Curation Associate | Ukraine Anywhere | [apply](https://app.careerpuck.com/job-board/lyft/job/8513766002?gh_jid=8513766002) |
+| 56 | 120 | 2026-04-24 | greenhouse | stripe | IT Support Engineer | Toronto | [apply](https://stripe.com/jobs/search?gh_jid=7733233) |
+| 57 | 120 | 2026-04-24 | greenhouse | stripe | IT Support Engineer | Mexico City | [apply](https://stripe.com/jobs/search?gh_jid=7733216) |
+| 58 | 120 | 2026-04-24 | greenhouse | databricks | Strategic Account Executive, UAE | London, United Kingdom | [apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8452487002) |
+| 59 | 120 | 2026-04-24 | greenhouse | brex | IT Ops Technician II | Vancouver, British Columbia, Canada | [apply](https://www.brex.com/careers/8522794002?gh_jid=8522794002) |
+| 60 | 120 | 2026-04-23 | greenhouse | samsara | Account Development Representative - DACH | Remote - Germany | [apply](https://www.samsara.com/company/careers/roles/7618026?gh_jid=7618026) |
+| 61 | 120 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - UK&I | London - UK2; London, England, United Kingdom | [apply](https://www.samsara.com/company/careers/roles/7613161?gh_jid=7613161) |
+| 62 | 120 | 2026-04-23 | greenhouse | samsara | Technical Support Specialist  | Bengaluru - BLR1 | [apply](https://www.samsara.com/company/careers/roles/7386042?gh_jid=7386042) |
+| 63 | 120 | 2026-04-24 | greenhouse | elastic | Sales Development Representative DACH (German speaker) | Barcelona, Spain | [apply](https://jobs.elastic.co/jobs?gh_jid=7812855&gh_jid=7812855) |
+| 64 | 120 | 2026-04-22 | greenhouse | mongodb | Commercial Growth Account Executive (Italian Speaker) | Dublin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7841395) |
+| 65 | 120 | 2026-04-21 | greenhouse | mongodb | Enterprise Account Executive, Acquisition | Mexico City | [apply](https://www.mongodb.com/careers/job/?gh_jid=5607962) |
+| 66 | 120 | 2026-04-24 | greenhouse | flexport | Global Operations Associate | Paris, France | [apply](https://boards.greenhouse.io/flexport/jobs/7311906?gh_jid=7311906) |
+| 67 | 120 | 2026-04-23 | greenhouse | flexport | Global Operations Specialist | Guadalajara, Mexico | [apply](https://boards.greenhouse.io/flexport/jobs/7492939?gh_jid=7492939) |
+| 68 | 120 | 2026-04-23 | greenhouse | datadog | Enterprise Account Executive - UKI | London, United Kingdom | [apply](https://careers.datadoghq.com/detail/6836442/?gh_jid=6836442) |
+| 69 | 120 | 2026-04-23 | greenhouse | datadog | Enterprise Account Executive (UKI) - Public Sector | London, United Kingdom | [apply](https://careers.datadoghq.com/detail/7599334/?gh_jid=7599334) |
+| 70 | 120 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Executive | Bangalore, India | [apply](https://careers.datadoghq.com/detail/7477119/?gh_jid=7477119) |
+| 71 | 120 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Executive | Mumbai, India | [apply](https://careers.datadoghq.com/detail/7476356/?gh_jid=7476356) |
+| 72 | 120 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Executive | Delhi, India | [apply](https://careers.datadoghq.com/detail/7677477/?gh_jid=7677477) |
+| 73 | 120 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Executive - Expansion | Jakarta, Indonesia | [apply](https://careers.datadoghq.com/detail/7312778/?gh_jid=7312778) |
+| 74 | 120 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Executive (Hong Kong Market) | Singapore, Singapore | [apply](https://careers.datadoghq.com/detail/7590429/?gh_jid=7590429) |
+| 75 | 120 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Executive (Sweden)  | Stockholm, Sweden | [apply](https://careers.datadoghq.com/detail/5925905/?gh_jid=5925905) |
+| 76 | 120 | 2026-04-23 | greenhouse | datadog | Enterprise Sales Executive (Vietnam Market) | Singapore, Singapore | [apply](https://careers.datadoghq.com/detail/7590670/?gh_jid=7590670) |
+| 77 | 120 | 2026-04-23 | greenhouse | datadog | Sales Development Representative | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/7806043/?gh_jid=7806043) |
+| 78 | 120 | 2026-04-23 | greenhouse | datadog | Sales Development Representative | Seoul, South Korea | [apply](https://careers.datadoghq.com/detail/6686710/?gh_jid=6686710) |
+| 79 | 120 | 2026-04-23 | greenhouse | datadog | Sales Development Representative | Sydney, Australia | [apply](https://careers.datadoghq.com/detail/7514910/?gh_jid=7514910) |
+| 80 | 120 | 2026-04-23 | greenhouse | datadog | Sales Development Representative | Singapore, Singapore | [apply](https://careers.datadoghq.com/detail/7805001/?gh_jid=7805001) |
+| 81 | 120 | 2026-04-23 | greenhouse | datadog | Sales Development Representative (DACH)  | Amsterdam, The Netherlands; Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/6307160/?gh_jid=6307160) |
+| 82 | 120 | 2026-04-23 | greenhouse | datadog | Sales Development Representative (Hong Kong Market) | Singapore, Singapore | [apply](https://careers.datadoghq.com/detail/7724481/?gh_jid=7724481) |
+| 83 | 120 | 2026-04-23 | greenhouse | datadog | Sales Development Representative - Iberia | Amsterdam, The Netherlands | [apply](https://careers.datadoghq.com/detail/7179866/?gh_jid=7179866) |
+| 84 | 120 | 2026-04-23 | greenhouse | datadog | Sales Development Representative - Italy | Amsterdam, The Netherlands | [apply](https://careers.datadoghq.com/detail/7214964/?gh_jid=7214964) |
+| 85 | 120 | 2026-04-23 | greenhouse | datadog | Sales Development Representative (Middle East) | Amsterdam, The Netherlands; Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/6998241/?gh_jid=6998241) |
+| 86 | 120 | 2026-04-23 | greenhouse | datadog | Sales Development Representative (Nordics) - Dublin | Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/6857395/?gh_jid=6857395) |
+| 87 | 120 | 2026-04-23 | greenhouse | datadog | Sales Development Representative (UKI) | Dublin, Ireland | [apply](https://careers.datadoghq.com/detail/7016097/?gh_jid=7016097) |
+| 88 | 120 | 2026-04-23 | greenhouse | datadog | Sales Sourcer II, Business Recruiting | Singapore, Singapore | [apply](https://careers.datadoghq.com/detail/7437215/?gh_jid=7437215) |
+| 89 | 120 | 2026-04-23 | greenhouse | datadog | Sourcer II, Business Recruiting - Japan | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/7811537/?gh_jid=7811537) |
+| 90 | 120 | 2026-04-23 | greenhouse | datadog | Strategic Account Executive (Vietnam Market) | Singapore, Singapore | [apply](https://careers.datadoghq.com/detail/7515110/?gh_jid=7515110) |
+| 91 | 115 | 2026-04-24 | greenhouse | stripe | Bridge - Operations Associate, Financial Crimes (AML Investigations) | Mexico City | [apply](https://stripe.com/jobs/search?gh_jid=7456081) |
+| 92 | 115 | 2026-04-24 | greenhouse | stripe | Collections Specialist | Mexico | [apply](https://stripe.com/jobs/search?gh_jid=7398150) |
+| 93 | 115 | 2026-04-24 | greenhouse | stripe | Consumer Operations Associate | Mexico City | [apply](https://stripe.com/jobs/search?gh_jid=7733301) |
+| 94 | 115 | 2026-04-24 | greenhouse | stripe | Credit Risk Operations Associate (CDMX) | Mexico City | [apply](https://stripe.com/jobs/search?gh_jid=7456167) |
+| 95 | 115 | 2026-04-24 | greenhouse | stripe | Fraud Operations Associate SDC | Mexico City | [apply](https://stripe.com/jobs/search?gh_jid=7651078) |
+| 96 | 115 | 2026-04-24 | greenhouse | stripe | Operations Associate, Financial Crimes (AML Investigations) | Mexico City | [apply](https://stripe.com/jobs/search?gh_jid=5902523) |
+| 97 | 115 | 2026-04-24 | greenhouse | stripe | Operations Associate, New Grad (Mexico) | Mexico City, Mexico | [apply](https://stripe.com/jobs/search?gh_jid=7544547) |
+| 98 | 115 | 2026-04-24 | greenhouse | stripe | Operations Associate - Product Support Operations (CDMX) | MX- Mexico City | [apply](https://stripe.com/jobs/search?gh_jid=7813141) |
+| 99 | 115 | 2026-04-24 | greenhouse | stripe | Operations Associate, Sanctions | Mexico City | [apply](https://stripe.com/jobs/search?gh_jid=6891805) |
+| 100 | 115 | 2026-04-24 | greenhouse | stripe | Sales Development Representative, Greater China | Singapore | [apply](https://stripe.com/jobs/search?gh_jid=7601119) |
+| 101 | 115 | 2026-04-24 | greenhouse | stripe | Sales Development Representative (Mandarin-speaking) | Singapore, Sydney | [apply](https://stripe.com/jobs/search?gh_jid=7813755) |
+| 102 | 115 | 2026-04-22 | greenhouse | robinhood | Workplace Operations Specialist | Toronto, Canada | [apply](https://boards.greenhouse.io/robinhood/jobs/7815625?t=gh_src=&gh_jid=7815625) |
+| 103 | 115 | 2026-04-24 | greenhouse | twilio | Compliance Operations Specialist 1 | Remote - Colombia | [apply](https://job-boards.greenhouse.io/twilio/jobs/7722115) |
+| 104 | 115 | 2026-04-24 | greenhouse | twilio | Enablement Business Partner, SDR (Sales Development Representatives) | Remote - Canada | [apply](https://job-boards.greenhouse.io/twilio/jobs/7783164) |
+| 105 | 115 | 2026-04-24 | greenhouse | twilio | MDM Data Specialist | Remote - Colombia | [apply](https://job-boards.greenhouse.io/twilio/jobs/7622280) |
+| 106 | 115 | 2026-04-24 | greenhouse | twilio | Onboarding Operations Specialist 1 | Remote - Australia | [apply](https://job-boards.greenhouse.io/twilio/jobs/7746362) |
+| 107 | 115 | 2026-04-24 | greenhouse | twilio | System Ops Administrator 2 | Remote - Canada | [apply](https://job-boards.greenhouse.io/twilio/jobs/7837168) |
+| 108 | 115 | 2026-04-24 | greenhouse | twilio | Systems Ops Administrator | Remote - India | [apply](https://job-boards.greenhouse.io/twilio/jobs/7837170) |
+| 109 | 115 | 2026-04-22 | greenhouse | brex | Commercial Account Executive | Vancouver, British Columbia, Canada | [apply](https://www.brex.com/careers/8178542002?gh_jid=8178542002) |
+| 110 | 115 | 2026-04-24 | greenhouse | samsara | Customer Support Specialist | Remote - Mexico | [apply](https://www.samsara.com/company/careers/roles/7384082?gh_jid=7384082) |
+| 111 | 115 | 2026-04-20 | greenhouse | elastic | Enterprise Account Executive (FSI) - Mumbai | Mumbai, India | [apply](https://jobs.elastic.co/jobs?gh_jid=7821378&gh_jid=7821378) |
+| 112 | 115 | 2026-04-22 | greenhouse | elastic | Partner Marketing Programs Associate | Costa Rica | [apply](https://jobs.elastic.co/jobs?gh_jid=7747274&gh_jid=7747274) |
+| 113 | 115 | 2026-04-23 | greenhouse | elastic | Renewal Manager - IC (French speaker) | Barcelona, Spain | [apply](https://jobs.elastic.co/jobs?gh_jid=7768041&gh_jid=7768041) |
+| 114 | 115 | 2026-04-23 | greenhouse | elastic | Renewal Manager - IC (Spanish speaker) | Barcelona, Spain | [apply](https://jobs.elastic.co/jobs?gh_jid=7768018&gh_jid=7768018) |
+| 115 | 115 | 2026-04-24 | greenhouse | mongodb | Account Development Representative, Hebrew Speaking | Tel Aviv | [apply](https://www.mongodb.com/careers/job/?gh_jid=7334938) |
+| 116 | 115 | 2026-04-24 | greenhouse | mongodb | Sales Development Representative | APAC | [apply](https://www.mongodb.com/careers/job/?gh_jid=7566671) |
+| 117 | 115 | 2026-04-24 | greenhouse | mongodb | Sales Development Representative | Beijing; Shanghai; Shenzhen | [apply](https://www.mongodb.com/careers/job/?gh_jid=7380221) |
+| 118 | 115 | 2026-04-24 | greenhouse | mongodb | Sales Development Representative - Thai Speaking | Malaysia | [apply](https://www.mongodb.com/careers/job/?gh_jid=7746436) |
+| 119 | 115 | 2026-04-20 | greenhouse | lyft | Software Engineer, Mapping | Toronto, Canada | [apply](https://app.careerpuck.com/job-board/lyft/job/8515037002?gh_jid=8515037002) |
+| 120 | 110 | 2026-04-24 | greenhouse | stripe | Engineering Manager, Compliance Data and Evidence Engine | N/A | [apply](https://stripe.com/jobs/search?gh_jid=7815846) |
+| 121 | 110 | 2026-04-24 | greenhouse | stripe | KYC Operations Associate, India | LOCATION | [apply](https://stripe.com/jobs/search?gh_jid=7543885) |
+| 122 | 110 | 2026-04-24 | greenhouse | stripe | Operations Associate, Sanctions (FinCrime) | Bengaluru | [apply](https://stripe.com/jobs/search?gh_jid=7540835) |
+| 123 | 110 | 2026-04-24 | greenhouse | stripe | People Operations Associate - Fixed Term Contract | Bengaluru | [apply](https://stripe.com/jobs/search?gh_jid=7815571) |
+| 124 | 110 | 2026-04-24 | greenhouse | stripe | Technical Account Manager | Dublin | [apply](https://stripe.com/jobs/search?gh_jid=6613516) |
+| 125 | 110 | 2026-04-24 | greenhouse | stripe | Technical Account Manager | London | [apply](https://stripe.com/jobs/search?gh_jid=7549012) |
+| 126 | 110 | 2026-04-24 | greenhouse | stripe | Technical Account Manager, French Speaking | Dublin | [apply](https://stripe.com/jobs/search?gh_jid=7781671) |
+| 127 | 110 | 2026-04-24 | greenhouse | stripe | Technical Account Manager, French-Speaking | Dublin | [apply](https://stripe.com/jobs/search?gh_jid=6941317) |
+| 128 | 110 | 2026-04-24 | greenhouse | stripe | Technical Account Manager, German OR Polish OR Ukrainian Speaking | Dublin | [apply](https://stripe.com/jobs/search?gh_jid=7594376) |
+| 129 | 110 | 2026-04-24 | greenhouse | stripe | Technical Account Manager, German Speaking  | Berlin  | [apply](https://stripe.com/jobs/search?gh_jid=7076173) |
+| 130 | 110 | 2026-04-24 | greenhouse | stripe | Verifications Operations Associate | Bengaluru | [apply](https://stripe.com/jobs/search?gh_jid=7738241) |
+| 131 | 110 | 2026-04-24 | greenhouse | twilio | Sales Development Representative | Remote - Ireland | [apply](https://job-boards.greenhouse.io/twilio/jobs/7662329) |
+| 132 | 110 | 2026-04-23 | greenhouse | samsara | Account Development Representative - UK | London, England, United Kingdom | [apply](https://www.samsara.com/company/careers/roles/7614550?gh_jid=7614550) |
+| 133 | 110 | 2026-04-22 | greenhouse | elastic | Inside Account Executive - CEE (Czech, Hungarian  or Bulgarian speaker) | Barcelona, Spain | [apply](https://jobs.elastic.co/jobs?gh_jid=7764796&gh_jid=7764796) |
+| 134 | 110 | 2026-04-22 | greenhouse | elastic | Sales Strategy & Finance Analyst | Bangalore, India | [apply](https://jobs.elastic.co/jobs?gh_jid=7826343&gh_jid=7826343) |
+| 135 | 110 | 2026-04-21 | greenhouse | mongodb | Commercial Growth Account Executive (Spanish Speaker) | Dublin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7771690) |
+| 136 | 110 | 2026-04-21 | greenhouse | mongodb | Manager, Sales Development | Austin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7768655) |
+| 137 | 110 | 2026-04-21 | greenhouse | mongodb | Manager, Sales Development | Toronto | [apply](https://www.mongodb.com/careers/job/?gh_jid=7763001) |
+| 138 | 110 | 2026-04-24 | greenhouse | mongodb | Manager, Sales Development (Kuala Lumpur Based) | Malaysia | [apply](https://www.mongodb.com/careers/job/?gh_jid=7732991) |
+| 139 | 110 | 2026-04-23 | greenhouse | mixpanel | Account Manager  | London, UK (Hybrid) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/7246274) |
+| 140 | 110 | 2026-04-23 | greenhouse | mixpanel | Manager, Solutions Engineering  | San Francisco, US (Hybrid) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/7513876) |
+| 141 | 110 | 2026-04-23 | greenhouse | mixpanel | Manager, Solutions Engineering  | London, UK (Hybrid) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/7052292) |
+| 142 | 110 | 2026-04-23 | greenhouse | mixpanel | Solutions Engineer  | Bengaluru, India (Hybrid) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/7511872) |
+| 143 | 110 | 2026-04-23 | greenhouse | datadog | Customer Success Manager | Seoul, South Korea | [apply](https://careers.datadoghq.com/detail/7790098/?gh_jid=7790098) |
+| 144 | 110 | 2026-04-23 | greenhouse | datadog | Strategic Account Executive | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/6016967/?gh_jid=6016967) |
+| 145 | 110 | 2026-04-23 | greenhouse | datadog | Strategic Account Executive, Public Sector Japan, FED | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/7439569/?gh_jid=7439569) |
+| 146 | 110 | 2026-04-23 | greenhouse | datadog | Strategic Account Executive, Public Sector Japan, SLED | Tokyo, Japan | [apply](https://careers.datadoghq.com/detail/7439573/?gh_jid=7439573) |
+| 147 | 105 | 2026-04-24 | remoteok | 360Learning | Trainer EMEA | Paris, Remote | [apply](https://remoteOK.com/remote-jobs/remote-trainer-emea-360learning-1131306) |
+| 148 | 105 | 2026-04-18 | remoteok | Spellbook | Business Development Representative Enterprise | Remote | [apply](https://remoteOK.com/remote-jobs/remote-business-development-representative-enterprise-spellbook-1131213) |
+| 149 | 105 | 2026-04-24 | greenhouse | stripe | Contracting Operations Specialist | Bengaluru | [apply](https://stripe.com/jobs/search?gh_jid=7741833) |
+| 150 | 105 | 2026-04-24 | greenhouse | stripe | Credit Risk Analyst, North American Underwriter | Toronto, Remote-Canada  | [apply](https://stripe.com/jobs/search?gh_jid=7612192) |
+| 151 | 105 | 2026-04-23 | greenhouse | databricks | Geo Core Account Executive - UAE | London, United Kingdom | [apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8518847002) |
+| 152 | 105 | 2026-04-23 | greenhouse | samsara | Change Management and Enablement Consultant | Remote - Mexico | [apply](https://www.samsara.com/company/careers/roles/7684568?gh_jid=7684568) |
+| 153 | 105 | 2026-04-23 | greenhouse | samsara | Commercial Account Executive  | Canada - Remote | [apply](https://www.samsara.com/company/careers/roles/5868498?gh_jid=5868498) |
+| 154 | 105 | 2026-04-23 | greenhouse | samsara | Manager, Technical Support Level 1 | Remote - Mexico | [apply](https://www.samsara.com/company/careers/roles/7516162?gh_jid=7516162) |
+| 155 | 105 | 2026-04-23 | greenhouse | samsara | Mid Market Account Executive - DACH | Remote - Germany | [apply](https://www.samsara.com/company/careers/roles/7266176?gh_jid=7266176) |
+| 156 | 105 | 2026-04-21 | greenhouse | elastic | Partner Marketing Programs Associate | Canada | [apply](https://jobs.elastic.co/jobs?gh_jid=7558782&gh_jid=7558782) |
+| 157 | 105 | 2026-04-23 | greenhouse | mongodb | Account Development Representative | Toronto | [apply](https://www.mongodb.com/careers/job/?gh_jid=7311234) |
+| 158 | 105 | 2026-04-24 | greenhouse | mongodb | Account Development Representative, French Speaking | Dublin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7335567) |
+| 159 | 105 | 2026-04-24 | greenhouse | mongodb | Account Development Representative, German Speaking | Dublin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7337287) |
+| 160 | 105 | 2026-04-24 | greenhouse | mongodb | Account Development Representative, Spanish Speaking | Dublin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7335205) |
+| 161 | 105 | 2026-04-21 | greenhouse | mongodb | Commercial Growth, Account Executive - UKI Market | Dublin | [apply](https://www.mongodb.com/careers/job/?gh_jid=6826191) |
+| 162 | 105 | 2026-04-21 | greenhouse | mongodb | Enterprise Account Executive, Growth | Frankfurt | [apply](https://www.mongodb.com/careers/job/?gh_jid=6848268) |
+| 163 | 105 | 2026-04-23 | greenhouse | mixpanel | Account Executive, Mid Market | San Francisco, US (Hybrid) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/7665501) |
+| 164 | 105 | 2026-04-24 | greenhouse | lyft | Marketing Manager, Autonomous Rides | Toronto, Canada | [apply](https://app.careerpuck.com/job-board/lyft/job/8448182002?gh_jid=8448182002) |
+| 165 | 105 | 2026-04-22 | greenhouse | lyft | Product Manager, Driver Experience | Toronto, Canada | [apply](https://app.careerpuck.com/job-board/lyft/job/8514395002?gh_jid=8514395002) |
+| 166 | 100 | 2026-04-24 | greenhouse | brex | Implementation Consultant, Embedded Finance | New York, New York, United States | [apply](https://www.brex.com/careers/8523732002?gh_jid=8523732002) |
+| 167 | 100 | 2026-04-24 | greenhouse | brex | Implementation Consultant, Embedded Finance | San Francisco, California, United States | [apply](https://www.brex.com/careers/8523716002?gh_jid=8523716002) |
+| 168 | 100 | 2026-04-23 | greenhouse | brex | Outbound Sales Development Representative | Seattle, Washington, United States | [apply](https://www.brex.com/careers/8159838002?gh_jid=8159838002) |
+| 169 | 100 | 2026-04-23 | greenhouse | brex | Outbound Sales Development Representative | San Francisco, California, United States | [apply](https://www.brex.com/careers/8007648002?gh_jid=8007648002) |
+| 170 | 100 | 2026-04-23 | greenhouse | brex | Outbound Sales Development Representative | Salt Lake City, Utah, United States | [apply](https://www.brex.com/careers/8007563002?gh_jid=8007563002) |
+| 171 | 100 | 2026-04-23 | greenhouse | samsara | Account Development Representative | Atlanta, Georgia, United States | [apply](https://www.samsara.com/company/careers/roles/7607508?gh_jid=7607508) |
+| 172 | 100 | 2026-04-23 | greenhouse | samsara | Account Development Representative | Phoenix, Arizona, United States | [apply](https://www.samsara.com/company/careers/roles/7608838?gh_jid=7608838) |
+| 173 | 100 | 2026-04-23 | greenhouse | samsara | Account Executive, Mid Market (Midwest) | Remote - US | [apply](https://www.samsara.com/company/careers/roles/7609126?gh_jid=7609126) |
+| 174 | 100 | 2026-04-23 | greenhouse | samsara | Account Executive, Mid Market (Northeast) | Remote - US | [apply](https://www.samsara.com/company/careers/roles/7609147?gh_jid=7609147) |
+| 175 | 100 | 2026-04-23 | greenhouse | samsara | Account Executive, Mid Market (Southeast) | Remote - US | [apply](https://www.samsara.com/company/careers/roles/7609156?gh_jid=7609156) |
+| 176 | 100 | 2026-04-23 | greenhouse | samsara | Account Executive, Mid Market (TOLA) | Remote - US | [apply](https://www.samsara.com/company/careers/roles/7608969?gh_jid=7608969) |
+| 177 | 100 | 2026-04-23 | greenhouse | samsara | Account Executive, Mid Market (West) | Remote - US | [apply](https://www.samsara.com/company/careers/roles/7609057?gh_jid=7609057) |
+| 178 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Public Sector | Remote - US | [apply](https://www.samsara.com/company/careers/roles/7612559?gh_jid=7612559) |
+| 179 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Public Sector | Remote - GA | [apply](https://www.samsara.com/company/careers/roles/7651609?gh_jid=7651609) |
+| 180 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Public Sector | Remote - AL | [apply](https://www.samsara.com/company/careers/roles/7651607?gh_jid=7651607) |
+| 181 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Public Sector | Remote - OK | [apply](https://www.samsara.com/company/careers/roles/7651604?gh_jid=7651604) |
+| 182 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Public Sector | Remote - KS | [apply](https://www.samsara.com/company/careers/roles/7651596?gh_jid=7651596) |
+| 183 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Public Sector | Remote - NE | [apply](https://www.samsara.com/company/careers/roles/7651593?gh_jid=7651593) |
+| 184 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Public Sector | Remote - OH | [apply](https://www.samsara.com/company/careers/roles/7651591?gh_jid=7651591) |
+| 185 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Public Sector | Remote - IN | [apply](https://www.samsara.com/company/careers/roles/7651589?gh_jid=7651589) |
+| 186 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Public Sector | Remote - CA | [apply](https://www.samsara.com/company/careers/roles/7651583?gh_jid=7651583) |
+| 187 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Public Sector | Remote - OR | [apply](https://www.samsara.com/company/careers/roles/7651579?gh_jid=7651579) |
+| 188 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Public Sector | Remote - NY | [apply](https://www.samsara.com/company/careers/roles/7651567?gh_jid=7651567) |
+| 189 | 100 | 2026-04-22 | remoteok | Trend Health Partners | Provider Services Analyst I | Remote | [apply](https://remoteOK.com/remote-jobs/remote-provider-services-analyst-i-trend-health-partners-1131267) |
+| 190 | 100 | 2026-04-22 | remoteok | Prophecy | Partner Sales Manager | San Francisco | [apply](https://remoteOK.com/remote-jobs/remote-partner-sales-manager-prophecy-1131257) |
+| 191 | 100 | 2026-04-19 | remoteok | Alimentiv | Imaging Research and Development Associate | Remote | [apply](https://remoteOK.com/remote-jobs/remote-imaging-research-and-development-associate-alimentiv-1131217) |
+| 192 | 100 | 2026-04-24 | greenhouse | stripe | Marketing Content Operations Associate | Bangalore | [apply](https://stripe.com/jobs/search?gh_jid=7584867) |
+| 193 | 100 | 2026-04-24 | greenhouse | stripe | Marketing Operations Associate (Automation) | Bengaluru, India | [apply](https://stripe.com/jobs/search?gh_jid=7573680) |
+| 194 | 100 | 2026-04-24 | greenhouse | stripe | Stripe Communications (Open Application) | SF, NYC, LON | [apply](https://stripe.com/jobs/search?gh_jid=7624667) |
+| 195 | 100 | 2026-04-23 | greenhouse | databricks | Strategic AI/BI Account Executive | London, United Kingdom | [apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8441888002) |
+| 196 | 100 | 2026-04-24 | greenhouse | brex | Implementation Consultant, Embedded Finance | Vancouver, British Columbia, Canada | [apply](https://www.brex.com/careers/8523741002?gh_jid=8523741002) |
+| 197 | 100 | 2026-04-23 | greenhouse | brex | Outbound Sales Development Representative | Vancouver, British Columbia, Canada | [apply](https://www.brex.com/careers/8007670002?gh_jid=8007670002) |
+| 198 | 100 | 2026-04-23 | greenhouse | samsara | Account Development Representative | Mexico City, Mexico | [apply](https://www.samsara.com/company/careers/roles/5747183?gh_jid=5747183) |
+| 199 | 100 | 2026-04-23 | greenhouse | samsara | Administrative Assistant (Legal Team) | CDMX3 | [apply](https://www.samsara.com/company/careers/roles/7390434?gh_jid=7390434) |
+| 200 | 100 | 2026-04-23 | greenhouse | samsara | Customer Success Specialist - Commercial/Mid-Market Collections | Remote - Mexico | [apply](https://www.samsara.com/company/careers/roles/7487268?gh_jid=7487268) |
+| 201 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Calgary | Remote - Calgary | [apply](https://www.samsara.com/company/careers/roles/6330593?gh_jid=6330593) |
+| 202 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - French Fluent | Remote - Montreal | [apply](https://www.samsara.com/company/careers/roles/5868607?gh_jid=5868607) |
+| 203 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Mexico | Remote - Mexico | [apply](https://www.samsara.com/company/careers/roles/5868615?gh_jid=5868615) |
+| 204 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Public Sector | Remote - SF Bay Area | [apply](https://www.samsara.com/company/careers/roles/7651569?gh_jid=7651569) |
+| 205 | 100 | 2026-04-23 | greenhouse | samsara | Mid-Market Account Executive - Public Sector | Remote - Chicago | [apply](https://www.samsara.com/company/careers/roles/7651562?gh_jid=7651562) |
+| 206 | 100 | 2026-04-23 | greenhouse | samsara | Sales Operations Coordinator | Remote - Mexico | [apply](https://www.samsara.com/company/careers/roles/7666070?gh_jid=7666070) |
+| 207 | 100 | 2026-04-24 | greenhouse | mongodb | Account Development Representative, UK&I | Dublin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7334895) |
+| 208 | 95 | 2026-04-24 | greenhouse | stripe | Reserve Operations Deputy | San Francisco or New York | [apply](https://stripe.com/jobs/search?gh_jid=7767151) |
+| 209 | 95 | 2026-04-23 | greenhouse | databricks | RVP, Enterprise (Gaming) | United States | [apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8449862002) |
+| 210 | 95 | 2026-04-23 | greenhouse | samsara | Account Executive, Commercial | Portland, OR | [apply](https://www.samsara.com/company/careers/roles/7612450?gh_jid=7612450) |
+| 211 | 95 | 2026-04-23 | greenhouse | samsara | Account Executive, Commercial | Los Angeles, CA | [apply](https://www.samsara.com/company/careers/roles/7612444?gh_jid=7612444) |
+| 212 | 95 | 2026-04-23 | greenhouse | samsara | Account Executive, Commercial | Salt Lake City, UT | [apply](https://www.samsara.com/company/careers/roles/7612445?gh_jid=7612445) |
+| 213 | 95 | 2026-04-23 | greenhouse | samsara | Account Executive, Commercial | San Diego, CA | [apply](https://www.samsara.com/company/careers/roles/7612446?gh_jid=7612446) |
+| 214 | 95 | 2026-04-23 | greenhouse | samsara | Account Executive, Commercial | Seattle, WA | [apply](https://www.samsara.com/company/careers/roles/7612447?gh_jid=7612447) |
+| 215 | 95 | 2026-04-23 | greenhouse | samsara | Account Executive, Commercial | Las Vegas, NV | [apply](https://www.samsara.com/company/careers/roles/7612448?gh_jid=7612448) |
+| 216 | 95 | 2026-04-23 | greenhouse | samsara | Account Executive, Commercial | Phoenix, Arizona | [apply](https://www.samsara.com/company/careers/roles/7612449?gh_jid=7612449) |
+| 217 | 95 | 2026-04-23 | greenhouse | samsara | Account Executive, Commercial | Columbus, OH | [apply](https://www.samsara.com/company/careers/roles/6605602?gh_jid=6605602) |
+| 218 | 95 | 2026-04-23 | greenhouse | samsara | Account Executive, Commercial | Atlanta, GA | [apply](https://www.samsara.com/company/careers/roles/6605601?gh_jid=6605601) |
+| 219 | 95 | 2026-04-23 | greenhouse | samsara | Account Executive, Commercial | Boston, MA | [apply](https://www.samsara.com/company/careers/roles/6605604?gh_jid=6605604) |
+| 220 | 95 | 2026-04-23 | greenhouse | samsara | Account Executive, Commercial | Denver, CO | [apply](https://www.samsara.com/company/careers/roles/7612443?gh_jid=7612443) |
+| 221 | 95 | 2026-04-21 | greenhouse | mongodb | Account Development Representative | New York City | [apply](https://www.mongodb.com/careers/job/?gh_jid=7310506) |
+| 222 | 95 | 2026-04-21 | greenhouse | lyft | Data Scientist, Algorithms, Optimization - Fulfillment | Seattle, WA | [apply](https://app.careerpuck.com/job-board/lyft/job/8335715002?gh_jid=8335715002) |
+| 223 | 95 | 2026-04-21 | greenhouse | lyft | Data Scientist, Algorithms, Optimization - Fulfillment | New York, NY | [apply](https://app.careerpuck.com/job-board/lyft/job/8335733002?gh_jid=8335733002) |
+| 224 | 95 | 2026-04-24 | greenhouse | stripe | Account Executive, Startup Platforms (Existing Business) | Chicago | [apply](https://stripe.com/jobs/search?gh_jid=7339700) |
+| 225 | 95 | 2026-04-24 | greenhouse | stripe | Implementation Consultant, Accelerate | Tokyo | [apply](https://stripe.com/jobs/search?gh_jid=7656704) |
+| 226 | 95 | 2026-04-24 | greenhouse | stripe | Product Support Operations Associate, Weekend Shift  | Bengaluru | [apply](https://stripe.com/jobs/search?gh_jid=6814190) |
+| 227 | 95 | 2026-04-24 | greenhouse | stripe | Sales Development Representative | Singapore, Tokyo, Sydney, Bangkok | [apply](https://stripe.com/jobs/search?gh_jid=6470774) |
+| 228 | 95 | 2026-04-24 | greenhouse | stripe | Sales Development Representative, Japan | Tokyo, Japan | [apply](https://stripe.com/jobs/search?gh_jid=7355424) |
+| 229 | 95 | 2026-04-20 | greenhouse | databricks | Named Enterprise Account Executive | Remote - Denmark | [apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8507812002) |
+| 230 | 95 | 2026-04-23 | greenhouse | databricks | Named Enterprise Account Executive, Fashion & Retail | Milan, Italy | [apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8509687002) |
+| 231 | 95 | 2026-04-23 | greenhouse | samsara |  Commercial Account Executive  | Toronto, Canada | [apply](https://www.samsara.com/company/careers/roles/6046586?gh_jid=6046586) |
+| 232 | 95 | 2026-04-23 | greenhouse | samsara |  Commercial Account Executive  | Montreal, Québec | [apply](https://www.samsara.com/company/careers/roles/6046593?gh_jid=6046593) |
+| 233 | 95 | 2026-04-23 | greenhouse | samsara |  Commercial Account Executive  | Québec City, Québec | [apply](https://www.samsara.com/company/careers/roles/6046594?gh_jid=6046594) |
+| 234 | 95 | 2026-04-23 | greenhouse | samsara | Commercial Account Executive  | Calgary, Canada | [apply](https://www.samsara.com/company/careers/roles/6046590?gh_jid=6046590) |
+| 235 | 95 | 2026-04-23 | greenhouse | samsara | Commercial Account Executive  | Vancouver, Canada | [apply](https://www.samsara.com/company/careers/roles/6046587?gh_jid=6046587) |
+| 236 | 95 | 2026-04-21 | greenhouse | mongodb | Account Development Representative | Austin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7311204) |
+| 237 | 95 | 2026-04-21 | greenhouse | mongodb | Account Development Representative, Turkish Speaking | Dublin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7298536) |
+| 238 | 90 | 2026-04-22 | greenhouse | robinhood | Customer Experience Representative, Derivatives  | Chicago, IL; Denver, CO; Westlake, TX | [apply](https://boards.greenhouse.io/robinhood/jobs/7707756?t=gh_src=&gh_jid=7707756) |
+| 239 | 90 | 2026-04-24 | greenhouse | brex | Finance Associate  | San Francisco, California, United States | [apply](https://www.brex.com/careers/8490327002?gh_jid=8490327002) |
+| 240 | 90 | 2026-04-19 | remoteok | Headlight | Learning and Development Specialist | Remote | [apply](https://remoteOK.com/remote-jobs/remote-learning-and-development-specialist-headlight-1131216) |
+| 241 | 90 | 2026-04-24 | greenhouse | stripe | Administrative Coordinator | Mexico City | [apply](https://stripe.com/jobs/search?gh_jid=7434713) |
+| 242 | 90 | 2026-04-24 | greenhouse | stripe | Payments Fraud Investigator | Dublin | [apply](https://stripe.com/jobs/search?gh_jid=7554002) |
+| 243 | 90 | 2026-04-24 | greenhouse | stripe | Sales Compensation Analyst | Bengaluru | [apply](https://stripe.com/jobs/search?gh_jid=7633559) |
+| 244 | 90 | 2026-04-23 | greenhouse | samsara | Proposal Writer | Remote - Canada | [apply](https://www.samsara.com/company/careers/roles/7722482?gh_jid=7722482) |
+| 245 | 90 | 2026-04-21 | greenhouse | mongodb | Candidate Experience Coordinator | Sydney | [apply](https://www.mongodb.com/careers/job/?gh_jid=7722465) |
+| 246 | 90 | 2026-04-21 | greenhouse | mongodb | Candidate Experience Coordinator, Contract | Austin; Seattle | [apply](https://www.mongodb.com/careers/job/?gh_jid=7742585) |
+| 247 | 90 | 2026-04-21 | greenhouse | mongodb | Regional Marketing Specialist | London | [apply](https://www.mongodb.com/careers/job/?gh_jid=7742406) |
+| 248 | 85 | 2026-04-22 | greenhouse | databricks | Commercial Account Executive | Austin, Texas; Boston, Massachusetts; Chicago, Illinois; Denver, Colorado; New York City, New York; San Francisco, California; Seattle, Washington; Washington, D.C. | [apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8519576002) |
+| 249 | 85 | 2026-04-22 | remoteok | Wholesail | Customer Success Manager | Remote | [apply](https://remoteOK.com/remote-jobs/remote-customer-success-manager-wholesail-1131252) |
+| 250 | 85 | 2026-04-22 | greenhouse | airbnb | Team Specialist, Premium Support | Japan | [apply](https://careers.airbnb.com/positions/7559568?gh_jid=7559568) |
