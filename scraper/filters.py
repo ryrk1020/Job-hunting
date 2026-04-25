@@ -162,6 +162,34 @@ def location_ok(job: Job, locs: dict) -> tuple[bool, bool]:
     return False, False
 
 
+_SENIOR_TITLE_RES = [
+    # Plain seniority words. Word-boundary, so "Vpn" / "Leader's" /
+    # "Director's" etc. don't false-positive, AND "Lead", "Lead,"
+    # "Lead." all match regardless of trailing punctuation.
+    re.compile(
+        r"\b(?:senior|sr\.?|staff|principal|lead|leader|architect|director"
+        r"|vp|vice\s+president|svp|evp|head\s+of|chief|cto|cio|ceo|coo|cfo"
+        r"|distinguished|fellow|expert)\b",
+        re.IGNORECASE,
+    ),
+    # Numbered seniority following a job-noun: "Engineer 3", "Engineer
+    # IV", "Manager 4", "Scientist III", with optional - or / between
+    # the noun and the numeral.
+    re.compile(
+        r"\b(?:engineer|developer|programmer|scientist|analyst|architect"
+        r"|manager|consultant|specialist|administrator|designer)\s*[-_/]?\s*"
+        r"(?:iii|iv|vi|vii|viii|ix|x|3|4|5|6|7|8|9|10)\b",
+        re.IGNORECASE,
+    ),
+    # Standalone Roman numerals III/IV/VI/VII at any token boundary —
+    # picks up typos like "Solutions Integration Enginer III" where the
+    # role-noun anchor doesn't match.
+    re.compile(r"\b(?:iii|iv|vi|vii)\b", re.IGNORECASE),
+    # Levels / grades: "Level 3", "L3", "Grade 4", "Tier 5".
+    re.compile(r"\b(?:l|lvl|level|grade|tier|band)\s*-?\s*[3-9]\b", re.IGNORECASE),
+]
+
+
 def excluded(job: Job, rules: dict) -> bool:
     blob = f"{job.company} {job.title} {job.description}".lower()
     for term in rules.get("companies", []):
@@ -171,8 +199,16 @@ def excluded(job: Job, rules: dict) -> bool:
         if term.lower() in (job.company or "").lower() or term.lower() in blob:
             return True
     title_low = (job.title or "").lower()
+    # Configured substring titles (admin-tunable safety net).
     for term in rules.get("titles", []):
         if term.lower() in title_low:
+            return True
+    # Regex-based seniority signals — catches "Vice President", "Lead"
+    # at end-of-title / before a comma, and numbered grades like
+    # "Engineer 3" / "Engineer IV" / "Manager 4" that the substring
+    # list can't express cleanly.
+    for pat in _SENIOR_TITLE_RES:
+        if pat.search(title_low):
             return True
     # Work-authorization gate — citizenship, clearance, no-sponsorship.
     # Checked against company + title + description so phrases like the

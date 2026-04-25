@@ -1,6 +1,6 @@
 # Job Hunter config
 # Tune keywords, locations, and company boards here.
-# Manual rerun marker: 2026-04-25T01:00Z — US-only location filter
+# Manual rerun marker: 2026-04-25T05:00Z — strict 3-yoe + seniority regex
 
 # Keyword groups. A job matches if any group's tokens all appear
 # in the title OR description (case-insensitive). Add / remove freely.
@@ -476,16 +476,19 @@ exclude:
   companies_early_stage:
     - stealth
     - seed stage
+  # Substring fallbacks (case-insensitive). The real seniority
+  # detection is a word-boundary regex in scraper/filters.py
+  # (_SENIOR_TITLE_RES) so it catches "Lead" at end-of-title,
+  # "Vice President", numbered grades like "Engineer 3 / IV", etc.
   titles:
     - "senior"
     - "sr."
     - "sr "
     - "staff"
     - "principal"
-    - "lead "
     - "architect"
     - "director"
-    - "vp "
+    - "vice president"
     - "head of"
     - "chief"
   # Employment-type filter. We only want full-time or contract/contract-to-
@@ -595,8 +598,9 @@ strict_freshness: true
 candidate_experience_years: 2
 
 # Hard cap on years of experience a posting may demand. Any "X+ years"
-# text in the description with X greater than this is excluded.
-max_experience_years: 4
+# text in the description with X greater than this is excluded. The
+# user has 2 YoE and is open to roles requiring up to 3.
+max_experience_years: 3
 
 # Strict-experience mode. When true, any posting whose full description
 # we can't actually read (shorter than min_description_chars) is dropped
