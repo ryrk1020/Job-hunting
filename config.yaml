@@ -1,6 +1,6 @@
 # Job Hunter config
 # Tune keywords, locations, and company boards here.
-# Manual rerun marker: 2026-04-24T13:10Z — carry-forward + sync
+# Manual rerun marker: 2026-04-25T00:30Z — client-side carry-forward
 
 # Keyword groups. A job matches if any group's tokens all appear
 # in the title OR description (case-insensitive). Add / remove freely.
@@ -299,12 +299,6 @@ min_description_chars: 120
 # AND a ceiling (output is truncated to exactly this many — highest
 # scored, preferred-location first).
 min_jobs_target: 250
-
-# Carry-forward: when true, yesterday's jobs that the user hasn't yet
-# marked 'applied' or 'reject' get rolled onto today's list so they can
-# pick up where they left off. Accepted / In Progress / Unmarked all
-# carry. Freshness (max_age_days) still applies to carried rows.
-carry_forward: true
 
 # Sources to enable.
 sources:

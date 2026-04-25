@@ -1,26 +1,27 @@
-// Job Hunter dashboard — calendar SPA with theme toggle, refresh,
-// Excel export, GitHub-backed cross-device status sync, and carry-forward
-// visualization.
+// Job Hunter dashboard — calendar SPA.
+// Share the Pages URL with anyone; no auth, no tokens, no setup.
+// Marks and UI prefs live in each viewer's localStorage.
+// Carry-forward runs purely in the browser: when you view today, jobs
+// from prior days that you haven't closed out are merged in.
 
 const STATUSES = ["accept", "applied", "inprogress", "reject"];
 const STATUS_LABEL = { accept: "Accept", applied: "Applied", inprogress: "In Prog", reject: "Reject" };
-const STATUS_KEY = "jobhunter.status.v1";
-const THEME_KEY  = "jobhunter.theme";
-const PAT_KEY    = "jobhunter.pat";
-const STATUS_FILE = "output/status.json";
-const REPO_SLUG  = detectRepoSlug();
+const STATUS_KEY  = "jobhunter.status.v1";
+const THEME_KEY   = "jobhunter.theme";
+const CARRY_KEY   = "jobhunter.carry";         // "1" = on (default), "0" = off
+const CARRY_MAX_DAYS = 14;                      // how far back to scan for carryover
+
+const REPO_SLUG = detectRepoSlug();
 
 const state = {
   manifest: null,
   byDate: new Map(),
   selected: null,
   view: { y: null, m: null },
-  jobs: [],
+  jobs: [],                         // what's rendered (fresh + carryover)
   filters: { q: "", group: "", status: "unmarked", loc: "" },
   status: loadStatus(),
-  statusSha: null,      // sha of output/status.json for GitHub PUTs
-  syncState: "local",   // local | syncing | synced | error
-  pushTimer: null,
+  carryEnabled: localStorage.getItem(CARRY_KEY) !== "0",
 };
 
 // ───── Utility ───────────────────────────────────────────────────────
@@ -39,10 +40,6 @@ function detectRepoSlug() {
 function safe(s) { return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }
 function todayISO() { return new Date().toISOString().slice(0, 10); }
 function isoFromYMD(y, m, d) { return `${y}-${String(m + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`; }
-function b64utf8(s) {
-  // btoa doesn't handle UTF-8; encode as bytes first.
-  return btoa(String.fromCharCode(...new TextEncoder().encode(s)));
-}
 
 function toast(msg, ms = 2200) {
   let el = document.querySelector(".toast");
@@ -64,141 +61,22 @@ function initTheme() {
   applyTheme(saved || (prefersDark ? "dark" : "light"));
 }
 
-// ───── Status store (localStorage + GitHub sync) ─────────────────────
+// ───── Status store ──────────────────────────────────────────────────
 function loadStatus() {
   try { return JSON.parse(localStorage.getItem(STATUS_KEY) || "{}"); }
   catch { return {}; }
 }
 function saveStatus() { localStorage.setItem(STATUS_KEY, JSON.stringify(state.status)); }
-function hasPAT() { return !!localStorage.getItem(PAT_KEY); }
-function setSyncState(s) {
-  state.syncState = s;
-  const chip = document.getElementById("sync-chip");
-  if (!chip) return;
-  chip.dataset.state = s;
-  const labels = { local: "Local", syncing: "Syncing", synced: "Synced", error: "Sync error", offline: "Offline" };
-  chip.querySelector(".sync-label").textContent = labels[s] || s;
-  chip.title = {
-    local:   "Marks are saved in this browser only. Open Settings to enable cross-device sync.",
-    syncing: "Pushing changes to GitHub…",
-    synced:  "All marks are synced to GitHub.",
-    error:   "Sync failed — check your token or connection.",
-    offline: "Offline — changes will sync when you're back online.",
-  }[s] || "";
-}
 
-function setJobStatus(url, status) {
+async function setJobStatus(url, status) {
   if (state.status[url] === status) delete state.status[url];
   else state.status[url] = status;
   saveStatus();
   refreshKpis();
+  // A mark can change what's "unmarked" for carryover, so re-select the
+  // day to recompute — but only if we're on the latest day (where
+  // carryover is in effect) AND the filter is hiding it now.
   renderJobs();
-  schedulePush();
-}
-
-// ───── GitHub sync ───────────────────────────────────────────────────
-async function ghGetStatusFile() {
-  // Try authenticated first if we have a PAT — fresher + gives us the sha.
-  if (hasPAT() && REPO_SLUG) {
-    const r = await fetch(`https://api.github.com/repos/${REPO_SLUG}/contents/${STATUS_FILE}`, {
-      headers: {
-        Authorization: `Bearer ${localStorage.getItem(PAT_KEY)}`,
-        Accept: "application/vnd.github+json",
-      },
-    });
-    if (r.status === 404) return { statuses: {}, sha: null };
-    if (r.ok) {
-      const j = await r.json();
-      try {
-        const text = new TextDecoder().decode(Uint8Array.from(atob(j.content.replace(/\s/g, "")), c => c.charCodeAt(0)));
-        const parsed = JSON.parse(text);
-        return { statuses: parsed.statuses || {}, sha: j.sha };
-      } catch { return { statuses: {}, sha: j.sha }; }
-    }
-    if (r.status === 401 || r.status === 403) {
-      setSyncState("error");
-      return null;
-    }
-  }
-  // Fall back to the Pages copy (may be stale due to CDN caching).
-  try {
-    const r = await fetch(`${STATUS_FILE}?t=${Date.now()}`, { cache: "no-store" });
-    if (!r.ok) return { statuses: {}, sha: null };
-    const j = await r.json();
-    return { statuses: j.statuses || {}, sha: null };
-  } catch {
-    return { statuses: {}, sha: null };
-  }
-}
-
-async function ghPutStatusFile() {
-  if (!hasPAT() || !REPO_SLUG) return false;
-  const body = {
-    updated_at: new Date().toISOString(),
-    statuses: state.status,
-  };
-  const content = b64utf8(JSON.stringify(body, null, 2) + "\n");
-  const put = async (sha) => {
-    const payload = {
-      message: `chore: sync job statuses (${Object.keys(state.status).length} entries)`,
-      content,
-    };
-    if (sha) payload.sha = sha;
-    const r = await fetch(`https://api.github.com/repos/${REPO_SLUG}/contents/${STATUS_FILE}`, {
-      method: "PUT",
-      headers: {
-        Authorization: `Bearer ${localStorage.getItem(PAT_KEY)}`,
-        Accept: "application/vnd.github+json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(payload),
-    });
-    return r;
-  };
-  let r = await put(state.statusSha);
-  // Stale sha on race — fetch fresh and retry once.
-  if (r.status === 409 || r.status === 422) {
-    const fresh = await ghGetStatusFile();
-    if (fresh) {
-      state.statusSha = fresh.sha;
-      r = await put(state.statusSha);
-    }
-  }
-  if (!r.ok) return false;
-  const j = await r.json();
-  state.statusSha = j.content?.sha || state.statusSha;
-  return true;
-}
-
-function schedulePush() {
-  if (!hasPAT()) return;
-  setSyncState("syncing");
-  clearTimeout(state.pushTimer);
-  state.pushTimer = setTimeout(async () => {
-    if (!navigator.onLine) { setSyncState("offline"); return; }
-    const ok = await ghPutStatusFile();
-    setSyncState(ok ? "synced" : "error");
-  }, 1500);
-}
-
-async function pullRemoteStatus() {
-  const res = await ghGetStatusFile();
-  if (!res) return;
-  state.statusSha = res.sha;
-  // Merge: remote is authoritative for entries not in local (other
-  // devices). Local stays if both disagree and the timestamp on local
-  // is fresher — but we don't track per-entry timestamps, so on any
-  // disagreement we trust remote (last writer wins at GitHub).
-  const remote = res.statuses || {};
-  const merged = { ...remote, ...state.status };
-  // Actually, prefer remote to make cross-device convergence work.
-  // Only keep local entries for URLs remote doesn't know about yet.
-  for (const k of Object.keys(remote)) merged[k] = remote[k];
-  state.status = merged;
-  saveStatus();
-  refreshKpis();
-  renderJobs();
-  if (hasPAT()) setSyncState("synced");
 }
 
 // ───── Calendar ──────────────────────────────────────────────────────
@@ -243,6 +121,7 @@ async function loadManifest({ fresh = false } = {}) {
   if (!r.ok) throw new Error("manifest.json not found");
   state.manifest = await r.json();
 }
+
 async function loadDay(date, { fresh = false } = {}) {
   if (!fresh && state.byDate.has(date)) return state.byDate.get(date);
   const url = fresh ? `archive/${date}.json?t=${Date.now()}` : `archive/${date}.json`;
@@ -253,14 +132,53 @@ async function loadDay(date, { fresh = false } = {}) {
   return data;
 }
 
+function latestDay() {
+  const days = state.manifest?.days || [];
+  return days[0]?.date || null;
+}
+
+/**
+ * Build the job list for a given date. For the latest day we also pull
+ * any unmarked / still-in-progress jobs forward from the previous
+ * CARRY_MAX_DAYS of archives, so the user can keep working through a
+ * backlog. Each carried row gets a carryover:true flag and a
+ * carried_from:<origin-date> field for the badge.
+ */
+async function buildJobsForDate(date) {
+  const data = await loadDay(date);
+  const fresh = (data.jobs || []).map(j => ({ ...j }));
+  const isLatest = date === latestDay();
+  if (!isLatest || !state.carryEnabled) return fresh;
+
+  const days = state.manifest?.days || [];
+  const priors = days
+    .filter(d => d.date < date)
+    .slice(0, CARRY_MAX_DAYS);
+
+  const seen = new Set(fresh.map(j => j.url).filter(Boolean));
+  const carryLoads = await Promise.all(priors.map(d => loadDay(d.date)));
+
+  const carried = [];
+  carryLoads.forEach((d, i) => {
+    const origin = priors[i].date;
+    for (const j of (d.jobs || [])) {
+      if (!j.url || seen.has(j.url)) continue;
+      const st = state.status[j.url];
+      if (st === "applied" || st === "reject") continue;
+      carried.push({ ...j, carryover: true, carried_from: j.carried_from || origin });
+      seen.add(j.url);
+    }
+  });
+  return [...fresh, ...carried];
+}
+
 async function selectDate(date) {
   state.selected = date;
   renderCalendar();
-  updateSubtitle();
-  const data = await loadDay(date);
-  state.jobs = data.jobs || [];
+  state.jobs = await buildJobsForDate(date);
   renderJobs();
   refreshKpis();
+  updateSubtitle();
 }
 
 function updateSubtitle() {
@@ -364,6 +282,8 @@ function refreshKpis() {
   document.getElementById("kpi-applied").textContent = counts.applied;
   document.getElementById("kpi-inprogress").textContent = counts.inprogress;
   document.getElementById("kpi-reject").textContent = counts.reject;
+  const mc = document.getElementById("marks-count");
+  if (mc) mc.textContent = String(Object.keys(state.status).length);
 }
 
 // ───── Excel export ──────────────────────────────────────────────────
@@ -397,6 +317,50 @@ function exportExcel() {
   toast(`Exported ${rows.length} job${rows.length === 1 ? "" : "s"}`);
 }
 
+// ───── Marks export / import / clear ─────────────────────────────────
+function exportMarks() {
+  const payload = {
+    exported_at: new Date().toISOString(),
+    statuses: state.status,
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `job-hunter-marks-${todayISO()}.json`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+  toast("Marks exported");
+}
+function triggerImport() { document.getElementById("import-file").click(); }
+async function importMarks(ev) {
+  const file = ev.target.files?.[0];
+  if (!file) return;
+  try {
+    const text = await file.text();
+    const data = JSON.parse(text);
+    const incoming = data.statuses || data;
+    if (typeof incoming !== "object" || Array.isArray(incoming)) throw new Error("bad shape");
+    const merged = { ...state.status, ...incoming };
+    state.status = merged;
+    saveStatus();
+    refreshKpis();
+    renderJobs();
+    toast(`Imported ${Object.keys(incoming).length} marks`);
+  } catch {
+    toast("Couldn't read that file");
+  } finally {
+    ev.target.value = "";
+  }
+}
+function purgeLocal() {
+  if (!confirm(`Clear all ${Object.keys(state.status).length} marks in this browser? This can't be undone.`)) return;
+  state.status = {};
+  saveStatus();
+  refreshKpis();
+  renderJobs();
+  toast("Marks cleared");
+}
+
 // ───── Refresh ───────────────────────────────────────────────────────
 async function refreshData() {
   const btn = document.getElementById("refresh-btn");
@@ -404,11 +368,10 @@ async function refreshData() {
   try {
     state.byDate.clear();
     await loadManifest({ fresh: true });
-    await pullRemoteStatus();
-    const target = state.selected || state.manifest?.days?.[0]?.date;
+    const target = state.selected || latestDay();
     if (target) {
-      const data = await loadDay(target, { fresh: true });
-      state.jobs = data.jobs || [];
+      await loadDay(target, { fresh: true });
+      state.jobs = await buildJobsForDate(target);
     }
     renderCalendar();
     renderJobs();
@@ -427,24 +390,13 @@ function openSettings() {
   const modal = document.getElementById("settings-modal");
   modal.hidden = false;
   document.body.style.overflow = "hidden";
-  const input = document.getElementById("pat-input");
-  input.value = "";   // never pre-fill; just show a status chip
-  updatePATStatus();
   updateLastRun();
+  refreshKpis();
+  document.getElementById("carry-toggle").checked = state.carryEnabled;
 }
 function closeSettings() {
   document.getElementById("settings-modal").hidden = true;
   document.body.style.overflow = "";
-}
-function updatePATStatus() {
-  const chip = document.getElementById("pat-status");
-  if (hasPAT()) {
-    chip.textContent = "Connected";
-    chip.className = "chip chip-ok";
-  } else {
-    chip.textContent = "Not connected";
-    chip.className = "chip chip-muted";
-  }
 }
 function updateLastRun() {
   const el = document.getElementById("last-run");
@@ -453,35 +405,6 @@ function updateLastRun() {
   el.textContent = gen
     ? `Last run: ${new Date(gen).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}`
     : "Last run: —";
-}
-async function savePAT() {
-  const input = document.getElementById("pat-input");
-  const v = (input.value || "").trim();
-  if (!v) { toast("Paste a token first"); return; }
-  // Light-touch shape check: real GitHub PATs start with ghp_, gho_, github_pat_, etc.
-  if (!/^(ghp_|gho_|ghu_|ghs_|ghr_|github_pat_)/.test(v)) {
-    if (!confirm("That doesn't look like a GitHub token prefix. Save anyway?")) return;
-  }
-  localStorage.setItem(PAT_KEY, v);
-  input.value = "";
-  updatePATStatus();
-  setSyncState("syncing");
-  // Validate + pull + initial push so the user sees immediate feedback.
-  try {
-    await pullRemoteStatus();
-    const ok = await ghPutStatusFile();
-    setSyncState(ok ? "synced" : "error");
-    toast(ok ? "Connected & synced" : "Token saved but push failed — check scope");
-  } catch {
-    setSyncState("error");
-    toast("Couldn't reach GitHub");
-  }
-}
-function clearPAT() {
-  localStorage.removeItem(PAT_KEY);
-  updatePATStatus();
-  setSyncState("local");
-  toast("Token removed");
 }
 
 // ───── Boot ──────────────────────────────────────────────────────────
@@ -494,12 +417,12 @@ document.getElementById("cal-next").onclick = () => {
   const v = state.view; v.m++; if (v.m > 11) { v.m = 0; v.y++; } renderCalendar();
 };
 document.getElementById("today-btn").onclick = () => {
-  const today = todayISO();
   const days = (state.manifest?.days || []).map(d => d.date);
-  const target = days.includes(today) ? today : (days[0] || today);
+  const target = days[0];
+  if (!target) return;
   const [y, m] = target.split("-").map(Number);
   state.view.y = y; state.view.m = m - 1;
-  if (days.includes(target)) selectDate(target); else renderCalendar();
+  selectDate(target);
 };
 document.getElementById("theme-btn").onclick = () => {
   const cur = document.documentElement.getAttribute("data-theme") || "light";
@@ -514,23 +437,23 @@ document.getElementById("settings-modal").addEventListener("click", e => {
 document.addEventListener("keydown", e => {
   if (e.key === "Escape" && !document.getElementById("settings-modal").hidden) closeSettings();
 });
-document.getElementById("pat-save").onclick = savePAT;
-document.getElementById("pat-clear").onclick = clearPAT;
-document.getElementById("purge-local").onclick = () => {
-  if (!confirm("Clear all locally-cached marks in this browser? (GitHub sync, if connected, will not be touched.)")) return;
-  state.status = {};
-  saveStatus();
-  refreshKpis();
-  renderJobs();
-  toast("Local marks cleared");
-};
+document.getElementById("carry-toggle").addEventListener("change", async (e) => {
+  state.carryEnabled = e.target.checked;
+  localStorage.setItem(CARRY_KEY, state.carryEnabled ? "1" : "0");
+  if (state.selected) {
+    state.jobs = await buildJobsForDate(state.selected);
+    renderJobs();
+    updateSubtitle();
+  }
+});
+document.getElementById("export-marks").onclick = exportMarks;
+document.getElementById("import-marks").onclick = triggerImport;
+document.getElementById("import-file").addEventListener("change", importMarks);
+document.getElementById("purge-local").onclick = purgeLocal;
 
 const rerun = document.getElementById("rerun-link");
 if (REPO_SLUG) rerun.href = `https://github.com/${REPO_SLUG}/actions/workflows/daily.yml`;
 else rerun.style.display = "none";
-
-window.addEventListener("online",  () => hasPAT() && setSyncState("synced"));
-window.addEventListener("offline", () => hasPAT() && setSyncState("offline"));
 
 ["q", "group", "status", "loc"].forEach(id => {
   const el = document.getElementById(id);
@@ -538,11 +461,7 @@ window.addEventListener("offline", () => hasPAT() && setSyncState("offline"));
   el.addEventListener("input", e => { state.filters[id] = e.target.value; renderJobs(); });
 });
 
-setSyncState(hasPAT() ? "synced" : "local");
-
 (async () => {
-  // Kick off remote status pull in parallel with manifest load.
-  const statusPromise = pullRemoteStatus().catch(() => {});
   try {
     await loadManifest();
   } catch {
@@ -553,12 +472,9 @@ setSyncState(hasPAT() ? "synced" : "local");
     state.view.m = now.getMonth();
     renderCalendar();
     refreshKpis();
-    await statusPromise;
     return;
   }
-  const days = state.manifest.days || [];
-  const today = todayISO();
-  const target = days.find(d => d.date === today)?.date || days[0]?.date;
+  const target = latestDay();
   if (target) {
     const [y, m] = target.split("-").map(Number);
     state.view.y = y; state.view.m = m - 1;
@@ -570,8 +486,5 @@ setSyncState(hasPAT() ? "synced" : "local");
     document.getElementById("subtitle").textContent = "No archives yet — open Settings and click 'Run new scrape'.";
     renderCalendar();
   }
-  refreshKpis();
-  await statusPromise;
-  renderJobs();
   refreshKpis();
 })();

@@ -126,39 +126,6 @@ button { font-family: inherit; }
 
 /* ───── Header actions ──────────────────────────────────────────────── */
 .header-actions { display: flex; gap: 6px; align-items: center; }
-
-/* Sync chip — small pill next to the action icons. */
-.sync-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  height: 28px;
-  padding: 0 10px 0 8px;
-  border: 1px solid hsl(var(--border));
-  border-radius: 999px;
-  background: hsl(var(--muted));
-  color: hsl(var(--muted-foreground));
-  font-size: 11px;
-  font-weight: 500;
-  white-space: nowrap;
-  margin-right: 2px;
-}
-.sync-chip .sync-dot {
-  width: 7px; height: 7px;
-  border-radius: 50%;
-  background: hsl(var(--muted-foreground));
-  flex-shrink: 0;
-}
-.sync-chip[data-state="syncing"] .sync-dot { background: hsl(var(--warning)); animation: pulse 1.2s ease-in-out infinite; }
-.sync-chip[data-state="synced"]  .sync-dot { background: hsl(var(--success)); }
-.sync-chip[data-state="error"]   .sync-dot { background: hsl(var(--destructive)); }
-.sync-chip[data-state="offline"] .sync-dot { background: hsl(var(--muted-foreground)); }
-@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .4; } }
-
-@media (max-width: 540px) {
-  .sync-chip .sync-label { display: none; }
-  .sync-chip { padding: 0 8px; }
-}
 .icon-btn, .icon-btn-sm {
   display: inline-flex;
   align-items: center;
@@ -837,6 +804,32 @@ button { font-family: inherit; }
   border: 1px solid hsl(var(--primary));
 }
 .btn-primary:hover { filter: brightness(1.08); }
+
+.btn-danger {
+  color: hsl(var(--destructive));
+  border-color: hsl(var(--destructive) / .4);
+}
+.btn-danger:hover {
+  background: hsl(var(--destructive) / .1);
+  border-color: hsl(var(--destructive) / .6);
+}
+
+/* Toggle row — checkbox + label, used inside Settings sections. */
+.toggle-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: hsl(var(--foreground));
+  cursor: pointer;
+  user-select: none;
+}
+.toggle-row input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: hsl(var(--primary));
+  cursor: pointer;
+}
 
 .chip {
   display: inline-flex;

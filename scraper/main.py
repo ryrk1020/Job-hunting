@@ -6,10 +6,8 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import json
 import logging
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
@@ -103,87 +101,6 @@ def gather(cfg: dict) -> list:
     return all_jobs
 
 
-def _load_statuses(out_dir: Path) -> dict:
-    """Load output/status.json written by the dashboard's sync feature.
-
-    The file is managed by the browser-side app; scraper only reads. If
-    missing or malformed, return an empty map and let the carry-forward
-    logic fall through (everything is treated as unmarked).
-    """
-    f = out_dir / "status.json"
-    if not f.exists():
-        return {}
-    try:
-        data = json.loads(f.read_text(encoding="utf-8"))
-        return data.get("statuses", {}) or {}
-    except (json.JSONDecodeError, OSError):
-        return {}
-
-
-def _carry_forward(out_dir: Path, statuses: dict, today_rows: list[dict],
-                   today: str, max_age_days: int) -> list[dict]:
-    """Yesterday's unmarked jobs get rolled into today's list.
-
-    A job carries forward when ALL of these hold:
-      - It's in an archive file with a date strictly before `today`.
-      - It isn't in today's fresh list (URL dedup).
-      - Its status in status.json is NOT 'applied' or 'reject' (those
-        are 'done' states the user doesn't want to see again).
-      - Its posted_at is still within max_age_days (freshness).
-
-    Each carried row gets a 'carryover': true marker and the original
-    day it was first surfaced as 'carried_from'. The dashboard uses
-    these to show a small 'carryover' badge.
-    """
-    archive_dir = out_dir / "archive"
-    if not archive_dir.exists():
-        return []
-
-    prior_files = sorted(
-        (f for f in archive_dir.glob("*.json") if f.stem < today),
-        reverse=True,
-    )
-    if not prior_files:
-        return []
-
-    done = {"applied", "reject"}
-    today_urls = {r.get("url") for r in today_rows if r.get("url")}
-    now = datetime.now(timezone.utc)
-    cutoff_days = int(max_age_days)
-
-    seen_urls: set[str] = set(today_urls)
-    carried: list[dict] = []
-    for f in prior_files:
-        try:
-            data = json.loads(f.read_text(encoding="utf-8"))
-        except (json.JSONDecodeError, OSError):
-            continue
-        for j in data.get("jobs", []) or []:
-            url = j.get("url")
-            if not url or url in seen_urls:
-                continue
-            if statuses.get(url) in done:
-                continue
-            posted = j.get("posted_at")
-            if posted:
-                try:
-                    dt = datetime.fromisoformat(posted.replace("Z", "+00:00"))
-                    if dt.tzinfo is None:
-                        dt = dt.replace(tzinfo=timezone.utc)
-                    if (now - dt).days > cutoff_days:
-                        continue
-                except (ValueError, TypeError):
-                    pass
-            row = dict(j)
-            # Flag so the dashboard can render a "carryover" badge and
-            # so repeated carries don't lose the origin day.
-            row["carryover"] = True
-            row.setdefault("carried_from", f.stem)
-            carried.append(row)
-            seen_urls.add(url)
-    return carried
-
-
 def run(cfg_path: Path, out_dir: Path) -> int:
     cfg = yaml.safe_load(cfg_path.read_text(encoding="utf-8"))
     jobs = gather(cfg)
@@ -219,25 +136,12 @@ def run(cfg_path: Path, out_dir: Path) -> int:
         rows = rows[:target]
 
     day = today_str()
-
-    # Carry-forward: yesterday's still-actionable (unmarked or in-progress
-    # / accepted) jobs get rolled onto today so the user can pick up where
-    # they left off. Only 'applied' and 'reject' statuses stop the roll.
-    if bool(cfg.get("carry_forward", True)):
-        statuses = _load_statuses(out_dir)
-        carried = _carry_forward(
-            out_dir, statuses, rows, day,
-            max_age_days=int(cfg.get("max_age_days", 7)),
-        )
-        if carried:
-            log.info("carry-forward: +%d unmarked jobs from prior days", len(carried))
-            rows.extend(carried)
-
     paths = write_all(rows, out_dir, day)
 
     # Commit everything we just emitted to the seen store so tomorrow's
-    # run won't re-surface them as 'fresh'. Carried rows already had
-    # their fingerprints committed on the day they were first surfaced.
+    # run won't re-surface them as fresh. Carry-forward is handled by
+    # the dashboard client-side, so the archive stays a clean per-day
+    # snapshot of that day's fresh batch.
     commit_seen(rows, store, day)
 
     log.info("wrote %d jobs to %s", len(rows), out_dir)
