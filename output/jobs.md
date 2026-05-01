@@ -1,90 +1,87 @@
-# Latest Jobs (84)
+# Latest Jobs (81)
 
-_Generated 2026-04-30 08:06 UTC_
+_Generated 2026-05-01 08:04 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 185 | 2026-04-29 | greenhouse | elastic | FedCiv Account Executive - Dept of Treasury | Arlington, VA | [apply](https://jobs.elastic.co/jobs?gh_jid=7802531&gh_jid=7802531) |
-| 2 | 185 | 2026-04-29 | greenhouse | elastic | Federal Account Executive -  Dept of Commerce | Arlington, VA | [apply](https://jobs.elastic.co/jobs?gh_jid=7812397&gh_jid=7812397) |
-| 3 | 185 | 2026-04-29 | greenhouse | elastic | Federal Account Executive - Dept of Homeland Security | Arlington, VA | [apply](https://jobs.elastic.co/jobs?gh_jid=7793993&gh_jid=7793993) |
-| 4 | 185 | 2026-04-29 | greenhouse | elastic | Federal Account Executive - NIH / CDC | Arlington, VA | [apply](https://jobs.elastic.co/jobs?gh_jid=7769639&gh_jid=7769639) |
-| 5 | 185 | 2026-04-29 | greenhouse | elastic | Federal Account Executive - UN, World Bank, NARA | Arlington, VA | [apply](https://jobs.elastic.co/jobs?gh_jid=7769649&gh_jid=7769649) |
-| 6 | 185 | 2026-04-29 | greenhouse | elastic | Federal Account Executive - VA (The Department of Veterans Affairs) | Arlington, VA | [apply](https://jobs.elastic.co/jobs?gh_jid=7564316&gh_jid=7564316) |
-| 7 | 185 | 2026-04-29 | greenhouse | elastic | Inside Account Executive | Arlington, VA | [apply](https://jobs.elastic.co/jobs?gh_jid=7421709&gh_jid=7421709) |
-| 8 | 175 | 2026-04-29 | greenhouse | elastic | Regional Marketing Programs Manager,  U.S. Federal Civilian | Arlington, VA | [apply](https://jobs.elastic.co/jobs?gh_jid=7589011&gh_jid=7589011) |
-| 9 | 170 | 2026-04-29 | greenhouse | elastic | Account Executive - Pursuit, East | Arlington, VA | [apply](https://jobs.elastic.co/jobs?gh_jid=7728984&gh_jid=7728984) |
-| 10 | 165 | 2026-04-28 | linkedin | Virtusa | Data Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-virtusa-4405577986) |
-| 11 | 185 | 2026-04-29 | greenhouse | elastic | Data Engineer II - Platform Analytics - Kibana Platform - AppEx | Greece | [apply](https://jobs.elastic.co/jobs?gh_jid=7614519&gh_jid=7614519) |
-| 12 | 180 | 2026-04-29 | greenhouse | datadog | Information Security Analyst II | New York, New York, USA | [apply](https://careers.datadoghq.com/detail/7867762/?gh_jid=7867762) |
-| 13 | 175 | 2026-04-29 | greenhouse | amplitude | Software Engineer II, Data Warehouse | San Francisco, CA | [apply](https://job-boards.greenhouse.io/amplitude/jobs/8530635002) |
-| 14 | 175 | 2026-04-29 | greenhouse | elastic | Product Designer II - Security | Spain | [apply](https://jobs.elastic.co/jobs?gh_jid=7716465&gh_jid=7716465) |
-| 15 | 175 | 2026-04-29 | greenhouse | klaviyo | AI Software Engineer II - Amplify C.S | Dublin, IE | [apply](https://www.klaviyo.com/careers/jobs?gh_jid=7599359003) |
-| 16 | 170 | 2026-04-29 | greenhouse | elastic | Elastic AI Engineer | United States | [apply](https://jobs.elastic.co/jobs?gh_jid=7607148&gh_jid=7607148) |
-| 17 | 170 | 2026-04-29 | greenhouse | elastic | Software Engineer II - Node - Security - Admin Experience - AppEx | Spain | [apply](https://jobs.elastic.co/jobs?gh_jid=7826075&gh_jid=7826075) |
-| 18 | 170 | 2026-04-29 | greenhouse | elastic | Technical Product Manager | Canada | [apply](https://jobs.elastic.co/jobs?gh_jid=7603577&gh_jid=7603577) |
-| 19 | 170 | 2026-04-29 | greenhouse | lyft | Software Engineer, Ad Infra   | Toronto, Canada | [apply](https://app.careerpuck.com/job-board/lyft/job/8527740002?gh_jid=8527740002) |
-| 20 | 165 | 2026-04-29 | greenhouse | elastic | Go Engineer - Intake Services Team | Bangalore, India | [apply](https://jobs.elastic.co/jobs?gh_jid=7517629&gh_jid=7517629) |
-| 21 | 165 | 2026-04-29 | greenhouse | elastic | Join Elastic's Engineering Global Talent Community | Distributed, EMEA | [apply](https://jobs.elastic.co/jobs?gh_jid=6020362&gh_jid=6020362) |
-| 22 | 165 | 2026-04-29 | greenhouse | elastic | Security Enterprise Account Executive | Denmark | [apply](https://jobs.elastic.co/jobs?gh_jid=6666023&gh_jid=6666023) |
-| 23 | 165 | 2026-04-29 | greenhouse | elastic | Snr Account Executive - Security | France | [apply](https://jobs.elastic.co/jobs?gh_jid=7769441&gh_jid=7769441) |
-| 24 | 165 | 2026-04-29 | greenhouse | elastic | Support Engineer  | Romania | [apply](https://jobs.elastic.co/jobs?gh_jid=7546232&gh_jid=7546232) |
-| 25 | 165 | 2026-04-29 | greenhouse | fastly | CSOC Analyst | Tokyo, Japan | [apply](https://www.fastly.com/about/jobs/apply?gh_jid=7641505) |
-| 26 | 165 | 2026-04-29 | greenhouse | fastly | SOC Analyst (Security Operations) | Tokyo, Japan | [apply](https://www.fastly.com/about/jobs/apply?gh_jid=7790108) |
-| 27 | 155 | 2026-04-29 | greenhouse | airbnb | Security Engineer, Threat Detection & Response | Remote - US | [apply](https://careers.airbnb.com/positions/7867679?gh_jid=7867679) |
-| 28 | 155 | 2026-04-29 | greenhouse | datadog | Security Engineer II - Vulnerability Lifecycle | New York, New York, USA | [apply](https://careers.datadoghq.com/detail/7851502/?gh_jid=7851502) |
-| 29 | 155 | 2026-04-28 | remoteok | Chime Financial, Inc | Data Governance Engineer | San Francisco | [apply](https://remoteOK.com/remote-jobs/remote-data-governance-engineer-chime-financial-inc-1131365) |
-| 30 | 155 | 2026-04-29 | greenhouse | figma | Technical Support Specialist - Figma Weave (London, United Kingdom)  | London, England | [apply](https://boards.greenhouse.io/figma/jobs/5971708004?gh_jid=5971708004) |
-| 31 | 155 | 2026-04-29 | greenhouse | figma | Technical Support Specialist  - Figma Weave (Tel Aviv, Israel)  | Tel Aviv, Israel | [apply](https://boards.greenhouse.io/figma/jobs/5971689004?gh_jid=5971689004) |
-| 32 | 150 | 2026-04-30 | greenhouse | pinterest | Software Engineer II, Simulation, tvScientific | San Francisco, CA, US; Remote, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7642265) |
-| 33 | 150 | 2026-04-29 | greenhouse | stripe | Engineering Manager, Managed Payments | US-NYC | [apply](https://stripe.com/jobs/search?gh_jid=7867868) |
-| 34 | 145 | 2026-04-29 | greenhouse | anthropic | Technical Program Manager, Research | San Francisco, CA / New York City, NY | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5203545008) |
-| 35 | 145 | 2026-04-29 | greenhouse | pinterest | Machine Learning Engineer II | Dublin, IE | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7681666) |
-| 36 | 145 | 2026-04-29 | greenhouse | figma | Account Executive - Figma Weave (London, United Kingdom) | London, England | [apply](https://boards.greenhouse.io/figma/jobs/5760223004?gh_jid=5760223004) |
-| 37 | 135 | 2026-04-29 | greenhouse | anthropic | [PIP] Product Management, Human Data Platform | San Francisco, CA / New York City, NY | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5195866008) |
-| 38 | 135 | 2026-04-29 | greenhouse | elastic | Inside Account Executive - Hunter | United States | [apply](https://jobs.elastic.co/jobs?gh_jid=7811620&gh_jid=7811620) |
-| 39 | 135 | 2026-04-29 | greenhouse | elastic | Mid Market Account Executive - Expand - Illinois | United States | [apply](https://jobs.elastic.co/jobs?gh_jid=7776121&gh_jid=7776121) |
-| 40 | 135 | 2026-04-29 | greenhouse | elastic | Analyst, Strategic Sourcing | Bangalore, India | [apply](https://jobs.elastic.co/jobs?gh_jid=7798342&gh_jid=7798342) |
-| 41 | 135 | 2026-04-29 | greenhouse | elastic | Commercial / Mid Market Account Executive | United Kingdom | [apply](https://jobs.elastic.co/jobs?gh_jid=7764822&gh_jid=7764822) |
-| 42 | 135 | 2026-04-29 | greenhouse | elastic | Enterprise Account Executive | Delhi, India | [apply](https://jobs.elastic.co/jobs?gh_jid=7798049&gh_jid=7798049) |
-| 43 | 135 | 2026-04-29 | greenhouse | elastic | Enterprise Account Executive | New Zealand | [apply](https://jobs.elastic.co/jobs?gh_jid=7784963&gh_jid=7784963) |
-| 44 | 135 | 2026-04-29 | greenhouse | elastic | Enterprise Account Executive  | Bangalore, India | [apply](https://jobs.elastic.co/jobs?gh_jid=7725670&gh_jid=7725670) |
-| 45 | 135 | 2026-04-29 | greenhouse | elastic | Inside Account Executive IBERIA | Barcelona, Spain | [apply](https://jobs.elastic.co/jobs?gh_jid=7817934&gh_jid=7817934) |
-| 46 | 135 | 2026-04-29 | greenhouse | elastic | Inside Account Executive - Switzerland (German speaking) | Barcelona, Spain | [apply](https://jobs.elastic.co/jobs?gh_jid=7797801&gh_jid=7797801) |
-| 47 | 130 | 2026-04-30 | greenhouse | robinhood | Treasury Operations Specialist | Chicago, IL; Lake Mary, FL; New York, NY | [apply](https://boards.greenhouse.io/robinhood/jobs/7804677?t=gh_src=&gh_jid=7804677) |
-| 48 | 125 | 2026-04-29 | remoteok | Honor Foods | Front End Full Stack Developer | Philadelphia, PA | [apply](https://remoteOK.com/remote-jobs/remote-front-end-full-stack-developer-honor-foods-1131370) |
-| 49 | 125 | 2026-04-29 | greenhouse | elastic | RVP - Pursuit - North Central/Texas | Illinois, United States | [apply](https://jobs.elastic.co/jobs?gh_jid=7826362&gh_jid=7826362) |
-| 50 | 125 | 2026-04-29 | greenhouse | elastic | RVP - Pursuit - North Central/Texas | Texas, United States | [apply](https://jobs.elastic.co/jobs?gh_jid=7797656&gh_jid=7797656) |
-| 51 | 125 | 2026-04-29 | greenhouse | elastic | Sales Development Representative Emerging Talent - Austin, TX On-Site | Austin, TX | [apply](https://jobs.elastic.co/jobs?gh_jid=6907907&gh_jid=6907907) |
-| 52 | 125 | 2026-04-30 | greenhouse | stripe | User Escalation Specialist  | Singapore | [apply](https://stripe.com/jobs/search?gh_jid=7863789) |
-| 53 | 125 | 2026-04-29 | greenhouse | braze | People Solutions Coordinator | London | [apply](https://boards.greenhouse.io/braze/jobs/7851275?gh_jid=7851275) |
-| 54 | 120 | 2026-04-29 | themuse | Apple | Machine Learning Engineer, Computer Vision - Strategic Data Solutions | Austin, TX | [apply](https://www.themuse.com/jobs/apple/machine-learning-engineer-computer-vision-strategic-data-solutions-0dd345) |
-| 55 | 120 | 2026-04-29 | greenhouse | elastic | Account Executive - Pursuit | Austin, TX | [apply](https://jobs.elastic.co/jobs?gh_jid=7727801&gh_jid=7727801) |
-| 56 | 120 | 2026-04-29 | greenhouse | elastic | Account Executive - Pursuit, East | New York City, NY | [apply](https://jobs.elastic.co/jobs?gh_jid=7727799&gh_jid=7727799) |
-| 57 | 120 | 2026-04-29 | greenhouse | elastic | Enterprise Account Executive - Houston - Pursuit | Texas, United States | [apply](https://jobs.elastic.co/jobs?gh_jid=7727756&gh_jid=7727756) |
-| 58 | 120 | 2026-04-29 | greenhouse | elastic | Enterprise Account Executive - Pursuit - Bay Area | San Francisco, CA | [apply](https://jobs.elastic.co/jobs?gh_jid=7727748&gh_jid=7727748) |
-| 59 | 120 | 2026-04-29 | greenhouse | elastic | Enterprise Account Executive - Pursuit, East | New York, United States | [apply](https://jobs.elastic.co/jobs?gh_jid=7729001&gh_jid=7729001) |
-| 60 | 120 | 2026-04-29 | greenhouse | elastic | Enterprise Account Executive - Pursuit, East | Ohio, United States | [apply](https://jobs.elastic.co/jobs?gh_jid=7778941&gh_jid=7778941) |
-| 61 | 120 | 2026-04-29 | greenhouse | elastic | Enterprise Account Executive - Pursuit, East | Maryland, United States | [apply](https://jobs.elastic.co/jobs?gh_jid=7776640&gh_jid=7776640) |
-| 62 | 120 | 2026-04-29 | greenhouse | elastic | Enterprise Account Executive - Pursuit, East | Pennsylvania, United States | [apply](https://jobs.elastic.co/jobs?gh_jid=7776637&gh_jid=7776637) |
-| 63 | 120 | 2026-04-29 | greenhouse | elastic | SLED AE - State of California | California, United States | [apply](https://jobs.elastic.co/jobs?gh_jid=7540062&gh_jid=7540062) |
-| 64 | 120 | 2026-04-29 | greenhouse | klaviyo | Commercial Account Executive Hiring Open House - May 5 | Boston, MA | [apply](https://www.klaviyo.com/careers/jobs?gh_jid=7702035003) |
-| 65 | 120 | 2026-04-29 | greenhouse | klaviyo | Commercial Partner Sales, Partner Acquisition | Denver, CO | [apply](https://www.klaviyo.com/careers/jobs?gh_jid=7719765003) |
-| 66 | 120 | 2026-04-29 | greenhouse | elastic | Account Executive NATO | Belgium | [apply](https://jobs.elastic.co/jobs?gh_jid=7668021&gh_jid=7668021) |
-| 67 | 120 | 2026-04-29 | greenhouse | elastic | Public Sector Account Executive (Central Government)  | United Kingdom | [apply](https://jobs.elastic.co/jobs?gh_jid=7728182&gh_jid=7728182) |
-| 68 | 120 | 2026-04-29 | greenhouse | elastic | Sales Enablement Specialist (Trainer) | Barcelona, Spain | [apply](https://jobs.elastic.co/jobs?gh_jid=7386148&gh_jid=7386148) |
-| 69 | 120 | 2026-04-29 | greenhouse | braze | Financial Analyst II | Austin | [apply](https://boards.greenhouse.io/braze/jobs/7867071?gh_jid=7867071) |
-| 70 | 105 | 2026-04-29 | lever | palantir | Edge Infrastructure Engineer | London, United Kingdom | [apply](https://jobs.lever.co/palantir/fe65ee3c-61e0-4eb6-99e5-c90e38e7043f) |
-| 71 | 100 | 2026-04-29 | greenhouse | brex | Revenue Operations Analyst | New York, New York, United States | [apply](https://www.brex.com/careers/8530763002?gh_jid=8530763002) |
-| 72 | 95 | 2026-04-29 | greenhouse | databricks | Startup Hunter Account Executive, UKI | London, United Kingdom | [apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8465961002) |
-| 73 | 85 | 2026-04-30 | greenhouse | stripe | Account Executive, SMB (New Business) | Sydney or Melbourne | [apply](https://stripe.com/jobs/search?gh_jid=7856807) |
-| 74 | 80 | 2026-04-28 | remoteok | Renaissance Learning North America | UX Designer II | Remote | [apply](https://remoteOK.com/remote-jobs/remote-ux-designer-ii-renaissance-learning-north-america-1131362) |
-| 75 | 80 | 2026-04-29 | greenhouse | stripe | Partner Development Manager | Dublin | [apply](https://stripe.com/jobs/search?gh_jid=7422491) |
-| 76 | 70 | 2026-04-29 | themuse | Apple | Digital Goods Technical Fraud Analyst - Strategic Data Solutions | Austin, TX | [apply](https://www.themuse.com/jobs/apple/digital-goods-technical-fraud-analyst-strategic-data-solutions) |
-| 77 | 70 | 2026-04-29 | greenhouse | duolingo | Product Writer | New York, NY | [apply](https://careers.duolingo.com/jobs/8529365002?gh_jid=8529365002) |
-| 78 | 70 | 2026-04-29 | greenhouse | duolingo | Product Writer | Pittsburgh, PA | [apply](https://careers.duolingo.com/jobs/8529331002?gh_jid=8529331002) |
-| 79 | 65 | 2026-04-29 | remoteok | Clinical Health Network For Transformation | Self Pay &amp; Customer Service Specialist | Remote | [apply](https://remoteOK.com/remote-jobs/remote-self-pay-amp-customer-service-specialist-clinical-health-network-for-transformation-1131377) |
-| 80 | 60 | 2026-04-28 | remoteok | Syner-G | Automation Engineer | Pittsburgh | [apply](https://remoteOK.com/remote-jobs/remote-automation-engineer-syner-g-1131367) |
-| 81 | 50 | 2026-04-28 | remotive | Bulldog Digital Media | Operations software assistant | Europe, European timezones | [apply](https://remotive.com/remote-jobs/operations/operations-software-assistant-2090000) |
-| 82 | 45 | 2026-04-28 | remoteok | Fictiv | Account Executive Emerging Accounts | Schaumburg, IL | [apply](https://remoteOK.com/remote-jobs/remote-account-executive-emerging-accounts-fictiv-1131361) |
-| 83 | 45 | 2026-04-28 | remoteok | FSE | HIGH TICKET OUTBOUND SALES WANTED | Remote | [apply](https://remoteOK.com/remote-jobs/remote-high-ticket-outbound-sales-wanted-fse-1131368) |
-| 84 | 45 | 2026-04-28 | remoteok | Shields Health Solutions | Pharmacy Liaison | Lakeland | [apply](https://remoteOK.com/remote-jobs/remote-pharmacy-liaison-shields-health-solutions-1131366) |
+| 1 | 185 | 2026-04-30 | greenhouse | braze | AV Associate | New York City | [apply](https://boards.greenhouse.io/braze/jobs/7733261?gh_jid=7733261) |
+| 2 | 180 | 2026-04-30 | greenhouse | pinterest | AI Solutions Engineer | San Francisco, CA, Seattle, WA, US; Remote, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7714127) |
+| 3 | 180 | 2026-04-30 | greenhouse | calendly | Software Engineer - Security | Remote - US | [apply](https://job-boards.greenhouse.io/calendly/jobs/8506905002) |
+| 4 | 180 | 2026-04-30 | greenhouse | affirm | Manager, Software Engineering (Resilience Engineering) | Remote US | [apply](https://job-boards.greenhouse.io/affirm/jobs/7701909003) |
+| 5 | 180 | 2026-04-30 | greenhouse | affirm | Manager, Software Engineering (Resilience Engineering) | Remote Canada | [apply](https://job-boards.greenhouse.io/affirm/jobs/7701911003) |
+| 6 | 175 | 2026-04-30 | greenhouse | pinterest | Security Software Engineer II, Detection and Response | San Francisco, CA, US; Remote, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7770914) |
+| 7 | 175 | 2026-04-30 | greenhouse | pinterest | Security Software Engineer II, Internal Identity & Access Management | Seattle, WA, US; Remote, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7770900) |
+| 8 | 175 | 2026-04-30 | greenhouse | anthropic | Safeguards Analyst, Account Abuse | San Francisco, CA / New York City, NY | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5108841008) |
+| 9 | 170 | 2026-04-30 | greenhouse | pinterest | Software Engineer I, Backend | Seattle, WA, US; Bay Area, CA | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=6816337) |
+| 10 | 170 | 2026-04-30 | greenhouse | pinterest | Software Engineer II, Backend, tvScientific | San Francisco, CA, US; Remote, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7782552) |
+| 11 | 170 | 2026-04-30 | greenhouse | pinterest | Technical Program Manager II, Platforms | San Francisco, CA, US; Remote, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7562128) |
+| 12 | 170 | 2026-04-30 | greenhouse | anthropic | Engineering Manager, Vertical AI Products (Multiple Roles)  | New York City, NY; San Francisco, CA / New York City, NY | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5140492008) |
+| 13 | 170 | 2026-04-30 | greenhouse | discord | Software Engineer- Database Infrastructure | San Francisco Bay Area  | [apply](https://job-boards.greenhouse.io/discord/jobs/8487457002) |
+| 14 | 165 | 2026-04-30 | greenhouse | pinterest | Sales Engineer, tvScientific | San Francisco, CA, US; Remote, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7782565) |
+| 15 | 165 | 2026-04-30 | greenhouse | lyft | Software Engineer, Gov Tech | Seattle, WA | [apply](https://app.careerpuck.com/job-board/lyft/job/8483819002?gh_jid=8483819002) |
+| 16 | 165 | 2026-05-01 | greenhouse | opendoor | IT Contractor | Office - Arizona-Tempe | [apply](https://www.opendoor.com/careers/open-positions?gh_jid=4678172006) |
+| 17 | 160 | 2026-04-30 | greenhouse | figma | Enterprise Support Specialist | San Francisco, CA • New York, NY • United States | [apply](https://boards.greenhouse.io/figma/jobs/5985033004?gh_jid=5985033004) |
+| 18 | 160 | 2026-04-30 | greenhouse | discord | Software Engineer, Safety Experience | San Francisco Bay Area | [apply](https://job-boards.greenhouse.io/discord/jobs/8475544002) |
+| 19 | 160 | 2026-04-30 | greenhouse | flexport | Area Manager | Chicago Warehouse | [apply](https://boards.greenhouse.io/flexport/jobs/7718146?gh_jid=7718146) |
+| 20 | 155 | 2026-04-30 | themuse | Apple | Data Engineer (Agentic AI, LLM Training), G&A Solutions Engineering (GSE) | Austin, TX | [apply](https://www.themuse.com/jobs/apple/data-engineer-agentic-ai-llm-training-ga-solutions-engineering-gse-620791) |
+| 21 | 155 | 2026-04-30 | greenhouse | pinterest | Machine Learning Engineer, Monetization Engineering | San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=6121543) |
+| 22 | 155 | 2026-05-01 | greenhouse | anthropic | Research Engineer / Scientist, Societal Impacts | San Francisco, CA | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5076606008) |
+| 23 | 155 | 2026-04-30 | greenhouse | discord | Data Scientist, Analytics | San Francisco Bay Area | [apply](https://job-boards.greenhouse.io/discord/jobs/8447216002) |
+| 24 | 155 | 2026-04-30 | greenhouse | twilio | Digital Sales Representative 2 | Remote - Singapore | [apply](https://job-boards.greenhouse.io/twilio/jobs/7824875) |
+| 25 | 155 | 2026-04-30 | greenhouse | mixpanel | Software Engineer, DevInfra | San Francisco, US (Hybrid) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/7850913) |
+| 26 | 150 | 2026-04-30 | greenhouse | pinterest | Vendor Security Analyst | Chicago, IL, US; Remote, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7494921) |
+| 27 | 150 | 2026-04-30 | greenhouse | opendoor | Applied Scientist - ML/Ai | Miami, Florida, United States; Office - Washington-Seattle; Toronto | [apply](https://www.opendoor.com/careers/open-positions?gh_jid=4674716006) |
+| 28 | 145 | 2026-04-30 | greenhouse | pinterest | Machine Learning Engineer, Core Engineering | San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; Remote, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=6121450) |
+| 29 | 145 | 2026-04-30 | greenhouse | mongodb | Account Executive, Growth | Zurich | [apply](https://www.mongodb.com/careers/job/?gh_jid=7217822) |
+| 30 | 145 | 2026-04-30 | greenhouse | lyft | Software Engineer, GovTech | Mexico City, Mexico | [apply](https://app.careerpuck.com/job-board/lyft/job/8508203002?gh_jid=8508203002) |
+| 31 | 140 | 2026-05-01 | greenhouse | klaviyo | Customer Success Manager | Denver, CO | [apply](https://www.klaviyo.com/careers/jobs?gh_jid=7656199003) |
+| 32 | 140 | 2026-05-01 | greenhouse | klaviyo | Customer Success Manager | San Francisco, CA | [apply](https://www.klaviyo.com/careers/jobs?gh_jid=7597631003) |
+| 33 | 140 | 2026-04-30 | greenhouse | discord | Data Engineer, Analytics | San Francisco Bay Area | [apply](https://job-boards.greenhouse.io/discord/jobs/8371252002) |
+| 34 | 140 | 2026-04-30 | greenhouse | fastly | Customer Support Engineer | Australia (Remote) | [apply](https://www.fastly.com/about/jobs/apply?gh_jid=7445398) |
+| 35 | 135 | 2026-04-30 | greenhouse | lyft | Applied Scientist- Pricing, Dynamic Pricing & Offer Selection | San Francisco, CA | [apply](https://app.careerpuck.com/job-board/lyft/job/8402813002?gh_jid=8402813002) |
+| 36 | 135 | 2026-04-30 | greenhouse | lyft | Applied Scientist- Pricing, Dynamic Pricing & Offer Selection | New York, NY | [apply](https://app.careerpuck.com/job-board/lyft/job/8403370002?gh_jid=8403370002) |
+| 37 | 135 | 2026-04-30 | greenhouse | discord | Engineering Manager, Application Security | San Francisco Bay Area  | [apply](https://job-boards.greenhouse.io/discord/jobs/8440430002) |
+| 38 | 135 | 2026-04-30 | greenhouse | discord | Privacy Engineer | San Francisco Bay Area  | [apply](https://job-boards.greenhouse.io/discord/jobs/8484011002) |
+| 39 | 135 | 2026-04-30 | greenhouse | discord | Product Designer, Ads | San Francisco Bay Area | [apply](https://job-boards.greenhouse.io/discord/jobs/8445676002) |
+| 40 | 135 | 2026-04-30 | greenhouse | discord | Software Engineer, Data Platform | San Francisco Bay Area | [apply](https://job-boards.greenhouse.io/discord/jobs/8396927002) |
+| 41 | 135 | 2026-04-30 | greenhouse | datadog | Enterprise Customer Success Manager - Tel Aviv | Tel Aviv, Israel | [apply](https://careers.datadoghq.com/detail/7844421/?gh_jid=7844421) |
+| 42 | 135 | 2026-04-30 | greenhouse | lyft | Android Engineer, Global Growth | Mexico City, Mexico | [apply](https://app.careerpuck.com/job-board/lyft/job/8505163002?gh_jid=8505163002) |
+| 43 | 135 | 2026-04-30 | greenhouse | lyft | Software Engineer, Autonomous Vehicle | Mexico City, Mexico | [apply](https://app.careerpuck.com/job-board/lyft/job/8459158002?gh_jid=8459158002) |
+| 44 | 130 | 2026-04-30 | greenhouse | lyft | Fleet Operations Associate  | Nashville, TN | [apply](https://app.careerpuck.com/job-board/lyft/job/8527339002?gh_jid=8527339002) |
+| 45 | 130 | 2026-04-30 | greenhouse | lyft | Fleet Operations Associate (Night Shift) | Nashville, TN | [apply](https://app.careerpuck.com/job-board/lyft/job/8441141002?gh_jid=8441141002) |
+| 46 | 130 | 2026-04-30 | greenhouse | carta | Business Development Manager, Private Equity Partners | New York City, New York | [apply](https://job-boards.greenhouse.io/carta/jobs/7489895003) |
+| 47 | 130 | 2026-04-29 | remoteok | Paperpile | Backend Engineer | Remote | [apply](https://remoteOK.com/remote-jobs/remote-backend-engineer-paperpile-1131382) |
+| 48 | 130 | 2026-04-30 | greenhouse | mongodb |  Associate Commercial Growth, Account Executive (Arabic Speaking) | Dublin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7056256) |
+| 49 | 125 | 2026-04-30 | greenhouse | braze | IT Associate | Chicago | [apply](https://boards.greenhouse.io/braze/jobs/7684743?gh_jid=7684743) |
+| 50 | 120 | 2026-04-29 | remoteok | MLB Network | Counsel Business & Legal Affairs | Secaucus, NJ | [apply](https://remoteOK.com/remote-jobs/remote-counsel-business-legal-affairs-mlb-network-1131384) |
+| 51 | 120 | 2026-04-30 | greenhouse | discord | Legal Analyst | San Francisco Bay Area | [apply](https://job-boards.greenhouse.io/discord/jobs/8465229002) |
+| 52 | 120 | 2026-04-30 | greenhouse | mongodb | Account Executive, Growth | São Paulo | [apply](https://www.mongodb.com/careers/job/?gh_jid=6531094) |
+| 53 | 120 | 2026-04-30 | greenhouse | braze | Business Development Representative | Austin | [apply](https://boards.greenhouse.io/braze/jobs/7782462?gh_jid=7782462) |
+| 54 | 120 | 2026-04-30 | greenhouse | braze | Business Development Representative | Chicago | [apply](https://boards.greenhouse.io/braze/jobs/7782451?gh_jid=7782451) |
+| 55 | 115 | 2026-05-01 | greenhouse | opendoor | Applied Scientist | Miami, Florida, United States | [apply](https://www.opendoor.com/careers/open-positions?gh_jid=4678169006) |
+| 56 | 115 | 2026-05-01 | greenhouse | opendoor | Copy of Applied Scientist | Seattle, Washington, United States | [apply](https://www.opendoor.com/careers/open-positions?gh_jid=4678171006) |
+| 57 | 115 | 2026-04-30 | greenhouse | stripe | Credit Risk Operations Associate | Bangalore  | [apply](https://stripe.com/jobs/search?gh_jid=7608387) |
+| 58 | 115 | 2026-05-01 | greenhouse | opendoor | Applied Scientist | Toronto | [apply](https://www.opendoor.com/careers/open-positions?gh_jid=4678170006) |
+| 59 | 110 | 2026-04-30 | greenhouse | pinterest | Client Account Manager II, CPG | New York, NY, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7789148) |
+| 60 | 110 | 2026-04-30 | greenhouse | lyft | Data Scientist, Supply and Operations Technology, Lyft Urban Solutions | New York, NY | [apply](https://app.careerpuck.com/job-board/lyft/job/8402782002?gh_jid=8402782002) |
+| 61 | 110 | 2026-04-30 | greenhouse | lyft | Software Engineer, Server | San Francisco, CA | [apply](https://app.careerpuck.com/job-board/lyft/job/8492315002?gh_jid=8492315002) |
+| 62 | 110 | 2026-04-30 | remoteok | Jusbrasil | Legal Data Analyst Junior Vaga Afirmativa para PCD | Belo Horizonte ou Salvador | [apply](https://remoteOK.com/remote-jobs/remote-legal-data-analyst-junior-vaga-afirmativa-para-pcd-jusbrasil-1131393) |
+| 63 | 110 | 2026-04-30 | greenhouse | discord | Product Designer, Notifications | San Francisco Bay Area | [apply](https://job-boards.greenhouse.io/discord/jobs/8359170002) |
+| 64 | 105 | 2026-04-30 | greenhouse | discord | Embedded Data Specialist | San Francisco Bay Area | [apply](https://job-boards.greenhouse.io/discord/jobs/8485778002) |
+| 65 | 105 | 2026-04-30 | greenhouse | figma | Account Executive, SMB (Berlin, Germany) | Berlin, Germany | [apply](https://boards.greenhouse.io/figma/jobs/5985397004?gh_jid=5985397004) |
+| 66 | 105 | 2026-05-01 | greenhouse | mongodb | Account Development Representative, Arabic Speaking | Dublin | [apply](https://www.mongodb.com/careers/job/?gh_jid=7334950) |
+| 67 | 100 | 2026-04-30 | greenhouse | opendoor | Workplace Specialist | San Francisco, California, United States | [apply](https://www.opendoor.com/careers/open-positions?gh_jid=4678108006) |
+| 68 | 100 | 2026-04-30 | remoteok | New Relic | Executive Briefing Specialst | San Francisco | [apply](https://remoteOK.com/remote-jobs/remote-executive-briefing-specialst-new-relic-1131390) |
+| 69 | 100 | 2026-04-30 | greenhouse | airbnb | Safety Specialist | Gurugram, India | [apply](https://careers.airbnb.com/positions/7862091?gh_jid=7862091) |
+| 70 | 100 | 2026-04-30 | greenhouse | pinterest | Payroll Administrator II | Dublin, IE | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7494536) |
+| 71 | 100 | 2026-04-30 | greenhouse | opendoor | Manager, Operations | Toronto | [apply](https://www.opendoor.com/careers/open-positions?gh_jid=4666876006) |
+| 72 | 100 | 2026-05-01 | greenhouse | opendoor | Operations Specialist | Toronto | [apply](https://www.opendoor.com/careers/open-positions?gh_jid=4671559006) |
+| 73 | 95 | 2026-04-30 | greenhouse | greenhouse | Manager, Sales Development | Anywhere in the United States | [apply](https://job-boards.greenhouse.io/greenhouse/jobs/7846735?gh_jid=7846735) |
+| 74 | 90 | 2026-04-30 | greenhouse | discord | Account Executive - Tech | San Francisco Bay Area or New York (Remote (U.S.)) | [apply](https://job-boards.greenhouse.io/discord/jobs/8433948002) |
+| 75 | 85 | 2026-04-30 | greenhouse | lyft | Data Scientist - Machine Learning, Pricing & Rider Engagement | San Francisco, CA | [apply](https://app.careerpuck.com/job-board/lyft/job/8485432002?gh_jid=8485432002) |
+| 76 | 80 | 2026-04-30 | greenhouse | airbnb | Specialist, Premium Support (Japanese speaker) | Singapore | [apply](https://careers.airbnb.com/positions/7870762?gh_jid=7870762) |
+| 77 | 80 | 2026-05-01 | greenhouse | opendoor | Executive Administrative Business Partner | Toronto | [apply](https://www.opendoor.com/careers/open-positions?gh_jid=4678163006) |
+| 78 | 70 | 2026-04-30 | greenhouse | mongodb | Associate Recruiter (Contract) | Gurugram | [apply](https://www.mongodb.com/careers/job/?gh_jid=7613267) |
+| 79 | 65 | 2026-04-30 | greenhouse | stripe | Administrative Coordinator | Bengaluru | [apply](https://stripe.com/jobs/search?gh_jid=7863507) |
+| 80 | 45 | 2026-04-30 | remoteok | Axiom | Sustainability Counsel | Remote | [apply](https://remoteOK.com/remote-jobs/remote-sustainability-counsel-axiom-1131386) |
+| 81 | 45 | 2026-05-01 | greenhouse | stripe | Account Executive - Startups, India | Bengaluru | [apply](https://stripe.com/jobs/search?gh_jid=7597490) |
