@@ -67,8 +67,7 @@ def gather(cfg: dict) -> list:
     if enabled.get("themuse"):
         all_jobs += themuse.fetch(
             http,
-            categories=["Data Science", "Data and Analytics", "Marketing",
-                        "Engineering", "Software Engineer"],
+            categories=["Data Science", "Data and Analytics"],
             locations=["Dallas, TX", "Fort Worth, TX", "Austin, TX", "Houston, TX",
                        "Flexible / Remote"],
         )
@@ -145,12 +144,12 @@ def run(cfg_path: Path, out_dir: Path) -> int:
     commit_seen(rows, store, day)
 
     log.info("wrote %d jobs to %s", len(rows), out_dir)
-    print(f"\n✓ {len(rows)} new jobs for {day}")
+    print(f"\nOK {len(rows)} new jobs for {day}")
     for k, v in paths.items():
         print(f"  {k:9}: {v}")
     if len(rows) < target:
         print(
-            f"\n⚠ target was {target} — once cross-day dedup kicks in this is "
+            f"\n[note] target was {target} — once cross-day dedup kicks in this is "
             "expected on slow news days. Add ADZUNA / USAJOBS env vars or more "
             "company boards in config.yaml to increase the funnel."
         )
