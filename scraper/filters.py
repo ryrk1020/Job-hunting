@@ -150,6 +150,14 @@ def _sanitize_salary(n: int | None) -> int | None:
     return n if 30_000 <= n <= 600_000 else None
 
 
+# Cap how much description text the salary parser will scan. Some
+# postings include massive HTML-stripped legal blocks that, when
+# combined with the alternation in our patterns, would burn CPU on
+# fruitless backtracking. Salary numbers in real postings always
+# appear in the first few KB of body copy.
+_SALARY_INPUT_CAP = 50_000
+
+
 def _extract_salary(text: str) -> tuple[int | None, int | None]:
     """Return (annual_min_usd, annual_max_usd) or (None, None).
 
@@ -159,6 +167,8 @@ def _extract_salary(text: str) -> tuple[int | None, int | None]:
     """
     if not text:
         return None, None
+    if len(text) > _SALARY_INPUT_CAP:
+        text = text[:_SALARY_INPUT_CAP]
 
     # Either-side k-suffix unifies as k for both ends (so "$95k - $130"
     # is interpreted as "$95k - $130k"). Same for plain-range.
@@ -412,9 +422,18 @@ def fresh(job: Job, max_age_days: int, strict: bool = False) -> bool:
     return job.posted_at >= cutoff
 
 
-def score(job: Job, matched_groups: list[str], is_preferred_loc: bool) -> int:
+def score(
+    job: Job,
+    matched_groups: list[str],
+    is_preferred_loc: bool,
+    salary_min: int | None = None,
+) -> int:
     """Data-only scoring. Boosts data-engineering signals in the title,
-    preferred DFW locations, junior hints, and freshness.
+    preferred DFW locations, junior hints, freshness, and (when known)
+    a published salary floor.
+
+    `salary_min` is passed explicitly rather than read off the Job to
+    keep the function pure and easy to test.
     """
     s = 0
     if is_preferred_loc:
@@ -464,13 +483,12 @@ def score(job: Job, matched_groups: list[str], is_preferred_loc: bool) -> int:
             s -= 10
     # Salary boost — postings that publish a strong floor get a small
     # nudge above otherwise-equivalent silent postings.
-    sal_min = getattr(job, "_salary_min", None)
-    if sal_min:
-        if sal_min >= 150_000:
+    if salary_min:
+        if salary_min >= 150_000:
             s += 15
-        elif sal_min >= 120_000:
+        elif salary_min >= 120_000:
             s += 10
-        elif sal_min >= 90_000:
+        elif salary_min >= 90_000:
             s += 5
     return s
 
@@ -549,9 +567,11 @@ def apply_all(
         # Salary + tech tags. Both scan title + description.
         sal_blob = f"{j.title}\n{j.description}"
         sal_min, sal_max = _extract_salary(sal_blob)
-        # Stash on the job so score() can read it for the salary boost.
-        j._salary_min = sal_min  # type: ignore[attr-defined]
         tech_tags = _detect_tech_tags(sal_blob)
+
+        # Compute the fingerprint once — it's a SHA-1 over normalized
+        # text, so calling it twice was just wasted work.
+        fp = j.fingerprint()
 
         row = j.to_dict()
         row["matched_groups"] = hits
@@ -560,10 +580,9 @@ def apply_all(
         row["salary_min"] = sal_min
         row["salary_max"] = sal_max
         row["tech_tags"] = tech_tags
-        row["score"] = score(j, hits, preferred)
-        row["_fp"] = j.fingerprint()
+        row["score"] = score(j, hits, preferred, salary_min=sal_min)
+        row["_fp"] = fp
         row["directness"] = j.directness()
-        fp = j.fingerprint()
         prev = seen.get(fp)
         if prev is None:
             seen[fp] = row

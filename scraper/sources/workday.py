@@ -35,14 +35,26 @@ def _posted_to_datetime(posted: str):
 
 
 def fetch(http: HttpClient, tenants: Iterable[dict], queries: Iterable[str]) -> list[Job]:
+    """Pull postings for each (tenant, query, offset) combination.
+
+    A tenant whose slug is wrong returns 4xx (typically 404 or 422) on
+    every query — without a circuit breaker we'd waste 24 requests per
+    bad tenant per run. The first failure on the first query of a
+    tenant is treated as "tenant is dead, skip the rest" so the run
+    stays fast even with stale tenant slugs in config.
+    """
     jobs: list[Job] = []
+    queries = list(queries)
     for t in tenants:
         tenant = t["tenant"]
         host = t.get("host", "wd1")
         site = t["site"]
         endpoint = _tenant_url(tenant, host, site)
         base = _site_base(tenant, host, site)
-        for q in queries:
+        tenant_dead = False
+        for qi, q in enumerate(queries):
+            if tenant_dead:
+                break
             for offset in (0, 20, 40):
                 try:
                     r = http.s.post(
@@ -59,7 +71,17 @@ def fetch(http: HttpClient, tenants: Iterable[dict], queries: Iterable[str]) -> 
                     r.raise_for_status()
                     payload = r.json()
                 except (requests.RequestException, ValueError) as e:
-                    log.warning("workday %s/%s %s o=%d failed: %s", tenant, site, q, offset, e)
+                    # First query, first offset failure → assume the
+                    # tenant slug is bad and skip the rest of its runs
+                    # silently. Subsequent failures get logged at WARN
+                    # because they indicate transient issues mid-fetch.
+                    if qi == 0 and offset == 0:
+                        log.info("workday %s/%s appears unreachable (%s); skipping",
+                                 tenant, site, e)
+                        tenant_dead = True
+                    else:
+                        log.warning("workday %s/%s %s o=%d failed: %s",
+                                    tenant, site, q, offset, e)
                     break
                 postings = payload.get("jobPostings", [])
                 if not postings:
