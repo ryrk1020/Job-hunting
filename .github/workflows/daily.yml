@@ -18,7 +18,10 @@ permissions:
   id-token: write
 
 concurrency:
-  group: daily-scrape-${{ github.ref }}
+  # Share a group with weekly-cleanup so the two workflows can't race
+  # each other writing to output/seen.json — they queue back to back
+  # instead of clobbering each other's commits.
+  group: seen-store-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:

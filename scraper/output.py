@@ -35,15 +35,22 @@ def write_json(rows: list[dict], path: Path) -> None:
 def write_csv(rows: list[dict], path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     fields = [
-        "score", "posted_at", "source", "company", "title",
-        "location", "url", "matched_groups", "preferred_location",
+        "score", "directness", "posted_at", "source", "company", "title",
+        "location", "url", "salary_min", "salary_max", "required_years",
+        "tech_tags", "matched_groups", "preferred_location", "alt_sources",
     ]
     with path.open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         w.writeheader()
         for r in rows:
             row = dict(r)
-            row["matched_groups"] = ",".join(r.get("matched_groups", []))
+            row["matched_groups"] = ",".join(r.get("matched_groups", []) or [])
+            row["tech_tags"] = ",".join(r.get("tech_tags", []) or [])
+            # Compress alt_sources to a comma-separated list of URLs so
+            # the CSV stays one-row-per-job.
+            row["alt_sources"] = ",".join(
+                a.get("url", "") for a in (r.get("alt_sources") or []) if a.get("url")
+            )
             w.writerow(row)
 
 
