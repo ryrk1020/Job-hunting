@@ -1,2 +1,11 @@
 score,posted_at,source,company,title,location,url,matched_groups,preferred_location
-90,2026-05-07T00:00:00+00:00,linkedin,American Heart Association,Data Science Analyst,"Dallas, TX",https://www.linkedin.com/jobs/view/data-science-analyst-at-american-heart-association-4390306278,data,True
+135,2026-05-06T20:36:41+00:00,themuse,Vanguard,"Data Engineer, Specialist","Dallas, TX",https://www.themuse.com/jobs/vanguard/data-engineer-specialist-497079,data,True
+85,2026-05-07T07:02:54+00:00,greenhouse,klaviyo,Software Engineer II - Analytics Data Engineering,"Boston, MA",https://www.klaviyo.com/careers/jobs?gh_jid=7669291003,data,False
+70,2026-05-07T14:42:44+00:00,greenhouse,reddit,"Data Scientist, Ads",Remote - United States,https://job-boards.greenhouse.io/reddit/jobs/6580815,data,False
+70,2026-05-07T07:02:33+00:00,greenhouse,klaviyo,Software Engineer II - Data Management and Governance (DMG),"Boston, MA",https://www.klaviyo.com/careers/jobs?gh_jid=7568455003,data,False
+65,2026-05-07T07:02:36+00:00,greenhouse,klaviyo,Software Engineer II (Mobile Developer - Android/Kotlin) - Mobile App Growth,"Boston, MA",https://www.klaviyo.com/careers/jobs?gh_jid=7597051003,data,False
+60,2026-05-06T20:46:11+00:00,greenhouse,discord,"Data Engineer, Analytics",San Francisco Bay Area,https://job-boards.greenhouse.io/discord/jobs/8371252002,data,False
+60,2026-05-06T20:46:12+00:00,greenhouse,discord,"Data Scientist, Analytics",San Francisco Bay Area,https://job-boards.greenhouse.io/discord/jobs/8447216002,data,False
+60,2026-05-06T20:46:11+00:00,greenhouse,discord,"Software Engineer, Data Platform",San Francisco Bay Area,https://job-boards.greenhouse.io/discord/jobs/8396927002,data,False
+50,2026-05-07T20:05:17+00:00,themuse,Apple,"Machine Learning Engineer, Computer Vision - Strategic Data Solutions","Austin, TX",https://www.themuse.com/jobs/apple/machine-learning-engineer-computer-vision-strategic-data-solutions-0dd345,data,False
+50,2026-05-07T22:48:15+00:00,greenhouse,chime,"Mobile Full-Stack Engineer, Multiplayer","San Francisco, CA, USA",https://boards.greenhouse.io/chime/jobs/8457578002?gh_jid=8457578002,data,False
