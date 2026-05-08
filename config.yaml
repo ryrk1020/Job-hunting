@@ -379,7 +379,11 @@ locations:
 
 # Anything containing these tokens will be excluded.
 exclude:
-  companies: []
+  # Companies the user does not want surfaced. Substring match against
+  # the Company field, case-insensitive. Capgemini is excluded because
+  # it is the user's prior employer.
+  companies:
+    - capgemini
   # Small / early-stage startups we don't want in the feed.
   # Add company names (case-insensitive substring match) to skip them.
   companies_early_stage:
@@ -575,7 +579,6 @@ indeed_rss_queries:
   - { q: "data engineer accenture",     l: "United States" }
   - { q: "data engineer deloitte",      l: "United States" }
   - { q: "data engineer infosys",       l: "United States" }
-  - { q: "data engineer capgemini",     l: "United States" }
   - { q: "data engineer hcl",           l: "United States" }
   - { q: "data engineer tcs",           l: "United States" }
   - { q: "data engineer tech mahindra", l: "United States" }
@@ -611,7 +614,6 @@ linkedin_queries:
   - { q: "accenture data engineer",       l: "United States" }
   - { q: "deloitte data engineer",        l: "United States" }
   - { q: "infosys data engineer",         l: "United States" }
-  - { q: "capgemini data engineer",       l: "United States" }
   - { q: "tcs data engineer",             l: "United States" }
   - { q: "tech mahindra data engineer",   l: "United States" }
   - { q: "ntt data engineer",             l: "United States" }
@@ -774,7 +776,6 @@ workday_tenants:
   - { tenant: "ey",             host: "wd3", site: "EY_GTH_Careers" }
   - { tenant: "kpmg",           host: "wd5", site: "KPMG_US_Careers" }
   - { tenant: "dxctechnology",  host: "wd1", site: "DXCExperienced" }
-  - { tenant: "capgemini",      host: "wd3", site: "Capgemini" }
   - { tenant: "ibm",            host: "wd1", site: "IBM" }
   - { tenant: "infosys",        host: "wd5", site: "External" }
   - { tenant: "ltimindtree",    host: "wd5", site: "LTIMindtree_External_Career_Site" }
