@@ -153,7 +153,11 @@ def run(cfg_path: Path, out_dir: Path) -> int:
             "expected on slow news days. Add ADZUNA / USAJOBS env vars or more "
             "company boards in config.yaml to increase the funnel."
         )
-    return 0 if rows else 1
+    # A zero-row day on the data-only profile is a normal slow news day,
+    # not a failure — the workflow should still publish the dashboard
+    # and commit an empty archive entry. Only return non-zero if writing
+    # the outputs themselves blew up (which would have raised already).
+    return 0
 
 
 def main(argv: list[str] | None = None) -> int:
