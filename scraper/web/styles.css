@@ -465,6 +465,51 @@ input, select, textarea { font-family: inherit; font-size: inherit; color: var(-
   margin-left: 4px;
 }
 
+/* ─── Salary + YoE pills (next to job titles) ──────────────────── */
+.salary-badge {
+  display: inline-flex; align-items: center;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--success);
+  background: var(--success-soft);
+  padding: 2px 8px;
+  border-radius: 6px;
+  margin-left: 8px;
+  font-variant-numeric: tabular-nums;
+  vertical-align: middle;
+}
+.yoe-badge {
+  display: inline-flex; align-items: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-2);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  padding: 1px 7px;
+  border-radius: 6px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+/* ─── Tech-stack chips on cards ────────────────────────────────── */
+.job-tech {
+  display: flex; flex-wrap: wrap;
+  gap: 4px;
+  padding-top: 4px;
+}
+.tech-chip {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-2);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  padding: 1px 7px;
+  border-radius: 4px;
+  font-family: "JetBrains Mono", monospace;
+}
+.tech-chip:hover { background: var(--surface-3); color: var(--text); }
+
 /* ─── Alt-sources block in drawer ──────────────────────────────── */
 .alt-sources {
   list-style: none;

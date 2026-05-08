@@ -19,6 +19,8 @@ from .sources.base import HttpClient
 from .sources import (
     adzuna,
     ashby,
+    builtin,
+    dice,
     greenhouse,
     indeed_rss,
     lever,
@@ -95,6 +97,10 @@ def gather(cfg: dict) -> list:
         )
     if enabled.get("ycombinator"):
         all_jobs += ycombinator.fetch(http, queries)
+    if enabled.get("builtin"):
+        all_jobs += builtin.fetch(http, cfg.get("builtin_queries", []))
+    if enabled.get("dice"):
+        all_jobs += dice.fetch(http, cfg.get("dice_queries", []))
 
     log.info("total raw jobs from all sources: %d", len(all_jobs))
     return all_jobs
