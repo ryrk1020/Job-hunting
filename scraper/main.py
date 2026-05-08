@@ -129,18 +129,52 @@ def run(cfg_path: Path, out_dir: Path) -> int:
     # Final sort: preferred_location desc, then score desc.
     rows.sort(key=lambda r: (r.get("preferred_location", False), r.get("score", 0)), reverse=True)
 
-    # Hard cap at target — user wants exactly N fresh jobs/day.
+    day = today_str()
+
+    # Same-day accumulation: if today's archive already has entries
+    # (from an earlier run), merge them with the new fresh rows so
+    # multiple runs in a day grow toward the target instead of
+    # overwriting each other. Cross-day dedup still ensures yesterday's
+    # picks aren't re-surfaced today.
+    archive_path = out_dir / "archive" / f"{day}.json"
+    existing_rows: list[dict] = []
+    if archive_path.exists():
+        try:
+            import json as _json
+            prev = _json.loads(archive_path.read_text(encoding="utf-8"))
+            existing_rows = prev.get("jobs", []) or []
+        except Exception as e:
+            log.warning("could not read existing archive %s: %s", archive_path, e)
+
+    if existing_rows:
+        seen_urls: set[str] = set()
+        merged: list[dict] = []
+        # Existing rows first (they're already committed to seen.json),
+        # then the freshly-scraped ones.
+        for r in existing_rows + rows:
+            u = r.get("url") or ""
+            if u and u in seen_urls:
+                continue
+            if u:
+                seen_urls.add(u)
+            merged.append(r)
+        merged.sort(key=lambda r: (r.get("preferred_location", False), r.get("score", 0)), reverse=True)
+        log.info(
+            "same-day merge: existing=%d fresh=%d -> merged=%d",
+            len(existing_rows), len(rows), len(merged),
+        )
+        rows = merged
+
+    # Hard cap at target — user wants exactly N jobs/day.
     if len(rows) > target:
-        log.info("capping fresh %d -> %d (target)", len(rows), target)
+        log.info("capping %d -> %d (target)", len(rows), target)
         rows = rows[:target]
 
-    day = today_str()
     paths = write_all(rows, out_dir, day)
 
     # Commit everything we just emitted to the seen store so tomorrow's
-    # run won't re-surface them as fresh. Carry-forward is handled by
-    # the dashboard client-side, so the archive stays a clean per-day
-    # snapshot of that day's fresh batch.
+    # run won't re-surface them as fresh. Already-seen URLs are no-ops
+    # in SeenStore.add(), so re-committing existing rows is safe.
     commit_seen(rows, store, day)
 
     log.info("wrote %d jobs to %s", len(rows), out_dir)
