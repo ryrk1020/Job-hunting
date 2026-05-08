@@ -11,7 +11,9 @@ permissions:
   contents: write
 
 concurrency:
-  group: weekly-cleanup-${{ github.ref }}
+  # Share with daily-scrape — both touch output/seen.json and must not
+  # interleave their commits.
+  group: seen-store-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:

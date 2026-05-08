@@ -15,7 +15,7 @@ import yaml
 from .dedup import SeenStore, commit_seen, filter_unseen, today_str
 from .filters import apply_all
 from .output import write_all
-from .sources.base import HttpClient
+from .sources.base import HttpClient, directness as src_directness
 from .sources import (
     adzuna,
     ashby,
@@ -54,6 +54,21 @@ def _keywords_flat(cfg: dict) -> list[str]:
     return result
 
 
+def _safe_fetch(name: str, fn, *args, **kwargs) -> list:
+    """Call a source.fetch() and isolate its exceptions.
+
+    A buggy adapter (or a remote endpoint that returns malformed data)
+    used to crash the entire gather() and fail the workflow. Each
+    source is now sandboxed: on any unhandled exception we log a
+    warning and contribute 0 jobs from that source.
+    """
+    try:
+        return fn(*args, **kwargs)
+    except Exception as e:
+        log.warning("source %s crashed and contributed 0 jobs: %s", name, e)
+        return []
+
+
 def gather(cfg: dict) -> list:
     http = HttpClient()
     enabled = cfg.get("sources", {})
@@ -63,44 +78,45 @@ def gather(cfg: dict) -> list:
     all_jobs = []
 
     if enabled.get("remotive"):
-        all_jobs += remotive.fetch(http, queries)
+        all_jobs += _safe_fetch("remotive", remotive.fetch, http, queries)
     if enabled.get("remoteok"):
-        all_jobs += remoteok.fetch(http)
+        all_jobs += _safe_fetch("remoteok", remoteok.fetch, http)
     if enabled.get("themuse"):
-        all_jobs += themuse.fetch(
-            http,
+        all_jobs += _safe_fetch(
+            "themuse", themuse.fetch, http,
             categories=["Data Science", "Data and Analytics"],
             locations=["Dallas, TX", "Fort Worth, TX", "Austin, TX", "Houston, TX",
                        "Flexible / Remote"],
         )
     if enabled.get("adzuna"):
-        all_jobs += adzuna.fetch(http, queries, tx_locations)
+        all_jobs += _safe_fetch("adzuna", adzuna.fetch, http, queries, tx_locations)
     if enabled.get("usajobs"):
-        all_jobs += usajobs.fetch(http, queries, tx_locations)
+        all_jobs += _safe_fetch("usajobs", usajobs.fetch, http, queries, tx_locations)
     if enabled.get("indeed_rss"):
-        all_jobs += indeed_rss.fetch(cfg.get("indeed_rss_queries", []))
+        all_jobs += _safe_fetch("indeed_rss", indeed_rss.fetch, cfg.get("indeed_rss_queries", []))
     if enabled.get("linkedin"):
-        all_jobs += linkedin.fetch(http, cfg.get("linkedin_queries", []))
+        all_jobs += _safe_fetch("linkedin", linkedin.fetch, http, cfg.get("linkedin_queries", []))
     if enabled.get("greenhouse"):
-        all_jobs += greenhouse.fetch(http, cfg.get("greenhouse_boards", []))
+        all_jobs += _safe_fetch("greenhouse", greenhouse.fetch, http, cfg.get("greenhouse_boards", []))
     if enabled.get("lever"):
-        all_jobs += lever.fetch(http, cfg.get("lever_boards", []))
+        all_jobs += _safe_fetch("lever", lever.fetch, http, cfg.get("lever_boards", []))
     if enabled.get("ashby"):
-        all_jobs += ashby.fetch(http, cfg.get("ashby_boards", []))
+        all_jobs += _safe_fetch("ashby", ashby.fetch, http, cfg.get("ashby_boards", []))
     if enabled.get("smartrecruiters"):
-        all_jobs += smartrecruiters.fetch(http, cfg.get("smartrecruiters_boards", []))
+        all_jobs += _safe_fetch("smartrecruiters", smartrecruiters.fetch, http, cfg.get("smartrecruiters_boards", []))
     if enabled.get("workable"):
-        all_jobs += workable.fetch(http, cfg.get("workable_boards", []))
+        all_jobs += _safe_fetch("workable", workable.fetch, http, cfg.get("workable_boards", []))
     if enabled.get("workday"):
-        all_jobs += workday.fetch(
-            http, cfg.get("workday_tenants", []), cfg.get("workday_queries", queries)
+        all_jobs += _safe_fetch(
+            "workday", workday.fetch, http,
+            cfg.get("workday_tenants", []), cfg.get("workday_queries", queries),
         )
     if enabled.get("ycombinator"):
-        all_jobs += ycombinator.fetch(http, queries)
+        all_jobs += _safe_fetch("ycombinator", ycombinator.fetch, http, queries)
     if enabled.get("builtin"):
-        all_jobs += builtin.fetch(http, cfg.get("builtin_queries", []))
+        all_jobs += _safe_fetch("builtin", builtin.fetch, http, cfg.get("builtin_queries", []))
     if enabled.get("dice"):
-        all_jobs += dice.fetch(http, cfg.get("dice_queries", []))
+        all_jobs += _safe_fetch("dice", dice.fetch, http, cfg.get("dice_queries", []))
 
     log.info("total raw jobs from all sources: %d", len(all_jobs))
     return all_jobs
@@ -121,16 +137,26 @@ def run(cfg_path: Path, out_dir: Path) -> int:
     log.info("cross-day dedup: %d -> %d (store has %s)", before, len(rows), store.stats())
 
     # If below target, widen once by dropping the location filter,
-    # then dedup again.
+    # then dedup again. We dedup by both URL and fingerprint so the
+    # same job surfacing on different sources (different URLs but
+    # same fp) across the strict + widen passes can't appear twice.
     if len(rows) < target:
         log.info("only %d jobs after strict filter, widening (drop location)", len(rows))
         widened = apply_all(jobs, cfg, require_location=False)
         widened = filter_unseen(widened, store)
         seen_urls = {r.get("url") for r in rows if r.get("url")}
+        seen_fps = {r.get("_fp") for r in rows if r.get("_fp")}
         for r in widened:
-            if r.get("url") and r["url"] not in seen_urls:
-                rows.append(r)
-                seen_urls.add(r["url"])
+            u, f = r.get("url"), r.get("_fp")
+            if u and u in seen_urls:
+                continue
+            if f and f in seen_fps:
+                continue
+            rows.append(r)
+            if u:
+                seen_urls.add(u)
+            if f:
+                seen_fps.add(f)
 
     # Final sort: preferred_location desc, then score desc.
     rows.sort(key=lambda r: (r.get("preferred_location", False), r.get("score", 0)), reverse=True)
@@ -154,14 +180,17 @@ def run(cfg_path: Path, out_dir: Path) -> int:
 
     if existing_rows:
         # Backfill missing fields on legacy archive entries (older runs
-        # before directness/alt_sources existed) so the dashboard renders
-        # uniformly across rows.
-        from .sources.base import directness as _src_directness
+        # before directness/alt_sources/salary/tech_tags existed) so the
+        # dashboard renders uniformly across rows.
         for r in existing_rows:
             if "directness" not in r:
-                r["directness"] = _src_directness(r.get("source", ""))
+                r["directness"] = src_directness(r.get("source", ""))
             if "alt_sources" not in r:
                 r["alt_sources"] = []
+            r.setdefault("salary_min", None)
+            r.setdefault("salary_max", None)
+            r.setdefault("tech_tags", [])
+            r.setdefault("required_years", 0)
 
         seen_urls: set[str] = set()
         merged: list[dict] = []

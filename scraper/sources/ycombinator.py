@@ -25,7 +25,7 @@ ENDPOINT = (
 def fetch(http: HttpClient, queries: list[str], allowed_stages: list[str] | None = None) -> list[Job]:
     allowed_stages = [s.lower() for s in (allowed_stages or ["series b", "series c", "series d", "public"])]
     jobs: list[Job] = []
-    for q in queries:
+    for i, q in enumerate(queries):
         try:
             r = http.s.post(
                 ENDPOINT,
@@ -35,6 +35,16 @@ def fetch(http: HttpClient, queries: list[str], allowed_stages: list[str] | None
             r.raise_for_status()
             payload = r.json()
         except Exception as e:
+            # If the very first query fails with 401/403/404, the
+            # endpoint is dead/changed — bail out instead of spamming
+            # a warning per query for the rest of the list.
+            msg = str(e)
+            if i == 0 and any(code in msg for code in ("401", "403", "404")):
+                log.warning(
+                    "ycombinator endpoint unreachable (%s); skipping remaining %d queries",
+                    msg.split(":")[0], len(queries) - 1,
+                )
+                return jobs
             log.warning("ycombinator %s failed: %s", q, e)
             continue
         for hit in payload.get("hits", []):
