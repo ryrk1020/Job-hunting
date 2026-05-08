@@ -23,7 +23,7 @@ from .base import HttpClient, Job, strip_html
 
 def _clean(s: str) -> str:
     """Strip HTML tags, decode entities, collapse whitespace."""
-    return re.sub(r"\s+", " ", html_mod.unescape(_clean(s or ""))).strip()
+    return re.sub(r"\s+", " ", html_mod.unescape(strip_html(s or ""))).strip()
 
 log = logging.getLogger(__name__)
 
