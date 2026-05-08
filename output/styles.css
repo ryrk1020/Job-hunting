@@ -431,6 +431,68 @@ input, select, textarea { font-family: inherit; font-size: inherit; color: var(-
 .tag-data       { color: var(--accent); background: var(--accent-soft); border-color: transparent; }
 .tag-preferred  { color: var(--success); background: var(--success-soft); border-color: transparent; }
 .tag-remote     { color: var(--warn);    background: var(--warn-soft);    border-color: transparent; }
+.tag-direct     { color: var(--success); background: var(--success-soft); border-color: transparent; }
+.tag-medium     { color: var(--text-2);  background: var(--surface-2);    border-color: transparent; }
+.tag-redirect   { color: var(--danger);  background: var(--danger-soft);  border-color: transparent; }
+
+/* ─── Apply-directness badges (compact, on cards) ──────────────── */
+.badge {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 999px;
+  display: inline-flex; align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+.badge-direct   { color: var(--success); background: var(--success-soft); }
+.badge-medium   { color: var(--text-2);  background: var(--surface-2);    border: 1px solid var(--border); }
+.badge-redirect { color: var(--danger);  background: var(--danger-soft);  }
+.badge-direct::before   { content: "●"; font-size: 7px; }
+.badge-medium::before   { content: "○"; font-size: 7px; }
+.badge-redirect::before { content: "⤴"; font-size: 9px; }
+
+.alt-count {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 0px 6px;
+  border-radius: 999px;
+  margin-left: 4px;
+}
+
+/* ─── Alt-sources block in drawer ──────────────────────────────── */
+.alt-sources {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; flex-direction: column;
+  gap: 6px;
+}
+.alt-sources li {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 8px 12px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 13px;
+}
+.alt-sources li a {
+  color: var(--text);
+  font-weight: 500;
+}
+.alt-sources li a:hover { color: var(--accent); }
+.alt-meta {
+  font-size: 11px;
+  color: var(--text-3);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
 .job-actions {
   display: flex; flex-direction: column;
   gap: 6px;

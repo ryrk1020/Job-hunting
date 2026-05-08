@@ -174,6 +174,13 @@ function applyFilters(jobs) {
 }
 
 // ───── Card rendering ────────────────────────────────────────────────
+function directnessBadge(j) {
+  const d = j.directness || 50;
+  if (d >= 90) return `<span class="badge badge-direct" title="Apply form is on the linked page">direct apply</span>`;
+  if (d >= 60) return `<span class="badge badge-medium" title="Source page; usually one redirect to apply">via source</span>`;
+  return `<span class="badge badge-redirect" title="Aggregator / guest search; may take extra clicks to reach the apply form">redirect</span>`;
+}
+
 function jobCard(j) {
   const tags = [];
   if (j.preferred_location) tags.push("preferred");
@@ -181,6 +188,8 @@ function jobCard(j) {
   for (const g of (j.matched_groups || [])) tags.push(g);
   const tagHtml = tags.map(t => `<span class="tag tag-${t}">${safe(t)}</span>`).join("");
   const posted = (j.posted_at || "").slice(0, 10);
+  const altCount = (j.alt_sources || []).length;
+  const altSuffix = altCount ? ` <span class="alt-count" title="${altCount} other source${altCount === 1 ? "" : "s"} also has this job">+${altCount}</span>` : "";
   return `
     <article class="job" data-url="${encodeURIComponent(j.url)}">
       <div class="job-score" title="Match score">${j.score || 0}</div>
@@ -195,7 +204,9 @@ function jobCard(j) {
           <span class="meta-sep">·</span>
           <span class="job-posted">${posted || "—"}</span>
           <span class="meta-sep">·</span>
-          <span class="job-source">${safe(j.source)}</span>
+          <span class="job-source">${safe(j.source)}${altSuffix}</span>
+          <span class="meta-sep">·</span>
+          ${directnessBadge(j)}
         </div>
         <div class="job-tags">${tagHtml}</div>
       </div>
@@ -258,6 +269,28 @@ function renderDrawer() {
   for (const g of (j.matched_groups || [])) tags.push(g);
   const tagHtml = tags.map(t => `<span class="tag tag-${t}">${safe(t)}</span>`).join("");
 
+  // Direct-apply rank for the primary source (only show the badge when
+  // we can confidently say the link goes straight to an apply form).
+  const directnessLabel = (j.directness >= 90)
+    ? `<span class="tag tag-direct" title="Apply form is on the linked page">direct apply</span>`
+    : (j.directness >= 60)
+      ? `<span class="tag tag-medium" title="Source page; one redirect to apply">via ${safe(j.source)}</span>`
+      : `<span class="tag tag-redirect" title="Aggregator / guest search; may need extra clicks to reach the apply form">redirect</span>`;
+
+  // Alternate sources for the same job (cross-source dedup losers).
+  const alts = (j.alt_sources || []).filter(a => a && a.url && a.url !== j.url);
+  const altHtml = alts.length
+    ? `<section class="drawer-section">
+         <h4>Also seen on</h4>
+         <ul class="alt-sources">
+           ${alts.map(a => `<li>
+             <a href="${a.url}" target="_blank" rel="noopener">${safe(a.source || "source")} ↗</a>
+             <span class="alt-meta">${a.directness >= 90 ? "direct" : a.directness >= 60 ? "via source page" : "redirect"}</span>
+           </li>`).join("")}
+         </ul>
+       </section>`
+    : "";
+
   document.getElementById("drawer-body").innerHTML = `
     <div class="drawer-head-meta">
       <div class="drawer-score">${j.score || 0}<small>score</small></div>
@@ -272,6 +305,8 @@ function renderDrawer() {
           <span>Posted ${fmtDate(j.posted_at)}</span>
           <span class="meta-sep">·</span>
           <span class="meta-source">${safe(j.source)}</span>
+          <span class="meta-sep">·</span>
+          ${directnessLabel}
         </div>
         <div class="drawer-actions">
           <a class="btn btn-primary" href="${j.url}" target="_blank" rel="noopener">Open posting ↗</a>
@@ -279,6 +314,7 @@ function renderDrawer() {
       </div>
     </div>
     ${tags.length ? `<section class="drawer-section"><h4>Tags</h4><div class="job-tags">${tagHtml}</div></section>` : ""}
+    ${altHtml}
     <section class="drawer-section">
       <h4>Description</h4>
       <div class="drawer-desc">${safe(j.description || "").slice(0, 4000) || "No description available."}</div>

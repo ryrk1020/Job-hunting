@@ -370,11 +370,40 @@ def apply_all(
         row["required_years"] = req_yoe
         row["score"] = score(j, hits, preferred)
         row["_fp"] = j.fingerprint()
+        row["directness"] = j.directness()
         fp = j.fingerprint()
         prev = seen.get(fp)
-        if prev is None or row["score"] > prev["score"]:
+        if prev is None:
             seen[fp] = row
             kept += 1
+        else:
+            # Same job seen on a prior source — pick whichever has the
+            # most-direct apply path (Greenhouse/Lever/Workday/etc. beat
+            # LinkedIn/Indeed redirects). Score breaks ties.
+            cur_d = prev.get("directness", 50)
+            new_d = row["directness"]
+            replace = (
+                new_d > cur_d
+                or (new_d == cur_d and row["score"] > prev.get("score", 0))
+            )
+            # Track every source/url we've seen for this job so the
+            # dashboard can show fallback links if the primary 404s.
+            alts = prev.get("alt_sources") or []
+            existing_urls = {prev.get("url")} | {a.get("url") for a in alts}
+            payload = {"source": row.get("source"), "url": row.get("url"),
+                       "directness": new_d}
+            if replace:
+                # Demote the previous entry into alt_sources.
+                demoted = {"source": prev.get("source"), "url": prev.get("url"),
+                           "directness": cur_d}
+                merged_alts = [a for a in alts if a.get("url") not in (row.get("url"),)]
+                merged_alts.append(demoted)
+                row["alt_sources"] = merged_alts
+                seen[fp] = row
+            else:
+                if payload["url"] and payload["url"] not in existing_urls:
+                    alts.append(payload)
+                    prev["alt_sources"] = alts
 
     log.info(
         "filter: kept=%d unique=%d dropped(exc=%d,kw=%d,loc=%d,old=%d,yoe=%d,nodesc=%d)",

@@ -948,12 +948,32 @@ smartrecruiters_boards:
   - Ubisoft
   - Verisure
   - McDonalds
+  - Allegis
+  - Equinix
+  - SquareTrade
+  - Avantor
+  - WernerEnterprises
+  - SodexoUSA
+  - SwissRe
+  - Travelex
+  - Dorel
+  - ManulifeFinancial
 
 # Workable accounts (apply.workable.com/<slug>).
 workable_boards:
   - sonatype
   - orum
   - vidyard
+  - persona
+  - intervals
+  - arcules
+  - keepertax
+  - convoso
+  - getlumi
+  - cresta-workable
+  - relayr
+  - openai-workable
+  - smartstart
 
 # Workday tenants — large TX-heavy employers.
 # You can find the {tenant, host, site} by visiting a company's careers page and
