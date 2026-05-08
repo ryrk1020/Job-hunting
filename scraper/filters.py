@@ -87,13 +87,24 @@ def _contains_all(haystack: str, tokens: Iterable[str]) -> bool:
     return all(tok in haystack for tok in tokens)
 
 
-def matches_keywords(job: Job, groups: dict) -> list[str]:
-    """Return the list of matching keyword-group names for this job."""
-    blob = f"{job.title}\n{job.description}".lower()
+def matches_keywords(job: Job, groups: dict, scope: str = "blob") -> list[str]:
+    """Return the list of matching keyword-group names for this job.
+
+    scope:
+        "blob"  — match against title + description (legacy default).
+        "title" — match against title only. Much stricter; intended for
+                  the data-only profile where single-token keywords
+                  ("sql", "snowflake", etc.) appear in the description
+                  of many non-data roles and would otherwise leak.
+    """
+    if scope == "title":
+        haystack = (job.title or "").lower()
+    else:
+        haystack = f"{job.title}\n{job.description}".lower()
     hits: list[str] = []
     for group_name, token_lists in groups.items():
         for tokens in token_lists:
-            if _contains_all(blob, [t.lower() for t in tokens]):
+            if _contains_all(haystack, [t.lower() for t in tokens]):
                 hits.append(group_name)
                 break
     return hits
@@ -236,35 +247,39 @@ def fresh(job: Job, max_age_days: int, strict: bool = False) -> bool:
 
 
 def score(job: Job, matched_groups: list[str], is_preferred_loc: bool) -> int:
+    """Data-only scoring. Boosts data-engineering signals in the title,
+    preferred DFW locations, junior hints, and freshness.
+    """
     s = 0
     if is_preferred_loc:
         s += 50
     if job.remote or "remote" in (job.location or "").lower():
         s += 10
     if "data" in matched_groups:
-        s += 20
-    if "vibecoding" in matched_groups:
-        s += 25
-    if "fullstack" in matched_groups:
-        s += 20
-    if "software" in matched_groups:
-        s += 15
-    if "qa" in matched_groups:
-        s += 15
-    if "cloud" in matched_groups:
-        s += 15
-    if "security" in matched_groups:
-        s += 10
-    if "analyst" in matched_groups:
-        s += 10
-    if "product" in matched_groups:
-        s += 5
-    if "junior" in matched_groups:
-        s += 25
-    blob = f"{job.title}\n{job.description}".lower()
-    for tok in (" i ", " ii ", "associate", "entry", "new grad", "graduate", "junior"):
+        s += 30
+    title = (job.title or "").lower()
+    blob = f"{title}\n{job.description}".lower()
+    # Title-level boosts: prefer roles whose title actually says
+    # "data engineer" / "data analyst" / etc. over jobs that only mention
+    # data tools deep in the description.
+    for tok in ("data engineer", "data analyst", "analytics engineer",
+                "data scientist", "data platform", "data warehouse",
+                "bi developer", "etl developer"):
+        if tok in title:
+            s += 15
+            break
+    # Bonus for data-engineering tooling in the title or description.
+    for tok in ("snowflake", "databricks", "spark", "airflow", "dbt",
+                "redshift", "bigquery", "kafka", "informatica"):
         if tok in blob:
             s += 5
+            break
+    # Junior / entry-level boost. Used to live in a "junior" keyword
+    # group; moved here so junior-only matches can't gate-pass non-data
+    # roles, while junior-data roles still float to the top.
+    for tok in (" i ", " ii ", "associate", "entry", "new grad", "graduate", "junior"):
+        if tok in blob:
+            s += 25
             break
     if job.posted_at is not None:
         age_h = (datetime.now(timezone.utc) - job.posted_at).total_seconds() / 3600
@@ -296,6 +311,11 @@ def apply_all(
     # slip through silently.
     strict_exp = bool(cfg.get("strict_experience_filter", False))
     min_desc_chars = int(cfg.get("min_description_chars", 80))
+    # Keyword scope: "title" requires the role's TITLE to mention a data
+    # keyword. The default "blob" also accepts description matches but
+    # leaks heavily on single-token keywords (sql/snowflake/tableau show
+    # up in non-data job descriptions).
+    kw_scope = str(cfg.get("keyword_match_scope", "blob")).lower()
 
     seen: dict[str, dict] = {}
     kept = 0
@@ -313,7 +333,7 @@ def apply_all(
         if not fresh(j, max_age, strict=strict_fresh):
             dropped_old += 1
             continue
-        hits = matches_keywords(j, kw)
+        hits = matches_keywords(j, kw, scope=kw_scope)
         if not hits:
             dropped_kw += 1
             continue
@@ -333,6 +353,14 @@ def apply_all(
         if require_location and not allowed:
             dropped_loc += 1
             continue
+        # Even when the strict location filter is dropped (widen pass),
+        # we still want to bin jobs that are explicitly located in a
+        # foreign country — the user is on F-1/OPT and US-only.
+        if not require_location and not allowed:
+            low = (j.location or "").lower()
+            if any(_has_token(low, c) for c in (locs.get("exclude_countries") or [])):
+                dropped_loc += 1
+                continue
         row = j.to_dict()
         row["matched_groups"] = hits
         row["preferred_location"] = preferred

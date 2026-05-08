@@ -3,137 +3,47 @@
 # Manual rerun marker: 2026-04-25T05:00Z — strict 3-yoe + seniority regex
 
 # Keyword groups. A job matches if any group's tokens all appear
-# in the title OR description (case-insensitive). Add / remove freely.
+# in the title OR description (case-insensitive).
+#
+# Data-only profile: only data / data-engineering roles are surfaced.
+# Other role families (fullstack, software, QA, cloud, security, etc.)
+# were intentionally removed on the feature/data-only-top10 branch.
 keywords:
   data:
     - ["data", "engineer"]
     - ["data", "analyst"]
+    - ["data", "scientist"]
+    - ["data", "warehouse"]
+    - ["data", "platform"]
+    - ["data", "modeler"]
+    - ["data", "modeling"]
+    - ["data", "ops"]
+    - ["dataops"]
     - ["analytics", "engineer"]
-    - ["etl"]
     - ["bi", "developer"]
+    - ["bi", "engineer"]
     - ["business", "intelligence"]
+    - ["etl"]
+    - ["elt"]
     - ["snowflake"]
     - ["databricks"]
-    - ["sql"]
-    - ["data", "scientist"]
-    - ["machine", "learning"]
-    - ["ml", "engineer"]
-    - ["big", "data"]
-    - ["data", "warehouse"]
+    - ["redshift"]
+    - ["bigquery"]
+    - ["spark"]
+    - ["airflow"]
+    - ["dbt"]
+    - ["kafka"]
+    - ["hadoop"]
+    - ["informatica"]
     - ["power", "bi"]
     - ["tableau"]
-    - ["informatica"]
-  # "Vibecoding" — AI-assisted / LLM / GenAI engineering roles.
-  vibecoding:
-    - ["ai", "engineer"]
-    - ["llm"]
-    - ["genai"]
-    - ["generative", "ai"]
-    - ["prompt", "engineer"]
-    - ["applied", "ai"]
-    - ["forward", "deployed"]
-    - ["ai", "developer"]
-    - ["ai", "product"]
-    - ["ml", "platform"]
-    - ["rag"]
-    - ["agent", "engineer"]
-    - ["copilot"]
-  # Any full-stack / frontend / backend / mobile engineering role.
-  fullstack:
-    - ["full", "stack"]
-    - ["fullstack"]
-    - ["frontend"]
-    - ["front", "end"]
-    - ["backend"]
-    - ["back", "end"]
-    - ["web", "developer"]
-    - ["ui", "developer"]
-    - ["ux", "engineer"]
-    - ["react"]
-    - ["angular"]
-    - ["vue"]
-    - ["node"]
-    - ["next.js"]
-    - ["mobile", "developer"]
-    - ["ios", "developer"]
-    - ["android", "developer"]
-  # Generic software engineering (languages + titles).
-  software:
-    - ["software", "engineer"]
-    - ["software", "developer"]
-    - ["application", "developer"]
-    - ["application", "engineer"]
-    - ["python"]
-    - ["java", "developer"]
-    - ["golang"]
-    - ["c++"]
-    - ["c#"]
-    - [".net"]
-    - ["typescript"]
-    - ["javascript"]
-    - ["ruby"]
-    - ["php"]
-    - ["scala"]
-    - ["rust"]
-    - ["embedded"]
-    - ["firmware"]
-    - ["platform", "engineer"]
-    - ["systems", "engineer"]
-    - ["api", "developer"]
-  # QA / test / SDET.
-  qa:
-    - ["qa", "engineer"]
-    - ["quality", "engineer"]
-    - ["quality", "assurance"]
-    - ["test", "engineer"]
-    - ["tester"]
-    - ["sdet"]
-    - ["automation", "engineer"]
-    - ["selenium"]
-    - ["cypress"]
-    - ["playwright"]
-  # Cloud / DevOps / SRE / infra.
-  cloud:
-    - ["devops"]
-    - ["sre"]
-    - ["site", "reliability"]
-    - ["cloud", "engineer"]
-    - ["aws", "engineer"]
-    - ["azure", "engineer"]
-    - ["gcp"]
-    - ["kubernetes"]
-    - ["terraform"]
-    - ["infrastructure", "engineer"]
-    - ["platform", "engineer"]
-  # Security / networking.
-  security:
-    - ["security", "engineer"]
-    - ["cybersecurity"]
-    - ["infosec"]
-    - ["application", "security"]
-    - ["network", "engineer"]
-  # Generic analyst roles (business, product, systems).
-  analyst:
-    - ["business", "analyst"]
-    - ["systems", "analyst"]
-    - ["product", "analyst"]
-    - ["financial", "analyst"]
-    - ["reporting", "analyst"]
-    - ["operations", "analyst"]
-  # Project / product / scrum management on tech teams.
-  product:
-    - ["product", "manager"]
-    - ["technical", "program"]
-    - ["scrum", "master"]
-    - ["project", "manager"]
-  # Junior / entry-level hints get a score boost.
-  junior:
-    - ["associate"]
-    - ["junior"]
-    - ["entry", "level"]
-    - ["new", "grad"]
-    - ["i "]
-    - ["ii "]
+    - ["big", "data"]
+  # NOTE: the legacy "junior" keyword group is intentionally removed in
+  # the data-only profile. Junior / entry-level signals are still applied
+  # as a SCORING boost inside scraper/filters.py:score(), but they no
+  # longer act as their own keyword gate (which previously could let a
+  # non-data role through if its description mentioned "associate" or
+  # "junior").
 
 # Location preferences. Jobs matching "preferred" get a score boost. Jobs
 # in "allowed_states" are kept. Remote jobs are kept ONLY if they say
@@ -584,8 +494,15 @@ exclude:
     - "must be able to obtain a security clearance"
     - "must be able to obtain clearance"
 
+# Keyword matching scope.
+#   "title" — only the role's TITLE has to contain a data keyword. Strict;
+#             the right setting for a data-only feed.
+#   "blob"  — title + description match (default; leaky for single-token
+#             keywords like 'sql', 'snowflake' that appear in non-data roles).
+keyword_match_scope: title
+
 # Freshness — only keep jobs posted within this many days.
-max_age_days: 7
+max_age_days: 2
 
 # When true, drop any posting that has no parseable posted_at date.
 # Many ATS feeds (Greenhouse/Lever) omit it; with this on, those are
@@ -611,8 +528,9 @@ min_description_chars: 120
 
 # Target jobs per run. Acts as BOTH a floor (search widens to reach it)
 # AND a ceiling (output is truncated to exactly this many — highest
-# scored, preferred-location first).
-min_jobs_target: 250
+# scored, preferred-location first). Data-only profile keeps this tight
+# so the dashboard shows only the top 10 best-aligned data jobs per day.
+min_jobs_target: 10
 
 # Sources to enable.
 sources:
@@ -631,117 +549,77 @@ sources:
   workday: true
   ycombinator: false    # default off — firehose of small startups
 
-# Indeed RSS queries (location-qualified). Expand as needed.
+# Indeed RSS queries (location-qualified). Data-only profile.
 indeed_rss_queries:
   - { q: "data engineer",        l: "Dallas, TX" }
   - { q: "data analyst",         l: "Dallas, TX" }
   - { q: "analytics engineer",   l: "Dallas, TX" }
-  - { q: "software engineer",    l: "Dallas, TX" }
-  - { q: "software developer",   l: "Dallas, TX" }
-  - { q: "full stack",           l: "Dallas, TX" }
-  - { q: "frontend engineer",    l: "Dallas, TX" }
-  - { q: "backend engineer",     l: "Dallas, TX" }
-  - { q: "qa engineer",          l: "Dallas, TX" }
-  - { q: "test engineer",        l: "Dallas, TX" }
-  - { q: "business analyst",     l: "Dallas, TX" }
-  - { q: "devops",               l: "Dallas, TX" }
-  - { q: "cloud engineer",       l: "Dallas, TX" }
-  - { q: "ai engineer",          l: "Dallas, TX" }
-  - { q: "machine learning",     l: "Dallas, TX" }
+  - { q: "data scientist",       l: "Dallas, TX" }
+  - { q: "data warehouse",       l: "Dallas, TX" }
+  - { q: "etl developer",        l: "Dallas, TX" }
+  - { q: "bi developer",         l: "Dallas, TX" }
+  - { q: "snowflake",            l: "Dallas, TX" }
+  - { q: "databricks",           l: "Dallas, TX" }
   - { q: "data engineer",        l: "Frisco, TX" }
-  - { q: "software engineer",    l: "Frisco, TX" }
-  - { q: "full stack",           l: "Frisco, TX" }
+  - { q: "data analyst",         l: "Frisco, TX" }
   - { q: "data engineer",        l: "Fort Worth, TX" }
-  - { q: "software engineer",    l: "Fort Worth, TX" }
   - { q: "data engineer",        l: "Plano, TX" }
-  - { q: "software engineer",    l: "Plano, TX" }
-  - { q: "full stack",           l: "Plano, TX" }
-  - { q: "software engineer",    l: "Irving, TX" }
-  - { q: "software engineer",    l: "Texas" }
-  - { q: "full stack developer", l: "Texas" }
-  - { q: "ai engineer",          l: "Texas" }
-  - { q: "llm engineer",         l: "Texas" }
-  - { q: "genai",                l: "Texas" }
+  - { q: "data analyst",         l: "Plano, TX" }
+  - { q: "data engineer",        l: "Irving, TX" }
   - { q: "data engineer",        l: "Texas" }
-  - { q: "qa automation",        l: "Texas" }
-  - { q: "business analyst",     l: "Texas" }
-  # Service-MNC targeted queries — by company name. These surface roles
-  # at consulting / IT-services firms that don't always hit our ATS
-  # adapters. Reasonable interview loops, friendly to OPT/H1B.
-  - { q: "data engineer accenture",       l: "United States" }
-  - { q: "software engineer accenture",   l: "United States" }
-  - { q: "data engineer deloitte",        l: "United States" }
-  - { q: "software engineer deloitte",    l: "United States" }
-  - { q: "data engineer infosys",         l: "United States" }
-  - { q: "software engineer infosys",     l: "United States" }
-  - { q: "data engineer cognizant",       l: "United States" }
-  - { q: "software engineer cognizant",   l: "United States" }
-  - { q: "data engineer capgemini",       l: "United States" }
-  - { q: "software engineer wipro",       l: "United States" }
-  - { q: "data engineer hcl",             l: "United States" }
-  - { q: "software engineer tcs",         l: "United States" }
-  - { q: "data engineer tech mahindra",   l: "United States" }
-  - { q: "data engineer ntt data",        l: "United States" }
-  - { q: "software engineer dxc",         l: "United States" }
-  - { q: "data engineer mphasis",         l: "United States" }
-  - { q: "data engineer ltimindtree",     l: "United States" }
-  - { q: "software engineer ibm",         l: "United States" }
-  # Contract / staffing keyword queries — short-term gigs.
-  - { q: "data engineer contract",        l: "Texas" }
-  - { q: "software engineer contract",    l: "Texas" }
-  - { q: "full stack contract",           l: "Texas" }
-  - { q: "qa contract",                   l: "Texas" }
-  - { q: "data engineer w2 contract",     l: "United States" }
-  - { q: "data engineer corp to corp",    l: "United States" }
+  - { q: "data analyst",         l: "Texas" }
+  - { q: "analytics engineer",   l: "Texas" }
+  - { q: "data scientist",       l: "Texas" }
+  # Service-MNC targeted queries — surface data roles at consulting /
+  # IT-services firms that don't always hit our ATS adapters.
+  - { q: "data engineer accenture",     l: "United States" }
+  - { q: "data engineer deloitte",      l: "United States" }
+  - { q: "data engineer infosys",       l: "United States" }
+  - { q: "data engineer capgemini",     l: "United States" }
+  - { q: "data engineer hcl",           l: "United States" }
+  - { q: "data engineer tcs",           l: "United States" }
+  - { q: "data engineer tech mahindra", l: "United States" }
+  - { q: "data engineer ntt data",      l: "United States" }
+  - { q: "data engineer mphasis",       l: "United States" }
+  - { q: "data engineer ltimindtree",   l: "United States" }
+  - { q: "data engineer ibm",           l: "United States" }
+  # Contract / staffing keyword queries.
+  - { q: "data engineer contract",      l: "Texas" }
+  - { q: "data engineer w2 contract",   l: "United States" }
+  - { q: "data engineer corp to corp",  l: "United States" }
 
-# LinkedIn queries (public guest search endpoint).
+# LinkedIn queries (public guest search endpoint). Data-only profile.
 linkedin_queries:
   - { q: "data engineer",       l: "Dallas, Texas, United States" }
   - { q: "data analyst",        l: "Dallas, Texas, United States" }
   - { q: "analytics engineer",  l: "Dallas, Texas, United States" }
-  - { q: "software engineer",   l: "Dallas, Texas, United States" }
-  - { q: "full stack developer",l: "Dallas, Texas, United States" }
-  - { q: "frontend engineer",   l: "Dallas, Texas, United States" }
-  - { q: "backend engineer",    l: "Dallas, Texas, United States" }
-  - { q: "qa engineer",         l: "Dallas, Texas, United States" }
-  - { q: "sdet",                l: "Dallas, Texas, United States" }
-  - { q: "devops engineer",     l: "Dallas, Texas, United States" }
-  - { q: "business analyst",    l: "Dallas, Texas, United States" }
-  - { q: "ai engineer",         l: "Dallas, Texas, United States" }
-  - { q: "llm engineer",        l: "Dallas, Texas, United States" }
+  - { q: "data scientist",      l: "Dallas, Texas, United States" }
+  - { q: "data warehouse",      l: "Dallas, Texas, United States" }
+  - { q: "etl developer",       l: "Dallas, Texas, United States" }
+  - { q: "snowflake",           l: "Dallas, Texas, United States" }
+  - { q: "databricks",          l: "Dallas, Texas, United States" }
   - { q: "data engineer",       l: "Frisco, Texas, United States" }
-  - { q: "software engineer",   l: "Frisco, Texas, United States" }
+  - { q: "data analyst",        l: "Frisco, Texas, United States" }
   - { q: "data engineer",       l: "Fort Worth, Texas, United States" }
-  - { q: "software engineer",   l: "Fort Worth, Texas, United States" }
   - { q: "data engineer",       l: "Plano, Texas, United States" }
-  - { q: "software engineer",   l: "Plano, Texas, United States" }
-  - { q: "software engineer",   l: "Texas, United States" }
-  - { q: "full stack",          l: "Texas, United States" }
-  - { q: "ai engineer",         l: "Texas, United States" }
+  - { q: "data analyst",        l: "Plano, Texas, United States" }
+  - { q: "data engineer",       l: "Texas, United States" }
+  - { q: "analytics engineer",  l: "Texas, United States" }
+  - { q: "data scientist",      l: "Texas, United States" }
   # Service-MNC targeted (by company name in keyword) — broader US net
   # since these firms hire across many cities, not just DFW.
   - { q: "accenture data engineer",       l: "United States" }
-  - { q: "accenture software engineer",   l: "United States" }
   - { q: "deloitte data engineer",        l: "United States" }
-  - { q: "deloitte software engineer",    l: "United States" }
   - { q: "infosys data engineer",         l: "United States" }
-  - { q: "infosys software engineer",     l: "United States" }
-  - { q: "cognizant data engineer",       l: "United States" }
-  - { q: "cognizant software engineer",   l: "United States" }
   - { q: "capgemini data engineer",       l: "United States" }
-  - { q: "wipro data engineer",           l: "United States" }
-  - { q: "hcl software engineer",         l: "United States" }
   - { q: "tcs data engineer",             l: "United States" }
   - { q: "tech mahindra data engineer",   l: "United States" }
   - { q: "ntt data engineer",             l: "United States" }
-  - { q: "dxc software engineer",         l: "United States" }
   - { q: "mphasis data engineer",         l: "United States" }
   - { q: "ltimindtree data engineer",     l: "United States" }
   - { q: "ibm data engineer",             l: "United States" }
-  - { q: "ibm software engineer",         l: "United States" }
   # Contract gigs (smaller product / staffing).
   - { q: "data engineer contract",        l: "Texas, United States" }
-  - { q: "software engineer contract",    l: "Texas, United States" }
   - { q: "data engineer w2",              l: "United States" }
   - { q: "data engineer c2c",             l: "United States" }
 
@@ -909,14 +787,13 @@ workday_tenants:
   - { tenant: "rht",            host: "wd5", site: "External" }   # Robert Half
   - { tenant: "tek",            host: "wd1", site: "External" }   # TEKsystems
 
-# Workday search queries (run against every tenant).
+# Workday search queries (run against every tenant). Data-only profile.
 workday_queries:
   - "data engineer"
   - "data analyst"
-  - "software engineer"
-  - "full stack"
-  - "qa engineer"
-  - "business analyst"
-  - "devops"
-  - "ai engineer"
-  - "machine learning"
+  - "analytics engineer"
+  - "data scientist"
+  - "data warehouse"
+  - "etl"
+  - "snowflake"
+  - "databricks"
