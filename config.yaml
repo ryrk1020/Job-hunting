@@ -551,10 +551,15 @@ sources:
   smartrecruiters: true
   workable: true
   workday: true
-  ycombinator: false    # default off — firehose of small startups
+  ycombinator: true     # firehose of small startups; the title-strict
+                        # data filter keeps it manageable, and YC cos
+                        # often sponsor visas for early data hires.
 
-# Indeed RSS queries (location-qualified). Data-only profile.
+# Indeed RSS queries (location-qualified). Data-only profile, expanded
+# to cover more TX cities, more data niches, and more visa-friendly
+# service / mid-stage employers.
 indeed_rss_queries:
+  # ── Dallas core (the user's preferred metro) ───────────────────
   - { q: "data engineer",        l: "Dallas, TX" }
   - { q: "data analyst",         l: "Dallas, TX" }
   - { q: "analytics engineer",   l: "Dallas, TX" }
@@ -562,34 +567,83 @@ indeed_rss_queries:
   - { q: "data warehouse",       l: "Dallas, TX" }
   - { q: "etl developer",        l: "Dallas, TX" }
   - { q: "bi developer",         l: "Dallas, TX" }
+  - { q: "bi engineer",          l: "Dallas, TX" }
+  - { q: "data platform",        l: "Dallas, TX" }
+  - { q: "data modeler",         l: "Dallas, TX" }
   - { q: "snowflake",            l: "Dallas, TX" }
   - { q: "databricks",           l: "Dallas, TX" }
+  - { q: "azure data engineer",  l: "Dallas, TX" }
+  - { q: "aws data engineer",    l: "Dallas, TX" }
+  - { q: "tableau developer",    l: "Dallas, TX" }
+  - { q: "power bi developer",   l: "Dallas, TX" }
+  - { q: "informatica developer",l: "Dallas, TX" }
+  # ── DFW satellite cities ──────────────────────────────────────
   - { q: "data engineer",        l: "Frisco, TX" }
   - { q: "data analyst",         l: "Frisco, TX" }
+  - { q: "data scientist",       l: "Frisco, TX" }
   - { q: "data engineer",        l: "Fort Worth, TX" }
+  - { q: "data analyst",         l: "Fort Worth, TX" }
   - { q: "data engineer",        l: "Plano, TX" }
   - { q: "data analyst",         l: "Plano, TX" }
+  - { q: "analytics engineer",   l: "Plano, TX" }
   - { q: "data engineer",        l: "Irving, TX" }
+  - { q: "data analyst",         l: "Irving, TX" }
+  - { q: "data engineer",        l: "Richardson, TX" }
+  - { q: "data engineer",        l: "Addison, TX" }
+  - { q: "data engineer",        l: "Las Colinas, TX" }
+  - { q: "data engineer",        l: "Arlington, TX" }
+  - { q: "data engineer",        l: "McKinney, TX" }
+  - { q: "data engineer",        l: "Allen, TX" }
+  - { q: "data engineer",        l: "Denton, TX" }
+  # ── Other TX metros (Austin / Houston / SA) ───────────────────
+  - { q: "data engineer",        l: "Austin, TX" }
+  - { q: "data analyst",         l: "Austin, TX" }
+  - { q: "data scientist",       l: "Austin, TX" }
+  - { q: "analytics engineer",   l: "Austin, TX" }
+  - { q: "data engineer",        l: "Houston, TX" }
+  - { q: "data analyst",         l: "Houston, TX" }
+  - { q: "data engineer",        l: "San Antonio, TX" }
+  - { q: "data analyst",         l: "San Antonio, TX" }
+  # ── Statewide TX broad nets ───────────────────────────────────
   - { q: "data engineer",        l: "Texas" }
   - { q: "data analyst",         l: "Texas" }
   - { q: "analytics engineer",   l: "Texas" }
   - { q: "data scientist",       l: "Texas" }
-  # Service-MNC targeted queries — surface data roles at consulting /
-  # IT-services firms that don't always hit our ATS adapters.
+  - { q: "data warehouse",       l: "Texas" }
+  - { q: "data platform",        l: "Texas" }
+  - { q: "snowflake developer",  l: "Texas" }
+  - { q: "databricks engineer",  l: "Texas" }
+  - { q: "dbt developer",        l: "Texas" }
+  - { q: "airflow",              l: "Texas" }
+  - { q: "spark developer",      l: "Texas" }
+  - { q: "kafka engineer",       l: "Texas" }
+  # ── Visa-friendly service MNC nationwide ──────────────────────
   - { q: "data engineer accenture",     l: "United States" }
   - { q: "data engineer deloitte",      l: "United States" }
   - { q: "data engineer infosys",       l: "United States" }
+  - { q: "data engineer cognizant",     l: "United States" }
   - { q: "data engineer hcl",           l: "United States" }
   - { q: "data engineer tcs",           l: "United States" }
+  - { q: "data engineer wipro",         l: "United States" }
   - { q: "data engineer tech mahindra", l: "United States" }
   - { q: "data engineer ntt data",      l: "United States" }
   - { q: "data engineer mphasis",       l: "United States" }
   - { q: "data engineer ltimindtree",   l: "United States" }
+  - { q: "data engineer persistent",    l: "United States" }
+  - { q: "data engineer birlasoft",     l: "United States" }
   - { q: "data engineer ibm",           l: "United States" }
-  # Contract / staffing keyword queries.
+  - { q: "data engineer kpmg",          l: "United States" }
+  - { q: "data engineer pwc",           l: "United States" }
+  - { q: "data engineer ey",            l: "United States" }
+  # ── Contract / staffing (high OPT-friendly) ───────────────────
   - { q: "data engineer contract",      l: "Texas" }
+  - { q: "data analyst contract",       l: "Texas" }
   - { q: "data engineer w2 contract",   l: "United States" }
   - { q: "data engineer corp to corp",  l: "United States" }
+  - { q: "data engineer c2c",           l: "United States" }
+  - { q: "data engineer h1b",           l: "United States" }
+  - { q: "data engineer opt",           l: "United States" }
+  - { q: "data engineer visa sponsorship", l: "United States" }
 
 # LinkedIn queries (public guest search endpoint). Data-only profile.
 linkedin_queries:
@@ -599,31 +653,70 @@ linkedin_queries:
   - { q: "data scientist",      l: "Dallas, Texas, United States" }
   - { q: "data warehouse",      l: "Dallas, Texas, United States" }
   - { q: "etl developer",       l: "Dallas, Texas, United States" }
+  - { q: "data platform",       l: "Dallas, Texas, United States" }
+  - { q: "data modeler",        l: "Dallas, Texas, United States" }
   - { q: "snowflake",           l: "Dallas, Texas, United States" }
   - { q: "databricks",          l: "Dallas, Texas, United States" }
+  - { q: "azure data engineer", l: "Dallas, Texas, United States" }
+  - { q: "aws data engineer",   l: "Dallas, Texas, United States" }
+  - { q: "tableau",             l: "Dallas, Texas, United States" }
+  - { q: "power bi",            l: "Dallas, Texas, United States" }
+  # ── DFW satellites ──────────────────────────────────────────────
   - { q: "data engineer",       l: "Frisco, Texas, United States" }
   - { q: "data analyst",        l: "Frisco, Texas, United States" }
+  - { q: "data scientist",      l: "Frisco, Texas, United States" }
   - { q: "data engineer",       l: "Fort Worth, Texas, United States" }
   - { q: "data engineer",       l: "Plano, Texas, United States" }
   - { q: "data analyst",        l: "Plano, Texas, United States" }
+  - { q: "analytics engineer",  l: "Plano, Texas, United States" }
+  - { q: "data engineer",       l: "Irving, Texas, United States" }
+  - { q: "data engineer",       l: "Richardson, Texas, United States" }
+  - { q: "data engineer",       l: "Addison, Texas, United States" }
+  - { q: "data engineer",       l: "Arlington, Texas, United States" }
+  - { q: "data engineer",       l: "McKinney, Texas, United States" }
+  # ── Other TX metros ────────────────────────────────────────────
+  - { q: "data engineer",       l: "Austin, Texas, United States" }
+  - { q: "data analyst",        l: "Austin, Texas, United States" }
+  - { q: "data scientist",      l: "Austin, Texas, United States" }
+  - { q: "analytics engineer",  l: "Austin, Texas, United States" }
+  - { q: "data engineer",       l: "Houston, Texas, United States" }
+  - { q: "data analyst",        l: "Houston, Texas, United States" }
+  - { q: "data engineer",       l: "San Antonio, Texas, United States" }
+  # ── Statewide TX ───────────────────────────────────────────────
   - { q: "data engineer",       l: "Texas, United States" }
   - { q: "analytics engineer",  l: "Texas, United States" }
   - { q: "data scientist",      l: "Texas, United States" }
-  # Service-MNC targeted (by company name in keyword) — broader US net
-  # since these firms hire across many cities, not just DFW.
+  - { q: "data warehouse",      l: "Texas, United States" }
+  - { q: "data platform",       l: "Texas, United States" }
+  - { q: "snowflake",           l: "Texas, United States" }
+  - { q: "databricks",          l: "Texas, United States" }
+  - { q: "dbt",                 l: "Texas, United States" }
+  - { q: "airflow",             l: "Texas, United States" }
+  # ── Service-MNC targeted (broad US net for visa-friendly hires) ─
   - { q: "accenture data engineer",       l: "United States" }
   - { q: "deloitte data engineer",        l: "United States" }
   - { q: "infosys data engineer",         l: "United States" }
+  - { q: "cognizant data engineer",       l: "United States" }
+  - { q: "wipro data engineer",           l: "United States" }
+  - { q: "hcl data engineer",             l: "United States" }
   - { q: "tcs data engineer",             l: "United States" }
   - { q: "tech mahindra data engineer",   l: "United States" }
   - { q: "ntt data engineer",             l: "United States" }
   - { q: "mphasis data engineer",         l: "United States" }
   - { q: "ltimindtree data engineer",     l: "United States" }
+  - { q: "persistent data engineer",      l: "United States" }
+  - { q: "birlasoft data engineer",       l: "United States" }
   - { q: "ibm data engineer",             l: "United States" }
-  # Contract gigs (smaller product / staffing).
+  - { q: "kpmg data engineer",            l: "United States" }
+  - { q: "pwc data engineer",             l: "United States" }
+  - { q: "ey data engineer",              l: "United States" }
+  # ── Contract / W2 / C2C / OPT-friendly staffing ─────────────────
   - { q: "data engineer contract",        l: "Texas, United States" }
   - { q: "data engineer w2",              l: "United States" }
   - { q: "data engineer c2c",             l: "United States" }
+  - { q: "data engineer h1b",             l: "United States" }
+  - { q: "data engineer opt",             l: "United States" }
+  - { q: "data engineer visa sponsorship",l: "United States" }
 
 # Greenhouse boards (company slug as seen in boards.greenhouse.io/<slug>).
 # Tier A — top product (the user has explicitly asked NOT to over-index
@@ -697,6 +790,63 @@ greenhouse_boards:
   - loom
   - sentry
   - fastly
+  # Tier C — broader mid/early-stage data + dev-tooling cos. Lower bar,
+  # often actively sponsoring OPT/H1B for entry-mid level data roles.
+  - confluent
+  - segment
+  - census
+  - hightouch
+  - prefect
+  - dagster
+  - looker
+  - alation
+  - collibra
+  - dremio
+  - astronomer
+  - starburst
+  - imply
+  - trino
+  - clickhouse
+  - tinybird
+  - rudderstack
+  - mode
+  - sigma
+  - omni
+  - thoughtspot
+  - matillion
+  - preset
+  - metabase
+  - cube
+  - estuary
+  - pinecone
+  - weaviate
+  - qdrant
+  - chroma
+  - langchain
+  - llamaindex
+  - meltano
+  - airbyte
+  - kestra
+  - prefect-technologies
+  - monte
+  - bigeye
+  - acceldata
+  - datafold
+  - elementl
+  - fivetran-staging
+  - stitch
+  # Health / fintech mid-stage
+  - olive
+  - octanner
+  - nerdwallet
+  - upstart
+  - lendingclub
+  - sofi
+  - betterment
+  - wealthfront
+  - empower
+  - varomoney
+  - mercury-fi
 
 # Lever boards (api.lever.co/v0/postings/<slug>).
 lever_boards:
@@ -714,6 +864,32 @@ lever_boards:
   - addepar
   - benevity
   - netlify
+  # More mid-stage data / fintech / SaaS — frequent OPT-friendly roles.
+  - asana
+  - eventbrite
+  - blockchain
+  - alchemy
+  - drift
+  - planetscale
+  - render
+  - circleci
+  - hopin
+  - lightspeed
+  - matterport
+  - olo
+  - lookout
+  - pendo
+  - lacework
+  - dataiku
+  - h2oai
+  - domino
+  - cresta
+  - moveworks
+  - paloalto
+  - tanium
+  - sumologic
+  - gitlab-staging
+  - relativity
 
 # Ashby boards (api.ashbyhq.com/posting-api/job-board/<slug>).
 ashby_boards:
@@ -732,6 +908,37 @@ ashby_boards:
   - modal
   - clerk
   - cohere
+  # More AI/data dev-tooling shops on Ashby — small, OPT-friendly.
+  - anthropic
+  - perplexity
+  - mistral
+  - runway
+  - gradient
+  - magic
+  - scale
+  - factory
+  - cursor
+  - windsurf
+  - codeium
+  - sourcegraph
+  - retool-ashby
+  - notion-ashby
+  - liveblocks
+  - stytch
+  - knock
+  - resend
+  - val-town
+  - chronosphere
+  - fly
+  - railway
+  - lambda
+  - together
+  - fireworks
+  - groq
+  - pinecone-ashby
+  - weaviate-ashby
+  - greptile
+  - codecov
 
 # SmartRecruiters boards (api.smartrecruiters.com/v1/companies/<slug>/postings).
 smartrecruiters_boards:
@@ -787,6 +994,39 @@ workday_tenants:
   - { tenant: "kellyservices",  host: "wd1", site: "KellyServices" }
   - { tenant: "rht",            host: "wd5", site: "External" }   # Robert Half
   - { tenant: "tek",            host: "wd1", site: "External" }   # TEKsystems
+  # Additional TX-HQ + OPT-friendly large enterprises with Workday boards.
+  - { tenant: "phillips66",     host: "wd5", site: "Phillips66External" }
+  - { tenant: "kimberly-clark", host: "wd1", site: "KCC_External_Career_Site" }
+  - { tenant: "tenet",          host: "wd1", site: "TenetCareers" }
+  - { tenant: "comerica",       host: "wd5", site: "Comerica_Careers" }
+  - { tenant: "bnsf",           host: "wd1", site: "BNSF" }
+  - { tenant: "frontier",       host: "wd5", site: "FrontierCareers" }
+  - { tenant: "aecom",          host: "wd1", site: "AECOM_External" }
+  - { tenant: "builders",       host: "wd5", site: "BuildersFirstSource" }
+  - { tenant: "vistra",         host: "wd1", site: "Vistra" }
+  - { tenant: "atmosenergy",    host: "wd1", site: "AtmosEnergy" }
+  - { tenant: "energytransfer", host: "wd1", site: "EnergyTransfer" }
+  - { tenant: "hilton",         host: "wd1", site: "Hilton" }
+  - { tenant: "hf-sinclair",    host: "wd1", site: "HFSinclair" }
+  # Visa-friendly large product / financial services elsewhere in US
+  # (good remote / hybrid funnels for OPT candidates).
+  - { tenant: "salesforce",     host: "wd1", site: "External_Career_Site" }
+  - { tenant: "vmware",         host: "wd1", site: "VMware" }
+  - { tenant: "intuit",         host: "wd5", site: "Intuit" }
+  - { tenant: "adobe",          host: "wd5", site: "external_experienced" }
+  - { tenant: "oracle",         host: "wd1", site: "Oracle" }
+  - { tenant: "wellsfargo",     host: "wd1", site: "wellsfargojobs" }
+  - { tenant: "citi",           host: "wd1", site: "2" }
+  - { tenant: "discover",       host: "wd5", site: "External" }
+  - { tenant: "ally",           host: "wd1", site: "Ally" }
+  - { tenant: "tmobile",        host: "wd1", site: "External" }
+  - { tenant: "verizon",        host: "wd5", site: "NewVerizonCareers" }
+  - { tenant: "comcast",        host: "wd5", site: "Comcast_Careers" }
+  - { tenant: "humana",         host: "wd1", site: "Humana_External_Career_Site" }
+  - { tenant: "anthem",         host: "wd1", site: "ANTHEM" }
+  - { tenant: "cvshealth",      host: "wd1", site: "CVS_Health_Careers" }
+  - { tenant: "elevancehealth", host: "wd1", site: "ANTHEM" }
+  - { tenant: "unitedhealthgroup", host: "wd5", site: "uhg" }
 
 # Workday search queries (run against every tenant). Data-only profile.
 workday_queries:

@@ -83,8 +83,25 @@ def _required_years(text: str) -> int:
     return high
 
 
+def _has_token(haystack: str, token: str) -> bool:
+    """Word-boundary match for short tokens (≤3 chars, plus alpha ≤4) to
+    avoid noise like 'bi' inside 'mobile', 'or' inside 'corporate', or
+    'etl' inside unrelated substrings. Longer tokens fall back to
+    substring match — phrases like 'United States' or 'engineer' don't
+    have collisions worth worrying about.
+    """
+    t = token.strip().lower()
+    if not t:
+        return False
+    if len(t) <= 3 or (t.isalpha() and len(t) <= 4):
+        return re.search(r"(?<![a-z])" + re.escape(t) + r"(?![a-z])", haystack) is not None
+    return t in haystack
+
+
 def _contains_all(haystack: str, tokens: Iterable[str]) -> bool:
-    return all(tok in haystack for tok in tokens)
+    """Every token must appear in haystack, with word-boundary handling
+    for short tokens via _has_token."""
+    return all(_has_token(haystack, tok) for tok in tokens)
 
 
 def matches_keywords(job: Job, groups: dict, scope: str = "blob") -> list[str]:
@@ -108,20 +125,6 @@ def matches_keywords(job: Job, groups: dict, scope: str = "blob") -> list[str]:
                 hits.append(group_name)
                 break
     return hits
-
-
-def _has_token(haystack: str, token: str) -> bool:
-    """Word-boundary match for short tokens (≤3 chars) to avoid noise
-    like 'ca' inside 'casablanca' or 'or' inside 'corporate'. Longer
-    tokens fall back to substring match — locations like 'United States'
-    don't have collisions worth worrying about.
-    """
-    t = token.strip().lower()
-    if not t:
-        return False
-    if len(t) <= 3 or t.isalpha() and len(t) <= 4:
-        return re.search(r"(?<![a-z])" + re.escape(t) + r"(?![a-z])", haystack) is not None
-    return t in haystack
 
 
 def location_ok(job: Job, locs: dict) -> tuple[bool, bool]:
