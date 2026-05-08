@@ -1,0 +1,51 @@
+name: weekly-cleanup
+
+# Sweep every Sunday at 07:00 UTC: walk seen.json, drop dead URLs so
+# refreshed postings can resurface in tomorrow's daily-scrape archive.
+on:
+  schedule:
+    - cron: "0 7 * * 0"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-cleanup-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run healthcheck
+        run: python -m scripts.healthcheck --seen output/seen.json --max-urls 2000
+
+      - name: Commit cleaned seen.json
+        continue-on-error: true
+        run: |
+          git config user.name "job-hunter-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          git add output/seen.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: weekly seen.json cleanup $(date -u +%Y-%m-%d)"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          else
+            echo "no dead URLs found"
+          fi

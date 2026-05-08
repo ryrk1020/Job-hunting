@@ -40,6 +40,8 @@ SOURCE_DIRECTNESS: dict[str, int] = {
     # Public APIs that typically link to the company's official posting.
     "adzuna":           70,
     "usajobs":          70,
+    "builtin":          70,   # links to company apply, one redirect
+    "dice":             65,   # dice listing → original posting
     "ycombinator":      65,   # YC has its own apply flow per startup
     "themuse":          60,
     # Pure aggregators — clicking opens the aggregator's view, then a

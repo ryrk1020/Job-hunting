@@ -144,6 +144,8 @@ function sortJobs(jobs, by) {
   switch (by) {
     case "posted":
       return arr.sort((a, b) => new Date(b.posted_at || 0) - new Date(a.posted_at || 0));
+    case "salary":
+      return arr.sort((a, b) => (b.salary_min || 0) - (a.salary_min || 0));
     case "company":
       return arr.sort((a, b) => (a.company || "").localeCompare(b.company || ""));
     case "title":
@@ -181,6 +183,15 @@ function directnessBadge(j) {
   return `<span class="badge badge-redirect" title="Aggregator / guest search; may take extra clicks to reach the apply form">redirect</span>`;
 }
 
+function fmtSalary(j) {
+  const lo = j.salary_min, hi = j.salary_max;
+  if (!lo && !hi) return "";
+  const k = (n) => n >= 1000 ? `$${Math.round(n / 1000)}k` : `$${n}`;
+  if (lo && hi) return `${k(lo)}–${k(hi)}`;
+  if (lo) return `from ${k(lo)}`;
+  return `up to ${k(hi)}`;
+}
+
 function jobCard(j) {
   const tags = [];
   if (j.preferred_location) tags.push("preferred");
@@ -190,12 +201,20 @@ function jobCard(j) {
   const posted = (j.posted_at || "").slice(0, 10);
   const altCount = (j.alt_sources || []).length;
   const altSuffix = altCount ? ` <span class="alt-count" title="${altCount} other source${altCount === 1 ? "" : "s"} also has this job">+${altCount}</span>` : "";
+  const salary = fmtSalary(j);
+  const salaryBadge = salary ? `<span class="salary-badge" title="Annual salary range parsed from posting">${salary}</span>` : "";
+  const yoeBadge = (j.required_years > 0)
+    ? `<span class="yoe-badge" title="Years of experience required">${j.required_years} yr</span>`
+    : "";
+  const techTags = (j.tech_tags || []);
+  const techHtml = techTags.map(t => `<span class="tech-chip">${safe(t)}</span>`).join("");
   return `
     <article class="job" data-url="${encodeURIComponent(j.url)}">
       <div class="job-score" title="Match score">${j.score || 0}</div>
       <div class="job-main">
         <h3 class="job-title">
           <a href="${j.url}" target="_blank" rel="noopener">${safe(j.title)}</a>
+          ${salaryBadge}${yoeBadge}
         </h3>
         <div class="job-meta">
           <span class="job-company">${safe(j.company)}</span>
@@ -209,6 +228,7 @@ function jobCard(j) {
           ${directnessBadge(j)}
         </div>
         <div class="job-tags">${tagHtml}</div>
+        ${techHtml ? `<div class="job-tech">${techHtml}</div>` : ""}
       </div>
       <div class="job-actions">
         <a class="btn btn-primary" href="${j.url}" target="_blank" rel="noopener">Apply ↗</a>
@@ -308,12 +328,14 @@ function renderDrawer() {
           <span class="meta-sep">·</span>
           ${directnessLabel}
         </div>
+        ${(j.salary_min || j.salary_max) ? `<div class="drawer-sub"><span class="salary-badge">${fmtSalary(j)}</span>${j.required_years > 0 ? ` <span class="yoe-badge">${j.required_years} yr req</span>` : ""}</div>` : (j.required_years > 0 ? `<div class="drawer-sub"><span class="yoe-badge">${j.required_years} yr req</span></div>` : "")}
         <div class="drawer-actions">
           <a class="btn btn-primary" href="${j.url}" target="_blank" rel="noopener">Open posting ↗</a>
         </div>
       </div>
     </div>
     ${tags.length ? `<section class="drawer-section"><h4>Tags</h4><div class="job-tags">${tagHtml}</div></section>` : ""}
+    ${(j.tech_tags || []).length ? `<section class="drawer-section"><h4>Tech stack</h4><div class="job-tech">${(j.tech_tags || []).map(t => `<span class="tech-chip">${safe(t)}</span>`).join("")}</div></section>` : ""}
     ${altHtml}
     <section class="drawer-section">
       <h4>Description</h4>

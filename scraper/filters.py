@@ -83,6 +83,169 @@ def _required_years(text: str) -> int:
     return high
 
 
+# ──────────────────────────── Salary parsing ───────────────────────────
+# Goal: extract the dollar floor (and ceiling, when present) from common
+# US salary phrasings so the dashboard can sort/filter by pay. Examples:
+#   "$95,000 - $130,000", "$95k-$130k", "$95K to $130K",
+#   "salary range: $90,000.00 - $130,000.00 USD",
+#   "compensation: 110-145k", "base salary 100-120k",
+#   "up to $150k", "from $90k"
+#
+# We intentionally ignore postings that mention only an hourly rate
+# (e.g. "$45/hr") because those numbers do not compare cleanly against
+# annual ranges.
+# Capture a number that's either k-shorthand (95k), comma-grouped
+# (95,000), decimal (95,000.00), or plain (95000). Returns the dollar
+# value as an integer when interpreted as either annual or k-shorthand.
+_NUM = r"(\d{2,3})(?:,(\d{3}))?(?:\.\d+)?\s*([kK])?"
+# Range pattern parts
+_DASH = r"\s*(?:-|–|—|to)\s*"
+
+# 1. Explicit $-prefixed range: "$95k-$130k" or "$95,000 - $130,000".
+_SAL_DOLLAR_RANGE = re.compile(rf"\$\s*{_NUM}{_DASH}\$?\s*{_NUM}", re.IGNORECASE)
+# 2. Plain k-suffixed range without $: "95-130k" or "110k-145k".
+_SAL_K_RANGE = re.compile(
+    rf"\b(\d{{2,3}})\s*([kK])?{_DASH}(\d{{2,3}})\s*[kK]\b",
+    re.IGNORECASE,
+)
+# 3. Salary-context anchored numeric range: "salary range: 200000-280000",
+#    "compensation: 90,000 - 130,000", "pay: 100,000.00 - 150,000.00".
+_SAL_CONTEXT_RANGE = re.compile(
+    r"(?:salary(?:\s+range)?|compensation|pay(?:\s+range)?|base\s+pay|annual\s+salary)"
+    rf"[:\s]+\$?\s*{_NUM}{_DASH}\$?\s*{_NUM}",
+    re.IGNORECASE,
+)
+# 3b. Long-form integer range in salary context: "compensation 200000 -
+#     280000 USD" / "salary 90000 to 130000". 5-6 digit annual numbers
+#     without commas or k-shorthand.
+_SAL_CONTEXT_LONG = re.compile(
+    r"(?:salary(?:\s+range)?|compensation|pay(?:\s+range)?|base\s+pay|annual\s+salary)"
+    rf"[:\s]+\$?\s*(\d{{4,6}}){_DASH}\$?\s*(\d{{4,6}})",
+    re.IGNORECASE,
+)
+# 4. "up to $150k" / "up to 150000" — only a ceiling.
+_SAL_UP_TO = re.compile(rf"up\s*to\s*\$?\s*{_NUM}", re.IGNORECASE)
+# 5. "from $90k" / "starting at $95,000" — only a floor.
+_SAL_FROM = re.compile(
+    rf"(?:from|starting\s*at|minimum\s*of?)\s*\$?\s*{_NUM}", re.IGNORECASE,
+)
+
+
+def _coerce_num(integer: str, thousands: str | None, k_suffix: str | None) -> int:
+    """Resolve a captured _NUM group into a dollar value."""
+    n = int(integer)
+    if thousands:
+        n = n * 1000 + int(thousands)
+    elif k_suffix:
+        n = n * 1000
+    elif n < 1000:
+        # Bare 2-3 digit number with no decoration — assume k-shorthand.
+        n = n * 1000
+    return n
+
+
+def _sanitize_salary(n: int | None) -> int | None:
+    if n is None:
+        return None
+    return n if 30_000 <= n <= 600_000 else None
+
+
+def _extract_salary(text: str) -> tuple[int | None, int | None]:
+    """Return (annual_min_usd, annual_max_usd) or (None, None).
+
+    Tries pattern families in priority order. Numbers are sanity-checked
+    to fall in [30k, 600k] (annual USD) — outside that window is almost
+    always a parse error or a non-salary number.
+    """
+    if not text:
+        return None, None
+
+    # Either-side k-suffix unifies as k for both ends (so "$95k - $130"
+    # is interpreted as "$95k - $130k"). Same for plain-range.
+    for pat in (_SAL_DOLLAR_RANGE, _SAL_K_RANGE, _SAL_CONTEXT_RANGE):
+        for m in pat.finditer(text):
+            g = m.groups()
+            # Dollar/context: 6 groups (a, a_thou, a_k, b, b_thou, b_k).
+            # K-range: (a, a_k, b)  + implicit k on b.
+            if pat is _SAL_K_RANGE:
+                a_int, a_k, b_int = g
+                b_k = "k"  # always present in the regex
+                a_thou = b_thou = None
+                # If only one side has the k explicitly, propagate it so
+                # "110-145k" → both treated as k.
+                if not a_k:
+                    a_k = "k"
+            else:
+                a_int, a_thou, a_k, b_int, b_thou, b_k = g
+                # Propagate k between sides when only one is annotated.
+                if a_k and not b_k:
+                    b_k = a_k
+                if b_k and not a_k:
+                    a_k = b_k
+            lo = _sanitize_salary(_coerce_num(a_int, a_thou, a_k))
+            hi = _sanitize_salary(_coerce_num(b_int, b_thou, b_k))
+            if lo and hi and lo <= hi:
+                return lo, hi
+
+    # Long-form integer range in salary context.
+    for m in _SAL_CONTEXT_LONG.finditer(text):
+        lo = _sanitize_salary(int(m.group(1)))
+        hi = _sanitize_salary(int(m.group(2)))
+        if lo and hi and lo <= hi:
+            return lo, hi
+
+    m = _SAL_UP_TO.search(text)
+    if m:
+        n = _sanitize_salary(_coerce_num(*m.groups()))
+        if n:
+            return None, n
+
+    m = _SAL_FROM.search(text)
+    if m:
+        n = _sanitize_salary(_coerce_num(*m.groups()))
+        if n:
+            return n, None
+
+    return None, None
+
+
+# ─────────────────────── Tech-stack auto-tagging ──────────────────────
+# Detect named data tools / clouds / languages in title + description so
+# the dashboard can render them as quick-glance chips. Matches are
+# word-boundary, case-insensitive.
+_TECH_TAGS: dict[str, list[str]] = {
+    "snowflake":   ["snowflake"],
+    "databricks":  ["databricks"],
+    "spark":       ["spark", "pyspark"],
+    "airflow":     ["airflow"],
+    "dbt":         ["dbt"],
+    "kafka":       ["kafka"],
+    "hadoop":      ["hadoop", "hdfs", "hive"],
+    "redshift":    ["redshift"],
+    "bigquery":    ["bigquery"],
+    "tableau":     ["tableau"],
+    "power bi":    ["power bi", "powerbi"],
+    "informatica": ["informatica"],
+    "python":      ["python"],
+    "sql":         ["sql"],
+    "aws":         ["aws", "amazon web services"],
+    "azure":       ["azure"],
+    "gcp":         ["gcp", "google cloud"],
+    "kubernetes":  ["kubernetes", "k8s"],
+}
+_TECH_TAG_RES = {
+    label: re.compile(r"(?<![a-z])(?:" + "|".join(re.escape(t) for t in toks) + r")(?![a-z])", re.IGNORECASE)
+    for label, toks in _TECH_TAGS.items()
+}
+
+
+def _detect_tech_tags(text: str) -> list[str]:
+    """Return the set of tech-stack labels found in the text."""
+    if not text:
+        return []
+    return [label for label, pat in _TECH_TAG_RES.items() if pat.search(text)]
+
+
 def _has_token(haystack: str, token: str) -> bool:
     """Word-boundary match for short tokens (≤3 chars, plus alpha ≤4) to
     avoid noise like 'bi' inside 'mobile', 'or' inside 'corporate', or
@@ -284,12 +447,31 @@ def score(job: Job, matched_groups: list[str], is_preferred_loc: bool) -> int:
         if tok in blob:
             s += 25
             break
+    # Graduated freshness decay over the 7-day window. Truly fresh
+    # postings float to the top; week-old ones get a penalty so the
+    # daily feed prefers the latest.
     if job.posted_at is not None:
         age_h = (datetime.now(timezone.utc) - job.posted_at).total_seconds() / 3600
         if age_h < 24:
+            s += 30
+        elif age_h < 48:
             s += 20
         elif age_h < 72:
             s += 10
+        elif age_h < 120:
+            s += 0
+        else:  # 120-168h (5-7 days)
+            s -= 10
+    # Salary boost — postings that publish a strong floor get a small
+    # nudge above otherwise-equivalent silent postings.
+    sal_min = getattr(job, "_salary_min", None)
+    if sal_min:
+        if sal_min >= 150_000:
+            s += 15
+        elif sal_min >= 120_000:
+            s += 10
+        elif sal_min >= 90_000:
+            s += 5
     return s
 
 
@@ -364,10 +546,20 @@ def apply_all(
             if any(_has_token(low, c) for c in (locs.get("exclude_countries") or [])):
                 dropped_loc += 1
                 continue
+        # Salary + tech tags. Both scan title + description.
+        sal_blob = f"{j.title}\n{j.description}"
+        sal_min, sal_max = _extract_salary(sal_blob)
+        # Stash on the job so score() can read it for the salary boost.
+        j._salary_min = sal_min  # type: ignore[attr-defined]
+        tech_tags = _detect_tech_tags(sal_blob)
+
         row = j.to_dict()
         row["matched_groups"] = hits
         row["preferred_location"] = preferred
         row["required_years"] = req_yoe
+        row["salary_min"] = sal_min
+        row["salary_max"] = sal_max
+        row["tech_tags"] = tech_tags
         row["score"] = score(j, hits, preferred)
         row["_fp"] = j.fingerprint()
         row["directness"] = j.directness()

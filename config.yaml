@@ -36,8 +36,22 @@ keywords:
     - ["hadoop"]
     - ["informatica"]
     - ["power", "bi"]
+    - ["powerbi"]
     - ["tableau"]
     - ["big", "data"]
+    # BI / reporting / analytics — broader coverage so 'BI Analyst',
+    # 'Reporting Developer', 'Analytics Developer' surface alongside the
+    # core engineer/scientist titles.
+    - ["bi", "analyst"]
+    - ["reporting", "analyst"]
+    - ["reporting", "developer"]
+    - ["analytics", "developer"]
+    - ["data", "visualization"]
+    # Machine-learning / MLOps — re-added so 'ML Engineer', 'MLOps
+    # Engineer', 'Machine Learning Engineer' match.
+    - ["ml", "engineer"]
+    - ["mlops"]
+    - ["machine", "learning"]
   # NOTE: the legacy "junior" keyword group is intentionally removed in
   # the data-only profile. Junior / entry-level signals are still applied
   # as a SCORING boost inside scraper/filters.py:score(), but they no
@@ -506,7 +520,7 @@ exclude:
 keyword_match_scope: title
 
 # Freshness — only keep jobs posted within this many days.
-max_age_days: 2
+max_age_days: 7
 
 # When true, drop any posting that has no parseable posted_at date.
 # Many ATS feeds (Greenhouse/Lever) omit it; with this on, those are
@@ -532,9 +546,9 @@ min_description_chars: 120
 
 # Target jobs per run. Acts as BOTH a floor (search widens to reach it)
 # AND a ceiling (output is truncated to exactly this many — highest
-# scored, preferred-location first). Data-only profile keeps this tight
-# so the dashboard shows only the top 10 best-aligned data jobs per day.
-min_jobs_target: 10
+# scored, preferred-location first). Data-only profile shows the top
+# 20 best-aligned data jobs per day.
+min_jobs_target: 20
 
 # Sources to enable.
 sources:
@@ -554,6 +568,40 @@ sources:
   ycombinator: true     # firehose of small startups; the title-strict
                         # data filter keeps it manageable, and YC cos
                         # often sponsor visas for early data hires.
+  builtin: true         # builtin.com — TX tech-only listings, mostly
+                        # one-redirect-to-apply (directness 70).
+  dice: true            # best-effort against the dhigroupinc API; runs
+                        # gracefully fail if blocked (403) and log warning.
+
+# Built In queries (city + search term).
+builtin_queries:
+  - { city: "dallas-tx",   q: "data engineer" }
+  - { city: "dallas-tx",   q: "data analyst" }
+  - { city: "dallas-tx",   q: "analytics engineer" }
+  - { city: "dallas-tx",   q: "data scientist" }
+  - { city: "dallas-tx",   q: "snowflake" }
+  - { city: "dallas-tx",   q: "databricks" }
+  - { city: "austin",      q: "data engineer" }
+  - { city: "austin",      q: "data analyst" }
+  - { city: "austin",      q: "data scientist" }
+  - { city: "austin",      q: "analytics engineer" }
+  - { city: "houston",     q: "data engineer" }
+  - { city: "houston",     q: "data analyst" }
+  - { city: "remote",      q: "data engineer" }
+  - { city: "remote",      q: "data analyst" }
+  - { city: "remote",      q: "analytics engineer" }
+
+# Dice queries (location-qualified). Note: Dice's API often returns 403
+# from public crawlers; the adapter no-ops gracefully when that happens.
+dice_queries:
+  - { q: "data engineer",       l: "Dallas, TX" }
+  - { q: "data analyst",        l: "Dallas, TX" }
+  - { q: "analytics engineer",  l: "Dallas, TX" }
+  - { q: "data scientist",      l: "Dallas, TX" }
+  - { q: "snowflake developer", l: "Texas" }
+  - { q: "databricks engineer", l: "Texas" }
+  - { q: "data engineer",       l: "Austin, TX" }
+  - { q: "data engineer",       l: "Houston, TX" }
 
 # Indeed RSS queries (location-qualified). Data-only profile, expanded
 # to cover more TX cities, more data niches, and more visa-friendly
