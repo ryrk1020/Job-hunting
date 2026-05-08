@@ -147,6 +147,16 @@ def run(cfg_path: Path, out_dir: Path) -> int:
             log.warning("could not read existing archive %s: %s", archive_path, e)
 
     if existing_rows:
+        # Backfill missing fields on legacy archive entries (older runs
+        # before directness/alt_sources existed) so the dashboard renders
+        # uniformly across rows.
+        from .sources.base import directness as _src_directness
+        for r in existing_rows:
+            if "directness" not in r:
+                r["directness"] = _src_directness(r.get("source", ""))
+            if "alt_sources" not in r:
+                r["alt_sources"] = []
+
         seen_urls: set[str] = set()
         merged: list[dict] = []
         # Existing rows first (they're already committed to seen.json),
