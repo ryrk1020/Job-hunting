@@ -202,19 +202,64 @@ class Job:
 
 
 class HttpClient:
-    """Tiny wrapper so every adapter gets consistent headers + timeouts."""
+    """Per-process wrapper around a requests.Session with retries.
 
-    def __init__(self, timeout: int = 20):
+    All source adapters share one of these. Behaviour:
+
+    * **User-Agent** identifies us as the project (politer than the
+      default `python-requests/<ver>` which some sites block outright).
+    * **Connect / read timeouts** are split — connect=8s catches dead
+      hosts quickly, read=20s lets slow Workday tenants finish
+      streaming. Adapters that need a different read budget can pass
+      a `timeout=...` kwarg.
+    * **Automatic retries** for 429 / 500 / 502 / 503 / 504 and
+      connection / read failures. Exponential backoff up to 3 retries.
+      A persistently-failing endpoint surfaces as a regular
+      requests.HTTPError after retries are exhausted, which the
+      adapter's existing try/except handles.
+    """
+
+    DEFAULT_TIMEOUT: tuple[float, float] = (8.0, 20.0)
+    RETRY_TOTAL = 3
+    RETRY_BACKOFF = 0.7  # 0.7s, 1.4s, 2.8s — total ~5s worst case
+    RETRY_STATUS_CODES = frozenset({429, 500, 502, 503, 504})
+
+    def __init__(self, timeout: tuple[float, float] | float | None = None):
         self.s = requests.Session()
         self.s.headers.update({"User-Agent": UA, "Accept": "application/json, */*"})
-        self.timeout = timeout
+        self.timeout = timeout if timeout is not None else self.DEFAULT_TIMEOUT
+        try:
+            from urllib3.util.retry import Retry
+            from requests.adapters import HTTPAdapter
+
+            retry = Retry(
+                total=self.RETRY_TOTAL,
+                connect=self.RETRY_TOTAL,
+                read=self.RETRY_TOTAL,
+                backoff_factor=self.RETRY_BACKOFF,
+                status_forcelist=self.RETRY_STATUS_CODES,
+                allowed_methods=frozenset({"GET", "POST", "HEAD"}),
+                raise_on_status=False,
+                respect_retry_after_header=True,
+            )
+            adapter = HTTPAdapter(
+                max_retries=retry,
+                pool_connections=20,
+                pool_maxsize=20,
+            )
+            self.s.mount("http://", adapter)
+            self.s.mount("https://", adapter)
+        except ImportError:  # urllib3 must be present, but be defensive.
+            log.warning("urllib3 Retry unavailable; HTTP requests will not auto-retry")
 
     def get_json(self, url: str, **kw) -> Any:
-        r = self.s.get(url, timeout=self.timeout, **kw)
+        kw.setdefault("timeout", self.timeout)
+        r = self.s.get(url, **kw)
         r.raise_for_status()
         return r.json()
 
     def get_text(self, url: str, **kw) -> str:
-        r = self.s.get(url, timeout=self.timeout, **kw)
+        kw.setdefault("timeout", self.timeout)
+        r = self.s.get(url, **kw)
         r.raise_for_status()
         return r.text

@@ -2,60 +2,69 @@
 from __future__ import annotations
 
 import csv
+import io
 import json
 import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .io_utils import atomic_write_text
+
 WEB_DIR = Path(__file__).parent / "web"
+
+# Cap each posting's stored description so a single 50KB HTML blob can't
+# bloat the daily archive. Filtering already operates on the full
+# pre-trim text, so this only affects on-disk size + dashboard payload.
+DESCRIPTION_CAP_CHARS = 16_000
 
 
 def _strip_internal(rows: list[dict]) -> list[dict]:
     out = []
     for r in rows:
-        out.append({k: v for k, v in r.items() if not k.startswith("_")})
+        clean = {k: v for k, v in r.items() if not k.startswith("_")}
+        desc = clean.get("description")
+        if isinstance(desc, str) and len(desc) > DESCRIPTION_CAP_CHARS:
+            clean["description"] = desc[:DESCRIPTION_CAP_CHARS] + "…"
+        out.append(clean)
     return out
 
 
 def write_json(rows: list[dict], path: Path) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8") as f:
-        json.dump(
-            {
-                "generated_at": datetime.now(timezone.utc).isoformat(),
-                "count": len(rows),
-                "jobs": _strip_internal(rows),
-            },
-            f,
-            indent=2,
-            ensure_ascii=False,
-        )
+    payload = json.dumps(
+        {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "count": len(rows),
+            "jobs": _strip_internal(rows),
+        },
+        indent=2,
+        ensure_ascii=False,
+    )
+    atomic_write_text(path, payload)
 
 
 def write_csv(rows: list[dict], path: Path) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
     fields = [
         "score", "directness", "posted_at", "source", "company", "title",
         "location", "url", "salary_min", "salary_max", "required_years",
         "tech_tags", "matched_groups", "preferred_location", "alt_sources",
     ]
-    with path.open("w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
-        w.writeheader()
-        for r in rows:
-            row = dict(r)
-            row["matched_groups"] = ",".join(r.get("matched_groups", []) or [])
-            row["tech_tags"] = ",".join(r.get("tech_tags", []) or [])
-            # Compress alt_sources to a comma-separated list of URLs so
-            # the CSV stays one-row-per-job.
-            row["alt_sources"] = ",".join(
-                a.get("url", "") for a in (r.get("alt_sources") or []) if a.get("url")
-            )
-            w.writerow(row)
+    buf = io.StringIO(newline="")
+    w = csv.DictWriter(buf, fieldnames=fields, extrasaction="ignore")
+    w.writeheader()
+    for r in rows:
+        row = dict(r)
+        row["matched_groups"] = ",".join(r.get("matched_groups", []) or [])
+        row["tech_tags"] = ",".join(r.get("tech_tags", []) or [])
+        # Compress alt_sources to a comma-separated list of URLs so
+        # the CSV stays one-row-per-job.
+        row["alt_sources"] = ",".join(
+            a.get("url", "") for a in (r.get("alt_sources") or []) if a.get("url")
+        )
+        w.writerow(row)
+    atomic_write_text(path, buf.getvalue())
 
 
 def write_markdown(rows: list[dict], path: Path) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
     lines = [
         f"# Latest Jobs ({len(rows)})",
         "",
@@ -78,7 +87,7 @@ def write_markdown(rows: list[dict], path: Path) -> None:
                 url=r.get("url", ""),
             )
         )
-    path.write_text("\n".join(lines), encoding="utf-8")
+    atomic_write_text(path, "\n".join(lines))
 
 
 def write_manifest(out_dir: Path) -> None:
@@ -91,10 +100,12 @@ def write_manifest(out_dir: Path) -> None:
             days.append({"date": p.stem, "count": data.get("count", 0)})
         except (json.JSONDecodeError, OSError):
             continue
-    (out_dir / "manifest.json").write_text(
-        json.dumps({"days": days, "generated_at": datetime.now(timezone.utc).isoformat()},
-                   indent=2),
-        encoding="utf-8",
+    atomic_write_text(
+        out_dir / "manifest.json",
+        json.dumps(
+            {"days": days, "generated_at": datetime.now(timezone.utc).isoformat()},
+            indent=2,
+        ),
     )
 
 

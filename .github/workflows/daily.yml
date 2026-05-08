@@ -43,6 +43,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Run unit tests
+        # Cheap guard against accidental regressions in the load-bearing
+        # filter / dedup / IO logic. The full scrape only runs after
+        # tests pass.
+        run: python -m unittest discover -s tests -v
+
       - name: Run scraper
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}

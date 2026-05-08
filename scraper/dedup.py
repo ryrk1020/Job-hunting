@@ -17,6 +17,8 @@ import logging
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .io_utils import atomic_write_text
+
 log = logging.getLogger(__name__)
 
 
@@ -28,8 +30,16 @@ class SeenStore:
         if path.exists():
             try:
                 data = json.loads(path.read_text(encoding="utf-8"))
-                self.urls = data.get("urls", {}) or {}
-                self.fingerprints = data.get("fingerprints", {}) or {}
+                if not isinstance(data, dict):
+                    log.warning(
+                        "seen store at %s is not a JSON object (got %s); starting fresh",
+                        path, type(data).__name__,
+                    )
+                else:
+                    urls = data.get("urls", {})
+                    fps = data.get("fingerprints", {})
+                    self.urls = urls if isinstance(urls, dict) else {}
+                    self.fingerprints = fps if isinstance(fps, dict) else {}
             except (json.JSONDecodeError, OSError) as e:
                 log.warning("seen store unreadable, starting fresh: %s", e)
 
@@ -43,14 +53,13 @@ class SeenStore:
             self.fingerprints[fingerprint] = day
 
     def save(self) -> None:
-        self.path.parent.mkdir(parents=True, exist_ok=True)
-        self.path.write_text(
+        atomic_write_text(
+            self.path,
             json.dumps(
                 {"urls": self.urls, "fingerprints": self.fingerprints},
                 indent=0,
                 ensure_ascii=False,
             ),
-            encoding="utf-8",
         )
 
     def stats(self) -> dict:
