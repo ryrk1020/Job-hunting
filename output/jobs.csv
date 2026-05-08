@@ -1,20 +1,20 @@
-score,posted_at,source,company,title,location,url,matched_groups,preferred_location
-135,2026-05-08T00:00:00+00:00,linkedin,Ascendion,Data Engineer,"Plano, TX",https://www.linkedin.com/jobs/view/data-engineer-at-ascendion-4411397717,data,True
-105,2026-05-06T00:00:00+00:00,linkedin,Cambium Assessment,Assessment Technical Data Analyst Intern,"Dallas, TX",https://www.linkedin.com/jobs/view/assessment-technical-data-analyst-intern-at-cambium-assessment-4401468515,data,True
-95,2026-05-07T00:00:00+00:00,linkedin,Schneider Electric,Business Intelligence Analyst,"Dallas, TX",https://www.linkedin.com/jobs/view/business-intelligence-analyst-at-schneider-electric-4410830573,data,True
-100,2026-05-08T19:24:43+00:00,greenhouse,hightouch,Forward Deployed Marketing Data Scientist,Remote (North America),https://job-boards.greenhouse.io/hightouch/jobs/5718912004,data,False
-80,2026-05-05T20:22:59+00:00,greenhouse,datadog,Associate Marketing Data Analyst - Marketing Analytics,"New York, New York, USA",https://careers.datadoghq.com/detail/7837084/?gh_jid=7837084,data,False
-75,2026-05-08T19:32:29+00:00,greenhouse,airbnb,"Data Scientist, Platform - Martech",United States,https://careers.airbnb.com/positions/7904127?gh_jid=7904127,data,False
-70,2026-05-05T20:22:59+00:00,greenhouse,datadog,"Manager I, Engineering - Core Analytics","New York, New York, USA",https://careers.datadoghq.com/detail/7696093/?gh_jid=7696093,data,False
-65,2026-05-05T15:49:23+00:00,greenhouse,reddit,Data Scientist,"San Francisco, CA",https://job-boards.greenhouse.io/reddit/jobs/7871499,data,False
-65,2026-05-06T13:39:13+00:00,greenhouse,dropbox,Data Scientist,Remote - US: Select locations,https://jobs.dropbox.com/listing/7762004?gh_jid=7762004,data,False
-65,2026-05-05T22:14:54+00:00,greenhouse,lyft,"Data Scientist, Algorithms, Optimization - Fulfillment","San Francisco, CA",https://app.careerpuck.com/job-board/lyft/job/8536085002?gh_jid=8536085002,data,False
-65,2026-05-05T22:14:54+00:00,greenhouse,lyft,"Data Scientist, Algorithms, Optimization - Fulfillment","New York, NY",https://app.careerpuck.com/job-board/lyft/job/8335733002?gh_jid=8335733002,data,False
-65,2026-05-05T22:14:54+00:00,greenhouse,lyft,"Data Scientist, Algorithms, Optimization - Fulfillment","Seattle, WA",https://app.careerpuck.com/job-board/lyft/job/8335715002?gh_jid=8335715002,data,False
-65,2026-05-05T22:14:54+00:00,greenhouse,lyft,"Data Scientist, Supply and Operations Technology, Lyft Urban Solutions","New York, NY",https://app.careerpuck.com/job-board/lyft/job/8402782002?gh_jid=8402782002,data,False
-60,2026-05-04T15:52:00+00:00,greenhouse,stripe,Data Scientist,"Seattle, WA",https://stripe.com/jobs/search?gh_jid=7809414,data,False
-60,2026-05-06T20:36:11+00:00,greenhouse,reddit,"Ads Conversion Modeling, Machine Learning Engineering Manager",Remote - United States,https://job-boards.greenhouse.io/reddit/jobs/7792848,data,False
-60,2026-05-04T10:05:45+00:00,greenhouse,samsara,Data Engineer II,Remote - US,https://www.samsara.com/company/careers/roles/7859406?gh_jid=7859406,data,False
-55,2026-05-05T22:14:54+00:00,greenhouse,lyft,"Machine Learning Engineer, Lyft Business","New York, NY; San Francisco, CA",https://app.careerpuck.com/job-board/lyft/job/8513769002?gh_jid=8513769002,data,False
-45,2026-05-07T07:02:19+00:00,greenhouse,klaviyo,"Software Engineer II, Data Automation ","Boston, MA",https://www.klaviyo.com/careers/jobs?gh_jid=7453478003,data,False
-30,2026-05-04T15:52:00+00:00,greenhouse,stripe,"Software Engineer, Machine Learning Infrastructure",N/A,https://stripe.com/jobs/search?gh_jid=7376835,data,False
+score,directness,posted_at,source,company,title,location,url,salary_min,salary_max,required_years,tech_tags,matched_groups,preferred_location,alt_sources
+135,35,2026-05-08T00:00:00+00:00,linkedin,Ascendion,Data Engineer,"Plano, TX",https://www.linkedin.com/jobs/view/data-engineer-at-ascendion-4411397717,90000,100000,0,"snowflake,databricks,spark,airflow,kafka,redshift,python,sql,aws",data,True,
+105,35,2026-05-06T00:00:00+00:00,linkedin,Cambium Assessment,Assessment Technical Data Analyst Intern,"Dallas, TX",https://www.linkedin.com/jobs/view/assessment-technical-data-analyst-intern-at-cambium-assessment-4401468515,,,0,"python,sql",data,True,
+95,35,2026-05-07T00:00:00+00:00,linkedin,Schneider Electric,Business Intelligence Analyst,"Dallas, TX",https://www.linkedin.com/jobs/view/business-intelligence-analyst-at-schneider-electric-4410830573,,,0,,data,True,
+100,100,2026-05-08T19:24:43+00:00,greenhouse,hightouch,Forward Deployed Marketing Data Scientist,Remote (North America),https://job-boards.greenhouse.io/hightouch/jobs/5718912004,140000,220000,0,"snowflake,databricks,python,sql",data,False,
+80,100,2026-05-05T20:22:59+00:00,greenhouse,datadog,Associate Marketing Data Analyst - Marketing Analytics,"New York, New York, USA",https://careers.datadoghq.com/detail/7837084/?gh_jid=7837084,,,3,sql,data,False,
+75,100,2026-05-08T19:32:29+00:00,greenhouse,airbnb,"Data Scientist, Platform - Martech",United States,https://careers.airbnb.com/positions/7904127?gh_jid=7904127,,,2,"python,sql",data,False,
+70,100,2026-05-05T20:22:59+00:00,greenhouse,datadog,"Manager I, Engineering - Core Analytics","New York, New York, USA",https://careers.datadoghq.com/detail/7696093/?gh_jid=7696093,,,0,"spark,aws",data,False,
+65,100,2026-05-05T15:49:23+00:00,greenhouse,reddit,Data Scientist,"San Francisco, CA",https://job-boards.greenhouse.io/reddit/jobs/7871499,164200,229900,0,"spark,hadoop,python,sql",data,False,
+65,100,2026-05-06T13:39:13+00:00,greenhouse,dropbox,Data Scientist,Remote - US: Select locations,https://jobs.dropbox.com/listing/7762004?gh_jid=7762004,,,0,"hadoop,sql",data,False,
+65,100,2026-05-05T22:14:54+00:00,greenhouse,lyft,"Data Scientist, Algorithms, Optimization - Fulfillment","San Francisco, CA",https://app.careerpuck.com/job-board/lyft/job/8536085002?gh_jid=8536085002,128000,160000,2,python,data,False,
+65,100,2026-05-05T22:14:54+00:00,greenhouse,lyft,"Data Scientist, Algorithms, Optimization - Fulfillment","New York, NY",https://app.careerpuck.com/job-board/lyft/job/8335733002?gh_jid=8335733002,128000,160000,2,python,data,False,
+65,100,2026-05-05T22:14:54+00:00,greenhouse,lyft,"Data Scientist, Algorithms, Optimization - Fulfillment","Seattle, WA",https://app.careerpuck.com/job-board/lyft/job/8335715002?gh_jid=8335715002,128000,160000,2,python,data,False,
+65,100,2026-05-05T22:14:54+00:00,greenhouse,lyft,"Data Scientist, Supply and Operations Technology, Lyft Urban Solutions","New York, NY",https://app.careerpuck.com/job-board/lyft/job/8402782002?gh_jid=8402782002,128000,160000,3,"python,sql",data,False,
+60,100,2026-05-04T15:52:00+00:00,greenhouse,stripe,Data Scientist,"Seattle, WA",https://stripe.com/jobs/search?gh_jid=7809414,192000,288000,3,"python,sql",data,False,
+60,100,2026-05-06T20:36:11+00:00,greenhouse,reddit,"Ads Conversion Modeling, Machine Learning Engineering Manager",Remote - United States,https://job-boards.greenhouse.io/reddit/jobs/7792848,,,0,,data,False,
+60,100,2026-05-04T10:05:45+00:00,greenhouse,samsara,Data Engineer II,Remote - US,https://www.samsara.com/company/careers/roles/7859406?gh_jid=7859406,,,3,"snowflake,databricks,spark,dbt,redshift,python,sql",data,False,
+55,100,2026-05-05T22:14:54+00:00,greenhouse,lyft,"Machine Learning Engineer, Lyft Business","New York, NY; San Francisco, CA",https://app.careerpuck.com/job-board/lyft/job/8513769002?gh_jid=8513769002,176000,211200,0,aws,data,False,
+45,100,2026-05-07T07:02:19+00:00,greenhouse,klaviyo,"Software Engineer II, Data Automation ","Boston, MA",https://www.klaviyo.com/careers/jobs?gh_jid=7453478003,,,0,,data,False,
+30,100,2026-05-04T15:52:00+00:00,greenhouse,stripe,"Software Engineer, Machine Learning Infrastructure",N/A,https://stripe.com/jobs/search?gh_jid=7376835,,,2,,data,False,

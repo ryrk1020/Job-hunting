@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T19:59:14.697298+00:00",
+  "generated_at": "2026-05-08T20:16:30.958934+00:00",
   "count": 19,
   "jobs": [
     {
@@ -32,7 +32,8 @@
         "aws"
       ],
       "score": 135,
-      "directness": 35
+      "directness": 35,
+      "alt_sources": []
     },
     {
       "source": "linkedin",
@@ -57,7 +58,8 @@
         "sql"
       ],
       "score": 105,
-      "directness": 35
+      "directness": 35,
+      "alt_sources": []
     },
     {
       "source": "linkedin",
@@ -77,7 +79,10 @@
       "required_years": 0,
       "score": 95,
       "directness": 35,
-      "alt_sources": []
+      "alt_sources": [],
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": []
     },
     {
       "source": "greenhouse",
@@ -109,7 +114,8 @@
         "sql"
       ],
       "score": 100,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -191,7 +197,8 @@
         "sql"
       ],
       "score": 80,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -234,7 +241,8 @@
         "sql"
       ],
       "score": 75,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -317,7 +325,8 @@
         "aws"
       ],
       "score": 70,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -440,7 +449,8 @@
         "sql"
       ],
       "score": 65,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -531,7 +541,8 @@
         "sql"
       ],
       "score": 65,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -567,7 +578,8 @@
         "python"
       ],
       "score": 65,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -603,7 +615,8 @@
         "python"
       ],
       "score": 65,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -639,7 +652,8 @@
         "python"
       ],
       "score": 65,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -676,7 +690,8 @@
         "sql"
       ],
       "score": 65,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -706,7 +721,8 @@
         "sql"
       ],
       "score": 60,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -824,7 +840,8 @@
       "salary_max": null,
       "tech_tags": [],
       "score": 60,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -872,7 +889,8 @@
         "sql"
       ],
       "score": 60,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -908,7 +926,8 @@
         "aws"
       ],
       "score": 55,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -933,7 +952,10 @@
       "required_years": 0,
       "score": 45,
       "directness": 100,
-      "alt_sources": []
+      "alt_sources": [],
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": []
     },
     {
       "source": "greenhouse",
@@ -960,7 +982,8 @@
       "salary_max": null,
       "tech_tags": [],
       "score": 30,
-      "directness": 100
+      "directness": 100,
+      "alt_sources": []
     }
   ]
 }
