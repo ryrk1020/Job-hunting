@@ -1,6 +1,6 @@
 # Latest Jobs (2)
 
-_Generated 2026-05-08 18:59 UTC_
+_Generated 2026-05-08 19:11 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|

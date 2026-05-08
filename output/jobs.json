@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T18:59:30.327540+00:00",
+  "generated_at": "2026-05-08T19:11:01.138632+00:00",
   "count": 2,
   "jobs": [
     {
@@ -19,7 +19,8 @@
       "preferred_location": true,
       "required_years": 0,
       "score": 95,
-      "directness": 35
+      "directness": 35,
+      "alt_sources": []
     },
     {
       "source": "greenhouse",
@@ -42,7 +43,9 @@
       ],
       "preferred_location": false,
       "required_years": 0,
-      "score": 45
+      "score": 45,
+      "directness": 100,
+      "alt_sources": []
     }
   ]
 }
