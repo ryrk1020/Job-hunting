@@ -1,26 +1,19 @@
-# Latest Jobs (20)
+# Latest Jobs (13)
 
-_Generated 2026-05-11 09:09 UTC_
+_Generated 2026-05-12 08:36 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 125 | 2026-05-07 | linkedin | American Cancer Society | Associate Data Scientist | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/associate-data-scientist-at-american-cancer-society-4410814890) |
-| 2 | 120 | 2026-05-10 | linkedin | SoFi | Data Scientist | Frisco, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-sofi-4391745708) |
-| 3 | 110 | 2026-05-06 | linkedin | Emonics LLC | Data Analyst | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-emonics-llc-4409975742) |
-| 4 | 105 | 2026-05-09 | linkedin | SNI Financial | Data Analyst | Fort Worth, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-sni-financial-4411925298) |
-| 5 | 100 | 2026-05-07 | linkedin | E-Solutions | PowerBI Developer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/powerbi-developer-at-e-solutions-4411821031) |
-| 6 | 95 | 2026-05-08 | linkedin | Tech One IT | Data Analyst | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-tech-one-it-4411777476) |
-| 7 | 90 | 2026-05-06 | linkedin | GBIT (Global Bridge InfoTech Inc) | Jr Data Engineer (Snowflake) | Richardson, TX | [apply](https://www.linkedin.com/jobs/view/jr-data-engineer-snowflake-at-gbit-global-bridge-infotech-inc-4409992504) |
-| 8 | 90 | 2026-05-05 | linkedin | Agoda | Business Data Analyst (Bangkok Based, relocation provided) | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/business-data-analyst-bangkok-based-relocation-provided-at-agoda-4410554060) |
-| 9 | 80 | 2026-05-07 | linkedin | onsemi | Mask Data Prep Engineer | Allen, TX | [apply](https://www.linkedin.com/jobs/view/mask-data-prep-engineer-at-onsemi-4409627261) |
-| 10 | 85 | 2026-05-09 | linkedin | AAA Auto Club Enterprises | D &amp; A Data Engineer | Coppell, TX | [apply](https://www.linkedin.com/jobs/view/d-a-data-engineer-at-aaa-auto-club-enterprises-4411961322) |
-| 11 | 80 | 2026-05-11 | linkedin | Jobs via Dice | Data Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-jobs-via-dice-4412587660) |
-| 12 | 75 | 2026-05-10 | themuse | Apple | Software Engineer (Framework Solutions), AI & Data Platforms (AiDP) | Austin, TX | [apply](https://www.themuse.com/jobs/apple/software-engineer-framework-solutions-ai-data-platforms-aidp-d1543a) |
-| 13 | 75 | 2026-05-08 | linkedin | Tyndale Company, Inc. | Business Data Engineer II | Houston, TX | [apply](https://www.linkedin.com/jobs/view/business-data-engineer-ii-at-tyndale-company-inc-4371232686) |
-| 14 | 75 | 2026-05-07 | linkedin | hackajob | Data Engineer, Specialist | Malvern, PA | [apply](https://www.linkedin.com/jobs/view/data-engineer-specialist-at-hackajob-4410441620) |
-| 15 | 70 | 2026-05-08 | linkedin | Kforce Inc | Data Analyst | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-kforce-inc-4411778543) |
-| 16 | 60 | 2026-05-08 | linkedin | Outdoorsy | Data Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-outdoorsy-4364775397) |
-| 17 | 55 | 2026-05-09 | linkedin | Arm | Research Engineer - Machine Learning for Robot Planning | Austin, TX | [apply](https://www.linkedin.com/jobs/view/research-engineer-machine-learning-for-robot-planning-at-arm-4412465539) |
-| 18 | 55 | 2026-05-08 | linkedin | Infosys | Microsoft Fabric Power BI Engineer | Atlanta, GA | [apply](https://www.linkedin.com/jobs/view/microsoft-fabric-power-bi-engineer-at-infosys-4400490508) |
-| 19 | 50 | 2026-05-08 | linkedin | Infosys | Azure and Databricks Data Engineer | Hartford, CT | [apply](https://www.linkedin.com/jobs/view/azure-and-databricks-data-engineer-at-infosys-4400477651) |
-| 20 | 50 | 2026-05-06 | linkedin | Lenmar Consulting Inc | Full Stack Engineer - External Data Analytics | Virginia, United States | [apply](https://www.linkedin.com/jobs/view/full-stack-engineer-external-data-analytics-at-lenmar-consulting-inc-4409985193) |
+| 1 | 125 | 2026-05-09 | linkedin | JPMorganChase | Data Scientist Associate - Payments | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-associate-payments-at-jpmorganchase-4412448705) |
+| 2 | 125 | 2026-05-11 | linkedin | Tenaska | Settlement Reporting Analyst | Irving, TX | [apply](https://www.linkedin.com/jobs/view/settlement-reporting-analyst-at-tenaska-4412927875) |
+| 3 | 115 | 2026-05-07 | linkedin | Goldman Sachs | Software Engineering - Data, Lakehouse and AI Data Platform Engineer - Associate - Dallas | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/software-engineering-data-lakehouse-and-ai-data-platform-engineer-associate-dallas-at-goldman-sachs-4401812491) |
+| 4 | 100 | 2026-05-08 | linkedin | Visionary Innovative Technology Solutions LLC | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-visionary-innovative-technology-solutions-llc-4412143173) |
+| 5 | 95 | 2026-05-11 | linkedin | Precision Technologies | Data Engineer- She Returns We invite applications | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-she-returns-we-invite-applications-at-precision-technologies-4413017829) |
+| 6 | 90 | 2026-05-11 | greenhouse | airbnb | Machine Learning Engineer, Relevance and Personalization | United States | [apply](https://careers.airbnb.com/positions/7708224?gh_jid=7708224) |
+| 7 | 60 | 2026-05-11 | greenhouse | carta | Data Operations Analyst | Rio de Janeiro, Brazil | [apply](https://job-boards.greenhouse.io/carta/jobs/7592159003) |
+| 8 | 50 | 2026-05-08 | linkedin | Shrive Technologies | GCP data engineer With Google Certifications // Independent Visa | Texas, United States | [apply](https://www.linkedin.com/jobs/view/gcp-data-engineer-with-google-certifications-independent-visa-at-shrive-technologies-4412160677) |
+| 9 | 45 | 2026-05-08 | linkedin | Houston Dynamo Football Club | Dynamo Data Analyst | Houston, TX | [apply](https://www.linkedin.com/jobs/view/dynamo-data-analyst-at-houston-dynamo-football-club-4409667239) |
+| 10 | 45 | 2026-05-08 | linkedin | Aureon Consulting | Data Engineer | Des Moines, IA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-aureon-consulting-4412171810) |
+| 11 | 40 | 2026-05-06 | linkedin | Tri-County Electric Cooperative, Inc. | Enterprise Data Analyst | Azle, TX | [apply](https://www.linkedin.com/jobs/view/enterprise-data-analyst-at-tri-county-electric-cooperative-inc-4411858815) |
+| 12 | 40 | 2026-05-06 | linkedin | Motion Recruitment | AI Data Engineer | San Diego, CA | [apply](https://www.linkedin.com/jobs/view/ai-data-engineer-at-motion-recruitment-4410212892) |
+| 13 | 35 | 2026-05-08 | linkedin | Arnex Solutions LLC | Business Intelligence Developer- Operations | Houston, TX | [apply](https://www.linkedin.com/jobs/view/business-intelligence-developer-operations-at-arnex-solutions-llc-4412477090) |
