@@ -1,19 +1,15 @@
-# Latest Jobs (13)
+# Latest Jobs (9)
 
-_Generated 2026-05-12 08:36 UTC_
+_Generated 2026-05-13 08:46 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 125 | 2026-05-09 | linkedin | JPMorganChase | Data Scientist Associate - Payments | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-associate-payments-at-jpmorganchase-4412448705) |
-| 2 | 125 | 2026-05-11 | linkedin | Tenaska | Settlement Reporting Analyst | Irving, TX | [apply](https://www.linkedin.com/jobs/view/settlement-reporting-analyst-at-tenaska-4412927875) |
-| 3 | 115 | 2026-05-07 | linkedin | Goldman Sachs | Software Engineering - Data, Lakehouse and AI Data Platform Engineer - Associate - Dallas | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/software-engineering-data-lakehouse-and-ai-data-platform-engineer-associate-dallas-at-goldman-sachs-4401812491) |
-| 4 | 100 | 2026-05-08 | linkedin | Visionary Innovative Technology Solutions LLC | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-visionary-innovative-technology-solutions-llc-4412143173) |
-| 5 | 95 | 2026-05-11 | linkedin | Precision Technologies | Data Engineer- She Returns We invite applications | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-she-returns-we-invite-applications-at-precision-technologies-4413017829) |
-| 6 | 90 | 2026-05-11 | greenhouse | airbnb | Machine Learning Engineer, Relevance and Personalization | United States | [apply](https://careers.airbnb.com/positions/7708224?gh_jid=7708224) |
-| 7 | 60 | 2026-05-11 | greenhouse | carta | Data Operations Analyst | Rio de Janeiro, Brazil | [apply](https://job-boards.greenhouse.io/carta/jobs/7592159003) |
-| 8 | 50 | 2026-05-08 | linkedin | Shrive Technologies | GCP data engineer With Google Certifications // Independent Visa | Texas, United States | [apply](https://www.linkedin.com/jobs/view/gcp-data-engineer-with-google-certifications-independent-visa-at-shrive-technologies-4412160677) |
-| 9 | 45 | 2026-05-08 | linkedin | Houston Dynamo Football Club | Dynamo Data Analyst | Houston, TX | [apply](https://www.linkedin.com/jobs/view/dynamo-data-analyst-at-houston-dynamo-football-club-4409667239) |
-| 10 | 45 | 2026-05-08 | linkedin | Aureon Consulting | Data Engineer | Des Moines, IA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-aureon-consulting-4412171810) |
-| 11 | 40 | 2026-05-06 | linkedin | Tri-County Electric Cooperative, Inc. | Enterprise Data Analyst | Azle, TX | [apply](https://www.linkedin.com/jobs/view/enterprise-data-analyst-at-tri-county-electric-cooperative-inc-4411858815) |
-| 12 | 40 | 2026-05-06 | linkedin | Motion Recruitment | AI Data Engineer | San Diego, CA | [apply](https://www.linkedin.com/jobs/view/ai-data-engineer-at-motion-recruitment-4410212892) |
-| 13 | 35 | 2026-05-08 | linkedin | Arnex Solutions LLC | Business Intelligence Developer- Operations | Houston, TX | [apply](https://www.linkedin.com/jobs/view/business-intelligence-developer-operations-at-arnex-solutions-llc-4412477090) |
+| 1 | 105 | 2026-05-12 | linkedin | Cliff Services Inc | Snowflake Admin - Remote | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/snowflake-admin-remote-at-cliff-services-inc-4398535618) |
+| 2 | 70 | 2026-05-07 | linkedin | Kelly | Data Modeler | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-modeler-at-kelly-4411805050) |
+| 3 | 85 | 2026-05-11 | linkedin | American Express | Data Engineer I - Global Commercial Services | Phoenix, AZ | [apply](https://www.linkedin.com/jobs/view/data-engineer-i-global-commercial-services-at-american-express-4413093995) |
+| 4 | 80 | 2026-05-11 | linkedin | Emonics LLC | Entry Level Data Analyst | Austin, TX | [apply](https://www.linkedin.com/jobs/view/entry-level-data-analyst-at-emonics-llc-4413149608) |
+| 5 | 75 | 2026-05-12 | themuse | Apple | Data Engineer (Agentic AI, LLM Training), G&A Solutions Engineering (GSE) | Austin, TX | [apply](https://www.themuse.com/jobs/apple/data-engineer-agentic-ai-llm-training-ga-solutions-engineering-gse-3d6894) |
+| 6 | 50 | 2026-05-12 | linkedin | CPS Energy | Data Visualization&amp;Presentation Manager | San Antonio, TX | [apply](https://www.linkedin.com/jobs/view/data-visualization-presentation-manager-at-cps-energy-4413294962) |
+| 7 | 45 | 2026-05-07 | linkedin | Tata Consultancy Services | Data Engineer | Philadelphia, PA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-tata-consultancy-services-4410868235) |
+| 8 | 40 | 2026-05-08 | linkedin | TriWest Healthcare Alliance | Data Scientist | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-triwest-healthcare-alliance-4391554190) |
+| 9 | 35 | 2026-05-07 | linkedin | Akraya, Inc. | Data Analyst: 26-01315 | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-26-01315-at-akraya-inc-4411641743) |
