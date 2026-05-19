@@ -1,19 +1,18 @@
-# Latest Jobs (13)
+# Latest Jobs (12)
 
-_Generated 2026-05-18 09:50 UTC_
+_Generated 2026-05-19 09:09 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 145 | 2026-05-17 | linkedin | Lennar | Data Engineer II | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-ii-at-lennar-4397419280) |
-| 2 | 130 | 2026-05-16 | linkedin | Eaton | WMS Optimization Data Analyst | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/wms-optimization-data-analyst-at-eaton-4412092699) |
-| 3 | 120 | 2026-05-15 | linkedin | TechStar Group | AWS Data Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/aws-data-engineer-at-techstar-group-4415380664) |
-| 4 | 100 | 2026-05-13 | linkedin | Dallas County | 0000001423.AI ENGINEER II.INFO TECH - DATA AND AI | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/0000001423-ai-engineer-ii-info-tech-data-and-ai-at-dallas-county-4413995486) |
-| 5 | 100 | 2026-05-12 | linkedin | Programmers.io | Hadoop Cloudera Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/hadoop-cloudera-engineer-at-programmers-io-4413841007) |
-| 6 | 80 | 2026-05-15 | linkedin | Hilton | Data QA Analyst (Tax Focus) (contract) | Addison, TX | [apply](https://www.linkedin.com/jobs/view/data-qa-analyst-tax-focus-contract-at-hilton-4415551018) |
-| 7 | 90 | 2026-05-18 | linkedin | Stuut | Data Engineer | San Francisco, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-stuut-4404323470) |
-| 8 | 60 | 2026-05-14 | linkedin | Oxy | AI ML Operations Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/ai-ml-operations-engineer-at-oxy-4414680186) |
-| 9 | 55 | 2026-05-14 | linkedin | Google | Data Engineer, Operations and Infrastructure Data Science | Sunnyvale, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-operations-and-infrastructure-data-science-at-google-4414447849) |
-| 10 | 50 | 2026-05-13 | linkedin | Vernovis | Data Engineer | New York, NY | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-vernovis-4413993188) |
-| 11 | 45 | 2026-05-15 | linkedin | ConsultNet Technology Services and Solutions | Enterprise Data &amp; Analytics Engineer | Midvale, UT | [apply](https://www.linkedin.com/jobs/view/enterprise-data-analytics-engineer-at-consultnet-technology-services-and-solutions-4415565227) |
-| 12 | 35 | 2026-05-14 | linkedin | Dutech Systems | Snowflake Python Developer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/snowflake-python-developer-at-dutech-systems-4411547095) |
-| 13 | 20 | 2026-05-12 | linkedin | Wellmark Blue Cross and Blue Shield | Data Integration Analyst | Des Moines, IA | [apply](https://www.linkedin.com/jobs/view/data-integration-analyst-at-wellmark-blue-cross-and-blue-shield-4410305034) |
+| 1 | 145 | 2026-05-18 | linkedin | Emonics LLC | Entry Level Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/entry-level-data-engineer-at-emonics-llc-4415678743) |
+| 2 | 125 | 2026-05-16 | linkedin | Lennar | Data Analyst II | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-ii-at-lennar-4397407750) |
+| 3 | 100 | 2026-05-14 | linkedin | 2020 Companies | Samsung Warehouse Data Analyst | Irving, TX | [apply](https://www.linkedin.com/jobs/view/samsung-warehouse-data-analyst-at-2020-companies-4414779331) |
+| 4 | 90 | 2026-05-18 | greenhouse | pinterest | Data Scientist II, Experimentation | San Francisco, CA, US; Remote, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7896291) |
+| 5 | 85 | 2026-05-18 | greenhouse | pinterest | Data Scientist II, Infrastructure | San Francisco, CA, US; Remote, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7816424) |
+| 6 | 70 | 2026-05-18 | linkedin | AMD | CPU Core AI Data Platform Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/cpu-core-ai-data-platform-engineer-at-amd-4337728789) |
+| 7 | 70 | 2026-05-18 | linkedin | Precision Technologies | Azure Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/azure-data-engineer-at-precision-technologies-4415696927) |
+| 8 | 65 | 2026-05-14 | linkedin | SynergisticIT | entry level data analyst/Java Spring boot developer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/entry-level-data-analyst-java-spring-boot-developer-at-synergisticit-4414405383) |
+| 9 | 60 | 2026-05-15 | linkedin | Tata Consultancy Services | Data Bricks Data Engineer | Seattle, WA | [apply](https://www.linkedin.com/jobs/view/data-bricks-data-engineer-at-tata-consultancy-services-4405043387) |
+| 10 | 45 | 2026-05-15 | linkedin | Bumble Inc. | Data Scientist | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-bumble-inc-4405029083) |
+| 11 | 45 | 2026-05-15 | linkedin | RigUp | Data Analyst | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-rigup-4412037810) |
+| 12 | 35 | 2026-05-14 | linkedin | swipejobs | Data Analyst - Logistics Business Improvement | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-logistics-business-improvement-at-swipejobs-4414740055) |
