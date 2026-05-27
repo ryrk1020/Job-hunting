@@ -1,26 +1,22 @@
-# Latest Jobs (20)
+# Latest Jobs (16)
 
-_Generated 2026-05-26 09:45 UTC_
+_Generated 2026-05-27 09:39 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 115 | 2026-05-21 | linkedin | GM Financial | Data Engineer II | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-ii-at-gm-financial-4354844222) |
-| 2 | 105 | 2026-05-22 | linkedin | Brown &amp; Brown | Data Migration Analyst | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-migration-analyst-at-brown-brown-4418420368) |
-| 3 | 100 | 2026-05-22 | linkedin | Yum! Brands | Data Scientist (AI/ML Modeling, Forecasting and Algorithms) | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-ai-ml-modeling-forecasting-and-algorithms-at-yum%21-brands-4406742420) |
-| 4 | 95 | 2026-05-22 | linkedin | First Point Group | Data Analyst - GenAI | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-genai-at-first-point-group-4414337517) |
-| 5 | 95 | 2026-05-22 | linkedin | HF Sinclair | Data Analyst - Procurement | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-procurement-at-hf-sinclair-4417503643) |
-| 6 | 90 | 2026-05-22 | linkedin | Tata Consultancy Services | Snowflake Developer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/snowflake-developer-at-tata-consultancy-services-4407608417) |
-| 7 | 85 | 2026-05-21 | linkedin | Stellantis Financial Services US | Data Scientist | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-stellantis-financial-services-us-4416586827) |
-| 8 | 90 | 2026-05-25 | linkedin | BuzzClan | Data Analyst (AI) | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-ai-at-buzzclan-4415253433) |
-| 9 | 80 | 2026-05-26 | linkedin | KNOWFINITY | Data Engineer | California, United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-knowfinity-4419141760) |
-| 10 | 80 | 2026-05-26 | linkedin | KNOWFINITY | Data Engineer | Manhattan, KS | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-knowfinity-4419143748) |
-| 11 | 75 | 2026-05-23 | linkedin | Amazon | Data Engineer II , UTR Data Engineering | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-ii-utr-data-engineering-at-amazon-4409524605) |
-| 12 | 70 | 2026-05-25 | linkedin | Daikin Comfort | Data Scientist, Level 2 | Waller, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-level-2-at-daikin-comfort-4354818244) |
-| 13 | 65 | 2026-05-22 | linkedin | NinjaOne | Data Software Engineer | Texas, United States | [apply](https://www.linkedin.com/jobs/view/data-software-engineer-at-ninjaone-4344251098) |
-| 14 | 65 | 2026-05-25 | greenhouse | pinterest | Software Engineer II, Data | Toronto, ON, CA | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7901817) |
-| 15 | 60 | 2026-05-25 | linkedin | Google | Data Center Mechanical Engineer, Cooling Systems | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-center-mechanical-engineer-cooling-systems-at-google-4417882696) |
-| 16 | 60 | 2026-05-26 | linkedin | TOBY | Machine Learning Scientist | Austin, Texas Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/machine-learning-scientist-at-toby-4419123349) |
-| 17 | 60 | 2026-05-24 | linkedin | ImpetusIT | Data Engineer | Jersey City, NJ | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-impetusit-4417837352) |
-| 18 | 60 | 2026-05-20 | linkedin | SynergisticIT | entry level data scientist /Java developer | San Francisco, CA | [apply](https://www.linkedin.com/jobs/view/entry-level-data-scientist-java-developer-at-synergisticit-4415998000) |
-| 19 | 60 | 2026-05-22 | linkedin | CapTech | Machine Learning / Data Science Engineer | Atlanta, GA | [apply](https://www.linkedin.com/jobs/view/machine-learning-data-science-engineer-at-captech-4386774683) |
-| 20 | 40 | 2026-05-21 | linkedin | Kforce Inc | Data Engineer | Roanoke, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-kforce-inc-4417788855) |
+| 1 | 100 | 2026-05-23 | linkedin | Turnitin | Business Intelligence Analyst - Analytics Engineer Hybrid (USA Remote) | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/business-intelligence-analyst-analytics-engineer-hybrid-usa-remote-at-turnitin-4388546253) |
+| 2 | 100 | 2026-05-26 | linkedin | Centraprise | Tableau Developer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/tableau-developer-at-centraprise-4418277993) |
+| 3 | 115 | 2026-05-26 | greenhouse | amplitude | Software Engineer II, Data Warehouse | San Francisco, CA | [apply](https://job-boards.greenhouse.io/amplitude/jobs/8530635002) |
+| 4 | 85 | 2026-05-27 | linkedin | Tesla | Data Engineer, Low Voltage | Palo Alto, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-low-voltage-at-tesla-4419554944) |
+| 5 | 80 | 2026-05-26 | themuse | Apple | Data Platform SRE, AI & Data Platforms (AiDP) | Austin, TX | [apply](https://www.themuse.com/jobs/apple/data-platform-sre-ai-data-platforms-aidp-cfc26b) |
+| 6 | 80 | 2026-05-25 | greenhouse | affirm | Machine Learning Engineer II | Remote US | [apply](https://job-boards.greenhouse.io/affirm/jobs/7719651003) |
+| 7 | 75 | 2026-05-27 | linkedin | Paragon Alpha - Hedge Fund Talent Business | AI/Data Platform Engineer - Equity Trading | New York City Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/ai-data-platform-engineer-equity-trading-at-paragon-alpha-hedge-fund-talent-business-4416245861) |
+| 8 | 70 | 2026-05-26 | linkedin | The Lab Consulting | Data Scientist | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-the-lab-consulting-4419148598) |
+| 9 | 60 | 2026-05-21 | linkedin | InterEx Group | Data Scientist | Texas, United States | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-interex-group-4388088641) |
+| 10 | 55 | 2026-05-26 | linkedin | CloudIngest | Data Modeler | Atlanta, GA | [apply](https://www.linkedin.com/jobs/view/data-modeler-at-cloudingest-4418267843) |
+| 11 | 50 | 2026-05-21 | linkedin | Twitch | Data Engineer | San Francisco, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-twitch-4396339810) |
+| 12 | 50 | 2026-05-21 | linkedin | SeatGeek | Analytics Engineer | New York, NY | [apply](https://www.linkedin.com/jobs/view/analytics-engineer-at-seatgeek-4384780557) |
+| 13 | 40 | 2026-05-22 | linkedin | Charles Schwab | Data Engineer / ETL Developer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-etl-developer-at-charles-schwab-4414349148) |
+| 14 | 40 | 2026-05-21 | linkedin | LBMC | Data Engineer | Nashville Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-lbmc-4414030088) |
+| 15 | 35 | 2026-05-22 | linkedin | Confidential | Industry 4.0 Full Stack Machine Connectivity &amp; Analytics Engineer | Lafayette, Indiana Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/industry-4-0-full-stack-machine-connectivity-analytics-engineer-at-confidential-4418406666) |
+| 16 | 20 | 2026-05-21 | linkedin | Corning Incorporated | Data Center Quality Engineer | Keller, TX | [apply](https://www.linkedin.com/jobs/view/data-center-quality-engineer-at-corning-incorporated-4414053208) |
