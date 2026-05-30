@@ -1,19 +1,26 @@
-# Latest Jobs (13)
+# Latest Jobs (20)
 
-_Generated 2026-05-29 10:22 UTC_
+_Generated 2026-05-30 08:26 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 135 | 2026-05-29 | linkedin | CBRE | People/HR Data Entry Analyst | Richardson, TX | [apply](https://www.linkedin.com/jobs/view/people-hr-data-entry-analyst-at-cbre-4420682415) |
-| 2 | 120 | 2026-05-28 | linkedin | Innovatech Staffing | Data Engineer(W2 only) | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-w2-only-at-innovatech-staffing-4419097333) |
-| 3 | 115 | 2026-05-27 | linkedin | Motion Recruitment | Data Security Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-security-engineer-at-motion-recruitment-4419566920) |
-| 4 | 105 | 2026-05-29 | linkedin | SynergisticIT | Data Scientist/Engineer - Junior (Remote)/Software programmer AI | Seattle, WA | [apply](https://www.linkedin.com/jobs/view/data-scientist-engineer-junior-remote-software-programmer-ai-at-synergisticit-4420658959) |
-| 5 | 105 | 2026-05-29 | linkedin | SynergisticIT | Data Engineer | Chicago, IL | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-synergisticit-4420678032) |
-| 6 | 100 | 2026-05-28 | greenhouse | lyft | Data Analyst, Operations Planning | New York, NY | [apply](https://app.careerpuck.com/job-board/lyft/job/8568512002?gh_jid=8568512002) |
-| 7 | 80 | 2026-05-28 | linkedin | SynergisticIT | AI/ML Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/ai-ml-engineer-at-synergisticit-4420497288) |
-| 8 | 80 | 2026-05-28 | greenhouse | clickhouse | Data Scientist, Finance Forecasting | San Francisco, USA (Hybrid) | [apply](https://job-boards.greenhouse.io/clickhouse/jobs/5970141004) |
-| 9 | 70 | 2026-05-27 | linkedin | Edmunds | Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-edmunds-4399548757) |
-| 10 | 70 | 2026-05-28 | greenhouse | airbnb | Machine Learning Engineer, Customer Support Engineering | Remote-USA | [apply](https://careers.airbnb.com/positions/7826337?gh_jid=7826337) |
-| 11 | 65 | 2026-05-27 | remoteok | Crossing Hurdles | Financial Data Analyst | Remote | [apply](https://remoteOK.com/remote-jobs/remote-financial-data-analyst-crossing-hurdles-1132376) |
-| 12 | 55 | 2026-05-27 | linkedin | Cantor Fitzgerald | Data Analyst | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-cantor-fitzgerald-4418853674) |
-| 13 | 50 | 2026-05-26 | linkedin | Tesla | Facilities Data Engineer | Brookshire, TX | [apply](https://www.linkedin.com/jobs/view/facilities-data-engineer-at-tesla-4419120384) |
+| 1 | 105 | 2026-05-29 | linkedin | Magnite | Data Engineer II | New York, NY | [apply](https://www.linkedin.com/jobs/view/data-engineer-ii-at-magnite-4420058613) |
+| 2 | 100 | 2026-05-29 | linkedin | Deloitte | Databricks Data Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4420696382) |
+| 3 | 100 | 2026-05-29 | linkedin | Deloitte | Databricks Data Engineer | McLean, VA | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4420688774) |
+| 4 | 95 | 2026-05-29 | linkedin | SynergisticIT | Junior Data Analyst | Austin, TX | [apply](https://www.linkedin.com/jobs/view/junior-data-analyst-at-synergisticit-4420662751) |
+| 5 | 95 | 2026-05-29 | linkedin | SynergisticIT | Azure Data Engineer | Baltimore, MD | [apply](https://www.linkedin.com/jobs/view/azure-data-engineer-at-synergisticit-4420661764) |
+| 6 | 95 | 2026-05-29 | linkedin | SynergisticIT | Entry Level Data Analyst (Remote) | Fort Wayne, IN | [apply](https://www.linkedin.com/jobs/view/entry-level-data-analyst-remote-at-synergisticit-4420665479) |
+| 7 | 95 | 2026-05-29 | linkedin | SynergisticIT | junior software developer in AI/Java Developer/Data Engineer | Irvine, CA | [apply](https://www.linkedin.com/jobs/view/junior-software-developer-in-ai-java-developer-data-engineer-at-synergisticit-4420662731) |
+| 8 | 95 | 2026-05-29 | linkedin | SynergisticIT | Junior Data Scientist/Engineer (Remote) | Fort Smith, AR | [apply](https://www.linkedin.com/jobs/view/junior-data-scientist-engineer-remote-at-synergisticit-4420677029) |
+| 9 | 90 | 2026-05-29 | linkedin | Fremont Bank | Data Analyst I | Livermore, CA | [apply](https://www.linkedin.com/jobs/view/data-analyst-i-at-fremont-bank-4421232195) |
+| 10 | 85 | 2026-05-28 | linkedin | SynergisticIT | Junior data scientist/Data engineer | Denver, CO | [apply](https://www.linkedin.com/jobs/view/junior-data-scientist-data-engineer-at-synergisticit-4420605085) |
+| 11 | 85 | 2026-05-28 | linkedin | SynergisticIT | Data Scientist/Engineer - Junior (Remote)/Junior Sofware Engineer (Remote) | Cambridge, MA | [apply](https://www.linkedin.com/jobs/view/data-scientist-engineer-junior-remote-junior-sofware-engineer-remote-at-synergisticit-4420606061) |
+| 12 | 80 | 2026-05-29 | linkedin | LTIMindtree | Big Data Developer | Tampa, FL | [apply](https://www.linkedin.com/jobs/view/big-data-developer-at-ltimindtree-4379471357) |
+| 13 | 80 | 2026-05-28 | linkedin | Mayne Pharma | Junior Analytics Engineer | United States | [apply](https://www.linkedin.com/jobs/view/junior-analytics-engineer-at-mayne-pharma-4378874352) |
+| 14 | 70 | 2026-05-28 | linkedin | Outdoorsy | AI Data Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/ai-data-engineer-at-outdoorsy-4364775397) |
+| 15 | 70 | 2026-05-29 | linkedin | SPECTRAFORCE | Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-spectraforce-4420981166) |
+| 16 | 65 | 2026-05-28 | linkedin | Jacobs | Data Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-jacobs-4420402189) |
+| 17 | 65 | 2026-05-29 | linkedin | SIMARN Solutions | Data Scientist | San Antonio, Texas Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-simarn-solutions-4420923978) |
+| 18 | 65 | 2026-05-29 | linkedin | Terrestrial Energy | Data Scientist | Bryan, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-terrestrial-energy-4422012224) |
+| 19 | 65 | 2026-05-29 | linkedin | DataAnnotation | Research Data Scientist - AI Trainer | Texas, United States | [apply](https://www.linkedin.com/jobs/view/research-data-scientist-ai-trainer-at-dataannotation-4391913639) |
+| 20 | 65 | 2026-05-28 | linkedin | Google | Data Engineer II | Boulder, CO | [apply](https://www.linkedin.com/jobs/view/data-engineer-ii-at-google-4419308464) |
