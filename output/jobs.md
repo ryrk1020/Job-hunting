@@ -1,26 +1,20 @@
-# Latest Jobs (20)
+# Latest Jobs (14)
 
-_Generated 2026-06-05 09:41 UTC_
+_Generated 2026-06-06 08:34 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 140 | 2026-06-04 | themuse | Deloitte | Data Management Engineer II” ETL / IICS Developer | Arlington, VA | [apply](https://www.themuse.com/jobs/deloitte/data-management-engineer-ii-etl-iics-developer-fb7059) |
-| 2 | 135 | 2026-06-03 | linkedin | Tata Consultancy Services | Junior Data Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/junior-data-engineer-at-tata-consultancy-services-4424262799) |
-| 3 | 115 | 2026-06-05 | linkedin | CG Infinity | Tableau Developer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/tableau-developer-at-cg-infinity-4424119592) |
-| 4 | 105 | 2026-06-04 | linkedin | CloudIngest | AI / Machine Learning // OPT Visa // Local to TX | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/ai-machine-learning-opt-visa-local-to-tx-at-cloudingest-4423574338) |
-| 5 | 95 | 2026-06-02 | linkedin | JPMorganChase | Business Banking - Data Scientist [Multiple Positions Available] | Plano, TX | [apply](https://www.linkedin.com/jobs/view/business-banking-data-scientist-multiple-positions-available-at-jpmorganchase-4422330923) |
-| 6 | 105 | 2026-06-04 | themuse | Deloitte | Data Scientist Engineer - SFL Scientific | Atlanta, GA | [apply](https://www.themuse.com/jobs/deloitte/data-scientist-engineer-sfl-scientific) |
-| 7 | 95 | 2026-06-04 | linkedin | Deloitte | Data Scientist Engineer - SFL Scientific | Boston, MA | [apply](https://www.linkedin.com/jobs/view/data-scientist-engineer-sfl-scientific-at-deloitte-4423365693) |
-| 8 | 95 | 2026-06-04 | linkedin | Deloitte | Data Scientist Engineer - SFL Scientific | Raleigh, NC | [apply](https://www.linkedin.com/jobs/view/data-scientist-engineer-sfl-scientific-at-deloitte-4423370582) |
-| 9 | 85 | 2026-06-03 | linkedin | Linde | Data Scientist | The Woodlands, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-linde-4423052074) |
-| 10 | 85 | 2026-06-03 | linkedin | Genesis10 | Entry Level Data Engineer | New York, NY | [apply](https://www.linkedin.com/jobs/view/entry-level-data-engineer-at-genesis10-4403462224) |
-| 11 | 75 | 2026-06-03 | remoteok | NestlÃ© Health Science | Supply Chain Data Analyst | New York,  | [apply](https://remoteOK.com/remote-jobs/remote-supply-chain-data-analyst-nestle-health-science-1132785) |
-| 12 | 75 | 2026-06-04 | themuse | Apple | Software Engineer (AML), AI & Data Platforms (AiDP) | Austin, TX | [apply](https://www.themuse.com/jobs/apple/software-engineer-aml-ai-data-platforms-aidp-eb98cb) |
-| 13 | 70 | 2026-06-04 | linkedin | Avanciers Inc. | Data Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-avanciers-inc-4420754311) |
-| 14 | 70 | 2026-06-04 | linkedin | Jobs via Dice | Data Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-jobs-via-dice-4424450519) |
-| 15 | 70 | 2026-06-04 | linkedin | Apptronik | Data Platform Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-platform-engineer-at-apptronik-4405682815) |
-| 16 | 70 | 2026-06-01 | linkedin | CCS Global Tech | Entry Level Data Analyst | Austin, TX | [apply](https://www.linkedin.com/jobs/view/entry-level-data-analyst-at-ccs-global-tech-4421898959) |
-| 17 | 70 | 2026-06-04 | linkedin | Ford Motor Company | Full Stack Data Engineer | Dearborn, MI | [apply](https://www.linkedin.com/jobs/view/full-stack-data-engineer-at-ford-motor-company-4423510766) |
-| 18 | 65 | 2026-06-02 | linkedin | Zoox | Data Engineer | Foster City, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-zoox-4342766614) |
-| 19 | 55 | 2026-06-03 | linkedin | Kelly | Data Analyst | Portland, OR | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-kelly-4423054910) |
-| 20 | 50 | 2026-06-01 | linkedin | Wipro | Data Engineer | Minneapolis, MN | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-wipro-4423244916) |
+| 1 | 140 | 2026-06-05 | linkedin | Virtusa | Engineer - Technology (AI/ML) | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/engineer-technology-ai-ml-at-virtusa-4420784094) |
+| 2 | 110 | 2026-06-04 | linkedin | Tapcheck | Data Analyst | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-tapcheck-4423551699) |
+| 3 | 110 | 2026-06-04 | linkedin | DPR Construction | PCA Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/pca-data-engineer-at-dpr-construction-4338493228) |
+| 4 | 95 | 2026-06-05 | linkedin | SWBC | Junior Data Engineer | San Antonio, TX | [apply](https://www.linkedin.com/jobs/view/junior-data-engineer-at-swbc-4414749576) |
+| 5 | 75 | 2026-06-05 | greenhouse | stripe | Data Scientist, Economic Insights & Research | US | [apply](https://stripe.com/jobs/search?gh_jid=7980402) |
+| 6 | 65 | 2026-06-05 | themuse | Apple | Machine Learning Engineer, Apple Store Online | Austin, TX | [apply](https://www.themuse.com/jobs/apple/machine-learning-engineer-apple-store-online) |
+| 7 | 65 | 2026-06-05 | linkedin | Blue Chip Talent | Test Data Engineer | Tustin, CA | [apply](https://www.linkedin.com/jobs/view/test-data-engineer-at-blue-chip-talent-4424748954) |
+| 8 | 65 | 2026-06-03 | remoteok | NestlÃ© Health Science | Supply Chain Data Analyst | Los Angeles,  | [apply](https://remoteOK.com/remote-jobs/remote-supply-chain-data-analyst-nestle-health-science-1132786) |
+| 9 | 65 | 2026-06-03 | remoteok | NestlÃ© Health Science | Supply Chain Data Analyst | Bridgewater,  | [apply](https://remoteOK.com/remote-jobs/remote-supply-chain-data-analyst-nestle-health-science-1132788) |
+| 10 | 65 | 2026-06-03 | remoteok | NestlÃ© Health Science | Supply Chain Data Analyst | Des Plaines,  | [apply](https://remoteOK.com/remote-jobs/remote-supply-chain-data-analyst-nestle-health-science-1132789) |
+| 11 | 60 | 2026-06-05 | greenhouse | anthropic | Engineering Manager, Safeguards Data Infrastructure | New York City, NY | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5247156008) |
+| 12 | 55 | 2026-06-02 | linkedin | Harris County Toll Road Authority | Analyst, Data Health &amp; Safety | Houston, TX | [apply](https://www.linkedin.com/jobs/view/analyst-data-health-safety-at-harris-county-toll-road-authority-4422445684) |
+| 13 | 50 | 2026-06-05 | linkedin | AMOT Controls | Business Intelligence Analyst | Houston, TX | [apply](https://www.linkedin.com/jobs/view/business-intelligence-analyst-at-amot-controls-4421114058) |
+| 14 | 35 | 2026-06-01 | linkedin | Sharp Decisions | Data Analyst (1243 - NYC) | New York, NY | [apply](https://www.linkedin.com/jobs/view/data-analyst-1243-nyc-at-sharp-decisions-4422115779) |
