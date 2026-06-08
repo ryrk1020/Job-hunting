@@ -1,15 +1,25 @@
-# Latest Jobs (9)
+# Latest Jobs (19)
 
-_Generated 2026-06-07 08:55 UTC_
+_Generated 2026-06-08 10:26 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 100 | 2026-06-04 | linkedin | Talent Groups | ETL Developer (ADF/Databricks) - contract! | Irving, TX | [apply](https://www.linkedin.com/jobs/view/etl-developer-adf-databricks-contract%21-at-talent-groups-4423506846) |
-| 2 | 105 | 2026-06-05 | remoteok | StioÂ® | Data Analyst | Denver, Denver, Colorado, United States | [apply](https://remoteOK.com/remote-jobs/remote-data-analyst-stior-1132903) |
-| 3 | 105 | 2026-06-07 | linkedin | SynergisticIT | junior Bi Analyst/data analyst/Data Engineer | Los Angeles, CA | [apply](https://www.linkedin.com/jobs/view/junior-bi-analyst-data-analyst-data-engineer-at-synergisticit-4424690925) |
-| 4 | 100 | 2026-06-07 | linkedin | SynergisticIT | junior software developer/data scientist | San Jose, CA | [apply](https://www.linkedin.com/jobs/view/junior-software-developer-data-scientist-at-synergisticit-4424692897) |
-| 5 | 90 | 2026-06-06 | linkedin | Morgan Stanley | Associate, Data &amp; Analytics Engineer | South Jordan, UT | [apply](https://www.linkedin.com/jobs/view/associate-data-analytics-engineer-at-morgan-stanley-4409959122) |
-| 6 | 50 | 2026-06-04 | linkedin | PTMA Financial Solutions | Data Analytics Engineer | Denver, CO | [apply](https://www.linkedin.com/jobs/view/data-analytics-engineer-at-ptma-financial-solutions-4424367683) |
-| 7 | 45 | 2026-06-03 | linkedin | Haystack | Data Engineer | San Diego, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-haystack-4420108580) |
-| 8 | 40 | 2026-06-05 | linkedin | AMD | Data Center Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-center-engineer-at-amd-4421186308) |
-| 9 | 35 | 2026-06-02 | linkedin | Salesforce | Software Engineer (Multiple Levels) - Machine Learning Infrastructure, Slack | Austin, TX | [apply](https://www.linkedin.com/jobs/view/software-engineer-multiple-levels-machine-learning-infrastructure-slack-at-salesforce-4371087968) |
+| 1 | 105 | 2026-06-06 | linkedin | Welltower™ Inc. (NYSE:WELL) | Data Scientist - PhD required - onsite Dallas, TX | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-phd-required-onsite-dallas-tx-at-welltower%E2%84%A2-inc-nyse-well-4406844168) |
+| 2 | 85 | 2026-06-04 | linkedin | Tata Consultancy Services | AI ML Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/ai-ml-engineer-at-tata-consultancy-services-4424474236) |
+| 3 | 75 | 2026-06-04 | linkedin | Deloitte | Data Scientist Engineer - SFL Scientific | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-engineer-sfl-scientific-at-deloitte-4423384186) |
+| 4 | 65 | 2026-06-07 | themuse | Apple | Engineering Project Manager - AML (Planning/Analytics), AiDP | Austin, TX | [apply](https://www.themuse.com/jobs/apple/engineering-project-manager-aml-planninganalytics-aidp-8fdf8a) |
+| 5 | 55 | 2026-06-04 | linkedin | Tata Consultancy Services | Azure Data Engineer | Hamilton Township, NJ | [apply](https://www.linkedin.com/jobs/view/azure-data-engineer-at-tata-consultancy-services-4414148312) |
+| 6 | 55 | 2026-06-03 | linkedin | Shields Group Search | Data Engineer | New York, NY | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-shields-group-search-4393861305) |
+| 7 | 50 | 2026-06-05 | linkedin | DPR Construction | PCA Data Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/pca-data-engineer-at-dpr-construction-4338473171) |
+| 8 | 50 | 2026-06-05 | linkedin | McLane Company, Inc. | Data Scientist - MBIS | Temple, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-mbis-at-mclane-company-inc-4395219809) |
+| 9 | 50 | 2026-06-04 | linkedin | Shelter Insurance Companies | Enterprise Data Engineer | Greater Columbia, Missouri Area | [apply](https://www.linkedin.com/jobs/view/enterprise-data-engineer-at-shelter-insurance-companies-4421896639) |
+| 10 | 50 | 2026-06-05 | linkedin | DPR Construction | PCA Data Engineer | Nashville, TN | [apply](https://www.linkedin.com/jobs/view/pca-data-engineer-at-dpr-construction-4338523053) |
+| 11 | 50 | 2026-06-04 | linkedin | Milan Laser Hair Removal | Data Engineer | Omaha Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-milan-laser-hair-removal-4406230423) |
+| 12 | 45 | 2026-06-04 | linkedin | Tata Consultancy Services | Snowflake Admin | Stamford, CT | [apply](https://www.linkedin.com/jobs/view/snowflake-admin-at-tata-consultancy-services-4414143616) |
+| 13 | 40 | 2026-06-03 | linkedin | Shrive Technologies | Snowflake Data Engineer | Texas, United States | [apply](https://www.linkedin.com/jobs/view/snowflake-data-engineer-at-shrive-technologies-4423027059) |
+| 14 | 40 | 2026-06-03 | linkedin | HCLTech | Cloud Data Engineer | El Paso, TX | [apply](https://www.linkedin.com/jobs/view/cloud-data-engineer-at-hcltech-4423007170) |
+| 15 | 40 | 2026-06-03 | linkedin | Optomi | Data Engineer | Columbus, Ohio Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-optomi-4424079765) |
+| 16 | 35 | 2026-06-04 | linkedin | Deloitte | Data Management Engineer II” ETL / IICS Developer | Milwaukee, WI | [apply](https://www.linkedin.com/jobs/view/data-management-engineer-ii%E2%80%9D-etl-iics-developer-at-deloitte-4423371478) |
+| 17 | 35 | 2026-06-04 | linkedin | Deloitte | Data Management Engineer II” ETL / IICS Developer | Stamford, CT | [apply](https://www.linkedin.com/jobs/view/data-management-engineer-ii%E2%80%9D-etl-iics-developer-at-deloitte-4423385143) |
+| 18 | 35 | 2026-06-04 | linkedin | Deloitte | Data Management Engineer II” ETL / IICS Developer | Dayton, OH | [apply](https://www.linkedin.com/jobs/view/data-management-engineer-ii%E2%80%9D-etl-iics-developer-at-deloitte-4423364670) |
+| 19 | 30 | 2026-06-04 | linkedin | Deloitte | Data Management Engineer II” ETL / IICS Developer | Davenport, IA | [apply](https://www.linkedin.com/jobs/view/data-management-engineer-ii%E2%80%9D-etl-iics-developer-at-deloitte-4423369582) |
