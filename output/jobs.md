@@ -1,26 +1,20 @@
-# Latest Jobs (20)
+# Latest Jobs (14)
 
-_Generated 2026-06-13 08:57 UTC_
+_Generated 2026-06-14 09:29 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 145 | 2026-06-12 | linkedin | Saransh Inc | Databricks Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-saransh-inc-4427223404) |
-| 2 | 145 | 2026-06-12 | linkedin | VOLTO Consulting | Databricks Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-volto-consulting-4428115345) |
-| 3 | 145 | 2026-06-12 | linkedin | Saransh Inc | AWS Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/aws-data-engineer-at-saransh-inc-4427212501) |
-| 4 | 140 | 2026-06-11 | linkedin | Riccione Resources, Inc. | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-riccione-resources-inc-4426135136) |
-| 5 | 135 | 2026-06-11 | linkedin | InterEx Group | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-interex-group-4412026975) |
-| 6 | 130 | 2026-06-13 | linkedin | Virtusa | Data Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-virtusa-4405577986) |
-| 7 | 120 | 2026-06-12 | linkedin | Holistic Partners | Databricks Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-4425318061) |
-| 8 | 110 | 2026-06-11 | linkedin | Higginbotham | Data Engineer | Fort Worth, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-higginbotham-4417370289) |
-| 9 | 110 | 2026-06-09 | linkedin | Tata Consultancy Services | Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-tata-consultancy-services-4426019007) |
-| 10 | 105 | 2026-06-11 | linkedin | Thermomix® USA | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-thermomix%C2%AE-usa-4426659533) |
-| 11 | 105 | 2026-06-11 | linkedin | Thomson Reuters | Customer Data Analyst | Frisco, TX | [apply](https://www.linkedin.com/jobs/view/customer-data-analyst-at-thomson-reuters-4426665134) |
-| 12 | 95 | 2026-06-13 | greenhouse | pinterest | Software Engineer II, ML Ops, tvScientific | San Francisco, CA, US; Remote, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7782571) |
-| 13 | 80 | 2026-06-12 | greenhouse | figma | Data Scientist, Finance | San Francisco, CA • New York, NY • United States | [apply](https://boards.greenhouse.io/figma/jobs/6013304004?gh_jid=6013304004) |
-| 14 | 75 | 2026-06-12 | greenhouse | anthropic | Product Management, Human Data Platform | San Francisco, CA / New York City, NY | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5195866008) |
-| 15 | 75 | 2026-06-12 | greenhouse | reddit | Software Engineer - Data Movement Platform | Remote - United States | [apply](https://job-boards.greenhouse.io/reddit/jobs/7997866) |
-| 16 | 65 | 2026-06-10 | linkedin | Whatnot | Data Engineer | Seattle, WA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-whatnot-4324849197) |
-| 17 | 60 | 2026-06-11 | linkedin | Inceed | Data Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-inceed-4426616525) |
-| 18 | 60 | 2026-06-09 | linkedin | Career Search Partners | Data Engineer | New York, NY | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-career-search-partners-4425553636) |
-| 19 | 60 | 2026-06-11 | linkedin | Sharp Decisions | Data Engineer (866) | Charlotte, NC | [apply](https://www.linkedin.com/jobs/view/data-engineer-866-at-sharp-decisions-4368839579) |
-| 20 | 35 | 2026-06-09 | linkedin | Infosys | Pyspark and Databricks Engineer | Pittsburgh, PA | [apply](https://www.linkedin.com/jobs/view/pyspark-and-databricks-engineer-at-infosys-4403266413) |
+| 1 | 135 | 2026-06-12 | linkedin | AceStack | Junior Data Engineer : : Plano, TX/ San Antonio, TX/ Phoenix, AZ | Plano, TX | [apply](https://www.linkedin.com/jobs/view/junior-data-engineer-plano-tx-san-antonio-tx-phoenix-az-at-acestack-4427207964) |
+| 2 | 110 | 2026-06-12 | linkedin | QODE | Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-qode-4428136815) |
+| 3 | 105 | 2026-06-12 | themuse | DoorDash | Data Analyst, In-Store | Flexible / Remote | [apply](https://www.themuse.com/jobs/doordash/data-analyst-instore) |
+| 4 | 90 | 2026-06-12 | linkedin | K&amp;L Gates | Data Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-k-l-gates-4428153538) |
+| 5 | 85 | 2026-06-13 | remoteok | Work Force Nexus | Junior ML Engineer | Remote,  | [apply](https://remoteOK.com/remote-jobs/remote-junior-ml-engineer-work-force-nexus-1133365) |
+| 6 | 80 | 2026-06-12 | remoteok | ActivTrak | Data Analyst | Austin, Austin, Texas, United States | [apply](https://remoteOK.com/remote-jobs/remote-data-analyst-activtrak-1133346) |
+| 7 | 70 | 2026-06-12 | greenhouse | coinbase | Analytics Engineer | Hybrid - Luxembourg | [apply](https://www.coinbase.com/careers/positions/7843712?gh_jid=7843712) |
+| 8 | 60 | 2026-06-12 | linkedin | HirePower Staffing Solution | Data Engineer | New York, NY | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-hirepower-staffing-solution-4424871830) |
+| 9 | 55 | 2026-06-13 | linkedin | Civitech | Software Engineer, Geospatial Data | Austin, Texas Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/software-engineer-geospatial-data-at-civitech-4428373322) |
+| 10 | 50 | 2026-06-10 | linkedin | Corient | Data Analyst | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-corient-4427023739) |
+| 11 | 50 | 2026-06-08 | linkedin | H-E-B | Decision Science Analyst II - Customer Data | San Antonio, TX | [apply](https://www.linkedin.com/jobs/view/decision-science-analyst-ii-customer-data-at-h-e-b-4425655861) |
+| 12 | 45 | 2026-06-11 | linkedin | Panelmatic | Data Analyst | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-panelmatic-4427549988) |
+| 13 | 40 | 2026-06-09 | linkedin | KNOWFINITY | Data Scientist | Texas, United States | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-knowfinity-4425894221) |
+| 14 | 40 | 2026-06-09 | linkedin | Zicasso | Marketing Data Scientist | Texas, United States | [apply](https://www.linkedin.com/jobs/view/marketing-data-scientist-at-zicasso-4426554080) |
