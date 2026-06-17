@@ -1,23 +1,24 @@
-# Latest Jobs (17)
+# Latest Jobs (18)
 
-_Generated 2026-06-16 11:05 UTC_
+_Generated 2026-06-17 10:36 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 155 | 2026-06-15 | linkedin | Henderson Scott | Databricks Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-henderson-scott-4428885615) |
-| 2 | 155 | 2026-06-16 | linkedin | Jobs via Dice | Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-jobs-via-dice-4428003204) |
-| 3 | 155 | 2026-06-15 | linkedin | Tata Consultancy Services | AWS Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/aws-data-engineer-at-tata-consultancy-services-4427721780) |
-| 4 | 155 | 2026-06-15 | linkedin | Tata Consultancy Services | Databricks Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-tata-consultancy-services-4427726735) |
-| 5 | 125 | 2026-06-12 | linkedin | K&amp;L Gates | Fabric Power BI Developer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/fabric-power-bi-developer-at-k-l-gates-4428167292) |
-| 6 | 125 | 2026-06-15 | linkedin | Acosta Group | Power BI Analyst (Category &amp; Retail Insights) | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/power-bi-analyst-category-retail-insights-at-acosta-group-4426422646) |
-| 7 | 105 | 2026-06-12 | linkedin | Cain Watters &amp; Associates | Reporting Analyst - ELITE Dental Alliance | Frisco, TX | [apply](https://www.linkedin.com/jobs/view/reporting-analyst-elite-dental-alliance-at-cain-watters-associates-4404225894) |
-| 8 | 95 | 2026-06-12 | linkedin | Thomson Reuters | Data Analyst, Government | Frisco, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-government-at-thomson-reuters-4427229203) |
-| 9 | 105 | 2026-06-16 | linkedin | Frontier Direct Care | Data Engineer | Harlingen, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-frontier-direct-care-4429226624) |
-| 10 | 95 | 2026-06-15 | linkedin | Cotiviti | Data Engineer - Hours are Sat thru Wed 9-6 PT | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-hours-are-sat-thru-wed-9-6-pt-at-cotiviti-4427774530) |
-| 11 | 90 | 2026-06-15 | greenhouse | databricks | Software Engineer - Distributed Data Systems | Belgrade, Serbia | [apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8012691002) |
-| 12 | 70 | 2026-06-15 | linkedin | Avance Consulting | Azure Databricks Data Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/azure-databricks-data-engineer-at-avance-consulting-4427719015) |
-| 13 | 55 | 2026-06-15 | linkedin | Ollion | Delivery Engineer - Data | Austin, TX | [apply](https://www.linkedin.com/jobs/view/delivery-engineer-data-at-ollion-4429114039) |
-| 14 | 50 | 2026-06-13 | linkedin | Fuse Fundraising | Data Engineer | Indiana, United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-fuse-fundraising-4427265153) |
-| 15 | 50 | 2026-06-10 | linkedin | EDO | Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-edo-4427046582) |
-| 16 | 40 | 2026-06-11 | linkedin | Lamb Weston LATAM | Data Engineer | Eagle, ID | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-lamb-weston-latam-4427505662) |
-| 17 | 40 | 2026-06-11 | linkedin | Relanto | Data Engineer (GCP) | Fremont, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-gcp-at-relanto-4427567424) |
+| 1 | 150 | 2026-06-16 | linkedin | American Institutes for Research | Data Engineer Associate | Arlington, VA | [apply](https://www.linkedin.com/jobs/view/data-engineer-associate-at-american-institutes-for-research-4429573971) |
+| 2 | 110 | 2026-06-16 | linkedin | Arrow Search Partners | Portfolio Reporting Analyst | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/portfolio-reporting-analyst-at-arrow-search-partners-4221779645) |
+| 3 | 105 | 2026-06-16 | linkedin | COVET IT INC | Databricks AI SME/ Databricks AI Engineer with AI APPS Exp | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/databricks-ai-sme-databricks-ai-engineer-with-ai-apps-exp-at-covet-it-inc-4428039830) |
+| 4 | 105 | 2026-06-15 | remoteok | Upgrade, Inc. | Junior Business &amp; Data Analyst | San Francisco, San Francisco, California, United States | [apply](https://remoteOK.com/remote-jobs/remote-junior-business-amp-data-analyst-upgrade-inc-1133488) |
+| 5 | 90 | 2026-06-16 | linkedin | AbbVie | Associate Data Engineer II | Mettawa, IL | [apply](https://www.linkedin.com/jobs/view/associate-data-engineer-ii-at-abbvie-4428412170) |
+| 6 | 85 | 2026-06-15 | linkedin | Irvine Company Chicago | Data Engineer - Contract ($65 - $95) | Irvine, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-contract-%2465-%2495-at-irvine-company-chicago-4427492549) |
+| 7 | 80 | 2026-06-17 | linkedin | Ladders | Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-ladders-4427326836) |
+| 8 | 70 | 2026-06-16 | themuse | Equinix, Inc | Data Center Expense Analyst - CDD remplacement congé maternité | Flexible / Remote | [apply](https://www.themuse.com/jobs/equinixinc/data-center-expense-analyst-cdd-remplacement-conge-maternite-07999c) |
+| 9 | 65 | 2026-06-11 | linkedin | First Financial Bank Texas | Data Analyst I | Abilene, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-i-at-first-financial-bank-texas-4417408294) |
+| 10 | 65 | 2026-06-16 | linkedin | Haystack | Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-haystack-4426490353) |
+| 11 | 60 | 2026-06-15 | linkedin | Alignerr | Data Scientist (Masters) | Sheffield, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-masters-at-alignerr-4428678288) |
+| 12 | 55 | 2026-06-11 | linkedin | NinjaOne | Data Software Engineer | Florida, United States | [apply](https://www.linkedin.com/jobs/view/data-software-engineer-at-ninjaone-4344251101) |
+| 13 | 55 | 2026-06-11 | linkedin | NinjaOne | Data Software Engineer | Georgia, United States | [apply](https://www.linkedin.com/jobs/view/data-software-engineer-at-ninjaone-4344270845) |
+| 14 | 50 | 2026-06-11 | linkedin | CapTech | Machine Learning / Data Science Engineer | Charlotte, NC | [apply](https://www.linkedin.com/jobs/view/machine-learning-data-science-engineer-at-captech-4386778609) |
+| 15 | 45 | 2026-06-14 | linkedin | Jobot | Data Analyst | Mansfield, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-jobot-4425737256) |
+| 16 | 40 | 2026-06-12 | linkedin | Trafigura | Data Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-trafigura-4414023300) |
+| 17 | 40 | 2026-06-12 | linkedin | QuidelOrtho | AI/ML Data Engineer (Databricks) | San Diego, CA | [apply](https://www.linkedin.com/jobs/view/ai-ml-data-engineer-databricks-at-quidelortho-4428181187) |
+| 18 | 35 | 2026-06-12 | linkedin | Enbridge | Data Analyst Specialist I, Work Management Technology | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-specialist-i-work-management-technology-at-enbridge-4425330472) |
