@@ -1,17 +1,15 @@
-# Latest Jobs (11)
+# Latest Jobs (9)
 
-_Generated 2026-06-19 10:23 UTC_
+_Generated 2026-06-20 08:50 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 155 | 2026-06-19 | linkedin | GM Financial | Data Analyst I - Model Management | Fort Worth, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-i-model-management-at-gm-financial-4409981115) |
-| 2 | 125 | 2026-06-18 | linkedin | SoTalent | Analytics Developer – Accounting | Irving, TX | [apply](https://www.linkedin.com/jobs/view/analytics-developer-%E2%80%93-accounting-at-sotalent-4427838512) |
-| 3 | 90 | 2026-06-18 | linkedin | Pixel Peak Digital Services | Junior Data Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/junior-data-engineer-at-pixel-peak-digital-services-4430185096) |
-| 4 | 90 | 2026-06-16 | remoteok | AWISEE | Junior Data Analyst Data Scientist | Serbia,  | [apply](https://remoteOK.com/remote-jobs/remote-junior-data-analyst-data-scientist-awisee-1133504) |
-| 5 | 80 | 2026-06-17 | linkedin | Vaco by Highspring | Data Analyst | San Antonio, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-vaco-by-highspring-4429951876) |
-| 6 | 70 | 2026-06-15 | linkedin | Insight Global | Junior Data Analyst | San Antonio, Texas Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/junior-data-analyst-at-insight-global-4427723133) |
-| 7 | 70 | 2026-06-18 | themuse | Autodesk | Manager, Applied AI/ML, Data Science & Engineering | Flexible / Remote | [apply](https://www.themuse.com/jobs/autodesk/manager-applied-aiml-data-science-engineering) |
-| 8 | 60 | 2026-06-17 | linkedin | Vertex Elite LLC | AWS Data Engineer | New Jersey, United States | [apply](https://www.linkedin.com/jobs/view/aws-data-engineer-at-vertex-elite-llc-4428737143) |
-| 9 | 50 | 2026-06-16 | linkedin | Enzo Tech Group | Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-enzo-tech-group-4429271184) |
-| 10 | 50 | 2026-06-16 | linkedin | Optomi | GCP Data Engineer | Atlanta Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/gcp-data-engineer-at-optomi-4429541079) |
-| 11 | 45 | 2026-06-16 | linkedin | Great Value Hiring | Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-great-value-hiring-4428084230) |
+| 1 | 145 | 2026-06-19 | linkedin | Clevanoo LLC | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-clevanoo-llc-4429691950) |
+| 2 | 100 | 2026-06-17 | linkedin | Allata | Data Engineer (Databricks + Informatica + Azure) | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-databricks-%2B-informatica-%2B-azure-at-allata-4429994053) |
+| 3 | 80 | 2026-06-17 | linkedin | Glazer's Beer and Beverage, LLC | Supply Chain Operations Analyst (Power BI / Analytics) | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/supply-chain-operations-analyst-power-bi-analytics-at-glazer-s-beer-and-beverage-llc-4428425866) |
+| 4 | 95 | 2026-06-19 | linkedin | Deloitte | Databricks Data Engineer | Greater Cleveland | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4420900250) |
+| 5 | 80 | 2026-06-19 | themuse | Charles Schwab | AI & Data Scientist | Austin, TX | [apply](https://www.themuse.com/jobs/charlesschwab/ai-data-scientist) |
+| 6 | 60 | 2026-06-18 | linkedin | GENNTE Technologies | Data Analyst - Python, SQL &amp; PowerBI | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-python-sql-powerbi-at-gennte-technologies-4427886070) |
+| 7 | 55 | 2026-06-18 | linkedin | Linde | Data Scientist - Energy | The Woodlands, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-energy-at-linde-4430737587) |
+| 8 | 55 | 2026-06-15 | linkedin | Whatnot | Data Engineer | San Francisco, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-whatnot-4317496119) |
+| 9 | 50 | 2026-06-16 | linkedin | TikTok USDS Joint Venture | Data Engineer, Data Engineering and Analytics - USDS | Seattle, WA | [apply](https://www.linkedin.com/jobs/view/data-engineer-data-engineering-and-analytics-usds-at-tiktok-usds-joint-venture-4417380338) |
