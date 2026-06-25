@@ -1,16 +1,26 @@
-# Latest Jobs (10)
+# Latest Jobs (20)
 
-_Generated 2026-06-24 09:03 UTC_
+_Generated 2026-06-25 08:58 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 140 | 2026-06-23 | linkedin | Vaco by Highspring | Data Analyst | Addison, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-vaco-by-highspring-4431258498) |
-| 2 | 125 | 2026-06-23 | linkedin | PRI Global | Data Modeler | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-modeler-at-pri-global-4431297637) |
-| 3 | 115 | 2026-06-22 | linkedin | Welling Young, LLC | Reporting Analyst | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/reporting-analyst-at-welling-young-llc-4431708739) |
-| 4 | 75 | 2026-06-19 | linkedin | CloudIngest | Databricks SME (AI Engineer) | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/databricks-sme-ai-engineer-at-cloudingest-4429367566) |
-| 5 | 95 | 2026-06-23 | linkedin | Deloitte | Project - Data Engineer | Miami, FL | [apply](https://www.linkedin.com/jobs/view/project-data-engineer-at-deloitte-4432052838) |
-| 6 | 75 | 2026-06-22 | remoteok | YO HR Consultancy | Data Analyst | Remote | [apply](https://remoteOK.com/remote-jobs/remote-data-analyst-yo-hr-consultancy-1133880) |
-| 7 | 65 | 2026-06-19 | linkedin | PwC | Managed Services - Data Engineer - Experienced Associate | Charlotte, NC | [apply](https://www.linkedin.com/jobs/view/managed-services-data-engineer-experienced-associate-at-pwc-4430003120) |
-| 8 | 65 | 2026-06-22 | remoteok | iConsultera | Data Analyst | Remote | [apply](https://remoteOK.com/remote-jobs/remote-data-analyst-iconsultera-1133846) |
-| 9 | 65 | 2026-06-23 | greenhouse | stripe | Machine Learning Engineer, Payment Intelligence | Seattle | [apply](https://stripe.com/jobs/search?gh_jid=7983456) |
-| 10 | 60 | 2026-06-23 | greenhouse | airbnb | Machine Learning Engineer, Community Support Engineering | San Francisco, CA | [apply](https://careers.airbnb.com/positions/8024267?gh_jid=8024267) |
+| 1 | 135 | 2026-06-23 | linkedin | LTM | Specialist - Data Engineering | Irving, TX | [apply](https://www.linkedin.com/jobs/view/specialist-data-engineering-at-ltm-4429484068) |
+| 2 | 120 | 2026-06-24 | linkedin | Anblicks | Azure Data Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/azure-data-engineer-at-anblicks-4432827463) |
+| 3 | 110 | 2026-06-23 | linkedin | Genpact | Cloud Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/cloud-data-engineer-at-genpact-4429493171) |
+| 4 | 100 | 2026-06-23 | remoteok | Caterpillar Inc. | Junior Data Analyst | Houston, Houston, Texas, United States | [apply](https://remoteOK.com/remote-jobs/remote-junior-data-analyst-caterpillar-inc-1134008) |
+| 5 | 95 | 2026-06-24 | linkedin | Attractivate Consulting Solutions | Data Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-attractivate-consulting-solutions-4423269284) |
+| 6 | 95 | 2026-06-24 | linkedin | Axle | Data Engineer | Rockville, MD | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-axle-4431848967) |
+| 7 | 90 | 2026-06-24 | linkedin | Meet Life Sciences | Data Engineering &amp; Delivery Leasd | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineering-delivery-leasd-at-meet-life-sciences-4429852332) |
+| 8 | 90 | 2026-06-24 | greenhouse | coinbase | Analytics Engineer | Remote - USA | [apply](https://www.coinbase.com/careers/positions/8020892?gh_jid=8020892) |
+| 9 | 85 | 2026-06-23 | linkedin | Fervo Energy | Data Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-fervo-energy-4429444824) |
+| 10 | 85 | 2026-06-23 | linkedin | Deloitte | Project - Data Engineer | Milwaukee, WI | [apply](https://www.linkedin.com/jobs/view/project-data-engineer-at-deloitte-4432043966) |
+| 11 | 85 | 2026-06-23 | linkedin | Deloitte | Project - Data Engineer | Lansing, MI | [apply](https://www.linkedin.com/jobs/view/project-data-engineer-at-deloitte-4432059176) |
+| 12 | 85 | 2026-06-23 | linkedin | Deloitte | Project - Data Engineer | Stamford, CT | [apply](https://www.linkedin.com/jobs/view/project-data-engineer-at-deloitte-4432051893) |
+| 13 | 75 | 2026-06-25 | greenhouse | anthropic | Data Scientist, Supply | San Francisco, CA / New York City, NY | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5212119008) |
+| 14 | 65 | 2026-06-19 | linkedin | Deloitte | Databricks Data Engineer | Kansas City, MO | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4420695406) |
+| 15 | 65 | 2026-06-19 | linkedin | Deloitte | Databricks Data Engineer | Minneapolis, MN | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4420685942) |
+| 16 | 65 | 2026-06-19 | linkedin | Deloitte | Databricks Data Engineer | Los Angeles, CA | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4420900239) |
+| 17 | 65 | 2026-06-19 | linkedin | Deloitte | Databricks Data Engineer | Seattle, WA | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4420694375) |
+| 18 | 65 | 2026-06-19 | linkedin | Deloitte | Databricks Data Engineer | Tampa, FL | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4420692647) |
+| 19 | 65 | 2026-06-19 | linkedin | Deloitte | Databricks Data Engineer | Cincinnati, OH | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4420901199) |
+| 20 | 45 | 2026-06-22 | linkedin | Nityo Infotech Corp | AWS Data Engineer | Richmond, TX | [apply](https://www.linkedin.com/jobs/view/aws-data-engineer-4428961988) |
