@@ -1,26 +1,21 @@
-# Latest Jobs (20)
+# Latest Jobs (15)
 
-_Generated 2026-06-29 10:31 UTC_
+_Generated 2026-06-30 09:06 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 115 | 2026-06-24 | linkedin | GM Financial | Data Engineer-Adobe Exp Platform | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-adobe-exp-platform-at-gm-financial-4432854184) |
-| 2 | 95 | 2026-06-25 | linkedin | Atem Corp | GCP Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/gcp-data-engineer-at-atem-corp-4433398015) |
-| 3 | 90 | 2026-06-23 | linkedin | Holistic Partners, Inc | Data Engineer - Snowflake (Local to Dallas, TX ; Jersey City, NJ or Tampa, FL ONLY) | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-snowflake-local-to-dallas-tx-jersey-city-nj-or-tampa-fl-only-at-holistic-partners-inc-4431267582) |
-| 4 | 110 | 2026-06-28 | greenhouse | airbnb | Data Scientist - Algorithms, Community Support | Remote - USA | [apply](https://careers.airbnb.com/positions/8031901?gh_jid=8031901) |
-| 5 | 85 | 2026-06-28 | greenhouse | airbnb | Data Scientist - Inference, Community Support | Remote - USA | [apply](https://careers.airbnb.com/positions/8031907?gh_jid=8031907) |
-| 6 | 75 | 2026-06-26 | linkedin | Deloitte | Data Scientist Engineer - SFL Scientific | Chicago, IL | [apply](https://www.linkedin.com/jobs/view/data-scientist-engineer-sfl-scientific-at-deloitte-4423364702) |
-| 7 | 70 | 2026-06-27 | linkedin | Habitat Energy | ML Ops Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/ml-ops-engineer-at-habitat-energy-4419073866) |
-| 8 | 70 | 2026-06-26 | linkedin | BeaconFire Inc. | Junior Data Engineer | New York, United States | [apply](https://www.linkedin.com/jobs/view/junior-data-engineer-at-beaconfire-inc-4429865959) |
-| 9 | 65 | 2026-06-23 | linkedin | Deloitte | Project - Data Engineer | Princeton, NJ | [apply](https://www.linkedin.com/jobs/view/project-data-engineer-at-deloitte-4432048989) |
-| 10 | 65 | 2026-06-23 | linkedin | Deloitte | Project - Data Engineer | Hartford, CT | [apply](https://www.linkedin.com/jobs/view/project-data-engineer-at-deloitte-4432065029) |
-| 11 | 65 | 2026-06-23 | linkedin | Deloitte | Project - Data Engineer | Richmond, VA | [apply](https://www.linkedin.com/jobs/view/project-data-engineer-at-deloitte-4432067020) |
-| 12 | 65 | 2026-06-23 | linkedin | Deloitte | Project - Data Engineer | Kansas City, MO | [apply](https://www.linkedin.com/jobs/view/project-data-engineer-at-deloitte-4432064024) |
-| 13 | 65 | 2026-06-23 | linkedin | Deloitte | Project - Data Engineer | St Louis, MO | [apply](https://www.linkedin.com/jobs/view/project-data-engineer-at-deloitte-4432067022) |
-| 14 | 65 | 2026-06-23 | linkedin | Deloitte | Project - Data Engineer | Memphis, TN | [apply](https://www.linkedin.com/jobs/view/project-data-engineer-at-deloitte-4432062121) |
-| 15 | 65 | 2026-06-23 | linkedin | Deloitte | Project - Data Engineer | Louisville, KY | [apply](https://www.linkedin.com/jobs/view/project-data-engineer-at-deloitte-4432045988) |
-| 16 | 60 | 2026-06-27 | linkedin | SAP | Data Engineer | Bellevue, WA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-sap-4433449290) |
-| 17 | 50 | 2026-06-26 | linkedin | HCLTech | Snowflake Data Engineer | San Antonio, Texas Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/snowflake-data-engineer-at-hcltech-4430626047) |
-| 18 | 50 | 2026-06-25 | linkedin | BCforward | Data Engineer | Charlotte, NC | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-bcforward-4432922019) |
-| 19 | 45 | 2026-06-26 | linkedin | ALL KNOWN SERVICES | Data Analytics Engineer | Texas, United States | [apply](https://www.linkedin.com/jobs/view/data-analytics-engineer-at-all-known-services-4433223969) |
-| 20 | 30 | 2026-06-25 | linkedin | Apptronik | Software Engineer - Human Motion Data | Austin, TX | [apply](https://www.linkedin.com/jobs/view/software-engineer-human-motion-data-at-apptronik-4413729928) |
+| 1 | 120 | 2026-06-25 | linkedin | CarMax | Data Engineer | Dallas-Fort Worth Metroplex | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-carmax-4433515186) |
+| 2 | 115 | 2026-06-29 | linkedin | Haystack | Data Analyst | Dallas-Fort Worth Metroplex | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-haystack-4434113628) |
+| 3 | 85 | 2026-06-25 | linkedin | Welltower™ Inc. (NYSE:WELL) | Data Scientist | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-welltower%E2%84%A2-inc-nyse-well-4433379798) |
+| 4 | 90 | 2026-06-28 | linkedin | Radian | Data Scientist II - Hybrid | New York, NY | [apply](https://www.linkedin.com/jobs/view/data-scientist-ii-hybrid-at-radian-4308607155) |
+| 5 | 85 | 2026-06-29 | greenhouse | lyft | Data Scientist, Decisions - Central Market Management | San Francisco, CA | [apply](https://app.careerpuck.com/job-board/lyft/job/8376875002?gh_jid=8376875002) |
+| 6 | 85 | 2026-06-29 | greenhouse | lyft | Data Scientist, Decisions - Central Market Management | New York, NY | [apply](https://app.careerpuck.com/job-board/lyft/job/8378473002?gh_jid=8378473002) |
+| 7 | 75 | 2026-06-26 | linkedin | Deloitte | Data Scientist Engineer - SFL Scientific | San Jose, CA | [apply](https://www.linkedin.com/jobs/view/data-scientist-engineer-sfl-scientific-at-deloitte-4423377336) |
+| 8 | 75 | 2026-06-26 | linkedin | Deloitte | Data Scientist Engineer - SFL Scientific | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-engineer-sfl-scientific-at-deloitte-4423374399) |
+| 9 | 75 | 2026-06-26 | linkedin | Deloitte | Data Scientist Engineer - SFL Scientific | Los Angeles, CA | [apply](https://www.linkedin.com/jobs/view/data-scientist-engineer-sfl-scientific-at-deloitte-4423363866) |
+| 10 | 75 | 2026-06-26 | linkedin | Deloitte | Data Scientist Engineer - SFL Scientific | Greater Cleveland | [apply](https://www.linkedin.com/jobs/view/data-scientist-engineer-sfl-scientific-at-deloitte-4423378383) |
+| 11 | 45 | 2026-06-24 | linkedin | NTT DATA, Inc. | Data Centre Remote Field Service Engineer (L1) | Texas, United States | [apply](https://www.linkedin.com/jobs/view/data-centre-remote-field-service-engineer-l1-at-ntt-data-inc-4429483666) |
+| 12 | 45 | 2026-06-25 | linkedin | Gopuff | Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-gopuff-4388128001) |
+| 13 | 40 | 2026-06-25 | linkedin | Stefanini North America and APAC | Data Engineer | Dearborn, MI | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-stefanini-north-america-and-apac-4433346873) |
+| 14 | 35 | 2026-06-24 | linkedin | FCC Environmental Services | Data Analyst (Spring, TX) | Spring, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-spring-tx-at-fcc-environmental-services-4432815530) |
+| 15 | 25 | 2026-06-24 | linkedin | Selby Jennings | Data Center Engineer | Cleveland, OH | [apply](https://www.linkedin.com/jobs/view/data-center-engineer-at-selby-jennings-4432590538) |
