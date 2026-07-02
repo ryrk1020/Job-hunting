@@ -1,26 +1,26 @@
 # Latest Jobs (20)
 
-_Generated 2026-07-01 09:38 UTC_
+_Generated 2026-07-02 08:52 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 145 | 2026-06-30 | linkedin | EssilorLuxottica | Data Scientist | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-essilorluxottica-4434363332) |
-| 2 | 140 | 2026-06-30 | linkedin | BeaconFire Inc. | Data Engineer | Dallas County, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-beaconfire-inc-4429868377) |
-| 3 | 125 | 2026-06-30 | linkedin | Tata Consultancy Services | Mongo Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/mongo-data-engineer-at-tata-consultancy-services-4425532514) |
-| 4 | 120 | 2026-06-30 | linkedin | JPMorganChase | Data Scientist [Multiple Positions Available] | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-multiple-positions-available-at-jpmorganchase-4429206390) |
-| 5 | 115 | 2026-06-30 | linkedin | Precision Technologies | Data Analyst | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-precision-technologies-4434332210) |
-| 6 | 115 | 2026-06-26 | linkedin | Apex Systems | Junior Data Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/junior-data-engineer-at-apex-systems-4433880504) |
-| 7 | 110 | 2026-06-25 | linkedin | Emonics LLC | Entry Level Data Analyst | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/entry-level-data-analyst-at-emonics-llc-4432905086) |
-| 8 | 110 | 2026-06-26 | linkedin | Caris Life Sciences | Data Scientist - Innovation - PhD (Irving, TX) | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-innovation-phd-irving-tx-at-caris-life-sciences-4414914917) |
-| 9 | 105 | 2026-06-29 | linkedin | Infosys | Power BI Developer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/power-bi-developer-at-infosys-4431537534) |
-| 10 | 90 | 2026-06-25 | linkedin | Danta Technologies | Data Scientist - Agentic AI | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-agentic-ai-at-danta-technologies-4433042772) |
-| 11 | 115 | 2026-06-30 | greenhouse | upstart | Data Analyst, Home Lending HMDA | United States / Remote | [apply](https://careers.upstart.com/jobs?gh_jid=8038452) |
-| 12 | 95 | 2026-06-30 | linkedin | San Diego Community Power | Data Engineer | San Diego, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-san-diego-community-power-4435301395) |
-| 13 | 70 | 2026-06-30 | linkedin | Charles Schwab | Mid-Level Data Engineer - SQL, Java, Spring Boot | Austin, TX | [apply](https://www.linkedin.com/jobs/view/mid-level-data-engineer-sql-java-spring-boot-at-charles-schwab-4431945706) |
-| 14 | 70 | 2026-06-30 | linkedin | Ascendion | Data Analyst | Spring, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-ascendion-4434333548) |
-| 15 | 65 | 2026-06-30 | linkedin | Deloitte | AWS Data Engineer - Consultant | Houston, TX | [apply](https://www.linkedin.com/jobs/view/aws-data-engineer-consultant-at-deloitte-4434995716) |
-| 16 | 50 | 2026-06-26 | linkedin | Deloitte | Java Spark Developer-Software Engineer II | Jersey City, NJ | [apply](https://www.linkedin.com/jobs/view/java-spark-developer-software-engineer-ii-at-deloitte-4433539463) |
-| 17 | 45 | 2026-06-29 | linkedin | DPR Construction | Business Intelligence Analyst - Business Development &amp; Marketing Analytics | Austin, TX | [apply](https://www.linkedin.com/jobs/view/business-intelligence-analyst-business-development-marketing-analytics-at-dpr-construction-4314427628) |
-| 18 | 40 | 2026-06-25 | linkedin | Daikin Comfort | Data Scientist 1 | Waller, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-1-at-daikin-comfort-4424202708) |
-| 19 | 40 | 2026-06-25 | linkedin | The Coca-Cola Company | Data Analyst (Data Solutions) | Atlanta, GA | [apply](https://www.linkedin.com/jobs/view/data-analyst-data-solutions-at-the-coca-cola-company-4433508975) |
-| 20 | 35 | 2026-06-26 | linkedin | EOG Resources | Data Engineer II | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-ii-at-eog-resources-4434022423) |
+| 1 | 145 | 2026-07-02 | linkedin | Deloitte | Databricks Engineer | Arlington, VA | [apply](https://www.linkedin.com/jobs/view/databricks-engineer-at-deloitte-4436136474) |
+| 2 | 120 | 2026-07-01 | linkedin | JPMorganChase | Data Engineer [Multiple Positions Available] | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-multiple-positions-available-at-jpmorganchase-4435376790) |
+| 3 | 120 | 2026-07-01 | linkedin | Addison Group | Power Bi Developer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/power-bi-developer-at-addison-group-4435832826) |
+| 4 | 110 | 2026-06-30 | linkedin | Optomi | Data Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-optomi-4435108084) |
+| 5 | 110 | 2026-06-30 | linkedin | Infosys | Databricks Data Engineer | Richardson, TX | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-infosys-4431949576) |
+| 6 | 80 | 2026-07-01 | linkedin | Caris Life Sciences | Data Integration Engineer | Arkansas, United States | [apply](https://www.linkedin.com/jobs/view/data-integration-engineer-at-caris-life-sciences-4416951259) |
+| 7 | 80 | 2026-07-01 | greenhouse | stripe | Software Engineer, Product Security Data Platforms | Seattle | [apply](https://stripe.com/jobs/search?gh_jid=8039800) |
+| 8 | 65 | 2026-06-29 | linkedin | Whatnot | Data Engineer | Los Angeles, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-whatnot-4324940865) |
+| 9 | 65 | 2026-06-27 | linkedin | EchoStar Corporation | Data Engineer II | Littleton, CO | [apply](https://www.linkedin.com/jobs/view/data-engineer-ii-at-echostar-corporation-4424656007) |
+| 10 | 65 | 2026-06-30 | greenhouse | stripe | Data Analyst - Economic Insights & Communications | US | [apply](https://stripe.com/jobs/search?gh_jid=7376419) |
+| 11 | 60 | 2026-06-30 | linkedin | CBTS | Data Engineer I(onsite, no third party, only W2) | Cincinnati, OH | [apply](https://www.linkedin.com/jobs/view/data-engineer-i-onsite-no-third-party-only-w2-at-cbts-4434334346) |
+| 12 | 55 | 2026-06-26 | linkedin | Deloitte | Databricks Engineer | Richmond, VA | [apply](https://www.linkedin.com/jobs/view/databricks-engineer-at-deloitte-4433529726) |
+| 13 | 55 | 2026-06-30 | linkedin | Tata Consultancy Services | Data Engineer (Kusto) | Bellevue, WA | [apply](https://www.linkedin.com/jobs/view/data-engineer-kusto-at-tata-consultancy-services-4431558806) |
+| 14 | 55 | 2026-06-30 | linkedin | Bechtel Plant Machinery, Inc. (BPMI) | Experienced Data Engineer | Monroeville, PA | [apply](https://www.linkedin.com/jobs/view/experienced-data-engineer-at-bechtel-plant-machinery-inc-bpmi-4434325871) |
+| 15 | 55 | 2026-06-30 | linkedin | Mutual of Omaha Mortgage | Database Engineer - Databricks | Irvine, CA | [apply](https://www.linkedin.com/jobs/view/database-engineer-databricks-at-mutual-of-omaha-mortgage-4434334365) |
+| 16 | 50 | 2026-06-26 | remoteok | EY | Data Engineers | Msida,  | [apply](https://remoteOK.com/remote-jobs/remote-data-engineers-ey-1134306) |
+| 17 | 45 | 2026-06-27 | linkedin | KLA | Data Engineer - Palantir | Ann Arbor, MI | [apply](https://www.linkedin.com/jobs/view/data-engineer-palantir-at-kla-4411549133) |
+| 18 | 40 | 2026-06-27 | linkedin | Inherent Technologies | Data engineer | San Antonio, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-inherent-technologies-4434242550) |
+| 19 | 40 | 2026-06-26 | linkedin | Persistent Systems | Data Engineer | Pennsylvania, United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-persistent-systems-4430601762) |
+| 20 | 20 | 2026-06-27 | linkedin | AMD | ML/AI Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/ml-ai-engineer-at-amd-4421509246) |
