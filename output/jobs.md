@@ -1,12 +1,17 @@
-# Latest Jobs (6)
+# Latest Jobs (11)
 
-_Generated 2026-07-07 09:33 UTC_
+_Generated 2026-07-08 08:17 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 80 | 2026-07-07 | greenhouse | anthropic | Engineering Manager, Research Data Platform | San Francisco, CA / New York City, NY | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5297059008) |
-| 2 | 65 | 2026-07-01 | linkedin | Amazon | Data Engineer, Data Platform Management, Worldwide Grocery Store Tech | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-data-platform-management-worldwide-grocery-store-tech-at-amazon-4432340068) |
-| 3 | 55 | 2026-07-03 | linkedin | Fort Bend ISD | Analyst Data and Reporting (HRIS) | Sugar Land, TX | [apply](https://www.linkedin.com/jobs/view/analyst-data-and-reporting-hris-at-fort-bend-isd-4436759730) |
-| 4 | 50 | 2026-07-02 | linkedin | Deloitte | Forward Deployed Engineer - Databricks - Forensic Discovery &amp; Financial Crime | Austin, TX | [apply](https://www.linkedin.com/jobs/view/forward-deployed-engineer-databricks-forensic-discovery-financial-crime-at-deloitte-4436134639) |
-| 5 | 50 | 2026-07-02 | linkedin | Caris Life Sciences | Data Integration Engineer | New Hampshire, United States | [apply](https://www.linkedin.com/jobs/view/data-integration-engineer-at-caris-life-sciences-4416960208) |
-| 6 | 40 | 2026-07-02 | linkedin | Mastech Digital | Data Engineer | Roanoke, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-mastech-digital-4414007883) |
+| 1 | 115 | 2026-07-07 | linkedin | BeaconFire Inc. | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-beaconfire-inc-4433993271) |
+| 2 | 85 | 2026-07-07 | linkedin | Deloitte | Databricks Engineer | McLean, VA | [apply](https://www.linkedin.com/jobs/view/databricks-engineer-at-deloitte-4437745392) |
+| 3 | 85 | 2026-07-07 | greenhouse | lyft | Data Scientist, Optimization - Pricing | New York, NY | [apply](https://app.careerpuck.com/job-board/lyft/job/8615368002?gh_jid=8615368002) |
+| 4 | 75 | 2026-07-07 | linkedin | HAVI | Data Engineer | Chicago, IL | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-havi-4437824943) |
+| 5 | 70 | 2026-07-07 | linkedin | Inherent Technologies | Data Engineer | Washington, DC | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-inherent-technologies-4437870077) |
+| 6 | 65 | 2026-07-07 | linkedin | Apexon | AI Data Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/ai-data-engineer-at-apexon-4437729072) |
+| 7 | 65 | 2026-07-06 | linkedin | DLA Piper | Data Engineer | Phoenix, AZ | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-dla-piper-4437413994) |
+| 8 | 55 | 2026-07-07 | linkedin | OSI Engineering | AI Data &amp; Python Tools Engineer for a well-known consumer device company in Austin, TX | Austin, Texas Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/ai-data-python-tools-engineer-for-a-well-known-consumer-device-company-in-austin-tx-at-osi-engineering-4436863341) |
+| 9 | 55 | 2026-07-04 | linkedin | Tata Consultancy Services | Data Engineer | Atlanta, GA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-tata-consultancy-services-4427218717) |
+| 10 | 50 | 2026-07-02 | linkedin | Deloitte | Forward Deployed Engineer - Databricks - Forensic Discovery &amp; Financial Crime | Houston, TX | [apply](https://www.linkedin.com/jobs/view/forward-deployed-engineer-databricks-forensic-discovery-financial-crime-at-deloitte-4436147293) |
+| 11 | 40 | 2026-07-03 | linkedin | Infosys | Databricks Data Engineer | Minneapolis, MN | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-infosys-4433149620) |
