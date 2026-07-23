@@ -1,19 +1,26 @@
-# Latest Jobs (13)
+# Latest Jobs (20)
 
-_Generated 2026-07-22 08:18 UTC_
+_Generated 2026-07-23 08:18 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 145 | 2026-07-21 | linkedin | Bank OZK | Associate, Data Engineering | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/associate-data-engineering-at-bank-ozk-4443562011) |
-| 2 | 110 | 2026-07-20 | linkedin | Kimley-Horn | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-kimley-horn-4442222567) |
-| 3 | 95 | 2026-07-21 | linkedin | MetLife | Data Engineer I | Bridgewater, NJ | [apply](https://www.linkedin.com/jobs/view/data-engineer-i-at-metlife-4442271176) |
-| 4 | 95 | 2026-07-22 | greenhouse | hightouch | Forward Deployed Analytics Engineer  | Remote (North America) | [apply](https://job-boards.greenhouse.io/hightouch/jobs/6122160004) |
-| 5 | 80 | 2026-07-21 | greenhouse | amplitude | Engineering Manager (Experimentation Data Infrastructure) | San Francisco, CA | [apply](https://job-boards.greenhouse.io/amplitude/jobs/8643491002) |
-| 6 | 70 | 2026-07-21 | linkedin | Xforia Global Talent &amp; Technology Solutions | Data Engineer | Roanoke, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-xforia-global-talent-technology-solutions-4442909412) |
-| 7 | 65 | 2026-07-21 | linkedin | Friona Industries LP | Data Analyst | Amarillo, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-friona-industries-lp-4440475102) |
-| 8 | 65 | 2026-07-16 | linkedin | PwC | Managed Services - Data Engineer - Experienced Associate | Louisville, KY | [apply](https://www.linkedin.com/jobs/view/managed-services-data-engineer-experienced-associate-at-pwc-4429692937) |
-| 9 | 60 | 2026-07-21 | themuse | Apple | AI/ML Engineer (GenAI), G&A Solutions Engineering (GSE) | Austin, TX | [apply](https://www.themuse.com/jobs/apple/aiml-engineer-genai-ga-solutions-engineering-gse-ddd4fc) |
-| 10 | 60 | 2026-07-20 | linkedin | Chipotle Mexican Grill | Data Platform Engineer | Columbus, OH | [apply](https://www.linkedin.com/jobs/view/data-platform-engineer-at-chipotle-mexican-grill-4442090395) |
-| 11 | 60 | 2026-07-21 | greenhouse | anthropic | Machine Learning Infrastructure Engineer, Safeguards Research | San Francisco, CA / New York City, NY | [apply](https://job-boards.greenhouse.io/anthropic/jobs/5364804008) |
-| 12 | 45 | 2026-07-18 | linkedin | Fluidstack | Data Center Capacity Analyst | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-center-capacity-analyst-at-fluidstack-4441368902) |
-| 13 | 35 | 2026-07-16 | linkedin | LVT (LiveView Technologies) | Data Analyst II | American Fork, UT | [apply](https://www.linkedin.com/jobs/view/data-analyst-ii-at-lvt-liveview-technologies-4441671805) |
+| 1 | 110 | 2026-07-21 | linkedin | Sira Consulting, an Inc 5000 company | Data Engineer | Arlington, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-sira-consulting-an-inc-5000-company-4443534957) |
+| 2 | 110 | 2026-07-21 | linkedin | Amazon | Data Engineer II, Analytics Delivery Services (ADS) | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-ii-analytics-delivery-services-ads-at-amazon-4443062097) |
+| 3 | 105 | 2026-07-22 | linkedin | Axiom Global Technologies | Snowflakes Developer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/snowflakes-developer-at-axiom-global-technologies-4443417409) |
+| 4 | 95 | 2026-07-20 | linkedin | Amazon Web Services (AWS) | Data Scientist, AWS Support Capacity Planning | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-aws-support-capacity-planning-at-amazon-web-services-aws-4443029982) |
+| 5 | 95 | 2026-07-17 | linkedin | Tata Consultancy Services | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-tata-consultancy-services-4441321539) |
+| 6 | 85 | 2026-07-20 | linkedin | Elite IT Solutions LLC | DataBricks Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/databricks-engineer-at-elite-it-solutions-llc-4443378377) |
+| 7 | 80 | 2026-07-20 | linkedin | Techfuturiq | Data Modeler | McKinney, TX | [apply](https://www.linkedin.com/jobs/view/data-modeler-at-techfuturiq-4442030257) |
+| 8 | 95 | 2026-07-22 | linkedin | DoorDash | Data Analyst, In-Store | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-in-store-at-doordash-4443111128) |
+| 9 | 95 | 2026-07-23 | linkedin | Whatnot | Data Engineer, Payments | Seattle, WA | [apply](https://www.linkedin.com/jobs/view/data-engineer-payments-at-whatnot-4443421993) |
+| 10 | 85 | 2026-07-23 | linkedin | Cognizant | Data Engineer / ML-Driven Data Pipelines | St Francis, AR | [apply](https://www.linkedin.com/jobs/view/data-engineer-ml-driven-data-pipelines-at-cognizant-4443440739) |
+| 11 | 75 | 2026-07-23 | linkedin | swipejobs | Data Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-swipejobs-4399818970) |
+| 12 | 75 | 2026-07-21 | linkedin | Sports Careers | Data Engineer | San Francisco, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-sports-careers-4444231364) |
+| 13 | 70 | 2026-07-22 | linkedin | Infosys | Cloud Data Engineer | Charlotte, NC | [apply](https://www.linkedin.com/jobs/view/cloud-data-engineer-at-infosys-4441072975) |
+| 14 | 70 | 2026-07-22 | linkedin | Murphy USA | Data Engineer I | El Dorado, AR | [apply](https://www.linkedin.com/jobs/view/data-engineer-i-at-murphy-usa-4444210754) |
+| 15 | 65 | 2026-07-21 | linkedin | Red Bull | Data Engineer | Santa Monica, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-red-bull-4443078509) |
+| 16 | 60 | 2026-07-21 | linkedin | Infosys | Hadoop and PySpark Data Engineer | Charlotte, NC | [apply](https://www.linkedin.com/jobs/view/hadoop-and-pyspark-data-engineer-at-infosys-4441006661) |
+| 17 | 55 | 2026-07-22 | linkedin | Covetus | Data Bricks Migration and Support engineer | Texas, United States | [apply](https://www.linkedin.com/jobs/view/data-bricks-migration-and-support-engineer-at-covetus-4443927503) |
+| 18 | 55 | 2026-07-18 | linkedin | Fluidstack | Data Engineer | San Francisco, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-fluidstack-4441385267) |
+| 19 | 50 | 2026-07-19 | linkedin | IBM | Data Engineer – IBM Quantum | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-%E2%80%93-ibm-quantum-at-ibm-4417985011) |
+| 20 | 50 | 2026-07-19 | linkedin | IBM | Data Engineer – IBM Quantum | Yorktown Heights, NY | [apply](https://www.linkedin.com/jobs/view/data-engineer-%E2%80%93-ibm-quantum-at-ibm-4417964846) |
