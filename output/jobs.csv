@@ -1,4 +1,1 @@
 score,directness,posted_at,source,company,title,location,url,salary_min,salary_max,required_years,tech_tags,matched_groups,preferred_location,alt_sources
-95,100,2026-07-30T22:53:02+00:00,greenhouse,discord,Data Engineer,San Francisco Bay Area,https://job-boards.greenhouse.io/discord/jobs/8614971002,180000,200000,3,"dbt,bigquery,tableau,python,sql",data,False,
-55,35,2026-07-30T00:00:00+00:00,linkedin,Programmers.io,Big Data Developer,"Austin, TX",https://www.linkedin.com/jobs/view/big-data-developer-at-programmers-io-4446781725,,,3,"spark,kafka,hadoop,aws,azure,gcp,kubernetes",data,False,
-50,35,2026-07-28T00:00:00+00:00,linkedin,Beghou,Data Engineer,"Emeryville, CA",https://www.linkedin.com/jobs/view/data-engineer-at-beghou-4446375821,85000,105000,3,"snowflake,databricks,spark,redshift,informatica,python,aws,azure,gcp,kubernetes",data,False,
