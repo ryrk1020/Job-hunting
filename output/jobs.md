@@ -1,16 +1,17 @@
-# Latest Jobs (10)
+# Latest Jobs (11)
 
-_Generated 2026-08-06 08:25 UTC_
+_Generated 2026-08-07 07:10 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 110 | 2026-08-04 | linkedin | Arbor TekSystems | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-arbor-teksystems-4448571993) |
-| 2 | 105 | 2026-08-05 | linkedin | Shrive Technologies | Databricks Platform Administrator | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/databricks-platform-administrator-at-shrive-technologies-4449687901) |
-| 3 | 100 | 2026-08-03 | linkedin | Digipulse Technologies Inc. | Data Engineers | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineers-at-digipulse-technologies-inc-4446257063) |
-| 4 | 100 | 2026-08-04 | remoteok | Arabian Private Holdings | Data Analyst Assistant | Ø¯Ø¨Ù, Ø¯Ø¨Ù Ø¯Ø¨Ù Ø§ÙØ¥ÙØ§Ø±Ø§Øª Ø§ÙØ¹Ø±Ø¨ÙØ© Ø§ÙÙØªØ­Ø¯Ø© | [apply](https://remoteOK.com/remote-jobs/remote-data-analyst-assistant-arabian-private-holdings-1136217) |
-| 5 | 80 | 2026-08-06 | linkedin | Zignal Labs | Data Engineer, AI &amp; Distributed Systems | San Francisco, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-ai-distributed-systems-at-zignal-labs-4448072630) |
-| 6 | 70 | 2026-08-05 | linkedin | McDermott Will &amp; Schulte | Pricing Data Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/pricing-data-engineer-at-mcdermott-will-schulte-4440842854) |
-| 7 | 70 | 2026-08-05 | linkedin | HTC Global Services | Data Engineer | Farmington Hills, MI | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-htc-global-services-4439968144) |
-| 8 | 60 | 2026-08-04 | linkedin | Eli Lilly and Company | Data Engineer | Lebanon, IN | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-eli-lilly-and-company-4449024657) |
-| 9 | 60 | 2026-08-04 | linkedin | Perpay Inc. | Data Engineer | Philadelphia, PA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-perpay-inc-4411502804) |
-| 10 | 50 | 2026-08-03 | linkedin | Castleton Commodities International | Data Engineer - Data Science &amp; Technology | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-data-science-technology-at-castleton-commodities-international-4361439908) |
+| 1 | 155 | 2026-08-07 | linkedin | Deloitte | Data Engineer II | Arlington, VA | [apply](https://www.linkedin.com/jobs/view/data-engineer-ii-at-deloitte-4450684045) |
+| 2 | 115 | 2026-08-06 | greenhouse | affirm | Machine Learning Engineer II (Underwriting ML) | Remote US | [apply](https://job-boards.greenhouse.io/affirm/jobs/7822387003) |
+| 3 | 90 | 2026-08-06 | greenhouse | coinbase | Software Engineer, Data Platform Team | Remote - USA | [apply](https://www.coinbase.com/careers/positions/8113286?gh_jid=8113286) |
+| 4 | 80 | 2026-08-07 | linkedin | Slalom | Slalom Flex (Project Based) Data Engineer- Databricks | San Antonio, TX | [apply](https://www.linkedin.com/jobs/view/slalom-flex-project-based-data-engineer-databricks-at-slalom-4448717241) |
+| 5 | 80 | 2026-08-07 | linkedin | Haystack | Data Engineer | Washington, DC | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-haystack-4448495372) |
+| 6 | 60 | 2026-08-05 | linkedin | Charles Schwab | Data Engineer | Southlake, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-charles-schwab-4448068201) |
+| 7 | 60 | 2026-08-05 | linkedin | Phaxis | Data Engineer | Edison, NJ | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-phaxis-4449695785) |
+| 8 | 55 | 2026-08-04 | linkedin | Ascot Group | Data Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-ascot-group-4446691743) |
+| 9 | 50 | 2026-08-04 | linkedin | The Voleon Group | Software Engineer, Data Infrastructure | Berkeley, CA | [apply](https://www.linkedin.com/jobs/view/software-engineer-data-infrastructure-at-the-voleon-group-4440097656) |
+| 10 | 30 | 2026-08-04 | linkedin | Sulzer | Business Intelligence Analyst | Houston, TX | [apply](https://www.linkedin.com/jobs/view/business-intelligence-analyst-at-sulzer-4448699557) |
+| 11 | 30 | 2026-08-01 | linkedin | Tata Consultancy Services | Kafka Tester | Pittsburgh, PA | [apply](https://www.linkedin.com/jobs/view/kafka-tester-at-tata-consultancy-services-4438376327) |
