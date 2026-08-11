@@ -1,14 +1,16 @@
-# Latest Jobs (8)
+# Latest Jobs (10)
 
-_Generated 2026-08-10 07:20 UTC_
+_Generated 2026-08-11 06:57 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 120 | 2026-08-06 | linkedin | PepsiCo | LD&amp;T Data Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/ld-t-data-engineer-at-pepsico-4448485315) |
-| 2 | 100 | 2026-08-06 | linkedin | CBTS | Data Engineer with Martech Experience(onsite, only W2) | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-with-martech-experience-onsite-only-w2-at-cbts-4447992322) |
-| 3 | 85 | 2026-08-08 | linkedin | Holmes Murphy | Data Engineer | West Des Moines, IA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-holmes-murphy-4414761842) |
-| 4 | 50 | 2026-08-06 | linkedin | Gridware | Data Engineer | San Francisco Bay Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-gridware-4418756789) |
-| 5 | 45 | 2026-08-08 | linkedin | Infosys | Spark Engineer | Jersey City, NJ | [apply](https://www.linkedin.com/jobs/view/spark-engineer-at-infosys-4439243681) |
-| 6 | 40 | 2026-08-04 | linkedin | Infosys | Ab Initio Data Engineer | Charlotte, NC | [apply](https://www.linkedin.com/jobs/view/ab-initio-data-engineer-at-infosys-4437630140) |
-| 7 | 40 | 2026-08-05 | linkedin | JPC TECHNO INC | Data Engineer | Phoenix, AZ | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-jpc-techno-inc-4448082252) |
-| 8 | 35 | 2026-08-05 | linkedin | Matterworks | Data Engineer | Somerville, MA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-matterworks-4449301991) |
+| 1 | 125 | 2026-08-11 | linkedin | Abbott | BI Developer (SQL) | Irving, TX | [apply](https://www.linkedin.com/jobs/view/bi-developer-sql-at-abbott-4452401130) |
+| 2 | 125 | 2026-08-07 | linkedin | Deloitte | Palantir Foundry Data Engineer | Arlington, VA | [apply](https://www.linkedin.com/jobs/view/palantir-foundry-data-engineer-at-deloitte-4450666696) |
+| 3 | 120 | 2026-08-10 | linkedin | Smile Doctors | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-smile-doctors-4452016152) |
+| 4 | 70 | 2026-08-06 | linkedin | Morgan Stanley | Analyst, Data Governance &amp; Quality | Addison, TX | [apply](https://www.linkedin.com/jobs/view/analyst-data-governance-quality-at-morgan-stanley-4449776133) |
+| 5 | 75 | 2026-08-11 | greenhouse | figma | Manager, Software Engineering - Data Platform | San Francisco, CA • New York, NY • United States | [apply](https://boards.greenhouse.io/figma/jobs/6135721004?gh_jid=6135721004) |
+| 6 | 65 | 2026-08-06 | linkedin | PSA BDP | Data Scientist | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-psa-bdp-4448461931) |
+| 7 | 65 | 2026-08-11 | linkedin | Tech Economy | AI/ML Engineer | Greater Houston | [apply](https://www.linkedin.com/jobs/view/ai-ml-engineer-at-tech-economy-4451616068) |
+| 8 | 55 | 2026-08-10 | linkedin | Bain &amp; Company | AI/ML Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/ai-ml-engineer-at-bain-company-4451560525) |
+| 9 | 55 | 2026-08-10 | linkedin | ATC | Machine Learning Engineer (Python or R) | Texas, United States | [apply](https://www.linkedin.com/jobs/view/machine-learning-engineer-python-or-r-at-atc-4451181775) |
+| 10 | 50 | 2026-08-08 | linkedin | UnitedHealthcare | Data Engineer - Remote | Minnetonka, MN | [apply](https://www.linkedin.com/jobs/view/data-engineer-remote-at-unitedhealthcare-4451309119) |
