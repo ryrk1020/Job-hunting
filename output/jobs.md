@@ -1,16 +1,19 @@
-# Latest Jobs (10)
+# Latest Jobs (13)
 
-_Generated 2026-08-11 06:57 UTC_
+_Generated 2026-08-12 07:19 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 125 | 2026-08-11 | linkedin | Abbott | BI Developer (SQL) | Irving, TX | [apply](https://www.linkedin.com/jobs/view/bi-developer-sql-at-abbott-4452401130) |
-| 2 | 125 | 2026-08-07 | linkedin | Deloitte | Palantir Foundry Data Engineer | Arlington, VA | [apply](https://www.linkedin.com/jobs/view/palantir-foundry-data-engineer-at-deloitte-4450666696) |
-| 3 | 120 | 2026-08-10 | linkedin | Smile Doctors | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-smile-doctors-4452016152) |
-| 4 | 70 | 2026-08-06 | linkedin | Morgan Stanley | Analyst, Data Governance &amp; Quality | Addison, TX | [apply](https://www.linkedin.com/jobs/view/analyst-data-governance-quality-at-morgan-stanley-4449776133) |
-| 5 | 75 | 2026-08-11 | greenhouse | figma | Manager, Software Engineering - Data Platform | San Francisco, CA • New York, NY • United States | [apply](https://boards.greenhouse.io/figma/jobs/6135721004?gh_jid=6135721004) |
-| 6 | 65 | 2026-08-06 | linkedin | PSA BDP | Data Scientist | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-psa-bdp-4448461931) |
-| 7 | 65 | 2026-08-11 | linkedin | Tech Economy | AI/ML Engineer | Greater Houston | [apply](https://www.linkedin.com/jobs/view/ai-ml-engineer-at-tech-economy-4451616068) |
-| 8 | 55 | 2026-08-10 | linkedin | Bain &amp; Company | AI/ML Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/ai-ml-engineer-at-bain-company-4451560525) |
-| 9 | 55 | 2026-08-10 | linkedin | ATC | Machine Learning Engineer (Python or R) | Texas, United States | [apply](https://www.linkedin.com/jobs/view/machine-learning-engineer-python-or-r-at-atc-4451181775) |
-| 10 | 50 | 2026-08-08 | linkedin | UnitedHealthcare | Data Engineer - Remote | Minnetonka, MN | [apply](https://www.linkedin.com/jobs/view/data-engineer-remote-at-unitedhealthcare-4451309119) |
+| 1 | 120 | 2026-08-11 | linkedin | Genpact | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-genpact-4449869552) |
+| 2 | 120 | 2026-08-11 | linkedin | Amazon | Data Engineer, PXT Central Science | Arlington, VA | [apply](https://www.linkedin.com/jobs/view/data-engineer-pxt-central-science-at-amazon-4443048501) |
+| 3 | 95 | 2026-08-10 | linkedin | CTC | Data Modeler | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-modeler-at-ctc-4451849900) |
+| 4 | 85 | 2026-08-12 | greenhouse | lyft | Data Analyst, Go-To-Market Sales Insights | New York, NY | [apply](https://app.careerpuck.com/job-board/lyft/job/8697679002?gh_jid=8697679002) |
+| 5 | 85 | 2026-08-12 | greenhouse | lyft | Data Analyst, Go-To-Market Sales Insights | San Francisco, CA | [apply](https://app.careerpuck.com/job-board/lyft/job/8697536002?gh_jid=8697536002) |
+| 6 | 70 | 2026-08-11 | linkedin | Infosys | Snowflake Data Engineer with Apache Doris Experience | Austin, TX | [apply](https://www.linkedin.com/jobs/view/snowflake-data-engineer-with-apache-doris-experience-at-infosys-4451955348) |
+| 7 | 70 | 2026-08-11 | linkedin | AMD | Data Scientist (Sales Operations) | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-sales-operations-at-amd-4449885442) |
+| 8 | 70 | 2026-08-11 | linkedin | Amazon | Data Engineer, Ring Agent Platforms | Hawthorne, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-ring-agent-platforms-at-amazon-4443047342) |
+| 9 | 70 | 2026-08-10 | linkedin | RA Capital Management | Data Engineer | Boston, MA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-ra-capital-management-4446451334) |
+| 10 | 70 | 2026-08-11 | linkedin | Brooksource | Data Engineer | Denver, CO | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-brooksource-4451924254) |
+| 11 | 55 | 2026-08-11 | linkedin | Veridian Tech Solutions, Inc. | Hadoop Developer // Jersey City, NJ/Phoenix, AZ/Seattle, WA/Dallas, TX (Onsite) // FTE with TCS | Jersey City, NJ | [apply](https://www.linkedin.com/jobs/view/hadoop-developer-jersey-city-nj-phoenix-az-seattle-wa-dallas-tx%C2%A0-onsite-fte-with-tcs-at-veridian-tech-solutions-inc-4452680697) |
+| 12 | 50 | 2026-08-08 | linkedin | Infosys | AWS Python Data Engineer | Raleigh, NC | [apply](https://www.linkedin.com/jobs/view/aws-python-data-engineer-at-infosys-4439274507) |
+| 13 | 45 | 2026-08-08 | linkedin | UT MD Anderson | Data Scientist - Operations Research | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-operations-research-at-ut-md-anderson-4451064029) |
