@@ -1,16 +1,18 @@
-# Latest Jobs (10)
+# Latest Jobs (12)
 
-_Generated 2026-08-14 07:19 UTC_
+_Generated 2026-08-15 06:29 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 145 | 2026-08-13 | linkedin | IBM | Associate Data Engineer 2027 | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/associate-data-engineer-2027-at-ibm-4450845080) |
-| 2 | 120 | 2026-08-13 | linkedin | Flowserve Corporation | Data Engineer MS Fabric | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-ms-fabric-at-flowserve-corporation-4450409051) |
-| 3 | 100 | 2026-08-11 | linkedin | OP | Data Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-op-4449851869) |
-| 4 | 85 | 2026-08-13 | themuse | Enterprise Mobility | Data Scientist | Flexible / Remote | [apply](https://www.themuse.com/jobs/enterprisemobility/data-scientist-adaff7) |
-| 5 | 80 | 2026-08-13 | themuse | Apple | Data Scientist - Insights and Analytics | Austin, TX | [apply](https://www.themuse.com/jobs/apple/data-scientist-insights-and-analytics-62d581) |
-| 6 | 70 | 2026-08-13 | linkedin | Axiom Space | Enterprise Data Engineer – ETL &amp; Integration | Houston, TX | [apply](https://www.linkedin.com/jobs/view/enterprise-data-engineer-%E2%80%93-etl-integration-at-axiom-space-4435170095) |
-| 7 | 65 | 2026-08-12 | linkedin | DLA Piper | Data Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-dla-piper-4453346139) |
-| 8 | 60 | 2026-08-12 | linkedin | Foxconn Industrial Internet - FII | Data Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-foxconn-industrial-internet-fii-4451993078) |
-| 9 | 40 | 2026-08-12 | linkedin | Relate Search | Data Integration Analyst | Greater Houston | [apply](https://www.linkedin.com/jobs/view/data-integration-analyst-at-relate-search-4452693243) |
-| 10 | 20 | 2026-08-08 | linkedin | NTT DATA, Inc. | Data Centre Service Delivery Field Support Engineer (L2) | Ashburn, VA | [apply](https://www.linkedin.com/jobs/view/data-centre-service-delivery-field-support-engineer-l2-at-ntt-data-inc-4439267898) |
+| 1 | 140 | 2026-08-14 | linkedin | Royal Electric Company | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-royal-electric-company-4454598930) |
+| 2 | 85 | 2026-08-12 | linkedin | TechStar Group | Databricks Platform Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/databricks-platform-engineer-at-techstar-group-4453139702) |
+| 3 | 75 | 2026-08-14 | linkedin | NTT DATA, Inc. | Data Centre Remote Field Service Engineer (L1) | United, PA | [apply](https://www.linkedin.com/jobs/view/data-centre-remote-field-service-engineer-l1-at-ntt-data-inc-4441554395) |
+| 4 | 70 | 2026-08-13 | linkedin | Deloitte | Forward Deployed Engineer - Databricks - Forensic Discovery &amp; Financial Crime | Morristown, NJ | [apply](https://www.linkedin.com/jobs/view/forward-deployed-engineer-databricks-forensic-discovery-financial-crime-at-deloitte-4436126904) |
+| 5 | 70 | 2026-08-14 | linkedin | Infosys | Snowflake Data Engineer | Broomfield, CO | [apply](https://www.linkedin.com/jobs/view/snowflake-data-engineer-at-infosys-4453529031) |
+| 6 | 70 | 2026-08-14 | linkedin | Creative Global Consulting | Data Engineer | Hanover, MD | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-creative-global-consulting-4451260668) |
+| 7 | 60 | 2026-08-13 | linkedin | Infosys | Data Engineer (ETL/Spark Technologies) | Charlotte, NC | [apply](https://www.linkedin.com/jobs/view/data-engineer-etl-spark-technologies-at-infosys-4450840620) |
+| 8 | 55 | 2026-08-12 | linkedin | DLA Piper | Data Engineer | Raleigh, NC | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-dla-piper-4453329978) |
+| 9 | 55 | 2026-08-14 | linkedin | Infosys | Azure Databricks Engineer | Ann Arbor, MI | [apply](https://www.linkedin.com/jobs/view/azure-databricks-engineer-at-infosys-4451206797) |
+| 10 | 55 | 2026-08-09 | linkedin | Baseten | Data Engineer | New York, NY | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-baseten-4387446870) |
+| 11 | 55 | 2026-08-12 | linkedin | DLA Piper | Data Engineer | Greater Chicago Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-dla-piper-4453347044) |
+| 12 | 50 | 2026-08-12 | linkedin | Foxconn Industrial Internet - FII | Data Analyst | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-foxconn-industrial-internet-fii-4451985227) |
