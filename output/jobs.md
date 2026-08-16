@@ -1,18 +1,16 @@
-# Latest Jobs (12)
+# Latest Jobs (10)
 
-_Generated 2026-08-15 06:29 UTC_
+_Generated 2026-08-16 06:32 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 140 | 2026-08-14 | linkedin | Royal Electric Company | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-royal-electric-company-4454598930) |
-| 2 | 85 | 2026-08-12 | linkedin | TechStar Group | Databricks Platform Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/databricks-platform-engineer-at-techstar-group-4453139702) |
-| 3 | 75 | 2026-08-14 | linkedin | NTT DATA, Inc. | Data Centre Remote Field Service Engineer (L1) | United, PA | [apply](https://www.linkedin.com/jobs/view/data-centre-remote-field-service-engineer-l1-at-ntt-data-inc-4441554395) |
-| 4 | 70 | 2026-08-13 | linkedin | Deloitte | Forward Deployed Engineer - Databricks - Forensic Discovery &amp; Financial Crime | Morristown, NJ | [apply](https://www.linkedin.com/jobs/view/forward-deployed-engineer-databricks-forensic-discovery-financial-crime-at-deloitte-4436126904) |
-| 5 | 70 | 2026-08-14 | linkedin | Infosys | Snowflake Data Engineer | Broomfield, CO | [apply](https://www.linkedin.com/jobs/view/snowflake-data-engineer-at-infosys-4453529031) |
-| 6 | 70 | 2026-08-14 | linkedin | Creative Global Consulting | Data Engineer | Hanover, MD | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-creative-global-consulting-4451260668) |
-| 7 | 60 | 2026-08-13 | linkedin | Infosys | Data Engineer (ETL/Spark Technologies) | Charlotte, NC | [apply](https://www.linkedin.com/jobs/view/data-engineer-etl-spark-technologies-at-infosys-4450840620) |
-| 8 | 55 | 2026-08-12 | linkedin | DLA Piper | Data Engineer | Raleigh, NC | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-dla-piper-4453329978) |
-| 9 | 55 | 2026-08-14 | linkedin | Infosys | Azure Databricks Engineer | Ann Arbor, MI | [apply](https://www.linkedin.com/jobs/view/azure-databricks-engineer-at-infosys-4451206797) |
-| 10 | 55 | 2026-08-09 | linkedin | Baseten | Data Engineer | New York, NY | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-baseten-4387446870) |
-| 11 | 55 | 2026-08-12 | linkedin | DLA Piper | Data Engineer | Greater Chicago Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-dla-piper-4453347044) |
-| 12 | 50 | 2026-08-12 | linkedin | Foxconn Industrial Internet - FII | Data Analyst | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-foxconn-industrial-internet-fii-4451985227) |
+| 1 | 110 | 2026-08-13 | linkedin | Deloitte | Forward Deployed Engineer - Databricks - Forensic Discovery &amp; Financial Crime | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/forward-deployed-engineer-databricks-forensic-discovery-financial-crime-at-deloitte-4436125959) |
+| 2 | 70 | 2026-08-14 | linkedin | Deloitte | Forward Deployed Engineer - Databricks - Forensic Discovery &amp; Financial Crime | Detroit, MI | [apply](https://www.linkedin.com/jobs/view/forward-deployed-engineer-databricks-forensic-discovery-financial-crime-at-deloitte-4436138582) |
+| 3 | 70 | 2026-08-14 | linkedin | Deloitte | Forward Deployed Engineer - Databricks - Forensic Discovery &amp; Financial Crime | San Jose, CA | [apply](https://www.linkedin.com/jobs/view/forward-deployed-engineer-databricks-forensic-discovery-financial-crime-at-deloitte-4436144369) |
+| 4 | 70 | 2026-08-14 | linkedin | Deloitte | Forward Deployed Engineer - Databricks - Forensic Discovery &amp; Financial Crime | Stamford, CT | [apply](https://www.linkedin.com/jobs/view/forward-deployed-engineer-databricks-forensic-discovery-financial-crime-at-deloitte-4436133682) |
+| 5 | 70 | 2026-08-14 | linkedin | Deloitte | Forward Deployed Engineer - Databricks - Forensic Discovery &amp; Financial Crime | Minneapolis, MN | [apply](https://www.linkedin.com/jobs/view/forward-deployed-engineer-databricks-forensic-discovery-financial-crime-at-deloitte-4436145372) |
+| 6 | 70 | 2026-08-14 | linkedin | Deloitte | Forward Deployed Engineer - Databricks - Forensic Discovery &amp; Financial Crime | Greater Sacramento | [apply](https://www.linkedin.com/jobs/view/forward-deployed-engineer-databricks-forensic-discovery-financial-crime-at-deloitte-4436135643) |
+| 7 | 65 | 2026-08-13 | linkedin | Whatnot | Data Engineer, Payments | San Francisco, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-payments-at-whatnot-4443442027) |
+| 8 | 55 | 2026-08-12 | linkedin | DLA Piper | Data Engineer | Greater Minneapolis-St. Paul Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-dla-piper-4453343314) |
+| 9 | 55 | 2026-08-12 | linkedin | DLA Piper | Data Engineer | Atlanta Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-dla-piper-4453341717) |
+| 10 | 45 | 2026-08-12 | linkedin | Slalom | AI/ML Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/ai-ml-engineer-at-slalom-4453047416) |
