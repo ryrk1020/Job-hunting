@@ -1,11 +1,9 @@
-# Latest Jobs (5)
+# Latest Jobs (3)
 
-_Generated 2026-08-20 06:37 UTC_
+_Generated 2026-08-21 06:40 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 90 | 2026-08-18 | linkedin | Prodapt | Power BI Migration Engineer | Richardson, TX | [apply](https://www.linkedin.com/jobs/view/power-bi-migration-engineer-at-prodapt-4455940664) |
-| 2 | 85 | 2026-08-19 | linkedin | Mill | Data Engineer - Data Platform | San Bruno, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-data-platform-at-mill-4456338479) |
-| 3 | 60 | 2026-08-16 | linkedin | Mercor | Data Engineer | San Francisco, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-mercor-4411846650) |
-| 4 | 60 | 2026-08-18 | linkedin | C4 Technical Services | Data Engineer | Lenexa, KS | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-c4-technical-services-4455764982) |
-| 5 | 20 | 2026-08-15 | linkedin | Woven by Toyota | Software Engineer - Data Workflows | Ann Arbor, MI | [apply](https://www.linkedin.com/jobs/view/software-engineer-data-workflows-at-woven-by-toyota-4441864197) |
+| 1 | 100 | 2026-08-18 | linkedin | CBTS | Data Engineer (only W2) - Locals | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-only-w2-locals-at-cbts-4448227572) |
+| 2 | 100 | 2026-08-20 | greenhouse | instacart | Machine Learning Engineer II, Ads - Response Prediction | Canada - Remote (ON, AB, BC, or NS Only) | [apply](https://instacart.careers/job/?gh_jid=8143263) |
+| 3 | 95 | 2026-08-20 | greenhouse | pinterest | Machine Learning Engineer II, Visual AI | San Francisco, CA, US; Remote, US | [apply](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) |

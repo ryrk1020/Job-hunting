@@ -1,6 +1,4 @@
 score,directness,posted_at,source,company,title,location,url,salary_min,salary_max,required_years,tech_tags,matched_groups,preferred_location,alt_sources
-90,35,2026-08-18T00:00:00+00:00,linkedin,Prodapt,Power BI Migration Engineer,"Richardson, TX",https://www.linkedin.com/jobs/view/power-bi-migration-engineer-at-prodapt-4455940664,,,0,"power bi,sql",data,True,
-85,35,2026-08-19T00:00:00+00:00,linkedin,Mill,Data Engineer - Data Platform,"San Bruno, CA",https://www.linkedin.com/jobs/view/data-engineer-data-platform-at-mill-4456338479,185000,210000,3,"snowflake,airflow,dbt,tableau,python,sql",data,False,
-60,35,2026-08-16T00:00:00+00:00,linkedin,Mercor,Data Engineer,"San Francisco, CA",https://www.linkedin.com/jobs/view/data-engineer-at-mercor-4411846650,130000,500000,0,"snowflake,dbt,python,sql",data,False,
-60,35,2026-08-18T00:00:00+00:00,linkedin,C4 Technical Services,Data Engineer,"Lenexa, KS",https://www.linkedin.com/jobs/view/data-engineer-at-c4-technical-services-4455764982,,,0,"databricks,spark,python,sql,azure",data,False,
-20,35,2026-08-15T00:00:00+00:00,linkedin,Woven by Toyota,Software Engineer - Data Workflows,"Ann Arbor, MI",https://www.linkedin.com/jobs/view/software-engineer-data-workflows-at-woven-by-toyota-4441864197,,,3,"python,sql,aws,azure,gcp",data,False,
+100,35,2026-08-18T00:00:00+00:00,linkedin,CBTS,Data Engineer (only W2) - Locals,"Irving, TX",https://www.linkedin.com/jobs/view/data-engineer-only-w2-locals-at-cbts-4448227572,50000,60000,3,"databricks,spark,kafka,python,sql",data,True,
+100,100,2026-08-20T20:48:48+00:00,greenhouse,instacart,"Machine Learning Engineer II, Ads - Response Prediction","Canada - Remote (ON, AB, BC, or NS Only)",https://instacart.careers/job/?gh_jid=8143263,,,2,"spark,sql",data,False,
+95,100,2026-08-20T21:41:30+00:00,greenhouse,pinterest,"Machine Learning Engineer II, Visual AI","San Francisco, CA, US; Remote, US",https://www.pinterestcareers.com/jobs/?gh_jid=7697137,,,2,sql,data,False,
