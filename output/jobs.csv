@@ -1,4 +1,4 @@
 score,directness,posted_at,source,company,title,location,url,salary_min,salary_max,required_years,tech_tags,matched_groups,preferred_location,alt_sources
-100,35,2026-08-18T00:00:00+00:00,linkedin,CBTS,Data Engineer (only W2) - Locals,"Irving, TX",https://www.linkedin.com/jobs/view/data-engineer-only-w2-locals-at-cbts-4448227572,50000,60000,3,"databricks,spark,kafka,python,sql",data,True,
-100,100,2026-08-20T20:48:48+00:00,greenhouse,instacart,"Machine Learning Engineer II, Ads - Response Prediction","Canada - Remote (ON, AB, BC, or NS Only)",https://instacart.careers/job/?gh_jid=8143263,,,2,"spark,sql",data,False,
-95,100,2026-08-20T21:41:30+00:00,greenhouse,pinterest,"Machine Learning Engineer II, Visual AI","San Francisco, CA, US; Remote, US",https://www.pinterestcareers.com/jobs/?gh_jid=7697137,,,2,sql,data,False,
+65,100,2026-08-21T21:17:24+00:00,greenhouse,anthropic,Accounting Analytics & BI Engineer,"San Francisco, CA",https://job-boards.greenhouse.io/anthropic/jobs/5357965008,,,0,"airflow,dbt,tableau,python,sql,aws,gcp",data,False,
+50,35,2026-08-18T00:00:00+00:00,linkedin,Horizontal Talent,Data Engineer,"Richmond, VA",https://www.linkedin.com/jobs/view/data-engineer-at-horizontal-talent-4452850525,50000,87000,0,"databricks,spark,tableau,power bi,sql,aws,azure",data,False,
+40,35,2026-08-17T00:00:00+00:00,linkedin,HCLTech,Data Scientist,"Austin, TX",https://www.linkedin.com/jobs/view/data-scientist-at-hcltech-4452292589,,,0,"spark,tableau,power bi,python,sql",data,False,
