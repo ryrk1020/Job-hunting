@@ -1,4 +1,3 @@
 score,directness,posted_at,source,company,title,location,url,salary_min,salary_max,required_years,tech_tags,matched_groups,preferred_location,alt_sources
-65,100,2026-08-21T21:17:24+00:00,greenhouse,anthropic,Accounting Analytics & BI Engineer,"San Francisco, CA",https://job-boards.greenhouse.io/anthropic/jobs/5357965008,,,0,"airflow,dbt,tableau,python,sql,aws,gcp",data,False,
-50,35,2026-08-18T00:00:00+00:00,linkedin,Horizontal Talent,Data Engineer,"Richmond, VA",https://www.linkedin.com/jobs/view/data-engineer-at-horizontal-talent-4452850525,50000,87000,0,"databricks,spark,tableau,power bi,sql,aws,azure",data,False,
-40,35,2026-08-17T00:00:00+00:00,linkedin,HCLTech,Data Scientist,"Austin, TX",https://www.linkedin.com/jobs/view/data-scientist-at-hcltech-4452292589,,,0,"spark,tableau,power bi,python,sql",data,False,
+100,35,2026-08-19T00:00:00+00:00,linkedin,Infosys,"Data Engineer-AWS, Python","Richardson, TX",https://www.linkedin.com/jobs/view/data-engineer-aws-python-at-infosys-4453482002,,,3,"informatica,python,sql,aws",data,True,
+45,35,2026-08-21T00:00:00+00:00,linkedin,Marathon Petroleum Corporation,Data Operations Engineer,"San Antonio, TX",https://www.linkedin.com/jobs/view/data-operations-engineer-at-marathon-petroleum-corporation-4457513868,,,2,"databricks,python,sql,azure",data,False,
