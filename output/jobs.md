@@ -1,14 +1,13 @@
-# Latest Jobs (8)
+# Latest Jobs (7)
 
-_Generated 2026-08-24 06:47 UTC_
+_Generated 2026-08-25 06:38 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 70 | 2026-08-23 | linkedin | DoiT | Data Platform Marketing Manager - SELECT by DoiT | Texas, United States | [apply](https://www.linkedin.com/jobs/view/data-platform-marketing-manager-select-by-doit-at-doit-4378540932) |
-| 2 | 50 | 2026-08-20 | linkedin | Data Surge | Data Engineer | Washington DC-Baltimore Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-data-surge-4454136308) |
-| 3 | 45 | 2026-08-18 | linkedin | DLA Piper | Data Engineer | San Francisco Bay Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-dla-piper-4437414997) |
-| 4 | 40 | 2026-08-19 | linkedin | Amazon Web Services (AWS) | Data Engineer, Marketplace | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-marketplace-at-amazon-web-services-aws-4455799028) |
-| 5 | 40 | 2026-08-18 | linkedin | Unisys | Big Data Engineer | Rockville, MD | [apply](https://www.linkedin.com/jobs/view/big-data-engineer-at-unisys-4452813553) |
-| 6 | 35 | 2026-08-19 | linkedin | Consertus | Power BI Developer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/power-bi-developer-at-consertus-4456411342) |
-| 7 | 35 | 2026-08-19 | linkedin | This is Growth | Data Engineering - Frontier AI Lab | San Francisco Bay Area | [apply](https://www.linkedin.com/jobs/view/data-engineering-frontier-ai-lab-at-this-is-growth-4456406091) |
-| 8 | 25 | 2026-08-19 | linkedin | Amazon | Business Intelligence Engineer II, OpsTech IT, OTS Anchor Team | Austin, TX | [apply](https://www.linkedin.com/jobs/view/business-intelligence-engineer-ii-opstech-it-ots-anchor-team-at-amazon-4455913479) |
+| 1 | 120 | 2026-08-24 | linkedin | Veridian Tech Solutions, Inc. | Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-veridian-tech-solutions-inc-4457179616) |
+| 2 | 100 | 2026-08-21 | linkedin | KPMG US | Manager, Data Engineer - Databricks | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/manager-data-engineer-databricks-at-kpmg-us-4456097090) |
+| 3 | 70 | 2026-08-24 | linkedin | Apex Systems | Data Engineer | Lone Tree, CO | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-apex-systems-4458524257) |
+| 4 | 55 | 2026-08-20 | linkedin | Auger | Data Engineer | Bellevue, WA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-auger-4365004687) |
+| 5 | 50 | 2026-08-21 | linkedin | Randstad Digital Americas | Big Data Engineer | Malvern, PA | [apply](https://www.linkedin.com/jobs/view/big-data-engineer-at-randstad-digital-americas-4456284424) |
+| 6 | 50 | 2026-08-22 | linkedin | HIRECLOUT | Data Engineer | La Puente, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-hireclout-4447420759) |
+| 7 | 40 | 2026-08-20 | linkedin | Brighton Collectibles | Data Engineer | City of Industry, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-brighton-collectibles-4456061023) |
