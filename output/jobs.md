@@ -1,19 +1,20 @@
-# Latest Jobs (13)
+# Latest Jobs (14)
 
-_Generated 2026-09-01 10:56 UTC_
+_Generated 2026-09-02 10:22 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 130 | 2026-08-31 | linkedin | Innorev Technologies Inc | Snowflake Platform Admin | Dallas-Fort Worth Metroplex | [apply](https://www.linkedin.com/jobs/view/snowflake-platform-admin-at-innorev-technologies-inc-4459206781) |
-| 2 | 130 | 2026-08-31 | linkedin | Innorev Technologies Inc | Snowflake Platform Admin | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/snowflake-platform-admin-at-innorev-technologies-inc-4459220517) |
-| 3 | 110 | 2026-08-28 | linkedin | Tata Consultancy Services | ML Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/ml-data-engineer-at-tata-consultancy-services-4450000578) |
-| 4 | 75 | 2026-08-31 | linkedin | Slalom | Data Engineer - West Region | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-west-region-at-slalom-4460062845) |
-| 5 | 75 | 2026-08-29 | linkedin | Hamilton Lane | ETL Data Engineer (Python &amp; Snowflake) | United States | [apply](https://www.linkedin.com/jobs/view/etl-data-engineer-python-snowflake-at-hamilton-lane-4322430222) |
-| 6 | 65 | 2026-08-31 | greenhouse | braze | Partner Development Manager- Databricks, Snowflake | New York City | [apply](https://job-boards.greenhouse.io/braze/jobs/8139241) |
-| 7 | 65 | 2026-08-31 | greenhouse | braze | Partner Development Manager- Databricks, Snowflake | Chicago | [apply](https://job-boards.greenhouse.io/braze/jobs/8167347) |
-| 8 | 65 | 2026-08-31 | greenhouse | braze | Partner Development Manager- Databricks, Snowflake | San Francisco | [apply](https://job-boards.greenhouse.io/braze/jobs/8162966) |
-| 9 | 65 | 2026-08-31 | greenhouse | braze | Partner Development Manager- Databricks, Snowflake | Austin | [apply](https://job-boards.greenhouse.io/braze/jobs/8167353) |
-| 10 | 60 | 2026-08-30 | remoteok | Benzinga | AI Engineer Data APIs | Remote | [apply](https://remoteOK.com/remote-jobs/remote-ai-engineer-data-apis-benzinga-1137224) |
-| 11 | 60 | 2026-08-31 | greenhouse | mixpanel | Software Engineer, Data Runtime  | San Francisco, US (Hybrid) | [apply](https://job-boards.greenhouse.io/mixpanel/jobs/8162414) |
-| 12 | 35 | 2026-08-28 | linkedin | Tata Consultancy Services | Actimize Data Modeler | Phoenix, AZ | [apply](https://www.linkedin.com/jobs/view/actimize-data-modeler-at-tata-consultancy-services-4440600074) |
-| 13 | 25 | 2026-08-27 | linkedin | TechWish | Big Data Developer | McLean, VA | [apply](https://www.linkedin.com/jobs/view/big-data-developer-at-techwish-4460330731) |
+| 1 | 120 | 2026-09-01 | linkedin | Omega Holdings | Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-omega-holdings-4460659319) |
+| 2 | 85 | 2026-08-31 | linkedin | Beacon Hill | Junior Data Engineer - Google Cloud / Enterprise Data Warehouse | Phoenix, AZ | [apply](https://www.linkedin.com/jobs/view/junior-data-engineer-google-cloud-enterprise-data-warehouse-at-beacon-hill-4460053634) |
+| 3 | 85 | 2026-09-02 | greenhouse | lyft | Data Scientist  | Seattle, WA | [apply](https://app.careerpuck.com/job-board/lyft/job/8772592002?gh_jid=8772592002) |
+| 4 | 80 | 2026-09-02 | linkedin | PALO IT | Data Engineer | Palo, MI | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-palo-it-4461516540) |
+| 5 | 75 | 2026-09-01 | greenhouse | gusto | CX Business Intelligence Analyst | Chicago, IL - Remote; Denver, CO - Hybrid; Las Vegas, NV - Remote; New York, New York, United States; Phoenix, AZ - Remote; San Francisco, CA - Hybrid | [apply](https://job-boards.greenhouse.io/gusto/jobs/8119978) |
+| 6 | 70 | 2026-09-01 | linkedin | Suncap Technology | Data Engineer-Snowflake | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-snowflake-at-suncap-technology-4460608230) |
+| 7 | 60 | 2026-08-31 | linkedin | Robert Half | Data Engineer | Seattle, WA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-robert-half-4460052297) |
+| 8 | 60 | 2026-08-29 | linkedin | Verkada | Software Engineer - Data Platform | San Mateo, CA | [apply](https://www.linkedin.com/jobs/view/software-engineer-data-platform-at-verkada-4450384807) |
+| 9 | 50 | 2026-08-30 | linkedin | TEKsystems | ELT/Databricks Data Engineer | Winston-Salem, NC | [apply](https://www.linkedin.com/jobs/view/elt-databricks-data-engineer-at-teksystems-4460893361) |
+| 10 | 45 | 2026-08-29 | linkedin | National Trench Safety | Analytics Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/analytics-engineer-at-national-trench-safety-4449214367) |
+| 11 | 45 | 2026-08-30 | linkedin | Crossing Hurdles | Data Warehouse Engineer / Remote | United States | [apply](https://www.linkedin.com/jobs/view/data-warehouse-engineer-remote-at-crossing-hurdles-4441711843) |
+| 12 | 45 | 2026-08-28 | linkedin | Slalom | Data Engineer - East Region | Miami, FL | [apply](https://www.linkedin.com/jobs/view/data-engineer-east-region-at-slalom-4459425091) |
+| 13 | 40 | 2026-08-27 | linkedin | Applied Computing | Data Engineer, Forward Deployed | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-forward-deployed-at-applied-computing-4459830236) |
+| 14 | 20 | 2026-08-28 | linkedin | IBM | Cost &amp; Asset Optimization - Data Science Analyst - Austin, TX - 2027 | Austin, TX | [apply](https://www.linkedin.com/jobs/view/cost-asset-optimization-data-science-analyst-austin-tx-2027-at-ibm-4458058486) |
