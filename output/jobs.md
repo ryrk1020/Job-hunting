@@ -1,10 +1,10 @@
 # Latest Jobs (4)
 
-_Generated 2026-09-09 10:34 UTC_
+_Generated 2026-09-10 10:26 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 80 | 2026-09-03 | linkedin | Indicium AI | Forward Deployed Data Engineer - Houston | Houston, TX | [apply](https://www.linkedin.com/jobs/view/forward-deployed-data-engineer-houston-at-indicium-ai-4462849981) |
-| 2 | 80 | 2026-09-09 | linkedin | TP-Link | Big Data Engineer | Irvine, CA | [apply](https://www.linkedin.com/jobs/view/big-data-engineer-at-tp-link-4464995342) |
-| 3 | 75 | 2026-09-08 | linkedin | Well | Data Engineer | Chapel Hill, NC | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-well-4443539267) |
-| 4 | 40 | 2026-09-03 | linkedin | Niktor LLC | Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-niktor-llc-4461921229) |
+| 1 | 120 | 2026-09-09 | linkedin | NeerInfo Solutions | Hadoop and PySpark Data Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/hadoop-and-pyspark-data-engineer-at-neerinfo-solutions-4465319760) |
+| 2 | 75 | 2026-09-05 | linkedin | Infosys | AWS Informatica Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/aws-informatica-engineer-at-infosys-4430624384) |
+| 3 | 105 | 2026-09-10 | linkedin | Deloitte | Palantir Foundry Data Engineer | Baltimore, MD | [apply](https://www.linkedin.com/jobs/view/palantir-foundry-data-engineer-at-deloitte-4446891465) |
+| 4 | 70 | 2026-09-09 | linkedin | Resource 1, Inc. | AWS Data Engineers | United States | [apply](https://www.linkedin.com/jobs/view/aws-data-engineers-at-resource-1-inc-4465336543) |
