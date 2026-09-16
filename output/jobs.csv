@@ -1,7 +1,3 @@
 score,directness,posted_at,source,company,title,location,url,salary_min,salary_max,required_years,tech_tags,matched_groups,preferred_location,alt_sources
-110,35,2026-09-15T00:00:00+00:00,linkedin,Visa,Data Engineer,"Foster City, CA",https://www.linkedin.com/jobs/view/data-engineer-at-visa-4467413187,112400,174500,2,"snowflake,databricks,spark,airflow,hadoop,python,sql,aws",data,False,
-75,35,2026-09-14T00:00:00+00:00,linkedin,Ibotta,Data Engineer,"Denver, CO",https://www.linkedin.com/jobs/view/data-engineer-at-ibotta-4467277078,110000,126000,3,"databricks,spark,python,sql,aws",data,False,
-70,35,2026-09-14T00:00:00+00:00,linkedin,HMG AMERICA LLC,GCP Data Engineer,United States,https://www.linkedin.com/jobs/view/gcp-data-engineer-at-hmg-america-llc-4466126008,,,0,"airflow,bigquery,python,sql,gcp",data,False,
-40,35,2026-09-10T00:00:00+00:00,linkedin,Atlas Search,Data Engineer,"New York, NY",https://www.linkedin.com/jobs/view/data-engineer-at-atlas-search-4463481353,,,0,"snowflake,dbt,power bi,python,sql",data,False,
-35,35,2026-09-12T00:00:00+00:00,linkedin,JSM Consulting Inc.,Snowflake Developer,"San Antonio, TX",https://www.linkedin.com/jobs/view/snowflake-developer-at-jsm-consulting-inc-4466458962,,,0,"snowflake,dbt,python,sql,azure",data,False,
-35,35,2026-09-12T00:00:00+00:00,linkedin,IBM,"Consultant, Data &amp; AI Engineer","Bloomington, IN",https://www.linkedin.com/jobs/view/consultant-data-ai-engineer-at-ibm-4464248901,,,0,"snowflake,databricks,spark,dbt,redshift,bigquery,python,sql,aws,azure,gcp",data,False,
+70,100,2026-09-15T22:32:36+00:00,greenhouse,twilio,Machine Learning Engineer L2,Remote - US,https://job-boards.greenhouse.io/twilio/jobs/8178588,,,0,,data,False,
+60,100,2026-09-15T20:51:21+00:00,greenhouse,stripe,"Engineering Manager, Machine Learning - Credit Risk",N/A,https://stripe.com/jobs/search?gh_jid=8205280,,,3,,data,False,
