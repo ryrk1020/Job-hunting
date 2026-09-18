@@ -1,19 +1,14 @@
-# Latest Jobs (13)
+# Latest Jobs (8)
 
-_Generated 2026-09-17 10:50 UTC_
+_Generated 2026-09-18 10:28 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 135 | 2026-09-15 | linkedin | Motion Recruitment | Data Engineer | Fort Worth, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-motion-recruitment-4467771978) |
-| 2 | 135 | 2026-09-15 | linkedin | Motion Recruitment | Associate Data Engineer - CTH | Fort Worth, TX | [apply](https://www.linkedin.com/jobs/view/associate-data-engineer-cth-at-motion-recruitment-4465903591) |
-| 3 | 110 | 2026-09-15 | linkedin | European Wax Center | Data Scientist | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-european-wax-center-4459641390) |
-| 4 | 75 | 2026-09-14 | linkedin | Solar Digital Agro LLC | Data Engineer | Chicago, IL | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-solar-digital-agro-llc-4466113651) |
-| 5 | 70 | 2026-09-16 | linkedin | Mondrian Alpha | Data Engineer - Global Hedge Fund - 300k+ | New York City Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-global-hedge-fund-300k%2B-at-mondrian-alpha-4466208451) |
-| 6 | 65 | 2026-09-16 | linkedin | NTT DATA North America | Data Engineer/DBA - REMOTE | Bethesda, MD | [apply](https://www.linkedin.com/jobs/view/data-engineer-dba-remote-at-ntt-data-north-america-4468279589) |
-| 7 | 55 | 2026-09-15 | linkedin | PlusAI | Software Engineer - Data | Santa Clara, CA | [apply](https://www.linkedin.com/jobs/view/software-engineer-data-at-plusai-4428999252) |
-| 8 | 50 | 2026-09-13 | linkedin | PlanIT Group, LLC | Data Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-planit-group-llc-4466738971) |
-| 9 | 40 | 2026-09-12 | linkedin | Vitol | Data Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-vitol-4465178423) |
-| 10 | 40 | 2026-09-12 | linkedin | Solomon Page | Manager Data Engineering | Houston, TX | [apply](https://www.linkedin.com/jobs/view/manager-data-engineering-at-solomon-page-4445063155) |
-| 11 | 40 | 2026-09-12 | linkedin | Target | Data Engineer - Finance AI Solutions | Brooklyn Park, MN | [apply](https://www.linkedin.com/jobs/view/data-engineer-finance-ai-solutions-at-target-4466457207) |
-| 12 | 40 | 2026-09-11 | linkedin | Mindlance | Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-mindlance-4466044023) |
-| 13 | 25 | 2026-09-12 | linkedin | IBM | Consultant, Data &amp; AI Engineer | Buffalo, NY | [apply](https://www.linkedin.com/jobs/view/consultant-data-ai-engineer-at-ibm-4464254850) |
+| 1 | 95 | 2026-09-16 | linkedin | Infosys | Pyspark Engineer | Richardson, TX | [apply](https://www.linkedin.com/jobs/view/pyspark-engineer-at-infosys-4466238570) |
+| 2 | 75 | 2026-09-12 | linkedin | Amazon | Business Intelligence Engineer, North America Transportation Services | Irving, TX | [apply](https://www.linkedin.com/jobs/view/business-intelligence-engineer-north-america-transportation-services-at-amazon-4466499114) |
+| 3 | 75 | 2026-09-15 | linkedin | Delta Defense LLC | Data Engineer | West Bend, WI | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-delta-defense-llc-4458288363) |
+| 4 | 70 | 2026-09-17 | linkedin | CBTS | Data Engineer(onsite, only W2) | Cincinnati, OH | [apply](https://www.linkedin.com/jobs/view/data-engineer-onsite-only-w2-at-cbts-4463879497) |
+| 5 | 65 | 2026-09-12 | linkedin | Hagerty | Data Engineer II | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-ii-at-hagerty-4446445401) |
+| 6 | 60 | 2026-09-16 | linkedin | Amazon | AI Platform Data Engineer, Ring Decision Science, Ring Decision Science | Hawthorne, CA | [apply](https://www.linkedin.com/jobs/view/ai-platform-data-engineer-ring-decision-science-ring-decision-science-at-amazon-4467927072) |
+| 7 | 50 | 2026-09-14 | linkedin | Harris County Sheriff's Office | Manager, Data Platforms | Houston, TX | [apply](https://www.linkedin.com/jobs/view/manager-data-platforms-at-harris-county-sheriff-s-office-4467239921) |
+| 8 | 50 | 2026-09-14 | linkedin | NAM Info Inc | GCP Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/gcp-data-engineer-at-nam-info-inc-4466328455) |
