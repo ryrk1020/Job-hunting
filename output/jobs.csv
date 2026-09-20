@@ -1,4 +1,2 @@
 score,directness,posted_at,source,company,title,location,url,salary_min,salary_max,required_years,tech_tags,matched_groups,preferred_location,alt_sources
-105,35,2026-09-15T00:00:00+00:00,linkedin,Tata Consultancy Services,Snowflake Data Engineer,"Irving, TX",https://www.linkedin.com/jobs/view/snowflake-data-engineer-at-tata-consultancy-services-4457193039,90000,125000,0,"snowflake,dbt,python,sql,aws,azure,gcp",data,True,
-100,35,2026-09-19T00:00:00+00:00,linkedin,Daikin Comfort,Data Engineer 1,"Waller, TX",https://www.linkedin.com/jobs/view/data-engineer-1-at-daikin-comfort-4468043856,,,0,"sql,aws",data,False,
-95,100,2026-09-19T00:32:32+00:00,greenhouse,pinterest,"Software Engineer II, Data Analytics & Engineering","San Francisco, CA, US; Remote, US",https://www.pinterestcareers.com/jobs/?gh_jid=8213988,,,2,"python,sql",data,False,
+110,35,2026-09-18T00:00:00+00:00,linkedin,Noblesoft Technologies,"Data Engineer ( DBT , Snowflake is must)","Plano, TX",https://www.linkedin.com/jobs/view/data-engineer-dbt-snowflake-is-must-at-noblesoft-technologies-4467873068,,,0,"snowflake,dbt,sql",data,True,
