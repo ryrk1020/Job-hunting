@@ -1,15 +1,26 @@
-# Latest Jobs (9)
+# Latest Jobs (20)
 
-_Generated 2026-09-24 10:56 UTC_
+_Generated 2026-09-25 10:52 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 110 | 2026-09-22 | linkedin | Coca-Cola Southwest Beverages | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-coca-cola-southwest-beverages-4470447598) |
-| 2 | 110 | 2026-09-21 | linkedin | METRIX IT SOLUTIONS INC | Informatica MDM Engineer - MDM Hub Console(DID or SIF) | Plano, TX | [apply](https://www.linkedin.com/jobs/view/informatica-mdm-engineer-mdm-hub-console-did-or-sif-at-metrix-it-solutions-inc-4469924313) |
-| 3 | 85 | 2026-09-23 | linkedin | MrBeast | Data Engineer | San Angelo Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-mrbeast-4459560479) |
-| 4 | 70 | 2026-09-23 | linkedin | Prudent Technologies and Consulting, Inc. | Data Engineer :: 5 Days Onsite :: San Antonio, TX or Plano, TX :: W2 | San Antonio, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-5-days-onsite-san-antonio-tx-or-plano-tx-w2-at-prudent-technologies-and-consulting-inc-4469460608) |
-| 5 | 70 | 2026-09-23 | linkedin | Amazon | Data Engineer, Amazon Music, Amazon Music Finance | Culver City, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-amazon-music-amazon-music-finance-at-amazon-4470645517) |
-| 6 | 70 | 2026-09-23 | linkedin | Robert Half | Data Engineer | Ohio, United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-robert-half-4470660536) |
-| 7 | 55 | 2026-09-23 | linkedin | FFF Enterprises | Manager, Business Intelligence (BI) | Flower Mound, TX | [apply](https://www.linkedin.com/jobs/view/manager-business-intelligence-bi-at-fff-enterprises-4471133070) |
-| 8 | 55 | 2026-09-18 | linkedin | Harnham | Data Engineer | Austin, Texas Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-harnham-4468853227) |
-| 9 | 55 | 2026-09-23 | linkedin | Staffing Spot, Inc. | Kafka Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/kafka-engineer-at-staffing-spot-inc-4469601133) |
+| 1 | 135 | 2026-09-23 | linkedin | CosmoProf Beauty | Data Engineer | Denton, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-cosmoprof-beauty-4470653466) |
+| 2 | 130 | 2026-09-24 | linkedin | Tata Consultancy Services | Data Engineer | Richardson, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-tata-consultancy-services-4470012354) |
+| 3 | 130 | 2026-09-23 | linkedin | BAE Systems, Inc. | F-35 Fleet Tracking Engineer II (Reporting &amp; Data Analyst) | Fort Worth, TX | [apply](https://www.linkedin.com/jobs/view/f-35-fleet-tracking-engineer-ii-reporting-data-analyst-at-bae-systems-inc-4469328843) |
+| 4 | 130 | 2026-09-24 | linkedin | KKR | Professional, ABF IMS Business Intelligence Associate | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/professional-abf-ims-business-intelligence-associate-at-kkr-4441073811) |
+| 5 | 125 | 2026-09-25 | linkedin | Tyler Junior College | Data Analyst | McKinney, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-tyler-junior-college-4471871156) |
+| 6 | 125 | 2026-09-24 | linkedin | Slalom | Google Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/google-data-engineer-at-slalom-4457999075) |
+| 7 | 125 | 2026-09-22 | linkedin | RS Americas | Data Scientist | Fort Worth, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-rs-americas-4468543658) |
+| 8 | 125 | 2026-09-22 | linkedin | RS | Data Scientist | Fort Worth, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-rs-4470291416) |
+| 9 | 120 | 2026-09-24 | linkedin | Vizient | Data Engineer | Irving, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-vizient-4470036556) |
+| 10 | 120 | 2026-09-24 | linkedin | MINT dentistry | Analytics Engineer | Dallas-Fort Worth Metroplex | [apply](https://www.linkedin.com/jobs/view/analytics-engineer-at-mint-dentistry-4469623802) |
+| 11 | 120 | 2026-09-24 | linkedin | First Point Group | Automation Data Engineer | Plano, TX | [apply](https://www.linkedin.com/jobs/view/automation-data-engineer-at-first-point-group-4469783865) |
+| 12 | 120 | 2026-09-24 | linkedin | Horizontal Talent | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-horizontal-talent-4459994706) |
+| 13 | 115 | 2026-09-24 | linkedin | Lockheed Martin | Data Analyst Stf - E4 | Fort Worth, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-stf-e4-at-lockheed-martin-4469738638) |
+| 14 | 115 | 2026-09-24 | linkedin | NTT DATA North America | IT Data Analyst - Power BI/Tableau, SQL | Plano, TX | [apply](https://www.linkedin.com/jobs/view/it-data-analyst-power-bi-tableau-sql-at-ntt-data-north-america-4471171401) |
+| 15 | 115 | 2026-09-24 | linkedin | Behavioral Health Group - BHG | SQL Data Analyst – Revenue Cycle | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/sql-data-analyst-%E2%80%93-revenue-cycle-at-behavioral-health-group-bhg-4470046181) |
+| 16 | 110 | 2026-09-23 | linkedin | Vaspire Technologies Inc. | Data Engineer ( AWS &amp; Snowflake) | Plano, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-aws-snowflake-at-vaspire-technologies-inc-4469612652) |
+| 17 | 105 | 2026-09-21 | linkedin | Franklin Fitch | SQL ETL Developer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/sql-etl-developer-at-franklin-fitch-4469969376) |
+| 18 | 105 | 2026-09-21 | linkedin | City of Dallas | Data Science Analyst II (Data Analytics and Business Intelligence [DBI] Dept., Non-Civil Service) | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-science-analyst-ii-data-analytics-and-business-intelligence-dbi-dept-non-civil-service-at-city-of-dallas-4469959271) |
+| 19 | 105 | 2026-09-20 | linkedin | Venture Global LNG | Data Engineer | Arlington, VA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-venture-global-lng-4450509927) |
+| 20 | 100 | 2026-09-22 | linkedin | Apex Systems | Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-apex-systems-4469870275) |
