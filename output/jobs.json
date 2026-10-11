@@ -1,361 +1,86 @@
 {
-  "generated_at": "2026-10-10T11:46:28.994925+00:00",
-  "count": 12,
+  "generated_at": "2026-10-11T11:59:13.294398+00:00",
+  "count": 3,
   "jobs": [
     {
       "source": "linkedin",
-      "company": "Autodesk",
-      "title": "Analytics Engineer, Forecasting &amp; Revenue Intelligence",
-      "location": "Dallas, TX",
-      "url": "https://www.linkedin.com/jobs/view/analytics-engineer-forecasting-revenue-intelligence-at-autodesk-4476823059",
-      "posted_at": "2026-10-09T00:00:00+00:00",
-      "description": "Job Requisition ID # 26WD101381 Position Overview Autodesk’s worldwide sales organization depends on its forecast, pipeline, targets and reporting. This role builds the data models behind them. As an Analytics Engineer on the Forecasting &amp; Revenue Intelligence team, you turn sales, subscription and hierarchy data into tested, documented models that analysts and sales leaders can trust, covering what customers bought, who owns which accounts and how the sales organization looked on any given date. You will work in SQL and dbt on Snowflake, and you will work closely with the people who use your models. This is a hands-on role on a new team, and you will own what you ship. Location: United States (remote). Central or Eastern time zone preferred. Organization: Revenue Operations Responsibilities Build and maintain dbt models on Snowflake that bring Salesforce, subscription, billing, hierarchy and forecast data into a clean, documented form Model data for analysis: a clear grain, stable keys, and definitions consistent with the shared metric dictionary Keep history so any published number can be reproduced as it stood on the day it went out Maintain the mapping between accounts, territories, sellers and the sales hierarchy as the organization changes Reconcile the data to Salesforce and to Finance, and find the cause when they disagree Build the datasets behind the weekly forecast pack, business reviews and leadership dashboards Add tests and monitoring for freshness, completeness and accuracy, and fix what breaks Explain data issues and trade-offs to sales and finance partners in plain terms, and agree on a fix with them Work in version control with code review and continuous integration Minimum Qualifications Bachelor’s degree in a technical or quantitative field, or equivalent practical experience 3+ years in analytics engineering, data engineering or BI development, building models other people depended on Dbt in production, with tests and documentation as part of how you work Strong SQL, including window functions and incremental models, in a cloud data warehouse such as Snowflake Working knowledge of the Salesforce data model: accounts, opportunities, line items and ownership Ability to explain a data problem to a non-technical stakeholder and reach a decision together Preferred Qualifications Dbt snapshots or slowly changing dimensions for point-in-time reporting Python for transformation or orchestration, with Airflow or similar Enterprise software or SaaS commercial data: subscriptions, renewals, territories, and direct and partner routes to market Revenue intelligence platforms such as Clari, Gong or Aviso, and BI tools such as Power BI, Tableau or Sigma Experience as an early hire on a new data team Learn More About Autodesk Welcome to Autodesk! Amazing things are created every day with our software – from the greenest buildings and cleanest cars to the smartest factories and biggest hit movies. We help innovators turn their ideas into reality, transforming not only how things are made, but what can be made. We take great pride in our culture here at Autodesk – it’s at the core of everything we do. Our culture guides the way we work and treat each other, informs how we connect with customers and partners, and defines how we show up in the world. When you’re an Autodesker, you can do meaningful work that helps build a better world designed and made for all. Ready to shape the world and your future? Join us! Benefits From health and financial benefits to time away and everyday wellness, we give Autodeskers the best, so they can do their best work. Learn more about our benefits in the U.S. by visiting https://benefits.autodesk.com/ Salary transparency Salary is one part of Autodesk’s competitive compensation package. For U.S.-based roles, we expect a starting base salary between $103,000 and $185,130. Offers are based on the candidate’s experience and geographic location, and may exceed this range. In addition to base salaries, our compensation package may include annual cash bonuses, commissions for sales roles, stock grants, and a comprehensive benefits package. Equal Employment Opportunity At Autodesk, we're building a diverse workplace and an inclusive culture to give more people the chance to imagine, design, and make a better world. Autodesk is proud to be an equal opportunity employer and considers all qualified applicants for employment without regard to race, color, religion, age, sex, sexual orientation, gender, gender identity, national origin, disability, veteran status or any other legally protected characteristic. We also consider for employment all qualified applicants regardless of criminal histories, consistent with applicable law. Belonging We take pride in cultivating a culture of belonging where everyone can thrive. Learn more here: https://www.autodesk.com/company/global-belonging In-Person Onboarding and Identity Verification This role may require in-person onboarding and/or in-person ID verification.",
-      "remote": false,
-      "raw_id": "https://www.linkedin.com/jobs/view/analytics-engineer-forecasting-revenue-intelligence-at-autodesk-4476823059",
-      "extra": {},
-      "matched_groups": [
-        "data"
-      ],
-      "preferred_location": true,
-      "required_years": 3,
-      "salary_min": null,
-      "salary_max": null,
-      "tech_tags": [
-        "snowflake",
-        "airflow",
-        "dbt",
-        "tableau",
-        "power bi",
-        "python",
-        "sql"
-      ],
-      "score": 120,
-      "directness": 35
-    },
-    {
-      "source": "linkedin",
-      "company": "Slalom",
-      "title": "Slalom Flex (Project Based)- Data Vault Data Engineer",
-      "location": "Dallas, TX",
-      "url": "https://www.linkedin.com/jobs/view/slalom-flex-project-based-data-vault-data-engineer-at-slalom-4463803137",
-      "posted_at": "2026-10-08T00:00:00+00:00",
-      "description": "Data Engineer / Senior Data Engineer Location: &nbsp;Remote, aligned to Mountain Time working hours Employment Type: Project-based contract Start Date: September 14, 2026 Duration: Through December 2026, with potential extension into 2027 About Us&nbsp; Slalom is a purpose-led, global business and technology consulting company. From strategy to implementation, our approach is fiercely human. In six+ countries and 43+ markets, we deeply understand our customers—and their customers—to deliver practical, end-to-end solutions that drive meaningful impact. Backed by close partnerships with over 400 leading technology providers, our 10,000+ strong team helps people and organizations dream bigger, move faster, and build better tomorrows for all. We’re honored to be consistently recognized as a great place to work, including being one of Fortune’s 100 Best Companies to Work For seven years running. Learn more at Slalom.com. Overview We are seeking Data Engineers and Senior Data Engineers to support the development of a greenfield data platform. This role will assess current data engineering workloads, resolve delivery challenges, and move priority solutions into production. The ideal candidate has strong hands-on experience with Databricks and dbt Cloud , can build reliable and scalable data pipelines, and is comfortable operating in a fast-paced, client-facing environment. What You’ll do Assess existing data engineering workloads and identify technical or delivery issues. Design, build, test, deploy, and support data pipelines using Databricks and dbt Cloud . Remediate pipeline, workload, and production-readiness challenges. Move priority data workloads into production with a focus on reliability, scalability, and maintainability. Contribute to data architecture, data modeling, testing, and deployment decisions. Partner with solution leadership, senior stakeholders, and other engineers to establish sustainable engineering and delivery practices. Communicate technical risks, recommendations, and progress clearly to technical and non-technical stakeholders. Work collaboratively as part of a cohesive, outcomes-focused delivery team. What You’ll Bring Professional experience designing and delivering modern data engineering solutions. Strong hands-on experience with Databricks . Strong hands-on experience with dbt Cloud . Data Vault &nbsp;experience Advanced SQL skills and experience developing production-grade data pipelines. Experience with data transformation, data modeling, and ETL/ELT processes. Ability to assess existing workloads, troubleshoot delivery issues, and implement practical solutions. Experience working in consulting, client-facing, or complex delivery environments. Strong communication, collaboration, adaptability, and problem-solving skills. Ability to work remotely during Mountain Time business hours. Preferred Qualifications Experience with Qlik Replicate or similar data ingestion tools. Experience implementing Change Data Capture (CDC) solutions. Experience contributing to greenfield data platform builds or cloud data modernization initiatives. Familiarity with data quality, testing, monitoring, and deployment best practices. Key Skills Databricks, dbt Cloud, SQL, data pipelines, ETL/ELT, data modeling, cloud data platforms, Qlik Replicate, CDC, consulting, and stakeholder communication. Compensation and Benefits Slalom prides itself on helping team members thrive in their work and life. As a result, Slalom is proud to invest in benefits that include meaningful time off and paid holidays, 401(k) with a match, a range of choices for highly subsidized health, dental, &amp; vision coverage, adoption and fertility assistance, and long-term disability. We also offer yearly $350 reimbursement account for any well-being-related expenses.&nbsp; Slalom is committed to fair and equitable compensation practices. For this position, the base salary pay range is 80-100/hr. Actual compensation will depend upon an individual’s skills, experience, qualifications, location, and other relevant factors. The salary pay range is subject to change and may be modified at any time. EEO and Accommodations&nbsp; Slalom is an equal opportunity employer and is committed to inclusion, diversity, and equity in the workplace. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability status, protected veterans’ status, or any other characteristic protected by federal, state, or local laws. Slalom will also consider qualified applications with criminal histories, consistent with legal requirements. Slalom welcomes and encourages applications from individuals with disabilities. Reasonable accommodations are available for candidates during all aspects of the selection process. Please advise the talent acquisition team if you require accommodations during the interview process.",
-      "remote": false,
-      "raw_id": "https://www.linkedin.com/jobs/view/slalom-flex-project-based-data-vault-data-engineer-at-slalom-4463803137",
-      "extra": {},
-      "matched_groups": [
-        "data"
-      ],
-      "preferred_location": true,
-      "required_years": 0,
-      "salary_min": null,
-      "salary_max": null,
-      "tech_tags": [
-        "databricks",
-        "dbt",
-        "sql"
-      ],
-      "score": 110,
-      "directness": 35
-    },
-    {
-      "source": "linkedin",
-      "company": "Torentify",
-      "title": "Data Engineer II - Remote",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/data-engineer-ii-remote-at-torentify-4478029739",
-      "posted_at": "2026-10-10T00:00:00+00:00",
-      "description": "About the Company The client is a US-based pharmaceutical organization investing in modern data infrastructure to support analytics, reporting, and business decision-making. The organization is developing a scalable data platform to serve research, commercial, and operational teams, with a focus on reliable data pipelines and infrastructure. About the Role The organization is seeking a Senior Data Engineer for an initial 12-month contract, with strong potential for extension. This is a fully remote opportunity for candidates based in the United States who can work during US business hours. In this role, you will design, develop, and maintain scalable data pipelines and infrastructure that support business analytics and downstream applications. You will work with modern data platforms, cloud technologies, and ETL/ELT processes to deliver reliable, high-quality datasets. You will also collaborate with data scientists, analysts, and business stakeholders while contributing to data architecture, performance optimization, governance, and documentation in a pharmaceutical environment. Key Responsibilities •Design, build, and maintain scalable data pipelines to ingest, transform, and deliver data across the organization. •Develop and optimize data models that support analytics, reporting, and downstream applications. •Build and maintain ETL/ELT processes using modern data tools and technologies. •Maintain data quality, integrity, and governance across pipelines in accordance with the needs of a regulated pharmaceutical environment. •Collaborate with data scientists, analysts, and business stakeholders to understand data requirements and deliver reliable datasets. •Monitor, troubleshoot, and improve the performance and reliability of existing data infrastructure. •Contribute to architectural decisions related to data storage, processing, and platform tooling. •Document data flows, pipelines, and technical decisions to support audit, governance, and compliance requirements. Required Qualifications •Proven experience as a Senior Data Engineer building and maintaining production data pipelines at scale. •Strong SQL skills and experience with modern data platforms such as Snowflake, Databricks, or similar technologies. •Experience with ETL/ELT tools and orchestration frameworks such as Airflow, dbt, or comparable solutions. •Strong Python programming skills or equivalent programming experience. •Experience working with cloud data platforms such as AWS, Microsoft Azure, or Google Cloud Platform (GCP). •Strong understanding of data pipeline development, data transformation, and production data infrastructure. •Excellent communication skills, with the ability to work effectively with technical teams and business stakeholders. •Must be based in the United States and available to work US business hours. Preferred Qualifications •Experience in pharmaceutical, life sciences, or another regulated industry. •Experience building and maintaining real-time or streaming data pipelines using technologies such as Kafka or Kinesis. •Familiarity with data governance and compliance frameworks relevant to regulated environments. Compensation &amp; Contract Details •Contract Duration: Initial 12 months, with strong potential for extension. •Compensation: Competitive hourly rate, dependent on experience (DOE). •Work Arrangement: 100% remote. •Location Requirement: US-based candidates only. Employment Details •Job Title: Senior Data Engineer •Company: Client is a US-based pharmaceutical organization; company name not specified. •Employment Type: Contract •Contract Duration: 12 months initially •Work Location: Remote within the United States •Salary: Competitive hourly rate, based on experience",
-      "remote": false,
-      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-ii-remote-at-torentify-4478029739",
-      "extra": {},
-      "matched_groups": [
-        "data"
-      ],
-      "preferred_location": false,
-      "required_years": 0,
-      "salary_min": null,
-      "salary_max": null,
-      "tech_tags": [
-        "snowflake",
-        "databricks",
-        "airflow",
-        "dbt",
-        "kafka",
-        "python",
-        "sql",
-        "aws",
-        "azure",
-        "gcp"
-      ],
-      "score": 105,
-      "directness": 35
-    },
-    {
-      "source": "greenhouse",
-      "company": "anthropic",
-      "title": "Data Engineer, Product",
-      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5448481008",
-      "posted_at": "2026-10-09T17:01:26+00:00",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;br&gt;As a Data Engineer on the Data Science &amp;amp; Analytics team, you&#39;ll build the foundation that lets analytics scale across Anthropic. You&#39;ll partner with Engineering, Product and other teams to turn raw data into reliable metrics, reporting and insights, and you&#39;ll make sure teams have accurate metrics for our consumer products from idea to launch. You&#39;ll also lead your own projects that make self-serve insights possible, so teams can make data-driven decisions.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Understand, and where possible anticipate, the data needs of partner teams, and translate them into data models, reporting and technical requirements&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Define, build and manage key dbt pipelines that turn raw logs into canonical datasets&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Set data integrity standards and SLAs so data is delivered on time and accurately&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Build reliable dashboards that track core metrics and share insights across the company&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Build foundational data products, dashboards and tools that let self-serve analytics scale&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Partner with stakeholders to define and materialize metrics and analysis for new and evolving consumer products&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Shape Product teams&#39; roadmaps from a data systems perspective&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Become an expert in our data models and data architecture&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;You may be a good fit if you have&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Significant experience as a Data Engineer or in a similar Data Science &amp;amp; Analytics role, ideally partnering with Product leads to build and report on company-wide metrics&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;A passion for Anthropic&#39;s mission of building helpful, honest and harmless AI&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Expertise building multi-step ETL jobs with tools like dbt, plus experience with workflow tools like Airflow and version control through GitHub&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Expertise in SQL and Python for turning data into accurate, clean data models&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Experience building reporting and dashboards in tools like Hex that serve multiple cross-functional teams&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;A bias for action, and a sense of when &quot;good enough&quot; beats perfect&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;An end-to-end mindset: you take ownership of solving a problem fully, even when that means picking up work beyond your usual scope&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Comfort with ambiguity, and a habit of creating clarity and forward progress&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Experience using AI to scale your own productivity and your team&#39;s without lowering the quality of the work&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Strong candidates may also have&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Experience building a data engineering (or similar) function from the ground up in an early-stage or fast-growing environment&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt; &lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$320,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$405,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt; &lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt; &lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
-      "remote": false,
-      "raw_id": "5448481008",
-      "extra": {
-        "departments": [
-          "Data Science & Analytics"
-        ],
-        "metadata": [
-          {
-            "id": 4036944008,
-            "name": "Location Type",
-            "value": "On-Site",
-            "value_type": "single_select"
-          }
-        ]
-      },
-      "matched_groups": [
-        "data"
-      ],
-      "preferred_location": false,
-      "required_years": 0,
-      "salary_min": null,
-      "salary_max": null,
-      "tech_tags": [
-        "airflow",
-        "dbt",
-        "python",
-        "sql"
-      ],
-      "score": 80,
-      "directness": 100
-    },
-    {
-      "source": "themuse",
-      "company": "Apple",
-      "title": "Data Analyst",
+      "company": "Fluidstack",
+      "title": "Machine Learning Engineer",
       "location": "Austin, TX",
-      "url": "https://www.themuse.com/jobs/apple/data-analyst-005c83",
-      "posted_at": "2026-10-09T21:20:10+00:00",
-      "description": "At Apple, we strive every single day to craft products that enrich people's lives. Our successes are the result of skilled domain experts working in an environment which encourages creativity, collaboration, and re-thinking of old problems in new ways! As a member of the Satellite Connectivity Group, you will work on the satellite network that enables connectivity to iPhone and Watch Ultra when off the grid without cellular or Wi-Fi coverage. Every day, Apple customers use Emergency SOS, Roadside assistance, and Messages via satellite to stay connected when they have no other means to communicate. You will have the unique and rewarding opportunity to shape this and other critical services, to the benefit and safety of millions of Apple device users. The team is seeking a data analyst who will analyze operational data, track the Quality of Experience, and identify problems with the system to ensure an optimal user experience. This person will collaborate closely with multiple teams throughout Apple to influence how we build and operate our system. They will pull and join data from multiple sources, extracting meaningful insights from large, complex datasets to build a complete picture and produce actionable recommendations for improvement. The successful candidate must have a track record of diving deep into data through exploratory data analysis to uncover trends, identify anomalies, and understand the potential causes, drawing on a solid foundation in statistics and a working knowledge of machine learning algorithms. Most importantly, this candidate is a storyteller who excels at pulling multiple threads together into a cohesive and compelling narrative that motivates changes and provides context and insight. This person creates beautiful and informative graphics, animations, and other visual media to communicate their results. A curious, creative, and analytical mind that can see both the big picture and drill down into the details are critical for this role. Description Partner with cross-functional teams to understand the system end-to-end, analyze key metrics, and answer questions about performance and user experience. Mine and synthesize data from multiple sources, applying statistical methods and machine learning techniques to surface trends, anomalies, and actionable insights. Build and maintain data pipelines to support reliable, repeatable analysis. Produce clear, captivating visualizations, dashboards, and reports, tailored to both technical and non-technical audiences. Translate complex findings into simple, compelling narratives that motivate action and drive improvements. Investigate anomalies and performances issues to identify root causes and recommend solutions. Preferred Qualifications Solid understanding of statistical concepts and machine learning algorithms. Familiarity with using AI to improve efficiency. Experience with BI/visualization tools. BS or MS in quantitative field such as data science, statistics, applied mathematics, operations research, engineering, or related discipline. Minimum Qualifications 3+ years experience with data analysis and reporting. Experience synthesizing complex data sources into clear and insightful presentations with an emphasis on the story. Demonstrated experience building analytic tools and analyzing operational data and distilling results into actionable recommendations. Excellent problem-solving skills and independent thinker. Creativity and willingness to explore new solutions and ideas. Excellent data visualization skills. Demonstrated proficiency with scripting languages such as python, R, or MATLAB. Experience with databases and query languages such as SQL. Comfortable working across multiple languages and tools. Excellent written and verbal communication skills and solid teamwork and leadership skills.",
+      "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-at-fluidstack-4441385261",
+      "posted_at": "2026-10-11T00:00:00+00:00",
+      "description": "About Fluidstack We exist to make humanity more free. For most of human history, you farmed or you starved. Technology gave people more time for the things they wanted to do, instead of things they had to do. Powerful AI will be the biggest lever for human choice we've ever built - but only if models are aligned with what humanity actually wants. There are groups building AI who don't share these goals. Whoever deploys frontier compute infrastructure fastest will decide whether AI expands human freedom or shrinks it. We're singularly focused on delivering 10 to 100s of GWs of compute faster than anyone else, rethinking every layer of the stack. We acquire power, design and build data centers, and operate them - with teams spanning hardware and software. Speed and scale are our key differentiators. Come be a part of building civilization-scale infrastructure for AI. We hire people who care deeply about this problem space. If that is you, please apply! How We Operate Be a barrel. Full autonomy. Own things end to end, take on scope without being asked, no permission required to operate outside your core role. Insane urgency. We drive everything forward as fast as possible. Reason from first principles. Challenge every assumption. Zero analogy thinking, no egos, the best idea wins. Love of the game. The frontier of AI is the most interesting problem of our time. We put in long hours at high intensity to push the frontier forward. Build something that actually matters. If you're going to spend your time, spend it on something that matters to the world. Role Scope Build ML and LLM systems that run inside the company's operations: forecasting build timelines, flagging schedule risk, and extracting structure from vendor documents. Own models end to end, from problem framing and data through deployment, evaluation, and iteration in production. Ship agentic systems with real guardrails, authorization, audit, and evals, so agents act on company systems instead of just advising. Partner with data engineering and product pods to put predictions in the tools people already use. What We're Looking For The below is a starting point. We always make space for exceptional people, so if you don't fit this role exactly, tell us where you would. You've shipped ML or LLM features to production and owned them after launch. You've built evaluation harnesses that told you the truth about model quality before users did. You reach for the simplest model that works and can defend the choice. You've worked hands-on with LLM APIs, fine-tuning, or retrieval systems on real business problems. You write production-quality code and work fluently with AI coding tools. Bonus: Forecasting or scheduling problems. Document extraction at scale. Agentic frameworks and MCP. Temporal or workflow engines. We are committed to pay equity and transparency. Fluidstack is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans’ status, or any other characteristic protected by law. Fluidstack will consider for employment qualified applicants with arrest and conviction records pursuant to applicable law. You will receive a confirmation email once your application has successfully been accepted. If there is an error with your submission and you did not receive a confirmation email, please email careers@fluidstack.io with your resume/CV, the role you've applied for, and the date you submitted your application-- someone from our recruiting team will be in touch. Compensation Range: $224K - $344K",
       "remote": false,
-      "raw_id": "22107256",
+      "raw_id": "https://www.linkedin.com/jobs/view/machine-learning-engineer-at-fluidstack-4441385261",
       "extra": {},
       "matched_groups": [
         "data"
       ],
       "preferred_location": false,
-      "required_years": 3,
-      "salary_min": null,
-      "salary_max": null,
-      "tech_tags": [
-        "python",
-        "sql"
-      ],
+      "required_years": 0,
+      "salary_min": 224000,
+      "salary_max": 344000,
+      "tech_tags": [],
       "score": 75,
-      "directness": 60
-    },
-    {
-      "source": "linkedin",
-      "company": "Infosys",
-      "title": "AWS Redshift Data Engineer",
-      "location": "Hartford, CT",
-      "url": "https://www.linkedin.com/jobs/view/aws-redshift-data-engineer-at-infosys-4468892967",
-      "posted_at": "2026-10-09T00:00:00+00:00",
-      "description": "Overview The Infosys Financial Services unit is a global leader in driving digital transformation for financial institutions. We specialize in leveraging advanced technologies such as AI, cloud, and data-led innovation to help our clients accelerate growth and unlock business value. Our AI-driven solutions empower financial institutions to make smarter decisions, enhance customer experiences, and achieve operational excellence. Join us to be part of a pioneering team that is at the forefront of financial services transformation. You'll have the opportunity to work with cutting-edge AI technologies, collaborate with industry experts, and contribute to transformative projects across banking, wealth management, and insurance sectors. If you're passionate about AI and eager to make a significant impact, the Infosys Financial Services unit is the perfect place for you to grow and excel. In the assigned Job Role of Technology Consultant 2, your Area Of Responsibility will be as below: Contribute to the requirements elicitation process by documenting assigned parts of business requirements, in line with guidance provided Facilitate software application design discussions, and document design decisions to guide the technical team towards building software solutions Participate in coding and integrate new features or updates into existing applications, with a focus on maintaining system stability Conduct code reviews, do changes to the codebase and maintain code repositories Implement test strategies, analyse results, and coordinate bug fixes to uphold the software quality standards Develop user training programs, documentation, and support frameworks to ensure a smooth transition to new software applications Actively participate in resolving production issues and recommend preventive strategies to enhance system reliability Maintain detailed records of code, testing techniques, and support activities to enrich the knowledge base and assist other similar projects Your Contribution To The Team A collaborative spirit and excellent communication skills. The ability to handle end to end SDLC phases from requirement gathering to implementation. A knack for translating complex requirements into actionable development tasks. A passion for design and hands-on coding experience A proactive approach to testing, troubleshooting, and refining our applications. The ability to work with cross-functional teams and do software integration. Required Skill And Experience Design and implement distributed, event-driven architectures using AWS services - ECS / EKS, EventBridge, RDS, ECR, EFS, Redshift, Redshift Spectrum, S3, EC2, Bedrock, SageMaker, Textract Build and manage microservices-based systems with high availability and scalability. Maintain end-to-end scalable web and cloud-based applications. Drive automation and orchestration using Lambda, Step Functions, and CI/CD pipelines. Preferred Skill And Experience Experience in Oracle Database (Dynamo DB is good to have). Experience in optimizing data-driven applications using Microservices Experience in python Libraries and pandas Additional Required Qualifications Bachelor’s degree or foreign equivalent required from an accredited institution. Will also consider three years of progressive experience in the specialty in lieu of every year of education. This position may require relocation and/or travel to work/project location. Candidates authorized to work for any employer in the United States without employer-based visa sponsorship are welcome to apply. Infosys is unable to provide immigration sponsorship for this role now or in the future. Benefits Along with competitive pay, as a full-time Infosys employee you are also eligible for the following benefits: Medical/Dental/Vision/Life Insurance Long-term/Short-term Disability Health and Dependent Care Reimbursement Accounts Insurance (Accident, Critical Illness , Hospital Indemnity, Legal) 401(k) plan and contributions dependent on salary level Paid holidays plus Paid Time Off About Us Infosys is a global leader in next-generation digital services and consulting. We enable clients in more than 50 countries to navigate their digital transformation. With over four decades of experience in managing the systems and workings of global enterprises, we expertly steer our clients through their digital journey. We do it by enabling the enterprise with an AI-powered core that helps prioritize the execution of change. We also empower the business with agile digital at scale to deliver unprecedented levels of performance and customer delight. Our always-on learning agenda drives their continuous improvement through building and transferring digital skills, expertise, and ideas from our innovation ecosystem. EEO Infosys provides equal employment opportunities to applicants and employees without regard to race; color; sex; gender identity; sexual orientation; religious practices and observances; national origin; pregnancy, childbirth, or related medical conditions; status as a protected veteran or spouse/family member of a protected veteran; or disability.",
-      "remote": false,
-      "raw_id": "https://www.linkedin.com/jobs/view/aws-redshift-data-engineer-at-infosys-4468892967",
-      "extra": {},
-      "matched_groups": [
-        "data"
-      ],
-      "preferred_location": false,
-      "required_years": 3,
-      "salary_min": null,
-      "salary_max": null,
-      "tech_tags": [
-        "redshift",
-        "python",
-        "aws"
-      ],
-      "score": 70,
       "directness": 35
     },
     {
       "source": "linkedin",
-      "company": "TEKsystems",
-      "title": "Hybrid Data Engineer II",
-      "location": "Hanover, MD",
-      "url": "https://www.linkedin.com/jobs/view/hybrid-data-engineer-ii-at-teksystems-4475237424",
-      "posted_at": "2026-10-09T00:00:00+00:00",
-      "description": "Think of TEKsystems Global Services (TGS) as todays growth solution for the enterprise. We unleash growth through technology, strategy, design, execution, and operations with a customer-first mindset for bold business leaders. We deliver Cloud, Data, AI, and Customer Experience solutions. Our partnerships with leading cloud, design and business intelligence platforms fuel our expertise. We value deep relationships, inclusion, and dedication to serving others. We drive positive outcomes for our people and our business. We stay true to our commitments and act in harmony with our promises. We exist to create significant opportunities for people to achieve fulfillment through their career success. Ready to join us? Job Summary We are seeking a highly skilled and talented Intermediate level Data Engineer with strong hands-on data engineering proficiency (modern cloud data engineering, data integration, distributed processing, orchestration, and DataOps practices) to develop and maintain modern, scalable data platforms. Past experience in Snowflake and Matillion is preferred but not mandatory. The ideal candidate should be a good team player with 3-5 years of experience in data engineering developing scalable and efficient ETL pipelines processing different formats of data (structured, semi-structured and unstructured) following the data engineering best practices. This role requires curiosity, ability to thrive in a fast and evolving environment, effective communication, and deep expertise in developing, and deploying scalable, and high-performance cloud-native data solutions, under the guidance of architects, and team leaders. Essential Functions Under the guidance from architect/lead, actively involves in requirement gathering from customers, ideating, and implementing the technical solutions Collaborates closely with architects/leads and other stakeholders to identify the appropriate tools/technologies and implement the data management solutions Develop scalable data ingestion, transformation, and orchestration pipelines following modern principles and industry best practices for data lake or data warehouse / analytics solutions in an on-prem or cloud native architecture Builds all data management/analytics solutions following applicable Info-sec, quality control, and governance/maintenance standard Complies with all internal and external (project specific) operational, compliance and governance processes. Implement CI/CD pipelines for data and analytics workloads Mandatory Skills/Competencies: Bachelors degree in computer science, Engineering, or related field. 3-5 years of experience in Data Engineering developing production-grade data ingestion, transformation, and orchestration solutions. Strong proficiency in SQL and Python (PySpark proficiency will be an added advantage). Strong hands-on experience building data pipelines Experience working with different data sources (structured, semi-structured, and unstructured). Strong hands-on capability in at least one of the following platform areas AWS Data Engineering (S3, Glue, Redshift, Lambda, Kinesis, SNS/SQS, EMR, Athena, Quicksight) Azure Data Engineering (ADLS Gen2, Fabric, Synapse, Databricks, Power BI) GCP Data Engineering (BigQuery, Data Storage, Dataproc, Pub/Sub, Dataflow, Datastream) Snowflake (Snowpipe, Streams and Tasks, COPY command, dynamic tables, timetravel, Snowpark, Cortex) Matillion (pipeline design, orchestration, parameterization, environment promotion, error handling, and operational monitoring) Databricks Informatica / IICS Curious and growth mindset, meticulous, strong problem-solving, and excellent verbal and written communication skills Passion for staying updated with the latest cloud and AI/ML technologies and ability to evaluate and adopt emerging tools and methodologies. Preferred Qualifications: Matillion data engineering certifications such as: Matillion ETL Foundations Certification Matillion Data Productivity Cloud Foundations Certification Snowflake certifications such as: SnowPro Core Certification SnowPro Advanced: Data Engineer Good Understanding of data modelling (Star/Snowflake) and performance tuning ******MANDATORY ON-SITE INTERVIEW IN HANOVER, MD********* Job Type &amp; Location This is a Permanent position based out of Hanover, MD. Pay and Benefits The pay range for this position is $78400.00 - $117600.00/yr. Individual compensation offered for this position within this range will depend on many factors, including qualifications, skills, relevant experience, job knowledge, geographic location, internal equity, and other pertinent job-related factors. We reserve the right to pay above or below the posted wage based on factors unrelated to sex, race, or any other protected classification. Additional earnings may be available through incentive programs like annual bonuses, profit sharing, etc. Our full-time, internal employment benefits include the following: Medical, Dental, and Vision Critical Illness, Accident, and Hospital 401(k) Retirement Plan Pre-tax and Roth post-tax contributions available Life Insurance (Voluntary Life and AD&amp;D for employee and dependents) Short and Long-Term Disability Health Spending Account (HSA) Transportation Benefits Employee Assistance Program Time Off/Leave (PTO, Vacation or Sick Leave) Workplace Type This is a hybrid position in Hanover, MD. Application Deadline This position is anticipated to close on Oct 23, 2026.",
-      "remote": false,
-      "raw_id": "https://www.linkedin.com/jobs/view/hybrid-data-engineer-ii-at-teksystems-4475237424",
-      "extra": {},
-      "matched_groups": [
-        "data"
-      ],
-      "preferred_location": false,
-      "required_years": 3,
-      "salary_min": null,
-      "salary_max": null,
-      "tech_tags": [
-        "snowflake",
-        "databricks",
-        "spark",
-        "redshift",
-        "bigquery",
-        "power bi",
-        "informatica",
-        "python",
-        "sql",
-        "aws",
-        "azure",
-        "gcp"
-      ],
-      "score": 70,
-      "directness": 35
-    },
-    {
-      "source": "linkedin",
-      "company": "Envision Technology Solutions",
-      "title": "AI Data Engineer with Snowflake",
-      "location": "New York City Metropolitan Area",
-      "url": "https://www.linkedin.com/jobs/view/ai-data-engineer-with-snowflake-at-envision-technology-solutions-4476851167",
-      "posted_at": "2026-10-09T00:00:00+00:00",
-      "description": "Greetings, My name is Rahul Kohli and I'm a Senior Technical Recruiter at Envision technology solutions , our records show that you are an experienced IT professional with AI Data Engineer with Snowflake this experience is relevant to one of my current openings, The opening requires AI Data Engineer with Snowflake to the above skills. It is in NYC, NY (Onsite). Job Title: AI Data Engineer with Snowflake Location: NYC, NY (Onsite) Type: Contract (c2c or w2) Note: Local to NYC, NY &amp; Final round of interview will be In-person. Job description: Develop and implement data and AI solutions using Snowflake and Snowflake Cortex. Design, build, and maintain scalable data-platform solutions supporting intelligent applications and operational insights. Connect and integrate data from multiple sources into Snowflake-based environments. Develop semantic models that enable consistent, trusted, and reusable data consumption. Apply modern data-engineering patterns for data ingestion, transformation, storage, and delivery. Build reliable data pipelines to support analytics, AI, and business applications. Prepare, cleanse, transform, and enrich structured and semi-structured data for downstream use. Develop data-bridging solutions that connect systems, datasets, and business domains. Leverage Snowflake Cortex capabilities to support AI-driven analytics and intelligent workflows. Collaborate with data scientists, AI engineers, architects, and business stakeholders to understand data requirements. Design curated datasets, semantic layers, and reusable data products for operational reporting and AI use cases. Implement data quality, validation, governance, and security practices across data platforms. Optimize Snowflake workloads, data models, queries, and processing patterns for performance and scalability. Troubleshoot data integration, pipeline, modeling, and platform-related issues. Create technical documentation covering data architecture, semantic models, integration patterns, and operational procedures. Warm Regards, www.envisiontechsol.com 10130 Mallard Creek Rd, Charlotte NC, 28262 Rahul Kohli Sr. Technical Recruiter Envision Technology Solutions E: rahul.kumar@envisiontechsol.com LinkedIn: https://www.linkedin.com/in/rahul-k-536271184/",
-      "remote": false,
-      "raw_id": "https://www.linkedin.com/jobs/view/ai-data-engineer-with-snowflake-at-envision-technology-solutions-4476851167",
-      "extra": {},
-      "matched_groups": [
-        "data"
-      ],
-      "preferred_location": false,
-      "required_years": 0,
-      "salary_min": null,
-      "salary_max": null,
-      "tech_tags": [
-        "snowflake"
-      ],
-      "score": 70,
-      "directness": 35
-    },
-    {
-      "source": "linkedin",
-      "company": "KTek Resourcing",
-      "title": "Data Scientist",
-      "location": "San Antonio, TX",
-      "url": "https://www.linkedin.com/jobs/view/data-scientist-at-ktek-resourcing-4477803573",
-      "posted_at": "2026-10-09T00:00:00+00:00",
-      "description": "Job Title: Data Scientist Location: San Antonio, TX (Onsite) Job Description: Essential Functions Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. This is not intended to be an all-inclusive list of job duties and the position will perform other duties as assigned. · Lead interaction with and advising Management of regarding credit risk issues; formulates product strategy recommendations and evaluates the risk in the overall loan portfolio. · Conduct autonomous end-to-end more complex statistical model creation, including but not limited to identifying objectives, compiling data, sampling/prepping data, feature selection, model comparison/selection, deployment, and monitoring. Ensures adequate internal control processes around model development, implementation and validation are established. · Develop, monitor, and maintain risk models using advanced machine learning and statistical method. Research and recommend new approaches/algorithms to identify relationships among complex data and implements model changes to improve model performance. · Understand the trends within consumer and commercial loans portfolio, their impact on model implementation design and performance, and develop timely approach to address changes; Develop necessary analytics and processes during model implementation and forecasting process to provide production support and resolution. · Establish consistent and robust model implementation processes across models with effective review and controls. · Communicate design and results of model’s development and implementation to a variety of audiences, including senior management, bank supervisors, internal validation, Internal Audit and line of business credit and finance end users. · Apply intermediate to advanced knowledge of financial processes and procedures, and routine modeling theories and techniques to create effective modeling solutions for a single or multiple business functions. · Maintain documentation for key processes and model components across the team with focus on standardization of processes; Engage model development teams, model production, and forecasting/model production team/users to develop consistent model implementation and process capabilities. · Participate in regular interactions with various stakeholders to enhance model implementation processes and translate requirements into integrated forecasting process/tools for effective consumption. · Assist management with maintaining the client's compliance with all applicable federal, state, and local laws, regulations, and ordinances by abiding by the client's compliance program and all policies, procedures, rules, and regulations. Education and Experience Equivalent combination of education and experience is considered. · Master Degree in a quantitative discipline is required. PhD preferred · Minimum of three (3) years of related work experience in building statistical models and advanced data analysis. Minimum of one (1) years of experience for PhD degree holders. · Applied experience with Logistic Regression, Linear Regression, Machine Leaning, and Survival Analysis. · Advanced programming skills to include knowledge of statistical programs (e.g. SQL, Python, and R). · Ability to manage multiple projects simultaneously and implement rapid changes in project direction. · Proven project management skills. · Excellent oral and written communication skills required · Demonstrate strong data analysis skills, ability to understand underlying data and complex loss/balance forecasting models, various product features, possess organizational and prioritization skills, as well as strong attention to detail. This role is highly dynamic and will require critical thinking using both analytical and tactical approach to problem solving within the Quantitative Modeling team. · Detail oriented, results driven, and has the ability to navigate in a quickly changing and high demand environment to develop solutions while balancing multiple priorities. · Ability to interact effectively with team members across the management team, Lines of Business (LOB), credit officers, finance, model governance, oversight, validation, and audit organizations.",
-      "remote": false,
-      "raw_id": "https://www.linkedin.com/jobs/view/data-scientist-at-ktek-resourcing-4477803573",
-      "extra": {},
-      "matched_groups": [
-        "data"
-      ],
-      "preferred_location": false,
-      "required_years": 0,
-      "salary_min": null,
-      "salary_max": null,
-      "tech_tags": [
-        "python",
-        "sql"
-      ],
-      "score": 65,
-      "directness": 35
-    },
-    {
-      "source": "linkedin",
-      "company": "Cotiviti",
-      "title": "Data Engineer - Operations Focus",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/data-engineer-operations-focus-at-cotiviti-4476564075",
-      "posted_at": "2026-10-07T00:00:00+00:00",
-      "description": "Overview At Cotiviti, we are custodians of data for our clients. Using their technical experience in ETL processes, Data Engineers ensure operational functions are occurring as expected. This includes but is not limited to managing data implementations, data production, data quality, and data security. Responsibilities Create, maintain and execute basic to intermediate SQL scripts for data management and data validation. Optimize the queries to improve the efficiency of daily tasks. Perform data analysis and identify any issues. Work with other groups such as Engineering team, DBA etc. to troubleshoot and resolve any environmental or network issues that impact your work. Extend your support to after – hours or weekends as needed. Create and maintain dashboards as needed. Validates the tasks results to ensure that all the requirements are met . Adhere to all the industry level and organization level compliance rules and regulations to maintain data integrity. Complete individual productivity tracking. Complete task assignments using department ticketing system within assigned deadline. Achieve organizational and individual goals as identified in performance reviews and goal setting exercises. Complete all special projects and other duties as assigned. Must be able to perform duties with or without reasonable accommodation. This job description is intended to describe the general nature and level of work being performed and is not to be construed as an exhaustive list of responsibilities, duties and skills required. This job description does not constitute a n employment agreement and is subject to change as the needs of Cotiviti and requirements of the job change. Qualifications Bachelor’s degree in Computer Science, Information Technology or equivalent work experience. 2+ years of working knowledge of RDBMS (Oracle, MS SQL, Vertica, etc.) and experience using SQL, PL/SQL or other data integration/ETL tools. 2+ years of data analysis. Preferably in the Healthcare industry of enrollment, medical claims and/or pharmacy claims. Proficient in Microsoft Office Suite applications PowerPoint, Word, Excel and Outlook. Flexible work schedule. Experience with project management tools like JIRA. Strong analytical skills Excellent verbal, listening and written communication skills. Ability to multitask and prioritize projects to meet scheduled deadlines and tight turnaround times. Preferred Qualifications Experience with multi-datacenter F5 deployments and global traffic management. Familiarity with firewall and security platforms (Palo Alto, Fortinet, F5 AFM). Experience with certificate lifecycle management platforms (e.g., AppViewX). Competency in automation scripting (Python, Bash, and nice to have Ansible). Cognitive/Mental Requirements Communicating with others to exchange information. Problem-solving and thinking critically. Completing tasks independently. Interpreting data. Making timely decisions in the context of a workflow. Maintaining focus. Assessing the accuracy, neatness and thoroughness of the work assigned. Learning new tasks and completing tasks in situations that have a speed or productivity quota. Remembering and adhering to processes and protocols. Physical Requirements And Working Conditions Remaining in a stationary position, often standing or sitting for prolonged periods. Communicating with others to exchange information. Repeating motions that may include the wrists, hands, and/or fingers. Assessing the accuracy, neatness and thoroughness of the work assigned. No adverse environmental conditions expected. Must be able to provide high-speed internet access/connectivity and office setup and maintenance. Must be able to provide a dedicated, secure work area. Base compensation ranges from $78,000 to $120,000 per year. Specific offers are determined by various factors, such as experience, education, skills, certifications, and other business needs. Cotiviti offers team members a competitive benefits package to address a wide range of personal and family needs, including medical, dental, vision, disability, and life insurance coverage, 401(k) savings plans, paid family leave, 9 paid holidays per year, and 17-27 days of Paid Time Off (PTO) per year, depending on specific level and length of service with Cotiviti. For information about our benefits package, please refer to our Careers page. Since this job will be based remotely, all interviews will be conducted virtually. Date of posting:8/31/2026 Applications are assessed on a rolling basis. We anticipate that the application window will close on 10/31/2026, but the application window may change depending on the volume of applications received or close immediately if a qualified candidate is selected. #Senior",
-      "remote": false,
-      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-operations-focus-at-cotiviti-4476564075",
-      "extra": {},
-      "matched_groups": [
-        "data"
-      ],
-      "preferred_location": false,
-      "required_years": 2,
-      "salary_min": 78000,
-      "salary_max": 120000,
-      "tech_tags": [
-        "python",
-        "sql"
-      ],
-      "score": 45,
-      "directness": 35
-    },
-    {
-      "source": "linkedin",
-      "company": "IBM",
-      "title": "Data Engineer-Data Platforms-Google - 3",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/data-engineer-data-platforms-google-3-at-ibm-4473680556",
-      "posted_at": "2026-10-05T00:00:00+00:00",
-      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You’ll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you’ll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You’ll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a seasoned Data Engineer specializing in Google's data platforms, you will design, build, and maintain data engineering solutions on Google's Cloud ecosystem. You will utilize your expertise in Google's services and open-source technologies to deliver scalable and efficient data pipelines. Your Primary Responsibilities Will Include Design Data Pipelines: Design and develop batch and real-time data pipelines for Data Warehouse and Datalake using Google Cloud services such as DataProc, DataFlow, PubSub, BigQuery, and Big Table. Develop Data Engineering Solutions: Build and maintain data engineering solutions using Google Cloud Storage, BigTable, BigQuery DataProc with Spark and Hadoop, Google DataFlow with Apache Beam or Python, and other open-source technologies like Apache Airflow, dbt, Spark/Python, or Spark/Scala. Manage Data Platforms: Schedule and manage the data platform using Google Cloud Scheduler and Cloud Composer (Airflow), ensuring seamless data pipeline operations. Optimize Data Layer: Design and optimize the data layer for efficient data migration and data processing using Google Cloud services. Ensure Scalability: Ensure scalability and efficiency of data pipelines and data engineering solutions to meet business needs. This role can be performed from anywhere in the United States of America Required Technical And Professional Expertise Deep Expertise in Google Data Platforms: Proven experience designing, building, and maintaining data engineering solutions on Google's Cloud ecosystem, including Google DataProc, DataFlow, PubSub, BigQuery, Big Table, Cloud Spanner, CloudSQL, and AlloyDB. Proficiency in Open-Source Technologies: Experience with Apache Beam, Apache Airflow, dbt, Spark/Python, or Spark/Scala, and ability to integrate these technologies with Google Cloud services. Batch and Real-Time Data Pipelines: Experience developing and managing batch and real-time data pipelines for Data Warehouse and Datalake using Google Cloud services. Data Platform Management: Experience scheduling and managing data platforms using Google Cloud Scheduler and Cloud Composer (Airflow). Data Layer Optimization: Experience designing and optimizing data layers for efficient data migration and data processing using Google Cloud services. Preferred Technical And Professional Experience Advanced Apache Beam Knowledge: Experience with Apache Beam, including integrating it with Google Cloud services such as DataFlow, is highly valued. Ability to optimize Beam pipelines for scalability and efficiency is a plus. dbt and Data Modeling: Familiarity with dbt and data modeling concepts, including data warehousing and data lake architecture, is beneficial for designing and optimizing data layers. Spark and Scala Expertise: Proficiency in Spark and Scala, including integrating them with Google Cloud services such as DataProc, is desirable for building and maintaining data engineering solutions.",
-      "remote": false,
-      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-data-platforms-google-3-at-ibm-4473680556",
-      "extra": {},
-      "matched_groups": [
-        "data"
-      ],
-      "preferred_location": false,
-      "required_years": 0,
-      "salary_min": null,
-      "salary_max": null,
-      "tech_tags": [
-        "spark",
-        "airflow",
-        "dbt",
-        "hadoop",
-        "bigquery",
-        "python",
-        "gcp"
-      ],
-      "score": 40,
-      "directness": 35
-    },
-    {
-      "source": "linkedin",
-      "company": "Brilliant Infotech Inc.",
+      "company": "Sony Interactive Entertainment",
       "title": "Data Engineer",
-      "location": "Edison, NJ",
-      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-brilliant-infotech-inc-4475856509",
-      "posted_at": "2026-10-05T00:00:00+00:00",
-      "description": "Postion: Data Engineer Location: Edison, NJ (Onsite) Type of Employment: W2 Contract Duration: 06+ Months Job Summary We are looking for a skilled Data Engineer to design, develop, and maintain scalable data pipelines and data solutions. The ideal candidate should have strong experience with data integration, ETL/ELT processes, cloud data platforms, databases, and data analytics technologies. Key Responsibilities Design, develop, and maintain scalable data pipelines and ETL/ELT workflows. Develop and optimize data integration solutions for structured and unstructured data. Work with cloud data platforms such as AWS, Azure, or Google Cloud Platform (GCP). Build and maintain data warehouses, data lakes, and lakehouse solutions. Develop complex SQL queries, stored procedures, and data transformation processes. Work with big data technologies such as Spark, Databricks, or Hadoop. Implement data quality, validation, governance, and security processes. Integrate data from APIs, databases, applications, and other enterprise data sources. Optimize data pipelines and queries for performance, scalability, and reliability. Collaborate with Data Scientists, Data Analysts, Software Engineers, and business teams to understand data requirements. Monitor data pipelines and troubleshoot data processing and integration issues. Maintain technical documentation for data architecture, pipelines, workflows, and processes. Required Skills Strong proficiency in SQL and relational databases. Hands-on experience with Python, PySpark, or similar programming languages. Experience with ETL/ELT tools and data pipeline development. Experience with cloud platforms such as AWS, Azure, or GCP. Knowledge of data warehousing concepts and technologies. Experience with technologies such as Snowflake, Databricks, Azure Data Factory, AWS Glue, or Redshift. Experience working with Apache Spark/PySpark. Strong understanding of data modeling, data integration, and database concepts. Experience with Git and CI/CD practices. Good understanding of data security, governance, and data quality. Preferred Qualifications Bachelor's degree in Computer Science, Information Technology, Engineering, Data Science, or a related field. Experience with Kafka or other real-time data streaming technologies. Knowledge of dbt, Airflow, or similar data orchestration tools. Experience with data visualization tools such as Power BI or Tableau. Experience working with modern cloud data architectures and lakehouse platforms. Relevant certifications in AWS, Azure, GCP, Databricks, or Snowflake.",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-sony-interactive-entertainment-4475268413",
+      "posted_at": "2026-10-09T00:00:00+00:00",
+      "description": "Why Sony Interactive Entertainment? Sony Interactive Entertainment isn’t just the Best Place to Play — it’s also the Best Place to Work. Sony Interactive Entertainment (SIE) is the company behind the PlayStation brand. As a subsidiary of Sony Group Corporation, we’re part of a proud legacy of innovation and excellence. SIE is a dynamic technology company, delivering cutting-edge hardware and network services to more than 100 million people and an entertainment leader, home to some of the most beloved and recognizable intellectual properties (IP) in the world. Our role at SIE is to create and nurture the experiences under the PlayStation brand, a name synonymous with entertainment excellence and creativity. Data Engineer PlayStation's Infrastructure Business Operations team is looking for a Data Engineer to build the data foundation for understanding the cost, utilization, and economics of PlayStation’s global infrastructure. Our infrastructure spans data centers, compute, storage, networking, Kubernetes, public cloud, SaaS, and other technology services. You will work alongside our engineering, product, finance, FinOps, and operations teams to build a data platform that can connect these disparate data sources into a trusted view of how our infrastructure is used, what it costs, and ultimately how those costs contribute to the economics of our products. You will own the end-to-end implementation, starting with identifying the questions that matter, determining the data required to answer them, building the pipelines and models to make that data reliable and accessible, and finally turning it into insights that drive better decisions. What You’ll Do Build scalable data pipelines that ingest, transform, and combine physical infrastructure, engineering system, financial, and product data. Develop cost and allocation models that connect infrastructure consumption to workloads, services, features, and products. Partner with engineering teams to understand complex infrastructure and identify the telemetry and instrumentation needed to measure it. Analyze infrastructure cost, utilization, capacity, and unit economics to help drive key business decisions across all our teams. Create trusted metrics, datasets, dashboards, and analytical tools used by engineering, product, Finance, and leadership. Establish strong practices around data quality, testing, observability, documentation, and reproducibility. Explore new data sources and technologies that improve how we understand and operate our infrastructure. What We’re Looking For 3+ years in a similar role, focused on building production data pipelines, data models, and analytical systems. Advanced SQL skills and proficiency with Python or similar data-oriented programming languages. Experience with modern data platforms and tooling such as Snowflake, Databricks, dbt, and automated ETL/ELT pipelines. Strong analytical skills—you’re comfortable investigating the data yourself, challenging results, and translating findings into clear conclusions. Experience working with large, complex datasets across multiple systems and levels of granularity. Ability to translate ambiguous business and technical problems into measurable requirements and scalable data solutions. Experience and flexibility with current analytics and visualization tools. Familiarity with teams and engineering systems that utilize both on-prem and cloud infrastructure. Strong communication skills and the ability to work across global engineering, product, Finance, and business teams. Nice to Have Bachelor’s degree in computer science Experience with AWS, Google Cloud, or Azure billing and usage data. Experience with Kubernetes telemetry, networking, or data center operational data. Familiarity with infrastructure cost allocation, unit economics, capacity planning, forecasting, or FinOps. Experience connecting technical infrastructure consumption to product or business metrics. PlayStation isn't just the Best Place to Play - it's also the Best Place to Work. We've thrilled gamers since 1994 when we launched the original PlayStation. Today, we're recognized as a global leader in interactive and digital entertainment. The PlayStation brand falls under Sony Interactive Entertainment, a wholly owned subsidiary of Sony Corporation. Sony is an Equal Opportunity Employer. All persons will receive consideration for employment without regard to race, color, religion, gender, pregnancy, national origin, ancestry, citizenship, age, legally protected physical or mental disability, covered veteran status, status in the U.S. uniformed services, sexual orientation, marital status, genetic information or membership in any other legally protected category. We strive to create an inclusive environment, empower employees and embrace diversity. We encourage everyone to respond. We sincerely appreciate the time and effort you spent in contacting us and we thank you for your interest in PlayStation. Please note, Sony Interactive Entertainment conducts background checks at the offer stage for all new employees (which may include criminal background checks for some roles) and will need to process personal information to support these checks. Please refer to our Candidate Privacy Notice for more information about what personal information we collect, how we use it, who we share it with, and your data protection rights. Equal Opportunity Statement: Sony is an Equal Opportunity Employer. All persons will receive consideration for employment without regard to gender (including gender identity, gender expression and gender reassignment), race (including colour, nationality, ethnic or national origin), religion or belief, marital or civil partnership status, disability, age, sexual orientation, pregnancy, maternity or parental status, trade union membership or membership in any other legally protected category. We strive to create an inclusive environment, empower employees and embrace diversity. We encourage everyone to respond. Sony Interactive Entertainment is a Fair Chance employer and qualified applicants with arrest and conviction records will be considered for employment.",
       "remote": false,
-      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-brilliant-infotech-inc-4475856509",
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-sony-interactive-entertainment-4475268413",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "databricks",
+        "dbt",
+        "python",
+        "sql",
+        "aws",
+        "azure",
+        "gcp",
+        "kubernetes"
+      ],
+      "score": 60,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Tata Consultancy Services",
+      "title": "Azure Fabric Data Engineer",
+      "location": "Bellevue, WA",
+      "url": "https://www.linkedin.com/jobs/view/azure-fabric-data-engineer-at-tata-consultancy-services-4457609522",
+      "posted_at": "2026-10-07T00:00:00+00:00",
+      "description": "Job Description Must Have Technical/Functional Skills Digital : PySpark; Data Warehouse; Data Concepts &amp; Data Modelling; Digital : Big Data Platforms; Data Engineering; Azure Data Factory; Continuous Integration and Continuous Delivery (CI/CD); Communication Skills and Cross Team Collaboration Skills; Azure DevOps; Git; Advanced SQL Roles &amp; Responsibilities Collaborate with business stakeholders to understand data, analytics, and reporting requirements and translate them into scalable technical solutions. Design and develop end-to-end data solutions using Microsoft Fabric, ADF, OneLake, Lakehouse, and Data Warehouse, including scalable data pipelines using PySpark and SQL and Medallion Architecture (Bronze, Silver, Gold) with Delta Tables. Build and optimize Lakehouse and Data Warehouse solutions for reporting, analytics, and AI workloads. Define data models, data quality standards, governance, security and performance optimization strategies. Provide technical consulting and best practices for Microsoft Fabric adoption, migration, and modernization initiatives. Design and implement customer data platform (CDP) solutions including customer profile unification, identity resolution, audience segmentation and real-time data activation using Hightouch and Braze. Collaborate with cross-functional teams, including data engineers, architects, analysts, and business stakeholders to deliver high-quality data solutions. Support CI/CD implementation, code reviews, testing, deployment, and production support using Azure DevOps and Git. Prepare technical documentation, solution designs and implementation guidelines. Stay current with Microsoft Fabric, Azure data technologies, and industry best practices to drive continuous innovation. Generic Managerial Skills, If any Hightouch; Braze; Customer Data Platforms (CDP); Digital : Microsoft Power BI; PL/SQL; Microsoft Power BI; Prior Experience with Threat Modelling and SDL Assessments Specific Requirement Heavy customer facing experience. Should be able to work in agile manner with the customer &amp; stakeholders. Strong analytical skills Excellent troubleshooting and problem-solving skills Ability to work in a fast paced, agile environment Experience working within a geographically dispersed team and flexibility for coordinating between teams. Excellent Communication skills, communicate effectively and proactively with partner teams in order to solve problems Good Presentation Skills Salary Range: $80,000 - $115,000 a year TCS Employee Benefits Summary Discretionary Annual Incentive. Comprehensive Medical Coverage: Medical &amp; Health, Dental &amp; Vision, Disability Planning &amp; Insurance, Pet Insurance Plans. Family Support: Maternal &amp; Parental L eaves. Insurance Options: Auto &amp; Home Insurance, Identity Theft Protection. Convenience &amp; Professional Growth: Commuter Benefits &amp; Certification &amp; Training Reimbursement. Time Off: Vacation, Time Off, Sick Leave &amp; Holidays. Legal &amp; Financial Assistance: Legal Assistance, 401K Plan, Performance Bonus, College Fund, Student Loan Refinancing.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/azure-fabric-data-engineer-at-tata-consultancy-services-4457609522",
       "extra": {},
       "matched_groups": [
         "data"
       ],
       "preferred_location": false,
       "required_years": 0,
-      "salary_min": null,
-      "salary_max": null,
+      "salary_min": 80000,
+      "salary_max": 115000,
       "tech_tags": [
-        "snowflake",
-        "databricks",
         "spark",
-        "airflow",
-        "dbt",
-        "kafka",
-        "hadoop",
-        "redshift",
-        "tableau",
         "power bi",
-        "python",
         "sql",
-        "aws",
-        "azure",
-        "gcp"
+        "azure"
       ],
-      "score": 40,
+      "score": 50,
       "directness": 35
     }
   ]

@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-10-11T11:59:13.297391+00:00",
+  "count": 3,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "Fluidstack",
+      "title": "Machine Learning Engineer",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-at-fluidstack-4441385261",
+      "posted_at": "2026-10-11T00:00:00+00:00",
+      "description": "About Fluidstack We exist to make humanity more free. For most of human history, you farmed or you starved. Technology gave people more time for the things they wanted to do, instead of things they had to do. Powerful AI will be the biggest lever for human choice we've ever built - but only if models are aligned with what humanity actually wants. There are groups building AI who don't share these goals. Whoever deploys frontier compute infrastructure fastest will decide whether AI expands human freedom or shrinks it. We're singularly focused on delivering 10 to 100s of GWs of compute faster than anyone else, rethinking every layer of the stack. We acquire power, design and build data centers, and operate them - with teams spanning hardware and software. Speed and scale are our key differentiators. Come be a part of building civilization-scale infrastructure for AI. We hire people who care deeply about this problem space. If that is you, please apply! How We Operate Be a barrel. Full autonomy. Own things end to end, take on scope without being asked, no permission required to operate outside your core role. Insane urgency. We drive everything forward as fast as possible. Reason from first principles. Challenge every assumption. Zero analogy thinking, no egos, the best idea wins. Love of the game. The frontier of AI is the most interesting problem of our time. We put in long hours at high intensity to push the frontier forward. Build something that actually matters. If you're going to spend your time, spend it on something that matters to the world. Role Scope Build ML and LLM systems that run inside the company's operations: forecasting build timelines, flagging schedule risk, and extracting structure from vendor documents. Own models end to end, from problem framing and data through deployment, evaluation, and iteration in production. Ship agentic systems with real guardrails, authorization, audit, and evals, so agents act on company systems instead of just advising. Partner with data engineering and product pods to put predictions in the tools people already use. What We're Looking For The below is a starting point. We always make space for exceptional people, so if you don't fit this role exactly, tell us where you would. You've shipped ML or LLM features to production and owned them after launch. You've built evaluation harnesses that told you the truth about model quality before users did. You reach for the simplest model that works and can defend the choice. You've worked hands-on with LLM APIs, fine-tuning, or retrieval systems on real business problems. You write production-quality code and work fluently with AI coding tools. Bonus: Forecasting or scheduling problems. Document extraction at scale. Agentic frameworks and MCP. Temporal or workflow engines. We are committed to pay equity and transparency. Fluidstack is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans’ status, or any other characteristic protected by law. Fluidstack will consider for employment qualified applicants with arrest and conviction records pursuant to applicable law. You will receive a confirmation email once your application has successfully been accepted. If there is an error with your submission and you did not receive a confirmation email, please email careers@fluidstack.io with your resume/CV, the role you've applied for, and the date you submitted your application-- someone from our recruiting team will be in touch. Compensation Range: $224K - $344K",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/machine-learning-engineer-at-fluidstack-4441385261",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": 224000,
+      "salary_max": 344000,
+      "tech_tags": [],
+      "score": 75,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Sony Interactive Entertainment",
+      "title": "Data Engineer",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-sony-interactive-entertainment-4475268413",
+      "posted_at": "2026-10-09T00:00:00+00:00",
+      "description": "Why Sony Interactive Entertainment? Sony Interactive Entertainment isn’t just the Best Place to Play — it’s also the Best Place to Work. Sony Interactive Entertainment (SIE) is the company behind the PlayStation brand. As a subsidiary of Sony Group Corporation, we’re part of a proud legacy of innovation and excellence. SIE is a dynamic technology company, delivering cutting-edge hardware and network services to more than 100 million people and an entertainment leader, home to some of the most beloved and recognizable intellectual properties (IP) in the world. Our role at SIE is to create and nurture the experiences under the PlayStation brand, a name synonymous with entertainment excellence and creativity. Data Engineer PlayStation's Infrastructure Business Operations team is looking for a Data Engineer to build the data foundation for understanding the cost, utilization, and economics of PlayStation’s global infrastructure. Our infrastructure spans data centers, compute, storage, networking, Kubernetes, public cloud, SaaS, and other technology services. You will work alongside our engineering, product, finance, FinOps, and operations teams to build a data platform that can connect these disparate data sources into a trusted view of how our infrastructure is used, what it costs, and ultimately how those costs contribute to the economics of our products. You will own the end-to-end implementation, starting with identifying the questions that matter, determining the data required to answer them, building the pipelines and models to make that data reliable and accessible, and finally turning it into insights that drive better decisions. What You’ll Do Build scalable data pipelines that ingest, transform, and combine physical infrastructure, engineering system, financial, and product data. Develop cost and allocation models that connect infrastructure consumption to workloads, services, features, and products. Partner with engineering teams to understand complex infrastructure and identify the telemetry and instrumentation needed to measure it. Analyze infrastructure cost, utilization, capacity, and unit economics to help drive key business decisions across all our teams. Create trusted metrics, datasets, dashboards, and analytical tools used by engineering, product, Finance, and leadership. Establish strong practices around data quality, testing, observability, documentation, and reproducibility. Explore new data sources and technologies that improve how we understand and operate our infrastructure. What We’re Looking For 3+ years in a similar role, focused on building production data pipelines, data models, and analytical systems. Advanced SQL skills and proficiency with Python or similar data-oriented programming languages. Experience with modern data platforms and tooling such as Snowflake, Databricks, dbt, and automated ETL/ELT pipelines. Strong analytical skills—you’re comfortable investigating the data yourself, challenging results, and translating findings into clear conclusions. Experience working with large, complex datasets across multiple systems and levels of granularity. Ability to translate ambiguous business and technical problems into measurable requirements and scalable data solutions. Experience and flexibility with current analytics and visualization tools. Familiarity with teams and engineering systems that utilize both on-prem and cloud infrastructure. Strong communication skills and the ability to work across global engineering, product, Finance, and business teams. Nice to Have Bachelor’s degree in computer science Experience with AWS, Google Cloud, or Azure billing and usage data. Experience with Kubernetes telemetry, networking, or data center operational data. Familiarity with infrastructure cost allocation, unit economics, capacity planning, forecasting, or FinOps. Experience connecting technical infrastructure consumption to product or business metrics. PlayStation isn't just the Best Place to Play - it's also the Best Place to Work. We've thrilled gamers since 1994 when we launched the original PlayStation. Today, we're recognized as a global leader in interactive and digital entertainment. The PlayStation brand falls under Sony Interactive Entertainment, a wholly owned subsidiary of Sony Corporation. Sony is an Equal Opportunity Employer. All persons will receive consideration for employment without regard to race, color, religion, gender, pregnancy, national origin, ancestry, citizenship, age, legally protected physical or mental disability, covered veteran status, status in the U.S. uniformed services, sexual orientation, marital status, genetic information or membership in any other legally protected category. We strive to create an inclusive environment, empower employees and embrace diversity. We encourage everyone to respond. We sincerely appreciate the time and effort you spent in contacting us and we thank you for your interest in PlayStation. Please note, Sony Interactive Entertainment conducts background checks at the offer stage for all new employees (which may include criminal background checks for some roles) and will need to process personal information to support these checks. Please refer to our Candidate Privacy Notice for more information about what personal information we collect, how we use it, who we share it with, and your data protection rights. Equal Opportunity Statement: Sony is an Equal Opportunity Employer. All persons will receive consideration for employment without regard to gender (including gender identity, gender expression and gender reassignment), race (including colour, nationality, ethnic or national origin), religion or belief, marital or civil partnership status, disability, age, sexual orientation, pregnancy, maternity or parental status, trade union membership or membership in any other legally protected category. We strive to create an inclusive environment, empower employees and embrace diversity. We encourage everyone to respond. Sony Interactive Entertainment is a Fair Chance employer and qualified applicants with arrest and conviction records will be considered for employment.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-sony-interactive-entertainment-4475268413",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "databricks",
+        "dbt",
+        "python",
+        "sql",
+        "aws",
+        "azure",
+        "gcp",
+        "kubernetes"
+      ],
+      "score": 60,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Tata Consultancy Services",
+      "title": "Azure Fabric Data Engineer",
+      "location": "Bellevue, WA",
+      "url": "https://www.linkedin.com/jobs/view/azure-fabric-data-engineer-at-tata-consultancy-services-4457609522",
+      "posted_at": "2026-10-07T00:00:00+00:00",
+      "description": "Job Description Must Have Technical/Functional Skills Digital : PySpark; Data Warehouse; Data Concepts &amp; Data Modelling; Digital : Big Data Platforms; Data Engineering; Azure Data Factory; Continuous Integration and Continuous Delivery (CI/CD); Communication Skills and Cross Team Collaboration Skills; Azure DevOps; Git; Advanced SQL Roles &amp; Responsibilities Collaborate with business stakeholders to understand data, analytics, and reporting requirements and translate them into scalable technical solutions. Design and develop end-to-end data solutions using Microsoft Fabric, ADF, OneLake, Lakehouse, and Data Warehouse, including scalable data pipelines using PySpark and SQL and Medallion Architecture (Bronze, Silver, Gold) with Delta Tables. Build and optimize Lakehouse and Data Warehouse solutions for reporting, analytics, and AI workloads. Define data models, data quality standards, governance, security and performance optimization strategies. Provide technical consulting and best practices for Microsoft Fabric adoption, migration, and modernization initiatives. Design and implement customer data platform (CDP) solutions including customer profile unification, identity resolution, audience segmentation and real-time data activation using Hightouch and Braze. Collaborate with cross-functional teams, including data engineers, architects, analysts, and business stakeholders to deliver high-quality data solutions. Support CI/CD implementation, code reviews, testing, deployment, and production support using Azure DevOps and Git. Prepare technical documentation, solution designs and implementation guidelines. Stay current with Microsoft Fabric, Azure data technologies, and industry best practices to drive continuous innovation. Generic Managerial Skills, If any Hightouch; Braze; Customer Data Platforms (CDP); Digital : Microsoft Power BI; PL/SQL; Microsoft Power BI; Prior Experience with Threat Modelling and SDL Assessments Specific Requirement Heavy customer facing experience. Should be able to work in agile manner with the customer &amp; stakeholders. Strong analytical skills Excellent troubleshooting and problem-solving skills Ability to work in a fast paced, agile environment Experience working within a geographically dispersed team and flexibility for coordinating between teams. Excellent Communication skills, communicate effectively and proactively with partner teams in order to solve problems Good Presentation Skills Salary Range: $80,000 - $115,000 a year TCS Employee Benefits Summary Discretionary Annual Incentive. Comprehensive Medical Coverage: Medical &amp; Health, Dental &amp; Vision, Disability Planning &amp; Insurance, Pet Insurance Plans. Family Support: Maternal &amp; Parental L eaves. Insurance Options: Auto &amp; Home Insurance, Identity Theft Protection. Convenience &amp; Professional Growth: Commuter Benefits &amp; Certification &amp; Training Reimbursement. Time Off: Vacation, Time Off, Sick Leave &amp; Holidays. Legal &amp; Financial Assistance: Legal Assistance, 401K Plan, Performance Bonus, College Fund, Student Loan Refinancing.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/azure-fabric-data-engineer-at-tata-consultancy-services-4457609522",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": 80000,
+      "salary_max": 115000,
+      "tech_tags": [
+        "spark",
+        "power bi",
+        "sql",
+        "azure"
+      ],
+      "score": 50,
+      "directness": 35
+    }
+  ]
+}
