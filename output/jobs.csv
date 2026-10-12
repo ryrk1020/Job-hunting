@@ -1,4 +1,2 @@
 score,directness,posted_at,source,company,title,location,url,salary_min,salary_max,required_years,tech_tags,matched_groups,preferred_location,alt_sources
-75,35,2026-10-11T00:00:00+00:00,linkedin,Fluidstack,Machine Learning Engineer,"Austin, TX",https://www.linkedin.com/jobs/view/machine-learning-engineer-at-fluidstack-4441385261,224000,344000,0,,data,False,
-60,35,2026-10-09T00:00:00+00:00,linkedin,Sony Interactive Entertainment,Data Engineer,"Austin, TX",https://www.linkedin.com/jobs/view/data-engineer-at-sony-interactive-entertainment-4475268413,,,3,"snowflake,databricks,dbt,python,sql,aws,azure,gcp,kubernetes",data,False,
-50,35,2026-10-07T00:00:00+00:00,linkedin,Tata Consultancy Services,Azure Fabric Data Engineer,"Bellevue, WA",https://www.linkedin.com/jobs/view/azure-fabric-data-engineer-at-tata-consultancy-services-4457609522,80000,115000,0,"spark,power bi,sql,azure",data,False,
+40,35,2026-10-06T00:00:00+00:00,linkedin,IBM,Data Engineer-Data Platforms-Google - 2,"San Francisco, CA",https://www.linkedin.com/jobs/view/data-engineer-data-platforms-google-2-at-ibm-4474403436,,,0,"spark,airflow,dbt,hadoop,bigquery,python,gcp",data,False,

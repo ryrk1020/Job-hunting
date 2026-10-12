@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-10-12T14:04:42.774373+00:00",
+  "count": 1,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Engineer-Data Platforms-Google - 2",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-data-platforms-google-2-at-ibm-4474403436",
+      "posted_at": "2026-10-06T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You’ll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you’ll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You’ll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a seasoned Data Engineer specializing in Google's data platforms, you will design, build, and maintain data engineering solutions on Google's Cloud ecosystem. You will utilize your expertise in Google's services and open-source technologies to deliver scalable and efficient data pipelines. Your Primary Responsibilities Will Include Design Data Pipelines: Design and develop batch and real-time data pipelines for Data Warehouse and Datalake using Google Cloud services such as DataProc, DataFlow, PubSub, BigQuery, and Big Table. Develop Data Engineering Solutions: Build and maintain data engineering solutions using Google Cloud Storage, BigTable, BigQuery DataProc with Spark and Hadoop, Google DataFlow with Apache Beam or Python, and other open-source technologies like Apache Airflow, dbt, Spark/Python, or Spark/Scala. Manage Data Platforms: Schedule and manage the data platform using Google Cloud Scheduler and Cloud Composer (Airflow), ensuring seamless data pipeline operations. Optimize Data Layer: Design and optimize the data layer for efficient data migration and data processing using Google Cloud services. Ensure Scalability: Ensure scalability and efficiency of data pipelines and data engineering solutions to meet business needs. This role can be performed from anywhere in the United States of America Required Technical And Professional Expertise Deep Expertise in Google Data Platforms: Proven experience designing, building, and maintaining data engineering solutions on Google's Cloud ecosystem, including Google DataProc, DataFlow, PubSub, BigQuery, Big Table, Cloud Spanner, CloudSQL, and AlloyDB. Proficiency in Open-Source Technologies: Experience with Apache Beam, Apache Airflow, dbt, Spark/Python, or Spark/Scala, and ability to integrate these technologies with Google Cloud services. Batch and Real-Time Data Pipelines: Experience developing and managing batch and real-time data pipelines for Data Warehouse and Datalake using Google Cloud services. Data Platform Management: Experience scheduling and managing data platforms using Google Cloud Scheduler and Cloud Composer (Airflow). Data Layer Optimization: Experience designing and optimizing data layers for efficient data migration and data processing using Google Cloud services. Preferred Technical And Professional Experience Advanced Apache Beam Knowledge: Experience with Apache Beam, including integrating it with Google Cloud services such as DataFlow, is highly valued. Ability to optimize Beam pipelines for scalability and efficiency is a plus. dbt and Data Modeling: Familiarity with dbt and data modeling concepts, including data warehousing and data lake architecture, is beneficial for designing and optimizing data layers. Spark and Scala Expertise: Proficiency in Spark and Scala, including integrating them with Google Cloud services such as DataProc, is desirable for building and maintaining data engineering solutions.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-data-platforms-google-2-at-ibm-4474403436",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "spark",
+        "airflow",
+        "dbt",
+        "hadoop",
+        "bigquery",
+        "python",
+        "gcp"
+      ],
+      "score": 40,
+      "directness": 35
+    }
+  ]
+}
