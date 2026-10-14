@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-14T11:03:23.895200+00:00",
+  "count": 1,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "Straive",
+      "title": "Data Engineer - AWS",
+      "location": "Overland Park, KS",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-aws-at-straive-4478544245",
+      "posted_at": "2026-10-12T00:00:00+00:00",
+      "description": "About Straive Straive is a global leader in data analytics, AI, and knowledge services, partnering with Fortune 500 enterprises across financial services, insurance, life sciences, and information providers. We build and operate data platforms, AI-enabled solutions, and analytics products that power mission-critical business decisions for our clients worldwide. Role Overview We are looking for an AWS Data Engineer to develop and maintain data pipelines, perform data analysis, support dashboards and reporting, and monitor data quality within established technical standards. Working with moderate guidance from senior engineers and technical leads, you will deliver reliable data solutions supporting insurance and financial services workflows in a regulated enterprise environment. Key Responsibilities Data Pipeline Development: Develop and maintain ETL/ELT data pipelines using established designs, standards, and AWS services such as S3, Glue, Lambda, Step Functions, Athena, Redshift, and Aurora PostgreSQL. Data Ingestion &amp; Integration: Support data ingestion and transformation from approved sources — including Salesforce, REST APIs, and legacy mainframe feeds — and troubleshoot routine pipeline and data-processing issues. SQL &amp; Data Analysis: Write and maintain SQL queries to analyze datasets and support defined business reporting and analytical requirements. Dashboards &amp; Reporting: Develop and maintain dashboards and reports using approved visualization tools such as Amazon QuickSight. Governance &amp; Security: Follow established data governance, security, privacy, validation, error-handling, and data-quality standards. Monitoring &amp; Operations: Monitor AWS data workflows and services using established monitoring procedures; resolve routine issues and escalate complex problems. Optimization &amp; Performance: Assist with data storage, pipeline performance, reliability, and cost-optimization efforts using established practices. Documentation &amp; Collaboration: Document technical configurations, data workflows, operating procedures, and troubleshooting steps; collaborate with engineers, analysts, and business partners to deliver assigned solutions. Required Qualifications 2+ years of relevant experience in data engineering, data analytics, cloud data technologies, or a related discipline (or an equivalent combination of education and experience). Working knowledge of core AWS data services such as S3, Glue, Lambda, Step Functions, Athena, Redshift, Aurora PostgreSQL, and RDS, plus ETL/ELT concepts and data-processing practices. Proficiency with SQL and working knowledge of Python for data processing or automation. Experience with relational and/or non-relational data sources and the ability to create or maintain dashboards and reports using a visualization platform. Understanding of basic cloud security, IAM, encryption, data quality, and governance concepts. Ability to analyze straightforward technical problems using established practices and communicate technical information clearly to engineers, analysts, and business partners. Domain &amp; Business Knowledge (Nice to Have) Familiarity with insurance and financial services data is a strong plus, particularly: Life insurance and annuity data — policy administration, policy lifecycle (new business, in-force servicing, claims), premium billing and payments, and reconciliation workflows. Institutional or group life products (e.g., COLI/BOLI, group life) or retirement solutions such as pension risk transfer. Common insurance data sources and feeds — policy admin systems, legacy mainframe extracts, agent/producer data, and finance or actuarial datasets. Working alongside actuaries, analysts, and business operations teams in a regulated industry environment. Preferred Qualifications Exposure to Terraform or another Infrastructure-as-Code (IaC) tool for managing AWS resources. Exposure to Apache Spark, EMR, or CI/CD practices. Familiarity with AWS generative AI services, including Amazon Bedrock, for agentic or analytics use cases. Equal Opportunity Employer Straive is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-aws-at-straive-4478544245",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 2,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "spark",
+        "redshift",
+        "python",
+        "sql",
+        "aws"
+      ],
+      "score": 60,
+      "directness": 35
+    }
+  ]
+}
