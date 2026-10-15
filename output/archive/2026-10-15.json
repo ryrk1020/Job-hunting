@@ -1,0 +1,262 @@
+{
+  "generated_at": "2026-10-15T10:45:20.702745+00:00",
+  "count": 6,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "Infosys",
+      "title": "AWS Redshift Data Engineer",
+      "location": "Richardson, TX",
+      "url": "https://www.linkedin.com/jobs/view/aws-redshift-data-engineer-at-infosys-4476408799",
+      "posted_at": "2026-10-13T00:00:00+00:00",
+      "description": "Overview The Infosys Financial Services unit is a global leader in driving digital transformation for financial institutions. We specialize in leveraging advanced technologies such as AI, cloud, and data-led innovation to help our clients accelerate growth and unlock business value. Our AI-driven solutions empower financial institutions to make smarter decisions, enhance customer experiences, and achieve operational excellence. Join us to be part of a pioneering team that is at the forefront of financial services transformation. You'll have the opportunity to work with cutting-edge AI technologies, collaborate with industry experts, and contribute to transformative projects across banking, wealth management, and insurance sectors. If you're passionate about AI and eager to make a significant impact, the Infosys Financial Services unit is the perfect place for you to grow and excel. In the assigned Job Role of Technology Consultant 2, your Area Of Responsibility will be as below: Contribute to the requirements elicitation process by documenting assigned parts of business requirements, in line with guidance provided Facilitate software application design discussions, and document design decisions to guide the technical team towards building software solutions Participate in coding and integrate new features or updates into existing applications, with a focus on maintaining system stability Conduct code reviews, do changes to the codebase and maintain code repositories Implement test strategies, analyse results, and coordinate bug fixes to uphold the software quality standards Develop user training programs, documentation, and support frameworks to ensure a smooth transition to new software applications Actively participate in resolving production issues and recommend preventive strategies to enhance system reliability Maintain detailed records of code, testing techniques, and support activities to enrich the knowledge base and assist other similar projects Your Contribution To The Team A collaborative spirit and excellent communication skills. The ability to handle end to end SDLC phases from requirement gathering to implementation. A knack for translating complex requirements into actionable development tasks. A passion for design and hands-on coding experience A proactive approach to testing, troubleshooting, and refining our applications. The ability to work with cross-functional teams and do software integration. Required Skill And Experience Design and implement distributed, event-driven architectures using AWS services - ECS / EKS, EventBridge, RDS, ECR, EFS, Redshift, Redshift Spectrum, S3, EC2, Bedrock, SageMaker, Textract Build and manage microservices-based systems with high availability and scalability. Maintain end-to-end scalable web and cloud-based applications. Drive automation and orchestration using Lambda, Step Functions, and CI/CD pipelines. Preferred Skill And Experience Experience in Oracle Database (Dynamo DB is good to have). Experience in optimizing data-driven applications using Microservices Experience in python Libraries and pandas Additional Required Qualifications Bachelor’s degree or foreign equivalent required from an accredited institution. Will also consider three years of progressive experience in the specialty in lieu of every year of education. This position may require relocation and/or travel to work/project location. All applicants authorized to work in the United States are encouraged to apply. Benefits Along with competitive pay, as a full-time Infosys employee you are also eligible for the following benefits: Medical/Dental/Vision/Life Insurance Long-term/Short-term Disability Health and Dependent Care Reimbursement Accounts Insurance (Accident, Critical Illness , Hospital Indemnity, Legal) 401(k) plan and contributions dependent on salary level Paid holidays plus Paid Time Off About Us Infosys is a global leader in next-generation digital services and consulting. We enable clients in more than 50 countries to navigate their digital transformation. With over four decades of experience in managing the systems and workings of global enterprises, we expertly steer our clients through their digital journey. We do it by enabling the enterprise with an AI-powered core that helps prioritize the execution of change. We also empower the business with agile digital at scale to deliver unprecedented levels of performance and customer delight. Our always-on learning agenda drives their continuous improvement through building and transferring digital skills, expertise, and ideas from our innovation ecosystem. EEO Infosys provides equal employment opportunities to applicants and employees without regard to race; color; sex; gender identity; sexual orientation; religious practices and observances; national origin; pregnancy, childbirth, or related medical conditions; status as a protected veteran or spouse/family member of a protected veteran; or disability.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/aws-redshift-data-engineer-at-infosys-4476408799",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "redshift",
+        "python",
+        "aws"
+      ],
+      "score": 110,
+      "directness": 35
+    },
+    {
+      "source": "greenhouse",
+      "company": "reddit",
+      "title": "Analytics Engineer",
+      "location": "Remote - United States",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8282760",
+      "posted_at": "2026-10-15T00:21:07+00:00",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div class=&quot;c-message_kit__blocks c-message_kit__blocks--rich_text&quot;&gt; &lt;div class=&quot;c-message__message_blocks c-message__message_blocks--rich_text&quot; data-qa=&quot;message-text&quot;&gt; &lt;div class=&quot;p-block_kit_renderer&quot; data-qa=&quot;block-kit-renderer&quot;&gt; &lt;div class=&quot;p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first&quot;&gt; &lt;div class=&quot;p-rich_text_block&quot;&gt; &lt;div class=&quot;p-rich_text_section&quot;&gt;Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit &lt;a class=&quot;c-link&quot; href=&quot;http://www.redditinc.com/&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://redditinc.com&quot; data-sk=&quot;tooltip_parent&quot;&gt;www.redditinc.com&lt;/a&gt;.&lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;&lt;/div&gt;&lt;p&gt;We are looking for a talented and driven individual to be a key part of our Analytics Engineering team within the Data Science organization. We are looking for someone who can work closely with Data Scientists and Engineers across diverse areas of the organization (Consumer, Ads, and Marketing) to curate, develop, and deploy the right data and analytic tooling to drive Reddit’s product forward and provide a data and tooling foundation that will last decades. Your work will empower thousands of your colleagues to improve the user experience and grow our consumer base.&lt;/p&gt; &lt;p&gt;Successful candidates have a strong track record of understanding and deeply caring about the purpose of data to support business goals, and can act as an effective conduit between Data Producers and Data Consumers. This role sits at the intersection of Data Science and Data Engineering, and the ideal candidate has skills, experience, and passion in both areas.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Be a key contributor and collaborator to the success of data quality, performance, reliability, and automation initiatives.&lt;/li&gt; &lt;li&gt;Manage a portfolio of data products that deliver high-quality, trustworthy data&lt;/li&gt; &lt;li&gt;Develop and maintain robust data pipelines and workflows for data ingestion, processing, and transformation. Work closely with engineering to ensure the quality and reliability of these data pipelines.&lt;/li&gt; &lt;li&gt;Develop and implement data quality checks, conduct QA and implement monitoring routines&lt;/li&gt; &lt;li&gt;Create and manage new data integrations across internal and external systems&lt;/li&gt; &lt;li&gt;Create tools and applications for internal use that streamline data analysis and reporting. Drive widespread adoption of these tools and applications with a relentless focus on automation, consistency, and reliability.&lt;/li&gt; &lt;li&gt;Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for Reddit.&lt;br&gt;&lt;br&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Qualifications:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Bachelor&#39;s degree in computer science or a quant educational field&lt;/li&gt; &lt;li&gt;3+ years of experience working with large-scale ETL systems (implementation, strategy, and maintenance), building clean, maintainable code and systems (Python preferred) in a production environment.&lt;/li&gt; &lt;li&gt;Strong programming proficiency in Python, SQL, Spark, Scala, etc.&lt;/li&gt; &lt;li&gt;Experience with data modeling, ETL and ELT concepts, and patterns for efficient data governance. Experience with manipulating massive-scale structured and unstructured data.&lt;/li&gt; &lt;li&gt;Experience with data workflows (such as Airflow), data modeling, front-end or back-end engineering.&lt;/li&gt; &lt;li&gt;Experience in data analysis and dashboard design.&lt;/li&gt; &lt;li&gt;Deep understanding of technical and functional designs for relational and MPP Databases.&lt;/li&gt; &lt;li&gt;Proven track record of cross-functional execution and collaboration.&amp;nbsp;&lt;/li&gt; &lt;li&gt;Agentic AI-assisted development experience.&lt;/li&gt; &lt;li&gt;Excellent communication skills to collaborate with cross-functional stakeholders at all levels of the company, of differing levels of technical acumen.&lt;/li&gt; &lt;li&gt;Self-starter, ability to work independently and autonomously, as well as part of a team.&lt;br&gt;&lt;br&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Check out our r/RedditEng post to learn more about the team, and what we do: &lt;a href=&quot;https://www.reddit.com/r/RedditEng/comments/1mnmf71/analytics_engineering_reddit/&quot;&gt;https://www.reddit.com/r/RedditEng/comments/1mnmf71/analytics_engineering_reddit/&lt;/a&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Comprehensive Healthcare Benefits and Income Replacement Programs&lt;/li&gt; &lt;li&gt;401k with Employer Match&lt;/li&gt; &lt;li&gt;Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support&lt;/li&gt; &lt;li&gt;Family Planning Support&lt;/li&gt; &lt;li&gt;Gender-Affirming Care&lt;/li&gt; &lt;li&gt;Mental Health &amp;amp; Coaching Benefits&lt;/li&gt; &lt;li&gt;Flexible Vacation &amp;amp; Paid Volunteer Time Off&lt;/li&gt; &lt;li&gt;Generous Paid Parental Leave&amp;nbsp;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;#LI-Remote&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;strong&gt;Pay Transparency:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;This job posting may span more than one career level.&lt;/p&gt; &lt;p&gt;In addition to base salary, this job is eligible to receive equity in the form of restricted stock units, and depending on the position offered, it may also be eligible to receive a commission. Additionally, Reddit offers a wide range of benefits to U.S.-based employees, including medical, dental, and vision insurance, 401(k) program with employer match, generous time off for vacation, and parental leave. To learn more, please visit &lt;a href=&quot;https://www.redditinc.com/careers/&quot; target=&quot;_blank&quot;&gt;https://www.redditinc.com/careers/&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;To provide greater transparency to candidates, we share base salary ranges for all US-based job postings regardless of state. We set standard base pay ranges for all roles based on function, level, and country location, benchmarked against similar stage growth companies. Final offer amounts are determined by multiple factors including, skills, depth of work experience and relevant licenses/credentials, and may vary from the amounts listed below.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;The base salary range for this position is:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$164,200&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$229,990 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews.&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable.&amp;nbsp; We will not sell your personal information or disclose it to any third party for their marketing purposes.&amp;nbsp; We will delete any recording of your interview promptly after making a hiring decision.&amp;nbsp; For more information about how we will handle your personal information, including our retention of it, please refer to our &lt;a href=&quot;https://redditinc.com/policies/candidate-privacy-policy&quot;&gt;Candidate Privacy Policy for Potential Employees and Contractors&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve.&amp;nbsp; Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+      "remote": false,
+      "raw_id": "8282760",
+      "extra": {
+        "departments": [
+          "ML & Search"
+        ],
+        "metadata": [
+          {
+            "id": 944668,
+            "name": "Position ID",
+            "value": "P-107420",
+            "value_type": "short_text"
+          },
+          {
+            "id": 956352,
+            "name": "Recruiting Start Date",
+            "value": "2026-10-16",
+            "value_type": "date"
+          },
+          {
+            "id": 944671,
+            "name": "Target Hire Date",
+            "value": "2027-03-09",
+            "value_type": "date"
+          },
+          {
+            "id": 944672,
+            "name": "Target Hire End Date",
+            "value": "",
+            "value_type": "date"
+          },
+          {
+            "id": 944673,
+            "name": "Job Profile",
+            "value": "Data Scientist 3",
+            "value_type": "single_select"
+          },
+          {
+            "id": 956351,
+            "name": "Management Level",
+            "value": "IC3",
+            "value_type": "single_select"
+          },
+          {
+            "id": 944675,
+            "name": "Job Family",
+            "value": "Data Science",
+            "value_type": "single_select"
+          },
+          {
+            "id": 53341,
+            "name": "Worker Sub-Type",
+            "value": "Regular",
+            "value_type": "single_select"
+          },
+          {
+            "id": 944676,
+            "name": "Time Type",
+            "value": "Full time",
+            "value_type": "single_select"
+          },
+          {
+            "id": 944682,
+            "name": "Pay Rate Type",
+            "value": "Salary",
+            "value_type": "single_select"
+          },
+          {
+            "id": 944681,
+            "name": "Scheduled Weekly Hours",
+            "value": "40.0",
+            "value_type": "number"
+          },
+          {
+            "id": 944667,
+            "name": "Company",
+            "value": "Reddit, Inc.",
+            "value_type": "single_select"
+          },
+          {
+            "id": 944677,
+            "name": "Cost Center",
+            "value": "Tech-Data Science",
+            "value_type": "single_select"
+          },
+          {
+            "id": 944669,
+            "name": "Worker Type",
+            "value": "Employee",
+            "value_type": "single_select"
+          }
+        ]
+      },
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "spark",
+        "airflow",
+        "python",
+        "sql"
+      ],
+      "score": 90,
+      "directness": 100
+    },
+    {
+      "source": "linkedin",
+      "company": "Evlo AI",
+      "title": "Data Engineer",
+      "location": "Chicago, IL",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-evlo-ai-4478131594",
+      "posted_at": "2026-10-13T00:00:00+00:00",
+      "description": "About The Role The role owns the data infrastructure that powers analytics and product decisions across the organization - building reliable batch and streaming pipelines that move tens of millions of events daily from source systems into a modern cloud warehouse. The Data Engineer will work closely with analytics engineers, data scientists, and product teams to model data, enforce quality standards, and reduce the time between raw event capture and business-ready insight. Key Responsibilities Design, build, and maintain scalable ETL/ELT pipelines using Python, SQL, and orchestration tools such as Airflow, Dagster, or dbt Cloud Develop and optimize data models in Snowflake, BigQuery, or Databricks, balancing query performance, storage cost, and maintainability Implement data quality checks, anomaly detection, and observability tooling to catch pipeline failures and schema drift before they hit downstream consumers Build streaming and near-real-time ingestion pipelines using Kafka, Kinesis, or Flossom-equivalent event streaming technologies Partner with analytics engineers to define semantic layers, dimensional models, and documented data contracts for core business entities Optimize warehouse costs and pipeline performance through partitioning, clustering, incremental processing, and query tuning Contribute to infrastructure-as-code and CI/CD practices for data assets using Terraform, GitHub Actions, and version-controlled dbt projects What We Are Looking For 3-6 years of experience in data engineering, analytics engineering, or backend engineering with significant data infrastructure ownership Expert-level SQL and strong Python skills, including writing production-grade, tested pipeline code Hands-on experience with a modern cloud data warehouse (Snowflake, BigQuery, or Databricks) and orchestration tooling (Airflow, Dagster, or Prefect) Experience with one or more cloud platforms: AWS, GCP, or Azure, including storage (S3, GCS) and compute services Solid grasp of data modeling techniques - dimensional modeling, Kimball methodologies, and event-based schemas Bachelor's degree in Computer Science, Engineering, or equivalent practical experience Bonus: Experience with streaming architectures (Kafka, Flink), data cataloging/lineage tools (dbt docs, Monte Carlo, Amundsen), or having built data platforms from early-stage maturity",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-evlo-ai-4478131594",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "databricks",
+        "airflow",
+        "dbt",
+        "kafka",
+        "bigquery",
+        "python",
+        "sql",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "score": 60,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Syntrace",
+      "title": "Data Analyst",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-analyst-at-syntrace-4476011517",
+      "posted_at": "2026-10-12T00:00:00+00:00",
+      "description": "Syntrace builds conversational knowledge for institutional investors. We capture, organize and synthesize private conversations into source-backed knowledge a firm can build on. We are now hiring a Data Analyst, based in Austin. You will turn our data into decisions. You will analyze how customers use the product, measure the quality of what our AI delivers and give product, sales and leadership the insights they need. Our users trust us with the most sensitive conversations they have. That makes security part of the product, not a feature on top of it. What you bring: - A few years of experience in data analysis, or a strong academic background in a quantitative field. - Strong SQL, and experience with Python or a similar language for analysis. - The ability to turn a vague question into a clear answer. What you get: - A founding role with real ownership. - A senior team that has scaled companies before. - The chance to shape how a company understands itself. To apply, send a short note to careers@syntrace.com about yourself. If you know someone who should read this, send it to them.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-analyst-at-syntrace-4476011517",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "python",
+        "sql"
+      ],
+      "score": 45,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Infosys",
+      "title": "Spark Engineer",
+      "location": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/spark-engineer-at-infosys-4476406913",
+      "posted_at": "2026-10-13T00:00:00+00:00",
+      "description": "Overview The Infosys Data and Analytics (DNA) unit is at the forefront of transforming data into actionable insights, driving business growth and operational efficiency. We specialize in leveraging advanced AI and analytics to create innovative solutions that address complex business challenges. Our team is dedicated to pioneering the future of data-driven decision-making, enabling organizations to unlock new opportunities and achieve sustainable success. Join us to be part of a dynamic team that is revolutionizing the way businesses harness the power of data and AI. At Infosys DNA, you'll have the opportunity to work with cutting-edge technologies, collaborate with industry experts, and contribute to transformative projects that shape the future of business. We are committed to fostering a culture of continuous learning and growth, ensuring that our team members thrive in a dynamic and supportive environment. If you're passionate about AI and eager to make a significant impact, the Infosys DNA unit is the perfect place for you to grow and excel. In the assigned Job Role of Technology Consultant 2, your Area Of Responsibility will be as below: Contribute to the requirements elicitation process by documenting assigned parts of business requirements, in line with guidance provided Facilitate software application design discussions, and document design decisions to guide the technical team towards building software solutions Participate in coding and integrate new features or updates into existing applications, with a focus on maintaining system stability Conduct code reviews, do changes to the codebase and maintain code repositories Implement test strategies, analyse results, and coordinate bug fixes to uphold the software quality standards Develop user training programs, documentation, and support frameworks to ensure a smooth transition to new software applications Actively participate in resolving production issues and recommend preventive strategies to enhance system reliability Maintain detailed records of code, testing techniques, and support activities to enrich the knowledge base and assist other similar projects Your Contribution To The Team A collaborative spirit and excellent communication skills. The ability to handle end to end SDLC phases from requirement gathering to implementation. A knack for translating complex requirements into actionable development tasks. A passion for design and hands-on coding experience A proactive approach to testing, troubleshooting, and refining our applications. The ability to work with cross-functional teams and do software integration. Required Skill And Experience Experience with Spark/Hadoop/HDFS architecture, YARN, Confluent Kafka, HBase, Hive, Impala, and NoSQL databases. Preferred Skill And Experience Experience in programming languages: Big Data, Spark/PySpark, SQL, Python, and Shell scripting. Additional Required Qualifications Bachelor’s degree or foreign equivalent required from an accredited institution. Will also consider three years of progressive experience in the specialty in lieu of every year of education. This position may require relocation and/or travel to work/project location. All applicants authorized to work in the United States are encouraged to apply. Additional Details The estimated annual compensation for this role will be as follows, JERSEY CITY, NJ - $82419 to $ 126600. NEW YORK, NY - $82419 to $ 107145 Benefits Along with competitive pay, as a full-time Infosys employee you are also eligible for the following benefits: Medical/Dental/Vision/Life Insurance Long-term/Short-term Disability Health and Dependent Care Reimbursement Accounts Insurance (Accident, Critical Illness , Hospital Indemnity, Legal) 401(k) plan and contributions dependent on salary level Paid holidays plus Paid Time Off About Us Infosys is a global leader in next-generation digital services and consulting. We enable clients in more than 50 countries to navigate their digital transformation. With over four decades of experience in managing the systems and workings of global enterprises, we expertly steer our clients through their digital journey. We do it by enabling the enterprise with an AI-powered core that helps prioritize the execution of change. We also empower the business with agile digital at scale to deliver unprecedented levels of performance and customer delight. Our always-on learning agenda drives their continuous improvement through building and transferring digital skills, expertise, and ideas from our innovation ecosystem. EEO Infosys provides equal employment opportunities to applicants and employees without regard to race; color; sex; gender identity; sexual orientation; religious practices and observances; national origin; pregnancy, childbirth, or related medical conditions; status as a protected veteran or spouse/family member of a protected veteran; or disability.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/spark-engineer-at-infosys-4476406913",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "spark",
+        "kafka",
+        "hadoop",
+        "python",
+        "sql"
+      ],
+      "score": 45,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Infosys",
+      "title": "Project Management - Talend, Data Eng &amp; Snowflake",
+      "location": "Charlotte, NC",
+      "url": "https://www.linkedin.com/jobs/view/project-management-talend-data-eng-snowflake-at-infosys-4476412660",
+      "posted_at": "2026-10-13T00:00:00+00:00",
+      "description": "Overview The Infosys Data and Analytics (DNA) unit is at the forefront of transforming data into actionable insights, driving business growth and operational efficiency. We specialize in leveraging advanced AI and analytics to create innovative solutions that address complex business challenges. Our team is dedicated to pioneering the future of data-driven decision-making, enabling organizations to unlock new opportunities and achieve sustainable success. Join us to be part of a dynamic team that is revolutionizing the way businesses harness the power of data and AI. At Infosys DNA, you'll have the opportunity to work with cutting-edge technologies, collaborate with industry experts, and contribute to transformative projects that shape the future of business. We are committed to fostering a culture of continuous learning and growth, ensuring that our team members thrive in a dynamic and supportive environment. If you're passionate about AI and eager to make a significant impact, the Infosys DNA unit is the perfect place for you to grow and excel. In the assigned Job Role of Technology Consultant 3, your Area Of Responsibility will be as below: Create business requirement documents covering functional and non-functional requirements, basis information gathered as part of workshops and interviews with client stakeholders Craft high- and low-level software designs, validate through prototypes, and incorporate feedback to optimize functionality Develop critical and complex software applications and engage with the development team to establish coding standards and methodologies in sync with design and architectural specifications Create and guide the execution of comprehensive testing strategies, in conformance with functional and non-functional requirements Guide the technical implementation of system infrastructure, and introduction of new software applications, to ensure their efficient deployment and adherence to project schedules. Ensure consistent system rollouts by orchestrating transitions and minimizing operational disruptions Analyse incident trends to identify root causes, propose sustainable solutions to avert future incidents and establish monitoring protocols Provide specialized insights and build collaborative relationships with clients and internal teams, securing the successful execution of projects Establish and uphold comprehensive knowledge bases to guarantee that vital information is systematically recorded and readily available Contribute to the selection of technological tools by collaborating with architects and provide insights on prospective influence of new technologies Contribute to the development of technical implementation roadmaps, based on understanding of client business needs Contribute to proposals and RFPs by delivering insights related to development of software applications, for successfully delivering the proposed solutions Your Contribution To The Team A focus on innovation and adaptability for integrating new technologies Proactive problem-solving to streamline complex requirements. Expertise in designing scalable architectures, selecting technology stacks, and crafting innovative solutions. A strategic mindset to align technical solutions with business goals and market trends. Hands-on experience in robust development and coding standards. Dedication to quality through thorough testing and debugging. Passion for mentoring and fostering a knowledge-sharing culture. Required Skill And Experience Led Technical Project Management initiatives across data and analytics projects. Specialized in Data Engineering and scalable data solutions. Experienced in Snowflake implementation, optimization, and data warehousing. Enabled Cloud Data Transformation and enterprise data modernization programs. Preferred Skill And Experience Strong proficiency in SQL for data querying, transformation, performance tuning, and database management. Strong hands-on experience in Talend Data Integration (ETL) development. Hands-on experience with Snowflake, including data warehousing, data modeling, and performance optimization. Experience working with Snowflake Cortex for AI/ML-powered analytics, data insights, and intelligent data applications. Proficiency in dbt (Data Build Tool) for data transformation, testing, documentation, and analytics engineering. Strong knowledge of GitHub for version control, code collaboration, CI/CD integration, and deployment workflows. Exposure to GitHub Copilot/Duo to enhance developer productivity, code quality, and automation practices. Additional Required Qualifications Bachelor’s degree or foreign equivalent required from an accredited institution. Will also consider three years of progressive experience in the specialty in lieu of every year of education. This position may require relocation and/or travel to work/project location. Candidates authorized to work for any employer in the United States without employer-based visa sponsorship are welcome to apply. Infosys is unable to provide immigration sponsorship for this role now or in the future. Benefits Along with competitive pay, as a full-time Infosys employee you are also eligible for the following benefits: Medical/Dental/Vision/Life Insurance Long-term/Short-term Disability Health and Dependent Care Reimbursement Accounts Insurance (Accident, Critical Illness , Hospital Indemnity, Legal) 401(k) plan and contributions dependent on salary level Paid holidays plus Paid Time Off About Us Infosys is a global leader in next-generation digital services and consulting. We enable clients in more than 50 countries to navigate their digital transformation. With over four decades of experience in managing the systems and workings of global enterprises, we expertly steer our clients through their digital journey. We do it by enabling the enterprise with an AI-powered core that helps prioritize the execution of change. We also empower the business with agile digital at scale to deliver unprecedented levels of performance and customer delight. Our always-on learning agenda drives their continuous improvement through building and transferring digital skills, expertise, and ideas from our innovation ecosystem. EEO Infosys provides equal employment opportunities to applicants and employees without regard to race; color; sex; gender identity; sexual orientation; religious practices and observances; national origin; pregnancy, childbirth, or related medical conditions; status as a protected veteran or spouse/family member of a protected veteran; or disability.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/project-management-talend-data-eng-snowflake-at-infosys-4476412660",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "dbt",
+        "sql"
+      ],
+      "score": 45,
+      "directness": 35
+    }
+  ]
+}

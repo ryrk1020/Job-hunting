@@ -1,2 +1,7 @@
 score,directness,posted_at,source,company,title,location,url,salary_min,salary_max,required_years,tech_tags,matched_groups,preferred_location,alt_sources
-60,35,2026-10-12T00:00:00+00:00,linkedin,Straive,Data Engineer - AWS,"Overland Park, KS",https://www.linkedin.com/jobs/view/data-engineer-aws-at-straive-4478544245,,,2,"spark,redshift,python,sql,aws",data,False,
+110,35,2026-10-13T00:00:00+00:00,linkedin,Infosys,AWS Redshift Data Engineer,"Richardson, TX",https://www.linkedin.com/jobs/view/aws-redshift-data-engineer-at-infosys-4476408799,,,3,"redshift,python,aws",data,True,
+90,100,2026-10-15T00:21:07+00:00,greenhouse,reddit,Analytics Engineer,Remote - United States,https://job-boards.greenhouse.io/reddit/jobs/8282760,,,3,"spark,airflow,python,sql",data,False,
+60,35,2026-10-13T00:00:00+00:00,linkedin,Evlo AI,Data Engineer,"Chicago, IL",https://www.linkedin.com/jobs/view/data-engineer-at-evlo-ai-4478131594,,,3,"snowflake,databricks,airflow,dbt,kafka,bigquery,python,sql,aws,azure,gcp",data,False,
+45,35,2026-10-12T00:00:00+00:00,linkedin,Syntrace,Data Analyst,"Austin, TX",https://www.linkedin.com/jobs/view/data-analyst-at-syntrace-4476011517,,,0,"python,sql",data,False,
+45,35,2026-10-13T00:00:00+00:00,linkedin,Infosys,Spark Engineer,"New York, NY",https://www.linkedin.com/jobs/view/spark-engineer-at-infosys-4476406913,,,3,"spark,kafka,hadoop,python,sql",data,False,
+45,35,2026-10-13T00:00:00+00:00,linkedin,Infosys,"Project Management - Talend, Data Eng &amp; Snowflake","Charlotte, NC",https://www.linkedin.com/jobs/view/project-management-talend-data-eng-snowflake-at-infosys-4476412660,,,3,"snowflake,dbt,sql",data,False,
