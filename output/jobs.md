@@ -1,12 +1,12 @@
 # Latest Jobs (6)
 
-_Generated 2026-10-15 10:45 UTC_
+_Generated 2026-10-16 10:31 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 110 | 2026-10-13 | linkedin | Infosys | AWS Redshift Data Engineer | Richardson, TX | [apply](https://www.linkedin.com/jobs/view/aws-redshift-data-engineer-at-infosys-4476408799) |
-| 2 | 90 | 2026-10-15 | greenhouse | reddit | Analytics Engineer | Remote - United States | [apply](https://job-boards.greenhouse.io/reddit/jobs/8282760) |
-| 3 | 60 | 2026-10-13 | linkedin | Evlo AI | Data Engineer | Chicago, IL | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-evlo-ai-4478131594) |
-| 4 | 45 | 2026-10-12 | linkedin | Syntrace | Data Analyst | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-syntrace-4476011517) |
-| 5 | 45 | 2026-10-13 | linkedin | Infosys | Spark Engineer | New York, NY | [apply](https://www.linkedin.com/jobs/view/spark-engineer-at-infosys-4476406913) |
-| 6 | 45 | 2026-10-13 | linkedin | Infosys | Project Management - Talend, Data Eng &amp; Snowflake | Charlotte, NC | [apply](https://www.linkedin.com/jobs/view/project-management-talend-data-eng-snowflake-at-infosys-4476412660) |
+| 1 | 135 | 2026-10-14 | linkedin | Insight Global | Junior Data Engineer | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/junior-data-engineer-at-insight-global-4478807332) |
+| 2 | 120 | 2026-10-15 | linkedin | CVS Health | Data Engineer - People Analytics | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-people-analytics-at-cvs-health-4480121374) |
+| 3 | 110 | 2026-10-14 | linkedin | VDart | AWS Python Data Engineer | Richardson, TX | [apply](https://www.linkedin.com/jobs/view/aws-python-data-engineer-at-vdart-4478464948) |
+| 4 | 75 | 2026-10-13 | linkedin | SynergisticIT | junior java fullstack developer/Data Scientist/Entry level Bi Analyst-remote | Austin, TX | [apply](https://www.linkedin.com/jobs/view/junior-java-fullstack-developer-data-scientist-entry-level-bi-analyst-remote-at-synergisticit-4478164886) |
+| 5 | 75 | 2026-10-12 | linkedin | University of South Carolina | Institutional Data Engineer | Columbia, SC | [apply](https://www.linkedin.com/jobs/view/institutional-data-engineer-at-university-of-south-carolina-4478583228) |
+| 6 | 55 | 2026-10-13 | linkedin | Analog Devices | Business Intelligence Analyst | Austin, TX | [apply](https://www.linkedin.com/jobs/view/business-intelligence-analyst-at-analog-devices-4469992914) |
