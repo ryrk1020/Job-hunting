@@ -1,0 +1,226 @@
+{
+  "generated_at": "2026-10-17T10:06:36.379249+00:00",
+  "count": 7,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "InnoCore Solutions, Inc.",
+      "title": "Azure Databricks Data Engineer",
+      "location": "Dallas-Fort Worth Metroplex",
+      "url": "https://www.linkedin.com/jobs/view/azure-databricks-data-engineer-at-innocore-solutions-inc-4478160826",
+      "posted_at": "2026-10-16T00:00:00+00:00",
+      "description": "Responsibilities: Work closely with source data application teams and product owners to design, implement and support analytics solutions that provide insights to make better decisions. Implement data migration and data engineering solutions using Azure products and services: (Azure Data Lake Storage, Azure Data Factory, Azure Functions, Event Hub, Azure Stream Analytics, Azure Databricks, etc.) and traditional data warehouse tools. Perform multiple aspects involved in the development lifecycle – design, cloud engineering (Infrastructure, network, security, and administration), ingestion, preparation, data modeling, testing, CICD pipelines, performance tuning, deployments, consumption, BI, alerting, prod support. Design, develop, and maintain scalable data pipelines and transformation jobs on the Databricks Lakehouse Platform to generate business metrics, KPIs, and curated datasets. Develop and optimize batch and streaming data pipelines using Databricks, Apache Spark (PySpark/Scala), and Delta Lake technologies. Build and maintain data ingestion frameworks from various enterprise source systems into Azure-based data lakes and Databricks environments. Implement and maintain Medallion Architecture (Bronze, Silver, and Gold layers) to support analytics and self-service reporting. Develop, optimize, and maintain Delta tables and data models to ensure high-performance data processing and analytics. Monitor, troubleshoot, and support Databricks workflows, clusters, and production data pipelines to ensure data reliability and availability. Implement data quality checks and validation frameworks to ensure data accuracy, completeness, timeliness, and consistency. Optimize Spark jobs, cluster utilization, and query performance to improve scalability and cost efficiency. Build and deploy Databricks code, workflows, and infrastructure using GitHub Actions -based CI/CD pipelines. Requirements: 3+ years of experience in Data Engineering and building enterprise-scale data platforms. 3+ years of cloud development and data lake experience (prefer Microsoft Azure) including Azure EventHub, Azure Data Factory, Azure Functions, ADX, ASA, Azure Databricks, Azure DevOps, Azure Blob Storage, Azure Data Lake, Azure Power Apps and Power BI 3+ years of hands-on experience with Databricks and Apache Spark development using PySpark or Scala. Strong experience designing and implementing data pipelines on Azure and Databricks platforms. Strong SQL skills and experience with data modeling and dimensional modeling techniques. Experience developing and deploying solutions using GitHub Actions and Git-based source control practices. Experience with data quality, metadata management, and data governance frameworks. Strong troubleshooting, performance tuning, and production support experience in cloud-based data platforms. Excellent communication and collaboration skills with the ability to work effectively with global teams. Databricks certifications such as Databricks Certified Data Engineer Associate or Professional . Education: Bachelor's degree in Computer Science/Engineering or a related field",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/azure-databricks-data-engineer-at-innocore-solutions-inc-4478160826",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "databricks",
+        "spark",
+        "power bi",
+        "sql",
+        "azure"
+      ],
+      "score": 145,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Infosys",
+      "title": "GCP Cloud data engineer with Java and Apache Spark",
+      "location": "Richardson, TX",
+      "url": "https://www.linkedin.com/jobs/view/gcp-cloud-data-engineer-with-java-and-apache-spark-at-infosys-4476426065",
+      "posted_at": "2026-10-13T00:00:00+00:00",
+      "description": "Overview The Infosys Data and Analytics (DNA) unit is at the forefront of transforming data into actionable insights, driving business growth and operational efficiency. We specialize in leveraging advanced AI and analytics to create innovative solutions that address complex business challenges. Our team is dedicated to pioneering the future of data-driven decision-making, enabling organizations to unlock new opportunities and achieve sustainable success. Join us to be part of a dynamic team that is revolutionizing the way businesses harness the power of data and AI. At Infosys DNA, you'll have the opportunity to work with cutting-edge technologies, collaborate with industry experts, and contribute to transformative projects that shape the future of business. We are committed to fostering a culture of continuous learning and growth, ensuring that our team members thrive in a dynamic and supportive environment. If you're passionate about AI and eager to make a significant impact, the Infosys DNA unit is the perfect place for you to grow and excel. In the assigned Job Role of Technology Consultant 2, your Area Of Responsibility will be as below: Contribute to the requirements elicitation process by documenting assigned parts of business requirements, in line with guidance provided Facilitate software application design discussions, and document design decisions to guide the technical team towards building software solutions Participate in coding and integrate new features or updates into existing applications, with a focus on maintaining system stability Conduct code reviews, do changes to the codebase and maintain code repositories Implement test strategies, analyse results, and coordinate bug fixes to uphold the software quality standards Develop user training programs, documentation, and support frameworks to ensure a smooth transition to new software applications Actively participate in resolving production issues and recommend preventive strategies to enhance system reliability Maintain detailed records of code, testing techniques, and support activities to enrich the knowledge base and assist other similar projects Your Contribution To The Team A collaborative spirit and excellent communication skills. The ability to handle end to end SDLC phases from requirement gathering to implementation. A knack for translating complex requirements into actionable development tasks. A passion for design and hands-on coding experience A proactive approach to testing, troubleshooting, and refining our applications. The ability to work with cross-functional teams and do software integration. Required Skills Required Skill and Experience Strong hands-on experience with GCP Expertise in BigQuery and Google Cloud Storage (GCS) Proficiency in Scala and/or Python for data engineering workflows. Strong experience with Apache Spark, Java for large scala data processing. Experience with Apache Airflow for workflow orchestration. Advanced SQL skills for data analysis and transformation. Experience implementing CI/CD pipelines. Good-to-Have Preferred Skill and Experience Experience with Generative AI/LLM concepts. Additional Required Qualifications Bachelor’s degree or foreign equivalent required from an accredited institution. Will also consider three years of progressive experience in the specialty in lieu of every year of education. This position may require relocation and/or travel to work/project location. Candidates authorized to work for any employer in the United States without employer-based visa sponsorship are welcome to apply. Infosys is unable to provide immigration sponsorship for this role now or in the future. Benefits Along with competitive pay, as a full-time Infosys employee you are also eligible for the following benefits: Medical/Dental/Vision/Life Insurance Long-term/Short-term Disability Health and Dependent Care Reimbursement Accounts Insurance (Accident, Critical Illness , Hospital Indemnity, Legal) 401(k) plan and contributions dependent on salary level Paid holidays plus Paid Time Off About Us Infosys is a global leader in next-generation digital services and consulting. We enable clients in more than 50 countries to navigate their digital transformation. With over four decades of experience in managing the systems and workings of global enterprises, we expertly steer our clients through their digital journey. We do it by enabling the enterprise with an AI-powered core that helps prioritize the execution of change. We also empower the business with agile digital at scale to deliver unprecedented levels of performance and customer delight. Our always-on learning agenda drives their continuous improvement through building and transferring digital skills, expertise, and ideas from our innovation ecosystem. EEO Infosys provides equal employment opportunities to applicants and employees without regard to race; color; sex; gender identity; sexual orientation; religious practices and observances; national origin; pregnancy, childbirth, or related medical conditions; status as a protected veteran or spouse/family member of a protected veteran; or disability.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/gcp-cloud-data-engineer-with-java-and-apache-spark-at-infosys-4476426065",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "spark",
+        "airflow",
+        "bigquery",
+        "python",
+        "sql",
+        "gcp"
+      ],
+      "score": 100,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "H1",
+      "title": "Data Engineer II- Life Sciences",
+      "location": "New York, United States",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-ii-life-sciences-at-h1-4467293899",
+      "posted_at": "2026-10-17T00:00:00+00:00",
+      "description": "At H1, we believe access to the best healthcare information is a basic human right. Our mission is to provide a platform that can optimally inform every doctor interaction globally. This promotes health equity and builds needed trust in healthcare systems. To accomplish this, our teams harness the power of data and AI-technology to unlock groundbreaking medical insights and convert those insights into action that result in optimal patient outcomes and accelerates an equitable and inclusive drug development lifecycle. Visit h1.com to learn more about us. As part of H1’s hiring process, all candidates are required to participate in an in-person final interview. Depending on your location, this may require travel. H1's Data Network (H1DN) team is the client-data mastering network at the core of how H1's products get their data. We run production ingestion for major enterprise customers. Clinical trial data is one of our highest-visibility streams: it feeds decisions about where trials run and who runs them, and the people who depend on it are as often clinical experts as they are engineers. SLAs and customer expectations drive how we work, and we're looking for engineers who are energized by that. What You'll Do At H1 As a Data Engineer II on the H1DN team, you will build and operate the pipelines behind H1's clinical trials data. You'll work primarily in Python, PySpark, and SQL, and you'll work directly with clinical subject matter experts and Customer Success Managers to turn their domain knowledge into pipeline logic that holds up in production. You will: Build and maintain the Python and PySpark pipelines behind the CTMS trial data pipeline intake workflows, including scoring and status logic. Develop the transformation logic that maps raw trial and customer data to H1's internal data models, handling diverse source formats including CSV, JSON, Parquet, and APIs. Write and tune SQL against large datasets to investigate data questions, validate pipeline output, and support analysis that clinical SMEs and customer-facing teams depend on. Turn around customer-driven changes quickly, scoping requests as they arrive, shipping changes that hold up under enterprise SLAs, and reworking logic as customer needs shift mid-flight. Partner with clinical SMEs to translate domain expertise into concrete data rules, then walk them through the results, explain what the pipeline did and why, and fold their feedback back into the logic. Build the data quality checks, validation logic, and reconciliation that let non-engineers trust pipeline output without reading the code. Participate in code reviews, maintaining a high bar for quality and adherence to engineering standards. Monitor and improve pipeline observability, contributing to alerting and dashboards that surface job health and data anomalies for both the team and internal users. About You You are a data engineer with a strong Python foundation and real distributed-processing experience. You're drawn to high-impact teams where the work is tangible: pipelines running, enterprise customers getting their data on time, clinical data that people make real decisions from. You're comfortable in an environment where recurring production runs and customer SLAs shape day-to-day priorities, and where a customer request can reorder your week. You'd rather sit down with a domain expert and understand why the data looks the way it does than build to a spec handed to you secondhand. You bring experience: Building and shipping production data pipelines in Python, with an understanding of what makes them reliable and maintainable under real load Working with PySpark or a comparable distributed processing framework on datasets too large for a single machine Writing SQL well enough to answer hard questions about data, not just retrieve it Working in an operationally-driven environment where reliability and on-time delivery matter as much as new feature work Working directly with non-engineering partners, subject matter experts, analysts, or customer-facing teams, and communicating clearly about data with people who don't read code Holding a high bar in code review and expecting the same from those who review your work Identifying data problems early and seeing work through to resolution rather than handing it off Requirements 3+ years of experience in software or data engineering, with meaningful Python in your background Demonstrated experience building and maintaining production-grade data pipelines in Python Hands-on experience with PySpark or a similar distributed data processing framework Strong SQL skills, including working with large, messy, multi-source datasets Strong understanding of software quality practices: testing, code review, documentation, and CI/CD Experience working with cross-functional and non-technical stakeholders Experience with pipeline orchestration tooling (Argo, Airflow, Databricks, dbt, or similar) preferred Familiarity with clinical trial data, healthcare data, or another regulated data domain a plus Familiarity with entity matching or data mastering a plus Familiarity with AWS services (S3, Lambda, ECS, or similar) a plus Compensation This role pays $110,000 to $135,000 per year, based on experience, in addition to stock options. Anticipated role close date: 10/20/2026 H1 OFFERS Full suite of health insurance options, in addition to generous paid time off Pre-planned company-wide wellness holidays Retirement options Health &amp; charitable donation stipends Impactful Business Resource Groups The opportunity to work with leading biotech and life sciences companies in an innovative industry with a mission to improve healthcare around the globe H1 is proud to be an equal opportunity employer that celebrates diversity and is committed to creating an inclusive workplace with equal opportunity for all applicants and teammates. Our goal is to recruit the most talented people from a diverse candidate pool regardless of race, color, ancestry, national origin, religion, disability, sex (including pregnancy), age, gender, gender identity, sexual orientation, marital status, veteran status, or any other characteristic protected by law. H1 is committed to working with and providing access and reasonable accommodation to applicants with mental and/or physical disabilities. If you require an accommodation, please reach out to your recruiter once you've begun the interview process. All requests for accommodations are treated discreetly and confidentially, as practical and permitted by law. We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-ii-life-sciences-at-h1-4467293899",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": 110000,
+      "salary_max": 135000,
+      "tech_tags": [
+        "databricks",
+        "spark",
+        "airflow",
+        "dbt",
+        "python",
+        "sql",
+        "aws"
+      ],
+      "score": 110,
+      "directness": 35
+    },
+    {
+      "source": "greenhouse",
+      "company": "lyft",
+      "title": "Data Scientist",
+      "location": "San Francisco, CA",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8896671002?gh_jid=8896671002",
+      "posted_at": "2026-10-17T03:07:21+00:00",
+      "description": "&lt;p&gt;&lt;em&gt;Job ID: 111267&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;At Lyft, our purpose is to serve and connect. We aim to achieve this by cultivating a work environment where all team members belong and have the opportunity to thrive.&lt;/em&gt;&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Partner with Engineers, Product Managers, Product Designers, and Business&lt;/li&gt; &lt;li&gt;Partners to frame problems, both mathematically and within the business context.&lt;/li&gt; &lt;li&gt;Perform exploratory data analysis to gain a deeper understanding of the problem.&lt;/li&gt; &lt;li&gt;Collaborate with Software Engineers to implement algorithms and analytics events in&amp;nbsp;production.&lt;/li&gt; &lt;li&gt;Design and run both simulated and live traffic experiments.&lt;/li&gt; &lt;li&gt;Analyze experimental and observational data; communicate findings; facilitate&amp;nbsp;launch decisions.&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Experience:&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Education and Experience:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Master&#39;s degree or foreign equivalent in Physics, Data Science, or related field.&lt;/li&gt; &lt;li&gt;2 years of experience in job offered, operations research, or related occupation.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Skills:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Experience creating metrics, analytical dashboards, and tools to track and monitor&amp;nbsp;growth.&lt;/li&gt; &lt;li&gt;Experience with statistics, business forecast and estimates, and authoring data&amp;nbsp;pipelines.&lt;/li&gt; &lt;li&gt;Experience with writing production queries and experiment design and analysis.&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Great medical, dental, and vision insurance options with additional programs available when enrolled&lt;/li&gt; &lt;li&gt;Mental health benefits&lt;/li&gt; &lt;li&gt;Family building benefits&lt;/li&gt; &lt;li&gt;Child care and pet benefits&lt;/li&gt; &lt;li&gt;401(k) plan to help save for your future&lt;/li&gt; &lt;li&gt;In addition to 12 observed holidays, salaried team members have discretionary paid time off, hourly team members have 15 days paid time off&lt;/li&gt; &lt;li&gt;18 weeks of paid parental leave. Biological, adoptive, and foster parents are all eligible&lt;/li&gt; &lt;li&gt;Subsidized commuter benefits&lt;/li&gt; &lt;li&gt;Lyft Pink - Lyft team members get an exclusive opportunity to test new benefits of our Ridership Program&lt;/li&gt; &lt;/ul&gt; &lt;p class=&quot;p1&quot;&gt;&lt;em&gt;Lyft is an equal opportunity employer committed to an inclusive workplace that fosters belonging. All qualified applicants will receive consideration for employment without regards to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, age, genetic information, or any other basis prohibited by law. We also consider qualified applicants with criminal histories consistent with applicable federal, state and local law.&lt;/em&gt;&lt;/p&gt; &lt;p class=&quot;p1&quot;&gt;&lt;em&gt;Lyft highly values having employees working in-office to foster a collaborative work environment and company culture. This role will be in-office on a hybrid schedule — Team Members will be expected to work in the office 3 days per week on Mondays, Wednesdays, and Thursdays. Lyft considers working in the office at least 3 days per week to be an essential function of this hybrid role. Your recruiter can share more information about the various in-office perks Lyft offers. Additionally, hybrid roles have the flexibility to work from anywhere for up to 4 weeks per year. #Hybrid&lt;/em&gt;&lt;/p&gt; &lt;p class=&quot;p1&quot;&gt;&lt;em&gt;The expected base pay range for this position in the San Francisco area is $195,000 - $222,000/year. Salary ranges are dependent on a variety of factors, including qualifications, experience and geographic location. Range is not inclusive of potential equity offering, bonus or benefits. Your recruiter can share more information about the salary range specific to your working location and other factors during the hiring process.&amp;nbsp;&lt;/em&gt;&lt;/p&gt; &lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;em&gt;#LI-DNI&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;",
+      "remote": false,
+      "raw_id": "8896671002",
+      "extra": {
+        "departments": [
+          "Driver, Supply & PII"
+        ],
+        "metadata": [
+          {
+            "id": 4345907002,
+            "name": "Career Site Category",
+            "value": "Data Science",
+            "value_type": "single_select"
+          }
+        ]
+      },
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 2,
+      "salary_min": 195000,
+      "salary_max": 222000,
+      "tech_tags": [],
+      "score": 90,
+      "directness": 100
+    },
+    {
+      "source": "greenhouse",
+      "company": "lyft",
+      "title": "Data Analyst",
+      "location": "New York, NY",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8896685002?gh_jid=8896685002",
+      "posted_at": "2026-10-17T02:54:56+00:00",
+      "description": "&lt;p&gt;&lt;em&gt;Job ID: 111270&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;At Lyft, our purpose is to serve and connect. We aim to achieve this by cultivating a work environment where all team members belong and have the opportunity to thrive.&lt;/em&gt;&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Responsible for influencing product roadmaps through analytics and financial and&amp;nbsp;business modeling.&lt;/li&gt; &lt;li&gt;Develop hypotheses and analytical frameworks for understanding pricing dynamics and market outcomes.&lt;/li&gt; &lt;li&gt;Analyze collected data and extract information relevant to problems.&lt;/li&gt; &lt;li&gt;Work closely with product leads to build efficient tools, systems, and processes to manage pricing and driver earning at scale.&lt;/li&gt; &lt;li&gt;Develop and test quantitative models, support software, and analytical tools.&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Experience:&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Education and Experience:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Master&#39;s degree or foreign equivalent in Operations Research, Analytics, or related field.&lt;/li&gt; &lt;li&gt;3 years of experience in job offered, analytics, or related occupation.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Skills:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Experience with quantitative analysis, predictive modeling, and machine learning.&lt;/li&gt; &lt;li&gt;Experience with programming languages, analytical software, and database applications.&lt;/li&gt; &lt;li&gt;Experience with business analytics and authoring data pipelines.&lt;/li&gt; &lt;li&gt;Experience with optimization and programming, including C++, R, Python, and algorithms.&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Great medical, dental, and vision insurance options with additional programs available when enrolled&lt;/li&gt; &lt;li&gt;Mental health benefits&lt;/li&gt; &lt;li&gt;Family building benefits&lt;/li&gt; &lt;li&gt;Child care and pet benefits&lt;/li&gt; &lt;li&gt;401(k) plan to help save for your future&lt;/li&gt; &lt;li&gt;In addition to 12 observed holidays, salaried team members have discretionary paid time off, hourly team members have 15 days paid time off&lt;/li&gt; &lt;li&gt;18 weeks of paid parental leave. Biological, adoptive, and foster parents are all eligible&lt;/li&gt; &lt;li&gt;Subsidized commuter benefits&lt;/li&gt; &lt;li&gt;Lyft Pink - Lyft team members get an exclusive opportunity to test new benefits of our Ridership Program&lt;/li&gt; &lt;/ul&gt; &lt;p class=&quot;p1&quot;&gt;&lt;em&gt;Lyft is an equal opportunity employer committed to an inclusive workplace that fosters belonging. All qualified applicants will receive consideration for employment without regards to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, age, genetic information, or any other basis prohibited by law. We also consider qualified applicants with criminal histories consistent with applicable federal, state and local law.&lt;/em&gt;&lt;/p&gt; &lt;p class=&quot;p1&quot;&gt;&lt;em&gt;Lyft highly values having employees working in-office to foster a collaborative work environment and company culture. This role will be in-office on a hybrid schedule — Team Members will be expected to work in the office 3 days per week on Mondays, Wednesdays, and Thursdays. Lyft considers working in the office at least 3 days per week to be an essential function of this hybrid role. Your recruiter can share more information about the various in-office perks Lyft offers. Additionally, hybrid roles have the flexibility to work from anywhere for up to 4 weeks per year. #Hybrid&lt;/em&gt;&lt;/p&gt; &lt;p class=&quot;p1&quot;&gt;&lt;em&gt;The expected base pay range for this position in the New York City area is $140,000 - $190,440/year Salary ranges are dependent on a variety of factors, including qualifications, experience and geographic location. Range is not inclusive of potential equity offering, bonus or benefits. Your recruiter can share more information about the salary range specific to your working location and other factors during the hiring process.&amp;nbsp;&lt;/em&gt;&lt;/p&gt; &lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;em&gt;#LI-DNI&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;",
+      "remote": false,
+      "raw_id": "8896685002",
+      "extra": {
+        "departments": [
+          "Marketplace"
+        ],
+        "metadata": [
+          {
+            "id": 4345907002,
+            "name": "Career Site Category",
+            "value": "Data Analytics & Business Intelligence",
+            "value_type": "single_select"
+          }
+        ]
+      },
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": 140000,
+      "salary_max": 190440,
+      "tech_tags": [
+        "python"
+      ],
+      "score": 85,
+      "directness": 100
+    },
+    {
+      "source": "greenhouse",
+      "company": "lyft",
+      "title": "Data Scientist",
+      "location": "New York, NY",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8896675002?gh_jid=8896675002",
+      "posted_at": "2026-10-17T02:39:11+00:00",
+      "description": "&lt;p&gt;&lt;em&gt;Job ID: 111268&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;At Lyft, our purpose is to serve and connect. We aim to achieve this by cultivating a work environment where all team members belong and have the opportunity to thrive.&lt;/em&gt;&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Partner with Engineers, Product Managers, and Business Partners to frame&amp;nbsp;problems, both mathematically and within the business context.&lt;/li&gt; &lt;li&gt;Perform exploratory data analysis to gain a deeper understanding of the problem.&lt;/li&gt; &lt;li&gt;Construct and fit statistical, machine learning, or optimization models.&lt;/li&gt; &lt;li&gt;Write production modeling code; collaborate with Software Engineers to implement algorithms in production.&lt;/li&gt; &lt;li&gt;Design and run both simulated and live traffic experiments.&lt;/li&gt; &lt;li&gt;Analyze experimental and observational data; communicate findings; facilitate launch decisions.&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Experience:&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Education and Experience:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Master&#39;s degree or foreign equivalent in Business Analytics and Information Management, Data Science, or related field.&lt;/li&gt; &lt;li&gt;2 years of experience in job offered, operations research, or related occupation.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Skills:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Experience creating metrics and analytical tools to track and monitor growth.&lt;/li&gt; &lt;li&gt;Experience with statistics, machine learning, causal inference, data scientific forecasting, and authoring data pipelines.&lt;/li&gt; &lt;li&gt;Experience with building and evaluating optimization and inference models, and predictive modeling.&lt;/li&gt; &lt;li&gt;Experience with writing production quality computer code and using MATLAB, R, and Python.&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Great medical, dental, and vision insurance options with additional programs available when enrolled&lt;/li&gt; &lt;li&gt;Mental health benefits&lt;/li&gt; &lt;li&gt;Family building benefits&lt;/li&gt; &lt;li&gt;Child care and pet benefits&lt;/li&gt; &lt;li&gt;401(k) plan to help save for your future&lt;/li&gt; &lt;li&gt;In addition to 12 observed holidays, salaried team members have discretionary paid time off, hourly team members have 15 days paid time off&lt;/li&gt; &lt;li&gt;18 weeks of paid parental leave. Biological, adoptive, and foster parents are all eligible&lt;/li&gt; &lt;li&gt;Subsidized commuter benefits&lt;/li&gt; &lt;li&gt;Lyft Pink - Lyft team members get an exclusive opportunity to test new benefits of our Ridership Program&lt;/li&gt; &lt;/ul&gt; &lt;p class=&quot;p1&quot;&gt;&lt;em&gt;Lyft is an equal opportunity employer committed to an inclusive workplace that fosters belonging. All qualified applicants will receive consideration for employment without regards to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, age, genetic information, or any other basis prohibited by law. We also consider qualified applicants with criminal histories consistent with applicable federal, state and local law.&lt;/em&gt;&lt;/p&gt; &lt;p class=&quot;p1&quot;&gt;&lt;em&gt;Lyft highly values having employees working in-office to foster a collaborative work environment and company culture. This role will be in-office on a hybrid schedule — Team Members will be expected to work in the office 3 days per week on Mondays, Wednesdays, and Thursdays. Lyft considers working in the office at least 3 days per week to be an essential function of this hybrid role. Your recruiter can share more information about the various in-office perks Lyft offers. Additionally, hybrid roles have the flexibility to work from anywhere for up to 4 weeks per year. #Hybrid&lt;/em&gt;&lt;/p&gt; &lt;p class=&quot;p1&quot;&gt;&lt;em&gt;The expected base pay range for this position in the New York City area is $148,000 - $222,000/year. Salary ranges are dependent on a variety of factors, including qualifications, experience and geographic location. Range is not inclusive of potential equity offering, bonus or benefits. Your recruiter can share more information about the salary range specific to your working location and other factors during the hiring process.&amp;nbsp;&lt;/em&gt;&lt;/p&gt; &lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;em&gt;#LI-DNI&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;",
+      "remote": false,
+      "raw_id": "8896675002",
+      "extra": {
+        "departments": [
+          "Driver, Supply & PII"
+        ],
+        "metadata": [
+          {
+            "id": 4345907002,
+            "name": "Career Site Category",
+            "value": "Data Science",
+            "value_type": "single_select"
+          }
+        ]
+      },
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 2,
+      "salary_min": 148000,
+      "salary_max": 222000,
+      "tech_tags": [
+        "python"
+      ],
+      "score": 85,
+      "directness": 100
+    },
+    {
+      "source": "linkedin",
+      "company": "HCL Global Systems Inc",
+      "title": "Data Engineer",
+      "location": "Kentucky, United States",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-hcl-global-systems-inc-4477739251",
+      "posted_at": "2026-10-16T00:00:00+00:00",
+      "description": "Senior Data Engineer | (W2 Only / Onsite) Location : Covington, KY (NEARBY LOCATION CANDIDATES CAN APPLY) We are looking for a Senior Data Engineer with strong database design, development, and data modeling expertise to build a new database solution. Experience: 7+ Required Skills: Database design/development, data modeling, SQL, complex queries, and stored procedures. ETL: Hands-on experience with ETL/ELT processes and tools such as Informatica. Python &amp; CI/CD: Working knowledge of Python and experience building Jenkins pipelines to deploy Python applications. MySQL Snowflake multiple projects demonstrating these above skills Data base design is important in the background Preferred: Data Science, and AI prompt engineering.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-hcl-global-systems-inc-4477739251",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "informatica",
+        "python",
+        "sql"
+      ],
+      "score": 70,
+      "directness": 35
+    }
+  ]
+}
