@@ -1,13 +1,14 @@
-# Latest Jobs (7)
+# Latest Jobs (8)
 
-_Generated 2026-10-17 10:06 UTC_
+_Generated 2026-10-18 10:17 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 145 | 2026-10-16 | linkedin | InnoCore Solutions, Inc. | Azure Databricks Data Engineer | Dallas-Fort Worth Metroplex | [apply](https://www.linkedin.com/jobs/view/azure-databricks-data-engineer-at-innocore-solutions-inc-4478160826) |
-| 2 | 100 | 2026-10-13 | linkedin | Infosys | GCP Cloud data engineer with Java and Apache Spark | Richardson, TX | [apply](https://www.linkedin.com/jobs/view/gcp-cloud-data-engineer-with-java-and-apache-spark-at-infosys-4476426065) |
-| 3 | 110 | 2026-10-17 | linkedin | H1 | Data Engineer II- Life Sciences | New York, United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-ii-life-sciences-at-h1-4467293899) |
-| 4 | 90 | 2026-10-17 | greenhouse | lyft | Data Scientist | San Francisco, CA | [apply](https://app.careerpuck.com/job-board/lyft/job/8896671002?gh_jid=8896671002) |
-| 5 | 85 | 2026-10-17 | greenhouse | lyft | Data Analyst | New York, NY | [apply](https://app.careerpuck.com/job-board/lyft/job/8896685002?gh_jid=8896685002) |
-| 6 | 85 | 2026-10-17 | greenhouse | lyft | Data Scientist | New York, NY | [apply](https://app.careerpuck.com/job-board/lyft/job/8896675002?gh_jid=8896675002) |
-| 7 | 70 | 2026-10-16 | linkedin | HCL Global Systems Inc | Data Engineer | Kentucky, United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-hcl-global-systems-inc-4477739251) |
+| 1 | 135 | 2026-10-16 | linkedin | GM Financial | Data Engineer | Arlington, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-gm-financial-4479635016) |
+| 2 | 90 | 2026-10-13 | linkedin | Infosys | Data Engineer (Talend &amp; Snowflake) | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-talend-snowflake-at-infosys-4476426059) |
+| 3 | 95 | 2026-10-17 | linkedin | TSP Talent | Data Engineer - Junior | Philadelphia, PA | [apply](https://www.linkedin.com/jobs/view/data-engineer-junior-at-tsp-talent-4479643906) |
+| 4 | 75 | 2026-10-15 | linkedin | Infinitive | Consultant, Data Engineer | McLean, VA | [apply](https://www.linkedin.com/jobs/view/consultant-data-engineer-at-infinitive-4480126277) |
+| 5 | 60 | 2026-10-16 | linkedin | InnoveusIT | Data Engineer | Exton, PA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-innoveusit-4477708109) |
+| 6 | 40 | 2026-10-13 | linkedin | Infosys | Talend &amp; Snowflake Data Engineer | Charlotte, NC | [apply](https://www.linkedin.com/jobs/view/talend-snowflake-data-engineer-at-infosys-4476417410) |
+| 7 | 40 | 2026-10-13 | linkedin | Infosys | Data Engineer (Talend &amp; Snowflake) | Charlotte, NC | [apply](https://www.linkedin.com/jobs/view/data-engineer-talend-snowflake-at-infosys-4476415466) |
+| 8 | 35 | 2026-10-15 | linkedin | Charles Schwab | Data &amp; Analytics Analyst | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-analytics-analyst-at-charles-schwab-4477326374) |
