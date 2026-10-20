@@ -1,0 +1,262 @@
+{
+  "generated_at": "2026-10-20T10:52:11.332979+00:00",
+  "count": 8,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "Google",
+      "title": "Business Data Analyst II, Google Global Infrastructure, Strategy and Operations",
+      "location": "Addison, TX",
+      "url": "https://www.linkedin.com/jobs/view/business-data-analyst-ii-google-global-infrastructure-strategy-and-operations-at-google-4471337388",
+      "posted_at": "2026-10-19T00:00:00+00:00",
+      "description": "The application window will be open until at least October 12, 2026. This opportunity will remain online based on business needs which may be before or after the specified date. Note: By applying to this position you will have an opportunity to share your preferred working location from the following: Austin, TX, USA; Atlanta, GA, USA; Addison, TX, USA; Thornton, CO, USA . Minimum qualifications: Bachelor's degree in Engineering, Math, Quantitative Science, or a related technical field, or equivalent practical experience. 3 years of experienceworking in data analytics, consulting, data science, engineering, or a technical operations role. 3 years of experiencein statistical problem solving and analyzing data sets using SQL or comparable coding language (e.g. Python, R, Java, C++). Preferred qualifications: 2 years of experience designing and implementing KPI frameworks, OKR tracking, and headcount management analytics for senior leadership. Experience navigating ambiguous business requirements and modeling complex what-if scenarios. Experience with data governance best practices and proactively identifying automated solutions for data quality improvements. Experience leveraging Generative AI (GenAI) or Large Language Model (LLM) tools to accelerate analytical workflows, deep-dive trend analyses, or automated reporting. About the job Google's leadership team hand-picks thorny business challenges, and members of BizOps work in small teams to find solutions. As part of this team you fully immerse yourself in data collection, draw insight from analysis, and then zoom out to develop compelling, synthesized recommendations. Taking strategy one step further, you also persuasively communicate your recommendations to senior-level executives, roll-up your sleeves to help drive implementation and check back-in to see the impact of your recommendations. As a Business Data Analyst, you will act as the analytical backbone for Google Global Infrastructure (GGI) leadership, translating complex operational data into easily digestible insights and strategic narratives. Your role is crucial for elevating the way GGI performs at scale, empowering executive decision-making across Key Performance Indicator (KPIs), Objectives and Key Results (OKRs), Top Programs and headcount management.The AI and Infrastructure team is redefining what’s possible. We empower Google customers with breakthrough capabilities and insights by delivering AI and Infrastructure at unparalleled scale, efficiency, reliability and velocity. Our customers include Googlers, Google Cloud customers, and billions of Google users worldwide. We're behind Google's groundbreaking innovations, empowering the development of AI models, delivering unparalleled computing power to global services, and providing the essential platforms that enable developers to build the future. From software to hardware our teams are shaping the future of world-leading hyperscale computing, with key teams working on the development of our TPUs, Vertex AI for Google Cloud, Google Global Networking, Data Center operations, systems research, and much more.Individual pay is determined by factors including job-related skills, experience, and relevant education or training. US: $124000 - $177000 (USD) + 15% bonus target + equity + benefits Responsibilities Learn more about benefits at Google . Own and execute end-to-end data preparation, analytical modeling, and metric validation for regular reports, and translate complex operational data into actionable strategic narratives for stakeholders. Conduct deep-dive trend analyses across core data areas (such as headcount management, program management, OKRs, and KPIs) to provide proactive, automated alerts and insights to senior leadership. Partner closely with StratOps leads to provide analytical tracking frameworks, status reporting, and performance insights for core business areas. Evaluate regularly and provide recommendations to improve overall data quality. Enable the CoS office with data models and what-if scenarios to support leadership in making operational decisions. Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also Google's EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know by completing our Accommodations for Applicants form .",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/business-data-analyst-ii-google-global-infrastructure-strategy-and-operations-at-google-4471337388",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "python",
+        "sql",
+        "gcp"
+      ],
+      "score": 115,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Ladders",
+      "title": "Analytics Engineer",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/analytics-engineer-at-ladders-4478272396",
+      "posted_at": "2026-10-19T00:00:00+00:00",
+      "description": "For our client, we are seeking a Analytics Engineer to join the team of a leader in the Media space. This role will help shape the data foundation that powers reporting, analysis, and decision-making across a fast-moving digital media environment. You will own key data products and partner with cross-functional stakeholders to improve data quality, automation, and visibility into business performance. The ideal candidate brings strong technical depth in ETL, data modeling, and modern data workflows, along with the communication skills needed to support diverse technical audiences. Location: Remote - US based candidates only, no visa sponsorship available Compensation: $164,200 – $229,990 annually Responsibilities Contribute to data quality, performance, and automation initiatives Manage a portfolio of high-quality data products Develop and maintain data pipelines for ingestion and processing Implement data quality checks and monitoring routines Create new data integrations across systems Develop internal tools for data analysis and reporting Collaborate with stakeholders to shape data foundations strategy Qualifications Bachelor's degree in computer science or a quantitative field 3+ years of experience with large-scale ETL systems Strong programming skills in Python, SQL, Spark, and Scala Experience with data modeling and efficient data governance Familiarity with data workflows like Airflow Proven ability to collaborate across functions Excellent communication skills for diverse technical audiences Benefits Comprehensive healthcare benefits and income replacement programs 401k with employer match Global benefit programs for lifestyle support Family planning support Gender-affirming care Mental health and coaching benefits Flexible vacation and paid volunteer time off Generous paid parental leave Our client is an equal opportunity employer. We encourage you to apply even if you don’t meet every qualification—your background could be exactly what this team needs.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/analytics-engineer-at-ladders-4478272396",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": 164200,
+      "salary_max": 229990,
+      "tech_tags": [
+        "spark",
+        "airflow",
+        "python",
+        "sql"
+      ],
+      "score": 85,
+      "directness": 35
+    },
+    {
+      "source": "greenhouse",
+      "company": "brex",
+      "title": "Software Engineer II, Data Enablement Platform",
+      "location": "New York, New York, United States",
+      "url": "https://www.brex.com/careers/8605062002?gh_jid=8605062002",
+      "posted_at": "2026-10-19T22:25:43+00:00",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Why join us&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world&#39;s best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek.&lt;/p&gt; &lt;p&gt;Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We’re committed to building a diverse team and inclusive culture and believe your potential should only be limited by how big you can dream. We make this a reality by empowering you with the tools, resources, and support you need to grow your career.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Data at Brex&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Our Scientists and Engineers work together to make data — and insights derived from data — a core asset across Brex. But it’s more than just crunching numbers. The Data team at Brex develops infrastructure, statistical models, and products using financial data. Our work is ingrained in Brex’s decision-making process, the efficiency of our operations, our risk management policies, and the unparalleled experience we provide our consumers.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;This position is on our Data Enablement Platform team. The Brex product requires a huge amount of data to power our client experiences. With a largely async architecture, proliferation of services and multiple operations systems, this data originates from many different sources and in different forms. To ensure that our product experience is unbounded in how it leverages this data, the Data Enablement Platform team owns and operates the systems required to deliver it to our clients, and partners with them to create impactful data-backed products.&amp;nbsp; As a DEP team member you will help build Brex’s Data Infrastructure and also work across the entire data stack to help product teams build data backed products.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Build, improve, and maintain Brex’s data platform and infrastructure: data warehouse &amp;amp; analytics, data streaming, replication and materialization, data orchestration, data observability, access &amp;amp; governance.&lt;/li&gt; &lt;li&gt;Partner with Brex’s product teams, data science and analytics teams to help them launch superior products backed by data insights.&lt;/li&gt; &lt;li&gt;Level up the data competency at Brex through partnership and education.&lt;/li&gt; &lt;li&gt;Invest in building resilient data architectures, participate in on-call rotations, and continuously improve our operational efficiency.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;3+ years of professional experience in a data infra or data platform role&lt;/li&gt; &lt;li&gt;Experience with one or more of Snowflake, Flink, Airflow, dbt, CDC&lt;/li&gt; &lt;li&gt;Fluency in Kotlin or Kotlin like development languages such as Python&lt;/li&gt; &lt;li&gt;Experience building and maintaining large-scale modern data stack&lt;/li&gt; &lt;li&gt;Experience with streaming infra like Kafka&lt;/li&gt; &lt;li&gt;Experience in backend engineering or full-stack development&lt;/li&gt; &lt;li&gt;Strong communication and collaboration skills, especially working across team boundaries and building XFN relationships&lt;/li&gt; &lt;li&gt;Must be willing to work in office 3 days a week on Mondays, Wednesdays and Fridays&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Bonus points&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Experience collaborating with product teams or building full-stack data backed products&lt;/li&gt; &lt;li&gt;Experience with data architecture and data strategy&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Compensation:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The expected salary range for this role is $152,000 - $190,000. However, the starting base pay will depend on a number of factors including the candidate’s location, skills, experience, market demands, and internal pay parity. Depending on the position offered, equity and other forms of compensation may be provided as part of a total compensation package.&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Please be aware, job-seekers may be at risk of targeting by malicious actors looking for personal data. Brex recruiters will only reach out via LinkedIn or email with a&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;http://brex.com/&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://brex.com&quot; data-sk=&quot;tooltip_parent&quot;&gt;brex.com&lt;/a&gt;&amp;nbsp;domain. Any outreach claiming to be from Brex via other sources should be ignored.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+      "remote": false,
+      "raw_id": "8605062002",
+      "extra": {
+        "departments": [
+          "Engineering"
+        ],
+        "metadata": [
+          {
+            "id": 108496618002,
+            "name": "Job Post Department",
+            "value": "Engineering",
+            "value_type": "single_select"
+          }
+        ]
+      },
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": 152000,
+      "salary_max": 190000,
+      "tech_tags": [
+        "snowflake",
+        "airflow",
+        "dbt",
+        "kafka",
+        "python"
+      ],
+      "score": 80,
+      "directness": 100
+    },
+    {
+      "source": "greenhouse",
+      "company": "brex",
+      "title": "Software Engineer II, Data Enablement Platform",
+      "location": "Seattle, Washington, United States",
+      "url": "https://www.brex.com/careers/8605074002?gh_jid=8605074002",
+      "posted_at": "2026-10-19T22:27:21+00:00",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Why join us&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world&#39;s best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek.&lt;/p&gt; &lt;p&gt;Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We’re committed to building a diverse team and inclusive culture and believe your potential should only be limited by how big you can dream. We make this a reality by empowering you with the tools, resources, and support you need to grow your career.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Data at Brex&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Our Scientists and Engineers work together to make data — and insights derived from data — a core asset across Brex. But it’s more than just crunching numbers. The Data team at Brex develops infrastructure, statistical models, and products using financial data. Our work is ingrained in Brex’s decision-making process, the efficiency of our operations, our risk management policies, and the unparalleled experience we provide our consumers.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;This position is on our Data Enablement Platform team. The Brex product requires a huge amount of data to power our client experiences. With a largely async architecture, proliferation of services and multiple operations systems, this data originates from many different sources and in different forms. To ensure that our product experience is unbounded in how it leverages this data, the Data Enablement Platform team owns and operates the systems required to deliver it to our clients, and partners with them to create impactful data-backed products.&amp;nbsp; As a DEP team member you will help build Brex’s Data Infrastructure and also work across the entire data stack to help product teams build data backed products.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Build, improve, and maintain Brex’s data platform and infrastructure: data warehouse &amp;amp; analytics, data streaming, replication and materialization, data orchestration, data observability, access &amp;amp; governance.&lt;/li&gt; &lt;li&gt;Partner with Brex’s product teams, data science and analytics teams to help them launch superior products backed by data insights.&lt;/li&gt; &lt;li&gt;Level up the data competency at Brex through partnership and education.&lt;/li&gt; &lt;li&gt;Invest in building resilient data architectures, participate in on-call rotations, and continuously improve our operational efficiency.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;3+ years of professional experience in a data infra or data platform role&lt;/li&gt; &lt;li&gt;Experience with one or more of Snowflake, Flink, Airflow, dbt, CDC&lt;/li&gt; &lt;li&gt;Fluency in Kotlin or Kotlin like development languages such as Python&lt;/li&gt; &lt;li&gt;Experience building and maintaining large-scale modern data stack&lt;/li&gt; &lt;li&gt;Experience with streaming infra like Kafka&lt;/li&gt; &lt;li&gt;Experience in backend engineering or full-stack development&lt;/li&gt; &lt;li&gt;Strong communication and collaboration skills, especially working across team boundaries and building XFN relationships&lt;/li&gt; &lt;li&gt;Must be willing to work in office 3 days a week on Mondays, Wednesdays and Fridays&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Bonus points&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Experience collaborating with product teams or building full-stack data backed products&lt;/li&gt; &lt;li&gt;Experience with data architecture and data strategy&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Compensation:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The expected salary range for this role is $152,000 - $190,000. However, the starting base pay will depend on a number of factors including the candidate’s location, skills, experience, market demands, and internal pay parity. Depending on the position offered, equity and other forms of compensation may be provided as part of a total compensation package.&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Please be aware, job-seekers may be at risk of targeting by malicious actors looking for personal data. Brex recruiters will only reach out via LinkedIn or email with a&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;http://brex.com/&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://brex.com&quot; data-sk=&quot;tooltip_parent&quot;&gt;brex.com&lt;/a&gt;&amp;nbsp;domain. Any outreach claiming to be from Brex via other sources should be ignored.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+      "remote": false,
+      "raw_id": "8605074002",
+      "extra": {
+        "departments": [
+          "Engineering"
+        ],
+        "metadata": [
+          {
+            "id": 108496618002,
+            "name": "Job Post Department",
+            "value": "Engineering",
+            "value_type": "single_select"
+          }
+        ]
+      },
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": 152000,
+      "salary_max": 190000,
+      "tech_tags": [
+        "snowflake",
+        "airflow",
+        "dbt",
+        "kafka",
+        "python"
+      ],
+      "score": 80,
+      "directness": 100
+    },
+    {
+      "source": "greenhouse",
+      "company": "brex",
+      "title": "Software Engineer II, Data Enablement Platform",
+      "location": "San Francisco, California, United States",
+      "url": "https://www.brex.com/careers/8605070002?gh_jid=8605070002",
+      "posted_at": "2026-10-19T22:25:53+00:00",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Why join us&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world&#39;s best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek.&lt;/p&gt; &lt;p&gt;Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We’re committed to building a diverse team and inclusive culture and believe your potential should only be limited by how big you can dream. We make this a reality by empowering you with the tools, resources, and support you need to grow your career.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Data at Brex&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Our Scientists and Engineers work together to make data — and insights derived from data — a core asset across Brex. But it’s more than just crunching numbers. The Data team at Brex develops infrastructure, statistical models, and products using financial data. Our work is ingrained in Brex’s decision-making process, the efficiency of our operations, our risk management policies, and the unparalleled experience we provide our consumers.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;This position is on our Data Enablement Platform team. The Brex product requires a huge amount of data to power our client experiences. With a largely async architecture, proliferation of services and multiple operations systems, this data originates from many different sources and in different forms. To ensure that our product experience is unbounded in how it leverages this data, the Data Enablement Platform team owns and operates the systems required to deliver it to our clients, and partners with them to create impactful data-backed products.&amp;nbsp; As a DEP team member you will help build Brex’s Data Infrastructure and also work across the entire data stack to help product teams build data backed products.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Build, improve, and maintain Brex’s data platform and infrastructure: data warehouse &amp;amp; analytics, data streaming, replication and materialization, data orchestration, data observability, access &amp;amp; governance.&lt;/li&gt; &lt;li&gt;Partner with Brex’s product teams, data science and analytics teams to help them launch superior products backed by data insights.&lt;/li&gt; &lt;li&gt;Level up the data competency at Brex through partnership and education.&lt;/li&gt; &lt;li&gt;Invest in building resilient data architectures, participate in on-call rotations, and continuously improve our operational efficiency.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;3+ years of professional experience in a data infra or data platform role&lt;/li&gt; &lt;li&gt;Experience with one or more of Snowflake, Flink, Airflow, dbt, CDC&lt;/li&gt; &lt;li&gt;Fluency in Kotlin or Kotlin like development languages such as Python&lt;/li&gt; &lt;li&gt;Experience building and maintaining large-scale modern data stack&lt;/li&gt; &lt;li&gt;Experience with streaming infra like Kafka&lt;/li&gt; &lt;li&gt;Experience in backend engineering or full-stack development&lt;/li&gt; &lt;li&gt;Strong communication and collaboration skills, especially working across team boundaries and building XFN relationships&lt;/li&gt; &lt;li&gt;Must be willing to work in office 3 days a week on Mondays, Wednesdays and Fridays&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Bonus points&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Experience collaborating with product teams or building full-stack data backed products&lt;/li&gt; &lt;li&gt;Experience with data architecture and data strategy&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Compensation:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The expected salary range for this role is $152,000 - $190,000. However, the starting base pay will depend on a number of factors including the candidate’s location, skills, experience, market demands, and internal pay parity. Depending on the position offered, equity and other forms of compensation may be provided as part of a total compensation package.&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Please be aware, job-seekers may be at risk of targeting by malicious actors looking for personal data. Brex recruiters will only reach out via LinkedIn or email with a&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;http://brex.com/&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://brex.com&quot; data-sk=&quot;tooltip_parent&quot;&gt;brex.com&lt;/a&gt;&amp;nbsp;domain. Any outreach claiming to be from Brex via other sources should be ignored.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+      "remote": false,
+      "raw_id": "8605070002",
+      "extra": {
+        "departments": [
+          "Engineering"
+        ],
+        "metadata": [
+          {
+            "id": 108496618002,
+            "name": "Job Post Department",
+            "value": "Engineering",
+            "value_type": "single_select"
+          }
+        ]
+      },
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": 152000,
+      "salary_max": 190000,
+      "tech_tags": [
+        "snowflake",
+        "airflow",
+        "dbt",
+        "kafka",
+        "python"
+      ],
+      "score": 80,
+      "directness": 100
+    },
+    {
+      "source": "linkedin",
+      "company": "Husch Blackwell",
+      "title": "Enterprise Data Analyst",
+      "location": "Houston, TX",
+      "url": "https://www.linkedin.com/jobs/view/enterprise-data-analyst-at-husch-blackwell-4444612241",
+      "posted_at": "2026-10-18T00:00:00+00:00",
+      "description": "Husch Blackwell LLP is a full-service litigation and business law firm with multiple locations across the United States, serving clients with domestic and international operations. At Husch Blackwell we believe that diverse, equitable and inclusive teams lead to better outcomes. Husch Blackwell is committed to retaining, recruiting, developing, and promoting talented lawyers and business professionals with diverse backgrounds and experiences. We foster an engaged, diverse, and inclusive team culture of accountability and purpose that makes our Firm and our communities better. Our firm is committed to attracting and retaining professionals who value each other and the service we provide by embracing Teamwork, Collaboration, Client Service, and Innovation. If you are a motivated professional looking for a long-term fit where you can grow in a role, and will be valued and empowered, then we invite you to apply to our Enterprise Data Analyst position. This position may be filled remotely or in a hybrid capacity in any of our Central and Eastern Time locations. Strong candidates located in Mountain Time will also be considered. The Enterprise Data Analyst is a firmwide shared-services role within the Firm’s Data Science function. The analyst turns the Firm’s data, client data, and the extensive internal data the Firm maintains into clear, actionable insight, delivered primarily through Power BI dashboards and reports that teams across the Firm rely on. The role will initially support a key business unit, with scope expanding to serve additional practice groups and functions across the Firm over time. The right candidate will be skilled in the visual display of quantitative information and have a passion for high impact data storytelling. Essential functions include: Data Analysis &amp; Insight Analyze large, complex datasets from client and internal Firm sources to identify trends, patterns, and actionable insights Clean, transform, and structure data to ensure accuracy, consistency, and readiness for analysis Apply statistical and data-modeling techniques to answer business questions and support decision-making Leverage AI and generative-AI tools to accelerate analysis, automate routine tasks, and enhance data products Translate stakeholder questions into clearly defined analytical problems, prioritizing work by impact and urgency Dashboarding &amp; Reporting Design, build, and maintain Power BI dashboards that serve as the Firm’s primary, everyday reporting tools Build automated, self-service reports and visualizations in Power BI and Tableau, tailored to different audiences across the Firm Use data storytelling to deliver client-facing data presentations and executive-level reports that communicate findings clearly to key partners, clients, and other internal and external stakeholders, and drive action Collaborate with the Data Science Information Design and Engineering function to deliver data visualization and information rich analyses across various media types Streamline and standardize reporting processes to ensure timely, accurate delivery of key metrics Data Management &amp; Quality Partner with the Data Engineering team to source, integrate, and validate data from across the Firm Develop and apply data quality standards to ensure reliable, trustworthy outputs Document data sources, definitions, and methodologies to support consistency and reuse Maintain and enhance existing datasets, models, and reporting pipelines Cross-Functional Collaboration Partner with teams across the Firm; including Finance and client-facing groups to gather requirements and align on objectives Work directly with internal stakeholders and, where appropriate, clients to understand needs and deliver solutions Connect analytical findings to business outcomes and Firm priorities Continuous Improvement &amp; Growth Share knowledge and best practices to elevate data and analytics capabilities across the Firm Identify opportunities to automate, improve, and scale analytics as the function grows Contribute to building out the Firm’s enterprise data and analytics capabilities over time Develop and improve reporting and business intelligence techniques to align the firm with leading edge information and business intelligence delivery Engage in research and study to continuously improve the Firm’s reporting and business intelligence Position Requirements Bachelor’s degree in statistics, economics, computer science, information design, or a related quantitative communications field; commensurate professional and educational experience shall also qualify 3+ years in data analysis, business intelligence, or a related analytical role Advanced, demonstrable proficiency in Power BI is required; including building, publishing, and maintaining production dashboards Strong proficiency in Excel and SQL, with experience querying and working with large, complex datasets Proficiency with basic statistical and analytical tools including the Python statistical ecosystem Experience working with data warehouses, databases, and modern BI/data platforms Strong data storytelling skills, with a proven ability to design clear, effective data visualizations and deliver client-facing presentations to partners, clients, and other internal and external stakeholders Experience with statistical modeling, regression analysis, and null hypothesis significance testing Proven ability to independently scope and lead complex data analysis projects Experience analyzing financial and operational performance metrics and the drivers behind them Fluent in translating complex data into clear implications and actionable recommendations for the business Comfortable working with large, complex datasets and developing data quality standards Experience working directly with senior stakeholders and, where appropriate, clients Operates with a client-service mindset; responsive, proactive, and a trusted advisor Comfortable working at both strategic and tactical levels Thrives in fast-paced environments with shifting priorities Strong attention to detail and ability to maintain accuracy under pressure Eager to contribute beyond assigned tasks and play a key role in the growth of a new, firmwide analytics function Understanding of data confidentiality and the sensitivity of legal and client information Preferred Qualifications Experience supporting multiple business units or functions in a shared-services or enterprise environment Experience with data pipeline or ETL processes and working alongside data engineers Experience applying AI and generative-AI tools to accelerate and enhance analytics Familiarity and comfort with executive level communication and presentations The above is intended to describe the general content of and requirements for the performance of this job. It is not to be construed as an exhaustive statement of essential functions, responsibilities, or requirements. The Firm will provide reasonable accommodations as necessary to allow an individual with a disability to apply for and/or perform the essential functions of a position. If you need assistance to accommodate a disability, please contact HR. Compensation And Benefits Employees are entitled to compensation commensurate with skill and experience. The exact compensation will vary based on skills, experience, location, and other factors permitted by law . The expected compensation ranges for this position in various states and jurisdictions are as follows: State of California: $116,000 - $237,000 State of Colorado: $107,000 - $191,000 State of Connecticut: $95,000 - $241,000 State of Illinois: $105,000 - $204,000 State of Maine: $79,000 - $182,000 State of Maryland: $113,000 - $171,000 State of Massachusetts: $116,000 - $222,000 State of Minnesota: $116,000 - $192,000 Jersey City, NJ: $126,000 - $229,000 State of New York: $108,000 - $234,000 State of Vermont: $115,000 - $220,000 State of Virginia: $76,000 - $220,000 State of Washington: $113,000 - $214,000 Washington, D.C.: $150,000 - $220,000 The above salaries do not include a discretionary bonus, however bonus opportunities are non-guaranteed, and are dependent upon individual and firm performance. Full-time employees receive benefits including: medical and dental coverage; life insurance; short-term and long-term disability insurance; pre-tax flexible spending account for certain medical and dependent care expenses; an employee assistance program; Paid Time Off; paid holidays; participation in a retirement plan program after meeting eligibility requirements; and more. Please include a cover letter and resume when applying. EOE/Minority/Female/Disabled/Vet. Principal Applicants Only.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/enterprise-data-analyst-at-husch-blackwell-4444612241",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": 116000,
+      "salary_max": 237000,
+      "tech_tags": [
+        "tableau",
+        "power bi",
+        "python",
+        "sql"
+      ],
+      "score": 60,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Waste Connections",
+      "title": "Data Engineer",
+      "location": "The Woodlands, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-waste-connections-4476696219",
+      "posted_at": "2026-10-14T00:00:00+00:00",
+      "description": "About The Role Waste Connections is seeking a talented Data Engineer to join our Enterprise Data &amp; Analytics team. This role is responsible for designing, building, and supporting modern cloud-based data solutions that enable reporting, analytics, and business decision-making across the organization. The ideal candidate will have experience developing scalable data pipelines, integrating data from multiple sources, and optimizing cloud data platforms. You will work closely with business stakeholders, analysts, architects, and engineering teams to deliver reliable data products and help expand Waste Connections' data capabilities. Key Responsibilities Design, develop, and maintain scalable data pipelines using Databricks, Python, Spark, and SQL. Build and support enterprise data lakehouse solutions on AWS. Integrate and transform data from multiple internal and external sources. Ensure data quality, reliability, security, and governance standards are met. Optimize data processing workloads for performance and cost efficiency. Develop and maintain data models that support reporting and analytics initiatives. Implement CI/CD processes, automation, and Infrastructure-as-Code practices. Monitor and troubleshoot data pipelines and platform performance issues. Collaborate with cross-functional teams to deliver data solutions that support business objectives. Qualifications Required Bachelor's degree in Computer Science, Information Systems, Engineering, or a related field. 2+ years of experience in Data Engineering, Cloud Engineering, or a related technical role. Experience with AWS, Databricks, Python, and SQL. Experience building and supporting ETL/ELT pipelines and modern data architectures. Understanding of data modeling, data integration, and data governance concepts. Strong analytical, problem-solving, communication, and collaboration skills. Preferred Experience with Apache Spark, Delta Lake, and large-scale data platforms. Experience with Terraform, Infrastructure-as-Code, and cloud automation. Familiarity with business intelligence and analytics environments. AWS, Databricks, or related cloud certifications. Waste Connections is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to disability or protected veteran status.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-waste-connections-4476696219",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 2,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "databricks",
+        "spark",
+        "python",
+        "sql",
+        "aws"
+      ],
+      "score": 40,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Aarista Technologies",
+      "title": "Data Analyst",
+      "location": "Houston, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-analyst-at-aarista-technologies-4479171484",
+      "posted_at": "2026-10-15T00:00:00+00:00",
+      "description": "Location: Houston TX or Burnaby BC - hybrid (4 days in 1 day from home) The Data Analyst turns Aarista's clinical, billing and operational data into reporting and insight the business can act on. You will build dashboards, answer ad hoc questions, and keep the data behind them accurate and secure. Because our data includes protected health information (PHI), every part of the role runs inside our HIPAA and SOC 2 controls. Key responsibilities Reporting and dashboards • Build and maintain dashboards and recurring reports for leadership, operations, clinical and revenue cycle teams. • Define metrics and KPIs with stakeholders and document how each one is calculated. • Automate manual reporting so recurring numbers refresh without hand work. Analysis • Answer ad hoc business questions with clear, well-supported findings. • Analyze billing, coding and claims data to spot revenue leakage, denial trends and compliance risk. • Analyze product usage and operational data to inform roadmap and process decisions. • Present results in plain language, with charts and recommendations, to technical and non-technical audiences. Data quality and governance • Write and maintain SQL queries, views and data models that feed reporting. • Validate data accuracy, investigate discrepancies and work with Engineering to fix root causes. • Maintain a data dictionary and document data sources, lineage and report logic in SharePoint. Security and compliance • Handle PHI under the HIPAA minimum-necessary standard; use de-identified or limited datasets wherever possible. • Follow Aarista's SOC 2 access-control and change-management procedures for data and reports. • Support audits and compliance reporting with accurate, reproducible data pulls. Stakeholder support • Take requests through a defined intake process and set clear priorities and timelines. • Train users on self-service reports and dashboards. Required qualifications • 1+ years of experience in a data analyst or business intelligence role. • Strong SQL skills, including joins, window functions and query performance tuning. • Hands-on experience with a BI tool such as Power BI, Tableau or Looker. • Proficiency in Excel, including pivot tables, lookups and modeling. • Experience working with sensitive or regulated data and following access-control procedures. • Clear written and verbal communication, including explaining findings to non-technical audiences. • Bachelor's degree in data analytics, statistics, computer science, health informatics or a related field, or equivalent experience. Preferred qualifications • Experience with healthcare data: EHR/EMR records, claims, CPT/ICD-10 coding or revenue cycle data. • Familiarity with skilled nursing or post-acute care settings. • Working knowledge of HIPAA, including de-identification and minimum-necessary practices. • Python or R for data cleaning, automation and statistical analysis. • Experience with FHIR or HL7 data structures. • Experience with cloud data warehouses and modern data tools (e.g., DataBricks, Microsoft Fabric). About Aarista Aarista Technology builds healthcare software used by clinical teams every day. Our data shapes patient care, revenue and product decisions, and we protect it as carefully as we use it. Aarista Technology LLC is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status or any other protected characteristic.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-analyst-at-aarista-technologies-4479171484",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 1,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "databricks",
+        "tableau",
+        "power bi",
+        "python",
+        "sql"
+      ],
+      "score": 40,
+      "directness": 35
+    }
+  ]
+}
