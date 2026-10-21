@@ -1,0 +1,240 @@
+{
+  "generated_at": "2026-10-21T11:00:16.974877+00:00",
+  "count": 7,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "FWI (FedWriters, Inc.)",
+      "title": "Data Engineer",
+      "location": "Arlington, VA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-fwi-fedwriters-inc-4472762688",
+      "posted_at": "2026-10-20T00:00:00+00:00",
+      "description": "Overview Most data engineering jobs are maintenance. This one is construction. You would be standing up ETL on Databricks and Spark for a National Guard analytics platform that is still being built, designing the models, setting the governance, and deciding how it works rather than inheriting a decade of someone else's decisions. FWI is hiring a Data Engineer to support enterprise data analytics and AI/ML modernization for the National Guard Bureau, part of a larger Office of the Under Secretary of War for Personnel and Readiness (OUSW(P&amp;R)) data analytics program. You will design, build, and maintain the data infrastructure behind a National Guard community data and analytics environment, the pipelines, models, and governance that make enterprise personnel and readiness data usable. This is hands-on pipeline engineering at enterprise scale, on a platform where data quality has direct operational consequences. FWI is expanding rapidly and has been recognized as a 2024, 2025, and 2026 Top Workplace, offering excellent growth opportunities in a collaborative environment. Work Schedule and Location: Hybrid : This role is based in Arlington, Virginia and works on a hybrid schedule, typically 1–2 days on site per week, with the balance remote. We are looking for someone in the National Capital Region who can be on site when the mission calls for it, not only on a fixed schedule. Working alongside the government team in person is part of how this role builds the relationships the work depends on. FWI is expanding rapidly and has been recognized as a 2024, 2025 and 2026 Top Workplace, offering excellent growth opportunities in a collaborative environment . Responsibilities Design, develop, and implement end-to-end data pipelines using ETL processes and technologies including Databricks, Python, Spark, Scala, JavaScript/JSON, and SQL Build and optimize pipelines from scratch, with scalability, reliability, and high-performance processing as first-order requirements Work with cross-functional teams to understand data requirements and design the data models and architectures to meet them Perform data cleansing, integration, and quality assurance to maintain the accuracy and integrity of large datasets Apply big data technologies to process and analyze large datasets efficiently Partner with data scientists, analysts, and government stakeholders to deliver timely, accurate data that supports decision-making Troubleshoot complex data problems and develop practical solutions Implement and enforce data governance policies and procedures, ensuring compliance with regulatory requirements and industry best practice Required Qualifications Active DoD Secret clearance (final, in current scope) Bachelor's or Master's degree in a related field 3+ years of directly related experience as a Data Engineer Proficiency in ETL processes, with firsthand experience across technologies such as Databricks, Python, Spark, Scala, JavaScript/JSON, SQL, and Jupyter Notebooks Demonstrated experience working with large datasets and using big data technologies to process and analyze data efficiently Working understanding of data modeling and visualization, database design principles, and data governance practice Based in the National Capital Region, or willing to relocate, and able to report to the Arlington site as needed U.S. citizenship (required for the clearance) Desired Experience supporting the Department of War mission and familiarity with its associated datasets Prior work in Advana or the War Data Platform API development and integration experience Experience with machine learning models and/or generative AI Experience building in Palantir Foundry, including Workshop, Ontology Manager, and Gaia FWI is an Equal Opportunity Employer, including disability/vets. Why Join Our Team Benefits At FWI, we place the highest importance on creating an exceptional employee experience. You'll have opportunities to achieve your career aspirations through internal promotions, professional development, and other recognition and rewards programs. Join our team and take advantage of the many benefits we offer, including: Health Insurance Dental Insurance Vision Insurance Long-term and Short-term Disability Insurance Life Insurance 401(k) Plan Holiday Pay Paid Time Off Pay Range $115,000 – $125,000 annually , depending on experience, education, and clearance level.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-fwi-fedwriters-inc-4472762688",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 3,
+      "salary_min": 115000,
+      "salary_max": 125000,
+      "tech_tags": [
+        "databricks",
+        "spark",
+        "python",
+        "sql"
+      ],
+      "score": 150,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Amazon",
+      "title": "Data Engineer, Amazon Security Experience",
+      "location": "Seattle, WA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-amazon-security-experience-at-amazon-4481501511",
+      "posted_at": "2026-10-20T00:00:00+00:00",
+      "description": "Description The Amazon Security Experiences (ASE) organization is the data intelligence backbone of Amazon Security. We build and operate the data platform that powers security insights, builder experience analytics, and tooling decisions across Amazon's security ecosystem. Every insight surfaced to security leadership, from builder productivity trends to security issue quality metrics, flows through systems our team designs, builds, and maintains. We operate at scale, processing large volumes of security and operational data daily through hundreds of pipelines consisting of transformations, reporting queries, ingestions, and infrastructure management scripts. Our engineers work directly with source systems across AWS and SDO (Security, Developer, and Operations) data domains to procure data, convert it into structured formats, build large-scale processing pipelines, design analytical data models, and maintain infrastructure with the highest security and compliance standards. We are seeking a Data Engineer I to join our Security Data Intelligence (SDI) team. In this role, you will build and maintain data pipelines that power security analytics across Amazon. Working with well-defined requirements and guidance from senior engineers, you will create physical data models, optimize data pipelines for defined datasets, and deliver reliable, well-documented solutions on schedule. You will partner with teams across ASE, BizOps, MapSec, and other security organizations to implement data ingestion flows and support analytical models that serve the broader Amazon Security organization. Key job responsibilities Learn and apply team-established data processing guidelines and best practices when building and testing pipelines. Measure and improve dataset quality across owned pipelines, identifying issues and proposing solutions to the team. Flag limitations or opportunities in data processing tools to senior engineers for evaluation. Learn and understand the team's existing data architecture, including how security data flows through ingestion, transformation, and serving layers. Build data solutions at the component level within the established team data architecture, following defined logical data models. Create physical data models for assigned datasets, applying appropriate persistence and integration techniques. Understand the implications of implementation decisions (e.g., normalization, distribution) and seek guidance from senior engineers on trade-offs. Write secure, stable, testable, and maintainable code with minimal defects, following team coding standards. Clearly document solutions for ease of use and maintainability by teammates and data consumers. Get all data models, pipeline designs, and code reviewed by senior engineers before deployment. Test code thoroughly and understand the maintenance characteristics, runtime properties, and dependencies of delivered solutions. Build and maintain data pipeline infrastructure for assigned datasets using team-established patterns and tools. Apply basic database optimization techniques such as partitioning, distribution, and indexing as directed. Understand the underlying system infrastructure that data solutions depend on, including differences between data persistence solutions. Follow team guidelines for infrastructure management, security compliance, and automation practices. Solve straightforward, well-defined problems with guidance from senior engineers, for example, building ingestion pipelines for a new security data source where the schema and requirements are defined, or troubleshooting data quality issues in existing datasets by researching root causes and thoroughly resolving defects. Handle problems even outside your own domain by either resolving them or ensuring a clear hand-off to the right owner. Take well-defined requirements and deliver solutions on schedule within assigned scope. Participate in team design, scoping, and prioritization discussions to understand project context. Manage your own task execution effectively, seeking guidance when blocked or uncertain. Communicate progress and dependencies clearly to your team lead and senior engineers. Build good working relationships with teammates, peer engineers, and data consumers across ASE and SDO. Partner effectively with Business Analysts, Data Scientists, and peer SDEs to understand data requirements. Help train and mentor DE interns when applicable. Participate in the interview process. Recognize discordant views and participate in constructive dialogue with peers. Follow team-established best practices for data discovery, naming conventions, and data security. Classify, store, and handle data per Amazon security and compliance policies. Ensure proper access control, data integrity, and auditability for all produced datasets. Track security risks in data handling, mitigate issues, and escalate in a timely manner. Identify data quality issues and pipeline deficiencies in owned components and propose solutions to the team. Participate in code reviews, design discussions, and team planning sessions. Make small improvements to team development processes when directed. Actively seek knowledge of team data architecture and apply learnings to improve your data solutions. Participate in on-call rotation and respond to pipeline incidents following established runbooks and escalation procedures. Understand the maintenance characteristics, runtime properties, and dependencies of team data systems. Contribute to monitoring and alarming setup for owned pipelines with guidance from senior engineers. Document incident resolutions and contribute to runbook updates for owned components. Basic Qualifications 2+ years of data engineering experience Experience with data modeling, warehousing and building ETL pipelines Experience with one or more query language (e.g., SQL, PL/SQL, DDL, MDX, HiveQL, SparkSQL, Scala) Experience with one or more scripting language (e.g., Python, KornShell) Preferred Qualifications Experience with big data technologies such as: Hadoop, Hive, Spark, EMR Experience with any ETL tool like, Informatica, ODI, SSIS, BODI, Datastage, etc. Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life &amp; AD&amp;D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits. USA, WA, Seattle - 101,300.00 - 160,000.00 USD annually Company - Amazon.com Services LLC Job ID: A10582746",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-amazon-security-experience-at-amazon-4481501511",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 2,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "spark",
+        "hadoop",
+        "informatica",
+        "python",
+        "sql",
+        "aws"
+      ],
+      "score": 95,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "DRW",
+      "title": "Data Engineer, Cumberland/Options",
+      "location": "Chicago, IL",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-cumberland-options-at-drw-4341276994",
+      "posted_at": "2026-10-21T00:00:00+00:00",
+      "description": "DRW is a diversified trading firm with over 3 decades of experience bringing sophisticated technology and exceptional people together to operate in markets around the world. We value autonomy and the ability to quickly pivot to capture opportunities, so we operate using our own capital and trading at our own risk. Headquartered in Chicago with offices throughout the U.S., Canada, Europe, and Asia, we trade a variety of asset classes including Fixed Income, ETFs, Equities, FX, Commodities and Energy across all major global markets. We have also leveraged our expertise and technology to expand into three non-traditional strategies: real estate, venture capital and cryptoassets. We operate with respect, curiosity and open minds. The people who thrive here share our belief that it’s not just what we do that matters–it's how we do it. DRW is a place of high expectations, integrity, innovation and a willingness to challenge consensus. About The Team The DRW Cumberland &amp; Options Data Engineering team is essential to developing valuable datasets and scalable data infrastructure critical to our trading operations. We work closely with traders, researchers, and other engineering teams to ensure seamless data flow and accessibility, supporting data-driven decision-making. Our systems are designed to handle large volumes of data, maintain quality and integrity, and provide robust APIs for fast, ergonomic data retrieval. About The Role We are seeking a Data Engineer to join our trading team. This role will be responsible for onboarding, transforming, and curating datasets. You will collaborate closely with traders, researchers, and quantitative developers to support options and delta-one trading strategies. In this role you will: Build, maintain, and manage core trading datasets Implement data quality and control processes Incorporate new data from both internally derived and vendor systems Collaborate with research teams to apply novel ideas to historic data sets Create AI sympathetic annotations to new and existing data sets Qualifications 3+ years of demonstrated experience designing and implementing ingestion pipelines Foundational understanding of the Python data science ecosystem Strong understanding of option and future products and their respective data requirements Strong understanding of financial point-in-time and time-series data and analysis An understanding of the financial data vendor landscape and product offerings Proven expertise in developing data quality control processes to detect gaps or inaccuracies Experience with monitoring, observability, and alerting systems for data pipelines Proven ability to work in an agile, fast-paced environment and handle trading environment demands The annual base salary range for this position is $150,000 to $200,000 depending on the candidate’s experience, qualifications, and relevant skill set. The position is also eligible for an annual discretionary bonus. In addition, DRW offers a comprehensive suite of employee benefits including group medical, pharmacy, dental and vision insurance, 401k (with discretionary employer match), short and long-term disability, life and AD&amp;D insurance, health savings accounts, and flexible spending accounts. For more information about DRW's processing activities and our use of job applicants' data, please view our Privacy Notice at https://drw.com/privacy-notice. California residents, please review the California Privacy Notice for information about certain legal rights at https://drw.com/california-privacy-notice. LI-BL1",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-cumberland-options-at-drw-4341276994",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": 150000,
+      "salary_max": 200000,
+      "tech_tags": [
+        "python"
+      ],
+      "score": 90,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "CloudHive",
+      "title": "Palantir Data Engineer",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/palantir-data-engineer-at-cloudhive-4481587284",
+      "posted_at": "2026-10-20T00:00:00+00:00",
+      "description": "Palantir Data Engineer - Palantir Foundry, AIP, SQL Location: Remote Contract: 12 months initial C2H Rate: $100 - $125 per hour Disclaimer: Candidates must be authorized to work in the United States without the need for current or future visa sponsorship Technology Environment Palantir Foundry: Ontology, Code Repositories, Pipeline Builder, AIP Logic and the Ontology SDK Data: Microsoft SQL Server and Azure SQL Languages: Python, PySpark, SQL and TypeScript AI-first development, with a large language model integrated directly into Foundry for agent-driven engineering Bespoke React applications, plus Foundry-backed APIs serving the company’s internal web platform Integrations with the core operational system, a CRM platform and third-party vendor APIs Cloud: Microsoft Azure Planning and documentation: Jira and Confluence Platform and Data Engineering Develop and extend a large ontology modelling organisations, products, commercial offers and market demand Add new object types, properties and links as data requirements evolve Own ingestion from the operational system, SQL estate, CRM and external vendor feeds, plus the transformations, pipelines and automations built on top Put data quality guardrails in place, including expectations that stop a failing build, freshness monitoring against agreed service levels, and tests that catch subtle issues early Optimise performance through query tuning, indexing, materialisation choices and caching Support incident resolution when pipelines or write-backs fail, which may include a share of on-call cover Writing Back to the System of Record Build and maintain the flow of Foundry outputs back into the primary operational system, including scores, enriched attributes, de-duplicated entities and operational flags Design for safe retries and conflict management Reconcile records when the two systems drift apart APIs, Applications and AI Design the APIs that surface Foundry data in the internal web platform, covering contracts, versioning and the response times an interactive front end needs Build custom applications, with limited reliance on Workshop Develop AIP Logic functions and agentic workflows that reason over the ontology and take action, such as sorting incoming customer requests, detecting pricing trends and highlighting unusual activity Maintain the agent tooling the engineering team relies on, including instructions, tool integrations and validation of agent output",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/palantir-data-engineer-at-cloudhive-4481587284",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": 100000,
+      "salary_max": 125000,
+      "tech_tags": [
+        "spark",
+        "python",
+        "sql",
+        "azure"
+      ],
+      "score": 75,
+      "directness": 35
+    },
+    {
+      "source": "greenhouse",
+      "company": "coinbase",
+      "title": "Software Engineer - Crypto Data Foundations",
+      "location": "Remote - USA",
+      "url": "https://www.coinbase.com/careers/positions/8304038?gh_jid=8304038",
+      "posted_at": "2026-10-20T18:42:39+00:00",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Ready to do the most impactful work of your career? At&amp;nbsp;&lt;a href=&quot;https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain&amp;amp;utm_source=coinbase&quot;&gt;Coinbase&lt;/a&gt;, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn&#39;t a place for complacency, it’s a place to be pushed past your perceived limits. If you&#39;re ready to build the future of finance alongside people who refuse to settle for &quot;good enough,&quot; you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&amp;nbsp;&lt;a href=&quot;https://www.coinbase.com/careers&quot;&gt;learn more about working at Coinbase&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;p class=&quot;mb-2 whitespace-pre-wrap&quot;&gt;The Blockchain Data Platform team within the &lt;a href=&quot;https://www.coinbase.com/careers/product-groups&quot; target=&quot;_blank&quot;&gt;Platform&lt;/a&gt; organization builds an ultra-low-latency indexing platform that ingests, normalizes, and serves data across major blockchains, powering teams across Coinbase and external developers via the Coinbase Developer Platform. We&#39;re a small, high-impact, AI-native team taking a platform-first approach, shipping the primitives, SDKs, and tooling that make blockchain indexing as easy as building on a managed database. You&#39;ll build and operate the distributed systems at the core of this platform, owning services end-to-end from design through production.&lt;/p&gt; &lt;p class=&quot;mb-2 whitespace-pre-wrap&quot;&gt;What you&#39;ll do:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Build and operate distributed systems for real-time blockchain data ingestion, indexing, and query, owning services end-to-end from design docs and data modeling through code, rollout, and observability.&lt;/li&gt; &lt;li&gt;Own delivery of key initiatives such as new chain integrations, migrations, and backfills, driving improvements to latency, reliability, and cost.&lt;/li&gt; &lt;li&gt;Partner with product and platform teams to define data contracts and contribute to SDKs and primitives that drive adoption across Coinbase and external developers.&lt;/li&gt; &lt;li&gt;Execute architecture and performance improvements across the indexing stack, applying strong systems design fundamentals around partitioning, consistency, stream processing, and storage boundaries.&lt;/li&gt; &lt;li&gt;Support engineering quality across the team through code reviews, testing rigor, and leveraging AI tools to ship faster and reduce operational burden.&lt;/li&gt; &lt;/ul&gt; &lt;p class=&quot;mb-2 whitespace-pre-wrap&quot;&gt;Required Skills and Experience:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;2+ years of software engineering experience building and operating distributed or data systems in production.&lt;/li&gt; &lt;li&gt;Solid systems design fundamentals including partitioning, consistency/availability tradeoffs, stream processing, and storage/compute boundaries.&lt;/li&gt; &lt;li&gt;Proficiency in a backend language such as Go and/or Python, with familiarity across technologies like Kafka, gRPC, Redis, S3, ClickHouse, or MongoDB.&lt;/li&gt; &lt;li&gt;Demonstrated ability to turn ambiguous problems into clear designs and shipped solutions with measurable impact.&lt;/li&gt; &lt;li&gt;Blockchain or crypto data experience is a plus, including familiarity with chain data structures, finality, reorgs, RPC nodes, or wallets.&lt;/li&gt; &lt;li&gt;Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality.&lt;/li&gt; &lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;strong&gt;Pay Transparency Notice:&lt;/strong&gt;&lt;strong&gt;&lt;em&gt; &lt;/em&gt;&lt;/strong&gt;Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)).&amp;nbsp;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual base salary range (excluding equity and bonus):&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$152,405&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$179,300 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;ul&gt; &lt;li style=&quot;font-style: italic; font-size: 8pt;&quot;&gt;&lt;strong&gt;&lt;em&gt;Application Limit: &lt;/em&gt;&lt;/strong&gt;Candidates may submit a maximum of 3 applications within a 6-month period.&lt;/li&gt; &lt;li style=&quot;font-style: italic; font-size: 8pt;&quot;&gt;&lt;span style=&quot;font-size: 8pt;&quot;&gt;&lt;em&gt;&lt;strong&gt;Equal Opportunity Employer: &lt;/strong&gt;Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws.&lt;/em&gt;&lt;/span&gt;&lt;/li&gt; &lt;li style=&quot;font-style: italic; font-size: 8pt;&quot;&gt;&lt;span style=&quot;font-size: 8pt;&quot;&gt;&lt;em&gt;&lt;strong&gt;US Applicants: &lt;/strong&gt;View&lt;a href=&quot;https://www.dol.gov/sites/dolgov/files/WHD/legacy/files/eppac.pdf&quot;&gt; Employee Rights&lt;/a&gt;,&lt;a href=&quot;https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12.pdf&quot;&gt; Know Your Rights&lt;/a&gt;, and&lt;a href=&quot;https://static-assets.coinbase.com/e-verify.pdf&quot;&gt; E-Verify&lt;/a&gt; Notice of Participation.&lt;/em&gt;&lt;/span&gt;&lt;/li&gt; &lt;li style=&quot;font-style: italic; font-size: 8pt;&quot;&gt;&lt;span style=&quot;font-size: 8pt;&quot;&gt;&lt;em&gt;&lt;strong&gt;Accommodations: &lt;/strong&gt;If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com.&amp;nbsp;Need screen reading technology?&lt;a href=&quot;https://chromewebstore.google.com/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn&quot;&gt; Click here&lt;/a&gt; to download a free compatible screen reader and view the&lt;a href=&quot;http://www.chromevox.com/tutorial/&quot;&gt;&lt;strong&gt; &lt;/strong&gt;tutorial&lt;/a&gt;.&lt;/em&gt;&lt;/span&gt;&lt;/li&gt; &lt;li style=&quot;font-style: italic; font-size: 8pt;&quot;&gt;&lt;span style=&quot;font-size: 8pt;&quot;&gt;&lt;em&gt;&lt;strong&gt;Data Privacy &amp;amp; Arbitration: &lt;/strong&gt;By submitting your application, you agree to our&lt;a href=&quot;https://www.coinbase.com/legal/applicant_privacy_notice&quot;&gt; Candidate Privacy Notice&lt;/a&gt;. US applicants: By submitting your application, you agree to&lt;a href=&quot;https://www.coinbase.com/legal/application-arbitration-agreement&quot;&gt; Arbitration of Disputes&lt;/a&gt;.&lt;br&gt;&lt;/em&gt;&lt;/span&gt;&lt;/li&gt; &lt;/ul&gt; &lt;div id=&quot;fortidlp-input-element-parent&quot;&gt;&lt;/div&gt;&lt;/div&gt;",
+      "remote": false,
+      "raw_id": "8304038",
+      "extra": {
+        "departments": [
+          "Engineering - Backend"
+        ],
+        "metadata": [
+          {
+            "id": 166433,
+            "name": "Team",
+            "value": "Platform",
+            "value_type": "single_select"
+          },
+          {
+            "id": 11090754,
+            "name": "HM Employee ID (WD)",
+            "value": "211241",
+            "value_type": "short_text"
+          },
+          {
+            "id": 3174030,
+            "name": "Careersite Department (for job postings)",
+            "value": "Engineering",
+            "value_type": "single_select"
+          },
+          {
+            "id": 13234829,
+            "name": "mule_sourcers_counter_custom",
+            "value": "0.0",
+            "value_type": "number"
+          },
+          {
+            "id": 13234830,
+            "name": "mule_recruiters_counter_custom",
+            "value": "0.0",
+            "value_type": "number"
+          }
+        ]
+      },
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 2,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "kafka",
+        "python"
+      ],
+      "score": 75,
+      "directness": 100
+    },
+    {
+      "source": "greenhouse",
+      "company": "airbnb",
+      "title": "Machine Learning Engineer, Assistance Engineering",
+      "location": "Remote-USA",
+      "url": "https://careers.airbnb.com/positions/7826337?gh_jid=7826337",
+      "posted_at": "2026-10-20T21:06:05+00:00",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif; font-size: 12pt;&quot;&gt;Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; color: #000000;&quot;&gt;&lt;strong&gt;The Community You Will Join: &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color: #000000; font-family: arial, helvetica, sans-serif;&quot;&gt;Machine Learning and Artificial Intelligence are at the heart of the Airbnb product. From Trust to Payments, and from Customer Service to Marketing we rely on ML to ensure that guests and hosts have the best possible experience with Airbnb.&amp;nbsp;&lt;br&gt;The Core ML team in Assistance Engineering is the team responsible for adopting the Agentic AI technologies to enable an intelligent, scalable and exceptional customer service experience. We are responsible for developing the Chat AI assistant, Voice AI Assistant and more! The team is constantly exploring the SOTA Agentic architecture, develops and enhances various AI models, ML services and leverages tools including SFT, Reinforcement learning, Distillation, RAG/Search, &amp;nbsp;LLM evaluation and testing automation, feedback-based learning and guardrail for a wide range of applications in Airbnb.&amp;nbsp;&lt;br&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; color: #000000;&quot;&gt;&lt;strong&gt;The Difference You Will Make:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;We believe our current customer experiences in these domains are only scratching the surface of the innovations that are possible, and that science is at the heart of delivering a step-function change for our Guest and and Host on Airbnb.&amp;nbsp;&lt;br&gt;You will build and leverage cutting edge AI technologies to transform Airbnb’s customer service by delivering personalized, easy-to-use and proactive customer service experience.&amp;nbsp;&lt;br&gt;Many of the initiatives you’ll tackle are in their early conceptual stages. You will have the opportunity to shape these ideas from inception to production, turning visionary concepts into impactful realities.&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; color: #000000;&quot;&gt;&lt;strong&gt;A Typical Day:&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Champion the development of novel ML systems, product integrations, and performance optimizations to solve real-world problems&lt;/li&gt; &lt;li&gt;Work cross-functionally with product, design, and other engineering counterparts to design and build efficient AI solutions for Airbnb CS products&lt;/li&gt; &lt;li&gt;Learn and share the latest AI/ML technologies with the team.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; color: #000000;&quot;&gt;&lt;strong&gt;Your Expertise:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;PhD or Master&#39;s degree w/ 3+ YOE in Computer Science, Machine Learning, Artificial Intelligence, or a related technical field — or equivalent industry experience&lt;/li&gt; &lt;li&gt;Hands-on expertise in LLM, including pretraining, fine-tuning (SFT, RLHF, GRPO), prompt engineering, RAG architectures, and LLM evaluation frameworks&lt;/li&gt; &lt;li&gt;Experience building Agentic AI systems — including multi-agent orchestration, tool-use, planning, memory, and autonomous reasoning pipelines (e.g., ReAct, LangGraph, AutoGen, or similar)&lt;/li&gt; &lt;li&gt;Experience of shipping production-grade ML/AI systems at scale, with deep understanding of ML infrastructure, model serving, and MLOps best practices&lt;/li&gt; &lt;li&gt;Excellent communication skills with the ability to collaborate effectively across Engineering, Product, and Design organizations&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color: #000000; font-family: arial, helvetica, sans-serif;&quot;&gt;&lt;strong&gt;Your Location:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; color: #000000;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;This position is US - Remote Eligible. The role may include occasional work at an Airbnb office or attendance at offsites, as agreed to with your manager. While the position is Remote Eligible, you must live in a state where Airbnb, Inc. has a registered entity. &lt;a style=&quot;color: #000000;&quot; href=&quot;https://careers.airbnb.com/&quot;&gt;Click here for the up-to-date list of excluded states. This list is continuously evolving, so please check back with us if the state you live in is on the exclusion list.&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; If your position is employed by another Airbnb entity, your recruiter will inform you what states you are eligible to work from.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; color: #000000;&quot;&gt;&lt;strong&gt;Our Commitment To Inclusion &amp;amp; Belonging:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: 400; font-family: arial, helvetica, sans-serif; color: #000000;&quot;&gt;Airbnb is committed to working with the broadest talent pool possible. We believe diverse ideas foster innovation and engagement, and allow us to attract creatively-led people, and to develop the best products, services and solutions. All qualified individuals are encouraged to apply.&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; color: #000000;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We strive to also provide a disability inclusive application and interview process. If you are a candidate with a disability and require reasonable accommodation in order to submit an application, please contact us at: &lt;/span&gt;&lt;a style=&quot;color: #000000;&quot; href=&quot;mailto:reasonableaccommodations@airbnb.com&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;reasonableaccommodations@airbnb.com&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. Please include your full name, the role you’re applying for and the accommodation necessary to assist you with the recruiting process.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: 400; font-family: arial, helvetica, sans-serif; color: #000000;&quot;&gt;We ask that you only reach out to us if you are a candidate whose disability prevents you from being able to complete our online application.&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Equal Employment Opportunity: &lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Airbnb values diversity &amp;amp; belonging and is proud to be an Equal Employment Opportunity employer. All individuals seeking employment at Airbnb are considered without regard to race, color, religion, national origin, age, gender, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, gender expression, sexual orientation, or any other legally protected characteristic.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; color: rgb(0, 0, 0);&quot;&gt;How We&#39;ll Take Care of You:&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Our job titles may span more than one career level. The actual base pay is dependent upon many factors, such as: training, transferable skills, work experience, business needs and market demands. The base pay range is subject to change and may be modified in the future. This role may also be eligible for bonus, equity, benefits, and Employee Travel Credits. &amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Pay Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$162,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$186,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif; font-size: 12pt;&quot;&gt;&lt;strong&gt;Reasonable Accommodations:&lt;/strong&gt; We are committed to providing reasonable accommodations throughout the recruitment process for applicants with disabilities. If you need assistance, or an accommodation, please let your recruiter know once you are contacted about a role.&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif; font-size: 12pt;&quot;&gt;&lt;strong&gt;A Note on Recruiting Scams:&lt;/strong&gt; Scammers sometimes pose as Airbnb recruiters to get money or personal information from candidates. A few things that will always be true for Airbnb’s hiring process: our open roles are posted on Airbnb’s Career’s Page at careers.airbnb.com, and our recruiters correspond only from @&lt;a href=&quot;http://airbnb.com&quot;&gt;airbnb.com&lt;/a&gt; or @&lt;a href=&quot;http://ext.airbnb.com&quot;&gt;ext.airbnb.com&lt;/a&gt; email addresses. Our recruiters will never ask for your Social Security number, bank account details, passport, or payment app information while you are interviewing.&amp;nbsp; We’ll also never ask you to pay a fee, send money, deposit or cash a check, or purchase work-related equipment (such as a company laptop) during the interview process. We encourage candidates to remain vigilant of these recruiting scams and not share sensitive information if you do not believe an individual is actually affiliated with Airbnb.&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+      "remote": false,
+      "raw_id": "7826337",
+      "extra": {
+        "departments": [
+          "Software Engineering"
+        ],
+        "metadata": [
+          {
+            "id": 9245691,
+            "name": "Is this job part of ACC?",
+            "value": false,
+            "value_type": "yes_no"
+          },
+          {
+            "id": 10216612,
+            "name": "Workplace Type",
+            "value": "Remote",
+            "value_type": "single_select"
+          }
+        ]
+      },
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [],
+      "score": 70,
+      "directness": 100
+    },
+    {
+      "source": "linkedin",
+      "company": "Agility Partners",
+      "title": "Data Engineer",
+      "location": "Carmel, IN",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-agility-partners-4481721624",
+      "posted_at": "2026-10-20T00:00:00+00:00",
+      "description": "Agility Partners is seeking a qualified Engineer to fill an open position with one of our clients in the energy industry. This is an exciting opportunity to build and enhance cloud-based data platforms, backend services, and AI-enabled applications that support data-driven business solutions. The ideal candidate will combine data engineering and software development expertise to create reliable data pipelines, scalable APIs, and integrated analytics capabilities using modern Azure technologies. A Little About This Gig Design, develop, and maintain scalable data pipelines and orchestration workflows using Azure Data Factory, Azure Synapse, Azure Data Lake Storage Gen2, SQL, and Python. Build and support backend services, REST APIs, and application integrations using Python, FastAPI, Azure Functions, and containerized solutions. Implement data quality checks, validation frameworks, automated testing, and CI/CD processes to improve reliability and streamline deployment. Integrate machine learning and AI capabilities into data platforms and applications, including feature pipelines, model-serving APIs, and agentic architectures. The Ideal Candidate Hands-on experience with data engineering tools and technologies, including Azure Data Factory, Azure Synapse, Azure Data Lake Storage Gen2, SQL, and Python. Experience developing and maintaining data pipelines, orchestration workflows, and data integration solutions. Proficiency in Python-based software development, including building backend services and REST APIs with frameworks such as FastAPI. Familiarity with Azure Functions, containerized services, and cloud-based application architecture. Experience with GitHub, CI/CD pipelines, automated testing, and software deployment best practices. Understanding of asynchronous or event-driven architectures and integrating applications with data platforms.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-agility-partners-4481721624",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "python",
+        "sql",
+        "azure"
+      ],
+      "score": 65,
+      "directness": 35
+    }
+  ]
+}
