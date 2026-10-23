@@ -1,0 +1,209 @@
+{
+  "generated_at": "2026-10-23T10:53:19.141800+00:00",
+  "count": 7,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "JPMorganChase",
+      "title": "Software Engineer II - Data Engineer/Applied AI (LLMs)",
+      "location": "Plano, TX",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-ii-data-engineer-applied-ai-llms-at-jpmorganchase-4478648276",
+      "posted_at": "2026-10-20T00:00:00+00:00",
+      "description": "Job Description You're ready to gain the skills and experience needed to grow within your role and advance your career — and we have the perfect software engineering opportunity for you. As a Data Engineering &amp; Applied AI Software Engineer II at JPMorganChase within the Asset &amp; Wealth Management, you are an integral part of an agile team that works to enhance, build, and deliver trusted market-leading technology products in a secure, stable, and scalable way. As a core technical contributor, you are responsible for conducting critical technology solutions across multiple technical areas within various business functions in support of the firm's business objectives. Job Responsibilities Executes standard software solution, design, development, and technical troubleshooting Writes secure and high-quality code using the syntax of at least one programming language with limited guidance Leverages enterprise-authorized AI coding assist tools within the work environment to improve code quality, delivery speed, and productivity (e.g., code generation/refactoring, unit test creation, documentation), while validating outputs through peer review, automated testing, and secure coding standards. Designs, develops, codes, and troubleshoots with consideration of upstream and downstream systems and technical implications Hands on design and development of agentic production data platform with full stack application ownership. AI first mindset in developing code using Claude Code, building agents to make application/platform autonomous. Develop AI skills, agents, MCP server in support of product capabilities to deliver business value Applies knowledge of tools within the Software Development Life Cycle toolchain, including enterprise-authorized AI-assisted development and automation capabilities, to improve the value realized by automation Applies technical troubleshooting to breakdown solutions and solve technical problems of basic complexity Gathers, analyzes, and draws conclusions from large, diverse data sets to identify problems and contribute to decision-making in service of secure, stable application development Learns and applies system processes, methodologies, and skills for the development of secure, stable code and systems Required Qualifications, Capabilities, And Skills Formal training or certification on software engineering concepts and 2+ years applied experience Hands-on experience using enterprise-authorized AI-assisted software development tools within the work environment (e.g., for coding, testing, troubleshooting, or documentation) with demonstrated ability to critically evaluate and validate AI-generated outputs. Understanding of responsible AI use in engineering workflows, including data sensitivity considerations, secure handling of inputs/outputs, and adherence to resiliency and security expectations. Frontend: React or Angular with TypeScript. Backend: Python, Java, or Kotlin with REST or GraphQL. Data Engineering/Platform: Spark, Kafka, Airflow, Snowflake, and AWS. Platform engineering: containers, CI/CD, observability, and controlled release practices. Applied AI with LLMs: Claude Code, Agent, Skills, RAG, embeddings, prompt or configuration management, evaluation and guardrails, and agent tool or function calling Preferred Qualifications, Capabilities, And Skills Preferred financial services or Wealth Management experience, data governance or data management domain expertise, and experience evaluating and enterprise-hardening open-source software Bachelor's degree required. Advanced degree is a plus ABOUT US JPMorganChase, one of the oldest financial institutions, offers innovative financial solutions to millions of consumers, small businesses and many of the world's most prominent corporate, institutional and government clients under the J.P. Morgan and Chase brands. Our history spans over 200 years and today we are a leader in investment banking, consumer and small business banking, commercial banking, financial transaction processing and asset management. We offer a competitive total rewards package including base salary determined based on the role, experience, skill set and location. Those in eligible roles may receive commission-based pay and/or discretionary incentive compensation, paid in the form of cash and/or forfeitable equity, awarded in recognition of individual achievements and contributions. We also offer a range of benefits and programs to meet employee needs, based on eligibility. These benefits include comprehensive health care coverage, on-site health and wellness centers, a retirement savings plan, backup childcare, tuition reimbursement, mental health support, financial coaching and more. Additional details about total compensation and benefits will be provided during the hiring process. We recognize that our people are our strength and the diverse talents they bring to our global workforce are directly linked to our success. We are an equal opportunity employer and place a high value on diversity and inclusion at our company. We do not discriminate on the basis of any protected attribute, including race, religion, color, national origin, gender, sexual orientation, gender identity, gender expression, age, marital or veteran status, pregnancy or disability, or any other basis protected under applicable law. We also make reasonable accommodations for applicants' and employees' religious practices and beliefs, as well as mental health or physical disability needs. Visit our FAQs for more information about requesting an accommodation. JPMorgan Chase &amp; Co. is an Equal Opportunity Employer, including Disability/Veterans About The Team J.P. Morgan Asset &amp; Wealth Management delivers industry-leading investment management and private banking solutions. Asset Management provides individuals, advisors and institutions with strategies and expertise that span the full spectrum of asset classes through our global network of investment professionals. Wealth Management helps individuals, families and foundations take a more intentional approach to their wealth or finances to better define, focus and realize their goals. Our Asset and Wealth Management division is driven by innovators like you who are driven to create technology solutions that make us work more efficiently and help our businesses grow. It's our mission to efficiently take care of our clients' wealth, helping them get, and remain properly invested. Our team of agile technologists thrive in a cloud-native environment that values continuous learning using a data-centric approach in developing innovative technology solutions.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/software-engineer-ii-data-engineer-applied-ai-llms-at-jpmorganchase-4478648276",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 2,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "spark",
+        "airflow",
+        "kafka",
+        "python",
+        "aws"
+      ],
+      "score": 125,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Deloitte",
+      "title": "Databricks Data Engineer",
+      "location": "Pittsburgh, PA",
+      "url": "https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4473920782",
+      "posted_at": "2026-10-22T00:00:00+00:00",
+      "description": "Join Deloitte's Core AI &amp; Data practice and help organizations modernize data platforms, strengthen enterprise data foundations, and scale analytics and artificial intelligence capabilities. As a Databricks Data Engineer, you will support the design, build, and optimization of cloud-based data engineering solutions that enable large-scale transformation. You will work with business and technology teams to modernize data environments, support analytics and artificial intelligence use cases, and deliver measurable business outcomes. This role offers the opportunity to help clients implement enterprise-scale Databricks solutions that improve platform performance and expand data-driven decision-making. Recruiting for this role ends on 10/30/2026. Work you'll do As a Data Engineer II on the AI &amp; Data team, you will be responsible for: Design, build, and maintain data pipelines and data engineering solutions using Databricks, Apache Spark, Python, and Structured Query Language (SQL) Support the modernization of enterprise data platforms by implementing cloud-based ingestion, transformation, and storage patterns Develop and maintain batch and streaming data workflows that support reporting, analytics, and artificial intelligence use cases Apply data architecture, integration, and data modeling practices to improve data quality, scalability, and platform performance Collaborate with client and Deloitte teams to troubleshoot issues, implement enhancements, and support delivery of large-scale data transformation programs A successful candidate would possess these skills: Ability to work independently and collaborate as part of a team Effective written and verbal communication skills Meticulous attention to detail and quality of work product Ability to build and sustain professional relationships Ability to lead projects or workstreams Ability to manage and prioritize multiple tasks in a fast-paced and dynamic environment Strong interpersonal skills and professional demeanor Ability to meet deadlines Ability to provide clear guidance to others The team Deloitte's Core AI &amp; Data practice helps organizations modernize data platforms, strengthen enterprise data foundations, and scale analytics and artificial intelligence capabilities across the business. The team works with clients to architect, engineer, and deploy cloud-based data solutions that improve decision-making, enable innovation, and support large-scale transformation. Practitioners collaborate across business and technology functions to solve complex challenges in data modernization, governance, platform engineering, and insight delivery. Qualifications Required: Bachelor's degree in Computer Science, Engineering, Information Systems, Data Science, Mathematics, or Statistics 3+ years of experience in data engineering, extract, transform, load (ETL) development, or data platform engineering 2+ years of experience building data pipelines in Databricks using Apache Spark, Python, and Structured Query Language (SQL) Experience implementing data models, data integration patterns, and cloud-based data processing workflows Experience working with at least one cloud platform: Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP) Ability to travel 50%, on average, based on the work you do and the clients and industries/sectors you serve. Limited immigration sponsorship may be available. Preferred: Experience with Delta Lake, Databricks Workflows, and Unity Catalog Experience using Git-based version control and continuous integration/continuous deployment pipelines Experience supporting batch and streaming data workloads Experience with data warehousing, lakehouse architecture, and performance optimization Experience supporting analytics or machine learning data pipelines Experience working in consulting or client service delivery environments The wage range for this role takes into account the wide range of factors that are considered in making compensation decisions including but not limited to skill sets; experience and training; licensure and certifications; and other business and organizational needs. The disclosed range estimate has not been adjusted for the applicable geographic differential associated with the location at which the position may be filled. At Deloitte, it is not typical for an individual to be hired at or near the top of the range for their role and compensation decisions are dependent on the facts and circumstances of each case. A reasonable estimate of the current range is $86,700 to $170,900. Information for applicants with a need for accommodation: https://www2.deloitte.com/us/en/pages/careers/articles/join-deloitte-assistance-for-disabled-applic...",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4473920782",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": 86700,
+      "salary_max": 170900,
+      "tech_tags": [
+        "databricks",
+        "spark",
+        "python",
+        "sql",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "score": 95,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "i4DM",
+      "title": "Azure Data Integration Engineer",
+      "location": "Millersville, MD",
+      "url": "https://www.linkedin.com/jobs/view/azure-data-integration-engineer-at-i4dm-4481640201",
+      "posted_at": "2026-10-23T00:00:00+00:00",
+      "description": "Description About the Role: We are seeking an experienced Azure Data Integration Engineer to support ATLAS, the VA’s open-architected, multi-cloud enterprise data management and analytics platform. In this role, you will design, develop, and maintain scalable Azure-based pipelines and ETL/ELT solutions that ingest, condition, curate, and transform multi-source data into standardized, consumable enterprise data products. You will use Azure Data Factory, Synapse, Databricks, Azure Data Lake, and related services to improve interoperability among key data platforms and provide consistent, secure access to trusted data regardless of its source or stage of curation. Working with analysts, data scientists, product teams, and enterprise users, you will help deliver actionable insights that enable evidence-based decisions and improve outcomes for Veterans and their families. This hands-on role combines data integration engineering, cloud data architecture, governance, performance optimization, and analytics enablement across the ATLAS ecosystem. Key Responsibilities As part of an Agile team, our Azure Data Engineer will: Design and implement scalable, secure, and efficient data pipelines using Azure Data Factory (ADF). Develop and optimize ETL processes to ingest, transform, and store data in Azure Data Lake, SQL, and Synapse Analytics. Automate data ingestion from structured and unstructured sources like APIs, databases, and IoT streams. Build and maintain data lakes, warehouses, and lakehouses using Azure Data Lake, Synapse, and Databricks. Optimize storage and retrieval of data using Parquet, Delta Lake, and columnar storage formats. Ensure high availability, scalability, and performance tuning for large-scale datasets. Implement batch and real-time data streaming solutions using Azure Stream Analytics, Event Hub, and Kafka. Work with big data processing frameworks such as Apache Spark (Databricks) and HDInsight. Integrate data from various sources like SQL Server, CosmosDB, SAP, and third-party APIs. Implement data security best practices, including RBAC, Azure AD, Managed Identities, and Key Vault. Work with Purview, Data Catalog, and metadata management tools to enforce data governance. Monitor and troubleshoot data pipeline performance using Azure Monitor, Log Analytics, and Application Insights. Optimize query performance in Synapse Analytics, SQL, and CosmosDB. Automate data quality checks, anomaly detection, and alerting mechanisms. Work closely with BI Developers and Cloud Engineers to support analytics and AI/ML use cases. Participate in Agile/Scrum ceremonies, design reviews, and technical discussions. Document data flows, best practices, and architecture decisions. Design, develop, and optimize Power BI dashboards and reports for business intelligence and analytics. Create interactive visualizations using advanced DAX, Power Query (M), and custom visuals. Develop paginated reports using Power BI Report Builder Ensure compliance with cloud security best practices and industry standards (ISO 27001, GDPR, HIPAA). Automate deployments with Azure DevOps, GitHub Actions, and CI/CD pipelines. Work closely with Cloud Engineers and DevOps teams to optimize deployment strategies. Collaborate with software engineers, architects, and DevOps teams to build robust applications. Participate in code reviews, sprint planning, and Agile/Scrum ceremonies. Document technical solutions and best practices. Tag TAG: INDMJC Requirements Minimum Qualifications: Bachelor’s degree in computer science or a related technical field. Minimum of five (5) years of practical experience in cloud application development with Microsoft Azure. Expertise in Azure Data Factory (ADF), Synapse Analytics, Data Lake, Databricks, DAX, Power Query (M), and data modeling. Strong SQL skills with experience in T-SQL, query optimization, and database performance tuning. Experience in big data processing using Apache Spark, Python, or Scala. Experience integrating Power BI with Azure SQL, Data Lake, and Synapse Analytics. Understanding of ETL processes, data warehousing, and BI best practices. Strong knowledge of Row-Level Security (RLS) and Power BI service administration. Hands-on experience with real-time data streaming (Kafka, Event Hub, Stream Analytics). Familiarity with DevOps for data pipelines, CI/CD, and Infrastructure as Code (Terraform, Bicep). Knowledge of Azure AD authentication, security best practices, and cloud monitoring. Ability to obtain and maintain a Public Trust or Suitability/Fitness determination based on client requirements Knowledge of Agile, Scrum, and SAFe methodologies. Careful, reliable, and detail-oriented when performing high impact administration tasks Experience with Synapse Pipelines, Starburst, Azure Data Lake Service, Collibra for data cataloging, Azure ML/AI services, and Pyramid Analytics for visualization. Preferred Qualifications Microsoft Certified: Azure Data Engineer Associate (DP-203) Microsoft Certified: Power BI Data Analyst Associate (PL-300) Experience with CosmosDB, Delta Lake, and NoSQL solutions. Knowledge of Machine Learning and AI integration with data pipelines. Familiarity with Power BI, Looker, or Tableau for data visualization. Knowledge of Azure architecture such as Azure services and portal, Azure Government Cloud, SQL Administrator, SQL reporting, APIs, authorization methods for applications and APIs, migrating SQL schemas and data between environments Experience in embedded analytics and Power BI API integration. Benefits Comprehensive healthcare coverage, HSA Plan, Life and Disability Insurance, and Retirement Savings Plan.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/azure-data-integration-engineer-at-i4dm-4481640201",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "databricks",
+        "spark",
+        "kafka",
+        "tableau",
+        "power bi",
+        "python",
+        "sql",
+        "azure"
+      ],
+      "score": 90,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "IEHP",
+      "title": "Data Engineer II",
+      "location": "Rancho Cucamonga, CA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-ii-at-iehp-4386998726",
+      "posted_at": "2026-10-20T00:00:00+00:00",
+      "description": "What you can expect! Find joy in serving others with IEHP! We welcome you to join us in “healing and inspiring the human spirit” and to pivot from a “job” opportunity to an authentic experience! The Data Engineer II assists in the implementation of methods to improve data reliability and quality. This role is responsible for combining raw information from different sources to create consistent and machine-readable formats. The Data Engineer II must also develop and test architectures that enable data extraction and transformation for predictive or prescriptive modeling. The Data Engineer II will focus on data accessibility, which will enable the organization to utilize data for performance evaluation and optimization. The data Engineer II is also responsible for managing the entire back-end development life cycle for the company's enterprise data warehouse. In this role the incumbent will handle tasks associated with the implementation of ETL procedures, building warehouse databases, database performance management, and dimensional modeling and design of the table structures. Commitment to Quality: The IEHP Team is committed to incorporate IEHP’s Quality Program goals including, but not limited to, HEDIS, CAHPS, and NCQA Accreditation. Perks IEHP is not only committed to healing and inspiring the human spirit of our Members, but we also aim to match our team members with the same energy by providing prime benefits and more. Competitive salary. Hybrid schedule. State of the art fitness center on-site. Medical Insurance with Dental and Vision. Life, short-term, and long-term disability options Career advancement opportunities and professional development. Wellness programs that promote a healthy work-life balance. Flexible Spending Account – Health Care/Childcare CalPERS retirement 457(b) option with a contribution match Paid life insurance for employees Pet care insurance Education &amp; Requirements Four (4) years of relevant work experience. Experience and knowledge in logical, rational, dimensional, and physical data modeling. Background in database systems along with a strong knowledge of SQL. Experience with Orchestration tools, Azure DevOps, and CI/CD. Intermediate experience with the following tools and technologies: Azure Data Catalogue / Purview Azure Cloud Databricks Power BI Dataflows Power Query Azure Cosmos Azure Monitor PowerShell Python Development experience using PySpark, Spark, Hadoop, Kubernetes, and RDMIS is highly desired Bachelor's degree from an accredited institution required Master’s degree from an accredited institution preferred Azure Data Engineering Certification is preferred Key Qualifications Multi-server environment knowledge such as linked servers, data replication, backup/restore with MS SQL Server 2008+ Knowledge of applicable data privacy practices and laws Highly skilled in developing and optimizing T-SQL (DDL, DML, DCL) queries, stored procedures, functions, and views for various applications that involve numerous database tables and complex business logic Good written and oral communication skills Strong technical documentation skills Good interpersonal skills Highly self-motivated and directed Keen attention to detail Proven analytical and problem-solving abilities Ability to effectively prioritize and execute tasks in a high-pressure environment Start your journey towards a thriving future with IEHP and apply TODAY! Pay Range $104,041.60 USD Annually - $137,841.60 USD Annually",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-ii-at-iehp-4386998726",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "databricks",
+        "spark",
+        "hadoop",
+        "power bi",
+        "python",
+        "sql",
+        "azure",
+        "kubernetes"
+      ],
+      "score": 75,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "PwC",
+      "title": "Forward Deployed Data Engineering - Experienced Associate",
+      "location": "Chicago, IL",
+      "url": "https://www.linkedin.com/jobs/view/forward-deployed-data-engineering-experienced-associate-at-pwc-4453653959",
+      "posted_at": "2026-10-20T00:00:00+00:00",
+      "description": "The Opportunity As a Forward Deployed Data Engineering - Experienced Associate, you will be at the forefront of developing innovative software solutions to drive digital transformation and enhance business performance. Within our Tax practice, you will combine technical experience with creative thinking to deliver software products that meet the evolving needs of clients. As an Associate, you will focus on learning and contributing to client engagement and projects while developing your skills and knowledge to deliver quality work. You will be exposed to clients to learn how to build meaningful client connections, manage and inspire others, and grow your personal brand by deepening your technical knowledge of firm services and technology resources. In this role, you will design, code, and test applications that revolutionize industries and deliver exceptional user experiences. You will be expected to adapt to working with a variety of clients and team members, each presenting unique challenges and scope. Every experience is an opportunity to learn and grow, taking ownership and consistently delivering work that drives value for our clients and success as a team. Embrace the chance to build a brand for yourself, opening doors to more opportunities within the firm. Responsibilities Developing innovative software solutions to drive digital transformation and enhance business performance Designing, coding, and testing applications to deliver exceptional user experiences Collaborating with team members to gather and analyze business requirements for software development projects Applying programming languages and scripting skills to create efficient and scalable software systems Utilizing API management and enterprise application integration techniques to streamline software functionality Conducting code reviews and adhering to coding standards to maintain quality software development Implementing continuous integration and continuous delivery (CI/CD) practices to optimize software deployment processes Debugging and troubleshooting software issues to validate smooth operation and performance Engaging in quality assurance testing to validate software functionality and reliability Participating in software project management activities to align with project timelines and deliverables Building a personal brand by consistently delivering quality work and contributing to team success Embracing opportunities for learning and growth by actively seeking feedback and reflecting on experiences Adapting to diverse client needs and team dynamics in a fast-paced environment Upholding professional and technical standards, including the Firm's code of conduct and independence requirements What You Must Have At least a Bachelor's degree At least 1 years of experience What Sets You Apart Demonstrating proficiency in Python and scripting languages Utilizing Continuous Integration/Continuous Delivery (CI/CD) methodologies Applying API Management and Enterprise Application Integration skills Excelling in Business Requirements Analysis and Code Review Developing software using Object-Oriented Design (OOD) principles Engaging in Quality Assurance Testing and Software Troubleshooting Adapting to diverse client needs and fast-paced environments The salary range for this position is: $63,000 - $153,000. Actual compensation within the range will be dependent upon the individual's skills, experience, qualifications and location, and applicable employment laws. All hired individuals are eligible for an annual discretionary bonus. PwC offers a wide range of benefits, including medical, dental, vision, 401k, holiday pay, vacation, personal and family sick leave, and more. To view our benefits at a glance, please visit the following link: https://pwc.to/benefits-at-a-glance As PwC is an equal opportunity employer, all qualified applicants will receive consideration for employment at PwC without regard to race; color; religion; national origin; sex (including pregnancy, sexual orientation, and gender identity); age; disability; genetic information (including family medical history); veteran, marital, or citizenship status; or, any other status protected by law. PwC does not intend to hire experienced or entry level job seekers who will need, now or in the future, PwC sponsorship through the H-1B lottery, except as set forth within the following policy: https://pwc.to/H-1B-Lottery-Policy. Learn more about how we work: https://pwc.to/how-we-work For only those qualified applicants that are impacted by the Los Angeles County Fair Chance Ordinance for Employers, the Los Angeles' Fair Chance Initiative for Hiring Ordinance, the San Francisco Fair Chance Ordinance, San Diego County Fair Chance Ordinance, and the California Fair Chance Act, where applicable, arrest or conviction records will be considered for Employment in accordance with these laws. At PwC, we recognize that conviction records may have a direct, adverse, and negative relationship to responsibilities such as accessing sensitive company or customer information, handling proprietary assets, or collaborating closely with team members. We evaluate these factors thoughtfully to establish a secure and trusted workplace for all.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/forward-deployed-data-engineering-experienced-associate-at-pwc-4453653959",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 1,
+      "salary_min": 63000,
+      "salary_max": 153000,
+      "tech_tags": [
+        "python"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "System One",
+      "title": "AWS Lakehouse Data Engineer",
+      "location": "McLean, VA",
+      "url": "https://www.linkedin.com/jobs/view/aws-lakehouse-data-engineer-at-system-one-4482750332",
+      "posted_at": "2026-10-22T00:00:00+00:00",
+      "description": "J ob Title: AWS Lakehouse Data Engineer Work Model: Remote – offsite Responsibilities Build and operate data pipelines (batch and streaming) from APIs, relational databases, file drops, event streams, and external partners. Design, implement, test, and optimize ETL/ELT pipelines using Python and PySpark to produce analytics-ready datasets for reporting, visualization, and machine learning. Implement incremental processing, change data capture (CDC), data contracts, schema validation, and reusable transformation frameworks. Improve pipeline reliability through automated testing, orchestration, monitoring, retries, and operational runbooks. Design and implement a Delta Lakehouse-style data platform on AWS using native services to provide Databricks-like capabilities for data engineering, analysis, and data visualization. Build and manage a scalable lakehouse on Amazon S3 using Apache Iceberg and open columnar formats such as Apache Parquet. Implement SQL-like table reliability features including ACID transactions, schema evolution, snapshot isolation, and time travel using Apache Iceberg. Enable fast, interactive queries of lakehouse data via AWS-native services like Amazon Athena, Amazon EMR, AWS Glue, and Amazon Redshift where appropriate. Optimize performance and cost through partitioning, file sizing, caching, lifecycle policies, and separating compute from storage. Establish standardized environments for development, testing, and production with consistent configuration and controlled promotion. Implement data governance, access control, lineage, and quality measures utilizing AWS-native services including AWS Lake Formation, AWS Glue Data Catalog, IAM, KMS. Create a metadata repository with cataloging, ownership, classification, tagging, and discoverability features. Enable end-to-end data lineage for audit and regulatory compliance. Apply policy-based access, least privilege, data classification, retention, encryption, and secure handling controls. Build data quality checks for freshness, completeness, validity, and anomaly detection, and publish SLA/SLO metrics. Automate AWS provisioning with Infrastructure as Code (IaC), develop CI/CD pipelines for data components, and ensure platform observability. Work collaboratively with cross-functional teams and maintain high-quality engineering documentation. Requirements Bachelor's degree in Engineering, Information Technology, Computer Science, Data Engineering, or related field, or four (4) years of equivalent practical experience. Six (6) years of relevant experience. Hands-on experience building AWS-native data lake or lakehouse architectures on Amazon S3. Strong experience developing production ETL/ELT pipelines with Python and PySpark, including data modeling, transformation, and performance tuning. Hands-on experience with Apache Iceberg, including ACID transactions, schema evolution, time travel, and query optimization. Advanced SQL skills supporting analytical workloads, reporting, and data visualization. Proven experience with data governance, cataloging, lineage, and access control using AWS services. Knowledge of AWS security fundamentals: IAM, KMS, secrets management, network security, logging, SDLC. Proven experience with Infrastructure as Code (IaC) and operating data platforms across environments. Experience with CI/CD pipelines for data workflows with testing, deployment, environment promotion, and rollback. Troubleshooting distributed data workloads, performance optimization, and cost management skills. Excellent collaboration and communication skills to coordinate with cross-team stakeholders. Would Be Nice to Have Experience with Databricks, Delta Lake, migrating workloads to AWS-native services, and Apache Iceberg. Familiarity with AWS Step Functions, MWAA, Kinesis, DMS, Lambda, MSK, or similar services. Experience with modern DevOps tools: Git, Terraform, CloudFormation, Jenkins, CodePipeline, GitHub Actions, Docker. Knowledge of BI and visualization tools like Amazon QuickSight, Tableau, Power BI. Familiarity with AI-assisted coding tools such as GitHub Copilot, ChatGPT, Cursor, or Kiro. Knowledge of graph modeling, ontology, taxonomy, entity resolution, and hybrid retrieval techniques. System One, and its subsidiaries including Joulé and Mountain Ltd., are leaders in delivering outsourced services and workforce solutions across North America. We help clients get work done more efficiently and economically, without compromising quality. System One not only serves as a valued partner for our clients, but we offer eligible employees health and welfare benefits coverage options including medical, dental, vision, spending accounts, life insurance, voluntary plans, as well as participation in a 401(k) plan. System One is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity, age, national origin, disability, family care or medical leave status, genetic information, veteran status, marital status, or any other characteristic protected by applicable federal, state, or local law. #M1 &nbsp; Ref: #851-Rockville-S1",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/aws-lakehouse-data-engineer-at-system-one-4482750332",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "databricks",
+        "spark",
+        "redshift",
+        "tableau",
+        "power bi",
+        "python",
+        "sql",
+        "aws"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Tata Consultancy Services",
+      "title": "Data Engineer",
+      "location": "Irvine, CA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-tata-consultancy-services-4471975091",
+      "posted_at": "2026-10-21T00:00:00+00:00",
+      "description": "Job Description Data Engineer - Lead (Tower) This role requires coordination between onshore, nearshore, and offshore teams Required Skills Strong experience with Databricks, DBT, Apache Spark, and performance tuning. Expertise in Apache Airflow/Astronomer for workflow orchestration and DAG design. Deep understanding of Data Engineering, ETL/ELT, and large-scale data platforms. Experience with CI/CD, DevOps, Infrastructure as Code (IaC), and automation. Strong platform management, monitoring, and incident management experience. Excellent leadership and stakeholder management skills. Preferred Domain Experience Asset Management Investment Management Capital Markets Portfolio &amp; Market Data Platforms Job Summary We are seeking an experienced Data Engineering Tower /Pod Lead with a strong background in Asset Management to lead enterprise-scale data engineering initiatives. The ideal candidate will be responsible for end-to-end data delivery, platform stability, and managing multiple data engineering pods while ensuring alignment with business and investment management objectives. Key Responsibilities Lead and manage the Data Engineering Tower, overseeing multiple teams and delivery pods. Own end-to-end data platform delivery, operational excellence, and SLA adherence. Drive scalable data pipeline development, data quality, and platform reliability. Manage cross-functional dependencies, stakeholder communication, and issue escalations. Ensure high availability, monitoring, alerting, and production support readiness. Collaborate with business, portfolio management, and technology leadership teams. Define and implement best practices for platform governance, operational readiness, and performance optimization Salary Range- $110,000-$150,000 a year",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-tata-consultancy-services-4471975091",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": 110000,
+      "salary_max": 150000,
+      "tech_tags": [
+        "databricks",
+        "spark",
+        "airflow",
+        "dbt"
+      ],
+      "score": 65,
+      "directness": 35
+    }
+  ]
+}
