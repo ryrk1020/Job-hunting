@@ -1,13 +1,12 @@
-# Latest Jobs (7)
+# Latest Jobs (6)
 
-_Generated 2026-10-23 10:53 UTC_
+_Generated 2026-10-24 10:11 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 125 | 2026-10-20 | linkedin | JPMorganChase | Software Engineer II - Data Engineer/Applied AI (LLMs) | Plano, TX | [apply](https://www.linkedin.com/jobs/view/software-engineer-ii-data-engineer-applied-ai-llms-at-jpmorganchase-4478648276) |
-| 2 | 95 | 2026-10-22 | linkedin | Deloitte | Databricks Data Engineer | Pittsburgh, PA | [apply](https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4473920782) |
-| 3 | 90 | 2026-10-23 | linkedin | i4DM | Azure Data Integration Engineer | Millersville, MD | [apply](https://www.linkedin.com/jobs/view/azure-data-integration-engineer-at-i4dm-4481640201) |
-| 4 | 75 | 2026-10-20 | linkedin | IEHP | Data Engineer II | Rancho Cucamonga, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-ii-at-iehp-4386998726) |
-| 5 | 70 | 2026-10-20 | linkedin | PwC | Forward Deployed Data Engineering - Experienced Associate | Chicago, IL | [apply](https://www.linkedin.com/jobs/view/forward-deployed-data-engineering-experienced-associate-at-pwc-4453653959) |
-| 6 | 70 | 2026-10-22 | linkedin | System One | AWS Lakehouse Data Engineer | McLean, VA | [apply](https://www.linkedin.com/jobs/view/aws-lakehouse-data-engineer-at-system-one-4482750332) |
-| 7 | 65 | 2026-10-21 | linkedin | Tata Consultancy Services | Data Engineer | Irvine, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-tata-consultancy-services-4471975091) |
+| 1 | 95 | 2026-10-23 | linkedin | Lennar | Data Engineer / Talent Community | Miami, FL | [apply](https://www.linkedin.com/jobs/view/data-engineer-talent-community-at-lennar-4474571725) |
+| 2 | 75 | 2026-10-21 | linkedin | Jobgether | Snowflake Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/snowflake-data-engineer-at-jobgether-4480784340) |
+| 3 | 60 | 2026-10-22 | linkedin | LTM | Python Data Engineer | Location, WV | [apply](https://www.linkedin.com/jobs/view/python-data-engineer-at-ltm-4480087329) |
+| 4 | 55 | 2026-10-23 | linkedin | Hays Electrical Services | ETL Engineer – Cloud Data Lakehouse &amp; Pipeline Development | Houston, TX | [apply](https://www.linkedin.com/jobs/view/etl-engineer-%E2%80%93-cloud-data-lakehouse-pipeline-development-at-hays-electrical-services-4474526305) |
+| 5 | 50 | 2026-10-21 | linkedin | AI AXISS INC | Syniti Data Engineer | Illinois, United States | [apply](https://www.linkedin.com/jobs/view/syniti-data-engineer-at-ai-axiss-inc-4481112797) |
+| 6 | 35 | 2026-10-18 | linkedin | Planview | Data Scientist | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-at-planview-4441832165) |
