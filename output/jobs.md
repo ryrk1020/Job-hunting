@@ -1,12 +1,13 @@
-# Latest Jobs (6)
+# Latest Jobs (7)
 
-_Generated 2026-10-28 12:01 UTC_
+_Generated 2026-10-29 12:09 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 90 | 2026-10-27 | greenhouse | databricks | Software Engineer - New Grad, Distributed Data Systems (2027 Start) | Bellevue, Washington; Mountain View, California | [apply](https://databricks.com/company/careers/open-positions/job?gh_jid=6865704002) |
-| 2 | 75 | 2026-10-27 | linkedin | The University of Texas at Austin | Data Science Analyst II | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-science-analyst-ii-at-the-university-of-texas-at-austin-4484265593) |
-| 3 | 70 | 2026-10-27 | linkedin | IBM | Data Engineer | Research Park, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-ibm-4482254196) |
-| 4 | 65 | 2026-10-27 | linkedin | AAA Auto Club Enterprises | Data Scientist 2 | Coppell, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-2-at-aaa-auto-club-enterprises-4481066656) |
-| 5 | 65 | 2026-10-22 | linkedin | Biorce | Clinical Data Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/clinical-data-engineer-at-biorce-4482449187) |
-| 6 | 60 | 2026-10-23 | linkedin | H-E-B | Data Scientist II | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-ii-at-h-e-b-4482861793) |
+| 1 | 110 | 2026-10-23 | linkedin | Deloitte | Forward Deployed Engineer- Snowflake | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/forward-deployed-engineer-snowflake-at-deloitte-4483128388) |
+| 2 | 85 | 2026-10-28 | greenhouse | twilio | Machine Learning Engineer 2 | Remote - US | [apply](https://job-boards.greenhouse.io/twilio/jobs/8240487) |
+| 3 | 70 | 2026-10-28 | linkedin | IBM | Data Engineer-Data Platforms-Google - 2 | New York, United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-data-platforms-google-2-at-ibm-4474402402) |
+| 4 | 60 | 2026-10-27 | linkedin | IBM | Data Engineer | Paramus, NJ | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-ibm-4482247576) |
+| 5 | 60 | 2026-10-27 | linkedin | IBM | Data Engineer | Boston, KY | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-ibm-4482255187) |
+| 6 | 60 | 2026-10-27 | linkedin | IBM | Data Engineer-Data Platforms-Google - 5 | San Francisco, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-data-platforms-google-5-at-ibm-4473691314) |
+| 7 | 50 | 2026-10-26 | linkedin | JMP USA | Data &amp; Analytics Engineer | Greensboro--Winston-Salem--High Point Area | [apply](https://www.linkedin.com/jobs/view/data-analytics-engineer-at-jmp-usa-4481458618) |
