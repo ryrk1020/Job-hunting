@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-11-01T12:30:10.185596+00:00",
+  "count": 4,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "ektello",
+      "title": "B2B Product Data Analyst",
+      "location": "Plano, TX",
+      "url": "https://www.linkedin.com/jobs/view/b2b-product-data-analyst-at-ektello-4484944659",
+      "posted_at": "2026-10-29T00:00:00+00:00",
+      "description": "B2B Product Data Analyst ** W2 contract, min 12 months ** ONSITE out of Plano, TX ** Target W2 $42-46/hr Role And Responsibilities Create and execute product marketing plans for assigned products and customers by leveraging data-driven insights, predictive analytics, and automation using Alteryx, Tableau, and Excel. Support and Drive achievement of key product KPIs such as revenue, profitability, and market share objectives through continuous data modeling, statistical analysis, and reporting. Collaborate with Sales, CPFR, and Supply Chain teams to track forecast accuracy, identify demand fluctuations, and provide real-time insights through automated data pipelines. Own product lifecycle analytics for the B2B monitor portfolio: launch forecasting, ramp up tracking, and EOL demand modeling. You'll work weekly with Korea HQ on these calls. Maintain a weekly revenue tracker for key accounts, measuring attainment versus targets and providing insights through advanced data visualization techniques. Be the analytics contact for Tier 1 distributors (Ingram Micro, D&amp;H). Pull weekly sell through, POS, and inventory data into one clean reporting layer. Analyze business processes, identify inefficiencies, and apply data science methodologies to enhance operational efficiency while presenting findings in clear, concise formats such as charts, graphs, and tables. Build automated checks that flag when distributor reported numbers don't match internal ERP data. Escalate the real discrepancies. Establish efficient methods for recording, tracking, and reporting business activity, leveraging automation for large-scale enterprise data ETL processes with Alteryx. Modify and maintain databases, ensuring data integrity and scalability while implementing predictive data models and directing programmers and analysts on necessary system enhancements. Manage market share forecasting for B2B. Skills and Qualifications: Top skills: Data Engineering, Data Modeling, Predictive Modeling Bachelor's in Information Science, Statistics, Computer Science, or similar. 2+ years in a data analytics or quantitative role. Consumer electronics or hardware background preferred. Strong with Alteryx for building data pipelines. Strong with Tableau to create various dashboards. Comfortable using AI Tools and agents for atomization Advanced Excel: nested formulas, Power Query, VBA.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/b2b-product-data-analyst-at-ektello-4484944659",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 2,
+      "salary_min": 42000,
+      "salary_max": 46000,
+      "tech_tags": [
+        "tableau"
+      ],
+      "score": 95,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Tyson Foods",
+      "title": "Data Engineer I (Onsite)",
+      "location": "Springdale, AR",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-i-onsite-at-tyson-foods-4482531865",
+      "posted_at": "2026-10-28T00:00:00+00:00",
+      "description": "Job Details: The IT Data Engineer I builds foundational skills in SQL, Python, and data pipeline development. Working under direct supervision, this role supports data ingestion, transformation, and quality processes while developing awareness of cloud platforms, data governance, and AI-assisted development tools. Essential Duties And Responsibilities Delivers low-complexity data engineering tasks as part of a team. Works under direct supervision; receives instructions, guidance, and direction from others. Scope: Team. Develop and maintain SQL-based data pipelines, ensuring efficient ETL processes. Write Python scripts to support data transformation, ingestion, and automation tasks. Develop foundational skills in working with common data serialization and interchange formats (e.g., JSON, CSV, Parquet, Avro) for data ingestion and transformation. Learn and apply foundational concepts of data warehousing, data architecture, and basic data modeling (e.g., fact/dimension tables, normalization). Assist in applying data classification standards to datasets and pipelines under guidance, learning to identify data sensitivity levels (e.g., public, internal, confidential, restricted). Provide assistance in data governance, data quality, and data privacy activities, including following PII handling protocols and data retention policies. Escalate potential data exposure or classification issues to senior engineers. Use version control systems (e.g., Git) for all code and configuration changes, including branching, committing, and participating in pull requests. Gain foundational exposure to major cloud platforms (e.g., AWS, GCP, or Azure) and understand how data services operate in a cloud environment. Develop basic awareness of containerization concepts and how pipelines are packaged and deployed. Learn basic data testing and validation practices using data quality frameworks to ensure pipeline output quality. Assist in implementing basic logging and monitoring for data pipelines to support troubleshooting and operational visibility. Collaborate with team members and stakeholders to understand requirements for data solutions. AI-Assisted Engineering Develop a foundational understanding of AI/ML concepts and their application to data pipelines and automation. Learn to use AI-assisted tools and copilots to accelerate data engineering tasks such as code generation, debugging, and documentation. Gain exposure to prompt engineering fundamentals and how large language models (LLMs) can support data operations. Understand that AI-generated outputs can be inaccurate; learn to validate and verify AI-produced code, queries, and results before use. Qualifications Education: Bachelor's Degree or relevant experience. Preferred Certification(s): Any relevant IT Certification (e.g., AWS Cloud Practitioner, Google Cloud Digital Leader, Azure Fundamentals, Databricks Lakehouse Fundamentals). Experience: Less than one year of relevant or practical experience. Special Skills Proficiency in SQL and foundational Python scripting. Understanding of data warehousing concepts, basic data modeling, and basic data architecture. Familiarity with common data serialization and interchange formats. Foundational exposure to modern cloud data platforms and at least one major cloud platform (e.g., AWS, GCP, or Azure). Basic proficiency with version control systems for collaborative development. Basic awareness of AI/ML concepts and AI-assisted development tools for code generation and data analysis. Soft Skills Curiosity: Eagerness to explore and understand new data concepts, AI technologies, and emerging patterns. Receptiveness to Feedback: Willingness to accept and act on coaching from senior engineers. Attention to Detail: Meticulous approach to data handling and analysis. Collaboration: Ability to work effectively in cross-functional teams. Communication: Clear and concise communication of technical concepts. Reliability: Consistently meeting deadlines and following through on commitments. Adaptability: Willingness to learn new technologies, including AI-driven tools, and adapt to change. Not eligible for immigration/work authorization support now or in the future * * Not eligible for relocation assista nce * All professional team members are expected to demonstrate responsible use of approved AI tools, including safeguarding sensitive information, adhering to company policies, and validating AI-generated outputs. Individual Contributors should demonstrate the ability to integrate AI into daily work, improve efficiency through AI-enabled solutions, evaluate outputs critically, and apply professional judgment when using AI. People Leaders should demonstrate the ability to drive responsible AI adoption, enable effective use of approved solutions, identify opportunities to improve team performance through AI, and ensure accountability for the quality and accuracy of AI-supported outcomes. Relocation Assistance Eligible: No Work Shift: 1ST SHIFT (United States of America) Certain roles at Tyson require background checks. If you are offered a position that requires a background check you will be provided additional documentation to complete once an offer has been extended. Hourly Applicants ONLY -You must complete the task after submitting your application to provide additional information to be considered for employment. The successful candidate(s) must be willing and able to perform the physical requirements of the job with or without a reasonable accommodation. Tyson is an Equal Opportunity Employer. All qualified applicants will be considered without regard to race, national origin, color, religion, age, genetics, sex, sexual orientation, gender identity, disability or veteran status. We provide our team members and their families with paid time off; 401(k) plans; affordable health, life, dental, vision and prescription drug benefits; and more. If you would like to learn more about your data privacy rights and how you may use that information, please read our Job Applicant Privacy Notice here . Unsolicited Assistance: Tyson Foods and its subsidiaries do not accept unsolicited support from external recruitment vendors for open positions within the United States. Any resumes or candidate profiles submitted by recruitment vendors or headhunters to any employee or applicant tracking system at Tyson Foods or its subsidiaries, without a valid written request and search agreement approved by HR, will be considered the property of Tyson Foods. No fees will be paid if the candidate is hired due to an unsolicited referral.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-i-onsite-at-tyson-foods-4482531865",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 1,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "databricks",
+        "python",
+        "sql",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "score": 75,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Deloitte",
+      "title": "Databricks Engineer - Data Engineer II",
+      "location": "Washington, DC",
+      "url": "https://www.linkedin.com/jobs/view/databricks-engineer-data-engineer-ii-at-deloitte-4484073084",
+      "posted_at": "2026-10-27T00:00:00+00:00",
+      "description": "Our Deloitte AI &amp; Engineering team to transform technology platforms, drive innovation, and help make a significant impact on our clients' success. You'll work alongside talented professionals reimagining and reengineering operations and processes that are critical to businesses. Your contributions can help clients improve financial performance, accelerate new digital ventures, and fuel growth through innovation. Work you'll do As a Data Engineer II on the AI &amp; Engineering team, you will be responsible for... Develop and optimize data pipelines using Python, PySpark, and SQL within the Databricks Lakehouse platform Apply Medallion architecture patterns to organize, transform, and manage data across data layers Perform performance tuning for Databricks workloads and SQL queries Configure row-level and column-level security and manage data lineage and sharing in Unity Catalog Implement continuous integration/continuous delivery (CI/CD) and testing processes for Databricks workflows A successful candidate would possess these skills: Ability to work independently and collaborate as part of a team Effective written and verbal communication skills Meticulous attention to detail and quality of work product Ability to build and sustain professional relationships Ability to lead projects or workstreams Ability to manage and prioritize multiple tasks in a fast-paced and dynamic environment Strong interpersonal skills and professional demeanor Ability to meet deadlines Ability to provide clear guidance to others The team Deloitte's Government &amp; Public Services (GPS) practice - our people, ideas, technology and outcomes - is designed for impact. Serving federal, state, &amp; local government clients as well as public higher education institutions, our team of professionals brings fresh perspective to help clients anticipate disruption, reimagine the possible, and fulfill their mission promise. Our AI &amp; Data offering provides a full spectrum of solutions for designing, developing, and operating cutting-edge Data and AI platforms, products, insights, and services. Our offerings help clients innovate, enhance and operate their data, AI, and analytics capabilities, ensuring they can mature and scale effectively. Qualifications Required: Bachelor's degree Ability to obtain and maintain the required clearance for this role 2+ years of Databricks engineering experience 2+ years of experience with Python, PySpark, and SQL Ability to travel 10-15%, on average, based on the work you do and the clients and industries/sectors you serve Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future Preferred: Experience using Medallion architecture in the Databricks Lakehouse platform Experience configuring row-level and column-level security, data lineage, and data sharing in Unity Catalog Experience implementing continuous integration/continuous delivery (CI/CD) and testing processes for Databricks Experience with performance tuning in Databricks The wage range for this role takes into account the wide range of factors that are considered in making compensation decisions including but not limited to skill sets; experience and training; licensure and certifications; and other business and organizational needs. The disclosed range estimate has not been adjusted for the applicable geographic differential associated with the location at which the position may be filled. At Deloitte, it is not typical for an individual to be hired at or near the top of the range for their role and compensation decisions are dependent on the facts and circumstances of each case. A reasonable estimate of the current range is $97,700 to $162,800. You may also be eligible to participate in a discretionary annual incentive program, subject to the rules governing the program, whereby an award, if any, depends on various factors, including, without limitation, individual and organizational performance.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/databricks-engineer-data-engineer-ii-at-deloitte-4484073084",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 2,
+      "salary_min": 97700,
+      "salary_max": 162800,
+      "tech_tags": [
+        "databricks",
+        "spark",
+        "python",
+        "sql"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Paladin Consulting",
+      "title": "Data Scientist (Pricing/Financial)",
+      "location": "The Woodlands, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-scientist-pricing-financial-at-paladin-consulting-4483893780",
+      "posted_at": "2026-10-28T00:00:00+00:00",
+      "description": "Data Scientist The Woodlands-4 days onsite DIRECT HIRE with Full Benefits, Stocks and Bonus plus 401k Bachelor's degree Partner with business stakeholders to identify opportunities for analytics, automation, and AI solutions Develop, deploy, and maintain machine learning models and advanced analytics solutions Design and build scalable data pipelines and data products Perform data analysis, feature engineering, forecasting, and statistical modeling Create dashboards, reports, and self-service analytics tools to support decision-making Monitor, improve, and support production analytics solutions Present findings and recommendations to both technical and non-technical audiences Drive measurable business impact through data-driven insights and operational improvements Collaborate with data engineers, analysts, and technology teams on enterprise initiatives Skills Bachelor's degree in Data Science, Statistics, Mathematics, Computer Science, Engineering, Economics, or related quantitative field 3+ years of experience in Data Science, Machine Learning, Analytics, or a related discipline Strong proficiency in Python and SQL Experience building and deploying production machine learning or analytics solutions Experience developing and maintaining data pipelines Strong knowledge of statistics, hypothesis testing, and model evaluation techniques Experience communicating analytical findings to business stakeholders Familiarity with forecasting, optimization, customer analytics, pricing, or operational analytics Preferred Qualifications Databricks, Spark, or PySpark, cloud platforms such as AWS or Azure, Tableau, Power BI, or other data visualization tools Experience with modern data architectures and lakehouse environments Experience developing AI-enabled applications",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-scientist-pricing-financial-at-paladin-consulting-4483893780",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "databricks",
+        "spark",
+        "tableau",
+        "power bi",
+        "python",
+        "sql",
+        "aws",
+        "azure"
+      ],
+      "score": 50,
+      "directness": 35
+    }
+  ]
+}
