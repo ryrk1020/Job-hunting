@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-11-03T13:28:30.442099+00:00",
+  "count": 4,
+  "jobs": [
+    {
+      "source": "themuse",
+      "company": "Charles Schwab",
+      "title": "Platform Support Data Engineer",
+      "location": "Austin, TX",
+      "url": "https://www.themuse.com/jobs/charlesschwab/platform-support-data-engineer",
+      "posted_at": "2026-11-02T20:18:07+00:00",
+      "description": "Pay range: USD $55.29 - $62.50 / Hour Your opportunity At Schwab, you're empowered to make an impact on your career. Here, innovative thought meets creative problem solving, helping us challenge the status quo and transform the finance industry together. We believe in the importance of in-office collaboration and fully intend for the selected candidate for this role to work on site in the specified location(s). As a Platform Support Data Engineer on the SAMS Technology team, you will play a critical role in ensuring the resiliency, stability, and performance of enterprise data platforms that support key business capabilities across Schwab. Working within a collaborative and highly technical environment, you will partner with engineers, developers, and business stakeholders to support and optimize database platforms, deployment pipelines, and application environments while helping drive continuous improvement through automation and modern DevOps practices. In this role, you will contribute to the reliability and operational excellence of applications and services by troubleshooting complex production-support challenges, improving platform performance, implementing monitoring solutions, and identifying opportunities to reduce manual effort through automation. You will help maintain and enhance database environments, support application releases, and influence operational best practices that improve system availability, scalability, and efficiency. Success in this position requires strong analytical thinking, adaptability, and a passion for solving challenging technical problems. You will leverage your experience supporting enterprise applications and database technologies to drive meaningful outcomes, collaborate across teams, and help deliver secure, reliable, and high-performing technology solutions that support Schwab's commitment to innovation and client-centric service. What you have Required Qualifications 3+ years of experience supporting enterprise applications, software deployment pipelines, database platforms, or related technology environments. 3+ years of experience performing database administration, database troubleshooting, performance tuning, or database operations activities. Experience supporting software releases, release engineering processes, and application configuration management. Experience implementing automation solutions and supporting DevOps practices that improve operational efficiency and system reliability. Experience monitoring applications and platforms and using operational metrics to identify, troubleshoot, and resolve issues. Knowledge of software development lifecycles, infrastructure technologies, databases, operating systems, networking, and application support best practices. Experience working in Agile environments and partnering effectively with Agile development teams. Strong analytical, problem-solving, and decision-making skills with the ability to quickly understand complex systems and architectures. Strong collaboration and communication skills with the ability to work effectively across technical and business teams. Bachelor's degree in Computer Science, Information Systems, Engineering, or a related field, or equivalent practical experience. Preferred Qualifications Experience with SQL Server, Oracle, and PostgreSQL database administration, migration, monitoring, performance tuning, and recovery processes. Experience with CI/CD tools and platforms such as Jenkins, GitHub, Bitbucket, Bamboo, Jira, or Confluence. Experience supporting cloud-based platforms and Platform-as-a-Service (PaaS) technologies. Experience with Splunk, AppDynamics, or similar observability and monitoring platforms. Experience administering or troubleshooting Linux and Windows environments. Knowledge of ITIL problem management and operational support practices. Experience supporting third-party vendor applications and SaaS platforms. Experience within the financial services, banking, or highly regulated industry. Experience establishing database backup, recovery, and capacity planning strategies. In addition to the salary range, this role is eligible for bonus or incentive opportunities.Applicants must be currently authorized to work in the United States on a full-time basis without employer sponsorship. What's in it for you At Schwab, you're empowered to shape your future. We champion your growth through meaningful work, continuous learning, and a culture of trust and collaboration-so you can build the skills to make a lasting impact. Our Hybrid Work and Flexibility approach balances our ongoing commitment to workplace flexibility, serving our clients, and our strong belief in the value of being together in person on a regular basis. We offer a competitive benefits package that takes care of the whole you - both today and in the future: 401(k) with company match and Employee stock purchase plan Paid time for vacation, volunteering, and 28-day sabbatical after every 5 years of service for eligible positions Paid parental leave and family building benefits Tuition reimbursement Health, dental, and vision insurance",
+      "remote": false,
+      "raw_id": "21984605",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": 55000,
+      "salary_max": 62000,
+      "tech_tags": [
+        "sql"
+      ],
+      "score": 75,
+      "directness": 60
+    },
+    {
+      "source": "linkedin",
+      "company": "Stuller, Inc.",
+      "title": "Data Engineer",
+      "location": "Lafayette, Louisiana Metropolitan Area",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-stuller-inc-4485794550",
+      "posted_at": "2026-11-02T00:00:00+00:00",
+      "description": "Brief Description With constant innovation, cutting-edge technology, and fast-paced development, we’re looking for talented professionals to join our Information Technology team to help us continue delivering an unparalleled customer experience. The Data Engineering department oversees the standardization, management, and adoption of services that support key technology initiatives, while also collaborating on cloud architecture, automation, data pipeline development, and data modeling to support business intelligence and data science goals. This team plays a critical role in leveraging data assets to drive actionable insights and innovation across the organization. The Data Engineer is responsible for building and maintaining data pipelines that move and transform data from Stuller’s systems into its cloud data warehouse. Working with senior team members, this role follows established data modeling patterns to support business intelligence, analytics, and data science. This role provides the opportunity to develop end-to-end data solutions using a modern data engineering technology stack. The Data Engineer will write and test dbt models, gain exposure to the semantic layer and analytics engineering practices, and develop reliable solutions through regular design and code reviews. Key Responsibilities Build, test, and maintain ETL/ELT pipelines that move data from ingestion to consumption using established tools and patterns, including Airflow. Write and test dbt models under the guidance of senior team members. Write performant SQL while following established schema conventions in the Snowflake data warehouse. Transform and integrate data from multiple sources into models that support reporting and analytics. Support semantic layer development and analytics engineering practices under senior team guidance. Monitor data workflows, troubleshoot issues, and help identify and resolve data quality concerns. Follow established data security, governance, testing, and deployment practices. Develop awareness of warehouse compute costs and avoid wasteful query patterns. Collaborate with analytics and data science teams to understand and support their data needs. Complete well-defined tasks reliably, participate in regular design and code reviews, incorporate feedback, and escalate blockers appropriately. Minimum Qualifications Bachelor’s degree in Computer Science or a related technical field, or equivalent relevant experience. Foundational understanding of SQL and relational database concepts. Exposure to ETL/ELT concepts and pipeline tools, including Airflow. Basic familiarity with dbt or a similar transformation framework, or a strong aptitude to learn. Understanding of core data warehouse concepts, including schemas, roles, and warehouses. Awareness of the cost implications of compute-intensive queries. Strong problem-solving skills and attention to quality and detail. Strong communication skills within a team setting. Ability to manage assigned work, follow established guidelines, incorporate feedback through regular reviews, and escalate blockers appropriately. Demonstrated curiosity, reliability, integrity, and commitment to continuous learning. Preferred Qualifications Hands-on experience with Snowflake, AWS, or Python. Experience with data modeling in analytics environments. Familiarity with semantic layers or analytics engineering practices. Experience with Agile development practices. Summary Stuller is the jewelry industry's largest manufacturer, supplier, and technology developer in North America. With a customer base spanning the globe, we serve jewelry professionals through an unmatched selection of quality products, expert and friendly service, and the fastest delivery. We are powered by our employees, their creativity, their energy, and their commitment to creating exceptional experiences. We are committed to our employees' comprehensive health and happiness. Our award-winning wellness initiatives and benefits help Stuller to stand out as one of the top employers in Louisiana. Learn more about our benefits by clicking here.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-stuller-inc-4485794550",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "airflow",
+        "dbt",
+        "python",
+        "sql",
+        "aws"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Memorial Hermann Health System",
+      "title": "Specialized Business Intelligence Analytst",
+      "location": "Houston, TX",
+      "url": "https://www.linkedin.com/jobs/view/specialized-business-intelligence-analytst-at-memorial-hermann-health-system-4483494871",
+      "posted_at": "2026-10-30T00:00:00+00:00",
+      "description": "At Memorial Hermann, we pursue a common goal of delivering high quality, efficient care while creating exceptional experiences for every member of our community. When we say every member of our community, that includes our employees. We know that when our employees feel cared for, heard and valued, they are inspired to create moments that exceed expectations, while prioritizing safety, compassion, personalization and efficiency. If you want to advance your career and contribute to our vision of creating healthier communities, now and for generations to come, we want you to be a part of our team. Job Summary As an integral member of the Analytics Team, the Specialized Business Intelligence (BI) Analyst is responsible for creating information-based, business intelligence deliverables that will be relied upon by organizational leaders to support critical business decisions. The Specialized BI Analyst will provide domain expertise in one or more specific areas, as required for the position, such as: clinical, consumer experience, finance, human resources, marketing, medical insurance, operational effectiveness and/or supply chain. This position will primarily work, but not exclusively, with customers across the organization in clinical, administrative and/or operational areas to provide analytical insights from reports and/or dashboard visualizations to facilitate discovery of new opportunities, support data-informed decision-making for identified challenges as well as develop new and enhance existing metrics to analyze ongoing performance metrics. The Specialized BI Analyst will be tasked with domain-specific requests to support transformation of data and information into actionable insights that answer complex business questions. This position will communicate insights and opportunities to leadership, analytical needs to technical teams, as well as serve as a domain expert and mentor to other team members supporting projects that are outside their specialized domain. This position will work with customers to understand and define the problems being solved, procure and integrate the data sources necessary to analyze the needs appropriately, deliver appropriate relevant tools to meet customer’s objectives, implement and support the solutions for ongoing utilization. Job Description MINIMUM QUALIFICATIONS Education : Bachelor’s degree, preferably in computer science, management information systems, data science, business administration, statistics, or related field or equivalent experience required. Master’s degree preferred. Licenses/Certifications : Associate Certified Analytics Professional (aCAP) or another vendor-neutral analytics certification preferred. Applicable certification or accreditation for domain expertise preferred. Experience / Knowledge / Skills: Minimum of 2 years professional experience providing similar analytics services for this role to one or more domain areas, as needed preferred. Minimum of 2 years professional experience collaborating with customers on the design, creation and execution of analytics deliverables preferred. Minimum of 2 years professional experience in building self-service analytic reports, dashboards and/or tools supporting decision-making and actionable metric monitoring by customers preferred. Demonstrated experience working in a dynamic, matrixed organization with executive exposure. Basic proficiency with the following tools, as necessary for position: MS Office Suite: Excel (Pivot tables, VBA, Macros), Word, PowerPoint, Visio, Access (Required) Database querying: SQL Visualization tools – Tableau (preferred), Sisense, Qlik or Microsoft PowerBI Statistical tools - R, Python, SAS, SPSS or other statistical tools for data analysis. (Preferred) Demonstrated critical thinking and creative problem-solving skills and ability to exert influence without authority through interpreting requirements and guiding customers to the desired analytics outcomes. Analytic mindset able to draw conclusions from raw data and summarize results efficiently using logic and reasoning to identify approaches to problems. Ability to visualize data in a meaningful way to communicate effectively the meaning and the necessary action to be taken. Act with an intellectual curiosity to obtain insights from data and search for solutions to the problems being explored as well as new ones to be discovered. Understand math and statistical concepts to provide analysis to formulate meaningful decisions. Exceptional time management skills and attention to detail. Excellent written and verbal communication skills, specifically with an ability to communicate effectively across multiple management levels. Proven ability to work independently and as part of a team under established deadlines to drive critical outcomes. Create a positive work environment that fosters successful team performance. Strong customer service, interpersonal and relationship-building skills. Principal Accountabilities Develops, prioritizes and executes projects according to established schedules and timeframes. Follows and enforces technical and documentations standards Demonstrates in-depth knowledge and techniques in supporting other systems and application programmers in projects and complex problem solving efforts. Use scripting tools &amp; ServiceNow functionality to create scripts and automate tasks Build Quality Assurance Scripts for Patch and Upgrade testing Perform regular data audits and resolve identified issues Maintain and support ServiceNow operational functions Escalate to vendor and involve them in defect and incident resolution as required Stay current on technologies that are required for this development. Participate in Agile Scrum process that is leveraged as the teams SDLC. Develop and implement enterprise IT tools to support an IT managed service delivery approach. Focus on continual service improvement to increase efficiency and cost optimization of services, and IT service delivery processes. Develop, define, and document systems management policies, processes, procedures, and drive implementation and use within the program. Perform user administration on enterprise management supporting technologies. Troubleshoot and resolve technical issues. Further network assist by identifying reasonable evidence for failures to prevent reoccurrence. Manage data generated by the IT enterprise tools that generate tickets assigned to engineers for resolution and document IT issues for root cause analysis and lessons learned. Ensures safe care to patients, staff and visitors; adheres to all Memorial Hermann policies, procedures, and standards within budgetary specifications including time management, supply management, productivity and quality of service. Promotes individual professional growth and development by meeting requirements for mandatory/continuing education and skills competency; supports department-based goals which contribute to the success of the organization; serves as preceptor, mentor and resource to less experienced staff. Demonstrates commitment to caring for every member of our community by creating compassionate and personalized experiences. Models Memorial Hermann’s service standards by providing safe, caring, personalized and efficient experiences to patients and colleagues. Other duties as assigned.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/specialized-business-intelligence-analytst-at-memorial-hermann-health-system-4483494871",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 2,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "tableau",
+        "power bi",
+        "python",
+        "sql"
+      ],
+      "score": 55,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Charter Global",
+      "title": "Data Engineer",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-charter-global-4484476414",
+      "posted_at": "2026-10-28T00:00:00+00:00",
+      "description": "Job Title: Azure Cloud Data Engineer Location: Remote/WFH and the first week onsite at the nearest client office. Duration: 7 months+ contract Number of Positions: 4 roles Description We are looking for a contract Data Engineer for a client engagement. This Data Engineer will possess strong experience with Python and / or PySpark needed along with Azure Data Lake, ETL, ELT, and DataFlow. Responsibilities Work with architects, other data engineers and analysts to identify, engage, and integrate data sources for discovery and profiling and, where necessary and define data services that empower business processes. Design, build, and scale data pipelines across a variety of source systems and streams (internal, third-party, as well as cloud-based), distributed / elastic environments, and downstream applications and/or self-service solutions. Develop solutions combining data blending, profiling, mining, statistical analysis, and machine learning, to better define and curate models, test hypothesis, and deliver key insights. Collaborate in establishing and evolving development, testing, and documentation standards, as well as related code reviews. Partner with business analysts, application engineers, data scientists, leveraging the appropriate tools, solutions, and/or processes as part of their data mining, profiling, blending, and analytical activities. Collaborate in establishing and evolving development, testing, and documentation standards, as well as related code reviews. Qualifications 2-5 years of progressive data application development experience. Strong Experience with Python and / or PySpark needed. Experience working in large scale/distributed SQL, NoSQL, and/or Hadoop environments. 2+ years of experience modeling and implementing ETL / ELT on columnar MPP database technologies. Experience with streaming architectures e.g. Kafka, Stream, PubSub. Best Regards, David Roy | Accounts Manager US Staffing | Charter Global Inc. | https://www.charterglobal.com LinkedIn",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-charter-global-4484476414",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 2,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "spark",
+        "kafka",
+        "hadoop",
+        "python",
+        "sql",
+        "azure"
+      ],
+      "score": 40,
+      "directness": 35
+    }
+  ]
+}
