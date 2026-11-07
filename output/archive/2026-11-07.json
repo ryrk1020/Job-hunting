@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-11-07T12:16:40.899905+00:00",
+  "count": 4,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "The Intersect Group",
+      "title": "Data Modeler",
+      "location": "Dallas-Fort Worth Metroplex",
+      "url": "https://www.linkedin.com/jobs/view/data-modeler-at-the-intersect-group-4487312487",
+      "posted_at": "2026-11-06T00:00:00+00:00",
+      "description": "Not available for C2C engagements Vendors marketing candidate will be blocked This is a hybrid onsite role in Downtown Dallas, TX Must be local to DFW - you will be rejected if you LinkedIn does not show you're local to DFW Data Modeler Must haves: 1. Erwin Data Modeler (expert level) 2. Conceptual, logical, and physical data modeling (3+ years enterprise experience) 3. Oracle and SQL Server with advanced SQL 4. DDL and database internals 5. Communication and cross-functional collaboration About the Opportunity The Intersect Group is partnering with a leading organization in the utilities and technology space that is focused on delivering reliable, data driven solutions that support critical business operations and long term growth. This organization values innovation, collaboration, data governance, and operational excellence, leveraging modern technologies to drive informed decision making across the enterprise. Team members are empowered to contribute meaningful solutions in a fast paced, results oriented environment while working alongside highly skilled professionals. Role Summary We are seeking an experienced Data Modeler to design, develop, and maintain enterprise data models that support mission critical business initiatives, analytics platforms, and operational systems. This role plays a key part in ensuring data assets are scalable, governed, high performing, and aligned with organizational objectives. The Data Modeler will translate complex business requirements into conceptual, logical, and physical data models while partnering closely with data architects, database administrators, developers, and business stakeholders. Success in this position requires strong expertise in Erwin Data Modeler, Oracle and SQL Server databases, and enterprise data modeling best practices. This individual will help drive data quality, governance, optimization, and modernization initiatives across large scale environments. Key Responsibilities • Design and maintain conceptual, logical, and physical data models using Erwin Data Modeler • Develop, review, and optimize DDL scripts for tables, views, indexes, constraints, partitions, and other database objects • Perform forward and reverse engineering of data models across Oracle and SQL Server environments • Collaborate with architects, DBAs, ETL developers, and business stakeholders to define and refine data requirements • Ensure data models comply with normalization standards, referential integrity, and data governance requirements • Support data warehousing initiatives through dimensional modeling, including star and snowflake schemas • Conduct model reviews, impact assessments, and schema comparisons while maintaining version control standards • Assist with database migrations, environment synchronization, and optimization of existing enterprise data solutions Key Requirements • 3+ years of hands on data modeling experience within enterprise environments • Advanced expertise with Erwin Data Modeler, including subject areas, model templates, metadata management, and DDL generation • Strong experience with Oracle databases and Microsoft SQL Server, including database design and optimization • Advanced SQL skills with deep knowledge of DDL, indexing strategies, partitioning, query execution plans, and database performance tuning • Solid understanding of normalization, denormalization, surrogate keys, slowly changing dimensions, and dimensional data modeling concepts • Experience supporting data governance initiatives, metadata management, data lineage documentation, and naming standards • Familiarity with Git, model comparison tools, database migration activities, and schema synchronization processes • Experience with Hadoop and MongoDB is a plus • Excellent communication and presentation skills with the ability to engage both technical and nontechnical audiences • Self motivated, adaptable professional who can effectively manage multiple priorities in a fast paced environment • Strong team oriented mindset with a commitment to delivering high quality results and continuous improvement Team Culture This team is fast paced, energetic, collaborative, and highly focused on delivering exceptional business outcomes. Team members are encouraged to take ownership, solve complex problems, and contribute innovative ideas while working in a supportive and results driven environment. Individuals who thrive on accountability, continuous learning, and achieving measurable results will be well positioned for success. Apply Today If you are an experienced Data Modeler looking for an opportunity to make a meaningful impact within a dynamic enterprise environment, we encourage you to apply today. Please submit your resume along with your contact information, and a member of The Intersect Group team will be in touch to discuss the opportunity.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-modeler-at-the-intersect-group-4487312487",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "hadoop",
+        "sql"
+      ],
+      "score": 105,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "BeaconFire Inc.",
+      "title": "L1-Data Engineer",
+      "location": "California, United States",
+      "url": "https://www.linkedin.com/jobs/view/l1-data-engineer-at-beaconfire-inc-4483471662",
+      "posted_at": "2026-11-03T00:00:00+00:00",
+      "description": "Junior Data Engineer DESCRIPTION: BeaconFire is based in Central NJ, specializing in Software Development, Web Development, and Business Intelligence; looking for candidates who are good communicators and self-motivated. You will play a key role in building, maintaining, and operating integrations, reporting pipelines, and data transformation systems. Qualifications: ● Passion for data and a deep desire to learn. ● Master’s Degree in Computer Science/Information Technology, Data Analytics/Data Science, or related discipline. ● Intermediate Python. Experience in data processing is a plus. (Numpy, Pandas, etc) ● Experience with relational databases (SQL Server, Oracle, MySQL, etc.) ● Strong written and verbal communication skills. ● Ability to work both independently and as part of a team. Responsibilities: ● Collaborate with the analytics team to find reliable data solutions to meet the business needs. ● Design and implement scalable ETL or ELT processes to support the business demand for data. ● Perform data extraction, manipulation, and production from database tables. ● Build utilities, user-defined functions, and frameworks to better enable data flow patterns. ● Build and incorporate automated unit tests, participate in integration testing efforts. ● Work with teams to resolve operational &amp; performance issues. ● Work with architecture/engineering leads and other teams to ensure quality solutions are implemented, and engineering best practices are defined and adhered to. Compensation $62,000 – $80,000/year BeaconFire is an E-Verified company and provides equal employment opportunities. Visa sponsorship is available for eligible candidates.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/l1-data-engineer-at-beaconfire-inc-4483471662",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": 62000,
+      "salary_max": 80000,
+      "tech_tags": [
+        "python",
+        "sql"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "remoteok",
+      "company": "Toptal",
+      "title": "ML Inference Engineer â Terminal-Bench Task Designer (vLLM / SGLang / TensorRT-LLM)",
+      "location": "Anywhere in the World",
+      "url": "https://remoteOK.com/remote-jobs/remote-ml-inference-engineer-terminal-bench-task-designer-vllm-sglang-tensorrt-llm-toptal-1137689",
+      "posted_at": "2026-11-05T14:58:56+00:00",
+      "description": "Overview We are building a benchmark that tests how well AI agents handle real expert work in a terminal. We are hiring ML inference and serving experts to turn real, paid tasks from their jobs into expert-level Terminal-Bench challenges. Each task includes the environment, a working solution, and an automated check that proves the result is correct. ***THIS IS A TASK BASED COMPENSATION MODEL. PLEASE CHECK THE APPLICATION QUESTIONS FOR MORE DETAILS.*** Responsibilities â¢ Design expert-level Terminal-Bench tasks that turn real, paid ML inference work from your own experience into challenges an AI agent must solve end to end. â¢ Define the files, systems and environments each task runs on, such as model serving with streaming, so the challenge is realistic, reproducible and command-line solvable. â¢ Write a working reference solution for every task and verify it runs end to end, sized for about 60 to 75 minutes of expert effort. â¢ Build automated checks that objectively prove a result is correct, including cases where ML outputs go wrong silently, such as numerical drift or metric bugs. â¢ Package tasks with Docker and Git so they are reproducible, and document the systems, tools, data and rules involved so reviewers can validate difficulty. â¢ Iterate on tasks based on reviewer feedback and agent test runs, adjusting difficulty and fixing ambiguities so each task stays expert-level, fair and objectively gradable. Skills/Experience â¢ 3+ years doing ML inference or serving work hands-on (not only studying, selling or managing it), or a PhD plus active research in the subfield â¢ Did this work in the last 3 years and can name the systems, tools, data and rules used â¢ Trained, served or evaluated models at real scale (multi-GPU or production serving), not only notebooks or API calls â¢ Hands-on with PyTorch or JAX internals and serving stacks such as vLLM, SGLang or TensorRT-LLM â¢ Can explain how ML results go wrong without errors (numerical drift, metric bugs) and how to catch them â¢ Technical fluency in Python and the command line, and with files, CSV/JSON, APIs or databases â¢ Availability to start by early November 2026 and complete tasks of about 60 to 75 minutes each Nice-to-have â¢ AI lab or LLM infrastructure experience â¢ Contributions to PyTorch, vLLM or SGLang â¢ GPU profiling experience â¢ Docker and Git proficiency â¢ Experience writing automated tests Process â¢ Task vetting instead of an interview: complete a vetting task so the client can assess your task design â¢ Paid per task; each task takes about 60 to 75 minutes â¢ Work is delivered task by task, with reviewer feedback on submissions â¢ Expected start in early November 2026 Please mention the word **ASTONISHED** and tag RNTIuMTY1LjEwMi4xNjU= when applying to show you read the job post completely (#RNTIuMTY1LjEwMi4xNjU=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "remote": true,
+      "raw_id": "1137689",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "python"
+      ],
+      "score": 60,
+      "directness": 55
+    },
+    {
+      "source": "linkedin",
+      "company": "HIRECLOUT",
+      "title": "Data Engineer",
+      "location": "Pasadena, CA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-hireclout-4486573303",
+      "posted_at": "2026-11-05T00:00:00+00:00",
+      "description": "Role Overview We are partnering with an established organization looking for a Data Engineer to develop and enhance the technology that supports its data operations. This is a hands-on opportunity for someone who enjoys building reliable data solutions, improving existing systems, and making complex information easier for teams to access and use. You'll work with modern data technologies to develop pipelines, streamline data processing, and improve the quality and availability of information across different applications. The role combines practical engineering with problem-solving, offering the opportunity to contribute to both new initiatives and improvements to existing data systems. We're looking for someone who can take ownership of technical challenges, work effectively with different stakeholders, and build solutions that are efficient, scalable, and easy to maintain. Strong experience with Python, SQL, and Databricks is essential, along with a solid understanding of cloud-based data engineering. Key Responsibilities Develop and maintain data pipelines that support reporting, analytics, and business operations Build efficient processes for collecting, organizing, and transforming data from multiple sources Improve existing data workflows to enhance performance, reliability, and maintainability Create automated processes that reduce manual intervention and improve data consistency Develop solutions that support accurate, accessible, and well-organized datasets Partner with technical teams to improve data storage, processing, and integration capabilities Collaborate with business stakeholders to understand information needs and develop practical solutions Identify and resolve issues affecting data accuracy, processing, and system performance Support cloud-based data environments and modern data architecture initiatives Apply appropriate data protection, access control, and quality standards Evaluate opportunities to use automation and emerging technologies to improve data operations Document technical solutions and contribute to consistent engineering practices Education &amp; Qualifications Bachelor's degree in Computer Science, Data Science, or a related field Hands-on experience developing and maintaining data pipelines in a production environment Experience with Databricks for data processing, transformation, and pipeline development Strong programming skills in Python or a comparable language Proficiency in SQL and experience with relational and non-relational databases Experience developing and optimizing ETL/ELT processes Understanding of data modeling, data transformation, and modern data architecture Experience with cloud platforms such as AWS, Azure, or Google Cloud Familiarity with distributed data processing technologies such as Apache Spark Knowledge of data quality, governance, and security practices Ability to develop reliable, maintainable solutions for complex data requirements Strong troubleshooting, analytical, and communication skills Ability to work independently and collaborate with cross-functional teams Must currently reside in Southern California Preferred Experience Master's degree in Data Science or a related field Experience with workflow orchestration and scheduling tools Familiarity with Microsoft Fabric Experience with business intelligence platforms such as Power BI or Tableau Exposure to containerization technologies such as Docker or Kubernetes Familiarity with AI applications, intelligent automation, or machine learning workflows Experience improving data pipeline monitoring, reliability, and operational efficiency Why Our Client Work on meaningful data engineering initiatives that support business operations Gain hands-on experience with modern cloud and data processing technologies Contribute to improvements in data reliability, accessibility, and performance Collaborate with technical professionals and business stakeholders across the organization Take ownership of engineering challenges and help develop practical, long-term solutions Explore opportunities to improve existing workflows through automation and emerging technologies Expand your technical expertise while contributing to a growing and evolving data environment Location: Pasadena, CA (Onsite)",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-hireclout-4486573303",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "databricks",
+        "spark",
+        "tableau",
+        "power bi",
+        "python",
+        "sql",
+        "aws",
+        "azure",
+        "gcp",
+        "kubernetes"
+      ],
+      "score": 60,
+      "directness": 35
+    }
+  ]
+}
