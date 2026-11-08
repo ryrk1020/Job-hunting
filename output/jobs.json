@@ -1,113 +1,84 @@
 {
-  "generated_at": "2026-11-07T12:16:40.897510+00:00",
-  "count": 4,
+  "generated_at": "2026-11-08T12:39:05.511532+00:00",
+  "count": 3,
   "jobs": [
     {
       "source": "linkedin",
-      "company": "The Intersect Group",
-      "title": "Data Modeler",
-      "location": "Dallas-Fort Worth Metroplex",
-      "url": "https://www.linkedin.com/jobs/view/data-modeler-at-the-intersect-group-4487312487",
-      "posted_at": "2026-11-06T00:00:00+00:00",
-      "description": "Not available for C2C engagements Vendors marketing candidate will be blocked This is a hybrid onsite role in Downtown Dallas, TX Must be local to DFW - you will be rejected if you LinkedIn does not show you're local to DFW Data Modeler Must haves: 1. Erwin Data Modeler (expert level) 2. Conceptual, logical, and physical data modeling (3+ years enterprise experience) 3. Oracle and SQL Server with advanced SQL 4. DDL and database internals 5. Communication and cross-functional collaboration About the Opportunity The Intersect Group is partnering with a leading organization in the utilities and technology space that is focused on delivering reliable, data driven solutions that support critical business operations and long term growth. This organization values innovation, collaboration, data governance, and operational excellence, leveraging modern technologies to drive informed decision making across the enterprise. Team members are empowered to contribute meaningful solutions in a fast paced, results oriented environment while working alongside highly skilled professionals. Role Summary We are seeking an experienced Data Modeler to design, develop, and maintain enterprise data models that support mission critical business initiatives, analytics platforms, and operational systems. This role plays a key part in ensuring data assets are scalable, governed, high performing, and aligned with organizational objectives. The Data Modeler will translate complex business requirements into conceptual, logical, and physical data models while partnering closely with data architects, database administrators, developers, and business stakeholders. Success in this position requires strong expertise in Erwin Data Modeler, Oracle and SQL Server databases, and enterprise data modeling best practices. This individual will help drive data quality, governance, optimization, and modernization initiatives across large scale environments. Key Responsibilities • Design and maintain conceptual, logical, and physical data models using Erwin Data Modeler • Develop, review, and optimize DDL scripts for tables, views, indexes, constraints, partitions, and other database objects • Perform forward and reverse engineering of data models across Oracle and SQL Server environments • Collaborate with architects, DBAs, ETL developers, and business stakeholders to define and refine data requirements • Ensure data models comply with normalization standards, referential integrity, and data governance requirements • Support data warehousing initiatives through dimensional modeling, including star and snowflake schemas • Conduct model reviews, impact assessments, and schema comparisons while maintaining version control standards • Assist with database migrations, environment synchronization, and optimization of existing enterprise data solutions Key Requirements • 3+ years of hands on data modeling experience within enterprise environments • Advanced expertise with Erwin Data Modeler, including subject areas, model templates, metadata management, and DDL generation • Strong experience with Oracle databases and Microsoft SQL Server, including database design and optimization • Advanced SQL skills with deep knowledge of DDL, indexing strategies, partitioning, query execution plans, and database performance tuning • Solid understanding of normalization, denormalization, surrogate keys, slowly changing dimensions, and dimensional data modeling concepts • Experience supporting data governance initiatives, metadata management, data lineage documentation, and naming standards • Familiarity with Git, model comparison tools, database migration activities, and schema synchronization processes • Experience with Hadoop and MongoDB is a plus • Excellent communication and presentation skills with the ability to engage both technical and nontechnical audiences • Self motivated, adaptable professional who can effectively manage multiple priorities in a fast paced environment • Strong team oriented mindset with a commitment to delivering high quality results and continuous improvement Team Culture This team is fast paced, energetic, collaborative, and highly focused on delivering exceptional business outcomes. Team members are encouraged to take ownership, solve complex problems, and contribute innovative ideas while working in a supportive and results driven environment. Individuals who thrive on accountability, continuous learning, and achieving measurable results will be well positioned for success. Apply Today If you are an experienced Data Modeler looking for an opportunity to make a meaningful impact within a dynamic enterprise environment, we encourage you to apply today. Please submit your resume along with your contact information, and a member of The Intersect Group team will be in touch to discuss the opportunity.",
+      "company": "Deloitte",
+      "title": "Analytics and Insights Engineer II",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/analytics-and-insights-engineer-ii-at-deloitte-4488491893",
+      "posted_at": "2026-11-07T00:00:00+00:00",
+      "description": "Our Deloitte Customer team empowers organizations to build deeper relationships with customers through innovative strategies, advanced analytics, Generative AI, transformative technologies, and creative design. We can enhance customer experiences and drive sustained growth and customer value creation and capture, through customer and commercial strategies, digital products and innovation, marketing, commerce, sales, and service. We are a team of strategists, data scientists, operators, creatives, designers, engineers, and architects. Our team balances business strategy, technology, creativity, and ongoing managed services to solve the biggest problems that affect customers, partners, constituents, and the workforce. Recruiting for this role ends on December 18, 2026 Work you'll do Deloitte Digital's Data Science and Analytics practice is seeking creative minds and persistent problem solvers to build and support cutting-edge marketing analytics solutions that help our clients deliver customer value at every touchpoint. Marketing and advertising analytics are at the forefront of guiding data-driven strategies by leveraging emerging technologies, keen analytical abilities and a laser focus on addressing the client's business initiatives, rooted in data. Marketing and advertising analytics are a critical influencer in what drives marketing success and is in constant exploration for clients as the discipline of a data-first mentality evolves marketing. This person will work across our Marketing, Advertising, Commerce and Product Innovation functions within Deloitte Digital, to support data-driven, analytical decisioning for our clients. This person will work cross-functionally between teams to guide measurement frameworks, learning agendas, data strategy, and performance analytics. Key responsibilities include: Leverage advanced data analytics and visualization tools to map, analyze, and optimize end-to-end customer journeys, identifying key pain points and opportunities to drive enhanced experiences and business growth. Uncover client's key business questions, design and execute analysis to address those questions, and be able to demonstrate the impact of recommendations across paid, owned, and earned channels Bring a strong background with proven experience in marketing, advertising and commerce analytics, audience discovery and segmentation, measurement, modeling strategy, and data quality Bring extensive knowledge across paid, owned, and earned, with a focus of analytical expertise in one or more of the following: omnichannel, media (display, paid search, programmatic, paid social), organic social, social listening/trend identification, site, app, email/Push/SMS - CRM, or voice of the customer/brand studies Dive into large datasets, uncovering insights, and providing impactful recommendations to clients leveraging tools like Google Analytics, DV360, Ads Data Hub, Adobe Analytics, Salesforce/SFMC and more Transform data into actionable insights through strong storytelling with data designed for executive-level audiences by connecting the dots across channels through data to provide a holistic view of marketing/advertising/commerce efforts Create dashboards via Tableau, Datorama, Data Studio, Looker, or other similar data visualization tools Support the vision and creation of measurement plans, testing plans, tagging strategies, modeling strategy, and experimentation/A/B testing deployment The team Deloitte's Advertising, Marketing &amp; Commerce team creates content and experiences that inspire action. We design and implement technology platforms for personalized marketing across all digital touchpoints, specializing in customer-centric B2B and B2C solutions. Our in-house agency engages customers throughout their journey, working on projects like AdTech, MarTech, campaign automation, CRM, and lead-to-loyalty orchestration. Join us to drive impactful customer interactions and business growth. Qualifications Required: 2+ years of experience in managing digital marketing/advertising analytics, including marketing mix model and/or attribution solutions for complex, large-scale clients. 1+ years of Adobe Customer Journey Analytics (CJA) experience Bachelor's degree or equivalent professional experience. Ability to travel 30%, on average, based on the work you do and the client and industries/sectors you serve. Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future Preferred: Proficient in defining analytics, modeling, tagging strategies, and developing comprehensive measurement and testing plans. Strong command over analytical methodologies for optimizing customer datasets and digital campaigns. Advanced skills in Excel, SQL, Tableau, or other data analysis tools, with a high level of competence in digital analytics and tag management solutions. Exceptional project management skills, with a proven track record of managing work and meeting deadlines in a highly organized and autonomous manner. Excellent communication, leadership, and team collaboration skills, coupled with a strong executive presence for client-facing interactions. The wage range for this role takes into account the wide range of factors that are considered in making compensation decisions including but not limited to skill sets; experience and training; licensure and certifications; and other business and organizational needs. The disclosed range estimate has not been adjusted for the applicable geographic differential associated with the location at which the position may be filled. At Deloitte, it is not typical for an individual to be hired at or near the top of the range for their role and compensation decisions are dependent on the facts and circumstances of each case. A reasonable estimate of the current range is $91,100 to $179,500. You may also be eligible to participate in a discretionary annual incentive program, subject to the rules governing the program, whereby an award, if any, depends on various factors, including, without limitation, individual and organizational performance. #Customer_US #AMC_US",
       "remote": false,
-      "raw_id": "https://www.linkedin.com/jobs/view/data-modeler-at-the-intersect-group-4487312487",
+      "raw_id": "https://www.linkedin.com/jobs/view/analytics-and-insights-engineer-ii-at-deloitte-4488491893",
       "extra": {},
       "matched_groups": [
         "data"
       ],
-      "preferred_location": true,
+      "preferred_location": false,
+      "required_years": 2,
+      "salary_min": 91100,
+      "salary_max": 179500,
+      "tech_tags": [
+        "tableau",
+        "sql"
+      ],
+      "score": 80,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Amazon Web Services (AWS)",
+      "title": "Data Engineer II, Eva Trust Dev Team",
+      "location": "Bellevue, WA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-ii-eva-trust-dev-team-at-amazon-web-services-aws-4488025461",
+      "posted_at": "2026-11-05T00:00:00+00:00",
+      "description": "Description AWS Infrastructure Services owns the design, planning, delivery, and operation of all AWS global infrastructure. In other words, we’re the people who keep the cloud running. We support all AWS data centers and all of the servers, storage, networking, power, and cooling equipment that ensure our customers have continual access to the innovation they rely on. We work on the most challenging problems, with thousands of variables impacting the supply chain — and we’re looking for talented people who want to help. You’ll join a diverse team of software, hardware, and network engineers, supply chain specialists, security experts, operations managers, and other vital roles. You’ll collaborate with people across AWS to help us deliver the highest standards for safety and security while providing seemingly infinite capacity at the lowest possible cost for our customers. And you’ll experience an inclusive culture that welcomes bold ideas and empowers you to own them to completion. Own the data pipelines that let 30K+ AWS data center engineers get trusted, data-backed answers from Eva, our generative AI assistant. You'll lead the move of operational data from manual processes to automated pipelines, dashboards that generate themselves, and knowledge Eva can use the moment someone needs it. As a Data Engineer II on the Eva Trust team, you'll design, build, and operate the pipelines behind data center analytics. You'll own data domains end to end: you'll ingest data from operational systems, transform and validate it, and publish trusted datasets. Those datasets feed automated dashboards and structured knowledge bases, so insights reach people directly in Eva instead of through manually maintained reports. Key job responsibilities Design, build, and own data pipelines that ingest, transform, and validate data center operational data from multiple source systems Lead the migration of manual, high-maintenance data processes and legacy dashboards to automated, monitored pipelines Design data models and publish trusted, reusable datasets that power automatically generated dashboards Turn curated data into structured knowledge bases and Eva skills so insights show up directly in Eva Set and enforce data quality, freshness, and monitoring standards, including alarms and runbooks Find and retire brittle or duplicate data dependencies, and improve pipeline reliability and cost Work with data center partners to understand their data sources and needs, then turn ambiguous asks into clear plans Write clean, tested, documented code, take part in design and code reviews, and mentor junior engineers and interns A day in the life You might start the day reviewing pipeline health and deciding how to fix a recurring freshness issue at its source. Then you meet a data center operations partner to plan how a widely used dashboard's data moves into Eva. In the afternoon you write the design for a new ingestion pipeline, review a junior engineer's code, and work with the Eva platform team on how a new knowledge base plugs in. You finish by checking Eva's answers against your published data. About The Team Eva Trust is part of the Data Center Gen AI team in AWS Infrastructure Services. We make sure Eva, the AI assistant used by 30K+ people across the data center community, is accurate, safe, and trusted, and that it brings up the right information where people need it. We own the data pipelines, dashboards, structured knowledge, evaluations, and guardrails behind Eva. We combine deep data center domain expertise with data and AI engineering, and we invest in growing the people around us. *Why AWS* Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform. We pioneered cloud computing and never stopped innovating — that’s why customers from the most successful startups to Global 500 companies trust our robust suite of products and services to power their businesses. *Diverse Experiences* Amazon values diverse experiences. Even if you do not meet all of the preferred qualifications and skills listed in the job description, we encourage candidates to apply. If your career is just starting, hasn’t followed a traditional path, or includes alternative experiences, don’t let it stop you from applying. *Work/Life Balance* We value work-life harmony. Achieving success at work should never come at the expense of sacrifices at home, which is why we strive for flexibility as part of our working culture. When we feel supported in the workplace and at home, there’s nothing we can’t achieve in the cloud. *Inclusive Team Culture* Here at AWS, it’s in our nature to learn and be curious. Our employee-led affinity groups foster a culture of inclusion that empower us to be proud of our differences. Ongoing events and learning experiences, including our Conversations on Race and Ethnicity (CORE) and AmazeCon (gender diversity) conferences, inspire us to never stop embracing our uniqueness. *Mentorship and Career Growth* We’re continuously raising our performance bar as we strive to become Earth’s Best Employer. That’s why you’ll find endless knowledge-sharing, mentorship and other career-advancing resources here to help you develop into a better-rounded professional. Basic Qualifications 3+ years of data engineering experience 1+ years of developing and operating large-scale data structures for business intelligence analytics using data modeling experience 1+ years of developing and operating large-scale data structures for business intelligence analytics using SQL experience 1+ years of developing and operating large-scale data structures for business intelligence analytics using each of the following: ETL (Extract, Transform, Load)/ELT (Extract, Load, Transform) processes experience Bachelor's degree or foreign equivalent in Computer Science, Engineering, Information Systems, Mathematics, or a related field Preferred Qualifications Experience with AWS technologies like Redshift, S3, AWS Glue, EMR, Kinesis, FireHose, Lambda, and IAM roles and permissions Experience with non-relational databases / data stores (object storage, document or key-value stores, graph databases, column-family databases) Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life &amp; AD&amp;D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits. USA, WA, Bellevue - 132,100.00 - 178,800.00 USD annually Company - Amazon Data Services, Inc. Job ID: A10597768",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-ii-eva-trust-dev-team-at-amazon-web-services-aws-4488025461",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
       "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "redshift",
+        "sql",
+        "aws"
+      ],
+      "score": 75,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Veridic Solutions",
+      "title": "Snowflake engineer",
+      "location": "Spring, TX",
+      "url": "https://www.linkedin.com/jobs/view/snowflake-engineer-at-veridic-solutions-4486001089",
+      "posted_at": "2026-11-02T00:00:00+00:00",
+      "description": "Senior Snowflake / DBT Data Modeling Expert Location: Spring, TX (Onsite) Interview will be in-person Technical Requirements Snowflake and dbt Extensive, hands-on experience with Snowflake and dbt is essential. Candidates must have practical experience managing data transformations, testing, data quality, and preparing data for consumption. Must understand the complete data engineering process, not just one component. Candidates must demonstrate experience from actual implementation rather than knowledge gained through team exposure alone. Data Modeling and Star Schema Strong Star Schema modeling expertise is one of the most important requirements. Candidates must understand good versus poor modeling practices and be able to explain their design decisions. The manager expects candidates to work through a straightforward modeling problem in approximately five minutes during the initial interview assessment. Supporting Technologies Azure Data Factory (ADF) for data ingestion. GitHub Actions for development workflows and governance. Terraform for infrastructure as code. REST APIs and appropriate data access practices. SQL optimization, automation, and performance improvement. AI experience is a plus, particularly experience using AI to improve development workflows. End-to-End Data Engineering Data enters through ADF and moves into the data lake. The environment uses bronze, gold, and platinum data layers. dbt manages transformations, testing, cleanup, and preparation for consumption. Data is exposed through APIs and used in Power BI semantic models and dashboards. The role focuses on data engineering, architecture, and modeling—not Power BI dashboard development.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/snowflake-engineer-at-veridic-solutions-4486001089",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
       "salary_min": null,
       "salary_max": null,
       "tech_tags": [
         "snowflake",
-        "hadoop",
-        "sql"
-      ],
-      "score": 105,
-      "directness": 35
-    },
-    {
-      "source": "linkedin",
-      "company": "BeaconFire Inc.",
-      "title": "L1-Data Engineer",
-      "location": "California, United States",
-      "url": "https://www.linkedin.com/jobs/view/l1-data-engineer-at-beaconfire-inc-4483471662",
-      "posted_at": "2026-11-03T00:00:00+00:00",
-      "description": "Junior Data Engineer DESCRIPTION: BeaconFire is based in Central NJ, specializing in Software Development, Web Development, and Business Intelligence; looking for candidates who are good communicators and self-motivated. You will play a key role in building, maintaining, and operating integrations, reporting pipelines, and data transformation systems. Qualifications: ● Passion for data and a deep desire to learn. ● Master’s Degree in Computer Science/Information Technology, Data Analytics/Data Science, or related discipline. ● Intermediate Python. Experience in data processing is a plus. (Numpy, Pandas, etc) ● Experience with relational databases (SQL Server, Oracle, MySQL, etc.) ● Strong written and verbal communication skills. ● Ability to work both independently and as part of a team. Responsibilities: ● Collaborate with the analytics team to find reliable data solutions to meet the business needs. ● Design and implement scalable ETL or ELT processes to support the business demand for data. ● Perform data extraction, manipulation, and production from database tables. ● Build utilities, user-defined functions, and frameworks to better enable data flow patterns. ● Build and incorporate automated unit tests, participate in integration testing efforts. ● Work with teams to resolve operational &amp; performance issues. ● Work with architecture/engineering leads and other teams to ensure quality solutions are implemented, and engineering best practices are defined and adhered to. Compensation $62,000 – $80,000/year BeaconFire is an E-Verified company and provides equal employment opportunities. Visa sponsorship is available for eligible candidates.",
-      "remote": false,
-      "raw_id": "https://www.linkedin.com/jobs/view/l1-data-engineer-at-beaconfire-inc-4483471662",
-      "extra": {},
-      "matched_groups": [
-        "data"
-      ],
-      "preferred_location": false,
-      "required_years": 0,
-      "salary_min": 62000,
-      "salary_max": 80000,
-      "tech_tags": [
-        "python",
-        "sql"
-      ],
-      "score": 70,
-      "directness": 35
-    },
-    {
-      "source": "remoteok",
-      "company": "Toptal",
-      "title": "ML Inference Engineer â Terminal-Bench Task Designer (vLLM / SGLang / TensorRT-LLM)",
-      "location": "Anywhere in the World",
-      "url": "https://remoteOK.com/remote-jobs/remote-ml-inference-engineer-terminal-bench-task-designer-vllm-sglang-tensorrt-llm-toptal-1137689",
-      "posted_at": "2026-11-05T14:58:56+00:00",
-      "description": "Overview We are building a benchmark that tests how well AI agents handle real expert work in a terminal. We are hiring ML inference and serving experts to turn real, paid tasks from their jobs into expert-level Terminal-Bench challenges. Each task includes the environment, a working solution, and an automated check that proves the result is correct. ***THIS IS A TASK BASED COMPENSATION MODEL. PLEASE CHECK THE APPLICATION QUESTIONS FOR MORE DETAILS.*** Responsibilities â¢ Design expert-level Terminal-Bench tasks that turn real, paid ML inference work from your own experience into challenges an AI agent must solve end to end. â¢ Define the files, systems and environments each task runs on, such as model serving with streaming, so the challenge is realistic, reproducible and command-line solvable. â¢ Write a working reference solution for every task and verify it runs end to end, sized for about 60 to 75 minutes of expert effort. â¢ Build automated checks that objectively prove a result is correct, including cases where ML outputs go wrong silently, such as numerical drift or metric bugs. â¢ Package tasks with Docker and Git so they are reproducible, and document the systems, tools, data and rules involved so reviewers can validate difficulty. â¢ Iterate on tasks based on reviewer feedback and agent test runs, adjusting difficulty and fixing ambiguities so each task stays expert-level, fair and objectively gradable. Skills/Experience â¢ 3+ years doing ML inference or serving work hands-on (not only studying, selling or managing it), or a PhD plus active research in the subfield â¢ Did this work in the last 3 years and can name the systems, tools, data and rules used â¢ Trained, served or evaluated models at real scale (multi-GPU or production serving), not only notebooks or API calls â¢ Hands-on with PyTorch or JAX internals and serving stacks such as vLLM, SGLang or TensorRT-LLM â¢ Can explain how ML results go wrong without errors (numerical drift, metric bugs) and how to catch them â¢ Technical fluency in Python and the command line, and with files, CSV/JSON, APIs or databases â¢ Availability to start by early November 2026 and complete tasks of about 60 to 75 minutes each Nice-to-have â¢ AI lab or LLM infrastructure experience â¢ Contributions to PyTorch, vLLM or SGLang â¢ GPU profiling experience â¢ Docker and Git proficiency â¢ Experience writing automated tests Process â¢ Task vetting instead of an interview: complete a vetting task so the client can assess your task design â¢ Paid per task; each task takes about 60 to 75 minutes â¢ Work is delivered task by task, with reviewer feedback on submissions â¢ Expected start in early November 2026 Please mention the word **ASTONISHED** and tag RNTIuMTY1LjEwMi4xNjU= when applying to show you read the job post completely (#RNTIuMTY1LjEwMi4xNjU=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "remote": true,
-      "raw_id": "1137689",
-      "extra": {},
-      "matched_groups": [
-        "data"
-      ],
-      "preferred_location": false,
-      "required_years": 3,
-      "salary_min": null,
-      "salary_max": null,
-      "tech_tags": [
-        "python"
-      ],
-      "score": 60,
-      "directness": 55
-    },
-    {
-      "source": "linkedin",
-      "company": "HIRECLOUT",
-      "title": "Data Engineer",
-      "location": "Pasadena, CA",
-      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-hireclout-4486573303",
-      "posted_at": "2026-11-05T00:00:00+00:00",
-      "description": "Role Overview We are partnering with an established organization looking for a Data Engineer to develop and enhance the technology that supports its data operations. This is a hands-on opportunity for someone who enjoys building reliable data solutions, improving existing systems, and making complex information easier for teams to access and use. You'll work with modern data technologies to develop pipelines, streamline data processing, and improve the quality and availability of information across different applications. The role combines practical engineering with problem-solving, offering the opportunity to contribute to both new initiatives and improvements to existing data systems. We're looking for someone who can take ownership of technical challenges, work effectively with different stakeholders, and build solutions that are efficient, scalable, and easy to maintain. Strong experience with Python, SQL, and Databricks is essential, along with a solid understanding of cloud-based data engineering. Key Responsibilities Develop and maintain data pipelines that support reporting, analytics, and business operations Build efficient processes for collecting, organizing, and transforming data from multiple sources Improve existing data workflows to enhance performance, reliability, and maintainability Create automated processes that reduce manual intervention and improve data consistency Develop solutions that support accurate, accessible, and well-organized datasets Partner with technical teams to improve data storage, processing, and integration capabilities Collaborate with business stakeholders to understand information needs and develop practical solutions Identify and resolve issues affecting data accuracy, processing, and system performance Support cloud-based data environments and modern data architecture initiatives Apply appropriate data protection, access control, and quality standards Evaluate opportunities to use automation and emerging technologies to improve data operations Document technical solutions and contribute to consistent engineering practices Education &amp; Qualifications Bachelor's degree in Computer Science, Data Science, or a related field Hands-on experience developing and maintaining data pipelines in a production environment Experience with Databricks for data processing, transformation, and pipeline development Strong programming skills in Python or a comparable language Proficiency in SQL and experience with relational and non-relational databases Experience developing and optimizing ETL/ELT processes Understanding of data modeling, data transformation, and modern data architecture Experience with cloud platforms such as AWS, Azure, or Google Cloud Familiarity with distributed data processing technologies such as Apache Spark Knowledge of data quality, governance, and security practices Ability to develop reliable, maintainable solutions for complex data requirements Strong troubleshooting, analytical, and communication skills Ability to work independently and collaborate with cross-functional teams Must currently reside in Southern California Preferred Experience Master's degree in Data Science or a related field Experience with workflow orchestration and scheduling tools Familiarity with Microsoft Fabric Experience with business intelligence platforms such as Power BI or Tableau Exposure to containerization technologies such as Docker or Kubernetes Familiarity with AI applications, intelligent automation, or machine learning workflows Experience improving data pipeline monitoring, reliability, and operational efficiency Why Our Client Work on meaningful data engineering initiatives that support business operations Gain hands-on experience with modern cloud and data processing technologies Contribute to improvements in data reliability, accessibility, and performance Collaborate with technical professionals and business stakeholders across the organization Take ownership of engineering challenges and help develop practical, long-term solutions Explore opportunities to improve existing workflows through automation and emerging technologies Expand your technical expertise while contributing to a growing and evolving data environment Location: Pasadena, CA (Onsite)",
-      "remote": false,
-      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-hireclout-4486573303",
-      "extra": {},
-      "matched_groups": [
-        "data"
-      ],
-      "preferred_location": false,
-      "required_years": 0,
-      "salary_min": null,
-      "salary_max": null,
-      "tech_tags": [
-        "databricks",
-        "spark",
-        "tableau",
+        "dbt",
         "power bi",
-        "python",
         "sql",
-        "aws",
-        "azure",
-        "gcp",
-        "kubernetes"
+        "azure"
       ],
-      "score": 60,
+      "score": 25,
       "directness": 35
     }
   ]
