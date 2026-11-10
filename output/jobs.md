@@ -1,12 +1,15 @@
-# Latest Jobs (6)
+# Latest Jobs (9)
 
-_Generated 2026-11-09 14:53 UTC_
+_Generated 2026-11-10 14:10 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 80 | 2026-11-07 | linkedin | Optum | Patient Access Center Data Analyst I - Kelsey Seybold Clinic | Houston, TX | [apply](https://www.linkedin.com/jobs/view/patient-access-center-data-analyst-i-kelsey-seybold-clinic-at-optum-4488757024) |
-| 2 | 80 | 2026-11-09 | linkedin | Wayve | Software Engineer, Data Ingestion | Sunnyvale, CA | [apply](https://www.linkedin.com/jobs/view/software-engineer-data-ingestion-at-wayve-4487125701) |
-| 3 | 70 | 2026-11-07 | linkedin | Deloitte | Analytics and Insights Engineer II | Houston, TX | [apply](https://www.linkedin.com/jobs/view/analytics-and-insights-engineer-ii-at-deloitte-4488712011) |
-| 4 | 60 | 2026-11-07 | linkedin | IBM | Data Engineer | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-ibm-4450455775) |
-| 5 | 55 | 2026-11-06 | linkedin | Newrez | TRAIL Rising Leaders Program - Data Product Engineering | Coppell, TX | [apply](https://www.linkedin.com/jobs/view/trail-rising-leaders-program-data-product-engineering-at-newrez-4462438239) |
-| 6 | 40 | 2026-11-04 | linkedin | Signature IT World Inc | AWS Data Engineer | Arizona, United States | [apply](https://www.linkedin.com/jobs/view/aws-data-engineer-at-signature-it-world-inc-4485517472) |
+| 1 | 105 | 2026-11-09 | linkedin | Infosys | AWS Informatica Engineer | Richardson, TX | [apply](https://www.linkedin.com/jobs/view/aws-informatica-engineer-at-infosys-4487179246) |
+| 2 | 105 | 2026-11-09 | linkedin | Healthcare Triangle, Inc. | Databricks Engineer / All Over US / Contract | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/databricks-engineer-all-over-us-contract-at-healthcare-triangle-inc-4487956220) |
+| 3 | 80 | 2026-11-10 | linkedin | MeeBoss | Data Engineer at nttdata | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-nttdata-at-meeboss-4489186490) |
+| 4 | 75 | 2026-11-09 | greenhouse | chime | Data Scientist, Dispute Risk | Chicago, IL, USA | [apply](https://boards.greenhouse.io/chime/jobs/8904126002?gh_jid=8904126002) |
+| 5 | 70 | 2026-11-09 | linkedin | Programmers.io | Azure Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/azure-data-engineer-at-programmers-io-4487951255) |
+| 6 | 65 | 2026-11-05 | linkedin | Danta Technologies | Data Engineer | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-danta-technologies-4487703843) |
+| 7 | 50 | 2026-11-07 | linkedin | JLG Industries | Data Engineer | Frederick, MD | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-jlg-industries-4486924899) |
+| 8 | 40 | 2026-11-05 | linkedin | MACHINE LEARNING TECHNOLOGIES LLC | Data Engineer | Iselin, NJ | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-machine-learning-technologies-llc-4487395428) |
+| 9 | 40 | 2026-11-05 | linkedin | Kforce Inc | Data Engineer (Azure) | New York, NY | [apply](https://www.linkedin.com/jobs/view/data-engineer-azure-at-kforce-inc-4487799910) |
