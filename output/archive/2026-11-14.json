@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-11-14T12:53:24.514328+00:00",
+  "count": 4,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "Deloitte",
+      "title": "Databricks Data Engineer",
+      "location": "Greater Indianapolis",
+      "url": "https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4473937098",
+      "posted_at": "2026-11-13T00:00:00+00:00",
+      "description": "Join Deloitte's Core AI &amp; Data practice and help organizations modernize data platforms, strengthen enterprise data foundations, and scale analytics and artificial intelligence capabilities. As a Databricks Data Engineer, you will support the design, build, and optimization of cloud-based data engineering solutions that enable large-scale transformation. You will work with business and technology teams to modernize data environments, support analytics and artificial intelligence use cases, and deliver measurable business outcomes. This role offers the opportunity to help clients implement enterprise-scale Databricks solutions that improve platform performance and expand data-driven decision-making. Recruiting for this role ends on 10/30/2026. Work you'll do As a Data Engineer II on the AI &amp; Data team, you will be responsible for: Design, build, and maintain data pipelines and data engineering solutions using Databricks, Apache Spark, Python, and Structured Query Language (SQL) Support the modernization of enterprise data platforms by implementing cloud-based ingestion, transformation, and storage patterns Develop and maintain batch and streaming data workflows that support reporting, analytics, and artificial intelligence use cases Apply data architecture, integration, and data modeling practices to improve data quality, scalability, and platform performance Collaborate with client and Deloitte teams to troubleshoot issues, implement enhancements, and support delivery of large-scale data transformation programs A successful candidate would possess these skills: Ability to work independently and collaborate as part of a team Effective written and verbal communication skills Meticulous attention to detail and quality of work product Ability to build and sustain professional relationships Ability to lead projects or workstreams Ability to manage and prioritize multiple tasks in a fast-paced and dynamic environment Strong interpersonal skills and professional demeanor Ability to meet deadlines Ability to provide clear guidance to others The team Deloitte's Core AI &amp; Data practice helps organizations modernize data platforms, strengthen enterprise data foundations, and scale analytics and artificial intelligence capabilities across the business. The team works with clients to architect, engineer, and deploy cloud-based data solutions that improve decision-making, enable innovation, and support large-scale transformation. Practitioners collaborate across business and technology functions to solve complex challenges in data modernization, governance, platform engineering, and insight delivery. Qualifications Required: Bachelor's degree in Computer Science, Engineering, Information Systems, Data Science, Mathematics, or Statistics 3+ years of experience in data engineering, extract, transform, load (ETL) development, or data platform engineering 2+ years of experience building data pipelines in Databricks using Apache Spark, Python, and Structured Query Language (SQL) Experience implementing data models, data integration patterns, and cloud-based data processing workflows Experience working with at least one cloud platform: Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP) Ability to travel 50%, on average, based on the work you do and the clients and industries/sectors you serve. Limited immigration sponsorship may be available. Preferred: Experience with Delta Lake, Databricks Workflows, and Unity Catalog Experience using Git-based version control and continuous integration/continuous deployment pipelines Experience supporting batch and streaming data workloads Experience with data warehousing, lakehouse architecture, and performance optimization Experience supporting analytics or machine learning data pipelines Experience working in consulting or client service delivery environments The wage range for this role takes into account the wide range of factors that are considered in making compensation decisions including but not limited to skill sets; experience and training; licensure and certifications; and other business and organizational needs. The disclosed range estimate has not been adjusted for the applicable geographic differential associated with the location at which the position may be filled. At Deloitte, it is not typical for an individual to be hired at or near the top of the range for their role and compensation decisions are dependent on the facts and circumstances of each case. A reasonable estimate of the current range is $86,700 to $170,900. Information for applicants with a need for accommodation: https://www2.deloitte.com/us/en/pages/careers/articles/join-deloitte-assistance-for-disabled-applic...",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4473937098",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": 86700,
+      "salary_max": 170900,
+      "tech_tags": [
+        "databricks",
+        "spark",
+        "python",
+        "sql",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "score": 95,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Stuller, Inc.",
+      "title": "Data Engineer",
+      "location": "Lafayette, LA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-stuller-inc-4487461009",
+      "posted_at": "2026-11-10T00:00:00+00:00",
+      "description": "With constant innovation, cutting-edge technology, and fast-paced development, were looking for talented professionals to join our Information Technology team to help us continue delivering an unparalleled customer experience. The Data Engineering department oversees the standardization, management, and adoption of services that support key technology initiatives, while also collaborating on cloud architecture, automation, data pipeline development, and data modeling to support business intelligence and data science goals. This team plays a critical role in leveraging data assets to drive actionable insights and innovation across the organization. The Data Engineer is responsible for building and maintaining data pipelines that move and transform data from Stullers systems into its cloud data warehouse. Working with senior team members, this role follows established data modeling patterns to support business intelligence, analytics, and data science. This role provides the opportunity to develop end-to-end data solutions using a modern data engineering technology stack. The Data Engineer will write and test dbt models, gain exposure to the semantic layer and analytics engineering practices, and develop reliable solutions through regular design and code reviews. Key Responsibilities Build, test, and maintain ETL/ELT pipelines that move data from ingestion to consumption using established tools and patterns, including Airflow.Write and test dbt models under the guidance of senior team members.Write performant SQL while following established schema conventions in the Snowflake data warehouse.Transform and integrate data from multiple sources into models that support reporting and analytics.Support semantic layer development and analytics engineering practices under senior team guidance.Monitor data workflows, troubleshoot issues, and help identify and resolve data quality concerns.Follow established data security, governance, testing, and deployment practices.Develop awareness of warehouse compute costs and avoid wasteful query patterns.Collaborate with analytics and data science teams to understand and support their data needs.Complete well-defined tasks reliably, participate in regular design and code reviews, incorporate feedback, and escalate blockers appropriately. Minimum Qualifications Bachelors degree in Computer Science or a related technical field, or equivalent relevant experience.Foundational understanding of SQL and relational database concepts.Exposure to ETL/ELT concepts and pipeline tools, including Airflow.Basic familiarity with dbt or a similar transformation framework, or a strong aptitude to learn.Understanding of core data warehouse concepts, including schemas, roles, and warehouses.Awareness of the cost implications of compute-intensive queries.Strong problem-solving skills and attention to quality and detail.Strong communication skills within a team setting.Ability to manage assigned work, follow established guidelines, incorporate feedback through regular reviews, and escalate blockers appropriately.Demonstrated curiosity, reliability, integrity, and commitment to continuous learning. Preferred Qualifications Hands-on experience with Snowflake, AWS, or Python.Experience with data modeling in analytics environments.Familiarity with semantic layers or analytics engineering practices.Experience with Agile development practices.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-stuller-inc-4487461009",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "airflow",
+        "dbt",
+        "python",
+        "sql",
+        "aws"
+      ],
+      "score": 50,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "KLAS Research",
+      "title": "Data Engineer",
+      "location": "Pleasant Grove, UT",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-klas-research-4488620251",
+      "posted_at": "2026-11-10T00:00:00+00:00",
+      "description": "Pleasant Grove, UT, US The Data Engineer works with a multidisciplinary Agile team to build and maintain high-quality data pipelines that support KLAS’s research, operations, and public web application, and will be key in supporting current and future reporting and analytic solutions. What You’ll Do Build and optimize secure, reusable data pipelines and ETL/ELT processes using Azure Data Factory and other tools. Integrate data from varied sources and develop data models for analytics, operations, and reporting. Create data quality checks, monitoring, and processes to keep data accurate, consistent, and reliable. Prepare well-structured datasets for reporting, statistical analysis, and machine learning. Work with Engineering, analysts, product managers, and business partners to translate needs into scalable data solutions. Troubleshoot pipeline issues, support root cause analysis, and improve automation, performance, and cost efficiency. Contribute to code reviews, testing, CI/CD deployments, and technical documentation. Communicate progress and blockers, manage shifting priorities, and help teams use data products effectively. What You’ll Bring Bachelor’s degree in Computer Science, Information Systems, Information Technology, or equivalent experience. 3+ years of experience in data engineering or a related role. Experience building and maintaining production ETL/ELT pipelines, data workflows, and data models. Proficiency with SQL, preferably PostgreSQL, and Python. Understanding of data modeling, database normalization, and data warehouse or data lake concepts. Experience with cloud data platforms; Azure is preferred. Strong communication and collaboration skills, with the ability to deliver quality work amid changing priorities. Cloud experience a plus The salary range for this role starts at $105,000 per year. Final compensation will be determined according to the candidate’s relevant experience, skills, and qualifications. We offer exceptional benefits, including medical, dental, vision, life insurance, HSA with company match, 401K with company match, PTO, and more. All employees undergo a comprehensive internal education program to gain knowledge of the healthcare information technology industry and KLAS' methodology. Learn more about us at www.klasresearch.com. We encourage candidates to read this article before applying: https://klasresearch.com/article/hiring-character-first/903 Why Join KLAS Research? At KLAS, we are committed to fostering a supportive and inclusive work environment where every team member can excel. Our culture emphasizes collaboration and continuous learning with a dedication to enhancing global healthcare. Here’s what you can expect: Welcoming and Supportive Team: From day one, you'll be valued and supported in your professional development. Investment in New Hires: We invest in our new hires through an internal education program designed to get you up to speed with KLAS and Health Information Technology (HIT). Career Development: Regular one-on-one meetings, quarterly conversations, and mentoring opportunities to support your growth. Hybrid Schedule: Our hybrid work policy allows team members to work both remotely and in the office. This flexible approach provides team members with a balance between in-person collaboration and remote work autonomy. Hybrid work is defined as three (3) full days expected in-office, Monday - Wednesday. Enjoyable Work Environment: We strive to make work enjoyable with quarterly team activities, monthly office events such as chili cook-offs and costume contests, catered lunch once a month, snack room, and more. Inclusive Culture: We are committed to creating an inclusive environment where everyone feels valued and respected. Our employee resource groups, sponsored by our executives, provide additional support and community for our team members. Core Values: Our core values of integrity, passion, accountability, trust, and humility guide everything we do. We believe in upholding these values to create a positive and productive workplace. KLAS’ mission is to improve the world's healthcare by amplifying the voice of providers and payers. We can only fully live up to that mission when we prioritize inclusion, equity, and diversity. As a company and individuals, we commit to building an atmosphere where we can all thrive and belong—across race and ethnicity, gender identity and expression, sexuality, age, ability, religion, and experience. EOE.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-klas-research-4488620251",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "python",
+        "sql",
+        "azure"
+      ],
+      "score": 45,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Centerfield",
+      "title": "Data Engineer",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-centerfield-4461444184",
+      "posted_at": "2026-11-09T00:00:00+00:00",
+      "description": "Hi, We're Centerfield! Supercharged customer acquisition. Centerfield delivers outcome-based digital marketing solutions and personalized omnichannel experiences for the world’s leading brands. Powered by our proprietary Dugout platform, Centerfield acquires customers at scale for leading residential service, insurance, e-commerce, and B2B brands. Centerfield’s digital experiences and digital brands, such as Business.com and BroadbandNow.com , reach more than 150 million in-market shoppers annually. Centerfield is headquartered in Silicon Beach and is proud to be recognized by Built in LA as a Best Place to Work in Los Angeles. Role Overview... As a Data Engineer , you’ll help design the highly specialized data collection infrastructure in support of Centerfield's proprietary Data Architecture. Core Responsibilities... Help design the highly specialized data collection infrastructure in support of Centerfield's proprietary Data Architecture. Aid the team with troubleshooting, researching the root cause, and resolving technical defects in the event of a problem. Help implement technical maintenance strategies for all specialized datasets. Work with relevant stakeholders to deliver appropriate BI, data warehousing, reporting, and analytical infrastructure required to support Centerfield's assets. Own problems from end-to-end in order to collect, extract, and clean the data. Job Responsibilities... Bachelor’s degree or foreign equivalent in Computer Science, Computer Engineering, or a related field. Three (3) years of experience in the position offered, as a Data Engineer, BI Engineer, Data Warehousing Engineer, or related occupation. Experience with the following: ETL tools such as Talend, SSIS, or Informatica Google Cloud Platform, including Google Cloud Bucket, Cloud Data Fusion, BigQuery, and Google Analytics Performance-tuning techniques Real-time streaming implementation and architecture Building reports and data visualization with BI tools such as Tableau or Power BI Data organization and ETL / ELT processes Designing resilient data pipelines AWS and GCP technologies, including S3, SQS, Redshift, Kinesis, Google Cloud Bucket, Cloud Data Fusion, and BigQuery Java and Python and their respective build and packaging systems NoSQL databases such as MongoDB, DynamoDB, Druid, Hive, and Presto Amazon Web Services, including S3, SQS, Redshift, and DocumentDB Life at Centerfield... This is a hybrid position, and employees are expected to come into our Playa Vista, CA office every Tuesday, Wednesday &amp; Thursday Competitive salary + semi-annual bonus Unlimited PTO – take a break when you need it! Industry-leading medical, dental, and vision plans + generous parental leave 401(k) company match plan – fully vested on day 1 Outside patio overlooking Playa Vista + cabanas, firepits &amp; working grills Award-winning culture &amp; unprecedented team spirit (featured in LA Business Journal &amp; Built In LA) Fully stocked kitchens with snacks &amp; drinks Breakroom supplied with games, couches, workout equipment + weekly in-office exercise classes hosted by professional instructors (yoga, kickboxing &amp; circuit training) Free onsite gym + locker rooms Monthly team outings (ball games, casino night, hikes, etc.) Career growth – we enjoy promoting from within! AI &amp; Interview Policy At Centerfield, we use AI tools internally to support efficiency and fairness in our hiring process, including resume screening and administrative tasks. Candidates are welcome to use AI tools ethically to prepare for interviews, such as practicing responses or researching questions. However, all responses during the interview process should reflect your own knowledge, experience, and judgment. The use of AI tools to generate responses during live interviews, technical assessments, or written submissions is not permitted unless explicitly stated otherwise. To learn more, visit us Here . Interviews will take place after resumes have been screened for the minimum requirements. Please note that this position is not restricted solely to the responsibilities listed above and that the job scope and responsibilities are subject to change. For more information about our collection, use, and disclosure of your personal information in connection with our evaluating your candidacy, please visit our Privacy Policy at https://www.centerfield.com/privacy-policy/. Centerfield Media is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, age, religion, sex, national origin, disability, protected veteran status, or any other characteristic protected under federal, state or local law. Compensation Range: $100K - $130K",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-centerfield-4461444184",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": 100000,
+      "salary_max": 130000,
+      "tech_tags": [
+        "hadoop",
+        "redshift",
+        "bigquery",
+        "tableau",
+        "power bi",
+        "informatica",
+        "python",
+        "aws",
+        "gcp"
+      ],
+      "score": 45,
+      "directness": 35
+    }
+  ]
+}
