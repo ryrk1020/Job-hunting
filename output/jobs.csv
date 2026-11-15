@@ -1,5 +1,1 @@
 score,directness,posted_at,source,company,title,location,url,salary_min,salary_max,required_years,tech_tags,matched_groups,preferred_location,alt_sources
-95,35,2026-11-13T00:00:00+00:00,linkedin,Deloitte,Databricks Data Engineer,Greater Indianapolis,https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4473937098,86700,170900,3,"databricks,spark,python,sql,aws,azure,gcp",data,False,
-50,35,2026-11-10T00:00:00+00:00,linkedin,"Stuller, Inc.",Data Engineer,"Lafayette, LA",https://www.linkedin.com/jobs/view/data-engineer-at-stuller-inc-4487461009,,,0,"snowflake,airflow,dbt,python,sql,aws",data,False,
-45,35,2026-11-10T00:00:00+00:00,linkedin,KLAS Research,Data Engineer,"Pleasant Grove, UT",https://www.linkedin.com/jobs/view/data-engineer-at-klas-research-4488620251,,,3,"python,sql,azure",data,False,
-45,35,2026-11-09T00:00:00+00:00,linkedin,Centerfield,Data Engineer,"Los Angeles, CA",https://www.linkedin.com/jobs/view/data-engineer-at-centerfield-4461444184,100000,130000,0,"hadoop,redshift,bigquery,tableau,power bi,informatica,python,aws,gcp",data,False,
