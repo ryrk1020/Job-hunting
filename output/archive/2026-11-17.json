@@ -1,0 +1,186 @@
+{
+  "generated_at": "2026-11-17T15:25:03.905876+00:00",
+  "count": 7,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "Parkland Health",
+      "title": "Healthcare Business Data Analyst - PCHP",
+      "location": "Dallas, TX",
+      "url": "https://www.linkedin.com/jobs/view/healthcare-business-data-analyst-pchp-at-parkland-health-4490994964",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "description": "Location: Mockingbird Primary Purpose Parkland Community Health Plan's (PCHP's) Healthcare Business Data Analyst, reporting to the Health Services department, is responsible for the gathering of data from various sources to ensure improvement in the delivery of health services. Performs data analysis, verification, and mapping of financial and clinical healthcare data related to medical, pharmacy, eligibility, and other types of data files. Oversees data mining, development, and preparation of data to provide useful information for health services department. MINIMUM SPECIFICATIONS Education Bachelor's degree in Business, Healthcare Analytics, Computer Science, Information Systems or other related quantitative degree. Experience Three years of healthcare or business-related reporting, analytics, and data analyst work. Two years of experience creating detailed reports for internal and external stakeholders. Three years of experience with data collection and analysis working with large data sets is preferred. Equivalent Education And/or Experience May have an equivalent combination of education and experience to substitute for the education requirements. Certification/Registration/Licensure None. Required Tests For Placement None. Skills Or Special Abilities Skilled in interpreting, analyzing, and providing recommendations regarding data accuracy and data collection needs and processes. Ability to work effectively with key stakeholders on complex cross teams and work groups. Able to change direction in response to changing work situations. Excellent problem-solving skills and an eye for details to assess and accommodate detailed project requirements. Strong verbal and written communication skills. Proficient in Microsoft Power Point, Excel, Access, and Word for data analysis and presentations. Ability to analyze, explain and draw logical conclusion based on complex data from multiple content areas. Extremely organized and able to prioritize tasks and work effectively on multiple assignments. Proficient in meeting NCQA medical management standards is preferred. Responsibilities Responsible for the statistical analysis and production of reports, using data from a variety of sources, for use in management and/or clinical decisions. Applies appropriate statistical and validation tools to ensure data accuracy. Reports and presents clinical insights from the analysis of data from healthcare claims looking for discrepancies and trends in the data. Designs and creates clinical consulting reports with data presentations to internal and external customers as required. Offers suggestions on ways to improve healthcare delivery, quality and cost effectiveness for the health plan populations. Tracks on-going outcomes reports and manage priorities for upcoming reports. Responsible for information gathering from various sources and translation of information to the IT Team. Job Accountabilities Identifies ways to improve work processes and improve customer satisfaction. Makes recommendations to supervisor, implements, and monitors results as appropriate in support of the overall goals of PCHP. Stays abreast of the latest developments, advancements, and trends in the field by attending seminars/workshops, reading professional journals, actively participating in professional organizations, and/or maintaining certification or licensure. Integrates knowledge gained into current work practices. Maintains knowledge of applicable rules, regulations, policies, laws and guidelines that impact the area. Develops effective internal controls designed to promote adherence with applicable laws, accreditation agency requirements, and customer requirements. Seeks advice and guidance as needed to ensure proper understanding. Requisition ID: 991085",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/healthcare-business-data-analyst-pchp-at-parkland-health-4490994964",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [],
+      "score": 125,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Deloitte",
+      "title": "Databricks Data Engineer",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4491555422",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "description": "As a Data Engineer II on the AI &amp; Data team, you will be responsible for: Design, build, and maintain data pipelines and data engineering solutions using Databricks, Apache Spark, Python, and Structured Query Language (SQL) Support the modernization of enterprise data platforms by implementing cloud-based ingestion, transformation, and storage patterns Develop and maintain batch and streaming data workflows that support reporting, analytics, and artificial intelligence use cases Apply data architecture, integration, and data modeling practices to improve data quality, scalability, and platform performance Collaborate with client and Deloitte teams to troubleshoot issues, implement enhancements, and support delivery of large-scale data transformation programs \"Recruiting for this role ends on 31 - May - 2027 Required: 3+ years of experience in data engineering, extract, transform, load (ETL) development, or data platform engineering 2+ years of experience building data pipelines in Databricks using Apache Spark, Python, and Structured Query Language (SQL) Experience implementing data models, data integration patterns, and cloud-based data processing workflows Experience working with at least one cloud platform: Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP) Bachelor's degree in Computer Science, Engineering, Information Systems, Data Science, Mathematics, or Statistics Preferred: Experience with Delta Lake, Databricks Workflows, and Unity Catalog Experience using Git-based version control and continuous integration/continuous deployment pipelines Experience supporting batch and streaming data workloads Experience with data warehousing, lakehouse architecture, and performance optimization Experience supporting analytics or machine learning data pipelines Experience working in consulting or client service delivery environments The wage range for this role takes into account the wide range of factors that are considered in making compensation decisions including but not limited to skill sets; experience and training; licensure and certifications; and other business and organizational needs. The disclosed range estimate has not been adjusted for the applicable geographic differential associated with the location at which the position may be filled. At Deloitte, it is not typical for an individual to be hired at or near the top of the range for their role and compensation decisions are dependent on the facts and circumstances of each case. A reasonable estimate of the current range is $ 86700 to $ 170900. You may also be eligible to participate in a discretionary annual incentive program, subject to the rules governing the program, whereby an award, if any, depends on various factors, including, without limitation, individual and organizational performance.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/databricks-data-engineer-at-deloitte-4491555422",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "databricks",
+        "spark",
+        "python",
+        "sql",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "score": 105,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Engineer-Data Integration",
+      "location": "Paramus, NJ",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-data-integration-at-ibm-4490113111",
+      "posted_at": "2026-11-16T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a Data Engineer specializing in Data Integration, you will design and build solutions to transfer data from operational and external environments to the business intelligence environment. You will utilize specialized tools to create and implement Extract, Transform, and Load (ETL) processes, ensuring the seamless flow of data throughout the business intelligence solution's lifecycle. Your Primary Responsibilities Will Include Design Data Integration Solutions: Create solutions to transfer data from operational and external environments to the business intelligence environment, utilizing tools such as Informatica, Ab Initio software, and DataStage. Implement ETL Processes: Develop and implement Extract, Transform, and Load (ETL) processes to ensure the seamless flow of data throughout the business intelligence solution's lifecycle. Utilize Specialized Tools: Apply knowledge of Informatica, Ab Initio software, and DataStage to design and build data integration solutions. Ensure Seamless Data Flow: Ensure the smooth flow of data throughout the business intelligence solution's lifecycle by creating and implementing effective ETL processes. Support Business Intelligence: Support the business intelligence environment by designing and building solutions to transfer data from operational and external environments. Required Technical And Professional Expertise Exposure to Data Integration Tools: Familiarity with tools such as Informatica, Ab Initio software, and DataStage (formerly Ascential) - IBM's WebSphere Data Integration Suite. ETL Process Implementation: Experience working with Extract, Transform, and Load (ETL) processes to ensure the seamless flow of data throughout the business intelligence solution's lifecycle. Data Solution Design: Exposure to designing solutions to transfer data from operational and external environments to the business intelligence environment. Business Intelligence Environment: Experience working within a business intelligence environment, supporting data integration solutions. Data Flow Management: Exposure to ensuring the smooth flow of data throughout the business intelligence solution's lifecycle. Preferred Technical And Professional Experience Additional Data Integration Tools: Exposure to other data integration tools beyond Informatica, Ab Initio software, and DataStage can be beneficial in this role. Advanced ETL Techniques: Experience working with advanced ETL techniques and methodologies can enhance the ability to design and implement efficient data integration solutions. Business Intelligence Platforms: Familiarity with various business intelligence platforms can support the development of effective data integration solutions. Preferred Skills: Generative AI (LLMs), NLP, Chatbot Development, Conversational AI,Machine learning",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-data-integration-at-ibm-4490113111",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "informatica"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Engineer-Data Warehouse",
+      "location": "Herndon, VA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-data-warehouse-at-ibm-4489798611",
+      "posted_at": "2026-11-16T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a Data Engineer specializing in Data Warehouses, you will design, develop, and integrate data management systems, leveraging tools like Teradata and Snowflake to drive analytics solutions. You will utilize your analytical and problem-solving skills to ensure the efficient management of large-scale data systems. Your Primary Responsibilities Will Include Design and Develop Data Systems: Create complex application components and integrate software packages, programs, and reusable objects across various platforms to support data warehouse management. Integrate Analytics Solutions: Develop and implement analytics solutions using tools like Teradata and Snowflake to drive business insights and decision-making. Ensure Efficient Data Management: Apply strong analytical and problem-solving skills to optimize the performance of large-scale data systems and ensure seamless data integration. Develop Reusable Objects: Create reusable objects and software packages to support data management and analytics solutions across multiple platforms. Troubleshoot Data Issues: Identify and resolve data management issues to ensure the accuracy and integrity of data in the warehouse. Required Technical And Professional Expertise Data Warehouse Design: Exposure to designing and developing data management systems, including data warehouses using tools like Teradata and Snowflake. Analytics Solution Development: Experience working with analytics solutions, utilizing tools like Teradata and Snowflake to drive business insights and decision-making. Large-Scale Data Management: Exposure to managing large-scale data systems, ensuring efficient data integration and optimizing system performance. Software Integration: Experience working with integrating software packages, programs, and reusable objects across various platforms to support data warehouse management. Data Issue Resolution: Exposure to identifying and resolving data management issues to ensure data accuracy and integrity. Preferred Technical And Professional Experience Proficiency in Additional Tools: Exposure to other data management tools and technologies, complementing Teradata and Snowflake expertise, can be beneficial in this role. Advanced Analytics Knowledge: Familiarity with advanced analytics concepts and methodologies can enhance the development and implementation of analytics solutions. Multi-Platform Integration: Experience working with diverse platforms and operating systems can facilitate seamless integration of software packages and reusable objects. Preferred Skills: Python, Snowflake, AWS, Agentic AI, Unix, Teradata",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-data-warehouse-at-ibm-4489798611",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "python",
+        "aws"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Engineer",
+      "location": "Brookhaven, PA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-ibm-4489789871",
+      "posted_at": "2026-11-16T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a Data Engineer specializing in Data Integration, you will design and build solutions to transfer data from operational and external environments to the business intelligence environment. You will utilize various tools to create and implement Extract, Transform, and Load (ETL) processes, ensuring the seamless flow of data throughout the business intelligence solution's lifecycle. Your Primary Responsibilities Will Include Design Data Integration Solutions: Create solutions to transfer data from operational and external environments to the business intelligence environment, utilizing tools such as Informatica, Ab Initio software, and DataStage. Implement ETL Processes: Develop and implement Extract, Transform, and Load (ETL) processes to ensure the seamless flow of data throughout the business intelligence solution's lifecycle. Utilize Data Integration Tools: Apply knowledge of Informatica, Ab Initio software, and DataStage to design and build data integration solutions. Ensure Seamless Data Flow: Ensure the smooth flow of data throughout the business intelligence solution's lifecycle by creating and implementing efficient ETL processes. Support Business Intelligence: Support the business intelligence environment by designing and building solutions to transfer data from operational and external environments. Required Technical And Professional Expertise Exposure to Data Integration Tools: Familiarity with tools such as Informatica, Ab Initio software, and DataStage, with the ability to apply this knowledge to design and build data integration solutions. Experience with ETL Processes: Understanding of Extract, Transform, and Load (ETL) processes, with the ability to develop and implement these processes to ensure seamless data flow. Data Solution Design: Exposure to designing solutions to transfer data from operational and external environments to the business intelligence environment. Data Flow Management: Experience working with data flows, with the ability to ensure the smooth flow of data throughout the business intelligence solution's lifecycle. Business Intelligence Support: Exposure to supporting business intelligence environments, with the ability to design and build solutions to transfer data from operational and external environments. Preferred Technical And Professional Experience Additional Data Integration Tools: Exposure to other data integration tools beyond Informatica, Ab Initio software, and DataStage, with the ability to quickly learn and apply new tools to design and build data integration solutions. Advanced ETL Process Development: Experience with complex ETL process development, including data mapping, data transformation, and data quality checks, to ensure seamless data flow throughout the business intelligence solution's lifecycle. Business Intelligence Environment Knowledge: Exposure to various business intelligence environments, with the ability to design and build solutions to transfer data from operational and external environments to support business intelligence initiatives. Preferred Skills: Talend and Snowflake Developer with expierence in Abinitio + Informatica.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-ibm-4489789871",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "informatica"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Engineer-Data Integration",
+      "location": "Alexandria, VA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-data-integration-at-ibm-4490109338",
+      "posted_at": "2026-11-16T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a Data Engineer specializing in Data Integration, you will design and build solutions to transfer data from operational and external environments to the business intelligence environment. You will utilize various tools to create and implement Extract, Transform, and Load (ETL) processes, ensuring the seamless flow of data throughout the business intelligence solution's lifecycle. Your Primary Responsibilities Will Include Design Data Integration Solutions: Create solutions to transfer data from operational and external environments to the business intelligence environment, utilizing tools such as Informatica, Ab Initio software, and DataStage. Implement ETL Processes: Develop and implement Extract, Transform, and Load (ETL) processes to ensure the seamless flow of data throughout the business intelligence solution's lifecycle. Utilize Data Integration Tools: Apply knowledge of Informatica, Ab Initio software, and DataStage to design and build data integration solutions. Ensure Seamless Data Flow: Ensure the smooth flow of data throughout the business intelligence solution's lifecycle by creating and implementing efficient ETL processes. Support Business Intelligence: Support the business intelligence environment by designing and building solutions to transfer data from operational and external environments. Required Technical And Professional Expertise Exposure to Data Integration Tools: Familiarity with tools such as Informatica, Ab Initio software, and DataStage, with the ability to apply this knowledge to design and build data integration solutions. Experience with ETL Processes: Understanding of Extract, Transform, and Load (ETL) processes, with the ability to develop and implement these processes to ensure seamless data flow. Data Solution Design: Exposure to designing solutions to transfer data from operational and external environments to the business intelligence environment. Data Flow Management: Experience working with data flows, with the ability to ensure the smooth flow of data throughout the business intelligence solution's lifecycle. Business Intelligence Support: Exposure to supporting business intelligence environments, with the ability to design and build solutions to transfer data from operational and external environments. Preferred Technical And Professional Experience Additional Data Integration Tools: Exposure to other data integration tools beyond Informatica, Ab Initio software, and DataStage, with the ability to quickly learn and apply new tools to design and build data integration solutions. Advanced ETL Process Development: Experience with complex ETL process development, including data mapping, data transformation, and data quality checks, to ensure seamless data flow throughout the business intelligence solution's lifecycle. Business Intelligence Environment Knowledge: Exposure to various business intelligence environments, with the ability to design and build solutions to transfer data from operational and external environments to support business intelligence initiatives. Preferred Skills: Python, Snowflake, AWS, Agentic AI, Unix",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-data-integration-at-ibm-4490109338",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "informatica",
+        "python",
+        "aws"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Executive Title Agency, Ltd.",
+      "title": "Data Analyst",
+      "location": "Houston, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-analyst-at-executive-title-agency-ltd-4490141211",
+      "posted_at": "2026-11-16T00:00:00+00:00",
+      "description": "Position Summary The Data Analyst is responsible for designing, building, and maintaining reports and dashboards that measure organizational performance across all areas of the title company. This role will partner with operational and executive leadership to provide timely, accurate, and actionable reporting that supports data-driven decision-making. The ideal candidate has a strong foundation in Power BI, data visualization, and business analysis, along with a desire to grow their expertise in business intelligence and analytics. Key Responsibilities Design, develop, and maintain Power BI dashboards, scorecards, and reports that provide visibility into company performance. Create and automate recurring reports for executive leadership and operational teams Develop meaningful KPIs and performance metrics aligned with company goals Present findings and performance trends to leadership in a clear and actionable manner. Analyze operational, financial, and production data to identify trends and opportunities Respond to ad hoc reporting and analysis requests from executive and operational leadership. Partner with stakeholders to define reporting requirements and develop customized solutions. Ensure data accuracy, consistency, and integrity across reporting platforms Recommend and implement reporting process improvements and automation opportunities. Requirements Required Qualifications Bachelor's degree in Data Analytics, Business Analytics, Information Systems, Finance, Statistics, Mathematics, Computer Science, or a related field. 0-3 years of experience in data analysis, business intelligence, reporting, or a related analytical role. Demonstrated experience developing dashboards, reports, and data visualizations using Power BI. Experience with data modeling, Power Query, and report development best practices Working knowledge of SQL and relational databases Advanced proficiency with Microsoft Excel Strong analytical, problem-solving, and communication skills Preferred Qualifications Experience within the title, escrow, real estate, mortgage, or financial services industry Familiarity with title production systems preferred but not required Experience creating executive dashboards and KPI scorecards Exposure to Microsoft Fabric, Azure, or other BI platforms Benefits Why You Will Love Working Here Competitive compensation and benefits package: Medical, dental, vision coverage Financial Planning Time Off &amp; Life Balance Family &amp; Lifestyle Opportunities for growth and development Culture that is collaborative, inclusive, fast-paced, people-first Stable company with strong reputation in the market Note to job seekers: Your resume will be reviewed as the best qualified candidates will be contacted in the event that there is potential match*** Executive Title Agency is an Equal Opportunity Employer",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-analyst-at-executive-title-agency-ltd-4490141211",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "power bi",
+        "sql",
+        "azure"
+      ],
+      "score": 65,
+      "directness": 35
+    }
+  ]
+}
