@@ -1,0 +1,290 @@
+{
+  "generated_at": "2026-11-18T15:02:53.062947+00:00",
+  "count": 11,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Engineer-Business Intelligence",
+      "location": "Dallas, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-business-intelligence-at-ibm-4490879624",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a Data Engineer: Business Intelligence, you will design, build, and manage solutions using web-based BI reporting technology to provide personalized features and intuitive designs. This role involves integrating Business Intelligence Platforms to enable seamless toggling between reporting and analysis tasks. Your Primary Responsibilities Will Include Design and Build Solutions: Design and build web-based BI reporting solutions that offer personalized features, such as drill-down capabilities and intuitive design kits, to enhance user experience. Integrate BI Platforms: Integrate Business Intelligence Platforms to enable users to easily toggle between reporting and analysis tasks, promoting efficient workflows. Develop Reports: Develop reports that can be distributed over the web, via email, or through portals or file servers, ensuring flexibility in report sharing and access. Implement Reporting Tools: Implement reporting tools, such as Cognos, Actuate, MicroStrategy, and Tableau, to create interactive dashboards and scorecards that support business decision-making. Required Technical And Professional Expertise Exposure to Business Intelligence: Familiarity with designing, building, and managing solutions using web-based BI reporting technology, including personalized features and intuitive designs. Experience with Reporting Tools: Hands-on experience with reporting tools such as Cognos, Actuate, MicroStrategy, and Tableau, including creating interactive dashboards and scorecards. Integration Expertise: Experience with integrating Business Intelligence Platforms to enable seamless toggling between reporting and analysis tasks. Report Development Skills: Ability to develop reports that can be distributed over the web, via email, or through portals or file servers. Dashboard Development: Experience with developing dashboards and scorecards using tools like Click and Tableau to support business decision-making. Preferred Technical And Professional Experience Familiarity with Dashboards: Exposure to developing dashboards and scorecards using tools like Click and Tableau to support business decision-making. Knowledge of Reporting Tools: Experience working with various reporting tools such as Cognos, Actuate, MicroStrategy, and Tableau. Exposure to BI Platforms: Familiarity with integrating Business Intelligence Platforms to enable seamless toggling between reporting and analysis tasks. Preferred Skills - Tableau, Alation, BigEye, Python, Snowflake, Data Management, Data Governance.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-business-intelligence-at-ibm-4490879624",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "tableau",
+        "python"
+      ],
+      "score": 130,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Engineer-Data Integration",
+      "location": "Dallas, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-data-integration-at-ibm-4490812637",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a Data Engineer specializing in Data Integration, you will design and build solutions to transfer data from operational and external environments to the business intelligence environment. You will utilize various tools to create and implement Extract, Transform, and Load (ETL) processes, ensuring the seamless flow of data throughout the business intelligence solution's lifecycle. Your Primary Responsibilities Will Include Design Data Integration Solutions: Create solutions to transfer data from operational and external environments to the business intelligence environment, utilizing tools such as Informatica, Ab Initio software, and DataStage. Implement ETL Processes: Develop and implement Extract, Transform, and Load (ETL) processes to ensure the seamless flow of data throughout the business intelligence solution's lifecycle. Utilize Data Integration Tools: Apply knowledge of Informatica, Ab Initio software, and DataStage to design and build data integration solutions. Ensure Seamless Data Flow: Ensure the smooth flow of data throughout the business intelligence solution's lifecycle by creating and implementing efficient ETL processes. Support Business Intelligence: Support the business intelligence environment by designing and building solutions to transfer data from operational and external environments. Required Technical And Professional Expertise Exposure to Data Integration Tools: Familiarity with tools such as Informatica, Ab Initio software, and DataStage, with the ability to apply this knowledge to design and build data integration solutions. Experience with ETL Processes: Understanding of Extract, Transform, and Load (ETL) processes, with the ability to develop and implement these processes to ensure seamless data flow. Data Solution Design: Exposure to designing solutions to transfer data from operational and external environments to the business intelligence environment. Data Flow Management: Experience working with data flows, with the ability to ensure the smooth flow of data throughout the business intelligence solution's lifecycle. Business Intelligence Support: Exposure to supporting business intelligence environments, with the ability to design and build solutions to transfer data from operational and external environments. Preferred Technical And Professional Experience Additional Data Integration Tools: Exposure to other data integration tools beyond Informatica, Ab Initio software, and DataStage, with the ability to quickly learn and apply new tools to design and build data integration solutions. Advanced ETL Process Development: Experience with complex ETL process development, including data mapping, data transformation, and data quality checks, to ensure seamless data flow throughout the business intelligence solution's lifecycle. Business Intelligence Environment Knowledge: Exposure to various business intelligence environments, with the ability to design and build solutions to transfer data from operational and external environments to support business intelligence initiatives. Preferred Skills: Data Engineer, Information Architect, Project Management",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-data-integration-at-ibm-4490812637",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "informatica"
+      ],
+      "score": 120,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Aditi Consulting",
+      "title": "AI Data Engineer",
+      "location": "Redmond, WA",
+      "url": "https://www.linkedin.com/jobs/view/ai-data-engineer-at-aditi-consulting-4492039186",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "description": "Payrate: $92.00 - $98.00/hr. &nbsp; Summary: We are seeking a hands-on Data Pipeline Engineer to build and operate Python-based workflows that transform large document and text datasets into high-quality data for AI model training. This role combines OCR processing, data cleaning and validation, scalable pipeline development, and Azure storage management. &nbsp; Responsibilities Develop, maintain, and optimize Python pipelines for data ingestion, OCR processing, text extraction, cleaning, normalization, and deduplication. Run and monitor large-scale batch processing jobs, investigate failures, and implement reliable retry and recovery mechanisms. Build automated quality checks to identify missing or corrupted files, incomplete OCR outputs, duplicate content, formatting issues, and metadata inconsistencies. Prepare training-ready datasets through filtering, text segmentation, tokenization, and conversion into agreed data formats. Manage bulk uploads, downloads, and synchronization between local processing environments and Azure storage; verify transfer completeness and data integrity. Organize raw data, intermediate outputs, and released datasets with consistent naming, metadata, versioning, and source traceability. Optimize processing throughput, memory usage, storage consumption, and cloud costs using appropriate batch, parallel, or distributed processing approaches. Track dataset statistics, processing coverage, quality metrics, and exceptions; produce clear operational reports. Collaborate with applied scientists and model-training teams to translate data requirements into reproducible processing workflows. Maintain tested, documented, version-controlled code and follow established data access, security, and governance requirements. &nbsp; Qualifications Demonstrated experience in data engineering, data pipeline development, or a data science role with substantial production programming responsibilities. Strong proficiency in Python, including writing reusable modules, debugging, testing, logging, and handling processing errors. Hands-on experience processing large structured and unstructured datasets using memory-efficient, parallel, or distributed techniques. Practical experience with Azure Blob Storage or Azure Data Lake Storage, including bulk data transfers, storage organization, and access troubleshooting. Familiarity with Python data-processing libraries and formats such as pandas, NumPy, JSON/JSONL, CSV, and Parquet. Working knowledge of SQL, Git, Linux environments, and command-line tools. Strong troubleshooting skills, attention to data quality, and ability to communicate technical issues clearly. &nbsp; Skills Experience with OCR pipelines, scanned documents, multilingual text, or document-layout processing. Experience with Azure Databricks, Azure Machine Learning, Azure Data Factory, or workflow orchestration tools. Familiarity with Hugging Face Datasets, tokenization, near-duplicate detection, and training/evaluation data separation. Experience with dataset lineage, reproducibility, containerized environments, and CI/CD. &nbsp; Pay Transparency: The typical base pay for this role across the U.S. is: $92.00 - $98.00 /hour . Non-exempt positions are eligible for overtime at a rate of 1.5 times the base hourly rate for all hours worked in excess of 40 in a work week, or as required by state or local law. Final offer amounts, within the base pay set forth above, are determined by factors including your relevant skills, education and experience. Full-time employees are eligible to select from different benefits packages. Packages may include medical, dental, and vision benefits, health savings accounts with qualified medical plan enrollment, 10 paid days off, 3 days paid bereavement leave, 401(k) plan participation with employer match, life and disability insurance, commuter benefits, dependent care flexible spending account, accident insurance, critical illness insurance, hospital indemnity insurance, accommodations and reimbursement for work travel, and discretionary performance or recognition bonus. Sick leave and mobile phone reimbursement provided based on state or local law.&nbsp; &nbsp; Consent to Communication and Use of AI Technology: By submitting your application for this position and providing your email address(es) and/or phone number(s), you consent to receive text (SMS), email, and/or voice communication whether automated (including auto telephone dialing systems or automatic text messaging systems), pre-recorded, AI-assisted, or individually initiated from Aditi Consulting, our agents, representatives, or affiliates at the phone number and/or email address you have provided. These communications may include information about potential opportunities and information. Message and data rates may apply. Message frequency may vary. You represent and warrant that the email address(es) and/or telephone number(s) you provided to us belong to you and that you are permitted to receive calls, text (SMS) messages, and/or emails at these contacts. You also acknowledge and agree to Aditi Consulting LLC&rsquo;s use of AI technology during the sourcing process, including calls from an AI Voice Recruiter. AI is used solely to gather data and does not replace human-based decision-making in employment decisions. Calls may be recorded. &nbsp; Consent is not a condition of purchasing any property, goods, or services. You may revoke your consent at any time by replying “STOP” to messages or by contacting privacy@aditiconsulting.com . For information about our collection, use, and disclosure of applicant's personal information as well as applicants' rights over their personal information, please see our Privacy Policy . &nbsp; #AditiConsulting # 26 - 07199",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/ai-data-engineer-at-aditi-consulting-4492039186",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": 92000,
+      "salary_max": 98000,
+      "tech_tags": [
+        "databricks",
+        "python",
+        "sql",
+        "azure"
+      ],
+      "score": 85,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Engineer-Business Intelligence",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-business-intelligence-at-ibm-4490892011",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a Data Engineer: Business Intelligence, you will design, build, and manage solutions using web-based BI reporting technology to provide personalized features and intuitive designs. This role involves integrating Business Intelligence Platforms to enable seamless toggling between reporting and analysis tasks. Your Primary Responsibilities Will Include Design and Build Solutions: Design and build web-based BI reporting solutions that offer personalized features, such as drill-down capabilities and intuitive design kits, to enhance user experience. Integrate BI Platforms: Integrate Business Intelligence Platforms to enable users to easily toggle between reporting and analysis tasks, promoting efficient workflows. Develop Reports: Develop reports that can be distributed over the web, via email, or through portals or file servers, ensuring flexibility in report sharing and access. Implement Reporting Tools: Implement reporting tools, such as Cognos, Actuate, MicroStrategy, and Tableau, to create interactive dashboards and scorecards that support business decision-making. Required Technical And Professional Expertise Exposure to Business Intelligence: Familiarity with designing, building, and managing solutions using web-based BI reporting technology, including personalized features and intuitive designs. Experience with Reporting Tools: Hands-on experience with reporting tools such as Cognos, Actuate, MicroStrategy, and Tableau, including creating interactive dashboards and scorecards. Integration Expertise: Experience with integrating Business Intelligence Platforms to enable seamless toggling between reporting and analysis tasks. Report Development Skills: Ability to develop reports that can be distributed over the web, via email, or through portals or file servers. Dashboard Development: Experience with developing dashboards and scorecards using tools like Click and Tableau to support business decision-making. Preferred Skills: Tableau, Alation, BigEye, Python, Snowflake, Data Management, Data Governance Preferred Technical And Professional Experience Familiarity with Dashboards: Exposure to developing dashboards and scorecards using tools like Click and Tableau to support business decision-making. Knowledge of Reporting Tools: Experience working with various reporting tools such as Cognos, Actuate, MicroStrategy, and Tableau. Exposure to BI Platforms: Familiarity with integrating Business Intelligence Platforms to enable seamless toggling between reporting and analysis tasks. Preferred Skills: Tableau, Alation, BigEye, Python, Snowflake, Data Management, Data Governance",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-business-intelligence-at-ibm-4490892011",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "tableau",
+        "python"
+      ],
+      "score": 80,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Joblet-AI",
+      "title": "Data Engineer (Remote)",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-remote-at-joblet-ai-4491849093",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "description": "Role Title : Data Engineer (Remote) Role Type : Project-based Location : Remote Data engineering professionals with 1–3 years of work experience are invited to contribute to short-term remote projects. Assignments involve real-world data pipeline and infrastructure challenges, drawing on the work performed in data engineering and related roles. The project scope may include data engineering, data infrastructure, ETL development, or analytics engineering tasks. Work is allocated on a project-by-project basis and completed asynchronously. Scope of Work 1. Complete data engineering assignments within the scope of accepted projects. 2. Apply experience relevant to data infrastructure, ETL development, or analytics engineering tasks. 3. Work on the data pipeline and infrastructure challenges presented by each assignment. Required Qualifications 1. 1–3 years of work experience as a data engineering professional. Compensation and Schedule The stated project period is 2–3 weeks. The expected commitment is 10–20 hours per week for projects you accept. Work is asynchronous and assigned on a project-by-project basis. What You’ll Do 1. Complete data engineering assignments within the scope of accepted projects. 2. Apply experience relevant to data infrastructure, ETL development, or analytics engineering tasks. 3. Work on the data pipeline and infrastructure challenges presented by each assignment. Apply Now!",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-remote-at-joblet-ai-4491849093",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [],
+      "score": 75,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Ledgent Technology",
+      "title": "Data Analyst",
+      "location": "The Woodlands, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-analyst-at-ledgent-technology-4489783089",
+      "posted_at": "2026-11-16T00:00:00+00:00",
+      "description": "Title: Data Analyst Location: Houston, TX (Hybrid) Salary Range: $90,000-130,000 Type: Full-Time No C2C or 3rd Party Vendors at this time. Reporting To: Director of Business Intelligence / Analytics Manager Position Overview A growing organization is seeking a Data Analyst to support data-driven decision-making across multiple business units. This individual will work closely with stakeholders to gather reporting requirements, analyze operational and financial data, identify trends, develop dashboards, and provide actionable insights that improve business performance. The ideal candidate will possess strong analytical skills, experience working with large datasets, and the ability to communicate findings to both technical and non-technical audiences. Key Responsibilities Analyze business, operational, and financial data to identify trends, risks, and opportunities. Develop, maintain, and enhance reports, dashboards, and data visualizations. Gather reporting requirements from stakeholders and translate business needs into meaningful analytics solutions. Perform data validation, cleansing, and quality assurance activities to ensure reporting accuracy. Create recurring and ad hoc reports for various business departments. Support KPI development, performance tracking, and executive reporting initiatives. Conduct root-cause analysis and provide recommendations to improve business processes. Collaborate with IT, business teams, and leadership to improve data accessibility and reporting capabilities. Document reporting processes, business rules, calculations, and data definitions. Assist with data warehouse, ERP, CRM, and business application reporting initiatives. Project &amp; Data Environment Enterprise business systems including ERP, CRM, HRIS, and operational applications. Reporting and analytics environment supporting multiple business units and executive leadership. Cross-functional collaboration with Finance, Operations, Sales, Human Resources, and Information Technology teams. Focus on reporting automation, dashboard development, data governance, and business intelligence. Required Qualifications &amp; Competencies Education: Bachelor's degree in Data Analytics, Information Systems, Computer Science, Mathematics, Statistics, Business, or related field (or equivalent experience). Data Analytics Experience: 3+ years of experience in data analysis, business intelligence, reporting, or analytics roles. Experience working with large datasets and transforming raw data into actionable insights. Technical Skills: Advanced Microsoft Excel (Pivot Tables, VLOOKUP/XLOOKUP, Power Query). SQL querying and data analysis. Power BI, Tableau, or similar business intelligence tools. Experience building dashboards, KPIs, and executive reporting. Analytical Skills: Strong problem-solving and root-cause analysis abilities. Experience identifying trends, anomalies, and process improvement opportunities. Communication Skills: Ability to clearly present findings and recommendations to business stakeholders and leadership teams. Strong documentation, organizational, and presentation skills. Preferred Qualifications Experience supporting ERP systems such as SAP, Oracle, Microsoft Dynamics, or NetSuite. Knowledge of data warehousing and ETL processes. Experience with Python, R, or advanced analytics tools. Exposure to financial, operational, or supply chain analytics. Experience working in manufacturing, logistics, energy, construction, or industrial environments. All qualified applicants will receive consideration for employment without regard to race, color, national origin, age, ancestry, religion, sex, sexual orientation, gender identity, gender expression, marital status, disability, medical condition, genetic information, pregnancy, or military or veteran status. We consider all qualified applicants, including those with criminal histories, in a manner consistent with state and local laws, including the California Fair Chance Act, City of Los Angeles' Fair Chance Initiative for Hiring Ordinance, Los Angeles County Fair Chance Ordinance, and San Francisco Fair Chance Ordinance.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-analyst-at-ledgent-technology-4489783089",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": 90000,
+      "salary_max": 130000,
+      "tech_tags": [
+        "tableau",
+        "power bi",
+        "python",
+        "sql"
+      ],
+      "score": 60,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Daikin Comfort",
+      "title": "Analyst Data",
+      "location": "Waller, TX",
+      "url": "https://www.linkedin.com/jobs/view/analyst-data-at-daikin-comfort-4483661889",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "description": "The Data Analyst will execute the production, analysis, and dissemination of customer and operational metrics to key business stakeholders. You get a thrill out of turning data into actionable information to make a big impact across the organization. You enjoy breaking down the hairiest of problems and sharing your insights with key stakeholders across the organization, and recommending sound business decisions based on insights from the underlying data– your analysis is that good. Although data is important, you always keep the customer front of mind and enjoy optimizing the customer experience, which translates to creating long-term business value. Lastly, you’re ready to join a fast and flat organization where much is expected of you because you have what it takes to influence real change. You’ll enjoy the journey just as much as the outcome, and your positive demeanor will influence others along the way to do the same. Position Responsibilities May Include Deeply understand our organization's data structure and look for ways to improve it to enhance our ability to perform robust data analysis. Deeply understand all sources of data across the enterprise, link to data strategy, and continually evolve the ability to measure and track key data points to enable data-driven decisions Evaluate the effectiveness and financial impact of marketing programs and promotional activities. Collect and provide quantitative and qualitative information to measure the effectiveness of marketing activities and answer strategic business questions Track performance and create KPIs of targeted programs offered to customers to help drive better results Gather and analyze the external market and economic data to better understand correlations to industry and business activity and provide regular insights Utilize BI solutions to improve the timeliness of data and better visibility to decision-makers to help them monitor, measure, or predict how the company is performing Assist with maintenance and management of the Marketing SQL database. Perform marketing research &amp; analysis to inform customer targeting &amp; segmentation, and tracking of Customer Lifetime Value across the enterprise Enable Voice of Customer (VOC) data collection, tracking, and analysis to improve Customer Experience at all levels – end consumer (homeowner), contractor (dealer), and distributor Understand current and target Customer Experience and Customer Journey; create a dashboard to continually measure key metrics to understand gaps and areas that need further attention and investment Create new data sets when there is little or no data available, to inform marketing analysis Work hand-in-hand with Marketing, Sales, Operations, Finance, Logistics, and IT to identify new data sets and how those can be used to bring value to the market and company; engaged third-party vendors and customers as needed. Engage with third-party data providers to strengthen data models as needed Assist with internal assessments of workflow processes to identify inefficiencies, especially those where Marketing is involved, and propose more efficient processes and procedures Provide data and ad hoc analysis to support marketing managers as needed Perform additional projects/duties to support ongoing business needs. Nature &amp; Scope Possesses a broad theoretical job knowledge typically obtained through advanced education. Has no discretion to deviate from established procedures by performing structured work assignments. Work is closely supervised. Problems faced are not typically difficult or complex. Explains facts, policies, and practices related to the job area. Knowledge &amp; Skills Strong data storytelling ability – the ability to produce actionable information/insights, not just data crunching Ability to put results into context, considering the overall business goals and performance. Eager to make a big impact at a large company – you show up for work and get things done Comfortable with experimentation and testing of Minimum Viable Products to determine if proposed business models/solutions scale up Proficient in MS Office, especially Excel, and Access; ability to translate data insights into PowerPoint presentations Proficient with BI tools such as Tableau, DOMO, or Microsoft BI Experience with Qualtrics or other survey tools Understanding of relational databases with experience in SQL or R preferred Natural ability and desire to work on a team; goes the extra mile when needed Ability to work independently. Excellent communication skills, both verbally and written, capable of communicating with people of many different levels of an organization Great analytical skills with attention to detail Ability to grasp complex concepts and systems quickly. Ability to manage multiple projects and shift direction quickly. Intellectual curiosity and strong passion for using data to solve problems. Ability to apply good judgment, strong work ethic, and integrity on the job. Competencies Experience: 0-3 years of work experience in a Marketing / BI Analyst role Proven experience as a BI Analyst working with eCommerce, retail, marketing, and/or web development applications. Experience solving complex business problems involving a heavy amount of analytics. Digital Marketing-based experience preferred. HVAC industry experience preferred but not required Education/Certification Bachelor’s degree in Marketing / Business / Engineering / Statistics / Mathematics / Economics; or another related degree with a strong quantitative emphasis (Optional) Master’s degree in Business Administration / Marketing People Management: No Physical Requirements / Work Environment Must be able to perform essential responsibilities with or without reasonable accommodations Reports To Sr. Mgr., Strategic Analytics &amp; Insights (i.e., Head of Strategic Analytics and Insights Dept.) The Company provides equal employment opportunity to all employees and applicants regardless of a person’s race, color, religion (including religious dress or grooming practices), creed, national origin (including language use restrictions), citizenship, uniform service member or veteran status, ancestry, disability, physical or mental disability (including HIV/AIDS), medical condition (including cancer and genetic characteristics), genetic information, request for protected leave, marital status, sex, pregnancy, age (over 40), sexual orientation, gender, gender identity or expression, political affiliation, or any other characteristic protected by law. The Company will comply with all federal and state regulations and statutes about individuals with disabilities.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/analyst-data-at-daikin-comfort-4483661889",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "tableau",
+        "sql"
+      ],
+      "score": 60,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "MACHINE LEARNING TECHNOLOGIES LLC",
+      "title": "Data Engineer",
+      "location": "Atlanta, GA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-machine-learning-technologies-llc-4491120030",
+      "posted_at": "2026-11-16T00:00:00+00:00",
+      "description": "Home About Adaptive AI Industries Consulting Jobs Portal Contact Us Home About Adaptive AI Industries Consulting Jobs Portal Contact Us Job Description Job Overview Job ID: J55526 Job Title: Data Engineer Location: Atlanta, GA Duration: 12 Months + Extension Domain Exposure: Banking &amp; Finance Client: To Be Discussed Later Employment Type: W-2, 1099, C2C Work Authorization: US Citizen, Green Card, H-1B, OPT-EAD, CPT, Other View All Jobs Similar Jobs Data Engineer - Trenton, NJ Data Scientist - Seattle, WA Data Engineer - Mount Laurel, NJ AWS Data Engineer - Newark, NJ Data Analyst - Eden Prairie, MN Job Title: Data Engineer – Snowflake Location: Atlanta, GA Duration: 12 Months Contract Bill Rate: $90/hr Job Type: W-2, 1099, C2C Client: To be disclosed Work Authorization: US Citizen, Green Card, OPT-EAD, CPT, H-1B, H4-EAD, Other Job Description: We are looking for a Data Engineer with strong experience in Snowflake and cloud-based data engineering. The candidate will be responsible for building scalable data pipelines, managing data warehouses, and supporting enterprise analytics solutions. Responsibilities: Design and develop data pipelines using Snowflake. Build ETL and ELT processes. Work with Python, SQL, and cloud platforms. Optimize queries and improve data warehouse performance. Integrate data from multiple enterprise sources. Ensure data quality, security, and reliability. Apply Now Equal Opportunity Employer We are an equal opportunity employer. All aspects of employment including the decision to hire, promote, discipline, or discharge, will be based on merit, competence, performance, and business needs. We do not discriminate on the basis of race, color, religion, marital status, age, national origin, ancestry, physical or mental disability, medical condition, pregnancy, genetic information, gender, sexual orientation, gender identity or expression, national origin, citizenship/ immigration status, veteran status, or any other status protected under federal, state, or local law. Home | About | Adaptive AI | Industries | Consulting | Contact Us © 2004-2026, Machine Learning Technologies LLC, or its affiliates",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-machine-learning-technologies-llc-4491120030",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "python",
+        "sql",
+        "aws"
+      ],
+      "score": 60,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "AAA Auto Club Enterprises",
+      "title": "Data Scientist 1",
+      "location": "Coppell, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-scientist-1-at-aaa-auto-club-enterprises-4490926377",
+      "posted_at": "2026-11-16T00:00:00+00:00",
+      "description": "As our Data Scientist, you will act as an internal business consultant to help optimize every facet of this organization. You will solve problems and answer questions – using data – for other departments to help us reduce costs, reduce errors, and be a better organization for our 17 million members. Note: This is a hybrid role; the candidate must reside within a 100-mile radius of our Coppell TX office and be available to work on-site 3 days a week on a regular basis, as well as 2–3 times per month for team meetings and collaboration days. What You’ll Do Every day, you will help solve business problems presented to us by stakeholders using data. You will get a scenario or problem, such as, “We need to reduce cycle times,” and then pull, analyze, and interpret data relevant to that scenario. You will pull data from SQL databases. You will analyze and interpret data using Python, R, or other tools. You will determine patterns or trends and their statistical significance to the problem. To visualize the data, you will use Tableau. Once you have done your analysis, paired with a data engineer, you will present your findings to the stakeholder and confirm, refute or simply acknowledge a hypothesis. Your work may be implemented or may develop into something else. What You’ll Need To thrive in this role, you must have a solid foundation of statistics and data analysis. You must be able to describe a project where you pulled data, analyzed it, identified trends or patterns, determined significance, and delivered insights or recommendations to the business. What was your approach? What tools did you use and why? Did you get to the root cause of the issue? Did you confirm or refute a hypothesis? You must be able to speak to your involvement and decisions at each stage. For pulling data, we use SQL so you must be proficient with this tool. To curate and analyze data, we use a variety of languages and programs: Python, R, and even Excel. You can choose whatever tool helps you best, but you must be proficient in either Python or R. Excellent communication skills and an attitude of flexibility are a must. Very often, we get into the data and some aspect takes longer than we thought, or we have to pivot and change how we approach a problem. A dashboard works better than a model, perhaps. Then you have to explain to the stakeholder or the team why you made that change or why the deliverable is taking longer than expected. It’s all about being creative in your approach and communicating that frequently and clearly to people who may be less tech or data-savvy than you. You have worked previously with an Agile team or understand these concepts. You expect to participate in daily standup meetings, you’ll complete your projects or stories during our bimonthly sprints, and you’re ready to meet frequent deployment deadlines. - SH1 Remarkable benefits: Health coverage for medical, dental, vision 401(K) saving plans with company match AND Pension Tuition assistance Floating holidays and PTO for community volunteer programs Paid parental leave Wellness programs Employee discounts (membership, insurance, travel, entertainment, services and more!) Auto Club Enterprises is the largest club within the national AAA federation. We have nearly 17,000 employees in 24 states helping more than 18 million members. The strength of our organization is our employees. Bringing together and supporting different cultures, backgrounds, personalities, and strengths creates a team capable of delivering legendary, lifetime service to our members. When we embrace our diversity – we win. All of Us! With our national brand recognition, long-standing reputation since 1900, and constantly growing membership, we are seeking career-minded, service-driven professionals to join our team. \"Through dedicated employees we proudly deliver legendary service and beneficial products that provide members peace of mind and value.” AAA is an Equal Opportunity Employer Our organization participates in E-Verify",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-scientist-1-at-aaa-auto-club-enterprises-4490926377",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "tableau",
+        "python",
+        "sql"
+      ],
+      "score": 55,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Scientist-Artificial Intelligence",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-scientist-artificial-intelligence-at-ibm-4489798498",
+      "posted_at": "2026-11-16T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a Data Scientist specializing in Artificial Intelligence, you will leverage your expertise in combining data analysis and business acumen to tackle cognitive computing challenges. You will architect and deliver AI solutions using cutting-edge technologies, with a strong focus on foundation models and large language models. Your Primary Responsibilities Will Include Design AI Solutions: Architect and deliver AI solutions using cutting-edge technologies, with a strong focus on foundation models and large language models, and experience in tools like Github Copilot and Amazon Code Whisperer. Develop Cognitive Solutions: Create comprehensive cognitive solutions that effectively process and analyze both structured and unstructured data, utilizing advanced analytics techniques and a deep understanding of NLP and ML methods. Lead AI Project Lifecycle: Manage the full AI project lifecycle, from research and prototyping to deployment in production environments, ensuring successful solution delivery. Collaborate on AI Projects: Work with various stakeholders to solve complex business problems and leverage the power of artificial intelligence for cognitive computing, applying strong programming skills and proficiency in Python and AI frameworks. Optimize AI Solutions: Utilize expertise in one of the following areas - NLP, Image Processing, Video Processing, Voice Processing, or Watson technologies - to optimize AI solutions and drive business value. Required Technical And Professional Expertise Advanced Analytics Techniques: Experience with advanced analytics techniques for structured data, including proficiency in Python and AI frameworks such as TensorFlow, PyTorch, Keras, or Hugging Face. NLP and ML Methods: Deep understanding of Natural Language Processing (NLP) and Machine Learning (ML) methods for unstructured content, with expertise in foundation models and large language models. AI Solution Development: Experience in architecting and delivering AI solutions using cutting-edge technologies, including tools like Github Copilot and Amazon Code Whisperer. Cloud Platforms and Services: Familiarity with cloud platforms (e.g., Kubernetes, AWS, Azure, GCP) and related services, as well as experience with relational and NoSQL databases (SQL, Postgres, DB2, MongoDB). Full AI Project Lifecycle: Experience in managing the full AI project lifecycle, from research and prototyping to deployment in production environments. Preferred Technical And Professional Experience Foundation in Specialized Areas: Experience with one of the following areas: NLP, Image Processing, Video Processing, Voice Processing, or Watson technologies, enabling optimization of AI solutions and driving business value. Proficiency in Modern UI Frameworks: Familiarity with modern UI frameworks such as Backbone.js, AngularJS, React.js, Ember.js, Bootstrap, and JQuery, allowing for seamless integration with AI solutions. Operating System Knowledge: Experience working with various operating systems, including Linux, Windows, iOS, and Android, facilitating smooth deployment of AI solutions across different environments. Preferred Skills: Generative AI, LLMs, NLP, conversational AI, and speech/voice bot",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-scientist-artificial-intelligence-at-ibm-4489798498",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "python",
+        "sql",
+        "aws",
+        "azure",
+        "gcp",
+        "kubernetes"
+      ],
+      "score": 55,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Bank OZK",
+      "title": "Data Engineer, Risk Management",
+      "location": "Houston, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-risk-management-at-bank-ozk-4490104019",
+      "posted_at": "2026-11-16T00:00:00+00:00",
+      "description": "Why Bank OZK Founded on a legacy of more than 120 years in banking, Bank OZK is much more than just a company. We’re nationally recognized as an industry leader in financial services. That means we combine exceptional service with innovative technologies to deliver smart solutions to our clients across the country. We’re investing in small businesses, fueling economies in local communities and changing skylines in the largest cities across America. Here, we're not simply filling roles. We're fostering even greater careers. The foundation for a great career starts with an exceptional team and a comprehensive benefits package. We believe in providing our dedicated team members with the best resources to support their physical, mental and financial wellbeing, including generous PTO, 401(k) matching, health, dental, vision (and pet!) insurance as well as special perks and discounts. Learn more about Bank OZK benefits . Job Purpose &amp; Scope Creates, documents, and maintains Corporate Risk Management’s data infrastructure, databases, metrics, and critical data sets in partnership with Corporate Risk Management directors, senior leaders, data scientists, and business unit managers. Essential Job Functions Develops ETL (extract, transform, and load) pipelines, calculates metrics, and creates critical data sets for the Bank’s Risk Management functions by developing an understanding of all of Bank’s critical data sources. Works with large and complex data sets to build ETL pipelines, metrics, and mission critical data sets. Assists in the conceptualization and execution of Corporate Risk Management’s data architecture and infrastructure. Designs, builds, and launches complex data models to support advanced analytics and reporting. Optimizes essential SQL queries and data pipelines. Assists other Data Engineers in the Risk Management team by providing peer reviews, code reviews, and additional feedback, when necessary. Partners with Data Science in the Risk Management team to create stable, scalable data pipelines and identify key data elements and related data quality rules. May travel on company business to support lines of business and data efforts. Regularly exercises discretion and judgment in the performance of essential job functions. Maintains good punctuality and attendance to work. Follows Bank policy, procedures, and guidelines. Knowledge, Skills &amp; Abilities Knowledge of scripting programming languages (e.g., Python, Java, etc.) and SQL. Knowledge of software development best practices, data modeling, and ETL. Knowledge of the financial services industry. Ability to prepare written deliverables and presentations for board and management committees, senior leaders, and business unit managers. Ability to demonstrate effective interpersonal, communication, and analytical skills. Ability to demonstrate creativity, critical thinking, initiative, and problem-solving skills. Ability to partner effectively with multiple business groups, corporate areas, auditors, and regulators. Ability to operate and work collaboratively in a fast-paced, unpredictable environment, with exacting deadlines. Ability to manage multiple work streams and deliverables, and coordinate across functional initiatives. Ability to travel as needed for business purposes. Skill in using computer and Microsoft Office, including Word, Excel, PowerPoint, and Outlook. Basic Qualifications Master’s degree, in computer science, economics, finance, data science or related quantitative field, or commensurate work experience, required. 1+ year of programming experience in SQL, required. 1+ year of experience in at least one scripting language, required. Python experience, preferred. Job Expectations Operate customary equipment and technology used in a business environment, with or without accommodation. Notes: This description is not an exhaustive list of all job functions, duties, skills, and job standards required. Other job functions, duties, skills, and standards may be added. Management reserves the right to add or change the job requirements at any time. This position is not eligible for employer-sponsored work authorization or immigration assistance. Applicants must be able to maintain authorization to work in the United States without current or future sponsorship by Bank OZK. EEO Statement Bank OZK is an equal opportunity employer and give consideration for employment to qualified applicants without regard to race, color, religion, sex, national origin, age, sexual orientation, gender identity, disability status, protected veteran status, or any other characteristic protected by federal, state, and local law. Member FDIC.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-risk-management-at-bank-ozk-4490104019",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 1,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "python",
+        "sql"
+      ],
+      "score": 55,
+      "directness": 35
+    }
+  ]
+}
