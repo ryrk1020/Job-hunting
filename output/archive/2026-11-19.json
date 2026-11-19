@@ -1,0 +1,511 @@
+{
+  "generated_at": "2026-11-19T15:12:26.993386+00:00",
+  "count": 19,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "SCP Health",
+      "title": "Business Data Analyst I",
+      "location": "Dallas, TX",
+      "url": "https://www.linkedin.com/jobs/view/business-data-analyst-i-at-scp-health-4492286604",
+      "posted_at": "2026-11-19T00:00:00+00:00",
+      "description": "At SCP Health, What You Do Matters As part of the SCP Health team, you have an opportunity to make a difference. At our core, we work to bring hospitals and healers together in the pursuit of clinical effectiveness. With a portfolio of over 8 million patients, 7500 providers, 30 states, and 400 healthcare facilities, SCP Health is a leader in clinical practice management spanning the entire continuum of care, including emergency medicine, hospital medicine, wellness, telemedicine, intensive care, and ambulatory care. Why You Will Love Working Here Strong track record of providing excellent work/life balance. Comprehensive benefits package and competitive compensation. Commitment to fostering an inclusive culture of belonging and empowerment through our core values - collaboration, courage, agility, and respect. Primary Duties And Responsibilities Maintains and executes recurring reports using SQL, Excel, MicroStrategy, and existing reporting tools to support RCS operations and performance tracking. Acquires, cleans, filters, and validates data from multiple sources to ensure accuracy and reliability of reporting outputs. Executes and updates existing SQL queries, stored procedures, and SSIS packages; runs standardized reporting processes. Performs quality assurance on reports and deliverables, including work completed by global resources, ensuring data accuracy prior to distribution. Distributes reports via email and other channels, including written summaries describing methodology and key findings when required. Conducts preliminary analysis of operational and financial data to identify trends, variances, and potential data issues. Assists in the creation of basic visualizations and reporting outputs to support internal understanding of performance metrics. Supports more complex analytical efforts by preparing datasets and deliverables under direction from senior team members. Responds to routine ad hoc reporting and data requests from RCS stakeholders using established tools and processes. Manipulates and analyzes data sets to produce timely outputs aligned with stakeholder needs and defined requirements. Coordinates with internal team members when requests require additional expertise or cross-functional support. Participates in RCS meetings, contributing to discussions related to reporting outputs and data findings. Collaborates with RCS Directors, Managers, and cross-functional teams (Finance, Accounting, Operations) in a supporting role. Works closely with global resources to complete assigned tasks, including receiving handoffs and performing QA on deliverables. Builds foundational knowledge of RCS domains and reporting processes, progressing toward subject matter expertise over time. Ensures adherence to established reporting standards, processes, and data governance practices. Knowledge, Skills, And Abilities Proficiency in Microsoft Excel and foundational SQL skills Familiarity with reporting tools such as MicroStrategy or similar BI platforms preferred Basic understanding of data analysis and statistical concepts Strong attention to detail with a focus on data accuracy and validation Effective written and verbal communication skills Ability to manage multiple tasks and meet deadlines in a fast-paced environment Ability to follow established processes while developing analytical problem-solving skills EDUCATION (Required And/or Preferred) Bachelor’s degree in Data Science, Statistics, Health Informatics, Finance, or related quantitative field required Supervision Exercised None Qualifications Previous Experience: 1–3 years of relevant experience in data analysis, reporting, or a related field Foundational analytical, problem-solving, and critical thinking skills Basic understanding of business operations and data structures Strong written, verbal, and interpersonal communication skills Ability to collaborate effectively within a team environment Demonstrated ability to follow direction and execute assigned tasks accurately Developing ability to interpret data and communicate findings clearly Contacts Inside And Outside The Organization Daily contact with RCS Analytics team and global resources Frequent contact with RCS Managers and Directors Occasional contact with Finance, Accounting, Operations, and Senior Leadership (supporting role) Limited interaction with external clients in coordination with Client Services and leadership Work Environment And Physical Demands Works independently at home Monday &amp; Friday; Dallas office Tuesday–Thursday or fully remote as applicable Professional office setting Continuous sitting Continuous oral &amp; written communication and listening Continuous computer use PRIMARY LOCATION: Dallas, TX Pay Range 51,293.00 - 72,891.00 USD annually This range represents the anticipated base salary for this role. Actual compensation will be determined based on experience, qualifications, and internal equity considerations. We offer a comprehensive benefits package designed to support your health, financial well-being, and work-life balance, including medical dental, vision insurance, a 401(k) plan with a company match, paid time off and holidays, professional development support, and employee wellness resources. Visit our website for further information. https://myscpbenefits.com/ Login name: corp-guest Password: weheal",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/business-data-analyst-i-at-scp-health-4492286604",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 3,
+      "salary_min": 51293,
+      "salary_max": 72891,
+      "tech_tags": [
+        "sql"
+      ],
+      "score": 125,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Engineer-Data Modeling",
+      "location": "Dallas, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-data-modeling-at-ibm-4490816389",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a Data Engineer specializing in Data Modeling, you will design and implement data models for applications and related systems, translating business needs into logical and physical data models. You will apply your expertise in data modeling tools and techniques to deliver high-quality solutions. Your Primary Responsibilities Will Include Design Data Models: Design and implement data models for applications and related systems, ensuring alignment with business needs and requirements. Translate Business Needs: Translate business needs into logical and physical data models, utilizing expertise in data modeling tools and techniques. Apply Data Modeling Expertise: Apply knowledge of data modeling tools and techniques, including ERWin, MDM, and/or ETL, to deliver robust data models. Implement Data Solutions: Implement data models and related systems, ensuring seamless integration with existing infrastructure. Optimize Data Models: Continuously review and optimize data models to ensure they meet evolving business needs and requirements. Required Technical And Professional Expertise Data Modeling Expertise: Experience with data modeling tools and techniques, including ERWin, MDM, and/or ETL, with the ability to apply this expertise to deliver high-quality data models. Logical and Physical Data Models: Experience in designing and implementing logical and physical data models that meet business needs and requirements. Business Needs Translation: Experience with translating business needs into technical data models, ensuring alignment with business requirements. Data Solution Implementation: Experience in implementing data models and related systems, ensuring seamless integration with existing infrastructure. Data Model Optimization: Experience in continuously reviewing and optimizing data models to ensure they meet evolving business needs and requirements. Preferred Technical And Professional Experience Advanced Data Modeling Tools: Experience with data modeling tools beyond ERWin, MDM, and ETL, such as PowerDesigner or IBM InfoSphere Data Architect, to further enhance data model design and implementation. Data Governance Knowledge: Familiarity with data governance principles and practices to ensure data models align with organizational data management policies and standards. Cloud-Based Data Modeling: Exposure to cloud-based data modeling tools and technologies, such as Snowflake or Amazon Redshift, to support scalable and flexible data model implementation. Preferred Skills: Technical Project Management Maximo Application Suite, Oracle Database programming.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-data-modeling-at-ibm-4490816389",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "redshift"
+      ],
+      "score": 110,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Lockheed Martin",
+      "title": "Global Supply Chain Data Scientist",
+      "location": "Arlington, TX",
+      "url": "https://www.linkedin.com/jobs/view/global-supply-chain-data-scientist-at-lockheed-martin-4488984337",
+      "posted_at": "2026-11-13T00:00:00+00:00",
+      "description": "Standard Job Description Perform exploratory research and analysis to identify novel and meaningful patterns in data and uses statistical methods to reject or accept proposed hypotheses about relationships or latent predictive factors discovered through their work to provide business value. Uses a combination of tools, technologies, and numerical computing systems (i.e.: GPU processing, distributed computing, highly parallel coding, cloud computing, machine learning, visualization, system modelling and simulation) to achieve results. Areas of expertise should include several of the following: applied statistics, text mining, natural language processing, deep learning, optimization, and other similar fields. Work on datasets with applied statistics and machine learning algorithms; Use exploratory data analysis techniques to identify meaningful relationships, patterns, or trends from complex data sets and discover opportunities in datasets to support decision-making; Develop predictive models and new algorithms to solve data / business problems; Understand the math and statistics behind the models and interpret, extrapolate, and prescribe from data to deliver actionable recommendations using effective visualizations. The defense industry is undergoing rapid transformation, with increasing global complexity and evolving security demands redefining what it takes to compete. Organizations are under growing pressure to deliver with both precision and speed while adapting in real time. Success requires more than incremental improvement; it demands the ability to build capability, scale performance, and drive meaningful change across the enterprise. The selected candidate will serve as the Global Supply Chain business owner for the RISE tool, providing leadership for governance, adoption, and day-to-day business integration across the organization. This role will function as the primary point of contact for SIOP-related matters (sales, inventory, operations and planning) within Global Supply Chain and will serve as a critical interface between business stakeholders and the Digital Technologies team. The role will require close partnership across a matrixed organization, including collaboration with supply chain stakeholders, SIOP, and technical teams. The ideal candidate will be an influential change champion who can define what good looks like, coach stakeholders on effective use of the tool, and drive execution through strong communication, accountability, and influence without direct authority. We operate at the forefront of a cultural shift toward agility, accountability, and performance excellence. Our ambition is to become the enterprise’s partner of choice—delivering measurable impact and enabling sustained performance in support of mission-critical outcomes. Basic Qualifications Bachelor’s degree from an accredited college in Business, Supply Chain, Information Systems, Engineering, Operations, Technology, or related discipline, or equivalent experience Experience serving as a business owner, superuser, subject matter expert, or lead for a digital tool, platform, or system Experience working across technical and business teams to translate operational needs into functional or technical requirements Experience coordinating with multiple stakeholders in a cross-functional environment and serving as a central point of contact for business processes or tool-related matters Demonstrated experience in governance, process compliance, data quality, or business system stewardship Experience driving user adoption, enablement, training, or change management for new tools, systems, or processes Strong communication and interpersonal skills with the ability to influence peers and stakeholders without direct authority Experience managing multiple priorities, projects, or workstreams in a fast-paced environment Demonstrated ability to analyze, clean, normalize, or improve business data for accuracy and usability Desired Skills Experience supporting supply chain, supplier management, SIOP, planning, or related operational functions Experience interfacing with Digital Technologies, IT, digital product teams, or developers to support tool enhancements and business integration Knowledge of developing and emerging AI technologies, including AI-enabled tools, copilots, or agent creation Experience serving as a product translator between business stakeholders and technical teams Experience defining governance standards, operating rhythms, or business expectations for digital tool usage Demonstrated ability to act as a change champion and influence adoption across stakeholder groups Experience holding stakeholders accountable to data maintenance, compliance, and process adherence expectations Project management experience, including coaching others on project management disciplines and driving execution consistency Ability to establish what good looks like and operationalize that standard through structure, communication, and follow-through Familiarity and prior experience in using SIOP tools including SAP, S/4HANA, Kinaxis, etc. Pay Information Full-Time Salary Range: $120600.00 - $224000.00 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow—both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/global-supply-chain-data-scientist-at-lockheed-martin-4488984337",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": 52000,
+      "tech_tags": [],
+      "score": 85,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Fortune Jobs AI",
+      "title": "Data Engineer jobs in New York (72)",
+      "location": "Buffalo-Niagara Falls Area",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-jobs-in-new-york-72-at-fortune-jobs-ai-4491350816",
+      "posted_at": "2026-11-19T00:00:00+00:00",
+      "description": "Showing 20 of 72 open listings as of 2026-11-19. Lead Software Engineer - Data Engineer (Enterprise Fraud) M&amp;T Bank Buffalo, Erie County Posted 2026-11-18 View original listing Job source: Adzuna Lead Software Engineer - Data Engineer M&amp;T Bank Buffalo, Erie County Posted 2026-11-18 View original listing Job source: Adzuna Data Engineer-Data Platforms IBM Grand Central, Manhattan Posted 2026-11-18 View original listing Job source: Adzuna Senior Data Engineer Acxiom Ny State Campus, Albany County Posted 2026-11-18 View original listing Job source: Adzuna Data Engineer - Experienced Associate PwC Grand Central, Manhattan Posted 2026-11-18 View original listing Job source: Adzuna Lead Software Engineer - Data Engineer M&amp;T Bank Cheektowaga, Erie County Posted 2026-11-18 View original listing Job source: Adzuna Senior Data Engineer, Data Management &amp; BI NBCUniversal New York City, New York Posted 2026-11-18 View original listing Job source: Adzuna Senior Associate - Data Engineer New York Life Insurance Co New York City, New York Posted 2026-11-18 View original listing Job source: Adzuna Data Engineer Wise Skulls Manhattan, New York City Posted 2026-11-18 View original listing Job source: Adzuna Staff Data Engineer Oscar Health New York, New York, United States Posted 2026-11-17 View original listing Full Stack Data Engineer VSG Business Solutions LLC Prince, Manhattan Posted 2026-11-17 View original listing Job source: Adzuna Data Engineer Stellent IT LLC Upper East Side, Manhattan Posted 2026-11-17 View original listing Job source: Adzuna Senior Data Engineer, Data Management &amp; BI NBCUniversal New York, NEW YORK Posted 2026-11-17 View original listing junior Data Engineer/Entry-Level Full-Stack Engineer – Remote SynergisticIT Rochester, Monroe County Posted 2026-11-17 View original listing Job source: Adzuna Operational Data Engineer CYNET SYSTEMS Chelsea and Clinton, Manhattan Posted 2026-11-17 View original listing Job source: Adzuna Senior Data Engineer (Databricks) - New York Auquan New York City, New York Posted 2026-11-17 View original listing Job source: Adzuna Senior Data Engineer Fortune Media New York City, New York Posted 2026-11-17 View original listing Job source: Adzuna Senior Data Engineer II Oscar Health New York, New York, United States Posted 2026-11-16 View original listing Data Engineer-Machine Learning - 2 IBM Grand Central, Manhattan Posted 2026-11-16 View original listing Job source: Adzuna Data Engineer M&amp;T Bank Cheektowaga, Erie County Posted 2026-11-16 View original listing Job source: Adzuna",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-jobs-in-new-york-72-at-fortune-jobs-ai-4491350816",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "databricks"
+      ],
+      "score": 105,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Emonics LLC",
+      "title": "Data Engineer – Entry Level",
+      "location": "Burlington, VT",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-%E2%80%93-entry-level-at-emonics-llc-4491862744",
+      "posted_at": "2026-11-19T00:00:00+00:00",
+      "description": "Key Responsibilities Develop, maintain, and monitor scalable data pipelines and ETL/ELT processes. Extract, transform, and load data from various sources into data warehouses and data platforms. Write efficient SQL queries for data transformation, validation, and analysis. Assist in designing and maintaining data models, schemas, and data workflows. Monitor data pipelines and troubleshoot data quality or processing issues. Perform data validation and implement checks to ensure accuracy and consistency. Collaborate with analytics and business teams to understand data requirements. Document data processes, pipelines, and technical solutions. Required Qualifications Bachelor's degree in Computer Science, Information Technology, Engineering, Data Science, or a related field, or equivalent practical experience. 0–2 years of experience in data engineering, software engineering, analytics, or a related field. Strong SQL skills and understanding of relational databases. Programming experience in Python or another programming language.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-%E2%80%93-entry-level-at-emonics-llc-4491862744",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 2,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "python",
+        "sql"
+      ],
+      "score": 100,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Baker Tilly US",
+      "title": "Associate Data Engineer",
+      "location": "Chicago, IL",
+      "url": "https://www.linkedin.com/jobs/view/associate-data-engineer-at-baker-tilly-us-4481862963",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "description": "Overview Baker Tilly is a leading advisory, tax and assurance firm, providing clients with a genuine coast-to-coast and global advantage in major regions of the U.S. and in many of the world’s leading financial centers – New York, London, San Francisco, Los Angeles, Chicago and Boston. Baker Tilly Advisory Group, LP and Baker Tilly US, LLP (Baker Tilly) provide professional services through an alternative practice structure in accordance with the AICPA Code of Professional Conduct and applicable laws, regulations and professional standards. Baker Tilly US, LLP is a licensed independent CPA firm that provides attest services to its clients. Baker Tilly Advisory Group, LP and its subsidiary entities provide tax and business advisory services to their clients. Baker Tilly Advisory Group, LP and its subsidiary entities are not licensed CPA firms. Baker Tilly Advisory Group, LP and Baker Tilly US, LLP, trading as Baker Tilly, are independent members of Baker Tilly International, a worldwide network of independent accounting and business advisory firms in 141 territories, with 43,000 professionals and a combined worldwide revenue of $5.2 billion. Visit bakertilly.com or join the conversation on LinkedIn, Facebook and Instagram. Please discuss the work location status with your Baker Tilly talent acquisition professional to understand the requirements for an opportunity you are exploring. Baker Tilly is an equal opportunity/affirmative action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability or protected veteran status, gender identity, sexual orientation, or any other legally protected basis, in accordance with applicable federal, state or local law. Any unsolicited resumes submitted through our website or to Baker Tilly Advisory Group, LP, employee e-mail accounts are considered property of Baker Tilly Advisory Group, LP, and are not subject to payment of agency fees. In order to be an authorized recruitment agency (\"search firm\") for Baker Tilly Advisory Group, LP, there must be a formal written agreement in place and the agency must be invited, by Baker Tilly's Talent Attraction team, to submit candidates for review via our applicant tracking system. Job Description As an Associate Data Engineer you will design, build, and optimize modern data solutions for our mid‑market and enterprise clients. Working primarily inside the Microsoft stack (Azure, Synapse, and Microsoft Fabric), you will transform raw data into trusted, analytics‑ready assets that power dashboards, advanced analytics, and AI use cases. You’ll collaborate with solution architects, analysts, and client stakeholders while sharpening both your technical depth and consulting skills. Key Responsibilities Data Engineering: Develop scalable, well‑documented ETL/ELT pipelines using SQL, Python, and an appropriate orchestration platform (e.g. Azure Data Factory, Fabric Data Pipelines, Apache Airflow); implement best‑practice patterns for performance, security, and cost control. Modeling &amp; Storage: Design relational and lakehouse models, create medallion-style data layers, and prepare and transform data for semantic layers and AI consumption. Quality &amp; Governance: Build automated data‑quality checks, lineage, and observability metrics; contribute to CI/CD workflows in Azure DevOps or GitHub. Client Delivery: Gather requirements, demo iterative deliverables, document technical designs, and translate complex concepts to non‑technical audiences. Continuous Improvement: Research new capabilities, share findings in internal communities of practice, and contribute to reusable accelerators. Collaborate with clients and internal stakeholders to design and implement scalable data engineering solutions. Qualifications Education – Bachelor’s in Computer Science, Information Systems, Engineering, or related field (or equivalent experience). Experience – 3-5 years delivering production data solutions, preferably in a consulting or client‑facing role. Technical Skills: Strong T‑SQL for data transformation and performance tuning. Python for data wrangling, orchestration, or notebook‑based development. Hands‑on ETL/ELT with at least one Microsoft service (ADF, Synapse Pipelines, Fabric Data Pipelines). Project experience with Microsoft Fabric (OneLake, Lakehouses, Data Pipelines, Notebooks, Warehouse, Power BI DirectLake) preferred. Familiarity with Databricks, Delta Lake, or comparable lakehouse technologies preferred. Experience using approved AI-assisted development tools responsibly preferred. Exposure to DevOps (YAML pipelines, Terraform/Bicep) and test automation frameworks preferred. Experience in integrating SaaS/ERP sources (e.g., Dynamics 365, Workday, Oracle, Costpoint) preferred. The pay rate range for this job position is $85,910 to $162,890. Actual compensation is influenced by a variety of relevant factors including but not limited to applicant’s skills, prior experience, qualifications, degrees, professional certifications, work arrangements and geographic location. Baker Tilly offers a comprehensive compensation and benefits package to eligible employees.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/associate-data-engineer-at-baker-tilly-us-4481862963",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": 85910,
+      "salary_max": 162890,
+      "tech_tags": [
+        "databricks",
+        "airflow",
+        "power bi",
+        "python",
+        "sql",
+        "azure"
+      ],
+      "score": 85,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Engineer-Data Integration",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-data-integration-at-ibm-4490878641",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a seasoned Data Engineer specializing in Data Integration, you will design and build solutions to transfer data from operational and external environments to the business intelligence environment. Your expertise will ensure the seamless flow of data throughout the business intelligence solution's lifecycle. Your Primary Responsibilities Will Include Design Data Integration Solutions: Create and implement Extract, Transform, and Load (ETL) processes to facilitate data transfer between environments, utilizing tools such as Informatica, Ab Initio software, and DataStage. Develop ETL Processes: Build and maintain efficient ETL processes to ensure accurate and timely data flow, adhering to best practices and industry standards. Implement Data Integration Tools: Utilize IBM's WebSphere Data Integration Suite to integrate data from various sources, ensuring data consistency and integrity. Ensure Seamless Data Flow: Monitor and troubleshoot data integration issues, collaborating with stakeholders to resolve problems and optimize data flow. Optimize Data Integration Solutions: Continuously evaluate and improve data integration solutions, identifying opportunities for process improvements and efficiency gains. Required Technical And Professional Expertise Data Integration Solution Design: Experience with designing and building solutions to transfer data from operational and external environments to the business intelligence environment, utilizing tools such as Informatica, Ab Initio software, and DataStage. ETL Process Development: Experience in creating and implementing Extract, Transform, and Load (ETL) processes to facilitate data transfer between environments, adhering to best practices and industry standards. Data Integration Tool Implementation: Experience with utilizing IBM's WebSphere Data Integration Suite to integrate data from various sources, ensuring data consistency and integrity. Data Flow Optimization: Experience in monitoring and troubleshooting data integration issues, collaborating with stakeholders to resolve problems and optimize data flow. Data Integration Solution Evaluation: Experience in continuously evaluating and improving data integration solutions, identifying opportunities for process improvements and efficiency gains. Preferred Technical And Professional Experience Data Integration Tool Expertise: Experience with utilizing IBM's WebSphere Data Integration Suite, Informatica, Ab Initio software, and DataStage to integrate data from various sources, ensuring data consistency and integrity. ETL Process Optimization: Experience in optimizing ETL processes to ensure accurate and timely data flow, adhering to best practices and industry standards. Data Flow Troubleshooting: Experience in monitoring and troubleshooting data integration issues, collaborating with stakeholders to resolve problems and optimize data flow. Preferred Skills: Python, Snowflake, DBT, DataStage",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-data-integration-at-ibm-4490878641",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "dbt",
+        "informatica",
+        "python"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Engineer-Data Platforms",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-data-platforms-at-ibm-4490879622",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a Data Engineer specializing in Data Platforms, you will develop applications on Big Data technologies, including API development. This role requires a strong foundation in traditional Application Development, along with knowledge of Analytics libraries, open-source Natural Language Processing, and statistical and big data computing libraries. Your Primary Responsibilities Will Include Design and Develop Applications: Design, write, and debug complex code for applications on Big Data technologies, including API development. Leverage Technical Expertise: Utilize exceptional technical abilities to understand and develop applications using Analytics libraries, open-source Natural Language Processing, and statistical and big data computing libraries. Lead Code Development: Lead the development of complex code, ensuring high-quality and efficient solutions. Optimize Application Performance: Optimize application performance, scalability, and reliability on Big Data technologies. Collaborate on Solution Delivery: Collaborate with teams to deliver solutions that meet business requirements and stakeholder expectations. Required Technical And Professional Expertise Big Data Technologies Expertise: Experience with developing applications on Big Data technologies, including API development, and a strong foundation in traditional Application Development. Analytics Libraries Knowledge: Experience with Analytics libraries, open-source Natural Language Processing, and statistical and big data computing libraries, with the ability to apply this knowledge to develop complex applications. Complex Code Development: Experience in designing, writing, and debugging complex code, with a focus on delivering high-quality and efficient solutions. Technical Leadership: Experience leading code development, leveraging exceptional technical abilities to guide teams and ensure high-quality solutions. Performance Optimization: Experience optimizing application performance, scalability, and reliability on Big Data technologies, with a focus on meeting business requirements and stakeholder expectations. Preferred Technical And Professional Experience Open-Source Technology Expertise: Experience with open-source Natural Language Processing and statistical and big data computing libraries is beneficial for developing complex applications on Big Data technologies. Advanced Analytics Knowledge: Familiarity with Analytics libraries and their application in developing complex code is advantageous for this role. Technical Innovation: Exposure to emerging trends and technologies in Big Data and Application Development can enhance the ability to design and develop innovative solutions. Preferred Skills: Tableau, Alation, BigEye, Python, Snowflake, Data Management, Data Governance",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-data-platforms-at-ibm-4490879622",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "tableau",
+        "python"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Fortune Jobs AI",
+      "title": "Data Analyst jobs in Austin, TX (10)",
+      "location": "Austin, Texas Metropolitan Area",
+      "url": "https://www.linkedin.com/jobs/view/data-analyst-jobs-in-austin-tx-10-at-fortune-jobs-ai-4491362220",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "description": "Showing 10 of 10 open listings. GIS Data Analyst 3445 Genius Road Austin, Travis County Posted 2026-11-17 View original listing Job source: Adzuna Data Analyst Cynet Systems Austin, Travis County Posted 2026-11-16 View original listing Job source: Adzuna Data Reporting Analyst (Special Project Worker) Travis County Austin, Travis County Posted 2026-11-13 View original listing Job source: Adzuna MDM Data Quality Analyst eStaffLLC Austin, Travis County Posted 2026-11-05 View original listing Job source: Adzuna MDM Data Quality Analyst Allied Consultants Austin, Travis County Posted 2026-11-04 View original listing Job source: Adzuna Data Systems Analyst NHRG, Inc. Austin, Travis County Posted 2026-11-03 View original listing Job source: Adzuna Senior Data Integration Analyst – Public Health Interoperability (SAS/Python/R) Dutech Systems Austin, Travis County Posted 2026-11-03 View original listing Job source: Adzuna GIS - Data Analyst / Tooling Specialist Artech LLC Austin, Travis County Posted 2026-10-31 View original listing Job source: Adzuna Senior Business Data Analyst – Power BI &amp; Snowflake Dutech Systems Austin, Travis County Posted 2026-10-27 View original listing Job source: Adzuna Project Perseus | Data Quality Analyst - Turkish Speakers (Human-in-the-Loop AI) Welo Data Austin, Travis County Posted 2026-10-26 View original listing Job source: Adzuna",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-analyst-jobs-in-austin-tx-10-at-fortune-jobs-ai-4491362220",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "power bi",
+        "python"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Engineer-Data Platforms-Google - 5",
+      "location": "New York, United States",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-data-platforms-google-5-at-ibm-4473681537",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You’ll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you’ll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You’ll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a Data Engineer specializing in Google's data platforms, you will design, build, and maintain data engineering solutions on Google's Cloud ecosystem. This role requires expertise in utilizing various Google services for batch and real-time data pipelines, data migration, and data layer design. Your Primary Responsibilities Will Include Design Data Pipelines: Design and develop batch and real-time data pipelines for Data Warehouse and Datalake using Google services such as DataProc, DataFlow, PubSub, BigQuery, and Big Table. Develop Data Engineering Solutions: Utilize Google Cloud Storage, BigTable, BigQuery DataProc with Spark and Hadoop, and Google DataFlow with Apache Beam or Python to build and maintain data engineering solutions. Manage Data Platforms: Schedule and manage the data platform using Google Cloud Scheduler and Cloud Composer (Airflow), ensuring efficient data pipeline operations. Implement Data Migration: Develop and implement data migration solutions using Google services, ensuring seamless data transfer between systems. Optimize Data Layer: Design and optimize the data layer using Google services such as BigQuery, Big Table, and Cloud Spanner, ensuring efficient data storage and retrieval. This role can be performed from anywhere in the United States of America Required Technical And Professional Expertise Google Cloud Ecosystem Expertise: Exposure to designing, building, and maintaining data engineering solutions on Google's Cloud ecosystem, including services such as Google DataProc, DataFlow, PubSub, BigQuery, Big Table, Cloud Spanner, CloudSQL, and AlloyDB. Data Pipeline Development Experience: Exposure to developing and managing batch and real-time data pipelines for Data Warehouse and Datalake using Google services and open-source technologies like Apache Airflow, dbt, Spark/Python, or Spark/Scala. Google Cloud Services Proficiency: Experience working with Google Cloud Storage, BigTable, BigQuery DataProc with Spark and Hadoop, and Google DataFlow with Apache Beam or Python to build and maintain data engineering solutions. Data Platform Management Knowledge: Exposure to scheduling and managing the data platform using Google Cloud Scheduler and Cloud Composer (Airflow) for efficient data pipeline operations. Data Layer Design Understanding: Experience working with data layer design using Google services such as BigQuery, Big Table, and Cloud Spanner for efficient data storage and retrieval. Preferred Technical And Professional Experience Open Source Technologies: Exposure to utilizing open-source technologies like Apache Airflow, dbt, Spark/Python, or Spark/Scala for developing and managing batch and real-time data pipelines. Data Migration Solutions: Experience working with Google services to develop and implement data migration solutions, ensuring seamless data transfer between systems. Cloud Composer Expertise: Exposure to using Cloud Composer (Airflow) for scheduling and managing the data platform, ensuring efficient data pipeline operations.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-data-platforms-google-5-at-ibm-4473681537",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "spark",
+        "airflow",
+        "dbt",
+        "hadoop",
+        "bigquery",
+        "python",
+        "gcp"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Engineer-Data Integration",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-data-integration-at-ibm-4490885281",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You'll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you'll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You'll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a Data Engineer specializing in Data Integration, you will design and build solutions to transfer data from operational and external environments to the business intelligence environment. You will utilize various tools to create and implement Extract, Transform, and Load (ETL) processes, ensuring the seamless flow of data throughout the business intelligence solution's lifecycle. Your Primary Responsibilities Will Include Design Data Integration Solutions: Create solutions to transfer data from operational and external environments to the business intelligence environment, utilizing tools such as Informatica, Ab Initio software, and DataStage. Implement ETL Processes: Develop and implement Extract, Transform, and Load (ETL) processes to ensure the seamless flow of data throughout the business intelligence solution's lifecycle. Utilize Data Integration Tools: Apply knowledge of Informatica, Ab Initio software, and DataStage to design and build data integration solutions. Ensure Seamless Data Flow: Ensure the smooth flow of data throughout the business intelligence solution's lifecycle by creating and implementing efficient ETL processes. Support Business Intelligence: Support the business intelligence environment by designing and building solutions to transfer data from operational and external environments. Required Technical And Professional Expertise Exposure to Data Integration Tools: Familiarity with tools such as Informatica, Ab Initio software, and DataStage, with the ability to apply this knowledge to design and build data integration solutions. Experience with ETL Processes: Understanding of Extract, Transform, and Load (ETL) processes, with the ability to develop and implement these processes to ensure seamless data flow. Data Solution Design: Exposure to designing solutions to transfer data from operational and external environments to the business intelligence environment. Data Flow Management: Experience working with data flows, with the ability to ensure the smooth flow of data throughout the business intelligence solution's lifecycle. Business Intelligence Support: Exposure to supporting business intelligence environments, with the ability to design and build solutions to transfer data from operational and external environments. Preferred Technical And Professional Experience Additional Data Integration Tools: Exposure to other data integration tools beyond Informatica, Ab Initio software, and DataStage, with the ability to quickly learn and apply new tools to design and build data integration solutions. Advanced ETL Process Development: Experience with complex ETL process development, including data mapping, data transformation, and data quality checks, to ensure seamless data flow throughout the business intelligence solution's lifecycle. Business Intelligence Environment Knowledge: Exposure to various business intelligence environments, with the ability to design and build solutions to transfer data from operational and external environments to support business intelligence initiatives. Preferred Skills: Healthcare SME, Snowflake, Business system analyst, Teradata, HL7",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-data-integration-at-ibm-4490885281",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "informatica"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Fortune Jobs AI",
+      "title": "Data Engineer jobs in Atlanta, GA (13)",
+      "location": "Atlanta, GA",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-jobs-in-atlanta-ga-13-at-fortune-jobs-ai-4491360258",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "description": "Showing 13 of 13 open listings. Senior Data Engineer- Fusion Experience Oracle Atlanta, Fulton County Posted 2026-11-07 View original listing Job source: Adzuna Staff AI &amp; Data Engineer - Databricks Eliassen Group Atlanta, Fulton County Posted 2026-11-07 View original listing Job source: Adzuna Data Engineer TVS Services Atlanta, Fulton County Posted 2026-11-07 View original listing Job source: Adzuna Sr Data Engineer Cox Communications Atlanta, Fulton County Posted 2026-11-07 View original listing Job source: Adzuna Sr. Data Engineer Cargill Atlanta, Fulton County Posted 2026-11-06 View original listing Job source: Adzuna Data Engineer 3 Abt Global Inc. Atlanta, Fulton County Posted 2026-11-06 View original listing Job source: Adzuna Staff Data Engineer, Commercial Data Governance American Express Atlanta, Fulton County Posted 2026-11-05 View original listing Job source: Adzuna Lead Data Engineer Robert Half Atlanta, Fulton County Posted 2026-11-05 View original listing Job source: Adzuna Data Engineer Advisor NTT Data Americas, Inc. Atlanta, Fulton County Posted 2026-11-05 View original listing Job source: Adzuna Lead Data Engineer-Snowflake Cognizant Atlanta, Fulton County Posted 2026-11-05 View original listing Job source: Adzuna Senior Data Engineer Unum Group Atlanta, Fulton County Posted 2026-11-05 View original listing Job source: Adzuna AI Data Engineer TalentOla Atlanta, Fulton County Posted 2026-11-04 View original listing Job source: Adzuna Data Engineer (Snowflake, DBT, Cortex) - Systems Management Group, Inc Atlanta, Georgia, USA Posted 2026-10-05 View original listing",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-jobs-in-atlanta-ga-13-at-fortune-jobs-ai-4491360258",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "databricks",
+        "dbt"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "MACHINE LEARNING TECHNOLOGIES LLC",
+      "title": "Data Engineer",
+      "location": "Chicago, IL",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-machine-learning-technologies-llc-4492122802",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "description": "Home About Adaptive AI Industries Consulting Jobs Portal Contact Us Home About Adaptive AI Industries Consulting Jobs Portal Contact Us Job Description Job Overview Job ID: J55846 Job Title: Data Engineer Location: Chicago, IL Duration: 12 Months + Extension Domain Exposure: Material Client: To Be Discussed Later Employment Type: W-2, 1099, C2C Work Authorization: US Citizen, Green Card, H-1B, OPT-EAD, CPT, Other View All Jobs Similar Jobs ETL Data Migration Lead - Whitehouse Station, NJ Data Engineer - Plano, TX Data Scientist - Seattle, WA Data Engineer - Charlotte, NC Data Analyst - New York City, NY Job Title: Data Engineer – Azure Location: Chicago, IL Duration: 12 Months Contract Bill Rate: $80/hr Job Type: W-2, 1099, C2C Client: To be disclosed Work Authorization: US Citizen, Green Card, OPT-EAD, CPT, H-1B, H4-EAD, Other Job Description: We are looking for a Data Engineer to build and maintain scalable data pipelines and cloud-based data solutions using Microsoft Azure. Key Responsibilities: Develop and maintain ETL/ELT data pipelines. Work with Azure Data Factory and Azure Databricks. Build data transformation workflows using Python and SQL. Manage data storage using Azure Data Lake. Monitor and optimize data processing performance. Required Skills: Strong experience in Python and SQL. Knowledge of Azure Data Factory and Databricks. Experience with ETL processes and data warehousing. Understanding of cloud data architecture. Apply Now Equal Opportunity Employer We are an equal opportunity employer. All aspects of employment including the decision to hire, promote, discipline, or discharge, will be based on merit, competence, performance, and business needs. We do not discriminate on the basis of race, color, religion, marital status, age, national origin, ancestry, physical or mental disability, medical condition, pregnancy, genetic information, gender, sexual orientation, gender identity or expression, national origin, citizenship/ immigration status, veteran status, or any other status protected under federal, state, or local law. Home | About | Adaptive AI | Industries | Consulting | Contact Us © 2004-2026, Machine Learning Technologies LLC, or its affiliates",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-machine-learning-technologies-llc-4492122802",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "databricks",
+        "python",
+        "sql",
+        "azure"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Fortune Jobs AI",
+      "title": "Data Engineer jobs in Pennsylvania (62)",
+      "location": "Greater Harrisburg Area",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-jobs-in-pennsylvania-62-at-fortune-jobs-ai-4491351732",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "description": "Showing 20 of 62 open listings. Lead Data Engineer Aroha Technologies Butztown, Northampton County Posted 2026-11-18 View original listing Job source: Adzuna Principal Data Engineer CGT Staffing Bloomfield, Allegheny County Posted 2026-11-18 View original listing Job source: Adzuna Data Engineer Engine Pittsburgh, Allegheny County Posted 2026-11-18 View original listing Job source: Adzuna Lead Azure Data Engineer Intone Networks Inc Indiana, Indiana County Posted 2026-11-17 View original listing Job source: Adzuna Lead Data Engineer/ Data Architect Maxima Technologies, LLC Exton, Chester County Posted 2026-11-17 View original listing Job source: Adzuna Data Engineer (Azure Databricks) Transcend IT Solutions Oak Lane, Philadelphia County Posted 2026-11-16 View original listing Job source: Adzuna GCP Data Engineer Sumeru Solutions Oak Lane, Philadelphia County Posted 2026-11-16 View original listing Job source: Adzuna Senior Data Engineer- SQL Server -W2 eSolutionsFirst, LLC Elkins Park, Montgomery County Posted 2026-11-16 View original listing Job source: Adzuna Sr AWS Data Engineer (with ETL, Python, AWS Glue, Lambda, Node.js &amp; Microservices exp) Info Dinamica Inc Frazer, Chester County Posted 2026-11-16 View original listing Job source: Adzuna Azure Data Engineer Keypixel Software Solutions Elkins Park, Montgomery County Posted 2026-11-16 View original listing Job source: Adzuna Data Engineer- Consultant AI&amp; E Deloitte Pittsburgh, Allegheny County Posted 2026-11-16 View original listing Job source: Adzuna Payer Healthcare Data Engineer, Senior Manager PwC Pittsburgh, Allegheny County Posted 2026-11-15 View original listing Job source: Adzuna Payer Healthcare Data Engineer, Senior Manager PwC William Penn Annex East, Philadelphia County Posted 2026-11-15 View original listing Job source: Adzuna Data Engineer 4 Capital One Penbrook, Dauphin County Posted 2026-11-15 View original listing Job source: Adzuna Data Engineer Aramark Philadelphia, Philadelphia County Posted 2026-11-14 View original listing Job source: Adzuna Data Engineer Robert Half William Penn Annex East, Philadelphia County Posted 2026-11-14 View original listing Job source: Adzuna Senior Data Engineer Insight Global Upper Dublin, Montgomery County Posted 2026-11-14 View original listing Job source: Adzuna Data Engineer - Analytics Air Pittsburgh, Allegheny County Posted 2026-11-14 View original listing Job source: Adzuna Data Engineer Frank Calandra Jennmar Services Fox Chapel, Allegheny County Posted 2026-11-13 View original listing Job source: Adzuna Lead Data Engineer Lincoln Financial Radnor, Delaware County Posted 2026-11-13 View original listing Job source: Adzuna",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-jobs-in-pennsylvania-62-at-fortune-jobs-ai-4491351732",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "databricks",
+        "python",
+        "sql",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "score": 70,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Yes Energy",
+      "title": "Data Engineer II",
+      "location": "Boulder, CO",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-ii-at-yes-energy-4491734620",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "description": "Join the Market Leader in Electric Power Data and Analytics Solutions The electrical grid is the largest and most complicated machine ever built. Yes Energy’s industry-leading electric power trading analytics software provides real-time visibility into the massive amount of data generated by the North American electrical grid daily. Our unique and innovative view of the data informs real-time trading decisions and mid-to-long-term investment decisions that keep utility prices low, support the energy transition, and keep the grid running. It’s both challenging work and work with a purpose. Be a part of our successful, growing business during international transformation. Position Summary As a Data Engineer on the Data Engineering team, you will focus on data transformation and integration: taking messy, disparate datasets that were never designed to work together and turning them into unified, well-modeled data in Snowflake through scalable and reliable processes. The Data Engineering team serves an important role for all participants in the energy markets, collecting new data and creating derivative, value-added datasets that help our clients solve problems. Your design solutions will be built to ensure the highest level of data completeness, correctness, and timeliness for large, complex time series data. This position offers candidates an opportunity to develop greater knowledge of energy markets, cloud-based software products, and SaaS businesses, while applying and developing technical, research, and customer-facing skills with one of the most creative and hard-working staff in the industry. AI is at the center of how we build: we make heavy use of AI-assisted and agentic development, including coding agents and the harnesses that orchestrate them, alongside Snowflake, Spring, Kafka, and Oracle PL/SQL. Position Details Salary range: $90,000 - $136,000 Full-time Hybrid Location: Boulder, CO, Dedham, MA, or Chicago, IL Reports to: Manager of Data Collections Travel requirements: Minimal travel may be required (up to 10 days per year) Primary Responsibilities Design and build transformation layers in Snowflake that combine data from multiple internal and external sources into unified, well-modeled datasets Ingest, profile, clean, normalize, and reconcile messy, disparate data sources with differing schemas, granularity, identifiers, and update cadences Build scalable, reliable, well-tested data pipelines with monitoring, alerting, and data quality checks built in from the start Design data models, shared keys, and cross-reference mappings that allow datasets from different systems to be joined and trusted Ensure the highest possible completeness, timeliness, quality, and integrity of Yes Energy data Partner with product management to prototype and validate new use cases, turning ideas into datasets that demonstrate customer value Use AI-assisted and agentic development tools and harnesses to accelerate development, testing, documentation, and data validation, and help refine how the team applies them Provide off-hours support for the data pipelines you build, including nights &amp; weekends as needed Create and maintain runbooks and technical documentation that allow the broader team to support your pipelines Ensure Snowflake performance and cost efficiency through proactive review, analysis, and tuning Plan and coordinate data migrations and integrations between systems Contribute to technical departmental standards in such areas as change control, configuration management, development methodology, and coding standards Support customers and internal teams with data-related questions Participate in product release testing Minimum Qualifications At least 3 years of related data engineering experience 3+ years of SQL experience Hands-on production experience with Snowflake, including data modeling and performance tuning Demonstrated experience integrating and transforming messy data from multiple disparate sources into unified, production-grade datasets Hands-on experience using AI coding assistants or agentic development tools in day-to-day engineering work Knowledge Skills &amp; Abilities Stewardship of data quality problems and solutions; passion for data quality Creative problem solving abilities and comfort bringing structure to ambiguous, early-stage problems Analytic and troubleshooting skills Ability to apply a testing mindset to own code Ability to work effectively with AI agents and harnesses: writing clear specifications, critically reviewing AI-generated code, and building tests and guardrails around it Ability to embrace a customer service mindset Strong communication, interpersonal, influence, collaboration and leadership skills Proficiency in Python for data processing and pipeline development; shell scripting Familiarity with agile development methodologies Experience in a Cloud Environment (AWS preferred w S3 buckets, Lambdas, Kinesis, etc.) Preferred Qualifications Energy Markets experience is preferred Oracle PL/SQL experience Experience working with large-scale time series data Experience unifying data across multiple systems or business domains Experience with data transformation and orchestration frameworks (e.g., dbt, Airflow) At Yes Energy, we value connecting directly with candidates. We kindly ask that third-party recruiters and agencies not submit resumes, as we are not open to external recruiting partnerships. Overview ABOUT YES ENERGY Yes Energy delivers real-time market data and electric power trading decision solutions. Over 1,000 market participants use Yes Energy solutions daily. The business is a leader in all aspects of information content collection and management, developing and delivering data and market analytics solutions. Since its inception in 2008, Yes Energy has become a trusted and respected supplier of innovative and reliable solutions focused on the needs of power market analysts, traders, and trade managers. Yes Energy has a team of 400+ amazing professionals in Boulder, CO (HQ); Boston, MA; Chicago, IL; Glendora, CA; Richmond, VA; London, United Kingdom; Auckland, New Zealand; and Bucharest, Romania. Culture Yes Energy has been named one of the Best Places to Work in Colorado, and we have the culture to prove it. At Yes Energy, we care about saying “Yes” to customers. We like to listen, learn, and develop our solutions in line with their needs. We think about customers as business partners, and when we help them be more successful … we are more successful, too. Around the office, our culture is driven by some pretty fundamental values that we’re proud of: We love innovation and solving tough challenges; We are “high standards people” who combine passion and pride with hard work and rewards of all kinds-- in an ethic that is consistent across the company. We’re team-focused with a flat hierarchy-- we work in small teams on well-defined projects that directly impact the success of the business; We play to the strengths and experience of each person while each of us also works along a continuum of roles adjacent to our focus area. This presents the challenge of maintaining a broad set of skills as well as an opportunity to learn and contribute in many ways. We are constantly growing. Professional development happens every day and every year. Compensation And Benefits We offer highly competitive salaries and real bonuses that are achievable and that you can impact. Our benefits package is also very competitive, including medical insurance, a 401 (k) Plan with matching, flexible vacation, and flexible work schedules. Yes Energy encourages and funds investment in both formal and informal professional development. At Yes Energy, we are dedicated to building a diverse, inclusive, and authentic workplace. If you’re excited about this role but your experience doesn’t perfectly align with every qualification in the job description, we encourage you to apply anyway. You may be just the right candidate for this or other roles. In accordance with Colorado law, the range provided is Yes Energy’s reasonable estimate of the base compensation for this role. The actual amount may be higher or lower based on non-discriminatory factors such as location, experience, knowledge, skills, and abilities. Yes Energy provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability, or genetics. In addition to federal law requirements, Yes Energy complies with applicable state and local laws governing nondiscrimination in employment in every location where the company has facilities. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-ii-at-yes-energy-4491734620",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": 90000,
+      "salary_max": 136000,
+      "tech_tags": [
+        "snowflake",
+        "airflow",
+        "dbt",
+        "kafka",
+        "python",
+        "sql",
+        "aws"
+      ],
+      "score": 65,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "IBM",
+      "title": "Data Engineer-Data Platforms-Google - 3",
+      "location": "New York, United States",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-data-platforms-google-3-at-ibm-4473675833",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "description": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You’ll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you’ll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You’ll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a seasoned Data Engineer specializing in Google's data platforms, you will design, build, and maintain data engineering solutions on Google's Cloud ecosystem. You will utilize your expertise in Google's services and open-source technologies to deliver scalable and efficient data pipelines. Your Primary Responsibilities Will Include Design Data Pipelines: Design and develop batch and real-time data pipelines for Data Warehouse and Datalake using Google Cloud services such as DataProc, DataFlow, PubSub, BigQuery, and Big Table. Develop Data Engineering Solutions: Build and maintain data engineering solutions using Google Cloud Storage, BigTable, BigQuery DataProc with Spark and Hadoop, Google DataFlow with Apache Beam or Python, and other open-source technologies like Apache Airflow, dbt, Spark/Python, or Spark/Scala. Manage Data Platforms: Schedule and manage the data platform using Google Cloud Scheduler and Cloud Composer (Airflow), ensuring seamless data pipeline operations. Optimize Data Layer: Design and optimize the data layer for efficient data migration and data processing using Google Cloud services. Ensure Scalability: Ensure scalability and efficiency of data pipelines and data engineering solutions to meet business needs. This role can be performed from anywhere in the United States of America Required Technical And Professional Expertise Deep Expertise in Google Data Platforms: Proven experience designing, building, and maintaining data engineering solutions on Google's Cloud ecosystem, including Google DataProc, DataFlow, PubSub, BigQuery, Big Table, Cloud Spanner, CloudSQL, and AlloyDB. Proficiency in Open-Source Technologies: Experience with Apache Beam, Apache Airflow, dbt, Spark/Python, or Spark/Scala, and ability to integrate these technologies with Google Cloud services. Batch and Real-Time Data Pipelines: Experience developing and managing batch and real-time data pipelines for Data Warehouse and Datalake using Google Cloud services. Data Platform Management: Experience scheduling and managing data platforms using Google Cloud Scheduler and Cloud Composer (Airflow). Data Layer Optimization: Experience designing and optimizing data layers for efficient data migration and data processing using Google Cloud services. Preferred Technical And Professional Experience Advanced Apache Beam Knowledge: Experience with Apache Beam, including integrating it with Google Cloud services such as DataFlow, is highly valued. Ability to optimize Beam pipelines for scalability and efficiency is a plus. dbt and Data Modeling: Familiarity with dbt and data modeling concepts, including data warehousing and data lake architecture, is beneficial for designing and optimizing data layers. Spark and Scala Expertise: Proficiency in Spark and Scala, including integrating them with Google Cloud services such as DataProc, is desirable for building and maintaining data engineering solutions.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-data-platforms-google-3-at-ibm-4473675833",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "spark",
+        "airflow",
+        "dbt",
+        "hadoop",
+        "bigquery",
+        "python",
+        "gcp"
+      ],
+      "score": 60,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "MACHINE LEARNING TECHNOLOGIES LLC",
+      "title": "Data Engineer",
+      "location": "Jersey City, NJ",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-machine-learning-technologies-llc-4491810011",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "description": "Home About Adaptive AI Industries Consulting Jobs Portal Contact Us Home About Adaptive AI Industries Consulting Jobs Portal Contact Us Job Description Job Overview Job ID: J55721 Job Title: Data Engineer Location: Jersey City, NJ Duration: 12 Months + Extension Domain Exposure: Consumer Staples Client: To Be Discussed Later Employment Type: W-2, 1099, C2C Work Authorization: US Citizen, Green Card, H-1B, OPT-EAD, CPT, Other View All Jobs Similar Jobs ETL Data Migration Lead - Whitehouse Station, NJ Data Engineer - Plano, TX Data Engineer - Chicago, IL Data Scientist - Seattle, WA Data Engineer - Charlotte, NC Job Title: Data Engineer Location: Jersey City, NJ Duration: 12 Months + Extension Bill Rate: $78/hour (C2C) Job Type: W-2, 1099, C2C Client: To Be Discussed Later Work Authorization: US Citizen, Green Card, OPT-EAD, CPT, H-1B, H4-EAD, Other Role Summary We are looking for an experienced Data Engineer with strong healthcare clinical data knowledge and hands-on expertise in Databricks and Snowflake. This person will work closely with client stakeholders, the Data Architect, data science teams and offshore engineers to build and maintain scalable clinical data pipelines and datasets that support predictive analytics. The role will also coordinate day-to-day engineering activities with the offshore team and help ensure smooth delivery. Key Responsibilities Work directly with client stakeholders to understand clinical data requirements, clarify source-to-target mappings and translate requirements into scalable data engineering solutions. Develop and maintain data pipelines using Databricks, Snowflake, Spark/PySpark and SQL. Build and manage data layers within a Lakehouse/Medallion architecture, including Bronze, Silver and Gold datasets using Delta Lake and related data platforms. Design and implement data ingestion, transformation and integration between Databricks, Snowflake and upstream/downstream healthcare systems. Ingest, transform and standardize clinical data from EHR/EMR and other healthcare sources, including encounters, diagnoses, procedures, labs and medications. Work with healthcare data standards such as HL7, FHIR, CCD, ICD-10, CPT, LOINC, SNOMED and RxNorm to prepare standardized and analytics-ready datasets. Build high-quality data foundations for predictive analytics use cases such as readmission risk, risk stratification and care gaps. Partner with Data Architects and data science teams to prepare curated datasets and features required for machine learning and predictive models. Implement data quality checks, reconciliation, exception handling, monitoring and logging to ensure reliable data pipelines. Apply data governance, lineage, access controls and HIPAA/PHI security requirements across Databricks, Snowflake and the broader data ecosystem. Optimize Spark, SQL, Databricks and Snowflake workloads for performance, scalability and cost. Coordinate with offshore engineers on requirements, development, testing and issue resolution, while providing regular delivery updates to client and project stakeholders. Troubleshoot pipeline and data issues, identify root causes and support timely resolution across development and production environments. Required Skills &amp; Experience Experience in data engineering, with strong exposure to healthcare and clinical data. Good understanding of healthcare clinical data and standards including HL7, FHIR, CCD, ICD-10, CPT, LOINC, SNOMED and RxNorm. Strong hands-on experience with Databricks, Spark/PySpark, SQL, Delta Lake, Unity Catalog and Databricks Workflows. Strong working experience with Snowflake, including data loading, transformation, data modeling, performance optimization and security/access controls. Experience building ETL/ELT pipelines and implementing Lakehouse and Medallion architectures. Experience integrating and moving data across Databricks, Snowflake and cloud-based data platforms. Experience preparing data for predictive analytics, advanced analytics or machine learning use cases. Good working knowledge of Azure or AWS cloud environments. Understanding of healthcare data security, HIPAA and PHI handling requirements. Strong SQL skills with experience in data transformation, performance optimization and data quality frameworks.. Apply Now Equal Opportunity Employer We are an equal opportunity employer. All aspects of employment including the decision to hire, promote, discipline, or discharge, will be based on merit, competence, performance, and business needs. We do not discriminate on the basis of race, color, religion, marital status, age, national origin, ancestry, physical or mental disability, medical condition, pregnancy, genetic information, gender, sexual orientation, gender identity or expression, national origin, citizenship/ immigration status, veteran status, or any other status protected under federal, state, or local law. Home | About | Adaptive AI | Industries | Consulting | Contact Us © 2004-2026, Machine Learning Technologies LLC, or its affiliates",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-machine-learning-technologies-llc-4491810011",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "databricks",
+        "spark",
+        "sql",
+        "aws",
+        "azure"
+      ],
+      "score": 60,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Mondrian Alpha",
+      "title": "Data Engineer / SWE - Hedge Fund - Data Platform - NY",
+      "location": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-swe-hedge-fund-data-platform-ny-at-mondrian-alpha-4490479521",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "description": "The Firm We're partnering with an established systematic hedge fund in New York, running a lean, high-performing team relative to its AUM. The firm is rebuilding its data function from the ground up and looking for an early, foundational hire to help shape it. The Role You'll work directly alongside the person leading this rebuild as their first engineering hire on the data side, effectively a left-hand engineer helping build the function from scratch rather than joining an established team. This is a greenfield opportunity: expect to have real input into architecture and tooling decisions rather than executing a pre-defined backlog. You'll need to be comfortable operating with a lot of autonomy and thinking out loud through problems rather than just picking up tickets. What You'll Be Doing: Help design and build a new data function from the ground up, working closely with the team lead Own technical decisions around data infrastructure, tooling, and architecture as the function scales Be a genuine thought partner, someone the lead can bounce ideas off of, not just execute assigned tasks Operate with significant autonomy in a small, high-trust team What We're Looking For 2-7 years of software/data engineering experience Strong Python, ideally applied to building ETL pipelines, onboarding and integrating vendor data feeds, and building internal tooling/APIs that other teams rely on, not just scripting one-off analysis Strong SQL (comfortable well beyond basic joins and indexing) Genuinely autonomous and opinionated, comfortable pushing back and thinking through problems out loud rather than just taking direction",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-swe-hedge-fund-data-platform-ny-at-mondrian-alpha-4490479521",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 2,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "python",
+        "sql"
+      ],
+      "score": 55,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "SIMARN Solutions",
+      "title": "Data Engineer",
+      "location": "Houston, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-engineer-at-simarn-solutions-4491287435",
+      "posted_at": "2026-11-16T00:00:00+00:00",
+      "description": "🚀 Data Engineer | Houston, TX (Hybrid/Onsite) 🚀 Are you a passionate Data Engineer with expertise in Databricks, AWS, and Database Modernization ? We're looking for a talented professional to join a growing team focused on building scalable, modern data platforms and driving enterprise database transformation initiatives. 📍 Location: Houston, TX 🕒 Experience: 5–9 Years Key Skills: ✅ Databricks ✅ Amazon S3 Buckets ✅ DevOps / Database DevOps ✅ SQL Server Assessment ✅ PostgreSQL/Aurora Migration ✅ Data Modeling ✅ Database Modernization What You'll Be Working On: 🔹 Transactional Database Engineering 🔹 SQL Server Performance Assessment &amp; Optimization 🔹 PostgreSQL/Aurora Migration Projects 🔹 Modern Data Platform Development with Databricks &amp; AWS 🔹 Lakehouse/Medallion Architecture Implementation 🔹 CI/CD, Terraform, and Automated Release Processes 🔹 Data Architecture &amp; Integration Solutions Preferred Experience: ✔️ Databricks, Amazon S3, Data Catalogs, Analytical Data Products ✔️ Domain-Oriented Architecture ✔️ API-Based Data Access &amp; Event-Driven Integration ✔️ Data Contracts &amp; Modern Data Architecture Patterns ✔️ Experience in Energy, Trading, Financial Services, Retail, or other Data-Intensive Environments This is an excellent opportunity to work on large-scale cloud and database modernization initiatives with cutting-edge technologies. 📩 Interested candidates can share their updated resume with me or connect directly via LinkedIn.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-engineer-at-simarn-solutions-4491287435",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "databricks",
+        "sql",
+        "aws"
+      ],
+      "score": 50,
+      "directness": 35
+    }
+  ]
+}

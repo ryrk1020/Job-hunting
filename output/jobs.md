@@ -1,17 +1,25 @@
-# Latest Jobs (11)
+# Latest Jobs (19)
 
-_Generated 2026-11-18 15:02 UTC_
+_Generated 2026-11-19 15:12 UTC_
 
 | # | Score | Posted | Source | Company | Title | Location | Link |
 |---|-------|--------|--------|---------|-------|----------|------|
-| 1 | 130 | 2026-11-18 | linkedin | IBM | Data Engineer-Business Intelligence | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-business-intelligence-at-ibm-4490879624) |
-| 2 | 120 | 2026-11-17 | linkedin | IBM | Data Engineer-Data Integration | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-data-integration-at-ibm-4490812637) |
-| 3 | 85 | 2026-11-18 | linkedin | Aditi Consulting | AI Data Engineer | Redmond, WA | [apply](https://www.linkedin.com/jobs/view/ai-data-engineer-at-aditi-consulting-4492039186) |
-| 4 | 80 | 2026-11-18 | linkedin | IBM | Data Engineer-Business Intelligence | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-business-intelligence-at-ibm-4490892011) |
-| 5 | 75 | 2026-11-18 | linkedin | Joblet-AI | Data Engineer (Remote) | United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-remote-at-joblet-ai-4491849093) |
-| 6 | 60 | 2026-11-16 | linkedin | Ledgent Technology | Data Analyst | The Woodlands, TX | [apply](https://www.linkedin.com/jobs/view/data-analyst-at-ledgent-technology-4489783089) |
-| 7 | 60 | 2026-11-18 | linkedin | Daikin Comfort | Analyst Data | Waller, TX | [apply](https://www.linkedin.com/jobs/view/analyst-data-at-daikin-comfort-4483661889) |
-| 8 | 60 | 2026-11-16 | linkedin | MACHINE LEARNING TECHNOLOGIES LLC | Data Engineer | Atlanta, GA | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-machine-learning-technologies-llc-4491120030) |
-| 9 | 55 | 2026-11-16 | linkedin | AAA Auto Club Enterprises | Data Scientist 1 | Coppell, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-1-at-aaa-auto-club-enterprises-4490926377) |
-| 10 | 55 | 2026-11-16 | linkedin | IBM | Data Scientist-Artificial Intelligence | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-scientist-artificial-intelligence-at-ibm-4489798498) |
-| 11 | 55 | 2026-11-16 | linkedin | Bank OZK | Data Engineer, Risk Management | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-risk-management-at-bank-ozk-4490104019) |
+| 1 | 125 | 2026-11-19 | linkedin | SCP Health | Business Data Analyst I | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/business-data-analyst-i-at-scp-health-4492286604) |
+| 2 | 110 | 2026-11-17 | linkedin | IBM | Data Engineer-Data Modeling | Dallas, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-data-modeling-at-ibm-4490816389) |
+| 3 | 85 | 2026-11-13 | linkedin | Lockheed Martin | Global Supply Chain Data Scientist | Arlington, TX | [apply](https://www.linkedin.com/jobs/view/global-supply-chain-data-scientist-at-lockheed-martin-4488984337) |
+| 4 | 105 | 2026-11-19 | linkedin | Fortune Jobs AI | Data Engineer jobs in New York (72) | Buffalo-Niagara Falls Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-jobs-in-new-york-72-at-fortune-jobs-ai-4491350816) |
+| 5 | 100 | 2026-11-19 | linkedin | Emonics LLC | Data Engineer – Entry Level | Burlington, VT | [apply](https://www.linkedin.com/jobs/view/data-engineer-%E2%80%93-entry-level-at-emonics-llc-4491862744) |
+| 6 | 85 | 2026-11-17 | linkedin | Baker Tilly US | Associate Data Engineer | Chicago, IL | [apply](https://www.linkedin.com/jobs/view/associate-data-engineer-at-baker-tilly-us-4481862963) |
+| 7 | 70 | 2026-11-18 | linkedin | IBM | Data Engineer-Data Integration | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-data-integration-at-ibm-4490878641) |
+| 8 | 70 | 2026-11-18 | linkedin | IBM | Data Engineer-Data Platforms | Austin, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-data-platforms-at-ibm-4490879622) |
+| 9 | 70 | 2026-11-18 | linkedin | Fortune Jobs AI | Data Analyst jobs in Austin, TX (10) | Austin, Texas Metropolitan Area | [apply](https://www.linkedin.com/jobs/view/data-analyst-jobs-in-austin-tx-10-at-fortune-jobs-ai-4491362220) |
+| 10 | 70 | 2026-11-18 | linkedin | IBM | Data Engineer-Data Platforms-Google - 5 | New York, United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-data-platforms-google-5-at-ibm-4473681537) |
+| 11 | 70 | 2026-11-18 | linkedin | IBM | Data Engineer-Data Integration | San Francisco, CA | [apply](https://www.linkedin.com/jobs/view/data-engineer-data-integration-at-ibm-4490885281) |
+| 12 | 70 | 2026-11-18 | linkedin | Fortune Jobs AI | Data Engineer jobs in Atlanta, GA (13) | Atlanta, GA | [apply](https://www.linkedin.com/jobs/view/data-engineer-jobs-in-atlanta-ga-13-at-fortune-jobs-ai-4491360258) |
+| 13 | 70 | 2026-11-18 | linkedin | MACHINE LEARNING TECHNOLOGIES LLC | Data Engineer | Chicago, IL | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-machine-learning-technologies-llc-4492122802) |
+| 14 | 70 | 2026-11-18 | linkedin | Fortune Jobs AI | Data Engineer jobs in Pennsylvania (62) | Greater Harrisburg Area | [apply](https://www.linkedin.com/jobs/view/data-engineer-jobs-in-pennsylvania-62-at-fortune-jobs-ai-4491351732) |
+| 15 | 65 | 2026-11-17 | linkedin | Yes Energy | Data Engineer II | Boulder, CO | [apply](https://www.linkedin.com/jobs/view/data-engineer-ii-at-yes-energy-4491734620) |
+| 16 | 60 | 2026-11-17 | linkedin | IBM | Data Engineer-Data Platforms-Google - 3 | New York, United States | [apply](https://www.linkedin.com/jobs/view/data-engineer-data-platforms-google-3-at-ibm-4473675833) |
+| 17 | 60 | 2026-11-17 | linkedin | MACHINE LEARNING TECHNOLOGIES LLC | Data Engineer | Jersey City, NJ | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-machine-learning-technologies-llc-4491810011) |
+| 18 | 55 | 2026-11-17 | linkedin | Mondrian Alpha | Data Engineer / SWE - Hedge Fund - Data Platform - NY | New York, NY | [apply](https://www.linkedin.com/jobs/view/data-engineer-swe-hedge-fund-data-platform-ny-at-mondrian-alpha-4490479521) |
+| 19 | 50 | 2026-11-16 | linkedin | SIMARN Solutions | Data Engineer | Houston, TX | [apply](https://www.linkedin.com/jobs/view/data-engineer-at-simarn-solutions-4491287435) |
