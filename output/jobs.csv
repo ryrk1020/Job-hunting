@@ -1,3 +1,4 @@
 score,directness,posted_at,source,company,title,location,url,salary_min,salary_max,required_years,tech_tags,matched_groups,preferred_location,alt_sources
-90,100,2026-11-20T19:21:37+00:00,greenhouse,airbnb,Data Engineer Tech Foundations,US - Remote,https://careers.airbnb.com/positions/8396777?gh_jid=8396777,,,3,"spark,python,sql",data,False,
-80,35,2026-11-19T00:00:00+00:00,linkedin,TikTok,Data Engineer Graduate (Data Platform Global Live) - 2027 Start,"San Jose, CA",https://www.linkedin.com/jobs/view/data-engineer-graduate-data-platform-global-live-2027-start-at-tiktok-4457689389,,,0,"python,sql",data,False,
+80,35,2026-11-19T00:00:00+00:00,linkedin,Provn,Fabric Data Engineer II,United States,https://www.linkedin.com/jobs/view/fabric-data-engineer-ii-at-provn-4492159669,92000,116000,3,"databricks,spark,kafka,power bi,sql,azure",data,False,
+40,35,2026-11-16T00:00:00+00:00,linkedin,IBM,Data Scientist-Advanced Analytics,"Houston, TX",https://www.linkedin.com/jobs/view/data-scientist-advanced-analytics-at-ibm-4490109326,,,0,"snowflake,python,sql,aws",data,False,
+30,35,2026-11-17T00:00:00+00:00,linkedin,Cognizant,Cloud Data Migration Engineer,"Des Moines, IA",https://www.linkedin.com/jobs/view/cloud-data-migration-engineer-at-cognizant-4491183652,105000,117000,0,"spark,redshift,sql,aws",data,False,
