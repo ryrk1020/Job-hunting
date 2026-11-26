@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-11-26T16:15:22.559694+00:00",
+  "count": 3,
+  "jobs": [
+    {
+      "source": "linkedin",
+      "company": "Avance Consulting",
+      "title": "Data Modeler with Snowflake",
+      "location": "Richardson, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-modeler-with-snowflake-at-avance-consulting-4493798317",
+      "posted_at": "2026-11-24T00:00:00+00:00",
+      "description": "Job Title: Data Modeler with Snowflake Job Location: Raleigh, North Carolina | Richardson, Texas | Indianapolis, Indiana | Hartford, Connecticut | Chicago, Illinois Job Type: Permanent Job Description ⦁ Contribute to the requirements elicitation process by documenting assigned parts of business requirements, in line with guidance provided ⦁ Facilitate software application design discussions, and document design decisions to guide the technical team towards building software solutions ⦁ Participate in coding and integrate new features or updates into existing applications, with a focus on maintaining system stability ⦁ Conduct code reviews, do changes to the codebase and maintain code repositories ⦁ Implement test strategies, analyse results, and coordinate bug fixes to uphold the software quality standards ⦁ Develop user training programs, documentation, and support frameworks to ensure a smooth transition to new software applications ⦁ Actively participate in resolving production issues and recommend preventive strategies to enhance system reliability ⦁ Maintain detailed records of code, testing techniques, and support activities to enrich the knowledge base and assist other similar projects Your contribution to the team: ⦁ A collaborative spirit and excellent communication skills. ⦁ The ability to handle end to end SDLC phases from requirement gathering to implementation. ⦁ A knack for translating complex requirements into actionable development tasks. ⦁ A passion for design and hands-on coding experience ⦁ A proactive approach to testing, troubleshooting, and refining our applications. ⦁ The ability to work with cross-functional teams and do software integration. Required Skill and Experience Experience in Data Modelling Experience in Snowflake SQL Experience in Python-based data engineering Preferred Skill and Experience Experience in Data Governance Experience in Power BI Experience in DWH &amp; cloud based architecture Experience in ELT/orchestration tools (dbt)",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-modeler-with-snowflake-at-avance-consulting-4493798317",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": true,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "dbt",
+        "power bi",
+        "python",
+        "sql"
+      ],
+      "score": 95,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "GI Alliance",
+      "title": "Data Integration Engineer (33252)",
+      "location": "Southlake, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-integration-engineer-33252-at-gi-alliance-4494785440",
+      "posted_at": "2026-11-25T00:00:00+00:00",
+      "description": "Position Description The Data Integration Engineer designs, builds, and supports the integrations that bring data from The Specialty Alliance’s enterprise financial and business systems—including NetSuite, Workday, and Coupa—into the landing zone of the Azure/Snowflake analytical environment. The role builds API-based, file-based, and other connector-based integrations that are secure, reliable, monitored, and repeatable. The role owns ingestion from source to landing: authentication, extraction, incremental loading, schema handling, error handling, logging, and delivery of raw data into Azure storage and Snowflake landing/raw schemas with complete audit metadata. Downstream normalization, modeling, and semantic-layer work is performed by data engineers and analytics engineers, who depend on this role for complete, timely, and traceable source data. Data from these systems supports financial reporting, revenue recognition, general ledger and close reconciliation, procurement and spend analytics, and workforce analytics. Integrations must meet the control, traceability, and access standards expected for financial and HR data. Key Responsibilities Integration design and build Build and maintain integrations from NetSuite, Workday, Coupa, and other financial and business systems into the Azure/Snowflake landing zone. Use the appropriate pattern for each source: REST/SOAP APIs, vendor reporting services, database or query interfaces, SFTP/flat-file exports, managed connectors, or event-driven feeds. Implement full and incremental extraction, including change detection, watermarks, pagination, rate-limit handling, retries, and historical backfills. Land data in Azure Data Lake Storage and Snowflake raw/landing schemas in source-faithful form, with load metadata (source, extract time, batch ID, record counts, file hashes). Configure Snowflake ingestion (external stages, storage integrations, COPY INTO, Snowpipe) in line with platform standards. Document each integration: source objects, fields, extraction logic, schedules, dependencies, and known limitations. Reliability, monitoring, and support Build orchestration, alerting, and logging so failures, late data, schema changes, and volume anomalies are detected quickly. Implement completeness checks and source-to-landing reconciliation (record counts, control totals) for financial and HR data. Provide production support, troubleshoot failures, perform root-cause analysis, and maintain runbooks. Meet data-delivery schedules tied to financial close and reporting calendars. Security and controls Manage credentials, OAuth clients, integration users, and certificates through Azure Key Vault and approved secret-management practices. Apply least-privilege access to source systems and landing zones in partnership with Security and system owners. Support classification and protection of sensitive data, including employee PII, compensation, banking, and vendor data. Follow change-management, code review, and CI/CD practices; keep integration code under version control. Retain extract evidence and lineage needed for audit and close support. Collaboration Work with NetSuite, Workday, and Coupa system owners and IT Enterprise Applications to understand data structures, custom fields, configuration changes, and release schedules. Coordinate with vendors on API access, limits, and support issues. Partner with the Enterprise Data Architect and data engineers on landing standards, naming, and handoff to modeled layers. Assess new source systems, including systems acquired through practice onboarding or M&amp;A, and estimate integration effort. Qualifications Required Skills and Competencies Integration engineering: Designs reliable full and incremental extraction with retries, idempotent loads, and backfill capability. Programming: Strong Python and SQL; comfortable with JSON, XML, and CSV data structures. Data handling: Manages schema changes, nested data, data types, and late-arriving records. Operational rigor: Builds monitoring, logging, and alerting as part of every integration. Security awareness: Handles credentials and sensitive financial and HR data appropriately. Documentation: Produces clear integration specifications and runbooks. Collaboration: Works effectively with system owners, vendors, and downstream engineering teams. Required Technologies Python (requests, data-processing libraries) and SQL. Azure data services: Azure Data Factory, Azure Data Lake Storage Gen2, Azure Key Vault; Azure Functions or Logic Apps. Snowflake: stages, storage integrations, COPY INTO, Snowpipe, roles and grants. REST/SOAP APIs, OAuth 2.0, JSON/XML, SFTP. Git and CI/CD (Azure DevOps or GitHub). Desired Skills, Experience, And Technologies NetSuite integration: SuiteTalk REST/SOAP web services, SuiteQL, saved searches, SuiteAnalytics Connect. Workday integration: Workday web services (SOAP/REST), Reports-as-a-Service (RaaS), integration system users and security groups. Coupa integration: Coupa REST API, scheduled flat-file exports, and Coupa data objects (requisitions, POs, invoices, suppliers). Managed ingestion tools such as Fivetran, Airbyte, Matillion, or Informatica. Orchestration and transformation tools such as Airflow, dbt, or Snowflake Tasks/Streams. Infrastructure as code (Terraform or Bicep) and Snowflake environment automation. Experience with healthcare, MSO, or multi-entity organizations, including practice-management or revenue-cycle source systems. Understanding of financial data (GL, subledgers, chart of accounts, AP, procurement) and HR data concepts. Experience supporting SOX or audit-sensitive data flows. Certifications: SnowPro Core or Data Engineer; Microsoft Azure Data Engineer Associate. Employment Notes The Specialty Alliance is an equal opportunity employer. This description reflects the principal responsibilities of the role and is not an exhaustive list; duties may change based on organizational needs.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-integration-engineer-33252-at-gi-alliance-4494785440",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "snowflake",
+        "airflow",
+        "dbt",
+        "informatica",
+        "python",
+        "sql",
+        "azure"
+      ],
+      "score": 80,
+      "directness": 35
+    },
+    {
+      "source": "linkedin",
+      "company": "Accenture",
+      "title": "Data and Reporting Analyst",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/data-and-reporting-analyst-at-accenture-4494767964",
+      "posted_at": "2026-11-25T00:00:00+00:00",
+      "description": "The Data and Reporting Senior Analyst: Key Responsibilities: Work with supply chain business stakeholders to identify opportunities for leveraging company data to drive business solutions Assess the completeness and accuracy of new data sources and data processing techniques. Gather business requirements and determine most effective and efficient reporting platform Design and develop metrics and reports, dashboards and analyzes to drive key business decisions in the supply chain space Conduct large scale data analysis and modeling to derive actionable insights Model data and build comprehensive dashboards that evaluate business effectiveness and impact. Further improve and optimize dashboard user experience. Develop processes and tools to monitor and analyze model performance and data accuracy Automate manual execution processes Job Requirements: Will work remotely in Austin, TX. Basic Qualifications: Minimum 2 years of experience in Supply Chain/Data and Analytics Minimum 3 years of experience using SQL and data visualization tools such as PLX, Data Studio, or Tableau Preferred Qualifications: Bachelor's or higher degree in a quantitative or analytical field Proficiency in Python, R, SPSS, Minitab Understanding of end to end supply chain management and Product Lifecycle Management Ability to analyze an enormous amount of complex data, and deliver meaningful conclusions that can be turned into actionable decisions Excel/Spreadsheets Strong design skills in Interaction (User – Reports like navigation, drills, sharing etc.) Strong visualization experience – charts, bars, images, dynamic reports etc. Excellent Oral/Written Communication and Stakeholder management Skills Excellent analytical and problem solving skills Self driven, ability to work in an unstructured environment with minimal supervision Experience using statistical computer languages to manipulate data and draw insights from large data sets. Experience working with and creating data architectures. Knowledge and experience in data modeling: trend analysis, linear interpolation, etc. Experience using ETL tools and standard query languages Compensation at Accenture varies depending on a wide array of factors, which may include but are not limited to the specific office location, role, skill set, and level of experience. As required by local law, Accenture provides a reasonable range of compensation for roles that may be hired as set forth below. We anticipate this job posting will be posted until 01/04/2027. Accenture offers a market competitive suite of benefits including medical, dental, vision, life, and long-term disability coverage, a 401(k) plan, bonus opportunities, paid holidays, and paid time off. See more information on our benefits here: https://www.accenture.com/us-en/careers/local/benefits Role Location Hourly Salary Range California $26.39 to $72.31 Colorado $26.39 to $62.45 Connecticut $26.39 to $62.45 District of Columbia $28.08 to $66.49 Illinois $24.42 to $62.45 Maine $22.45 to $53.22 Maryland $26.39 to $62.45 Massachusetts $26.39 to $66.49 Minnesota $26.39 to $62.45 New York $24.42 to $72.31 New Jersey $28.08 to $72.31 Ohio $24.42 to $57.84 Virginia $24.42 to $66.49 Washington $28.08 to $66.49 Requesting an Accommodation Accenture is committed to providing equal employment opportunities for persons with disabilities or religious observances, including reasonable accommodation when needed. If you are hired by Accenture and require accommodation to perform the essential functions of your role, you will be asked to participate in our reasonable accommodation process. Accommodations made to facilitate the recruiting process are not a guarantee of future or continued accommodations once hired. If you would like to be considered for employment opportunities with Accenture and have accommodation needs such as for a disability or religious observance, please call us toll free at 1 (877) 889-9009 or send us an email or speak with your recruiter. Equal Employment Opportunity Statement We believe that no one should be discriminated against because of their differences. All employment decisions shall be made without regard to age, race, creed, color, religion, sex, national origin, ancestry, disability status, veteran status, sexual orientation, gender identity or expression, genetic information, marital status, citizenship status or any other basis as protected by federal, state, or local law. Our rich diversity makes us more innovative, more competitive, and more creative, which helps us better serve our clients and our communities. For details, view a copy of the Accenture Equal Opportunity Statement Accenture is an EEO and Affirmative Action Employer of Veterans/Individuals with Disabilities. Accenture is committed to providing veteran employment opportunities to our service men and women. Other Employment Statements Applicants for employment in the US must have work authorization that does not now or in the future require sponsorship of a visa for employment authorization in the United States. Candidates who are currently employed by a client of Accenture or an affiliated Accenture business may not be eligible for consideration. Job candidates will not be obligated to disclose sealed or expunged records of conviction or arrest as part of the hiring process. Further, at Accenture a criminal conviction history is not an absolute bar to employment. The Company will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. Additionally, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the Company's legal duty to furnish information. California requires additional notifications for applicants and employees. If you are a California resident, live in or plan to work from Los Angeles County upon being hired for this position, please click here for additional important information. Please read Accenture’s Recruiting and Hiring Statement for more information on how we process your data during the Recruiting and Hiring process.",
+      "remote": false,
+      "raw_id": "https://www.linkedin.com/jobs/view/data-and-reporting-analyst-at-accenture-4494767964",
+      "extra": {},
+      "matched_groups": [
+        "data"
+      ],
+      "preferred_location": false,
+      "required_years": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "tech_tags": [
+        "tableau",
+        "python",
+        "sql"
+      ],
+      "score": 50,
+      "directness": 35
+    }
+  ]
+}
